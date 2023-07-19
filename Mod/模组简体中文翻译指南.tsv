@@ -28,6 +28,13 @@ Experience Level	经验等级
 Experience Point/EXP/XP	经验值
 Experience	经验
 Oxygen/Air	氧气值
+Hunger	饥饿
+Hunger Value	饥饿值
+Saturation	饱和度
+Exhaustion	消耗度
+Health	生命
+Armor	护甲值
+Armor Toughness	盔甲韧性
 Ore Dictionary(OreDict)	矿物词典
 Coordinates	坐标
 Tag	标签
@@ -50,6 +57,7 @@ Off Hand	副手
 Block	方块
 Item	物品
 Tools	工具
+Armor	盔甲
 GUI/Gui	GUI
 HUD	HUD
 Creative Inventory	创造模式物品栏
@@ -328,6 +336,9 @@ Control Seal	操控印记
 Warp	扭曲
 Cast	铸模
 Pattern	模具
+Sand Cast	沙子铸模
+Red Sand Cast	红沙铸模
+Gold Cast	金质铸模
 Repair Kit	修补件
 Pick	镐头
 Small Axe Head	小型斧刃
@@ -374,6 +385,9 @@ Crossbow	弩
 Longbow	长弓
 Flint And Brick	焦砖打火石
 Staff	手杖
+Plate	镶板
+Traveler	旅行者
+Slimeskull	黏液头颅
 Crystalshot	水晶镞
 Slime Dirt	黏液泥土
 Slime Grass	黏液草方块
