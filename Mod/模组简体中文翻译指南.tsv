@@ -52,8 +52,29 @@ Actionbar	动作栏
 Client	客户端
 Server	服务端，服务器
 Realm	Realm/领域服
+Menu Screen	菜单屏幕
 Main Hand	主手
 Off Hand	副手
+Building Blocks	建筑方块
+Decoration Blocks	装饰性方块
+Redstone	红石
+Transportation	交通运输
+Miscellaneous	杂项
+Foodstuffs	食物
+Tools	工具
+Combat	战斗用品
+Brewing	酿造
+Saved Hotbars	已保存的快捷栏
+Survival Inventory	生存模式物品栏
+Colored Blocks	染色方块
+Natural Blocks	自然方块
+Functional Blocks	功能方块
+Redstone Blocks	红石方块
+Tools & Utilities	工具与实用物品
+Food & Drinks	食品与饮品
+Ingredients	原材料
+Spawn Eggs	刷怪蛋
+Operator Utilities	管理员用品
 Block	方块
 Item	物品
 Tools	工具
@@ -121,6 +142,7 @@ Data Pack	数据包
 Texture Pack	纹理包
 Loot table	战利品表
 Splash	闪烁标语
+Texture	纹理
 Add	添加
 Delete	删除
 Remove	移除
