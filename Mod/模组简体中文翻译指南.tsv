@@ -124,8 +124,8 @@ Mk/mk	型
 Mode	模式	
 Input	输入，原料	
 Output	输出，产物	
-Redstone Signal	红石信号
-Attributes	属性                                                                       
+Redstone Signal	红石信号	
+Attributes	属性	
 Modifier	修饰符	TiC系
 Rotational Force	旋转力	Create系
 Energy	电量	IC系，电
