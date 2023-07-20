@@ -8,10 +8,10 @@ Shapeless Recipe	无序配方
 Waterlogging	含水	
 Recipe	配方	
 Crafting	合成	
-Smelt（概括）	烧炼	
-Smelt（矿物）	冶炼	
-Smelt（普通）	烧制	
-Smelt（食物）	烹饪	
+Smelt	烧炼	概括
+Smelt	冶炼	矿物
+Smelt	烧制	普通
+Smelt	烹饪	食物
 Breaking/Digging/Mining/Punching	挖掘	
 Digging Speed	挖掘速度	
 Breaking	破坏	
@@ -41,7 +41,7 @@ Tag	标签
 Named Binary Tag/NBT	NBT/NBT格式	
 Data Values	数据值	
 Target Selector	目标选择器	
-Feature（地形特征）	地物	
+Feature	地物	地形特征
 Advancement	进度	
 Achievement	成就	
 Particle	粒子	
@@ -101,12 +101,12 @@ Dimension	维度
 Biome	生物群系	
 Chunk	区块	
 Void	虚空	
-Inventory（玩家，生物）	物品栏	
-Inventory（机器）	物品缓存	
+Inventory	物品栏	玩家，生物
+Inventory	物品缓存	机器
 Potion	药水	
 Effect	效果	
-Enchantment（名词）	魔咒	
-Enchantment（Enchant的名词）	附魔	
+Enchantment	魔咒	名词
+Enchantment	附魔	Enchant的名词
 Enchantability	可附魔性	
 Level	等级	
 Fuel	燃料	
@@ -125,18 +125,18 @@ Mode	模式
 Input	输入，原料	
 Output	输出，产物	
 Redstone Signal	红石信号	
-Modifier（TiC系）	强化	
-Rotational Force（Create）	旋转力	
-Energy（IC系，电）	电量	
+Modifier	强化	TiC系
+Rotational Force	旋转力	Create系
+Energy	电量	IC系，电
 Energy	能量	
-Tick（名词）	刻	
-Stack（量词）	组	
-Stack（动词）	堆叠	
+Tick	刻	名词
+Stack	组	量词
+Stack	堆叠	动词
 Bug	漏洞	
 Blockstate	方块状态	
 TileEntity/Block Entity	(?)TileEntity/方块实体值	
 Tooltip	提示文本	
-Forge Energy/Forge Unit/Forge Power（任何指代 `net.minecraftforge.energy` 的名称）	FE能量（注：没有空格）	
+Forge Energy/Forge Unit/Forge Power（任何指代 `net.minecraftforge.energy` 的名称）	FE能量	英文单位与汉字之间没有空格
 Resource Pack	资源包	
 Data Pack	数据包	
 Texture Pack	纹理包	
@@ -150,10 +150,10 @@ Click	点击
 Right Click	右击	
 Activate/Active	激活	
 Deactivate/Inactive	禁用	
-Enable（选项）	启用	
-Disable（选项）	禁用	
-Enable（其它）	开启	
-Disable（其它）	关闭	
+Enable	启用	
+Disable	禁用	选项
+Enable	开启	其它
+Disable	关闭	其它
 Toggle	切换，激活	
 Allow	允许	
 True	是	
@@ -164,8 +164,8 @@ Back	返回
 Return	返回	
 Pick Up	拾取	
 Configure	配置	
-Wear（头盔、帽子）	戴	
-Wear（其它装备）	穿	
+Wear	戴	头盔、帽子
+Wear	穿	其它装备
 Done	完成	
 Preset	预设	
 Black	黑色	
@@ -188,7 +188,7 @@ Warped	诡异
 Warped <>	诡异木<>	
 Crimson	绯红	
 Crimson <>	绯红木<>	
-Lava	熔岩（在1.10中译名已经改为“熔岩”而不是“岩浆”）	
+Lava	熔岩	在Minecraft 1.10中译名已经改为“熔岩”而不是“岩浆”
 Steam	蒸汽	
 Ender	末影	
 Portable	便携	
@@ -205,7 +205,7 @@ Fence	栅栏
 Fence Gate	栅栏门	
 Brick	砖，砖块	
 Smooth	平滑	
-Chiseled	雕纹（在1.19.3中译名已经改为“雕纹”而不是“錾质”）	
+Chiseled	雕纹	在Minecraft 1.19.3中译名已经改为“雕纹”而不是“錾质”
 Block	块	
 Ingot	锭	
 Ore	矿石	
@@ -224,8 +224,8 @@ Centrifuged	离心
 Tiny Pile of	小撮	
 Small Pile of	小堆	
 Pile of	一堆	
-Cell/Unit（流体容器）	单元	
-Cell（核燃料）	棒	
+Cell/Unit	单元	流体容器
+Cell	棒	核燃料
 Bucket	桶	
 Plate	板	
 Gear	齿轮	
@@ -271,10 +271,10 @@ Sense/Scythe	镰刀
 Plow	除雪锹	
 Plunger	搋	
 Rolling Pin	擀面杖	
-Drill（用电工具）	电钻	
+Drill	电钻	用电工具
 Chainsaw	电锯	
 JackHammer	凿岩锤	
-Drill（物品，不用电工具）	钻头	
+Drill	钻头	物品，不用电工具
 Ring	戒指，戒，指环	
 Seeds	种子	
 Shears	剪刀	
@@ -282,17 +282,17 @@ Casing/Item Casing/Hull	外壳
 Circuit Board/Board	电路板	
 Circuit	电路	
 Orb	球，宝珠	
-Machine（后缀）	机	
-Machine（概括）	机械	
-Generator（机械，产电）	发电机	
-Generator（机械，产其它能量）	发生器	
+Machine	机	后缀
+Machine	机械	概括
+Generator	发电机	机械，产电
+Generator	发生器	机械，产其它能量
 Turbine	涡轮	
 Motor	马达	
 Crystal	水晶	
 Coil	线圈	
-Tank（储存流体容器，物品或方块）	储罐	
-Tank（机器内部缓存）	流体/气体/液体缓存（视语境）	
-Tank（其它意思，如鱼缸，或者能开炮的那种等）	<根据语境>	
+Tank	储罐	储存流体容器，物品或方块
+Tank	流体/气体/液体缓存（视语境）	机器内部缓存
+Tank	<根据语境>	其它意思，如鱼缸，或者能开炮的那种等
 Ritual	仪式	
 Arrow	箭	
 Arrow of <>	<>之箭	
