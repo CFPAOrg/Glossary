@@ -1,403 +1,403 @@
-Term	Translation
-Shaped	有序
-Shaped Crafting	有序合成
-Shaped Recipe	有序配方
-Shapeless	无序
-Shapeless Crafting	无序合成
-Shapeless Recipe	无序配方
-Waterlogging	含水
-Recipe	配方
-Crafting	合成
-Smelt（概括）	烧炼
-Smelt（矿物）	冶炼
-Smelt（普通）	烧制
-Smelt（食物）	烹饪
-Breaking/Digging/Mining/Punching	挖掘
-Digging Speed	挖掘速度
-Breaking	破坏
-Breeding	繁殖
-Brewing	酿造
-Farming	耕种
-Blocking	防御
-Dual wield	双持
-Sneaking	潜行
-Sprinting	疾跑
-Item durability	物品耐久
-Durability	耐久/耐久度
-Experience Level	经验等级
-Experience Point/EXP/XP	经验值
-Experience	经验
-Oxygen/Air	氧气值
-Hunger	饥饿
-Hunger Value	饥饿值
-Saturation	饱和度
-Exhaustion	消耗度
-Health	生命
-Armor	护甲值
-Armor Toughness	盔甲韧性
-Ore Dictionary(OreDict)	矿物词典
-Coordinates	坐标
-Tag	标签
-Named Binary Tag/NBT	NBT/NBT格式
-Data Values	数据值
-Target Selector	目标选择器
-Feature（地形特征）	地物
-Advancement	进度
-Achievement	成就
-Particle	粒子
-Glint	光效
-Command	命令
-Toast	弹窗
-Actionbar	动作栏
-Client	客户端
-Server	服务端，服务器
-Realm	Realm/领域服
-Menu Screen	菜单屏幕
-Main Hand	主手
-Off Hand	副手
-Building Blocks	建筑方块
-Decoration Blocks	装饰性方块
-Redstone	红石
-Transportation	交通运输
-Miscellaneous	杂项
-Foodstuffs	食物
-Tools	工具
-Combat	战斗用品
-Brewing	酿造
-Saved Hotbars	已保存的快捷栏
-Survival Inventory	生存模式物品栏
-Colored Blocks	染色方块
-Natural Blocks	自然方块
-Functional Blocks	功能方块
-Redstone Blocks	红石方块
-Tools & Utilities	工具与实用物品
-Food & Drinks	食品与饮品
-Ingredients	原材料
-Spawn Eggs	刷怪蛋
-Operator Utilities	管理员用品
-Block	方块
-Item	物品
-Tools	工具
-Armor	盔甲
-GUI/Gui	GUI
-HUD	HUD
-Creative Inventory	创造模式物品栏
-Creative Tab	创造标签页
-Mob	生物
-Monster	怪物
-Entity	实体
-Player	玩家
-Machine	机器
-Solid	固体
-Liquid	液体
-Gas	气体
-Fluid	流体
-Equipment	装备
-Spawn	生成
-Overworld	主世界
-Nether	下界
-End	末地
-Dimension	维度
-Biome	生物群系
-Chunk	区块
-Void	虚空
-Inventory（玩家，生物）	物品栏
-Inventory（机器）	物品缓存
-Potion	药水
-Effect	效果
-Enchantment（名词）	魔咒
-Enchantment（Enchant的名词）	附魔
-Enchantability	可附魔性
-Level	等级
-Fuel	燃料
-Damage value	损害值
-Current	电流
-Voltage	电压
-Bookmark	书签
-Slot	槽位
-Grid	网格
-Setting	设置
-Option	选项
-Debug screen	调试屏幕
-Config/Configuration	配置
-Mk	型
-Mode	模式
-Input	输入，原料
-Output	输出，产物
-Redstone Signal	红石信号
-Modifier（TiC系）	强化
-Rotational Force（Create）	旋转力
-Energy（IC系，电）	电量
-Energy	能量
-Tick（名词）	刻
-Stack（量词）	组
-Stack（动词）	堆叠
-Bug	漏洞
-Blockstate	方块状态
-TileEntity/Block Entity	(?)TileEntity/方块实体值
-Tooltip	提示文本
-Forge Energy/Forge Unit/Forge Power（任何指代 `net.minecraftforge.energy` 的名称）	FE能量（注：没有空格）
-Resource Pack	资源包
-Data Pack	数据包
-Texture Pack	纹理包
-Loot table	战利品表
-Splash	闪烁标语
-Texture	纹理
-Add	添加
-Delete	删除
-Remove	移除
-Click	点击
-Right Click	右击
-Activate/Active	激活
-Deactivate/Inactive	禁用
-Enable（选项）	启用
-Disable（选项）	禁用
-Enable（其它）	开启
-Disable（其它）	关闭
-Toggle	切换，激活
-Allow	允许
-True	是
-False	否
-Always	总是
-Only	仅
-Back	返回
-Return	返回
-Pick Up	拾取
-Configure	配置
-Wear（头盔、帽子）	戴
-Wear（其它装备）	穿
-Done	完成
-Preset	预设
-Black	黑色
-Red	红色
-Green	绿色
-Brown	棕色
-Blue	蓝色
-Purple	紫色
-Cyan	青色
-Light Gray	淡灰色
-Gray	灰色
-Pink	粉红色
-Lime	黄绿色
-Yellow	黄色
-Light Blue	淡蓝色
-Magenta	品红色
-Orange	橙色
-White	白色
-Warped	诡异
-Warped <>	诡异木<>
-Crimson	绯红
-Crimson <>	绯红木<>
-Lava	熔岩（在1.10中译名已经改为“熔岩”而不是“岩浆”）
-Steam	蒸汽
-Ender	末影
-Portable	便携
-Sapling	树苗
-Leaf	树叶
-Leaves	树叶
-Wood	木
-Wood Planks	木板
-Slab	台阶
-Stairs	楼梯
-Door	门
-Boat	船
-Fence	栅栏
-Fence Gate	栅栏门
-Brick	砖，砖块
-Smooth	平滑
-Chiseled	雕纹（在1.19.3中译名已经改为“雕纹”而不是“錾质”）
-Block	块
-Ingot	锭
-Ore	矿石
-Nugget	粒
-Shard	碎片
-Fragment	残片
-Cable	线缆
-Wire	导线
-Disc	唱片
-Chest	箱，箱子
-Dust	粉
-Purified	纯净的
-Crushed	粉碎的
-Impure	含杂
-Centrifuged	离心
-Tiny Pile of	小撮
-Small Pile of	小堆
-Pile of	一堆
-Cell/Unit（流体容器）	单元
-Cell（核燃料）	棒
-Bucket	桶
-Plate	板
-Gear	齿轮
-Coin	币
-Rune	符文
-Helmet	头盔
-Chestplate	胸甲
-Leggings	护腿
-Boots	靴子
-Cap	帽子
-Tunic	外套
-Pants	裤子
-Sword	剑
-Shovel/Spade	锹
-Pickaxe	镐
-Axe/Ax	斧
-Hoe	锄
-Saw	锯
-Bow	弓
-Wrench	扳手
-Hammer	锤
-Soft Hammer	软锤
-File	锉刀
-Crowbar	撬棍
-Screwdriver	螺丝刀
-Mortar	臼
-Chisel	凿
-Paxel	镐尖斧
-AIOT	全能工具/AIOT
-Broadsword	大剑
-Longsword	长剑
-Rapier	西洋剑
-Dagger	匕首
-Lumber Axe	伐木斧
-Mattock	鹤嘴锄
-Wire Cutter	剪线钳
-Scoop	捕蜂网
-Branch Cutter	剪枝工具
-Universal Spade	工兵铲
-Knife	刀
-Butchery Knife	屠刀
-Sense/Scythe	镰刀
-Plow	除雪锹
-Plunger	搋
-Rolling Pin	擀面杖
-Drill（用电工具）	电钻
-Chainsaw	电锯
-JackHammer	凿岩锤
-Drill（物品，不用电工具）	钻头
-Ring	戒指，戒，指环
-Seeds	种子
-Shears	剪刀
-Casing/Item Casing/Hull	外壳
-Circuit Board/Board	电路板
-Circuit	电路
-Orb	球，宝珠
-Machine（后缀）	机
-Machine（概括）	机械
-Generator（机械，产电）	发电机
-Generator（机械，产其它能量）	发生器
-Turbine	涡轮
-Motor	马达
-Crystal	水晶
-Coil	线圈
-Tank（储存流体容器，物品或方块）	储罐
-Tank（机器内部缓存）	流体/气体/液体缓存（视语境）
-Tank（其它意思，如鱼缸，或者能开炮的那种等）	<根据语境>
-Ritual	仪式
-Arrow	箭
-Arrow of <>	<>之箭
-Potion	药水
-Splash	喷溅型
-Lingering	滞留型
-Mod/MOD	Mod/模组
-Forge	Forge
-Fabric	Fabric
-Quilt	Quilt
-LiteLoader	LiteLoader
-Rift	Rift
-Add-on	附加包
-Creative	创造
-Basic	基础
-Hardened	硬化
-Reinforced	强化
-Resonant	谐振
-Augment	拓展组件
-Capacitor	电容
-Schematic	图纸
-Florb	流体球
-Servo	伺服器
-Satchel	背包
-Energy Cell	能量单元
-Machine Frame	机器框架
-Energy Cell Frame	能量单元框架
-Rockwool	石棉
-Sponge	海绵
-Strongbox	保险箱
-Workbench	工作台
-Invar	殷钢
-Electrum	琥珀金
-Redstone Flux	RF
-Aura	灵气
-Arcane	奥术
-Golem	傀儡
-Thaumium/Thaumic	神秘
-Thaumaturgy	神秘学
-Alchemy	炼金术
-Artifice	炼化学
-Golemancy	傀儡学
-Eldritch	邪术学
-Primal	元始
-Taint	腐化
-Aspect	要素
-Eldritch	邪术
-Cultist	血腥
-Node	节点
-Flux	咒波
-Amulet	护身符
-Ring	指环
-Belt	腰带
-Wand	法杖
-Scepter	权杖
-Staff	手杖
-Wand Focus	法杖核心
-Cap	杖端
-Rod	杖柄
-Staff Core	杖芯
-Seal	印记
-Control Seal	操控印记
-Warp	扭曲
-Cast	铸模
-Pattern	模具
-Sand Cast	沙子铸模
-Red Sand Cast	红沙铸模
-Gold Cast	金质铸模
-Repair Kit	修补件
-Pick	镐头
-Small Axe Head	小型斧刃
-Small Blade	小型剑刃
-Sign Head	牌板
-Bow Limb	弓臂
-Hammer Head	锤头
-Board Axe Head	板斧刃
-Board Blade	宽刃
-Tool Binding	绑定结
-Round Plate	圆板
-Large Plate	大板
-Bowstring	弓弦
-Tool Handle	工具手柄
-Tough Handle	坚韧手柄
-Bow Grip	弓把
-Blazing Blood	烈焰血
-Blood	血
-Earth Slime	黏液
-Sky Slime	碧空黏液
-Magma	岩浆
-Ender Slime	末影黏液
-Ichor	灵浆
-Sling	弹弓
-Piggybackpack	肩驮架
-Tinker Station	工匠站
-Crafting Station	工作站
-Tinker's Anvil	工匠砧
-Part Builder	部件制造台
-Modifier Worktable	强化调配台
-Part Chest	部件箱
-Tinker's Chest	工匠箱
-Cast Chest	铸模箱
-Pickaxe	镐
-Sledge Hammer	大锤
-Vein Hammer	矿脉锤
-Pickadze	凿石锹
+Term	Translation	Remark
+Shaped	有序	
+Shaped Crafting	有序合成	
+Shaped Recipe	有序配方	
+Shapeless	无序	
+Shapeless Crafting	无序合成	
+Shapeless Recipe	无序配方	
+Waterlogging	含水	
+Recipe	配方	
+Crafting	合成	
+Smelt（概括）	烧炼	
+Smelt（矿物）	冶炼	
+Smelt（普通）	烧制	
+Smelt（食物）	烹饪	
+Breaking/Digging/Mining/Punching	挖掘	
+Digging Speed	挖掘速度	
+Breaking	破坏	
+Breeding	繁殖	
+Brewing	酿造	
+Farming	耕种	
+Blocking	防御	
+Dual wield	双持	
+Sneaking	潜行	
+Sprinting	疾跑	
+Item durability	物品耐久	
+Durability	耐久/耐久度	
+Experience Level	经验等级	
+Experience Point/EXP/XP	经验值	
+Experience	经验	
+Oxygen/Air	氧气值	
+Hunger	饥饿	
+Hunger Value	饥饿值	
+Saturation	饱和度	
+Exhaustion	消耗度	
+Health	生命	
+Armor	护甲值	
+Armor Toughness	盔甲韧性	
+Ore Dictionary(OreDict)	矿物词典	
+Coordinates	坐标	
+Tag	标签	
+Named Binary Tag/NBT	NBT/NBT格式	
+Data Values	数据值	
+Target Selector	目标选择器	
+Feature（地形特征）	地物	
+Advancement	进度	
+Achievement	成就	
+Particle	粒子	
+Glint	光效	
+Command	命令	
+Toast	弹窗	
+Actionbar	动作栏	
+Client	客户端	
+Server	服务端，服务器	
+Realm	Realm/领域服	
+Menu Screen	菜单屏幕	
+Main Hand	主手	
+Off Hand	副手	
+Building Blocks	建筑方块	
+Decoration Blocks	装饰性方块	
+Redstone	红石	
+Transportation	交通运输	
+Miscellaneous	杂项	
+Foodstuffs	食物	
+Tools	工具	
+Combat	战斗用品	
+Brewing	酿造	
+Saved Hotbars	已保存的快捷栏	
+Survival Inventory	生存模式物品栏	
+Colored Blocks	染色方块	
+Natural Blocks	自然方块	
+Functional Blocks	功能方块	
+Redstone Blocks	红石方块	
+Tools & Utilities	工具与实用物品	
+Food & Drinks	食品与饮品	
+Ingredients	原材料	
+Spawn Eggs	刷怪蛋	
+Operator Utilities	管理员用品	
+Block	方块	
+Item	物品	
+Tools	工具	
+Armor	盔甲	
+GUI/Gui	GUI	
+HUD	HUD	
+Creative Inventory	创造模式物品栏	
+Creative Tab	创造标签页	
+Mob	生物	
+Monster	怪物	
+Entity	实体	
+Player	玩家	
+Machine	机器	
+Solid	固体	
+Liquid	液体	
+Gas	气体	
+Fluid	流体	
+Equipment	装备	
+Spawn	生成	
+Overworld	主世界	
+Nether	下界	
+End	末地	
+Dimension	维度	
+Biome	生物群系	
+Chunk	区块	
+Void	虚空	
+Inventory（玩家，生物）	物品栏	
+Inventory（机器）	物品缓存	
+Potion	药水	
+Effect	效果	
+Enchantment（名词）	魔咒	
+Enchantment（Enchant的名词）	附魔	
+Enchantability	可附魔性	
+Level	等级	
+Fuel	燃料	
+Damage value	损害值	
+Current	电流	
+Voltage	电压	
+Bookmark	书签	
+Slot	槽位	
+Grid	网格	
+Setting	设置	
+Option	选项	
+Debug screen	调试屏幕	
+Config/Configuration	配置	
+Mk	型	
+Mode	模式	
+Input	输入，原料	
+Output	输出，产物	
+Redstone Signal	红石信号	
+Modifier（TiC系）	强化	
+Rotational Force（Create）	旋转力	
+Energy（IC系，电）	电量	
+Energy	能量	
+Tick（名词）	刻	
+Stack（量词）	组	
+Stack（动词）	堆叠	
+Bug	漏洞	
+Blockstate	方块状态	
+TileEntity/Block Entity	(?)TileEntity/方块实体值	
+Tooltip	提示文本	
+Forge Energy/Forge Unit/Forge Power（任何指代 `net.minecraftforge.energy` 的名称）	FE能量（注：没有空格）	
+Resource Pack	资源包	
+Data Pack	数据包	
+Texture Pack	纹理包	
+Loot table	战利品表	
+Splash	闪烁标语	
+Texture	纹理	
+Add	添加	
+Delete	删除	
+Remove	移除	
+Click	点击	
+Right Click	右击	
+Activate/Active	激活	
+Deactivate/Inactive	禁用	
+Enable（选项）	启用	
+Disable（选项）	禁用	
+Enable（其它）	开启	
+Disable（其它）	关闭	
+Toggle	切换，激活	
+Allow	允许	
+True	是	
+False	否	
+Always	总是	
+Only	仅	
+Back	返回	
+Return	返回	
+Pick Up	拾取	
+Configure	配置	
+Wear（头盔、帽子）	戴	
+Wear（其它装备）	穿	
+Done	完成	
+Preset	预设	
+Black	黑色	
+Red	红色	
+Green	绿色	
+Brown	棕色	
+Blue	蓝色	
+Purple	紫色	
+Cyan	青色	
+Light Gray	淡灰色	
+Gray	灰色	
+Pink	粉红色	
+Lime	黄绿色	
+Yellow	黄色	
+Light Blue	淡蓝色	
+Magenta	品红色	
+Orange	橙色	
+White	白色	
+Warped	诡异	
+Warped <>	诡异木<>	
+Crimson	绯红	
+Crimson <>	绯红木<>	
+Lava	熔岩（在1.10中译名已经改为“熔岩”而不是“岩浆”）	
+Steam	蒸汽	
+Ender	末影	
+Portable	便携	
+Sapling	树苗	
+Leaf	树叶	
+Leaves	树叶	
+Wood	木	
+Wood Planks	木板	
+Slab	台阶	
+Stairs	楼梯	
+Door	门	
+Boat	船	
+Fence	栅栏	
+Fence Gate	栅栏门	
+Brick	砖，砖块	
+Smooth	平滑	
+Chiseled	雕纹（在1.19.3中译名已经改为“雕纹”而不是“錾质”）	
+Block	块	
+Ingot	锭	
+Ore	矿石	
+Nugget	粒	
+Shard	碎片	
+Fragment	残片	
+Cable	线缆	
+Wire	导线	
+Disc	唱片	
+Chest	箱，箱子	
+Dust	粉	
+Purified	纯净的	
+Crushed	粉碎的	
+Impure	含杂	
+Centrifuged	离心	
+Tiny Pile of	小撮	
+Small Pile of	小堆	
+Pile of	一堆	
+Cell/Unit（流体容器）	单元	
+Cell（核燃料）	棒	
+Bucket	桶	
+Plate	板	
+Gear	齿轮	
+Coin	币	
+Rune	符文	
+Helmet	头盔	
+Chestplate	胸甲	
+Leggings	护腿	
+Boots	靴子	
+Cap	帽子	
+Tunic	外套	
+Pants	裤子	
+Sword	剑	
+Shovel/Spade	锹	
+Pickaxe	镐	
+Axe/Ax	斧	
+Hoe	锄	
+Saw	锯	
+Bow	弓	
+Wrench	扳手	
+Hammer	锤	
+Soft Hammer	软锤	
+File	锉刀	
+Crowbar	撬棍	
+Screwdriver	螺丝刀	
+Mortar	臼	
+Chisel	凿	
+Paxel	镐尖斧	
+AIOT	全能工具/AIOT	
+Broadsword	大剑	
+Longsword	长剑	
+Rapier	西洋剑	
+Dagger	匕首	
+Lumber Axe	伐木斧	
+Mattock	鹤嘴锄	
+Wire Cutter	剪线钳	
+Scoop	捕蜂网	
+Branch Cutter	剪枝工具	
+Universal Spade	工兵铲	
+Knife	刀	
+Butchery Knife	屠刀	
+Sense/Scythe	镰刀	
+Plow	除雪锹	
+Plunger	搋	
+Rolling Pin	擀面杖	
+Drill（用电工具）	电钻	
+Chainsaw	电锯	
+JackHammer	凿岩锤	
+Drill（物品，不用电工具）	钻头	
+Ring	戒指，戒，指环	
+Seeds	种子	
+Shears	剪刀	
+Casing/Item Casing/Hull	外壳	
+Circuit Board/Board	电路板	
+Circuit	电路	
+Orb	球，宝珠	
+Machine（后缀）	机	
+Machine（概括）	机械	
+Generator（机械，产电）	发电机	
+Generator（机械，产其它能量）	发生器	
+Turbine	涡轮	
+Motor	马达	
+Crystal	水晶	
+Coil	线圈	
+Tank（储存流体容器，物品或方块）	储罐	
+Tank（机器内部缓存）	流体/气体/液体缓存（视语境）	
+Tank（其它意思，如鱼缸，或者能开炮的那种等）	<根据语境>	
+Ritual	仪式	
+Arrow	箭	
+Arrow of <>	<>之箭	
+Potion	药水	
+Splash	喷溅型	
+Lingering	滞留型	
+Mod/MOD	Mod/模组	
+Forge	Forge	
+Fabric	Fabric	
+Quilt	Quilt	
+LiteLoader	LiteLoader	
+Rift	Rift	
+Add-on	附加包	
+Creative	创造	
+Basic	基础	
+Hardened	硬化	
+Reinforced	强化	
+Resonant	谐振	
+Augment	拓展组件	
+Capacitor	电容	
+Schematic	图纸	
+Florb	流体球	
+Servo	伺服器	
+Satchel	背包	
+Energy Cell	能量单元	
+Machine Frame	机器框架	
+Energy Cell Frame	能量单元框架	
+Rockwool	石棉	
+Sponge	海绵	
+Strongbox	保险箱	
+Workbench	工作台	
+Invar	殷钢	
+Electrum	琥珀金	
+Redstone Flux	RF	
+Aura	灵气	
+Arcane	奥术	
+Golem	傀儡	
+Thaumium/Thaumic	神秘	
+Thaumaturgy	神秘学	
+Alchemy	炼金术	
+Artifice	炼化学	
+Golemancy	傀儡学	
+Eldritch	邪术学	
+Primal	元始	
+Taint	腐化	
+Aspect	要素	
+Eldritch	邪术	
+Cultist	血腥	
+Node	节点	
+Flux	咒波	
+Amulet	护身符	
+Ring	指环	
+Belt	腰带	
+Wand	法杖	
+Scepter	权杖	
+Staff	手杖	
+Wand Focus	法杖核心	
+Cap	杖端	
+Rod	杖柄	
+Staff Core	杖芯	
+Seal	印记	
+Control Seal	操控印记	
+Warp	扭曲	
+Cast	铸模	
+Pattern	模具	
+Sand Cast	沙子铸模	
+Red Sand Cast	红沙铸模	
+Gold Cast	金质铸模	
+Repair Kit	修补件	
+Pick	镐头	
+Small Axe Head	小型斧刃	
+Small Blade	小型剑刃	
+Sign Head	牌板	
+Bow Limb	弓臂	
+Hammer Head	锤头	
+Board Axe Head	板斧刃	
+Board Blade	宽刃	
+Tool Binding	绑定结	
+Round Plate	圆板	
+Large Plate	大板	
+Bowstring	弓弦	
+Tool Handle	工具手柄	
+Tough Handle	坚韧手柄	
+Bow Grip	弓把	
+Blazing Blood	烈焰血	
+Blood	血	
+Earth Slime	黏液	
+Sky Slime	碧空黏液	
+Magma	岩浆	
+Ender Slime	末影黏液	
+Ichor	灵浆	
+Sling	弹弓	
+Piggybackpack	肩驮架	
+Tinker Station	工匠站	
+Crafting Station	工作站	
+Tinker's Anvil	工匠砧	
+Part Builder	部件制造台	
+Modifier Worktable	强化调配台	
+Part Chest	部件箱	
+Tinker's Chest	工匠箱	
+Cast Chest	铸模箱	
+Pickaxe	镐	
+Sledge Hammer	大锤	
+Vein Hammer	矿脉锤	
+Pickadze	凿石锹	
 Board Axe	板斧
 Kama	短刃镰
 Scythe	镰刀
@@ -526,9 +526,9 @@ Weeping Witch Forest	哭泣女巫森林
 White Mangrove Marshes	白色红树湿地
 Windswept Desert	风袭沙漠
 Zelkova Forest	榉木森林
-Clear	纯净（形容词）
-Dark	暗色（形容词）
-Enlightened	荧光（形容词）
+Clear	纯净	形容词
+Dark	暗色	形容词
+Enlightened	荧光	形容词
 Fused Quartz	石英玻璃	
 Conduit	导管	
 Photovoltaic Cell	光伏电池	
@@ -539,7 +539,7 @@ Energetic Alloy	充能合金
 Soularium	魂金	
 Vibrant Alloy	振动合金	
 Copper Alloy	铜合金	
-Infinity	无限（材料名）
+Infinity	无限	材料名
 Pulsating Alloy	脉冲合金	
 Conductive Alloy	导电合金	
 Redstone Alloy	红石合金	
