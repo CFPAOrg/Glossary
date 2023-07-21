@@ -103,7 +103,7 @@ Chunk	区块
 Void	虚空	
 Inventory	物品栏	玩家，生物
 Inventory	物品缓存	机器
-Filter	过滤器
+Filter	过滤器	
 Potion	药水	
 Effect	效果	
 Enchantment	魔咒	名词
@@ -145,7 +145,7 @@ Texture Pack	纹理包
 Loot table	战利品表	
 Splash	闪烁标语	
 Texture	纹理	
-Save	保存		
+Save	保存	
 Confirm	确定	
 Discard	放弃	
 Add	添加	
