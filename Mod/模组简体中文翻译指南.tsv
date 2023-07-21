@@ -103,6 +103,7 @@ Chunk	区块
 Void	虚空	
 Inventory	物品栏	玩家，生物
 Inventory	物品缓存	机器
+Filter	过滤器
 Potion	药水	
 Effect	效果	
 Enchantment	魔咒	名词
@@ -144,6 +145,9 @@ Texture Pack	纹理包
 Loot table	战利品表	
 Splash	闪烁标语	
 Texture	纹理	
+Save	保存		
+Confirm	确定	
+Discard	放弃	
 Add	添加	
 Delete	删除	
 Remove	移除	
@@ -191,6 +195,15 @@ Warped <>	(?)诡异木<>
 Crimson	绯红	
 Crimson <>	(?)绯红木<>	
 Lava	熔岩	在Minecraft 1.10中译名已经改为“熔岩”而不是“岩浆”
+Cracked	裂纹	形容石材的一个变种
+Infested	虫蚀	形容石材的一个变种
+Stripped	去皮	
+Polished	磨制	
+Waxed	涂蜡	
+Cut	切制	
+Exposed	斑驳的	形容铜的锈蚀程度
+Oxidized	氧化的	形容铜的锈蚀程度
+Weathered	锈蚀的	形容铜的锈蚀程度
 Steam	蒸汽	
 Ender	末影	
 Portable	便携	
@@ -229,7 +242,7 @@ Pile of	一堆
 Cell/Unit	单元	流体容器
 Cell	棒	核燃料
 Bucket	桶	
-Plate	板	
+Plate/Sheet	板	
 Gear	齿轮	
 Coin	币	
 Rune	符文	
@@ -658,3 +671,83 @@ Urn	翁
 Ash	灰烬	
 Trapped Present	陷阱礼物盒	
 Candle Holder	蜡烛烛台	
+Window	窗户	
+Window Pane	窗户板	
+Andesite Alloy	安山合金	
+Casing	机壳	
+Chain	链条	
+Cogwheel	齿轮	
+Shaft	传动杆	
+Tunnel	隧道	
+Basin	工作盆	
+Belt	传送带	
+Nixie Tube	辉光管	
+Sail	风帆	
+Seat	坐垫	
+Toolbox	工具箱	
+Valve Handle	阀门手轮	
+Blaze Burner	烈焰人燃烧室	
+Cart Assembler	矿车装配站	
+Chute	溜槽	
+Clipboard	剪切板	
+Clockwork Bearing	发条轴承	
+Clutch	离合器	
+Observer	侦测器	
+Contraption Controls	动态结构控制器	
+Backtank	背罐	
+Copycat	伪装	
+Base	基底	
+Panel	盖板	
+Step	半阶	
+Crate	板条箱	
+Fluid Tank	流体储罐	
+Crushing Wheel	粉碎轮	
+Deployer	机械手	
+Depot	置物台	
+Display Board	翻牌显示器	
+Display Link	显示链接器	
+Elevator	升降机	
+Valve	阀门	
+Flywheel	飞轮	
+Layered	层叠	形容石材的一个变种
+Bearing	轴承	
+Crafter	合成器	
+Drill	钻头	用于破坏方块或伤害生物的元件
+Harvester	收割机	
+Mixer	搅拌器	
+Plough	犁	
+Press	辊压机	
+Pump	泵	
+Roller	压路机	
+Saw	锯	用于砍树，也可以用于切割物品的的元件
+Bracket	支架	
+Girder	梁	
+Nozzle	分散网	
+Millstone	石磨	
+Placard	置物板	
+Pulley	滑轮	
+Rose Quartz	玫瑰石英	
+Scoria	熔渣	
+Scorchia	焦黑熔渣	
+Spout	注液器	
+Tiled	十字	形容一种玻璃的变种
+Contraption	装置	名词
+Contraption	装配过的	形容词
+Contraption	动态结构	Create模组中借助多种方块组成的多方块结构实体
+Super Glue	强力胶	
+Brass	黄铜	
+Zinc	锌	
+Cinder	余烬	
+Slot Cover	盖板	
+Blueprint/Schematic	蓝图	
+Dough	面团	
+Goggle	护目镜	
+Honeyed	蜜渍	形容词
+Mechanism	构件	
+Track	列车轨道	
+Propeller	扇叶	
+Shadow Steel	暗影钢	
+Ponder	思索	Create模组中的内置教程
+Sequenced Assembly	流水线装配	Create模组中使用各类机械与当前的半成品配方交互若干次以完成物品的制作方式
+RPM	RPM	Create模组中用来表示旋转动力的转速
+Overstressed	过载	Create模组中应力网络内的应力消耗大于应力量时发生的现象
