@@ -1,775 +1,774 @@
-Term	Translation	Remark
-Shaped	有序	
-Shaped Crafting	有序合成	
-Shaped Recipe	有序配方	
-Shapeless	无序	
-Shapeless Crafting	无序合成	
-Shapeless Recipe	无序配方	
-Waterlogging	含水	
-Recipe	配方	
-Crafting	合成	
-Smelt	烧炼	概括
-Smelt	冶炼	矿物
-Smelt	烧制	普通
-Smelt	烹饪	食物
-Breaking/Digging/Mining/Punching	挖掘	
-Digging Speed	挖掘速度	
-Breaking	破坏	
-Breeding	繁殖	
-Brewing	酿造	
-Farming	耕种	
-Blocking	防御	
-Dual wield	双持	
-Sneaking	潜行	
-Sprinting	疾跑	
-Item durability	物品耐久	
-Durability	耐久/耐久度	
-Experience Level	经验等级	
-Experience Point/EXP/XP	经验值	
-Experience	经验	
-Oxygen/Air	氧气值	
-Hunger	饥饿	
-Hunger Value	饥饿值	
-Saturation	饱和度	
-Exhaustion	消耗度	
-Health	生命	
-Armor	护甲值	
-Armor Toughness	盔甲韧性	
-Ore Dictionary(OreDict)	矿物词典	
-Coordinates	坐标	
-Tag	标签	
-Named Binary Tag/NBT	NBT/NBT格式	
-Data Values	数据值	
-Target Selector	目标选择器	
-Feature	地物	地形特征
-Advancement	进度	
-Achievement	成就	
-Particle	粒子	
-Glint	光效	
-Command	命令	
-Toast	弹窗	
-Actionbar	动作栏	
-Client	客户端	
-Server	服务端，服务器	
-Realms	Realm/领域服	
-Menu Screen	菜单屏幕	
-Main Hand	主手	
-Off Hand	副手	
-Building Blocks	建筑方块	
-Decoration Blocks	装饰性方块	
-Redstone	红石	
-Transportation	交通运输	
-Miscellaneous	杂项	
-Foodstuffs	食物	
-Tools	工具	
-Combat	战斗用品	
-Brewing	酿造	
-Saved Hotbars	已保存的快捷栏	
-Survival Inventory	生存模式物品栏	
-Colored Blocks	染色方块	
-Natural Blocks	自然方块	
-Functional Blocks	功能方块	
-Redstone Blocks	红石方块	
-Tools & Utilities	工具与实用物品	
-Food & Drinks	食品与饮品	
-Ingredients	原材料	
-Spawn Eggs	刷怪蛋	
-Operator Utilities	管理员用品	
-Block	方块	
-Item	物品	
-Tools	工具	
-Armor	盔甲	
-GUI/Gui	GUI	
-HUD	HUD	
-Creative Inventory	创造模式物品栏	
-Creative Tab	创造标签页	
-Mob	生物	
-Monster	怪物	
-Entity	实体	
-Player	玩家	
-Machine	机器	
-Solid	固体	
-Liquid	液体	
-Gas	气体	
-Fluid	流体	
-Equipment	装备	
-Spawn	生成	
-Overworld	主世界	
-Nether	下界	
-End	末地	
-Dimension	维度	
-Biome	生物群系	
-Chunk	区块	
-Void	虚空	
-Inventory	物品栏	玩家，生物
-Inventory	物品缓存	机器
-Filter	过滤器	
-Potion	药水	
-Effect	效果	
-Enchantment	魔咒	名词
-Enchantment	附魔	Enchant的名词
-Enchantability	可附魔性	
-Level	等级	
-Fuel	燃料	
-Damage value	损害值	
-Current	电流	
-Voltage	电压	
-Bookmark	书签	
-Slot	槽位	
-Grid	网格	
-Setting	设置	
-Option	选项	
-Debug screen	调试屏幕	
-Config/Configuration	配置	
-Mk/mk	型	
-Mode	模式	
-Input	输入，原料	
-Output	输出，产物	
-Redstone Signal	红石信号	
-Attributes	属性	
-Modifier	修饰符	TiC系
-Rotational Force	旋转力	Create系
-Energy	电量	IC系，电
-Energy	能量	
-Tick	刻	名词
-Stack	组	量词
-Stack	堆叠	动词
-Bug	漏洞	
-Blockstate	方块状态	
-TileEntity/Block Entity	TileEntity/方块实体	
-Tooltip	(?)提示文本/提示框	
-Forge Energy/Forge Unit/Forge Power	FE能量	英文单位与汉字之间没有空格，该翻译应用于任何指代 `net.minecraftforge.energy` 的名称
-Resource Pack	资源包	
-Data Pack	数据包	
-Texture Pack	纹理包	
-Loot table	战利品表	
-Splash	闪烁标语	
-Texture	纹理	
-Save	保存	
-Confirm	确定	
-Discard	放弃	
-Add	添加	
-Delete	删除	
-Remove	移除	
-Click	点击	
-Right Click	右击	
-Activate/Active	激活	
-Deactivate/Inactive	禁用	
-Enable	启用	
-Disable	禁用	选项
-Enable	开启	其它
-Disable	关闭	其它
-Toggle	切换，激活	
-Allow	允许	
-True	是	
-False	否	
-Always	总是	
-Only	仅	
-Back	返回	
-Return	返回	
-Pick Up	拾取	
-Configure	配置	
-Wear	戴	头盔、帽子
-Wear	穿	其它装备
-Done	完成	
-Preset	预设	
-Black	黑色	
-Red	红色	
-Green	绿色	
-Brown	棕色	
-Blue	蓝色	
-Purple	紫色	
-Cyan	青色	
-Light Gray	淡灰色	
-Gray	灰色	
-Pink	粉红色	
-Lime	黄绿色	
-Yellow	黄色	
-Light Blue	淡蓝色	
-Magenta	品红色	
-Orange	橙色	
-White	白色	
-Stained	染色	形容词
-Warped	诡异	
-Warped	诡异木	形容物品的材质
-Crimson	绯红	
-Crimson	绯红木	形容物品的材质
-Lava	熔岩	在Minecraft 1.10中译名已经改为“熔岩”而不是“岩浆”
-Cracked	裂纹	形容石材的一个变种
-Infested	虫蚀	形容石材的一个变种
-Stripped	去皮	
-Polished	磨制	
-Waxed	涂蜡	
-Cut	切制	
-Exposed	斑驳的	形容铜的锈蚀程度
-Oxidized	氧化的	形容铜的锈蚀程度
-Weathered	锈蚀的	形容铜的锈蚀程度
-Steam	蒸汽	
-Ender	末影	
-Portable	便携	
-Sapling	树苗	
-Leaf	树叶	
-Leaves	树叶	
-Wood	木	
-Wood Planks	木板	
-Slab	台阶	
-Stairs	楼梯	
-Door	门	
-Boat	船	
-Fence	栅栏	
-Fence Gate	栅栏门	
-Brick	砖，砖块	与Minecraft中红砖有所区分，指“砖”这一类方块
-Smooth	平滑	
-Chiseled	雕纹	在Minecraft 1.19.3中译名已经改为“雕纹”而不是“錾质”
-Block	块	
-Ingot	锭	
-Ore	矿石	
-Chunk	(?)矿块，碎块	
-Nugget	粒	
-Shard	碎片	
-Fragment	残片	
-Cable	线缆	
-Wire	导线	
-Disc	唱片	
-Chest	箱，箱子	
-Dust	粉	
-Purified	纯净的	
-Crushed	粉碎的	
-Impure	含杂	
-Centrifuged	离心	
-Tiny Pile of	小撮	
-Small Pile of	小堆	
-Pile of	一堆	
-Cell/Unit	单元	流体容器
-Cell	棒	核燃料
-Bucket	桶	
-Plate/Sheet	板	
-Gear	齿轮	
-Coin	币	
-Rune	符文	
-Helmet	头盔	
-Chestplate	胸甲	
-Leggings	护腿	
-Boots	靴子	
-Cap	帽子	
-Tunic	外套	
-Pants	裤子	
-Sword	剑	
-Shovel/Spade	锹	
-Pickaxe	镐	
-Axe/Ax	斧	
-Hoe	锄	
-Saw	锯	
-Bow	弓	
-Wrench	扳手	
-Hammer	锤	
-Soft Hammer	软锤	
-File	锉刀	
-Crowbar	撬棍	
-Screwdriver	螺丝刀	
-Mortar	臼	
-Chisel	凿/凿子	
-Paxel	镐尖斧	
-AIOT	全能工具	
-Broadsword	大剑	
-Longsword	长剑	
-Rapier	西洋剑	
-Dagger	匕首	
-Lumber Axe	伐木斧	
-Mattock	鹤嘴锄	
-Wire Cutter	剪线钳	
-Scoop	捕蜂网	
-Branch Cutter	剪枝工具	
-Universal Spade	万用锹	
-Knife	刀	
-Butchery Knife	屠刀	
-Sense/Scythe	镰刀	
-Plow	除雪锹	
-Plunger	搋	
-Rolling Pin	擀面杖	
-Drill	电钻	用电工具
-Chainsaw	电锯	
-JackHammer	凿岩锤	
-Drill	钻头	物品，不用电工具
-Ring	戒指，戒，指环	
-Seeds	种子	
-Shears	剪刀	
-Casing/Item Casing/Hull	外壳	
-Circuit Board/Board	电路板	
-Circuit	电路	
-Orb	球，宝珠	
-Machine	机	后缀
-Machine	机械	概括
-Generator	发电机	机械，产电
-Generator	发生器	机械，产其它能量
-Turbine	涡轮	
-Motor	马达	
-Crystal	水晶	
-Coil	线圈	
-Tank	储罐	储存流体容器，物品或方块
-Tank	流体/气体/液体缓存（视语境）	机器内部缓存
-Tank	根据语境翻译	其它意思，如鱼缸，或者能开炮的那种等
-Ritual	仪式	
-Arrow	箭	
-Arrow of	之箭	
-Potion	药水	
-Splash	喷溅型	
-Lingering	滞留型	
-Mod/MOD	Mod/模组	
-Forge	Forge	
-Fabric	Fabric	
-Quilt	Quilt	
-LiteLoader	LiteLoader	
-Rift	Rift	
-Add-on	附加包	
-Creative	创造	
-Basic	基础	
-Hardened	硬化	
-Reinforced	强化	
-Resonant	谐振	
-Augment	拓展组件	
-Capacitor	电容	
-Schematic	图纸	
-Florb	流体球	
-Servo	伺服器	
-Satchel	背包	
-Energy Cell	能量单元	
-Machine Frame	机器框架	
-Energy Cell Frame	能量单元框架	
-Rockwool	石棉	
-Sponge	海绵	
-Strongbox	保险箱	
-Workbench	工作台	
-Invar	殷钢	
-Electrum	琥珀金	
-Redstone Flux	RF	
-Aura	灵气	
-Arcane	奥术	
-Golem	傀儡	
-Thaumium/Thaumic	神秘	
-Thaumaturgy	神秘学	
-Alchemy	炼金术	
-Artifice	炼化学	
-Golemancy	傀儡学	
-Eldritch	邪术学	
-Primal	元始	
-Taint	腐化	
-Aspect	要素	
-Eldritch	邪术	
-Cultist	血腥	
-Node	节点	
-Flux	咒波	
-Amulet	护身符	
-Ring	指环	
-Belt	腰带	
-Wand	法杖	
-Scepter	权杖	
-Staff	手杖	
-Wand Focus	法杖核心	
-Cap	杖端	
-Rod	杖柄	
-Staff Core	杖芯	
-Seal	印记	
-Control Seal	操控印记	
-Warp	扭曲	
-Cast	铸模	
-Pattern	模具	
-Sand Cast	沙子铸模	
-Red Sand Cast	红沙铸模	
-Gold Cast	金质铸模	
-Repair Kit	修补件	
-Pick	镐头	
-Small Axe Head	小型斧刃	
-Small Blade	小型剑刃	
-Sign Head	牌板	
-Bow Limb	弓臂	
-Hammer Head	锤头	
-Board Axe Head	板斧刃	
-Board Blade	宽刃	
-Tool Binding	绑定结	
-Round Plate	圆板	
-Large Plate	大板	
-Bowstring	弓弦	
-Tool Handle	工具手柄	
-Tough Handle	坚韧手柄	
-Bow Grip	弓把	
-Blazing Blood	烈焰血	
-Blood	血	材料名
-Earth Slime	黏液	材料名
-Sky Slime	碧空黏液	
-Magma	岩浆	材料名
-Ender Slime	末影黏液	
-Ichor	灵浆	
-Sling	弹弓	
-Piggybackpack	肩驮架	
-Tinker Station	工匠站	
-Crafting Station	工作站	
-Tinker's Anvil	工匠砧	
-Part Builder	部件制造台	
-Modifier Worktable	强化调配台	
-Part Chest	部件箱	
-Tinker's Chest	工匠箱	
-Cast Chest	铸模箱	
-Pickaxe	镐	
-Sledge Hammer	大锤	
-Vein Hammer	矿脉锤	
-Pickadze	凿石锹	
-Board Axe	板斧	
-Kama	短刃镰	
-Scythe	镰刀	
-Sword	剑	
-Cleaver	劈刀	
-Crossbow	弩	
-Longbow	长弓	
-Flint And Brick	焦砖打火石	
-Staff	手杖	
-Plate	镶板	
-Traveler	旅行者	
-Slimeskull	黏液头颅	
-Crystalshot	水晶镞	
-Slime Dirt	黏液泥土	
-Slime Grass	黏液草方块	
-Greenheart	绿心	
-Skyroot	天根	
-Bloodshroom	血菌	
-Necrotic Bone	噬生之骨	
-Seared Stone	焦黑石	
-Scorched Stone	焦褐石	
-Slimewood	黏木	
-Blood Bone	血之骨	
-Rose Gold	玫瑰金	
-Slimesteel	黏钢	
-Nahuatl	纳瓦特尔	
-Amethyst Bronze	紫水晶青铜	
-Pig Iron	生铁	
-Darkthread	黑耀丝线	
-Cobalt	钴	
-Manyullyn	玛玉灵	
-Hepatizon	黑色科林斯青铜	
-Queen Slime	皇后史莱姆	
-Blazing Bone	烈焰之骨	
-Soulsteel	魂钢	
-Ancient Hide	远古兽皮	
-Knightsteel	骑士史莱姆	
-Whitestone	白石	
-Necronium	辐射之骨	
-Plated Slimewood	复合黏木	
-Seared Heater	焦黑加热器	
-Smeltery Controller	冶炼炉控制器	
-Drain	排液孔	
-Duct	输导孔	
-Chute	滑槽	
-Seared Melter	焦黑熔化炉	
-Basin	铸造盆	
-Table	铸件台	
-Channel	浇注道	
-Faucet	浇注口	
-Fuel Tank	燃料储罐	
-Fuel Gauge	材料量器	
-Ingot Tank	材料储罐	
-Ingo Gauge	材料量器	
-Clear	纯净	形容词
-Dark	暗色	形容词
-Enlightened	荧光	形容词
-Fused Quartz	石英玻璃	
-Conduit	导管	
-Photovoltaic Cell	光伏电池	
-The Ender	终结之剑	
-Dark Steel	玄钢	
-End Steel	末地钢	
-Energetic Alloy	充能合金	
-Soularium	魂金	
-Vibrant Alloy	振动合金	
-Copper Alloy	铜合金	
-Infinity	无限	材料名
-Pulsating Alloy	脉冲合金	
-Conductive Alloy	导电合金	
-Redstone Alloy	红石合金	
-Rocket Fuel	火箭燃料	
-Liquid Sunshine	液态阳光	
-Vapor Of Levity	轻盈之气	
-Fluid of the Void	虚空流体	
-Fire Water	火焰水	
-Xp Juice	经验汁	
-Nutrient Distillation	营养精华液	
-Cloud Seed	云之精华	
-Cloud Seed Concentrated	浓缩云之精华	
-Hexcasting	咒法学	
-Mind	意识	
-Media	媒质	
-Iota	iota	
-Action	操作	
-Perform	执行	操作动词
-Pattern	图案	
-Draw	绘制	图案动词
-Spell	法术	
-Great Spell	卓越法术	
-Hex	咒术	
-Cast	施放	法术、咒术动词
-Evaluate	运行	图案、通用动词
-Hex Grid	咒术网格	
-Lore	故事	
-Mishap	事故	
-Overcast	过度施法	
-Amethyst Dust	紫水晶粉	
-Charged Amethyst	充能紫水晶	
-Staff	法杖	
-Scroll	卷轴	
-Ancient Scroll	远古卷轴	
-Thought-Knot	结念绳	
-Focus	核心	
-Spellbook	法术书	
-Cypher	杂件	
-Trinket	缀品	
-Artifact	造物	
-Abacus	算盘	
-Phial	试剂瓶	
-Phial	媒质之瓶	
-Jeweler‘s Hammer	珠宝匠锤	
-Scrying Lens	探知透镜	
-Pigment	染色剂	
-Slate	石板	薄层
-Slate	板岩	方块
-Directrix	导向石	
-Impetus	促动石	
-Spell Circle	法术环	
-Akashic Library	阿卡夏图书馆	
-Akashic Record	阿卡夏记录	
-Akashic Bookshelf	阿卡夏书架	
-Akashic Ligature	阿卡夏桥接块	
-Quenched Allay	淬灵晶	
-Mindsplice	制念	
-Reflection	精思	
-Purification	纯化	
-Distillation	馏化	
-Exaltation	提整	
-Decomposition	分解	
-Disintegration	拆解	
-Gambit	策略	
-Stack	栈	
-Ravenmind	渡鸦之思	
-Number	数	
-Boolean	布尔值	
-Entity	实体	
-Vector	向量	
-List	列表	
-Influence	虚指	
-Null	Null	
-Garbage	垃圾	
-Consideration	考察	
-Introspection	内省	
-Retrospection	反思	
-Evanition	消解	
-Set	集合	
-Meta-Evaluation	元运行	
-Nadir	天底法术	
-Nadir	西沉	法术名
-Zenith	天顶法术	
-Zenith	当空	法术名
-Sentinel	哨卫	
-Greater Sentinel	卓越哨卫	
-Flay	剥离	意识
-Wooleye	毡障	
-Slipway	质道	
-Relay	继链器	
-Mote Nexus	物元枢纽	
-Wisp	咒灵	
-Projectile Wisp	弹射式咒灵	
-Cyclic Wisp	循环式咒灵	
-Great Wisp	卓越咒灵	
-Link	链接	
-Gate	门径	
-Mote	物元	
-Type	类型	
-Everbook	永恒之书	
-String	字符串	
-Matrix	矩阵	
-Construct	组构体	
-Spider Construct	蛛形组构体	
-Robot Construct	机械组构体	
-Blaze Construct	烈焰组构体	
-Command	命令	组构体
-Construct Broadcaster	组构体广播台	
-Hex Shield	咒术护盾	
-Figment	虚意识	
-Item Stack	物品组	
-Grand Spell	卓伟法术	
-Crystallized Scroll	晶化卷轴	
-Dictionary	字典	
-Stove	炉灶	
-Cooking Pot	厨锅	
-Basket	篮子	
-Cutting Board	砧板	
-Skillet	煎锅	
-Cabinet/Pantry	橱柜/厨柜	根据实际情况单模组内统一即可
-Rope	绳子	
-Tatami	榻榻米	
-Rich Soil	沃土	
-Crate	箱装	例子：Carrot Crate, 箱装胡萝卜
-Straw Bale	稻草	
-Rice Bale	稻米	
-Budding	萌芽的	形容词
-Colony	菌落	
-Sandy	沙生	形容词
-Wild	野生	形容词
-Straw	草秆	
-Canvas	粗布	
-Tree Bark	树皮	
-Knife	刀	
-Plate of	盘装	
-Stuffed	填馅	形容词
-Bowl of	碗装	
-Medley	拼盘	例子：Rice Roll Medley, 寿司拼盘
-Ratatouille	蔬菜杂烩	
-Stew	炖	例子：Beef Stew, 牛肉炖
-Barbecue on a Stick	烧烤串	
-Crust	酥皮	
-Slice of	切片	
-Raw	生	形容食物的生熟
-Cooked	熟	形容食物的生熟
-Rotten	烂	形容食物的新鲜程度
-Cut	丁	形容食物切制后的大小
-Hot Cocoa	热可可	
-Faucet	水龙头	
-Wall Lantern	壁灯	
-Planter	种植盆	
-Bellows	风箱	
-Wind Vane	风向标	
-Crank	曲柄	
-Jar	玻璃罐	
-Tinted	着色	形容词
-Turn Table	转台	
-Pedestal	展示台	
-Illuminator	照明器	
-Notice Board	布告栏	
-Speaker Block	扬声器	
-Sconce	加固火把	
-Sign Post	路标	
-Candelabra	灯台	
-Globe	地球仪	物品
-Cage	笼子	
-Cog Block	齿轮方块	
-Sack	麻布袋	
-Item Shelf	物品架	
-Flute	竹笛	
-Rope	绳子	
-Spikes	刺	
-Tipped	浸药	形容词
-Fodder	饲料堆	
-Flax	亚麻	一种农作物
-Pile	堆	
-Frame	框架	
-Brace	支架	
-Tile	瓦	
-Goblet	酒杯	
-Flag	横旗	与原版旗帜方向不同，为水平方向
-Statue	雕像	
-Gate	栏杆门	
-Slingshot	弹弓	
-Present	礼物盒	
-Way Sign	路标	
-Urn	翁	
-Ash	灰烬	
-Trapped Present	陷阱礼物盒	
-Candle Holder	蜡烛烛台	
-Window	窗户	
-Window Pane	窗户板	
-Andesite Alloy	安山合金	
-Casing	机壳	
-Chain	链条	
-Cogwheel	齿轮	
-Shaft	传动杆	
-Tunnel	隧道	
-Basin	工作盆	
-Belt	传送带	
-Nixie Tube	辉光管	
-Sail	风帆	
-Seat	坐垫	
-Toolbox	工具箱	
-Valve Handle	阀门手轮	
-Blaze Burner	烈焰人燃烧室	
-Cart Assembler	矿车装配站	
-Chute	溜槽	
-Clipboard	剪切板	
-Clockwork Bearing	发条轴承	
-Clutch	离合器	
-Observer	侦测器	
-Contraption Controls	动态结构控制器	
-Backtank	背罐	
-Copycat	伪装	
-Base	基底	
-Panel	盖板	
-Step	半阶	
-Crate	板条箱	
-Fluid Tank	流体储罐	
-Crushing Wheel	粉碎轮	
-Deployer	机械手	
-Depot	置物台	
-Display Board	翻牌显示器	
-Display Link	显示链接器	
-Elevator	升降机	
-Valve	阀门	
-Flywheel	飞轮	
-Layered	层叠	形容石材的一个变种
-Bearing	轴承	
-Crafter	合成器	
-Drill	钻头	用于破坏方块或伤害生物的元件
-Harvester	收割机	
-Mixer	搅拌器	
-Plough	犁	
-Press	辊压机	
-Pump	泵	
-Roller	压路机	
-Saw	锯	用于砍树，也可以用于切割物品的的元件
-Bracket	支架	
-Girder	梁	
-Nozzle	分散网	
-Millstone	石磨	
-Placard	置物板	
-Pulley	滑轮	
-Rose Quartz	玫瑰石英	
-Scoria	熔渣	
-Scorchia	焦黑熔渣	
-Spout	注液器	
-Tiled	十字	形容一种玻璃的变种
-Contraption	装置	名词
-Contraption	装配过的	形容词
-Contraption	动态结构	Create模组中借助多种方块组成的多方块结构实体
-Super Glue	强力胶	
-Brass	黄铜	
-Zinc	锌	
-Cinder	余烬	
-Slot Cover	盖板	
-Blueprint/Schematic	蓝图	
-Dough	面团	
-Goggle	护目镜	
-Honeyed	蜜渍	形容词
-Mechanism	构件	
-Track	列车轨道	
-Propeller	扇叶	
-Shadow Steel	暗影钢	
-Ponder	思索	Create模组中的内置教程
-Sequenced Assembly	流水线装配	Create模组中使用各类机械与当前的半成品配方交互若干次以完成物品的制作方式
-RPM	RPM	Create模组中用来表示旋转动力的转速
-Overstressed	过载	Create模组中应力网络内的应力消耗大于应力量时发生的现象
-Cell	元件	
-Charger	充能器	
-Certus Quartz Crystal	赛特斯石英水晶	
-Certus Quartz	赛特斯石英
-Fluix Crystal	福鲁伊克斯水晶	
-Fluix	福鲁伊克斯	
-Monitor	监控器	
-Unit	单元	
-Dense	致密	
-Drive	驱动器	
-Flawed	有瑕的	形容词
-Flawless	无暇的	形容词
-Interface	接口	
-Port	端口	
-Paint	染色球	名词
-Pattern	样板	名词，AE系
-Sky Stone	陨石	
-Spatial	空间	
-Interfaces	接口	
-Component	组件	
-Channel	频道	
+Term	Translation	Remark	Source
+Shaped	有序		
+Shaped Crafting	有序合成		
+Shaped Recipe	有序配方		
+Shapeless	无序		
+Shapeless Crafting	无序合成		
+Shapeless Recipe	无序配方		
+Waterlogging	含水		
+Recipe	配方		
+Crafting	合成		
+Smelt	烧炼	概括	
+Smelt	冶炼	矿物	
+Smelt	烧制	普通	
+Smelt	烹饪	食物	
+Breaking/Digging/Mining/Punching	挖掘		
+Digging Speed	挖掘速度		
+Breaking	破坏		
+Breeding	繁殖		
+Brewing	酿造		
+Farming	耕种		
+Blocking	防御		
+Dual wield	双持		
+Sneaking	潜行		
+Sprinting	疾跑		
+Item durability	物品耐久		
+Durability	耐久/耐久度		
+Experience Level	经验等级		
+Experience Point/EXP/XP	经验值		
+Experience	经验		
+Oxygen/Air	氧气值		
+Hunger	饥饿		
+Hunger Value	饥饿值		
+Saturation	饱和度		
+Exhaustion	消耗度		
+Health	生命		
+Armor	护甲值		
+Armor Toughness	盔甲韧性		
+Ore Dictionary(OreDict)	矿物词典		Forge
+Coordinates	坐标		
+Tag	标签		
+Named Binary Tag/NBT	NBT/NBT格式		
+Data Values	数据值		
+Target Selector	目标选择器		
+Feature	地物	地形特征	
+Advancement	进度		
+Achievement	成就		
+Particle	粒子		
+Glint	光效		
+Command	命令		
+Toast	弹窗		
+Actionbar	动作栏		
+Client	客户端		
+Server	服务端，服务器		
+Realms	Realm/领域服		
+Menu Screen	菜单屏幕		
+Main Hand	主手		
+Off Hand	副手		
+Building Blocks	建筑方块		
+Decoration Blocks	装饰性方块		
+Redstone	红石		
+Transportation	交通运输		
+Miscellaneous	杂项		
+Foodstuffs	食物		
+Tools	工具		
+Combat	战斗用品		
+Brewing	酿造		
+Saved Hotbars	已保存的快捷栏		
+Survival Inventory	生存模式物品栏		
+Colored Blocks	染色方块		
+Natural Blocks	自然方块		
+Functional Blocks	功能方块		
+Redstone Blocks	红石方块		
+Tools & Utilities	工具与实用物品		
+Food & Drinks	食品与饮品		
+Ingredients	原材料		
+Spawn Eggs	刷怪蛋		
+Operator Utilities	管理员用品		
+Block	方块		
+Item	物品		
+Tools	工具		
+Armor	盔甲		
+GUI/Gui	GUI		
+HUD	HUD		
+Creative Inventory	创造模式物品栏		
+Creative Tab	创造标签页		
+Mob	生物		
+Monster	怪物		
+Entity	实体		
+Player	玩家		
+Machine	机器		
+Solid	固体		
+Liquid	液体		
+Gas	气体		
+Fluid	流体		
+Equipment	装备		
+Spawn	生成		
+Overworld	主世界		
+Nether	下界		
+End	末地		
+Dimension	维度		
+Biome	生物群系		
+Chunk	区块		
+Void	虚空		
+Inventory	物品栏	玩家，生物	
+Inventory	物品缓存	机器	Any
+Filter	过滤器		
+Potion	药水		
+Effect	效果		
+Enchantment	魔咒	名词	
+Enchantment	附魔	Enchant的名词	
+Enchantability	可附魔性		
+Level	等级		
+Fuel	燃料		
+Damage value	损害值		
+Current	电流		Nuclear Science etc
+Voltage	电压		Nuclear Science etc
+Bookmark	书签		Patchouli etc
+Slot	槽位		PSI etc
+Grid	网格		Building Gadgets etc
+Setting	设置		
+Option	选项		
+Debug screen	调试屏幕		
+Config/Configuration	配置		
+Mk/mk	型		ProjectE
+Mode	模式		Any
+Input	输入，原料		Any
+Output	输出，产物		Any
+Redstone Signal	红石信号		
+Attributes	属性		Wings etc
+Modifier	强化		Tinkers’ Construct
+Modifier 修饰符		
+Rotational Force	旋转力		Create
+Energy	电量，电		Industrial Craft 2 etc
+Energy	能量		Mekanism etc
+Tick	刻	名词	
+Stack	组	量词	
+Stack	堆叠	动词	
+Bug	漏洞		
+Blockstate	方块状态		
+TileEntity/Block Entity	TileEntity/方块实体		
+Tooltip	(?)提示文本/提示框		
+Forge Energy/Forge Unit/Forge Power	FE能量	英文单位与汉字之间没有空格，该翻译应用于任何指代 `net.forge.energy` 的名称	Forge
+Resource Pack	资源包		
+Data Pack	数据包		
+Texture Pack	纹理包		
+Loot table	战利品表		
+Splash	闪烁标语		
+Texture	纹理		
+Save	保存		
+Confirm	确定		
+Discard	放弃		
+Add	添加		
+Delete	删除		
+Remove	移除		
+Click	点击		
+Right Click	右击		
+Activate/Active	激活		
+Deactivate/Inactive	禁用		
+Enable	启用		
+Disable	禁用	选项	
+Enable	开启	其它	
+Disable	关闭	其它	
+Toggle	切换，激活		
+Allow	允许		
+True	是		
+False	否		
+Always	总是		
+Only	仅		
+Back	返回		
+Return	返回		
+Pick Up	拾取		
+Configure	配置		
+Wear	戴	头盔、帽子	
+Wear	穿	其它装备	
+Done	完成		
+Preset	预设		
+Black	黑色		
+Red	红色		
+Green	绿色		
+Brown	棕色		
+Blue	蓝色		
+Purple	紫色		
+Cyan	青色		
+Light Gray	淡灰色		
+Gray	灰色		
+Pink	粉红色		
+Lime	黄绿色		
+Yellow	黄色		
+Light Blue	淡蓝色		
+Magenta	品红色		
+Orange	橙色		
+White	白色		
+Stained	染色	形容词	
+Warped	诡异		
+Warped	诡异木	形容物品的材质	
+Crimson	绯红		
+Crimson	绯红木	形容物品的材质	
+Lava	熔岩	在 1.10中译名已经改为“熔岩”而不是“岩浆”	
+Cracked	裂纹	形容石材的一个变种	
+Infested	虫蚀	形容石材的一个变种	
+Stripped	去皮			
+Polished	磨制		
+Waxed	涂蜡		
+Cut	切制		
+Exposed	斑驳的		形容铜的氧化程度	
+Oxidized	氧化的		形容铜的氧化程度 
+Weathered	锈蚀的		形容铜的氧化程度 
+Steam	蒸汽		Mekanism
+Ender	末影		
+Portable	便携		Refined Storage etc
+Sapling	树苗		
+Leaf/Leaves	树叶		
+Wood	木		
+Wood Planks	木板		
+Slab	台阶		
+Stairs	楼梯		
+Door	门		
+Boat	船		
+Fence	栅栏		
+Fence Gate	栅栏门		
+Brick	砖，砖块	与中红砖有所区分，指“砖”这一类方块	
+Smooth	平滑		
+Chiseled	雕纹	在 1.19.3中译名已经改为“雕纹”而不是“錾质”	
+Block	块		
+Ingot	锭		
+Ore	矿石		
+Chunk	(?)矿块，碎块		EmendatusEnigmatica, Indrev etc
+Nugget	粒		
+Shard	碎片		
+Fragment	残片		
+Cable	线缆		Refined Storage etc
+Wire	导线		Modern Industrialization etc
+Disc	唱片		
+Chest	箱，箱子		
+Dust	粉		
+Purified	纯净的		GregTech etc
+Crushed	粉碎的		GregTech etc
+Impure	含杂		GregTech etc
+Centrifuged	离心		GregTech etc
+Tiny Pile of	小撮		GregTech etc
+Small Pile of	小堆		GregTech etc
+Pile of	一堆		GregTech etc
+Cell/Unit	单元	流体容器	GregTech etc
+Cell	棒		GregTech etc
+Bucket	桶		
+Plate/Sheet	板		Create, Immersive Engineering etc
+Gear	齿轮		Thermal
+Coin	币		Thermal
+Rune	符文		Botania
+Helmet	头盔		
+Chestplate	胸甲		
+Leggings	护腿		
+Boots	靴子		
+Cap	帽		RealWorld etc
+Tunic	外套，上衣		Survival Overhaul
+Pants	裤子		Tough As Nails
+Sword	剑		
+Shovel/Spade	锹		
+Pickaxe	镐		
+Axe/Ax	斧		
+Hoe	锄		
+Saw	锯		
+Bow	弓		
+Wrench	扳手		
+Hammer	锤		
+Soft Hammer	软锤		
+File	锉刀		
+Crowbar	撬棍		
+Screwdriver	螺丝刀		
+Mortar	臼		
+Chisel	凿/凿子		
+Paxel	镐尖斧		
+AIOT	全能工具		
+Broadsword	大剑		
+Longsword	长剑		
+Rapier	西洋剑		
+Dagger	匕首		
+Lumber Axe	伐木斧		
+Mattock	鹤嘴锄		
+Wire Cutter	剪线钳		
+Scoop	捕蜂网		
+Branch Cutter	剪枝工具		
+Universal Spade	万用锹		
+Knife	刀		
+Butchery Knife	屠刀		
+Sense/Scythe	镰刀		
+Plow	除雪锹		
+Plunger	搋		
+Rolling Pin	擀面杖		
+Drill	电钻		
+Chainsaw	电锯		
+JackHammer	凿岩锤		
+Drill	钻头		
+Ring	戒指，戒，指环		
+Seeds	种子		
+Shears	剪刀		
+Casing/Item Casing/Hull	外壳		Create, GregTech etc
+Circuit Board/Board	电路板		Immersive Engineering etc
+Circuit	电路		
+Orb	球，宝珠		
+Machine	机		
+Machine	机械		
+Generator	发电机		
+Generator	发生器		
+Turbine	涡轮		
+Motor	马达		
+Crystal	水晶		
+Coil	线圈		
+Tank	储罐		
+Tank	流体/气体/液体缓存（视语境）		
+Tank	根据语境翻译		
+Ritual	仪式		Mana and Artifice, Roots, BloodMagic etc
+Arrow	箭		
+Arrow of	之箭		
+Potion	药水		
+Splash	喷溅型		
+Lingering	滞留型		
+Mod/MOD	Mod/模组		
+Forge	Forge		Forge
+Fabric	Fabric		Fabric
+Quilt	Quilt		Quilt
+LiteLoader	LiteLoader		LiteLoader
+Rift	Rift		Rift
+Add-on	附加包		
+Creative	创造		Thermal Foundation
+Basic	基础		Thermal Foundation
+Hardened	硬化		Thermal Foundation
+Reinforced	强化		Thermal Foundation
+Resonant	谐振		Thermal Foundation
+Augment	升级		Thermal Expansion
+Capacitor	通量电容		Thermal Expansion
+Schematic	图纸		Thermal Foundation
+Florb	流体球		Thermal Expansion
+Servo	伺服器		Thermal Dynamics
+Satchel	背包		Thermal Foundation
+Energy Cell	能量单元		Thermal Foundation
+Machine Frame	机器框架		Thermal Foundation
+Energy Cell Frame	能量单元框架		Thermal Foundation
+Rockwool	石棉		Thermal Foundation
+Sponge	海绵		
+Strongbox	保险箱		Thermal Expansion
+Workbench	工作台		
+Invar	殷钢		Thermal Foundation
+Electrum	琥珀金		Thermal Foundation
+Redstone Flux	RF		
+Aura	灵气		Thaumcraft
+Arcane	奥术		Thaumcraft
+Golem	傀儡		Thaumcraft
+Thaumium/Thaumic	神秘		Thaumcraft
+Thaumaturgy	神秘学		Thaumcraft
+Alchemy	炼金术		Thaumcraft
+Artifice	炼化学		Thaumcraft
+Golemancy	傀儡学		Thaumcraft
+Eldritch	邪术学		Thaumcraft
+Primal	元始		Thaumcraft
+Taint	腐化		Thaumcraft
+Aspect	要素		Thaumcraft
+Eldritch	邪术		Thaumcraft
+Cultist	血腥		Thaumcraft
+Node	节点		Thaumcraft
+Flux	咒波		Thaumcraft
+Amulet	护身符		Thaumcraft
+Ring	指环		Thaumcraft
+Belt	腰带		Thaumcraft
+Wand	法杖		Thaumcraft
+Scepter	权杖		Thaumcraft
+Staff	手杖		Thaumcraft
+Wand Focus	法杖核心	 Thaumcraft	
+Cap	杖端		Thaumcraft
+Rod	杖柄		Thaumcraft
+Staff Core	杖芯		Thaumcraft
+Seal	印记		Thaumcraft
+Control Seal	操控印记		Thaumcraft
+Warp	扭曲		Thaumcraft
+Cast	铸模		Tinkers' Construct
+Pattern	模具		Tinkers' Construct
+Sand Cast	沙子铸模		Tinkers' Construct
+Red Sand Cast	红沙铸模		Tinkers' Construct
+Gold Cast	金质铸模		Tinkers' Construct
+Repair Kit	修补件		Tinkers' Construct
+Pick	镐头		Tinkers' Construct
+Small Axe Head	小型斧刃		Tinkers' Construct
+Small Blade	小型剑刃		Tinkers' Construct
+Sign Head	牌板		Tinkers' Construct
+Bow Limb	弓臂		Tinkers' Construct
+Hammer Head	锤头		Tinkers' Construct
+Board Axe Head	板斧刃		Tinkers' Construct
+Board Blade	宽刃		Tinkers' Construct
+Tool Binding	绑定结		Tinkers' Construct
+Round Plate	圆板		Tinkers' Construct
+Large Plate	大板		Tinkers' Construct
+Bowstring	弓弦		Tinkers' Construct
+Tool Handle	工具手柄		Tinkers' Construct
+Tough Handle	坚韧手柄		Tinkers' Construct
+Bow Grip	弓把		Tinkers' Construct
+Blazing Blood	烈焰血		Tinkers' Construct
+Blood	血		Tinkers' Construct
+Earth Slime	黏液		Tinkers' Construct
+Sky Slime	碧空黏液		Tinkers' Construct
+Magma	岩浆		Tinkers' Construct
+Ender Slime	末影黏液		Tinkers' Construct
+Ichor	灵浆		Tinkers' Construct
+Sling	弹弓		Tinkers' Construct
+Piggybackpack	肩驮架		Tinkers' Construct
+Tinker Station	工匠站		Tinkers' Construct
+Crafting Station	工作站		Tinkers' Construct
+Tinker's Anvil	工匠砧		Tinkers' Construct
+Part Builder	部件制造台		Tinkers' Construct
+Modifier Worktable	强化调配台		Tinkers' Construct
+Part Chest	部件箱		Tinkers' Construct
+Tinker's Chest	工匠箱		Tinkers' Construct
+Cast Chest	铸模箱		Tinkers' Construct
+Pickaxe	镐		Tinkers' Construct
+Sledge Hammer	大锤		Tinkers' Construct
+Vein Hammer	矿脉锤		Tinkers' Construct
+Pickadze	凿石锹		Tinkers' Construct
+Board Axe	板斧		Tinkers' Construct
+Kama	短刃镰		Tinkers' Construct
+Scythe	镰刀		Tinkers' Construct
+Sword	剑		Tinkers' Construct
+Cleaver	劈刀		Tinkers' Construct
+Crossbow	弩		Tinkers' Construct
+Longbow	长弓		Tinkers' Construct
+Flint And Brick	焦砖打火石		Tinkers' Construct
+Staff	手杖		Tinkers' Construct
+Plate	镶板		Tinkers' Construct
+Traveler	旅行者		Tinkers' Construct
+Slimeskull	黏液头颅		Tinkers' Construct
+Crystalshot	水晶镞		Tinkers' Construct
+Slime Dirt	黏液泥土		Tinkers' Construct
+Slime Grass	黏液草方块		Tinkers' Construct
+Greenheart	绿心		Tinkers' Construct
+Skyroot	天根		Tinkers' Construct
+Bloodshroom	血菌		Tinkers' Construct
+Necrotic Bone	噬生之骨		Tinkers' Construct
+Seared Stone	焦黑石		Tinkers' Construct
+Scorched Stone	焦褐石		Tinkers' Construct
+Slimewood	黏木		Tinkers' Construct
+Blood Bone	血之骨		Tinkers' Construct
+Rose Gold	玫瑰金		Tinkers' Construct
+Slimesteel	黏钢		Tinkers' Construct
+Nahuatl	纳瓦特尔		Tinkers' Construct
+Amethyst Bronze	紫水晶青铜		Tinkers' Construct
+Pig Iron	生铁		Tinkers' Construct
+Darkthread	黑耀丝线		Tinkers' Construct
+Cobalt	钴		Tinkers' Construct
+Manyullyn	玛玉灵		Tinkers' Construct
+Hepatizon	黑色科林斯青铜		Tinkers' Construct
+Queen Slime	皇后史莱姆		Tinkers' Construct
+Blazing Bone	烈焰之骨		Tinkers' Construct
+Soulsteel	魂钢		Tinkers' Construct
+Ancient Hide	远古兽皮		Tinkers' Construct
+Knightsteel	骑士史莱姆		Tinkers' Construct
+Whitestone	白石		Tinkers' Construct
+Necronium	辐射之骨		Tinkers' Construct
+Plated Slimewood	复合黏木		Tinkers' Construct
+Seared Heater	焦黑加热器		Tinkers' Construct
+Smeltery Controller	冶炼炉控制器		Tinkers' Construct
+Drain	排液孔		Tinkers' Construct
+Duct	输导孔		Tinkers' Construct
+Chute	滑槽		Tinkers' Construct
+Seared Melter	焦黑熔化炉		Tinkers' Construct
+Basin	铸造盆		Tinkers' Construct
+Table	铸件台		Tinkers' Construct
+Channel	浇注道		Tinkers' Construct
+Faucet	浇注口		Tinkers' Construct
+Fuel Tank	燃料储罐		Tinkers' Construct
+Fuel Gauge	材料量器		Tinkers' Construct
+Ingot Tank	材料储罐		Tinkers' Construct
+Ingo Gauge	材料量器		Tinkers' Construct
+Clear	纯净	形容词	EnderIO
+Dark	暗色	形容词	EnderIO
+Enlightened	荧光	形容词	EnderIO
+Fused Quartz	石英玻璃		EnderIO
+Conduit	导管		EnderIO
+Photovoltaic Cell	光伏电池		EnderIO
+The Ender	终结之剑		EnderIO
+Dark Steel	玄钢		EnderIO
+End Steel	末地钢		EnderIO
+Energetic Alloy	充能合金		EnderIO
+Soularium	魂金		EnderIO
+Vibrant Alloy	振动合金		EnderIO
+Copper Alloy	铜合金		EnderIO
+Infinity	无限	材料名	EnderIO
+Pulsating Alloy	脉冲合金		EnderIO
+Conductive Alloy	导电合金		EnderIO
+Redstone Alloy	红石合金		EnderIO
+Rocket Fuel	火箭燃料		EnderIO
+Liquid Sunshine	液态阳光		EnderIO
+Vapor Of Levity	轻盈之气		EnderIO
+Fluid of the Void	虚空流体		EnderIO
+Fire Water	火焰水		EnderIO
+Xp Juice	经验汁		EnderIO
+Nutrient Distillation	营养精华液		EnderIO
+Cloud Seed	云之精华		EnderIO
+Cloud Seed Concentrated	浓缩云之精华		EnderIO
+Hexcasting	咒法学		
+Mind	意识		
+Media	媒质		
+Iota	iota		
+Action	操作		
+Perform	执行	操作动词	
+Pattern	图案		
+Draw	绘制	图案动词	
+Spell	法术		
+Great Spell	卓越法术		
+Hex	咒术		
+Cast	施放	法术、咒术动词	
+Evaluate	运行	图案、通用动词	
+Hex Grid	咒术网格		
+Lore	故事		
+Mishap	事故		
+Overcast	过度施法		
+Amethyst Dust	紫水晶粉		
+Charged Amethyst	充能紫水晶		
+Staff	法杖		
+Scroll	卷轴		
+Ancient Scroll	远古卷轴		
+Thought-Knot	结念绳		
+Focus	核心		
+Spellbook	法术书		
+Cypher	杂件		
+Trinket	缀品		
+Artifact	造物		
+Abacus	算盘		
+Phial	试剂瓶		
+Phial	媒质之瓶		
+Jeweler‘s Hammer	珠宝匠锤		
+Scrying Lens	探知透镜		
+Pigment	染色剂		
+Slate	石板	薄层	
+Slate	板岩	方块	
+Directrix	导向石		
+Impetus	促动石		
+Spell Circle	法术环		
+Akashic Library	阿卡夏图书馆		
+Akashic Record	阿卡夏记录		
+Akashic Bookshelf	阿卡夏书架		
+Akashic Ligature	阿卡夏桥接块		
+Quenched Allay	淬灵晶		
+Mindsplice	制念		
+Reflection	精思		
+Purification	纯化		
+Distillation	馏化		
+Exaltation	提整		
+Decomposition	分解		
+Disintegration	拆解		
+Gambit	策略		
+Stack	栈		
+Ravenmind	渡鸦之思		
+Number	数		
+Boolean	布尔值		
+Entity	实体		
+Vector	向量		
+List	列表		
+Influence	虚指		
+Null	Null		
+Garbage	垃圾		
+Consideration	考察		
+Introspection	内省		
+Retrospection	反思		
+Evanition	消解		
+Set	集合		
+Meta-Evaluation	元运行		
+Nadir	天底法术		
+Nadir	西沉	法术名	
+Zenith	天顶法术		
+Zenith	当空	法术名	
+Sentinel	哨卫		
+Greater Sentinel	卓越哨卫		
+Flay	剥离	意识	
+Wooleye	毡障		
+Slipway	质道		
+Relay	继链器		
+Mote Nexus	物元枢纽		
+Wisp	咒灵		
+Projectile Wisp	弹射式咒灵		
+Cyclic Wisp	循环式咒灵		
+Great Wisp	卓越咒灵		
+Link	链接		
+Gate	门径		
+Mote	物元		
+Type	类型		
+Everbook	永恒之书		
+String	字符串		
+Matrix	矩阵		
+Construct	组构体		
+Spider Construct	蛛形组构体		
+Robot Construct	机械组构体		
+Blaze Construct	烈焰组构体		
+Command	命令	组构体	
+Construct Broadcaster	组构体广播台		
+Hex Shield	咒术护盾		
+Figment	虚意识		
+Item Stack	物品组		
+Grand Spell	卓伟法术		
+Crystallized Scroll	晶化卷轴		
+Dictionary	字典		
+Stove	炉灶		Farmer's Delight
+Cooking Pot	厨锅		Farmer's Delight
+Basket	篮子		Farmer's Delight
+Cutting Board	砧板		Farmer's Delight
+Skillet	煎锅		Farmer's Delight
+Cabinet/Pantry	橱柜/厨柜	根据实际情况单模组内统一即可	Farmer's Delight
+Rope	绳子		Farmer's Delight
+Tatami	榻榻米		Farmer's Delight
+Rich Soil	沃土		Farmer's Delight
+Crate	箱装	例子：Carrot Crate, 箱装胡萝卜	Farmer's Delight
+Straw Bale	稻草		Farmer's Delight
+Rice Bale	稻米		Farmer's Delight
+Budding	萌芽的	形容词	Farmer's Delight
+Colony	菌落		Farmer's Delight
+Sandy	沙生	形容词	Farmer's Delight
+Wild	野生	形容词	Farmer's Delight
+Straw	草秆		Farmer's Delight
+Canvas	粗布		Farmer's Delight
+Tree Bark	树皮		Farmer's Delight
+Knife	刀		Farmer's Delight
+Plate of	盘装		Farmer's Delight
+Stuffed	填馅	形容词	Farmer's Delight
+Bowl of	碗装		Farmer's Delight
+Medley	拼盘	例子：Rice Roll Medley, 寿司拼盘	Farmer's Delight
+Ratatouille	蔬菜杂烩		Farmer's Delight
+Stew	炖	例子：Beef Stew, 牛肉炖	Farmer's Delight
+Barbecue on a Stick	烧烤串		Farmer's Delight
+Crust	酥皮		Farmer's Delight
+Slice of	切片		Farmer's Delight
+Raw	生	形容食物的生熟	Farmer's Delight
+Cooked	熟	形容食物的生熟	Farmer's Delight
+Rotten	烂	形容食物的新鲜程度	Farmer's Delight
+Cut	丁	形容食物切制后的大小	Farmer's Delight
+Hot Cocoa	热可可		Farmer's Delight
+Faucet	水龙头		Supplementaries
+Wall Lantern	壁灯		Supplementaries
+Planter	种植盆		Supplementaries
+Bellows	风箱		Supplementaries
+Wind Vane	风向标		Supplementaries
+Crank	曲柄		Supplementaries
+Jar	玻璃罐		Supplementaries
+Tinted	着色	形容词	Supplementaries
+Turn Table	转台		Supplementaries
+Pedestal	展示台		Supplementaries
+Illuminator	照明器		Supplementaries
+Notice Board	布告栏		Supplementaries
+Speaker Block	扬声器		Supplementaries
+Sconce	加固火把		Supplementaries
+Sign Post	路标		Supplementaries
+Candelabra	灯台		Supplementaries
+Globe	地球仪	物品	Supplementaries
+Cage	笼子		Supplementaries
+Cog Block	齿轮方块		Supplementaries
+Sack	麻布袋		Supplementaries
+Item Shelf	物品架		Supplementaries
+Flute	竹笛		Supplementaries
+Rope	绳子		Supplementaries
+Spikes	刺		Supplementaries
+Fodder	饲料堆		Supplementaries
+Flax	亚麻	一种农作物	Supplementaries
+Pile	堆		Supplementaries
+Frame	框架		Supplementaries
+Brace	支架		Supplementaries
+Tile	瓦		Supplementaries
+Goblet	酒杯		Supplementaries
+Flag	横旗	与原版旗帜方向不同，为水平方向	Supplementaries
+Statue	雕像		Supplementaries
+Gate	栏杆门		Supplementaries
+Slingshot	弹弓		Supplementaries
+Present	礼物盒		Supplementaries
+Way Sign	路标		Supplementaries
+Urn	瓮		Supplementaries
+Ash	灰烬		Supplementaries
+Trapped Present	陷阱礼物盒		Supplementaries
+Candle Holder	蜡烛烛台		Supplementaries
+Window	窗户		Create
+Window Pane	窗户板		Create
+Andesite Alloy	安山合金		Create
+Casing	机壳		Create
+Chain	链条		Create
+Cogwheel	齿轮		Create
+Shaft	传动杆		Create
+Tunnel	隧道		Create
+Basin	工作盆		Create
+Belt	传送带		Create
+Nixie Tube	辉光管		Create
+Sail	风帆		Create
+Seat	坐垫		Create
+Toolbox	工具箱		Create
+Valve Handle	阀门手轮		Create
+Blaze Burner	烈焰人燃烧室		Create
+Cart Assembler	矿车装配站		Create
+Chute	溜槽		Create
+Clipboard	剪切板		Create
+Clockwork Bearing	发条轴承		Create
+Clutch	离合器		Create
+Observer	侦测器		Create
+Contraption Controls	动态结构控制器		Create
+Backtank	背罐		Create
+Copycat	伪装		Create
+Base	基底		Create
+Panel	盖板		Create
+Step	半阶		Create
+Crate	板条箱		Create
+Fluid Tank	流体储罐		Create
+Crushing Wheel	粉碎轮		Create
+Deployer	机械手		Create
+Depot	置物台		Create
+Display Board	翻牌显示器		Create
+Display Link	显示链接器		Create
+Elevator	升降机		Create
+Valve	阀门		Create
+Flywheel	飞轮		Create
+Layered	层叠	形容石材的一个变种	Create
+Bearing	轴承		Create
+Crafter	合成器		Create
+Drill	钻头	用于破坏方块或伤害生物的元件	Create
+Harvester	收割机		Create
+Mixer	搅拌器		Create
+Plough	犁		Create
+Press	辊压机		Create
+Pump	泵		Create
+Roller	压路机		Create
+Saw	锯	用于砍树，也可以用于切割物品的的元件	Create
+Bracket	支架		Create
+Girder	梁		Create
+Nozzle	分散网		Create
+Millstone	石磨		Create
+Placard	置物板		Create
+Pulley	滑轮		Create
+Rose Quartz	玫瑰石英		Create
+Scoria	熔渣		Create
+Scorchia	焦黑熔渣		Create
+Spout	注液器		Create
+Tiled	十字	形容一种玻璃的变种	Create
+Contraption	装置	名词	Create
+Contraption	装配过的	形容词	Create
+Contraption	动态结构	借助多种方块组成的多方块结构实体	Create
+Super Glue	强力胶		Create
+Brass	黄铜		Create
+Zinc	锌		Create
+Cinder	余烬		Create
+Slot Cover	盖板		Create
+Blueprint/Schematic	蓝图		Create
+Dough	面团		Create
+Goggle	护目镜		Create
+Honeyed	蜜渍	形容词	Create
+Mechanism	构件		Create
+Track	列车轨道		Create
+Propeller	扇叶		Create
+Shadow Steel	暗影钢		Create
+Ponder	思索	内置教程	Create
+Sequenced Assembly	流水线装配	使用各类机械与当前的半成品配方交互若干次以完成物品的制作方式	Create
+RPM	RPM	用来表示旋转动力的转速	Create
+Overstressed	过载	应力网络内的应力消耗大于应力量时发生的现象	Create
+Cell	元件		Applied Energistics 2
+Charger	充能器		Applied Energistics 2
+Certus Quartz Crystal	赛特斯石英水晶		Applied Energistics 2
+Certus Quartz	赛特斯石英		Applied Energistics 2
+Fluix Crystal	福鲁伊克斯水晶		Applied Energistics 2
+Fluix	福鲁伊克斯		Applied Energistics 2
+Monitor	监控器		Applied Energistics 2
+Unit	单元		Applied Energistics 2
+Dense	致密		Applied Energistics 2
+Drive	驱动器		Applied Energistics 2
+Flawed	有瑕的	形容词	Applied Energistics 2
+Flawless	无暇的	形容词	Applied Energistics 2
+Interface	接口		Applied Energistics 2
+Port	端口		Applied Energistics 2
+Paint	染色球	名词	Applied Energistics 2
+Pattern	样板	名词，AE系	Applied Energistics 2
+Sky Stone	陨石		Applied Energistics 2
+Spatial	空间		Applied Energistics 2
+Interfaces	接口		Applied Energistics 2
+Component	组件		Applied Energistics 2
+Channel	频道		Applied Energistics 2
