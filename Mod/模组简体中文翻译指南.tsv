@@ -198,12 +198,12 @@ Crimson	绯红木	形容物品的材质
 Lava	熔岩	在 1.10中译名已经改为“熔岩”而不是“岩浆”	
 Cracked	裂纹	形容石材的一个变种	
 Infested	虫蚀	形容石材的一个变种	
-Stripped	去皮			
+Stripped	去皮		
 Polished	磨制		
 Waxed	涂蜡		
 Cut	切制		
-Exposed	斑驳的		形容铜的氧化程度	
-Oxidized	氧化的		形容铜的氧化程度 
+Exposed	斑驳的		形容铜的氧化程度
+Oxidized	氧化的		形容铜的氧化程度
 Weathered	锈蚀的		形容铜的氧化程度 
 Steam	蒸汽		Mekanism
 Ender	末影		
@@ -365,7 +365,7 @@ Belt	腰带		Thaumcraft
 Wand	法杖		Thaumcraft
 Scepter	权杖		Thaumcraft
 Staff	手杖		Thaumcraft
-Wand Focus	法杖核心	 Thaumcraft	
+Wand Focus	法杖核心	 	Thaumcraft
 Cap	杖端		Thaumcraft
 Rod	杖柄		Thaumcraft
 Staff Core	杖芯		Thaumcraft
