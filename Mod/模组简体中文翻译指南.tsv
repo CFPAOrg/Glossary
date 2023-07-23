@@ -51,7 +51,7 @@ Toast	弹窗
 Actionbar	动作栏	
 Client	客户端	
 Server	服务端，服务器	
-Realm	Realm/领域服	
+Realms	Realm/领域服	
 Menu Screen	菜单屏幕	
 Main Hand	主手	
 Off Hand	副手	
@@ -191,9 +191,9 @@ Orange	橙色
 White	白色	
 Stained	染色	形容词
 Warped	诡异	
-Warped <>	(?)诡异木<>	
+Warped	诡异木	形容物品的材质
 Crimson	绯红	
-Crimson <>	(?)绯红木<>	
+Crimson	绯红木	形容物品的材质
 Lava	熔岩	在Minecraft 1.10中译名已经改为“熔岩”而不是“岩浆”
 Cracked	裂纹	形容石材的一个变种
 Infested	虫蚀	形容石材的一个变种
@@ -218,12 +218,13 @@ Door	门
 Boat	船	
 Fence	栅栏	
 Fence Gate	栅栏门	
-Brick	砖，砖块	
+Brick	砖，砖块	与Minecraft中红砖有所区分，指“砖”这一类方块
 Smooth	平滑	
 Chiseled	雕纹	在Minecraft 1.19.3中译名已经改为“雕纹”而不是“錾质”
 Block	块	
 Ingot	锭	
 Ore	矿石	
+Chunk	(?)矿块，碎块	
 Nugget	粒	
 Shard	碎片	
 Fragment	残片	
@@ -269,7 +270,7 @@ Screwdriver	螺丝刀
 Mortar	臼	
 Chisel	凿/凿子	
 Paxel	镐尖斧	
-AIOT	全能工具/AIOT	
+AIOT	全能工具	
 Broadsword	大剑	
 Longsword	长剑	
 Rapier	西洋剑	
@@ -279,7 +280,7 @@ Mattock	鹤嘴锄
 Wire Cutter	剪线钳	
 Scoop	捕蜂网	
 Branch Cutter	剪枝工具	
-Universal Spade	工兵铲	
+Universal Spade	万用锹	
 Knife	刀	
 Butchery Knife	屠刀	
 Sense/Scythe	镰刀	
@@ -307,10 +308,10 @@ Crystal	水晶
 Coil	线圈	
 Tank	储罐	储存流体容器，物品或方块
 Tank	流体/气体/液体缓存（视语境）	机器内部缓存
-Tank	<根据语境>	其它意思，如鱼缸，或者能开炮的那种等
+Tank	根据语境翻译	其它意思，如鱼缸，或者能开炮的那种等
 Ritual	仪式	
 Arrow	箭	
-Arrow of <>	<>之箭	
+Arrow of	之箭	
 Potion	药水	
 Splash	喷溅型	
 Lingering	滞留型	
@@ -753,7 +754,10 @@ RPM	RPM	Create模组中用来表示旋转动力的转速
 Overstressed	过载	Create模组中应力网络内的应力消耗大于应力量时发生的现象
 Cell	元件	
 Charger	充能器	
-Certus Quartz	赛特斯石英水晶	
+Certus Quartz Crystal	赛特斯石英水晶	
+Certus Quartz	赛特斯石英
+Fluix Crystal	福鲁伊克斯水晶	
+Fluix	福鲁伊克斯	
 Monitor	监控器	
 Unit	单元	
 Dense	致密	
@@ -765,3 +769,7 @@ Port	端口
 Paint	染色球	名词
 Pattern	样板	名词，AE系
 Sky Stone	陨石	
+Spatial	空间	
+Interfaces	接口	
+Component	组件	
+Channel	频道	
