@@ -102,7 +102,7 @@ Biome	生物群系
 Chunk	区块		
 Void	虚空		
 Inventory	物品栏	玩家，生物	
-Inventory	物品缓存	机器	Any
+Inventory	物品缓存	机器	
 Filter	过滤器		
 Potion	药水		
 Effect	效果		
