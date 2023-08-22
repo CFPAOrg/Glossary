@@ -769,6 +769,139 @@ Paint	染色球	名词	Applied Energistics 2
 Pattern	样板	名词，AE系	Applied Energistics 2
 Sky Stone	陨石		Applied Energistics 2
 Spatial	空间		Applied Energistics 2
-Interfaces	接口		Applied Energistics 2
 Component	组件		Applied Energistics 2
 Channel	频道		Applied Energistics 2
+Creosote Oil	杂酚油		Immersive Engineering
+Plant Oil	植物油		Immersive Engineering
+Ethanol	乙醇		Immersive Engineering
+Biodiesel	生物柴油		Immersive Engineering
+Herbicide	除草剂		Immersive Engineering
+Redstone Acid	红石酸		Immersive Engineering
+Acetaldehyde	乙醛		Immersive Engineering
+Phenolic Resin	酚醛树脂		Immersive Engineering
+Plating	金属板		Immersive Engineering
+Ornate Frame	精致框架		Immersive Engineering
+Windmill	风车		Immersive Engineering
+Magnetic Shield Glove	磁力护盾手套		Immersive Engineering
+Chemthrower Tank	化学流体罐		Immersive Engineering
+Railgun	磁轨炮		Immersive Engineering
+Bituminous Coal	烟煤		Immersive Engineering
+Silt	粉砂		Immersive Engineering
+Igneous Rock	火成岩		Immersive Engineering
+Pentlandite	镍黄铁矿		Immersive Engineering
+Chalcopyrite	黄铜矿		Immersive Engineering
+Laterite	铁矾土矿		Immersive Engineering
+Auricupride	金铜矿		Immersive Engineering
+Galena	方铅矿		Immersive Engineering
+Cinnabar	朱砂矿		Immersive Engineering
+Uraninite	沥青铀矿		Immersive Engineering
+Beryl	铯绿柱石矿		Immersive Engineering
+Mephitic Quarzite	硫石英矿		Immersive Engineering
+Archaic Digsite	远古矿址		Immersive Engineering
+Cassiterite	锡石矿		Immersive Engineering
+Cooperite	硫砷铂矿		Immersive Engineering
+Olframite	钨锰铁矿		Immersive Engineering
+Mineral	矿物		Immersive Engineering
+Saturation	饱和度		Immersive Engineering
+Yield	产量		Immersive Engineering
+Sample	样本		Immersive Engineering
+Molds	模具		Immersive Engineering
+Projectiles	子弹		Immersive Engineering
+Electrodes	电极		Immersive Engineering
+Integrity	完整度		Immersive Engineering
+Firerate	射击速度		Immersive Engineering
+Noise	噪声		Immersive Engineering
+Luck	幸运		Immersive Engineering
+Flare Colour	信号颜色		Immersive Engineering
+Revolver	左轮手枪		Immersive Engineering
+Chemical Thrower	化学喷射器		Immersive Engineering
+Mining Drill	岩心钻井		Immersive Engineering
+Buzzsaw	伐木机械锯		Immersive Engineering
+Plated Shield	重型盾牌		Immersive Engineering
+Balloon	气球		Immersive Engineering
+Banner	旗帜		Immersive Engineering
+Common	常见		Immersive Engineering
+Uncommon	良好		Immersive Engineering
+Rare	稀有		Immersive Engineering
+Epic	史诗		Immersive Engineering
+Masterwork	杰作		Immersive Engineering
+Food	食物		Immersive Engineering
+Tool	工具		Immersive Engineering
+Wiring	线材		Immersive Engineering
+Backplane	背板		Immersive Engineering
+Solder	焊料		Immersive Engineering
+Register	寄存器		Immersive Engineering
+Set	设置		Immersive Engineering
+Not	非		Immersive Engineering
+Or	或		Immersive Engineering
+And	与		Immersive Engineering
+Xor	异或		Immersive Engineering
+Nor	或非		Immersive Engineering
+Nand	与非		Immersive Engineering
+Xnor	同或		Immersive Engineering
+Imply	蕴涵		Immersive Engineering
+Nimply	蕴涵非		Immersive Engineering
+Horizontal	水平花纹		Immersive Engineering
+Vertical	垂直花纹		Immersive Engineering
+Packaged	板条花纹		Immersive Engineering
+Mining Area	采矿区域		Immersive Engineering
+Mining Level	采矿等级		Immersive Engineering
+Mining Speed	采矿速度		Immersive Engineering
+Coke Oven	焦炉		Immersive Engineering
+Crude Blast Furnace	高炉		Immersive Engineering
+Improved Blast Furnace	强化高炉		Immersive Engineering
+Core Sample	岩心样本		Immersive Engineering
+Alloy Kiln	合金窑		Immersive Engineering
+Treated Wood	防腐木		Immersive Engineering
+Slag	矿渣		Immersive Engineering
+Concrete	混凝土		Immersive Engineering
+Quickdry Concrete	速干混凝土		Immersive Engineering
+Kiln Brick	窑砖		Immersive Engineering
+Coke Brick	焦炉砖		Immersive Engineering
+Blast Brick	高炉砖		Immersive Engineering
+Reinforced Blast Brick	强化高炉砖		Immersive Engineering
+Duroplast	工程塑胶		Immersive Engineering
+Logic Unit	逻辑单元		Immersive Engineering
+Turntable	旋转台		Immersive Engineering
+Water Wheel	水车		Immersive Engineering
+Improved Windmill	改良风车		Immersive Engineering
+Post	木杆		Immersive Engineering
+Wallmount	壁挂支架		Immersive Engineering
+Sheetmetal	板金属		Immersive Engineering
+Engineering Block	工程块		Immersive Engineering
+LV	低压		Immersive Engineering
+MV	中压		Immersive Engineering
+HV	高压		Immersive Engineering
+Wire Connector	接线器		Immersive Engineering
+Wire Relay	继电器		Immersive Engineering
+Transformer	变压器		Immersive
+Switch	刀闸		Immersive Engineering
+Accumulator	蓄电池		Immersive Engineering
+Outlet	阀		Immersive Engineering
+Tesla Coil	特斯拉线圈		Immersive Engineering
+Floodlight	泛光灯		Immersive Engineering
+Turret	炮塔		Immersive Engineering
+Garden Cloche	园艺玻璃罩		Immersive Engineering
+Chute	滑道		Immersive Engineering
+Metal Press	金属冲压机		Immersive Engineering
+Crusher	粉碎机		Immersive Engineering
+Sawmill	锯木机		Immersive Engineering
+Silo	筒仓		Immersive Engineering
+Assembler	装配机		Immersive Engineering
+Bottling Machine	灌装机		Immersive Engineering
+Squeezer	挤压机		Immersive Engineering
+Fermenter	发酵机		Immersive Engineering
+Refinery	炼油厂		Immersive Engineering
+Excavator	挖掘机		Immersive Engineering
+Bucket Wheel	斗轮		Immersive Engineering
+Mixer	搅拌机		Immersive Engineering
+Structural Arm	结构臂		Immersive Engineering
+Industrial Hemp	工业大麻		Immersive Engineering
+Sawdust	锯末		Immersive Engineering
+Fiberboard	纤维块		Immersive Engineering
+Mechanical Component	机械零件		Immersive Engineering
+Electronic Component	电子元件		Immersive Engineering
+Fabric	布料		Immersive Engineering
+HOP Graphite	高定向热解石墨		Immersive Engineering
+Shader Grabbag	皮肤奖励袋		Immersive Engineering
+Ear Defender	耳罩		Immersive Engineering
