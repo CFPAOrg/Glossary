@@ -8,7 +8,9 @@
 
 `原版语言文件`从 Minecraft 中提取，去除了 3 行语言代码相关的行，剔除了 2 行中英不对应的行。其内容肯定比标准译名列表详尽，但未经术语清洗，有无效项目。
 
+`模组简体中文翻译指南`从各大模组的官方中文和 [CFPAOrg](https://github.com/CFPAOrg) 下的 [Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) 仓库中手动提取。内容与`原版语言文件`等有重合但更为详尽，可能会存在术语重复。
+
 ## 计划
 
--[ ] 组建我的世界模组术语库
+-[x] 组建我的世界模组术语库
 -[ ] 支持繁体中文
