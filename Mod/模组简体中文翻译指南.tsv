@@ -1,42 +1,45 @@
 Term	Translation	Remark	Source
 Shaped	有序		
 Shaped Crafting	有序合成		
-Shaped Recipe	有序配方		
+Shaped Recipe	有序配方	配方类型	
 Shapeless	无序		
 Shapeless Crafting	无序合成		
-Shapeless Recipe	无序配方		
-Waterlogging	含水		
-Recipe	配方		
-Crafting	合成		
+Shapeless Recipe	无序配方	配方类型	
+Waterlogging	含水	不完整方块中存在水的机制	
+Recipe	配方	引导新玩家游玩Minecraft的方式，通过帮助玩家了解合成、烧炼以及其他的方块和物品转化方式来使玩家熟悉游戏。
+Crafting	合成	在Minecraft中获得多种方块、工具和其他资源的方法	
 Smelt	烧炼	概括	
 Smelt	冶炼	矿物	
 Smelt	烧制	普通	
 Smelt	烹饪	食物	
-Breaking/Digging/Mining/Punching	挖掘		
-Digging Speed	挖掘速度		
+Hardness	硬度	决定了方块需要多长时间才能被挖掘	
 Breaking	破坏		
-Breeding	繁殖		
-Brewing	酿造		
-Farming	耕种		
-Blocking	防御		
-Dual wield	双持		
-Sneaking	潜行		
-Sprinting	疾跑		
-Item durability	物品耐久		
+Breaking/Digging/Mining/Punching	挖掘	玩家破坏方块的基本方式	
+Digging Speed	挖掘速度		
+Breeding	繁殖	允许动物间繁殖出新个体的游戏机制	
+Brewing	药水酿造	在酿造台中往水瓶里加入各种材料而制作药水、喷溅药水和滞留药水的过程。	
+Farming	生产	有目的、系统性地获取可再生资源的活动
+Blocking	防御	允许玩家对攻击作出抵挡的游戏机制	
+Dual wield	双持	能让玩家的两只手同时持有物品或方块的游戏机制	
+Sneaking	潜行	可以帮助玩家躲避敌人、免于摔落等的游戏机制	
+Sprinting	疾跑	允许玩家通过消耗饥饿来换取更快速度的移动方式	
+Item durability	物品耐久	部分物品的一项属性，限制了物品的使用次数	
 Durability	耐久/耐久度		
-Experience Level	经验等级		
-Experience Point/EXP/XP	经验值		
-Experience	经验		
+Experience Level	经验等级	“经验”的构成之一	
+Experience Point/EXP/XP	经验值	“经验”的构成之一	
+Experience	经验	玩家在战斗和生产活动中获得的可消耗资源	
 Oxygen/Air	氧气值		
-Hunger	饥饿		
-Hunger Value	饥饿值		
-Saturation	饱和度		
-Exhaustion	消耗度		
-Health	生命		
-Armor	护甲值		
-Armor Toughness	盔甲韧性		
+Drown	溺水	生物长时间不能呼吸后出现的情况
+Dryout	脱水	生物长时间不能呼吸后出现的情况
+Hunger	饥饿	代表玩家进食需求的指标，是生存模式中随玩家活动而消耗的重要资源	
+Hunger Value	饥饿值	玩家实体数据中的变量`foodLevel`	
+Saturation	饱和度	玩家实体数据中的变量`foodSaturationLevel`	
+Exhaustion	消耗度	玩家实体数据中的变量`foodExhaustionLevel`	
+Health	生命	生物的基础生命健康	
+Armor	护甲值	使生物受到的伤害降低的防护机制之一	
+Armor Toughness	盔甲韧性	使生物受到的伤害降低的防护机制之一	
 Ore Dictionary(OreDict)	矿物词典		Forge
-Coordinates	坐标		
+Coordinates	坐标	反映了玩家在世界中的位置	
 Tag	标签		
 Named Binary Tag/NBT	NBT/NBT格式		
 Data Values	数据值		
@@ -246,7 +249,6 @@ Bucket	桶
 Plate/Sheet	板		Create, Immersive Engineering etc
 Gear	齿轮		Thermal
 Coin	币		Thermal
-Rune	符文		Botania
 Helmet	头盔		
 Chestplate	胸甲		
 Leggings	护腿		
@@ -905,3 +907,66 @@ Fabric	布料		Immersive Engineering
 HOP Graphite	高定向热解石墨		Immersive Engineering
 Shader Grabbag	皮肤奖励袋		Immersive Engineering
 Ear Defender	耳罩		Immersive Engineering
+Botanical Brewery	植物酿造		Botania
+Elven Trade	精灵交易		Botania
+Floating Flowers	浮空花		Botania
+Mana Infusion	魔力灌注		Botania
+Petal Apothecary	花瓣炼制		Botania
+Runic Altar	符文祭坛		Botania
+Pure Daisy	白雏菊		Botania
+Orechid	凝矿兰		Botania
+Orechid Ignem	炎矿兰		Botania
+Marimorphosis	异构花		Botania
+Petal	神秘花瓣		Botania
+Dreamwood	梦之木		Botania
+Livingwood	活木		Botania
+Glimmering	微光		Botania
+Manasteel	魔力钢		Botania
+Terrasteel	泰拉钢		Botania
+Dragonstone	龙石		Botania
+Mana	魔力		Botania
+Aries	白羊		Botania
+Taurus	金牛		Botania
+Gemini	双子		Botania
+Cancer	巨蟹		Botania
+Leo	狮子		Botania
+Virgo	处女		Botania
+Libra	天秤		Botania
+Scorpio	天蝎		Botania
+Sagittarius	射手		Botania
+Capricorn	魔蝎		Botania
+Aquarius	水瓶		Botania
+Pisces	双鱼		Botania
+Burst	脉冲		Botania
+Pixie	小精灵		Botania
+Flame Ring	小精灵		Botania
+Gaia	火焰圈		Botania
+Spark	火花		Botania
+Magic Missile	魔法飞弹		Botania
+Thorn Chakram	荆棘飞轮		Botania
+Ender Air	末地空气		Botania
+Ender Air Cloud	末地空气云团		Botania
+Mana Pool	魔力池		Botania
+Pink Wither	粉色凋灵		Botania
+Luminizer Beam	微光束		Botania
+Manastorm Epicenter	魔力风暴中心		Botania
+Treasury Weapon	贮藏库武器		Botania
+Falling Star	落星		Botania
+The Everlasting Guilty	永恒		Botania
+Diluted	稀释		Botania
+Fabulous	神话		Botania
+Runic Altar	符文祭坛		Botania
+Pylon	水晶		Botania
+Natura	自然		Botania
+Gaia	盖亚		Botania
+Abstruse	奥秘		Botania
+Spectral	幻影		Botania
+Infrangible	不破		Botania
+Elven	精灵		Botania
+Smokey	烟熏		Botania
+Blaze	烈焰		Botania
+Lavender	熏香		Botania
+Sunny	金黄		Botania
+Enchanted	蕴魔		Botania
+Rod	杖		Botania
+Rune	符文		Botania
