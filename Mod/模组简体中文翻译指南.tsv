@@ -40,53 +40,54 @@ Armor	护甲值	使生物受到的伤害降低的防护机制之一
 Armor Toughness	盔甲韧性	使生物受到的伤害降低的防护机制之一	
 Ore Dictionary(OreDict)	矿物词典		Forge
 Coordinates	坐标	反映了玩家在世界中的位置	
-Tag	标签		
-Named Binary Tag/NBT	NBT/NBT格式		
-Data Values	数据值		
-Target Selector	目标选择器		
-Feature	地物	地形特征	
-Advancement	进度		
-Achievement	成就		
-Particle	粒子		
-Glint	光效		
-Command	命令		
-Toast	弹窗		
+Tag	标签	允许玩家使用JSON文件将游戏资源分组	
+Named Binary Tag/NBT	NBT/NBT格式	Minecraft中用于向文件中存储数据的一种存储格式	
+Data Values	数据值	决定了Java版内不同种类的方块和物品（Java 1.13+）	
+Target Selector	目标选择器	可在无需指定确切的玩家名称或UUID的情况下在命令中选择任意玩家与实体	
+Feature	地物	在地形生成后在每个区块生成的装饰性方块结构	
+Advancement	进度	是用来逐步引导新手玩家融入Minecraft，并给玩家提供挑战的系统	
+Achievement	成就	是Java版中已移除的挑战系统，由进度取代	
+Particle	粒子	是Minecraft中一种特殊的图形效果，在特定事件发生（比如爆炸、降雨、用熔炉进行烧炼）时出现	
+Glint	光效	附魔后赋予盔甲、工具、武器以及书等物品	
+Command	命令	输入特定文本字符串而激活的高级功能	
+Toast	弹窗	出现在游戏画面上的右上角[仅Java版]或顶部[仅基岩版]的临时性文本框	
+Notification	通知	出现在游戏画面上的右上角[仅Java版]或顶部[仅基岩版]的临时性文本框	
 Actionbar	动作栏		
 Client	客户端		
 Server	服务端，服务器		
-Realms	Realm/领域服		
+Realms	Realm/领域服	是官方的订阅式服务器托管服务	
 Menu Screen	菜单屏幕		
 Main Hand	主手		
 Off Hand	副手		
-Building Blocks	建筑方块		
-Decoration Blocks	装饰性方块		
-Redstone	红石		
-Transportation	交通运输		
-Miscellaneous	杂项		
-Foodstuffs	食物		
-Tools	工具		
-Combat	战斗用品		
-Brewing	酿造		
-Saved Hotbars	已保存的快捷栏		
-Survival Inventory	生存模式物品栏		
-Colored Blocks	染色方块		
-Natural Blocks	自然方块		
-Functional Blocks	功能方块		
-Redstone Blocks	红石方块		
-Tools & Utilities	工具与实用物品		
-Food & Drinks	食品与饮品		
-Ingredients	原材料		
-Spawn Eggs	刷怪蛋		
-Operator Utilities	管理员用品		
-Block	方块		
-Item	物品		
-Tools	工具		
-Armor	盔甲		
+Building Blocks	建筑方块	创造模式标签栏中的创造标签页	
+Decoration Blocks	装饰性方块	创造模式标签栏中的创造标签页	
+Redstone	红石	创造模式标签栏中的创造标签页	
+Transportation	交通运输	创造模式标签栏中的创造标签页	
+Miscellaneous	杂项	创造模式标签栏中的创造标签页	
+Foodstuffs	食物	创造模式标签栏中的创造标签页	
+Tools	工具	创造模式标签栏中的创造标签页	
+Combat	战斗用品	创造模式标签栏中的创造标签页	
+Brewing	酿造	创造模式标签栏中的创造标签页	
+Saved Hotbars	已保存的快捷栏	创造模式标签栏中的创造标签页	
+Survival Inventory	生存模式物品栏	创造模式标签栏中的创造标签页	
+Creative Inventory	创造模式物品栏	是创造模式的玩家无限获取物品的基本方式	
+Colored Blocks	染色方块	创造模式标签栏中的创造标签页	
+Natural Blocks	自然方块	创造模式标签栏中的创造标签页	
+Functional Blocks	功能方块	创造模式标签栏中的创造标签页	
+Redstone Blocks	红石方块	创造模式标签栏中的创造标签页	
+Tools & Utilities	工具与实用物品	创造模式标签栏中的创造标签页	
+Food & Drinks	食品与饮品	创造模式标签栏中的创造标签页	
+Ingredients	原材料	创造模式标签栏中的创造标签页	
+Spawn Eggs	刷怪蛋	创造模式标签栏中的创造标签页	
+Operator Utilities	管理员用品	创造模式标签栏中的创造标签页	
+Block	方块	Minecraft里最基本的组成单位	
+Item	物品	是只会出现在玩家的物品栏和手上的物体，它们不能在游戏的世界中直接放置	
+Tools	工具	是一种能让玩家的动作更快速、便捷、收集无法用手获得的资源、获得信息，或是其他活动的物品	
+Armor	盔甲	是可由生物穿戴的物品，分为头盔、胸甲、护腿和靴子4种，有不同的盔甲材料种类	
 GUI/Gui	GUI		
-HUD	HUD		
-Creative Inventory	创造模式物品栏		
+HUD	HUD/平视显示器	是玩家用于检测自身健康和游戏状态的直接方式，叠加在玩家在游戏中的视野上	
 Creative Tab	创造标签页		
-Mob	生物		
+Mob	生物	是指游戏世界中有生命的、可自主移动的一类实体	
 Monster	怪物		
 Entity	实体		
 Player	玩家		
@@ -97,16 +98,17 @@ Gas	气体
 Fluid	流体		
 Equipment	装备		
 Spawn	生成		
-Overworld	主世界		
-Nether	下界		
-End	末地		
-Dimension	维度		
-Biome	生物群系		
-Chunk	区块		
-Void	虚空		
+Overworld	主世界	是Minecraft玩家的游戏征途开始时所在的维度	
+Nether	下界	是Minecraft玩家的游戏征途开始时所在的维度。	
+End	末地	整个维度都是由末地石构成的浮空岛，可通过进入要塞中的末地传送门到达。	
+Dimension	维度	Minecraft中平行世界的称谓	
+Biome	生物群系	Minecraft世界中形态各异的地区，有着多样的地理特征、植物群、海拔高度、温度、湿度及天空、水域和植被颜色	
+Chunk	区块	Minecraft世界里一个大小为16×16的区域	
+Void	虚空	世界之外的区域	
+The Void	虚空	是一种空白的生物群系	
 Inventory	物品栏	玩家，生物	
 Inventory	物品缓存	机器	
-Filter	过滤器		
+Filter	过滤器	可酿造的物品，使用后会给使用者一些特殊的、有时间限制的效果	
 Potion	药水		
 Effect	效果		
 Enchantment	魔咒	名词	
