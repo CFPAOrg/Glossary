@@ -29,8 +29,8 @@ Experience Level	经验等级	“经验”的构成之一
 Experience Point/EXP/XP	经验值	“经验”的构成之一	
 Experience	经验	玩家在战斗和生产活动中获得的可消耗资源	
 Oxygen/Air	氧气值		
-Drown	溺水	生物长时间不能呼吸后出现的情况
-Dryout	脱水	生物长时间不能呼吸后出现的情况
+Drown	溺水	生物长时间不能呼吸后出现的情况	
+Dryout	脱水	生物长时间不能呼吸后出现的情况	
 Hunger	饥饿	代表玩家进食需求的指标，是生存模式中随玩家活动而消耗的重要资源	
 Hunger Value	饥饿值	玩家实体数据中的变量`foodLevel`	
 Saturation	饱和度	玩家实体数据中的变量`foodSaturationLevel`	
