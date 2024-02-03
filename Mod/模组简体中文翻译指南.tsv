@@ -54,7 +54,7 @@ Toast	弹窗	出现在游戏画面上的右上角[仅Java版]或顶部[仅基岩
 Notification	通知	出现在游戏画面上的右上角[仅Java版]或顶部[仅基岩版]的临时性文本框	
 Actionbar	动作栏		
 Client	客户端		
-Server	服务端，服务器		
+Server	服务端/服务器		
 Realms	\	是官方的订阅式服务器托管服务，不进行翻译	
 Menu Screen	菜单屏幕		
 Main Hand	主手		
@@ -128,14 +128,14 @@ Debug screen	调试屏幕
 Config/Configuration	配置		
 Mk/mk	型		ProjectE
 Mode	模式		Any
-Input	输入，原料		Any
-Output	输出，产物		Any
+Input	输入/原料		Any
+Output	输出/产物		Any
 Redstone Signal	红石信号		
 Attributes	属性		Wings etc
 Modifier	强化		Tinkers’ Construct
 Modifier	修饰符		
 Rotational Force	旋转力		Create
-Energy	电量，电		Industrial Craft 2 etc
+Energy	电量/电		Industrial Craft 2 etc
 Energy	能量		Mekanism etc
 Tick	刻	名词	
 Stack	组	量词	
@@ -165,7 +165,7 @@ Enable	启用
 Disable	禁用	选项	
 Enable	开启	其它	
 Disable	关闭	其它	
-Toggle	切换，激活		
+Toggle	切换/激活		
 Allow	允许		
 True	是		
 False	否		
@@ -229,14 +229,14 @@ Chiseled	雕纹	在 1.19.3中译名已经改为“雕纹”而不是“錾质”
 Block	块		
 Ingot	锭		
 Ore	矿石		
-Chunk	(?)矿块，碎块		EmendatusEnigmatica, Indrev etc
+Chunk	(?)矿块/碎块	矿物处理或挖掘后掉落或形成的产物，可进一步加工处理	EmendatusEnigmatica, Indrev etc
 Nugget	粒		
 Shard	碎片		
 Fragment	残片		
 Cable	线缆		Refined Storage etc
 Wire	导线		Modern Industrialization etc
 Disc	唱片		
-Chest	箱，箱子		
+Chest	箱/箱子		
 Dust	粉		
 Purified	纯净的		GregTech etc
 Crushed	粉碎的		GregTech etc
@@ -256,7 +256,7 @@ Chestplate	胸甲
 Leggings	护腿		
 Boots	靴子		
 Cap	帽		RealWorld etc
-Tunic	外套，上衣		Survival Overhaul
+Tunic	外套/上衣		Survival Overhaul
 Pants	裤子		Tough As Nails
 Sword	剑		
 Shovel/Spade	锹		
@@ -295,13 +295,13 @@ Drill	电钻
 Chainsaw	电锯		
 JackHammer	凿岩锤		
 Drill	钻头		
-Ring	戒指，戒，指环		
+Ring	戒指/戒/指环		
 Seeds	种子		
 Shears	剪刀		
 Casing/Item Casing/Hull	外壳		Create, GregTech etc
 Circuit Board/Board	电路板		Immersive Engineering etc
 Circuit	电路		
-Orb	球，宝珠		
+Orb	球/宝珠		
 Machine	机		
 Machine	机械		
 Generator	发电机		
@@ -369,7 +369,7 @@ Belt	腰带		Thaumcraft
 Wand	法杖		Thaumcraft
 Scepter	权杖		Thaumcraft
 Staff	手杖		Thaumcraft
-Wand Focus	法杖核心	 	Thaumcraft
+Wand Focus	法杖核心		Thaumcraft
 Cap	杖端		Thaumcraft
 Rod	杖柄		Thaumcraft
 Staff Core	杖芯		Thaumcraft
@@ -400,10 +400,6 @@ Bow Grip	弓把		Tinkers' Construct
 Blazing Blood	烈焰血		Tinkers' Construct
 Blood	血		Tinkers' Construct
 Earth Slime	黏液		Tinkers' Construct
-Sky Slime	碧空黏液		Tinkers' Construct
-Magma	岩浆		Tinkers' Construct
-Ender Slime	末影黏液		Tinkers' Construct
-Ichor	灵浆		Tinkers' Construct
 Sling	弹弓		Tinkers' Construct
 Piggybackpack	肩驮架		Tinkers' Construct
 Tinker Station	工匠站		Tinkers' Construct
@@ -433,31 +429,6 @@ Slimeskull	黏液头颅		Tinkers' Construct
 Crystalshot	水晶镞		Tinkers' Construct
 Slime Dirt	黏液泥土		Tinkers' Construct
 Slime Grass	黏液草方块		Tinkers' Construct
-Greenheart	绿心		Tinkers' Construct
-Skyroot	天根		Tinkers' Construct
-Bloodshroom	血菌		Tinkers' Construct
-Necrotic Bone	噬生之骨		Tinkers' Construct
-Seared Stone	焦黑石		Tinkers' Construct
-Scorched Stone	焦褐石		Tinkers' Construct
-Slimewood	黏木		Tinkers' Construct
-Blood Bone	血之骨		Tinkers' Construct
-Rose Gold	玫瑰金		Tinkers' Construct
-Slimesteel	黏钢		Tinkers' Construct
-Nahuatl	纳瓦特尔		Tinkers' Construct
-Amethyst Bronze	紫水晶青铜		Tinkers' Construct
-Pig Iron	生铁		Tinkers' Construct
-Darkthread	黑耀丝线		Tinkers' Construct
-Cobalt	钴		Tinkers' Construct
-Manyullyn	玛玉灵		Tinkers' Construct
-Hepatizon	黑色科林斯青铜		Tinkers' Construct
-Queen Slime	皇后史莱姆		Tinkers' Construct
-Blazing Bone	烈焰之骨		Tinkers' Construct
-Soulsteel	魂钢		Tinkers' Construct
-Ancient Hide	远古兽皮		Tinkers' Construct
-Knightsteel	骑士史莱姆		Tinkers' Construct
-Whitestone	白石		Tinkers' Construct
-Necronium	辐射之骨		Tinkers' Construct
-Plated Slimewood	复合黏木		Tinkers' Construct
 Seared Heater	焦黑加热器		Tinkers' Construct
 Smeltery Controller	冶炼炉控制器		Tinkers' Construct
 Drain	排液孔		Tinkers' Construct
@@ -739,8 +710,6 @@ Contraption	装置	名词	Create
 Contraption	装配过的	形容词	Create
 Contraption	动态结构	借助多种方块组成的多方块结构实体	Create
 Super Glue	强力胶		Create
-Brass	黄铜		Create
-Zinc	锌		Create
 Cinder	余烬		Create
 Slot Cover	盖板		Create
 Blueprint/Schematic	蓝图		Create
@@ -757,10 +726,6 @@ RPM	RPM	用来表示旋转动力的转速	Create
 Overstressed	过载	应力网络内的应力消耗大于应力量时发生的现象	Create
 Cell	元件		Applied Energistics 2
 Charger	充能器		Applied Energistics 2
-Certus Quartz Crystal	赛特斯石英水晶		Applied Energistics 2
-Certus Quartz	赛特斯石英		Applied Energistics 2
-Fluix Crystal	福鲁伊克斯水晶		Applied Energistics 2
-Fluix	福鲁伊克斯		Applied Energistics 2
 Monitor	监控器		Applied Energistics 2
 Unit	单元		Applied Energistics 2
 Dense	致密		Applied Energistics 2
@@ -779,8 +744,6 @@ Creosote Oil	杂酚油		Immersive Engineering
 Plant Oil	植物油		Immersive Engineering
 Ethanol	乙醇		Immersive Engineering
 Biodiesel	生物柴油		Immersive Engineering
-Herbicide	除草剂		Immersive Engineering
-Redstone Acid	红石酸		Immersive Engineering
 Acetaldehyde	乙醛		Immersive Engineering
 Phenolic Resin	酚醛树脂		Immersive Engineering
 Plating	金属板		Immersive Engineering
@@ -919,13 +882,9 @@ Pure Daisy	白雏菊		Botania
 Orechid	凝矿兰		Botania
 Orechid Ignem	炎矿兰		Botania
 Marimorphosis	异构花		Botania
-Petal	神秘花瓣		Botania
-Dreamwood	梦之木		Botania
-Livingwood	活木		Botania
+Herbicide	除草剂		Immersive Engineering
 Glimmering	微光		Botania
-Manasteel	魔力钢		Botania
-Terrasteel	泰拉钢		Botania
-Dragonstone	龙石		Botania
+Petal	神秘花瓣		Botania
 Mana	魔力		Botania
 Aries	白羊		Botania
 Taurus	金牛		Botania
