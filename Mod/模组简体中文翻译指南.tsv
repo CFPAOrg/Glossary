@@ -84,8 +84,10 @@ Block	方块	Minecraft里最基本的组成单位
 Item	物品	是只会出现在玩家的物品栏和手上的物体，它们不能在游戏的世界中直接放置	
 Tools	工具	是一种能让玩家的动作更快速、便捷、收集无法用手获得的资源、获得信息，或是其他活动的物品	
 Armor	盔甲	是可由生物穿戴的物品，分为头盔、胸甲、护腿和靴子4种，有不同的盔甲材料种类	
-GUI/Gui	GUI		
-HUD	HUD/平视显示器	是玩家用于检测自身健康和游戏状态的直接方式，叠加在玩家在游戏中的视野上	
+GUI	GUI		
+Gui	GUI		
+HUD	HUD	是玩家用于检测自身健康和游戏状态的直接方式，叠加在玩家在游戏中的视野上	
+HUD	平视显示器	是玩家用于检测自身健康和游戏状态的直接方式，叠加在玩家在游戏中的视野上	
 Creative Tab	创造标签页		
 Mob	生物	是指游戏世界中有生命的、可自主移动的一类实体	
 Monster	怪物		
@@ -125,25 +127,34 @@ Grid	网格		Building Gadgets etc
 Setting	设置		
 Option	选项		
 Debug screen	调试屏幕		
-Config/Configuration	配置		
-Mk/mk	型		ProjectE
+Config	配置		
+Configuration	配置		
+Mk	型		ProjectE
+mk	型		ProjectE
 Mode	模式		Any
-Input	输入/原料		Any
-Output	输出/产物		Any
+Input	输入		Any
+Input	原料		Any
+Output	输出		Any
+Output	产物		Any
 Redstone Signal	红石信号		
 Attributes	属性		Wings etc
 Modifier	强化		Tinkers’ Construct
 Modifier	修饰符		
 Rotational Force	旋转力		Create
-Energy	电量/电		Industrial Craft 2 etc
+Energy	电量		Industrial Craft 2 etc
+Energy	电		Industrial Craft 2 etc
 Energy	能量		Mekanism etc
 Tick	刻	名词	
 Stack	组	量词	
 Stack	堆叠	动词	
 Bug	漏洞		
 Blockstate	方块状态		
-TileEntity/Block Entity	TileEntity/方块实体		
-Tooltip	(?)提示文本/提示框		
+TileEntity	TileEntity		
+TileEntity	方块实体	    	
+Block Entity	TileEntity		
+Block Entity	方块实体		
+Tooltip	(?)提示文本		
+Tooltip	(?)提示框		
 Forge Energy/Forge Unit/Forge Power	FE能量	英文单位与汉字之间没有空格，该翻译应用于任何指代 `net.forge.energy` 的名称	Forge
 Resource Pack	资源包		
 Data Pack	数据包		
@@ -159,13 +170,16 @@ Delete	删除
 Remove	移除		
 Click	点击		
 Right Click	右击		
-Activate/Active	激活		
-Deactivate/Inactive	禁用		
+Activate	激活		
+Active	激活		
+Deactivate	禁用		
+Inactive	禁用		
 Enable	启用		
 Disable	禁用	选项	
 Enable	开启	其它	
 Disable	关闭	其它	
-Toggle	切换/激活		
+Toggle	切换		
+Toggle	激活		
 Allow	允许		
 True	是		
 False	否		
@@ -229,14 +243,16 @@ Chiseled	雕纹	在 1.19.3中译名已经改为“雕纹”而不是“錾质”
 Block	块		
 Ingot	锭		
 Ore	矿石		
-Chunk	(?)矿块/碎块	矿物处理或挖掘后掉落或形成的产物，可进一步加工处理	EmendatusEnigmatica, Indrev etc
+Chunk	(?)碎块	矿物处理或挖掘后掉落或形成的产物，可进一步加工处理	EmendatusEnigmatica, Indrev etc
+Chunk	(?)矿块	矿物处理或挖掘后掉落或形成的产物，可进一步加工处理	EmendatusEnigmatica, Indrev etc
 Nugget	粒		
 Shard	碎片		
 Fragment	残片		
 Cable	线缆		Refined Storage etc
 Wire	导线		Modern Industrialization etc
 Disc	唱片		
-Chest	箱/箱子		
+Chest	箱子		
+Chest	箱		
 Dust	粉		
 Purified	纯净的		GregTech etc
 Crushed	粉碎的		GregTech etc
@@ -256,12 +272,15 @@ Chestplate	胸甲
 Leggings	护腿		
 Boots	靴子		
 Cap	帽		RealWorld etc
-Tunic	外套/上衣		Survival Overhaul
+Tunic	外套		Survival Overhaul
+Tunic	上衣		Survival Overhaul
 Pants	裤子		Tough As Nails
 Sword	剑		
-Shovel/Spade	锹		
+Shovel	锹		
+Spade	锹		
 Pickaxe	镐		
-Axe/Ax	斧		
+Axe	斧		
+Ax	斧		
 Hoe	锄		
 Saw	锯		
 Bow	弓		
@@ -272,7 +291,8 @@ File	锉刀
 Crowbar	撬棍		
 Screwdriver	螺丝刀		
 Mortar	臼		
-Chisel	凿/凿子		
+Chisel	凿		
+Chisel	凿子		
 Paxel	镐尖斧		
 AIOT	全能工具		
 Broadsword	大剑		
@@ -295,13 +315,19 @@ Drill	电钻
 Chainsaw	电锯		
 JackHammer	凿岩锤		
 Drill	钻头		
-Ring	戒指/戒/指环		
+Ring	戒指		
+Ring	戒		
+Ring	指环		
 Seeds	种子		
 Shears	剪刀		
-Casing/Item Casing/Hull	外壳		Create, GregTech etc
-Circuit Board/Board	电路板		Immersive Engineering etc
+Casing	外壳		Create, GregTech etc
+Hull	外壳		Create, GregTech etc
+Item Casing	外壳		Create, GregTech etc
+Board	电路板		Immersive Engineering etc
+Circuit Board	电路板		Immersive Engineering etc
 Circuit	电路		
-Orb	球/宝珠		
+Orb	球		
+Orb	宝珠		
 Machine	机		
 Machine	机械		
 Generator	发电机		
@@ -311,7 +337,9 @@ Motor	马达
 Crystal	水晶		
 Coil	线圈		
 Tank	储罐		
-Tank	流体/气体/液体缓存（视语境）		
+Tank	流体缓存（视语境）		
+Tank	气体缓存（视语境）		
+Tank	液体缓存（视语境）		
 Tank	根据语境翻译		
 Ritual	仪式		Mana and Artifice, Roots, BloodMagic etc
 Arrow	箭		
@@ -319,7 +347,10 @@ Arrow of	之箭
 Potion	药水		
 Splash	喷溅型		
 Lingering	滞留型		
-Mod/MOD	Mod/模组		
+Mod	模组		
+Mod	Mod		
+MOD	模组		
+MOD	Mod		
 Forge	Forge		Forge
 Fabric	Fabric		Fabric
 Quilt	Quilt		Quilt
