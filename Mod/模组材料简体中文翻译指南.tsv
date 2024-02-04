@@ -122,7 +122,6 @@ Aquariums	激水		Mythic Metals	CFPA
 Banglums	聚爆石		Mythic Metals	CFPA
 Carmots	点金石		Mythic Metals	CFPA
 Runites	符石		Mythic Metals	CFPA
-Platinums	铂金		Mythic Metals	CFPA
 Crystallized Void	晶化虚空		Crossroads	CFPA
 Uraninite	晶质铀		Powah	CFPA
 Allthemodium	ATM		Allthemodium	CFPA
@@ -166,6 +165,98 @@ Tetrataenite	四长岩		Project Rankine	CFPA
 Uraninite	晶质铀		Project Rankine	CFPA
 Wolframite	钨锰铁		Project Rankine	CFPA
 Xenotime	磷钇		Project Rankine	CFPA
+Desert Sandstone	沙漠砂岩		Project Rankine	CFPA
+Soul Sandstone	灵魂砂岩		Project Rankine	CFPA
+Black Sandstone	黑砂岩		Project Rankine	CFPA
+White Sandstone	白砂岩		Project Rankine	CFPA
+Limestone	石灰岩		Project Rankine	CFPA
+Dolostone	白云岩		Project Rankine	CFPA
+Chalk	白垩岩		Project Rankine	CFPA
+Marlstone	泥灰岩		Project Rankine	CFPA
+Shale	页岩		Project Rankine	CFPA
+Mudstone	泥岩		Project Rankine	CFPA
+Siltstone	粉砂岩		Project Rankine	CFPA
+Itacolumite	可弯砂岩		Project Rankine	CFPA
+Arkose	长石砂岩		Project Rankine	CFPA
+Graywacke	杂砂岩		Project Rankine	CFPA
+Honeystone	*蜜蜡岩*		Project Rankine	CFPA
+Breccia	角砾岩		Project Rankine	CFPA
+Pegmatite	伟晶岩		Project Rankine	CFPA
+Gray Granite	灰色花岗岩		Project Rankine	CFPA
+Rhyolite	流纹岩		Project Rankine	CFPA
+Comendite	钠闪碱流岩		Project Rankine	CFPA
+Granodiorite	花岗闪长岩		Project Rankine	CFPA
+Red Porphyry	红色斑岩		Project Rankine	CFPA
+Purple Porphyry	紫色斑岩		Project Rankine	CFPA
+Black Dacite	黑色英安岩		Project Rankine	CFPA
+Red Dacite	红色英安岩		Project Rankine	CFPA
+Hornblende Andesite	角闪安山岩		Project Rankine	CFPA
+Shonkinite	等色岩		Project Rankine	CFPA
+Anorthosite	斜长岩		Project Rankine	CFPA
+Norite	苏长岩		Project Rankine	CFPA
+Troctolite	橄长岩		Project Rankine	CFPA
+Gabbro	辉长岩		Project Rankine	CFPA
+Diabase	辉绿岩		Project Rankine	CFPA
+Tholeiitic Basalt	拉斑玄武岩		Project Rankine	CFPA
+Pyroxenite	辉石岩		Project Rankine	CFPA
+Dunite	纯橄榄岩		Project Rankine	CFPA
+Harzburgite	方辉橄榄岩		Project Rankine	CFPA
+Lherzolite	二辉橄榄岩		Project Rankine	CFPA
+Wehrlite	异剥橄榄岩		Project Rankine	CFPA
+Komatiite	科马提岩		Project Rankine	CFPA
+Phonolite	响岩		Project Rankine	CFPA
+Episyenite	变正长岩		Project Rankine	CFPA
+Nepheline Syenite	霞石正长岩		Project Rankine	CFPA
+Crying Obsidian	哭泣的黑曜石		Project Rankine	CFPA
+Snowflake Obsidian	雪花黑曜石		Project Rankine	CFPA
+Blood Obsidian	血黑曜石		Project Rankine	CFPA
+Pumice	浮岩		Project Rankine	CFPA
+Scoria	火山渣		Project Rankine	CFPA
+Andesitic Tuff	安山质凝灰岩		Project Rankine	CFPA
+Basaltic Tuff	玄武质凝灰岩		Project Rankine	CFPA
+Rhyolitic Tuff	流纹质凝灰岩		Project Rankine	CFPA
+Kimberlitic Tuff	金伯利凝灰岩		Project Rankine	CFPA
+Komatiitic Tuff	科马提凝灰岩		Project Rankine	CFPA
+Black Marble	黑色大理岩		Project Rankine	CFPA
+Gray Marble	灰色大理岩		Project Rankine	CFPA
+White Marble	白色大理岩		Project Rankine	CFPA
+Rose Marble	玫瑰大理岩		Project Rankine	CFPA
+Slate	板岩		Project Rankine	CFPA
+Phyllite	千枚岩		Project Rankine	CFPA
+Mica Schist	云母片岩		Project Rankine	CFPA
+Blueschist	蓝片岩		Project Rankine	CFPA
+Greenschist	绿片岩		Project Rankine	CFPA
+Gneiss	片麻岩		Project Rankine	CFPA
+Quartzite	石英岩		Project Rankine	CFPA
+Soapstone	皂石		Project Rankine	CFPA
+Serpentinite	蛇纹岩		Project Rankine	CFPA
+Mariposite	铬硅云母		Project Rankine	CFPA
+Eclogite	榴辉岩		Project Rankine	CFPA
+Skarn	矽卡岩		Project Rankine	CFPA
+End Stone	末地石		Project Rankine	CFPA
+Whiteschist	白片岩		Project Rankine	CFPA
+Sommanite	方镁岩		Project Rankine	CFPA
+Ringwoodine	尖晶橄榄岩		Project Rankine	CFPA
+Wadsleyone	瓦兹利岩		Project Rankine	CFPA
+Bridgmanham	布里奇曼岩		Project Rankine	CFPA
+Post Perovskite	后钙钛矿		Project Rankine	CFPA
+Meteorite	陨石		Project Rankine	CFPA
+Frozen Meteorite	冰封陨石		Project Rankine	CFPA
+Enstatite Chondrite	顽火辉石球粒陨石		Project Rankine	CFPA
+Banded Iron Formation	条状铁层		Project Rankine	CFPA
+Bog Iron	沼泽铁		Project Rankine	CFPA
+Ironstone	铁石		Project Rankine	CFPA
+Evaporite	蒸发岩		Project Rankine	CFPA
+Phosphorite	磷块岩		Project Rankine	CFPA
+Sylvinite	钾石盐岩		Project Rankine	CFPA
+Dripstone	滴水石		Project Rankine	CFPA
+Boracitic Dripstone	硼酸盐滴水石		Project Rankine	CFPA
+Ferric Dripstone	含铁滴水石		Project Rankine	CFPA
+Gypsic Dripstone	石膏质滴水石		Project Rankine	CFPA
+Halitic Dripstone	岩盐质滴水石		Project Rankine	CFPA
+Magnesitic Dripstone	含镁滴水石		Project Rankine	CFPA
+Nitric Dripstone	含硝滴水石		Project Rankine	CFPA
+Zirconic Dripstone	含锆滴水石		Project Rankine	CFPA
 Endium	末影		KillMods	CFPA
 Blackiron	黑铁		KillMods	CFPA
 Pandemonium Gold	混沌金		KillMods	CFPA
@@ -225,7 +316,6 @@ Enderium	末影		Thermal Series	Official
 Pendorite	潘多拉金		Oh The Biomes You'll Go	CFPA
 Ametrine	紫黄晶		Oh The Biomes You'll Go	CFPA
 Emeraldite	绿辉石		Oh The Biomes You'll Go	CFPA
-Ametrine	紫黄晶		Oh The Biomes You'll Go	CFPA
 Anthracite	无烟煤		Oh The Biomes You'll Go	CFPA
 Lignite	褐煤		Oh The Biomes You'll Go	CFPA
 Cryptic Redstone	隐秘红石		Oh The Biomes You'll Go	CFPA
@@ -370,6 +460,154 @@ Mana Gem	魔源宝石		Ars Nouveau	Official
 Neptunium	海王		Aquaculture 2	Official
 Arcane Gold	秘金		Eidolon	CFPA
 Geode	晶洞玉石		Tetra	Official
+Acanthite	螺硫银矿		Immersive Geology	CFPA
+Anatase	锐钛矿		Immersive Geology	CFPA
+Cassiterite	锡石		Immersive Geology	CFPA
+Chalcocite	辉铜矿		Immersive Geology	CFPA
+Chalcopyrite	黄铜矿		Immersive Geology	CFPA
+Chromite	铬铁矿		Immersive Geology	CFPA
+Cobaltite	辉砷钴矿		Immersive Geology	CFPA
+Cryolite	冰晶石		Immersive Geology	CFPA
+Cuprite	赤铜矿		Immersive Geology	CFPA
+Ferberite	钨铁矿		Immersive Geology	CFPA
+Fluorite	氟石		Immersive Geology	CFPA
+Galena	方铅矿		Immersive Geology	CFPA
+Gypsum	石膏		Immersive Geology	CFPA
+Hematite	赤铁矿		Immersive Geology	CFPA
+Hübnerite	钨锰矿		Immersive Geology	CFPA
+Ilmenite	钛铁矿		Immersive Geology	CFPA
+Kaolinite	高岭石		Immersive Geology	CFPA
+Magnetite	磁铁矿		Immersive Geology	CFPA
+Monazite	独居石		Immersive Geology	CFPA
+Pyrite	黄铁矿		Immersive Geology	CFPA
+Pyrolusite	软锰矿		Immersive Geology	CFPA
+Rock Salt<br>Halite	岩盐		Immersive Geology	CFPA
+Saltpeter	硝石		Immersive Geology	CFPA
+Scheelite	白钨矿		Immersive Geology	CFPA
+Sphalerite	闪锌矿		Immersive Geology	CFPA
+Smithsonite	菱锌矿		Immersive Geology	CFPA
+Thorianite	方钍石		Immersive Geology	CFPA
+Thorite	钍石		Immersive Geology	CFPA
+Ullmannite	辉锑镍矿		Immersive Geology	CFPA
+Uraninite	晶质铀矿		Immersive Geology	CFPA
+Vanadinite	钒铅矿		Immersive Geology	CFPA
+Wolframite	黑钨矿		Immersive Geology	CFPA
+Zircon	锆石		Immersive Geology	CFPA
+Native Copper	原生铜		TFC Elementia	CFPA
+Native Gold	原生金		TFC Elementia	CFPA
+Native Platinum	原生铂		TFC Elementia	CFPA
+Hematite	赤铁矿		TFC Elementia	CFPA
+Native Silver	原生银		TFC Elementia	CFPA
+Cassiterite	锡石		TFC Elementia	CFPA
+Galena	方铅矿		TFC Elementia	CFPA
+Bismuthinite	辉铋矿		TFC Elementia	CFPA
+Garnierite<br>Falcondoite	硅镁镍矿<br>镍海泡石		TFC Elementia	CFPA
+Malachite	孔雀石		TFC Elementia	CFPA
+Magnetite	磁铁矿		TFC Elementia	CFPA
+Limonite<br>Goethite	褐铁矿<br>针铁矿		TFC Elementia	CFPA
+Sphalerite	闪锌矿		TFC Elementia	CFPA
+Tetrahedrite	黝铜矿		TFC Elementia	CFPA
+Bituminous Coal	烟煤		TFC Elementia	CFPA
+Lignite	褐煤		TFC Elementia	CFPA
+Kaolinite	高岭石		TFC Elementia	CFPA
+Gypsum	石膏		TFC Elementia	CFPA
+Satin Spar	纤维石膏		TFC Elementia	CFPA
+Selenite	透石膏		TFC Elementia	CFPA
+Graphite	石墨		TFC Elementia	CFPA
+Kimberlite	金伯利岩		TFC Elementia	CFPA
+Petrified Wood	硅化木		TFC Elementia	CFPA
+Sulfur	硫		TFC Elementia	CFPA
+Jet	煤精		TFC Elementia	CFPA
+Microcline	微斜长石		TFC Elementia	CFPA
+Pitchblende	沥青铀矿		TFC Elementia	CFPA
+Cinnabar	朱砂		TFC Elementia	CFPA
+Cryolite	冰晶石		TFC Elementia	CFPA
+Saltpeter	硝石		TFC Elementia	CFPA
+Serpentine	蛇纹石		TFC Elementia	CFPA
+Sylvite	钾石盐		TFC Elementia	CFPA
+Borax	硼砂		TFC Elementia	CFPA
+Olivine	橄榄石		TFC Elementia	CFPA
+Lapis Lazuli<br>Lazurite	青金石		TFC Elementia	CFPA
+Anthracite	无烟煤		TFC Elementia	CFPA
+Salammoniac	硇砂		TFC Elementia	CFPA
+Fluorite	萤石		TFC Elementia	CFPA
+Iodate	碘酸盐岩		TFC Elementia	CFPA
+Phosphorite	磷块岩		TFC Elementia	CFPA
+Selenide	硒化岩		TFC Elementia	CFPA
+Spodumene	锂辉石		TFC Elementia	CFPA
+Halite	石盐		TFC Elementia	CFPA
+Villiaumite	氟盐		TFC Elementia	CFPA
+Carnallite	光卤石		TFC Elementia	CFPA
+Lepidolite	锂云母		TFC Elementia	CFPA
+Pollucite	铯沸石		TFC Elementia	CFPA
+Bertrandite	羟硅铍石		TFC Elementia	CFPA
+Celestine	天青石		TFC Elementia	CFPA
+Baryte	重晶石		TFC Elementia	CFPA
+Thortveitite	钪钇石		TFC Elementia	CFPA
+Rutile	金红石		TFC Elementia	CFPA
+Vanadinite	钒铅矿		TFC Elementia	CFPA
+Chromite	铬铁矿		TFC Elementia	CFPA
+Pyrolusite	软锰矿		TFC Elementia	CFPA
+Pyrite	黄铁矿		TFC Elementia	CFPA
+Cobaltite	辉砷钴矿		TFC Elementia	CFPA
+Bunsenite	绿镍矿		TFC Elementia	CFPA
+Chalcocite	辉铜矿		TFC Elementia	CFPA
+Chalcopyrite	黄铜矿		TFC Elementia	CFPA
+Xenotime	磷钇矿		TFC Elementia	CFPA
+Zircon	锆石		TFC Elementia	CFPA
+Columbite	铌铁矿		TFC Elementia	CFPA
+Molybdenite	辉钼矿		TFC Elementia	CFPA
+Pentlandite	镍黄铁矿		TFC Elementia	CFPA
+Native Rhodium	原生铑		TFC Elementia	CFPA
+Cooperite	硫铂矿		TFC Elementia	CFPA
+Pyrargyrite	浓红银矿		TFC Elementia	CFPA
+Hafnon	铪石		TFC Elementia	CFPA
+Tantalite	钽铁矿		TFC Elementia	CFPA
+Wolframite	黑钨矿		TFC Elementia	CFPA
+Rheniite	辉铼矿		TFC Elementia	CFPA
+Osmiridium	锇铱矿		TFC Elementia	CFPA
+Iridosmium	铱锇矿		TFC Elementia	CFPA
+Bauxite<br>Boehmite	铝土矿		TFC Elementia	CFPA
+Gallite	硫镓铜矿		TFC Elementia	CFPA
+Greenockite	硫镉矿		TFC Elementia	CFPA
+Roquesite	硫铟铜矿		TFC Elementia	CFPA
+Livingstonite	硫汞锑矿		TFC Elementia	CFPA
+Lorandite	红铊矿		TFC Elementia	CFPA
+Ulexite	钠硼解石		TFC Elementia	CFPA
+Silica	硅石		TFC Elementia	CFPA
+Germanite	硫锗铜矿		TFC Elementia	CFPA
+Realgar	雄黄		TFC Elementia	CFPA
+Stibnite	辉锑矿		TFC Elementia	CFPA
+Calaverite	碲金矿		TFC Elementia	CFPA
+Monazite	独居石		TFC Elementia	CFPA
+Bastnaesite	氟碳铈矿		TFC Elementia	CFPA
+Kozoite	羟碳钕石		TFC Elementia	CFPA
+Samarskite	铌钇矿		TFC Elementia	CFPA
+Loparite	铈铌钙钛矿		TFC Elementia	CFPA
+Gadolinite	硅铍铈矿		TFC Elementia	CFPA
+Euxenite	黑稀金矿		TFC Elementia	CFPA
+Fergusonite	褐铈铌矿		TFC Elementia	CFPA
+Thorianite	方钍石		TFC Elementia	CFPA
+Uraninite	晶质铀矿		TFC Elementia	CFPA
+Calcite	方解石		TFC Elementia	CFPA
+Radiobarite	镭重晶石		TFC Elementia	CFPA
+Iimoriite	羟硅钇石		TFC Elementia	CFPA
+Rutheniridosmine	钌铱锇矿		TFC Elementia	CFPA
+Miassite	密硫铑矿		TFC Elementia	CFPA
+Erlichmanite	硫锇矿		TFC Elementia	CFPA
+Chengdeite	承德矿		TFC Elementia	CFPA
+Laurite	硫钌矿		TFC Elementia	CFPA
+Diomignite	硼锂石		TFC Elementia	CFPA
+Moissanite	碳硅石		TFC Elementia	CFPA
+Dzharkenite	等轴硒铁矿		TFC Elementia	CFPA
+Paratooite	帕碳铜镧石		TFC Elementia	CFPA
+Decrespignyite	碳氯钇铜矾		TFC Elementia	CFPA
+Yftisite	钇氟钛硅石		TFC Elementia	CFPA
+Iwashiroite	单斜钽钇矿		TFC Elementia	CFPA
+Proshchenkoite	硅钇稀土矿		TFC Elementia	CFPA
+Griceite	葛氟锂石		TFC Elementia	CFPA
+Lithiophosphate	块磷锂矿		TFC Elementia	CFPA
+Marshite	碘铜矿		TFC Elementia	CFPA
 Hydrogen	氢		Null	Null
 Helium	氦		Null	Null
 Lithium	锂		Null	Null
