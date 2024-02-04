@@ -179,7 +179,7 @@ Siltstone	粉砂岩		Project Rankine	CFPA
 Itacolumite	可弯砂岩		Project Rankine	CFPA
 Arkose	长石砂岩		Project Rankine	CFPA
 Graywacke	杂砂岩		Project Rankine	CFPA
-Honeystone	*蜜蜡岩*		Project Rankine	CFPA
+Honeystone	蜜蜡岩		Project Rankine	CFPA
 Breccia	角砾岩		Project Rankine	CFPA
 Pegmatite	伟晶岩		Project Rankine	CFPA
 Gray Granite	灰色花岗岩		Project Rankine	CFPA
@@ -481,7 +481,6 @@ Magnetite	磁铁矿		Immersive Geology	CFPA
 Monazite	独居石		Immersive Geology	CFPA
 Pyrite	黄铁矿		Immersive Geology	CFPA
 Pyrolusite	软锰矿		Immersive Geology	CFPA
-Rock Salt<br>Halite	岩盐		Immersive Geology	CFPA
 Saltpeter	硝石		Immersive Geology	CFPA
 Scheelite	白钨矿		Immersive Geology	CFPA
 Sphalerite	闪锌矿		Immersive Geology	CFPA
@@ -501,10 +500,8 @@ Native Silver	原生银		TFC Elementia	CFPA
 Cassiterite	锡石		TFC Elementia	CFPA
 Galena	方铅矿		TFC Elementia	CFPA
 Bismuthinite	辉铋矿		TFC Elementia	CFPA
-Garnierite<br>Falcondoite	硅镁镍矿<br>镍海泡石		TFC Elementia	CFPA
 Malachite	孔雀石		TFC Elementia	CFPA
 Magnetite	磁铁矿		TFC Elementia	CFPA
-Limonite<br>Goethite	褐铁矿<br>针铁矿		TFC Elementia	CFPA
 Sphalerite	闪锌矿		TFC Elementia	CFPA
 Tetrahedrite	黝铜矿		TFC Elementia	CFPA
 Bituminous Coal	烟煤		TFC Elementia	CFPA
@@ -527,7 +524,6 @@ Serpentine	蛇纹石		TFC Elementia	CFPA
 Sylvite	钾石盐		TFC Elementia	CFPA
 Borax	硼砂		TFC Elementia	CFPA
 Olivine	橄榄石		TFC Elementia	CFPA
-Lapis Lazuli<br>Lazurite	青金石		TFC Elementia	CFPA
 Anthracite	无烟煤		TFC Elementia	CFPA
 Salammoniac	硇砂		TFC Elementia	CFPA
 Fluorite	萤石		TFC Elementia	CFPA
@@ -567,7 +563,6 @@ Wolframite	黑钨矿		TFC Elementia	CFPA
 Rheniite	辉铼矿		TFC Elementia	CFPA
 Osmiridium	锇铱矿		TFC Elementia	CFPA
 Iridosmium	铱锇矿		TFC Elementia	CFPA
-Bauxite<br>Boehmite	铝土矿		TFC Elementia	CFPA
 Gallite	硫镓铜矿		TFC Elementia	CFPA
 Greenockite	硫镉矿		TFC Elementia	CFPA
 Roquesite	硫铟铜矿		TFC Elementia	CFPA
