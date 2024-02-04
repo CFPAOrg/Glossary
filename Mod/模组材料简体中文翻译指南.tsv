@@ -26,15 +26,22 @@ Whitestone	白石		Tinkers' Construct	Official
 Necronium	辐射之骨		Tinkers' Construct	Official
 Plated Slimewood	复合黏木		Tinkers' Construct	Official
 Earth Slime	黏液		Tinkers' Construct	Official
-Dark Steel	玄钢		EnderIO	Official
-End Steel	末地钢		EnderIO	Official
-Pulsating Alloy	脉冲合金		EnderIO	Official
-Conductive Alloy	导电合金		EnderIO	Official
-Redstone Alloy	红石合金		EnderIO	Official
-Nutrient Distillation	营养精华液		EnderIO	Official
-Cloud Seed	云之精华		EnderIO	Official
-Energetic Alloy	充能合金		EnderIO	Official
-Soularium	魂金		EnderIO	Official
+Dark Steel	玄钢	1.12 1.20	Ender IO	Official
+End Steel	末影钢	1.12	Ender IO	CFPA
+End Steel	末地钢	1.20	Ender IO	Official
+Pulsating Alloy	脉冲合金	1.20	Ender IO	Official
+Conductive Alloy	导电合金	1.20	Ender IO	Official
+Redstone Alloy	红石合金	1.12 1.20	Ender IO	Official
+Nutrient Distillation	营养精华液	1.20	Ender IO	Official
+Cloud Seed	云之精华	1.20	Ender IO	Official
+Energetic Alloy	充能合金	1.12 1.20	Ender IO	Official
+Soularium	魂金	1.20	Ender IO	Official
+Iron Alloy  铁合金  1.12  Ender IO  CFPA
+Conductive Iron  导电铁  1.12  Ender IO  CFPA
+Electrical Steel  磁钢  1.12  Ender IO  CFPA
+Vibrant Alloy  脉冲合金  1.12  Ender IO  CFPA
+Pulsating Iron  充能铁锭  1.12  Ender IO  CFPA
+Soularium  魂金  1.12  Ender IO  CFPA
 Certus Quartz	赛特斯石英		Applied Energistics 2	Official
 Fluix	福鲁伊克斯		Applied Energistics 2	Official
 Redstone Acid	红石酸		Immersive Engineering	Official
