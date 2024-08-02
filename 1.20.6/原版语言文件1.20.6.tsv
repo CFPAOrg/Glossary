@@ -1,4 +1,3 @@
-键  英文    中文
 accessibility.onboarding.accessibility.button	Accessibility Settings...	辅助功能设置…
 accessibility.onboarding.screen.narrator	Press enter to enable the narrator	按下Enter键启用复述功能
 accessibility.onboarding.screen.title	Welcome to Minecraft!\n\nWould you like to enable the Narrator or visit the Accessibility Settings?	欢迎进入Minecraft！\n\n需要启用复述功能或访问辅助功能设置吗？
@@ -184,7 +183,7 @@ advancements.nether.all_potions.title	A Furious Cocktail	狂乱的鸡尾酒
 advancements.nether.brew_potion.description	Brew a Potion	酿造一瓶药水
 advancements.nether.brew_potion.title	Local Brewery	本地酿造厂
 advancements.nether.charge_respawn_anchor.description	Charge a Respawn Anchor to the maximum	为重生锚充满能量
-advancements.nether.charge_respawn_anchor.title	Not Quite "Nine" Lives	锚没有九条命
+advancements.nether.charge_respawn_anchor.title	"Not Quite ""Nine"" Lives"	锚没有九条命
 advancements.nether.create_beacon.description	Construct and place a Beacon	建造并放置一个信标
 advancements.nether.create_beacon.title	Bring Home the Beacon	带信标回家
 advancements.nether.create_full_beacon.description	Bring a Beacon to full power	让一座信标发挥最大功效
@@ -262,8 +261,8 @@ advancements.story.upgrade_tools.title	Getting an Upgrade	获得升级
 advancements.toast.challenge	Challenge Complete!	挑战已完成！
 advancements.toast.goal	Goal Reached!	目标已达成！
 advancements.toast.task	Advancement Made!	进度已达成！
-advMode.allEntities	Use "@e" to target all entities	用“@e”来代表全部实体
-advMode.allPlayers	Use "@a" to target all players	用“@a”来代表全部玩家
+advMode.allEntities	"Use ""@e"" to target all entities"	用“@e”来代表全部实体
+advMode.allPlayers	"Use ""@a"" to target all players"	用“@a”来代表全部玩家
 advMode.command	Console Command	控制台命令
 advMode.mode	Mode	模式
 advMode.mode.auto	Repeat	循环
@@ -273,12 +272,12 @@ advMode.mode.redstone	Impulse	脉冲
 advMode.mode.redstoneTriggered	Needs Redstone	红石控制
 advMode.mode.sequence	Chain	连锁
 advMode.mode.unconditional	Unconditional	不受制约
-advMode.nearestPlayer	Use "@p" to target nearest player	用“@p”来代表最近的玩家
+advMode.nearestPlayer	"Use ""@p"" to target nearest player"	用“@p”来代表最近的玩家
 advMode.notAllowed	Must be an opped player in creative mode	必须是处于创造模式的管理员
 advMode.notEnabled	Command blocks are not enabled on this server	命令方块没有在此服务器上启用
 advMode.previousOutput	Previous Output	上一个输出
-advMode.randomPlayer	Use "@r" to target random player	用“@r”来代表随机玩家
-advMode.self	Use "@s" to target the executing entity	用“@s”来代表执行实体
+advMode.randomPlayer	"Use ""@r"" to target random player"	用“@r”来代表随机玩家
+advMode.self	"Use ""@s"" to target the executing entity"	用“@s”来代表执行实体
 advMode.setCommand	Set Console Command for Block	设置此方块的控制台命令
 advMode.setCommand.success	Command set: %s	成功设置命令：%s
 advMode.trackOutput	Track output	记录输出
@@ -343,7 +342,7 @@ argument.entity.selector.randomPlayer	Random player	随机玩家
 argument.entity.selector.self	Current entity	当前实体
 argument.entity.selector.unknown	Unknown selector type '%s'	未知的选择器类型“%s”
 argument.entity.toomany	Only one entity is allowed, but the provided selector allows more than one	只允许一个实体，但提供的选择器允许多个实体
-argument.enum.invalid	Invalid value "%s"	无效的值“%s”
+argument.enum.invalid	"Invalid value ""%s"""	无效的值“%s”
 argument.float.big	Float must not be more than %s, found %s	浮点型数据不能大于%s，但发现了%s
 argument.float.low	Float must not be less than %s, found %s	浮点型数据不能小于%s，但发现了%s
 argument.gamemode.invalid	Unknown game mode: %s	未知的游戏模式：%s
@@ -2574,12 +2573,12 @@ commands.kill.success.multiple	Killed %s entities	杀死了%s个实体
 commands.kill.success.single	Killed %s	杀死了%s
 commands.list.nameAndId	%s (%s)	%s（%s）
 commands.list.players	There are %s of a max of %s players online: %s	当前共有%s名玩家在线（最大玩家数为%s）：%s
-commands.locate.biome.not_found	Could not find a biome of type "%s" within reasonable distance	无法在合理距离内找到类型为“%s”的生物群系
+commands.locate.biome.not_found	"Could not find a biome of type ""%s"" within reasonable distance"	无法在合理距离内找到类型为“%s”的生物群系
 commands.locate.biome.success	The nearest %s is at %s (%s blocks away)	最近的%s位于%s（%s个方块外）
-commands.locate.poi.not_found	Could not find a point of interest of type "%s" within reasonable distance	无法在合理距离内找到类型为“%s”的兴趣点
+commands.locate.poi.not_found	"Could not find a point of interest of type ""%s"" within reasonable distance"	无法在合理距离内找到类型为“%s”的兴趣点
 commands.locate.poi.success	The nearest %s is at %s (%s blocks away)	最近的%s位于%s（%s个方块外）
-commands.locate.structure.invalid	There is no structure with type "%s"	没有类型为“%s”的结构
-commands.locate.structure.not_found	Could not find a structure of type "%s" nearby	无法在附近找到类型为“%s”的结构
+commands.locate.structure.invalid	"There is no structure with type ""%s"""	没有类型为“%s”的结构
+commands.locate.structure.not_found	"Could not find a structure of type ""%s"" nearby"	无法在附近找到类型为“%s”的结构
 commands.locate.structure.success	The nearest %s is at %s (%s blocks away)	最近的%s位于%s（%s个方块外）
 commands.message.display.incoming	%s whispers to you: %s	%s悄悄地对你说：%s
 commands.message.display.outgoing	You whisper to %s: %s	你悄悄地对%s说：%s
@@ -2599,17 +2598,17 @@ commands.perf.reportSaved	Created debug report in %s	已在%s生成调试报告
 commands.perf.started	Started 10 second performance profiling run (use '/perf stop' to stop early)	已开始时长为10秒的性能分析测试（使用“/perf stop”以提前结束）
 commands.perf.stopped	Stopped performance profiling after %s second(s) and %s tick(s) (%s tick(s) per second)	已停止性能分析，用时%s秒和%s刻（每秒%s刻）
 commands.place.feature.failed	Failed to place feature	放置地物失败
-commands.place.feature.invalid	There is no feature with type "%s"	没有类型为“%s”的地物
-commands.place.feature.success	Placed "%s" at %s, %s, %s	已在%2$s, %3$s, %4$s处放置“%1$s”
+commands.place.feature.invalid	"There is no feature with type ""%s"""	没有类型为“%s”的地物
+commands.place.feature.success	"Placed ""%s"" at %s, %s, %s"	已在%2$s, %3$s, %4$s处放置“%1$s”
 commands.place.jigsaw.failed	Failed to generate jigsaw	生成拼图失败
-commands.place.jigsaw.invalid	There is no template pool with type "%s"	没有类型为“%s”的模板池
+commands.place.jigsaw.invalid	"There is no template pool with type ""%s"""	没有类型为“%s”的模板池
 commands.place.jigsaw.success	Generated jigsaw at %s, %s, %s	已在%s, %s, %s处生成拼图
 commands.place.structure.failed	Failed to place structure	放置结构失败
-commands.place.structure.invalid	There is no structure with type "%s"	没有类型为“%s”的结构
-commands.place.structure.success	Generated structure "%s" at %s, %s, %s	已在%2$s, %3$s, %4$s处生成结构“%1$s”
+commands.place.structure.invalid	"There is no structure with type ""%s"""	没有类型为“%s”的结构
+commands.place.structure.success	"Generated structure ""%s"" at %s, %s, %s"	已在%2$s, %3$s, %4$s处生成结构“%1$s”
 commands.place.template.failed	Failed to place template	放置模板失败
-commands.place.template.invalid	There is no template with id "%s"	没有ID为“%s”的模板
-commands.place.template.success	Loaded template "%s" at %s, %s, %s	已在%2$s, %3$s, %4$s处加载模板“%1$s”
+commands.place.template.invalid	"There is no template with id ""%s"""	没有ID为“%s”的模板
+commands.place.template.success	"Loaded template ""%s"" at %s, %s, %s"	已在%2$s, %3$s, %4$s处加载模板“%1$s”
 commands.playsound.failed	The sound is too far away to be heard	声音过远而无法被听见
 commands.playsound.success.multiple	Played sound %s to %s players	已将声音%s播放给%s名玩家
 commands.playsound.success.single	Played sound %s to %s	已将声音%s播放给%s
@@ -2745,11 +2744,11 @@ commands.team.list.members.empty	There are no members on team %s	队伍%s中没�
 commands.team.list.members.success	Team %s has %s member(s): %s	队伍%s含有%s名成员：%s
 commands.team.list.teams.empty	There are no teams	没有队伍存在
 commands.team.list.teams.success	There are %s team(s): %s	共有%s支队伍：%s
-commands.team.option.collisionRule.success	Collision rule for team %s is now "%s"	队伍%s的碰撞规则现在是“%s”
+commands.team.option.collisionRule.success	"Collision rule for team %s is now ""%s"""	队伍%s的碰撞规则现在是“%s”
 commands.team.option.collisionRule.unchanged	Nothing changed. Collision rule is already that value	无变化，碰撞规则已经是此值
 commands.team.option.color.success	Updated the color for team %s to %s	队伍%s的颜色已更新为%s
 commands.team.option.color.unchanged	Nothing changed. That team already has that color	无变化，此队伍本就为此颜色
-commands.team.option.deathMessageVisibility.success	Death message visibility for team %s is now "%s"	队伍%s的死亡消息可见性现在为“%s”
+commands.team.option.deathMessageVisibility.success	"Death message visibility for team %s is now ""%s"""	队伍%s的死亡消息可见性现在为“%s”
 commands.team.option.deathMessageVisibility.unchanged	Nothing changed. Death message visibility is already that value	无变化，死亡消息的可见性已经是此值
 commands.team.option.friendlyfire.alreadyDisabled	Nothing changed. Friendly fire is already disabled for that team	无变化，友军伤害本就在此队伍上禁用
 commands.team.option.friendlyfire.alreadyEnabled	Nothing changed. Friendly fire is already enabled for that team	无变化，友军伤害本就在此队伍上启用
@@ -2757,7 +2756,7 @@ commands.team.option.friendlyfire.disabled	Disabled friendly fire for team %s	�
 commands.team.option.friendlyfire.enabled	Enabled friendly fire for team %s	已启用队伍%s的友军伤害
 commands.team.option.name.success	Updated the name of team %s	已更新队伍%s的名称
 commands.team.option.name.unchanged	Nothing changed. That team already has that name	无变化，此队伍本就为该名称
-commands.team.option.nametagVisibility.success	Nametag visibility for team %s is now "%s"	队伍%s的名称标签可见性现在为“%s”
+commands.team.option.nametagVisibility.success	"Nametag visibility for team %s is now ""%s"""	队伍%s的名称标签可见性现在为“%s”
 commands.team.option.nametagVisibility.unchanged	Nothing changed. Nametag visibility is already that value	无变化，名称标签的可见性已经是此值
 commands.team.option.prefix.success	Team prefix set to %s	队伍前缀已设为%s
 commands.team.option.seeFriendlyInvisibles.alreadyDisabled	Nothing changed. That team already can't see invisible teammates	无变化，此队伍本就不可看见隐身的队友
@@ -3003,7 +3002,7 @@ dataPack.vanilla.name	Default	默认
 datapackFailure.safeMode	Safe Mode	安全模式
 datapackFailure.safeMode.failed.description	This world contains invalid or corrupted save data.	这个世界包含无效或损坏的存档数据。
 datapackFailure.safeMode.failed.title	Failed to load world in Safe Mode.	无法在安全模式下加载世界。
-datapackFailure.title	Errors in currently selected data packs prevented the world from loading.\nYou can either try to load it with only the vanilla data pack ("safe mode"), or go back to the title screen and fix it manually.	当前选中的数据包中出现了错误，导致世界无法加载。\n你可以尝试仅加载原版数据包（“安全模式”）或回到标题屏幕手动修复该问题。
+datapackFailure.title	"Errors in currently selected data packs prevented the world from loading.\nYou can either try to load it with only the vanilla data pack (""safe mode""), or go back to the title screen and fix it manually."	当前选中的数据包中出现了错误，导致世界无法加载。\n你可以尝试仅加载原版数据包（“安全模式”）或回到标题屏幕手动修复该问题。
 death.attack.anvil	%1$s was squashed by a falling anvil	%1$s被坠落的铁砧压扁了
 death.attack.anvil.player	%1$s was squashed by a falling anvil while fighting %2$s	%1$s在与%2$s战斗时被坠落的铁砧压扁了
 death.attack.arrow	%1$s was shot by %2$s	%1$s被%2$s射杀
@@ -3625,7 +3624,7 @@ gui.abuseReport.draft.title	Edit draft chat report?	编辑聊天举报草稿？
 gui.abuseReport.error.title	Problem sending your report	发送举报时出现问题
 gui.abuseReport.message	Where did you observe the bad behavior?\nThis will help us in researching your case.	你在哪里观察到了不良行为？\n这有助于我们调查你的案例。
 gui.abuseReport.more_comments	Please describe what happened:	请描述发生的状况：
-gui.abuseReport.name.reporting	You are reporting "%s".	正在举报“%s”。
+gui.abuseReport.name.reporting	"You are reporting ""%s""."	正在举报“%s”。
 gui.abuseReport.name.title	Report Player Name	举报玩家名称
 gui.abuseReport.observed_what	Why are you reporting this?	你为什么要举报？
 gui.abuseReport.read_info	Learn About Reporting	了解举报功能
@@ -3640,7 +3639,7 @@ gui.abuseReport.reason.false_reporting	False Reporting	不实举报
 gui.abuseReport.reason.generic	I want to report them	我想举报该玩家
 gui.abuseReport.reason.generic.description	I'm annoyed with them / they have done something I do not like.	该玩家使我恼怒或做的事情使我反感。
 gui.abuseReport.reason.harassment_or_bullying	Harassment or bullying	骚扰或霸凌
-gui.abuseReport.reason.harassment_or_bullying.description	Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent ("doxing").	有人羞辱、攻击、霸凌你或其他人。这包括在未经允许的情况下不断尝试联系你或其他人，或发布你或其他人的隐私信息。
+gui.abuseReport.reason.harassment_or_bullying.description	"Someone is shaming, attacking, or bullying you or someone else. This includes when someone is repeatedly trying to contact you or someone else without consent or posting private personal information about you or someone else without consent (""doxing"")."	有人羞辱、攻击、霸凌你或其他人。这包括在未经允许的情况下不断尝试联系你或其他人，或发布你或其他人的隐私信息。
 gui.abuseReport.reason.hate_speech	Hate speech	仇恨言论
 gui.abuseReport.reason.hate_speech.description	Someone is attacking you or another player based on characteristics of their identity, like religion, race, or sexuality.	有人因身份要素（如宗教信仰、种族或性相关）攻击你或其他玩家。
 gui.abuseReport.reason.imminent_harm	Threat of harm to others	威胁伤害他人
@@ -3682,7 +3681,7 @@ gui.banned.description.reason_id_message	Code: %s - %s	代码：%s - %s
 gui.banned.description.temporary	%s Until then, you can’t play online or join Realms.	%s期限结束前，你无法进行多人游戏或加入Realms。
 gui.banned.description.temporary.duration	Your account is temporarily suspended and will be reactivated in %s.	你的账户已被暂时封禁并将于%s后解封。
 gui.banned.description.unknownreason	We recently received a report for bad behavior by your account. Our moderators have now reviewed your case and identified that it goes against the Minecraft Community Standards.	我们最近收到举报称你的账户存在不良行为。我们的监督员已审核你的案件并认定你违反了Minecraft社区准则。
-gui.banned.name.description	Your current name - "%s" - violates our Community Standards. You can play singleplayer, but will need to change your name to play online.\n\nLearn more or submit a case review at the following link: %s	你当前的名称（“%s”）违反了我们的社区准则。你可以进行单人游戏，但需要更改名称才能进行在线游戏。\n\n通过以下链接了解更多或提交案件审查：%s
+gui.banned.name.description	"Your current name - ""%s"" - violates our Community Standards. You can play singleplayer, but will need to change your name to play online.\n\nLearn more or submit a case review at the following link: %s"	你当前的名称（“%s”）违反了我们的社区准则。你可以进行单人游戏，但需要更改名称才能进行在线游戏。\n\n通过以下链接了解更多或提交案件审查：%s
 gui.banned.name.title	Name Not Allowed in Multiplayer	多人游戏中不允许使用当前名称
 gui.banned.reason.defamation_impersonation_false_information	Impersonation or sharing information to exploit or mislead others	假冒或分享信息以利用或误导他人
 gui.banned.reason.drugs	References to illegal drugs	推销非法药品
@@ -3925,8 +3924,8 @@ item.minecraft.dark_oak_boat	Dark Oak Boat	深色橡木船
 item.minecraft.dark_oak_chest_boat	Dark Oak Boat with Chest	深色橡木运输船
 item.minecraft.debug_stick	Debug Stick	调试棒
 item.minecraft.debug_stick.empty	%s has no properties	%s不具备属性
-item.minecraft.debug_stick.select	selected "%s" (%s)	已选择“%s”（%s）
-item.minecraft.debug_stick.update	"%s" to %s	“%s”设为%s
+item.minecraft.debug_stick.select	"selected ""%s"" (%s)"	已选择“%s”（%s）
+item.minecraft.debug_stick.update	"""%s"" to %s"	“%s”设为%s
 item.minecraft.diamond	Diamond	钻石
 item.minecraft.diamond_axe	Diamond Axe	钻石斧
 item.minecraft.diamond_boots	Diamond Boots	钻石靴子
@@ -4689,11 +4688,11 @@ mco.client.incompatible.title	Client incompatible!	客户端不兼容！
 mco.client.outdated.stable.version	Your client version (%s) is not compatible with Realms.\n\nPlease use the most recent version of Minecraft.	你的客户端版本（%s）与Realms不兼容。\n\n请使用最新版本的Minecraft。
 mco.client.unsupported.snapshot.version	Your client version (%s) is not compatible with Realms.\n\nRealms is not available for this snapshot version.	你的客户端版本（%s）与Realms不兼容。\n\nRealms在此快照版本不可用。
 mco.compatibility.downgrade	Downgrade	降级
-mco.compatibility.downgrade.description	This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work.\n\nA backup of your world will be saved under "World backups". Please restore your world if needed.	这个世界上次是在%s版本中打开的，你正在使用%s版本。降低世界的游戏版本可能会导致存档损坏——我们无法保证它可以正确加载和运行。\n\n此世界的备份将会保存在“世界备份”下。如有需要，请恢复原来的世界。
-mco.compatibility.unverifiable.message	The version this world was last played in could not be verified. If the world gets upgraded or downgraded, a backup will be automatically created and saved under "World backups".	无法验证上次打开这个世界的版本。如果升级或降级这个世界，备份将会被自动创建并保存在“世界备份”下。
+mco.compatibility.downgrade.description	"This world was last played in version %s; you are on version %s. Downgrading a world could cause corruption - we cannot guarantee that it will load or work.\n\nA backup of your world will be saved under ""World backups"". Please restore your world if needed."	这个世界上次是在%s版本中打开的，你正在使用%s版本。降低世界的游戏版本可能会导致存档损坏——我们无法保证它可以正确加载和运行。\n\n此世界的备份将会保存在“世界备份”下。如有需要，请恢复原来的世界。
+mco.compatibility.unverifiable.message	"The version this world was last played in could not be verified. If the world gets upgraded or downgraded, a backup will be automatically created and saved under ""World backups""."	无法验证上次打开这个世界的版本。如果升级或降级这个世界，备份将会被自动创建并保存在“世界备份”下。
 mco.compatibility.unverifiable.title	Compatibility not verifiable	无法验证兼容性
 mco.compatibility.upgrade	Upgrade	升级
-mco.compatibility.upgrade.description	This world was last played in version %s; you are on version %s.\n\nA backup of your world will be saved under "World backups". Please restore your world if needed.	这个世界上次是在%s版本中打开的，你正在使用%s版本。\n\n此世界的备份将会保存在“世界备份”下。如有需要，请恢复原来的世界。
+mco.compatibility.upgrade.description	"This world was last played in version %s; you are on version %s.\n\nA backup of your world will be saved under ""World backups"". Please restore your world if needed."	这个世界上次是在%s版本中打开的，你正在使用%s版本。\n\n此世界的备份将会保存在“世界备份”下。如有需要，请恢复原来的世界。
 mco.compatibility.upgrade.title	Do you really want to upgrade your world?	你真的想升级此世界吗？
 mco.configure.current.minigame	Current	当前
 mco.configure.world.activityfeed.disabled	Player feed temporarily disabled	玩家推送暂不可用
@@ -4906,10 +4905,10 @@ mco.selectServer.uninitialized	Click to start your new realm!	点击以创建新
 mco.snapshot.createSnapshotPopup.text	You are about to create a free Snapshot Realm that will be paired with your paid Realms subscription. This new Snapshot Realm will be accessible for as long as the paid subscription is active. Your paid Realm will not be affected.	你即将创建免费的快照版Realm，它会与你的付费Realm订阅绑定。新的快照版Realm在付费订阅生效期间可以随时访问。原本的付费Realm不会受到影响。
 mco.snapshot.createSnapshotPopup.title	Create Snapshot Realm?	是否创建快照版Realm？
 mco.snapshot.creating	Creating Snapshot Realm...	正在创建快照版Realm…
-mco.snapshot.description	Paired with "%s"	与%s绑定
+mco.snapshot.description	"Paired with ""%s"""	与%s绑定
 mco.snapshot.friendsRealm.downgrade	You need to be on version %s to join this Realm	你需要使用版本%s加入此Realm
 mco.snapshot.friendsRealm.upgrade	%s needs to upgrade their Realm before you can play from this version	在你使用此快照进行游戏之前，%s需要升级其Realm
-mco.snapshot.paired	This Snapshot Realm is paired with "%s"	此快照版Realm与%s绑定
+mco.snapshot.paired	"This Snapshot Realm is paired with ""%s"""	此快照版Realm与%s绑定
 mco.snapshot.parent.tooltip	Use the latest release of Minecraft to play on this Realm	使用最新的Minecraft正式版在此Realm上进行游戏
 mco.snapshot.start	Start free Snapshot Realm	开启免费的快照版Realm
 mco.snapshot.subscription.info	This is a Snapshot Realm that is paired to the subscription of your Realm '%s'. It will stay active for as long as its paired Realm is.	这是与你的Realm订阅“%s”绑定的快照版Realm。它会在与其绑定的Realm可用时保持可用。
@@ -5360,7 +5359,7 @@ options.sounds	Music & Sounds...	音乐和声音…
 options.sounds.title	Music & Sound Options	音乐和声音选项
 options.telemetry	Telemetry Data...	遥测数据…
 options.telemetry.button	Data Collection	数据收集
-options.telemetry.button.tooltip	"%s" includes only the required data.\n"%s" includes optional, as well as the required data.	“%s”仅包含必要数据。\n“%s”包含可选数据和必要数据。
+options.telemetry.button.tooltip	"""%s"" includes only the required data.\n""%s"" includes optional, as well as the required data."	“%s”仅包含必要数据。\n“%s”包含可选数据和必要数据。
 options.telemetry.disabled	Telemetry is disabled.	遥测已禁用。
 options.telemetry.state.all	All	全部
 options.telemetry.state.minimal	Minimal	最少
@@ -5501,7 +5500,7 @@ recover_world.done.success	Recovery was successful!	恢复成功！
 recover_world.done.title	Recovery done	恢复已完成
 recover_world.issue.missing_file	Missing file	缺失文件
 recover_world.issue.none	No issues	没有问题
-recover_world.message	The following issues occurred while trying to read world folder "%s".\nIt might be possible to restore the world from an older state or you can report this issue on the bug tracker.	尝试读取世界文件夹“%s”时出现以下问题。\n可以尝试从先前的状态恢复此世界，也可以在漏洞追踪器上报告此问题。
+recover_world.message	"The following issues occurred while trying to read world folder ""%s"".\nIt might be possible to restore the world from an older state or you can report this issue on the bug tracker."	尝试读取世界文件夹“%s”时出现以下问题。\n可以尝试从先前的状态恢复此世界，也可以在漏洞追踪器上报告此问题。
 recover_world.no_fallback	No state to recover from available	没有可以恢复的状态
 recover_world.restore	Attempt to Restore	尝试恢复
 recover_world.restoring	Attempting to restore world...	尝试恢复世界中…
