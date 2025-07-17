@@ -53,7 +53,7 @@ for en_key in en_data:
         failed_keys[en_key] = "未在中文文件中找到对应的键。"
 
 with open(get_absolute_path(tsv_relative_path), 'w', newline='', encoding='utf-8') as f:
-    writer = csv.writer(f, delimiter='\t', quoting=csv.QUOTE_STRINGS)
+    writer = csv.writer(f, delimiter='\t', quoting=csv.QUOTE_MINIMAL)
     writer.writerows(tsv_data)
 
 
