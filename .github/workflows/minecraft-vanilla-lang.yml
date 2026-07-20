@@ -38,7 +38,7 @@ jobs:
           if [ "$FORCE" = "true" ]; then
             echo "Force re-download requested"
             echo "skip=false" >> $GITHUB_OUTPUT
-          elif [ -f vanilla/.latest ] && [ "$(cat vanilla/.latest)" = "$LATEST_RELEASE" ]; then
+          elif [ -f Vanilla/.latest ] && [ "$(cat Vanilla/.latest)" = "$LATEST_RELEASE" ]; then
             echo "Version unchanged ($LATEST_RELEASE), skipping"
             echo "skip=true" >> $GITHUB_OUTPUT
           else
@@ -91,14 +91,14 @@ jobs:
           done
 
           # Merge to TSV and compute diff
-          mkdir -p vanilla
+          mkdir -p Vanilla
           python3 << 'PYEOF'
           import json
           import os
           import sys
 
           tmpdir = os.environ["TMPDIR"]
-          outdir = "vanilla"
+          outdir = "Vanilla"
           LANGS = ["en_us", "zh_cn", "zh_tw", "zh_hk", "ja_jp"]
           TRANSLATION_LANGS = ["zh_cn", "zh_tw", "zh_hk", "ja_jp"]
 
@@ -203,10 +203,10 @@ jobs:
           PYEOF
 
           # Write .latest
-          echo "$LATEST_RELEASE" > vanilla/.latest
+          echo "$LATEST_RELEASE" > Vanilla/.latest
 
-          echo "Done. Files in vanilla/:"
-          ls -la vanilla/
+          echo "Done. Files in Vanilla/:"
+          ls -la Vanilla/
 
       - name: Commit and push
         if: steps.version_check.outputs.skip != 'true'
@@ -214,12 +214,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add -A vanilla/
+          git add -A Vanilla/
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            VERSION=$(cat vanilla/.latest)
-            git commit -m "chore(vanilla): update minecraft lang to $VERSION"
+            VERSION=$(cat Vanilla/.latest)
+            git commit -m "chore(Vanilla): update minecraft lang to $VERSION"
             git push
           fi
