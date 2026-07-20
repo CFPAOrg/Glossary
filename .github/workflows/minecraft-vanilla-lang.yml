@@ -140,14 +140,17 @@ jobs:
                       if not line:
                           continue
                       cols = line.split("\t")
-                      prev_vals[cols[0]] = cols[1:]
+                      vals = [c.replace("\\n", "\n") for c in cols[1:]]
+                      prev_vals[cols[0]] = vals
               print(f"Loaded previous {prev_path} with {len(prev_vals)} keys")
 
           # Write new TSV (overwrites latest.tsv)
           with open(prev_path, "w", encoding="utf-8", newline="") as f:
               f.write("key\t" + "\t".join(LANGS) + "\n")
               for key in keys:
-                  f.write(key + "\t" + "\t".join(new_table[key][lang] for lang in LANGS) + "\n")
+                  vals = [new_table[key][lang] for lang in LANGS]
+                  vals_esc = [v.replace("\n", "\\n") for v in vals]
+                  f.write(key + "\t" + "\t".join(vals_esc) + "\n")
           print(f"Generated {prev_path} with {len(keys)} keys")
 
           # Compute and write diff
