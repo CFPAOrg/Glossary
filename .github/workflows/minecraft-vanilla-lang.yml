@@ -1,0 +1,225 @@
+name: Minecraft Vanilla Lang
+
+on:
+  schedule:
+    - cron: '0 16 * * *'   # UTC+8 00:00
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force re-download even if version unchanged'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check version
+        id: version_check
+        run: |
+          set -euo pipefail
+          FORCE="${{ inputs.force }}"
+          if [ -z "$FORCE" ]; then
+            FORCE="false"
+          fi
+          echo "force=$FORCE"
+
+          MANIFEST=$(curl -fsSL https://launchermeta.mojang.com/mc/game/version_manifest_v2.json)
+          LATEST_RELEASE=$(echo "$MANIFEST" | jq -r '.latest.release')
+          echo "latest=$LATEST_RELEASE" >> $GITHUB_OUTPUT
+          VERSION_URL=$(echo "$MANIFEST" | jq -r --arg v "$LATEST_RELEASE" '.versions[] | select(.id == $v) | .url')
+          echo "version_url=$VERSION_URL" >> $GITHUB_OUTPUT
+
+          if [ "$FORCE" = "true" ]; then
+            echo "Force re-download requested"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          elif [ -f vanilla/.latest ] && [ "$(cat vanilla/.latest)" = "$LATEST_RELEASE" ]; then
+            echo "Version unchanged ($LATEST_RELEASE), skipping"
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "Version changed or no previous version, will download"
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Download and merge
+        if: steps.version_check.outputs.skip != 'true'
+        env:
+          TMPDIR: ${{ runner.temp }}/mc-lang
+          LATEST_RELEASE: ${{ steps.version_check.outputs.latest }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$TMPDIR"
+
+          echo "Processing version: $LATEST_RELEASE"
+
+          VERSION_URL="${{ steps.version_check.outputs.version_url }}"
+          echo "Version URL: $VERSION_URL"
+
+          # Download version meta
+          VERSION_META=$(curl -fsSL "$VERSION_URL")
+
+          # Download client jar and extract en_us.json
+          CLIENT_URL=$(echo "$VERSION_META" | jq -r '.downloads.client.url')
+          echo "Downloading client jar..."
+          curl -fsSL "$CLIENT_URL" -o "$TMPDIR/client.jar"
+          unzip -p "$TMPDIR/client.jar" assets/minecraft/lang/en_us.json > "$TMPDIR/en_us.json"
+
+          # Download asset index
+          ASSET_INDEX_URL=$(echo "$VERSION_META" | jq -r '.assetIndex.url')
+          echo "Downloading asset index..."
+          curl -fsSL "$ASSET_INDEX_URL" -o "$TMPDIR/asset_index.json"
+
+          # Download each lang file
+          for LANG in zh_cn zh_tw zh_hk ja_jp; do
+            HASH=$(jq -r --arg l "$LANG" '.objects["minecraft/lang/\($l).json"].hash' "$TMPDIR/asset_index.json")
+            if [ "$HASH" = "null" ] || [ -z "$HASH" ]; then
+              echo "WARNING: $LANG not found in asset index, using empty"
+              echo '{}' > "$TMPDIR/$LANG.json"
+              continue
+            fi
+            LANG_URL="https://resources.download.minecraft.net/${HASH:0:2}/$HASH"
+            echo "Downloading $LANG..."
+            if ! curl -fsSL "$LANG_URL" -o "$TMPDIR/$LANG.json"; then
+              echo "WARNING: Failed to download $LANG, using empty"
+              echo '{}' > "$TMPDIR/$LANG.json"
+            fi
+          done
+
+          # Merge to TSV and compute diff
+          mkdir -p vanilla
+          python3 << 'PYEOF'
+          import json
+          import os
+          import sys
+
+          tmpdir = os.environ["TMPDIR"]
+          outdir = "vanilla"
+          LANGS = ["en_us", "zh_cn", "zh_tw", "zh_hk", "ja_jp"]
+          TRANSLATION_LANGS = ["zh_cn", "zh_tw", "zh_hk", "ja_jp"]
+
+          # Load en_us as key universe
+          en_us_path = os.path.join(tmpdir, "en_us.json")
+          with open(en_us_path, "r", encoding="utf-8") as f:
+              en_us = json.load(f)
+
+          keys = list(en_us.keys())
+
+          # Load other langs
+          translations = {}
+          for lang in TRANSLATION_LANGS:
+              lang_path = os.path.join(tmpdir, f"{lang}.json")
+              try:
+                  with open(lang_path, "r", encoding="utf-8") as f:
+                      translations[lang] = json.load(f)
+              except Exception as e:
+                  print(f"WARNING: Failed to parse {lang}.json: {e}", file=sys.stderr)
+                  translations[lang] = {}
+
+          # Build new table: {key: {lang: value}}
+          new_table = {}
+          for key in keys:
+              new_table[key] = {
+                  "en_us": en_us.get(key, ""),
+                  **{lang: translations.get(lang, {}).get(key, "") for lang in TRANSLATION_LANGS},
+              }
+
+          # Parse previous latest.tsv (if exists) BEFORE overwriting
+          prev_path = os.path.join(outdir, "latest.tsv")
+          prev_exists = os.path.exists(prev_path)
+          prev_vals = {}  # key -> [en_us, zh_cn, zh_tw, zh_hk, ja_jp]
+          if prev_exists:
+              with open(prev_path, "r", encoding="utf-8", newline="") as f:
+                  f.readline()  # skip header
+                  for line in f:
+                      line = line.rstrip("\n")
+                      if not line:
+                          continue
+                      cols = line.split("\t")
+                      prev_vals[cols[0]] = cols[1:]
+              print(f"Loaded previous {prev_path} with {len(prev_vals)} keys")
+
+          # Write new TSV (overwrites latest.tsv)
+          with open(prev_path, "w", encoding="utf-8", newline="") as f:
+              f.write("key\t" + "\t".join(LANGS) + "\n")
+              for key in keys:
+                  f.write(key + "\t" + "\t".join(new_table[key][lang] for lang in LANGS) + "\n")
+          print(f"Generated {prev_path} with {len(keys)} keys")
+
+          # Compute and write diff
+          if prev_exists:
+              added = {}
+              changed = {}
+              removed = {}
+              new_key_set = set(keys)
+
+              for key in keys:
+                  if key not in prev_vals:
+                      added[key] = {lang: new_table[key][lang] for lang in LANGS}
+                  else:
+                      new_vals = [new_table[key][lang] for lang in LANGS]
+                      if new_vals != prev_vals[key]:
+                          changed[key] = {lang: new_table[key][lang] for lang in LANGS}
+
+              for key, vals in prev_vals.items():
+                  if key not in new_key_set:
+                      removed[key] = dict(zip(LANGS, vals))
+
+              # Read previous version from .latest if available
+              prev_version = None
+              latest_path = os.path.join(outdir, ".latest")
+              if os.path.exists(latest_path):
+                  with open(latest_path, "r", encoding="utf-8") as f:
+                      prev_version = f.read().strip() or None
+
+              diff_obj = {
+                  "from": prev_version,
+                  "to": os.environ.get("LATEST_RELEASE", ""),
+                  "added_count": len(added),
+                  "added": added,
+                  "changed_count": len(changed),
+                  "changed": changed,
+                  "removed_count": len(removed),
+                  "removed": removed,
+              }
+
+              diff_path = os.path.join(outdir, "latest-diff.json")
+              with open(diff_path, "w", encoding="utf-8") as f:
+                  json.dump(diff_obj, f, ensure_ascii=False, indent=2)
+                  f.write("\n")
+              print(f"Generated {diff_path} with {len(added)} added, {len(changed)} changed, {len(removed)} removed keys")
+          else:
+              # First run: remove stale diff files if present
+              for ext in (".json", ".tsv"):
+                  stale = os.path.join(outdir, f"latest-diff{ext}")
+                  if os.path.exists(stale):
+                      os.remove(stale)
+                      print(f"Removed stale {stale}")
+              print("No previous baseline, no diff generated")
+          PYEOF
+
+          # Write .latest
+          echo "$LATEST_RELEASE" > vanilla/.latest
+
+          echo "Done. Files in vanilla/:"
+          ls -la vanilla/
+
+      - name: Commit and push
+        if: steps.version_check.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A vanilla/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            VERSION=$(cat vanilla/.latest)
+            git commit -m "chore(vanilla): update minecraft lang to $VERSION"
+            git push
+          fi
