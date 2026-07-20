@@ -190,18 +190,15 @@ jobs:
                   "removed": removed,
               }
 
-              diff_path = os.path.join(outdir, "latest-diff.json")
+              diffs_dir = os.path.join(outdir, "diffs")
+              os.makedirs(diffs_dir, exist_ok=True)
+              diff_name = f"{prev_version or 'none'}-{os.environ.get('LATEST_RELEASE', 'unknown')}.json"
+              diff_path = os.path.join(diffs_dir, diff_name)
               with open(diff_path, "w", encoding="utf-8") as f:
                   json.dump(diff_obj, f, ensure_ascii=False, indent=2)
                   f.write("\n")
               print(f"Generated {diff_path} with {len(added)} added, {len(changed)} changed, {len(removed)} removed keys")
           else:
-              # First run: remove stale diff files if present
-              for ext in (".json", ".tsv"):
-                  stale = os.path.join(outdir, f"latest-diff{ext}")
-                  if os.path.exists(stale):
-                      os.remove(stale)
-                      print(f"Removed stale {stale}")
               print("No previous baseline, no diff generated")
           PYEOF
 
