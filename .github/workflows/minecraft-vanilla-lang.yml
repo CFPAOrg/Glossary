@@ -35,15 +35,31 @@ jobs:
           VERSION_URL=$(echo "$MANIFEST" | jq -r --arg v "$LATEST_RELEASE" '.versions[] | select(.id == $v) | .url')
           echo "version_url=$VERSION_URL" >> $GITHUB_OUTPUT
 
+          # force bypasses the minor-version gate; allows re-fetching
+          # the same (year,minor) or a patch-only update
           if [ "$FORCE" = "true" ]; then
-            echo "Force re-download requested"
+            echo "Force re-download requested (bypassing version gate)"
             echo "skip=false" >> $GITHUB_OUTPUT
-          elif [ -f Vanilla/.latest ] && [ "$(cat Vanilla/.latest)" = "$LATEST_RELEASE" ]; then
-            echo "Version unchanged ($LATEST_RELEASE), skipping"
-            echo "skip=true" >> $GITHUB_OUTPUT
+          elif [ ! -f Vanilla/.latest ]; then
+            echo "No previous baseline, will download"
+            echo "skip=false" >> $GITHUB_OUTPUT
           else
-            echo "Version changed or no previous version, will download"
-            echo "skip=false" >> $GITHUB_OUTPUT
+            CURRENT=$(cat Vanilla/.latest)
+            CURRENT_MM=$(echo "$CURRENT" | awk -F. '{print $1"."$2}')
+            LATEST_MM=$(echo "$LATEST_RELEASE" | awk -F. '{print $1"."$2}')
+            if [ "$CURRENT_MM" != "$LATEST_MM" ]; then
+              # year.minor differs -- check if latest advances
+              if echo "$LATEST_MM $CURRENT_MM" | awk '{ split($1,l,"."); split($2,c,"."); exit (l[1] > c[1] || (l[1] == c[1] && l[2] > c[2])) ? 0 : 1 }'; then
+                echo "Minor version bump: $CURRENT_MM -> $LATEST_MM, will download"
+                echo "skip=false" >> $GITHUB_OUTPUT
+              else
+                echo "Latest version $LATEST_RELEASE has older year.minor ($LATEST_MM) than baseline $CURRENT ($CURRENT_MM), skipping"
+                echo "skip=true" >> $GITHUB_OUTPUT
+              fi
+            else
+              echo "Patch-only update $CURRENT -> $LATEST_RELEASE (minor unchanged $CURRENT_MM), skipping"
+              echo "skip=true" >> $GITHUB_OUTPUT
+            fi
           fi
 
       - name: Download and merge
