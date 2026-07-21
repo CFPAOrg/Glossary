@@ -15,8 +15,7 @@
     "stat.minecraft.",
     "stat_type.",
     "trim_material.minecraft.",
-    "trim_pattern.minecraft.",
-    "advancements."
+    "trim_pattern.minecraft."
   ],
   "blacklist_suffixes": [
     ".desc",
