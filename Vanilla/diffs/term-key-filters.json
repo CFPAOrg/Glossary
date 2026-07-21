@@ -1,0 +1,28 @@
+{
+  "whitelist_prefixes": [
+    "attribute.name.",
+    "biome.minecraft.",
+    "block.minecraft.",
+    "color.minecraft.",
+    "effect.minecraft.",
+    "enchantment.minecraft.",
+    "entity.minecraft.",
+    "flat_world_preset.minecraft.",
+    "generator.minecraft.",
+    "instrument.minecraft.",
+    "item.minecraft.",
+    "itemGroup.",
+    "stat.minecraft.",
+    "stat_type.",
+    "trim_material.minecraft.",
+    "trim_pattern.minecraft.",
+    "advancements."
+  ],
+  "blacklist_suffixes": [
+    ".desc",
+    ".description",
+    ".tooltip",
+    ".narration",
+    ".content"
+  ]
+}

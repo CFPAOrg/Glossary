@@ -1,0 +1,78 @@
+{
+  "from": "26.1.2",
+  "to": "26.2",
+  "source_diff": "Vanilla/diffs/26.1.2-26.2.json",
+  "added_count": 15,
+  "added": [
+    {
+      "en": ["Sulfur"],
+      "zh": ["硫黄"]
+    },
+    {
+      "en": ["Cinnabar"],
+      "zh": ["朱砂"]
+    },
+    {
+      "en": ["Sulfur Cube"],
+      "zh": ["硫方怪"]
+    },
+    {
+      "en": ["Potent"],
+      "zh": ["烈性"]
+    },
+    {
+      "en": ["Spike"],
+      "zh": ["尖锥"]
+    },
+    {
+      "en": ["Potent Sulfur"],
+      "zh": ["烈性硫黄"]
+    },
+    {
+      "en": ["Sulfur Spike"],
+      "zh": ["硫黄尖锥"]
+    },
+    {
+      "en": ["Sulfur Caves"],
+      "zh": ["硫黄洞穴"],
+      "labels": ["biome"]
+    },
+    {
+      "en": ["Sulfur Spring"],
+      "zh": ["硫黄涌泉"]
+    },
+    {
+      "en": ["Noxious Gas"],
+      "zh": ["有毒气体"]
+    },
+    {
+      "en": ["Air Drag Modifier"],
+      "zh": ["空气阻力修正系数"],
+      "labels": ["attribute"]
+    },
+    {
+      "en": ["Bounciness"],
+      "zh": ["弹性"],
+      "labels": ["attribute"]
+    },
+    {
+      "en": ["Friction Modifier"],
+      "zh": ["摩擦力修正系数"],
+      "labels": ["attribute"]
+    },
+    {
+      "en": ["Name Tag Distance"],
+      "zh": ["名牌距离"],
+      "labels": ["attribute"]
+    },
+    {
+      "en": ["Name Tag Score Distance"],
+      "zh": ["名牌分数距离"],
+      "labels": ["attribute"]
+    }
+  ],
+  "updated_count": 0,
+  "updated": [],
+  "removed_count": 0,
+  "removed": []
+}
