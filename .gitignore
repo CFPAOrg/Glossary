@@ -6,6 +6,7 @@ TM/*
 *.sdltb
 
 原版标准译名列表1.18.2.csv
-*.py
+
 1.20.6/zh_cn.json
 1.20.6/en_us.json
+/1.20.6/*.py
