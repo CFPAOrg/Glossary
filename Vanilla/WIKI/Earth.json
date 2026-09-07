@@ -1,0 +1,472 @@
+{
+  "BlockSprite": [
+    {
+      "en": "buttercup",
+      "raw": "毛茛",
+      "link": "毛茛",
+      "zh": "毛茛"
+    },
+    {
+      "en": "earth ruby block",
+      "raw": "红宝石#红宝石块|红宝石块",
+      "link": "红宝石#红宝石块",
+      "zh": "红宝石块"
+    },
+    {
+      "en": "mud liquid",
+      "raw": "泥",
+      "link": "泥",
+      "zh": "泥"
+    },
+    {
+      "en": "pink daisy",
+      "raw": "粉红雏菊",
+      "link": "粉红雏菊",
+      "zh": "粉红雏菊"
+    },
+    {
+      "en": "rainbow bed",
+      "raw": "彩虹床",
+      "link": "彩虹床",
+      "zh": "彩虹床"
+    },
+    {
+      "en": "rainbow carpet",
+      "raw": "彩虹地毯",
+      "link": "彩虹地毯",
+      "zh": "彩虹地毯"
+    },
+    {
+      "en": "rainbow wool",
+      "raw": "彩虹羊毛",
+      "link": "彩虹羊毛",
+      "zh": "彩虹羊毛"
+    }
+  ],
+  "EarthEntitySprite": [
+    {
+      "en": "albino cow",
+      "raw": "白化牛",
+      "link": "白化牛",
+      "zh": "白化牛"
+    },
+    {
+      "en": "amber chicken",
+      "raw": "琥珀鸡",
+      "link": "琥珀鸡",
+      "zh": "琥珀鸡"
+    },
+    {
+      "en": "ashen cow",
+      "raw": "灰白牛",
+      "link": "灰白牛",
+      "zh": "灰白牛"
+    },
+    {
+      "en": "bold striped rabbit",
+      "raw": "粗条纹兔子",
+      "link": "粗条纹兔子",
+      "zh": "粗条纹兔子"
+    },
+    {
+      "en": "bone shard",
+      "raw": "骨蜘蛛#骨头碎片|骨头碎片",
+      "link": "骨蜘蛛#骨头碎片",
+      "zh": "骨头碎片"
+    },
+    {
+      "en": "bone spider",
+      "raw": "骨蜘蛛",
+      "link": "骨蜘蛛",
+      "zh": "骨蜘蛛"
+    },
+    {
+      "en": "bouldering zombie",
+      "raw": "攀岩僵尸",
+      "link": "攀岩僵尸",
+      "zh": "攀岩僵尸"
+    },
+    {
+      "en": "bronzed chicken",
+      "raw": "青铜鸡",
+      "link": "青铜鸡",
+      "zh": "青铜鸡"
+    },
+    {
+      "en": "cluckshroom",
+      "raw": "咯菇",
+      "link": "咯菇",
+      "zh": "咯菇"
+    },
+    {
+      "en": "cookie cow",
+      "raw": "曲奇牛",
+      "link": "曲奇牛",
+      "zh": "曲奇牛"
+    },
+    {
+      "en": "cream cow",
+      "raw": "奶油牛",
+      "link": "奶油牛",
+      "zh": "奶油牛"
+    },
+    {
+      "en": "dairy cow",
+      "raw": "奶牛",
+      "link": "奶牛",
+      "zh": "奶牛"
+    },
+    {
+      "en": "dyed cat",
+      "raw": "染色猫",
+      "link": "染色猫",
+      "zh": "染色猫"
+    },
+    {
+      "en": "fancy chicken",
+      "raw": "华丽鸡",
+      "link": "华丽鸡",
+      "zh": "华丽鸡"
+    },
+    {
+      "en": "flecked sheep",
+      "raw": "斑点羊",
+      "link": "斑点羊",
+      "zh": "斑点羊"
+    },
+    {
+      "en": "freckled rabbit",
+      "raw": "雀斑兔子",
+      "link": "雀斑兔子",
+      "zh": "雀斑兔子"
+    },
+    {
+      "en": "furnace golem",
+      "raw": "熔炉傀儡",
+      "link": "熔炉傀儡",
+      "zh": "熔炉傀儡"
+    },
+    {
+      "en": "fuzzy sheep",
+      "raw": "绒毛羊",
+      "link": "绒毛羊",
+      "zh": "绒毛羊"
+    },
+    {
+      "en": "glow squid",
+      "raw": "发光鱿鱼",
+      "link": "发光鱿鱼",
+      "zh": "发光鱿鱼"
+    },
+    {
+      "en": "gold crested chicken",
+      "raw": "金冠鸡",
+      "link": "金冠鸡",
+      "zh": "金冠鸡"
+    },
+    {
+      "en": "harelequin rabbit",
+      "raw": "多彩兔",
+      "link": "多彩兔",
+      "zh": "多彩兔"
+    },
+    {
+      "en": "horned sheep",
+      "raw": "角羊",
+      "link": "角羊",
+      "zh": "角羊"
+    },
+    {
+      "en": "inky sheep",
+      "raw": "墨水羊",
+      "link": "墨水羊",
+      "zh": "墨水羊"
+    },
+    {
+      "en": "jolly llama",
+      "raw": "快乐的羊驼",
+      "link": "快乐的羊驼",
+      "zh": "快乐的羊驼"
+    },
+    {
+      "en": "jumbo rabbit",
+      "raw": "巨型兔子",
+      "link": "巨型兔子",
+      "zh": "巨型兔子"
+    },
+    {
+      "en": "lobber zombie",
+      "raw": "投手僵尸",
+      "link": "投手僵尸",
+      "zh": "投手僵尸"
+    },
+    {
+      "en": "long nose sheep",
+      "raw": "长鼻羊",
+      "link": "长鼻羊",
+      "zh": "长鼻羊"
+    },
+    {
+      "en": "melon golem",
+      "raw": "瓜傀儡",
+      "link": "瓜傀儡",
+      "zh": "瓜傀儡"
+    },
+    {
+      "en": "melon seed projectile",
+      "raw": "瓜傀儡#瓜籽弹|瓜籽弹",
+      "link": "瓜傀儡#瓜籽弹",
+      "zh": "瓜籽弹"
+    },
+    {
+      "en": "midnight chicken",
+      "raw": "午夜鸡",
+      "link": "午夜鸡",
+      "zh": "午夜鸡"
+    },
+    {
+      "en": "mob of me",
+      "raw": "我的生物",
+      "link": "我的生物",
+      "zh": "我的生物"
+    },
+    {
+      "en": "moobloom",
+      "raw": "哞花",
+      "link": "哞花",
+      "zh": "哞花"
+    },
+    {
+      "en": "moolip",
+      "raw": "哞金香",
+      "link": "哞金香",
+      "zh": "哞金香"
+    },
+    {
+      "en": "mottled pig",
+      "raw": "杂斑猪",
+      "link": "杂斑猪",
+      "zh": "杂斑猪"
+    },
+    {
+      "en": "muddy foot rabbit",
+      "raw": "泥脚兔子",
+      "link": "泥脚兔子",
+      "zh": "泥脚兔子"
+    },
+    {
+      "en": "muddy pig",
+      "raw": "泥猪",
+      "link": "泥猪",
+      "zh": "泥猪"
+    },
+    {
+      "en": "pale pig",
+      "raw": "苍白猪",
+      "link": "苍白猪",
+      "zh": "苍白猪"
+    },
+    {
+      "en": "patched sheep",
+      "raw": "拼接羊",
+      "link": "拼接羊",
+      "zh": "拼接羊"
+    },
+    {
+      "en": "piebald pig",
+      "raw": "花斑猪",
+      "link": "花斑猪",
+      "zh": "花斑猪"
+    },
+    {
+      "en": "pink footed pig",
+      "raw": "粉蹄猪",
+      "link": "粉蹄猪",
+      "zh": "粉蹄猪"
+    },
+    {
+      "en": "pinto cow",
+      "raw": "花斑牛",
+      "link": "花斑牛",
+      "zh": "花斑牛"
+    },
+    {
+      "en": "rainbow sheep",
+      "raw": "彩虹羊",
+      "link": "彩虹羊",
+      "zh": "彩虹羊"
+    },
+    {
+      "en": "rocky sheep",
+      "raw": "岩石羊",
+      "link": "岩石羊",
+      "zh": "岩石羊"
+    },
+    {
+      "en": "skeleton wolf",
+      "raw": "骷髅狼",
+      "link": "骷髅狼",
+      "zh": "骷髅狼"
+    },
+    {
+      "en": "skewbald chicken",
+      "raw": "白花斑鸡",
+      "link": "白花斑鸡",
+      "zh": "白花斑鸡"
+    },
+    {
+      "en": "sooty pig",
+      "raw": "煤烟猪",
+      "link": "煤烟猪",
+      "zh": "煤烟猪"
+    },
+    {
+      "en": "spotted pig",
+      "raw": "斑点猪",
+      "link": "斑点猪",
+      "zh": "斑点猪"
+    },
+    {
+      "en": "stormy chicken",
+      "raw": "暴风鸡",
+      "link": "暴风鸡",
+      "zh": "暴风鸡"
+    },
+    {
+      "en": "sunset cow",
+      "raw": "日落牛",
+      "link": "日落牛",
+      "zh": "日落牛"
+    },
+    {
+      "en": "tropical slime",
+      "raw": "热带史莱姆",
+      "link": "热带史莱姆",
+      "zh": "热带史莱姆"
+    },
+    {
+      "en": "umbra cow",
+      "raw": "阴影牛",
+      "link": "阴影牛",
+      "zh": "阴影牛"
+    },
+    {
+      "en": "vested rabbit",
+      "raw": "背心兔子",
+      "link": "背心兔子",
+      "zh": "背心兔子"
+    },
+    {
+      "en": "viler witch",
+      "raw": "极恶女巫",
+      "link": "极恶女巫",
+      "zh": "极恶女巫"
+    },
+    {
+      "en": "wooly cow",
+      "raw": "羊毛牛",
+      "link": "羊毛牛",
+      "zh": "羊毛牛"
+    }
+  ],
+  "ItemSprite": [
+    {
+      "en": "adventure crystal",
+      "raw": "冒险水晶",
+      "link": "冒险水晶",
+      "zh": "冒险水晶"
+    },
+    {
+      "en": "bucket of mud",
+      "raw": "泥桶",
+      "link": "泥桶",
+      "zh": "泥桶"
+    },
+    {
+      "en": "earth ruby",
+      "raw": "红宝石",
+      "link": "红宝石",
+      "zh": "红宝石"
+    },
+    {
+      "en": "fancy feather",
+      "raw": "华丽羽毛",
+      "link": "华丽羽毛",
+      "zh": "华丽羽毛"
+    },
+    {
+      "en": "horn",
+      "raw": "角",
+      "link": "角",
+      "zh": "角"
+    },
+    {
+      "en": "pink daisy",
+      "raw": "粉红雏菊",
+      "link": "粉红雏菊",
+      "zh": "粉红雏菊"
+    },
+    {
+      "en": "rainbow bed",
+      "raw": "彩虹床",
+      "link": "彩虹床",
+      "zh": "彩虹床"
+    }
+  ],
+  "InvSprite": [
+    {
+      "en": "bucket of mud",
+      "raw": "泥桶",
+      "link": "泥桶",
+      "zh": "泥桶"
+    },
+    {
+      "en": "buttercup",
+      "raw": "毛茛",
+      "link": "毛茛",
+      "zh": "毛茛"
+    },
+    {
+      "en": "earth ruby",
+      "raw": "红宝石",
+      "link": "红宝石",
+      "zh": "红宝石"
+    },
+    {
+      "en": "fancy feather",
+      "raw": "华丽羽毛",
+      "link": "华丽羽毛",
+      "zh": "华丽羽毛"
+    },
+    {
+      "en": "horn",
+      "raw": "角",
+      "link": "角",
+      "zh": "角"
+    },
+    {
+      "en": "mud bucket",
+      "raw": "泥桶",
+      "link": "泥桶",
+      "zh": "泥桶"
+    },
+    {
+      "en": "rainbow bed",
+      "raw": "彩虹床",
+      "link": "彩虹床",
+      "zh": "彩虹床"
+    },
+    {
+      "en": "rainbow carpet",
+      "raw": "彩虹地毯",
+      "link": "彩虹地毯",
+      "zh": "彩虹地毯"
+    },
+    {
+      "en": "rainbow wool",
+      "raw": "彩虹羊毛",
+      "link": "彩虹羊毛",
+      "zh": "彩虹羊毛"
+    }
+  ]
+}

@@ -1,0 +1,676 @@
+{
+  "_root": [
+    {
+      "en": "Badlands",
+      "raw": "恶地",
+      "link": "恶地",
+      "zh": "恶地"
+    },
+    {
+      "en": "Bamboo Jungle",
+      "raw": "竹林",
+      "link": "竹林",
+      "zh": "竹林"
+    },
+    {
+      "en": "Basalt Deltas",
+      "raw": "玄武岩三角洲",
+      "link": "玄武岩三角洲",
+      "zh": "玄武岩三角洲"
+    },
+    {
+      "en": "Beach",
+      "raw": "沙滩",
+      "link": "沙滩",
+      "zh": "沙滩"
+    },
+    {
+      "en": "Birch Forest",
+      "raw": "桦木森林",
+      "link": "桦木森林",
+      "zh": "桦木森林"
+    },
+    {
+      "en": "Cherry Grove",
+      "raw": "樱花树林",
+      "link": "樱花树林",
+      "zh": "樱花树林"
+    },
+    {
+      "en": "Cold Ocean",
+      "raw": "冷水海洋",
+      "link": "冷水海洋",
+      "zh": "冷水海洋"
+    },
+    {
+      "en": "Crimson Forest",
+      "raw": "绯红森林",
+      "link": "绯红森林",
+      "zh": "绯红森林"
+    },
+    {
+      "en": "Dappled Forest",
+      "raw": "斑驳森林",
+      "link": "斑驳森林",
+      "zh": "斑驳森林"
+    },
+    {
+      "en": "Dark Forest",
+      "raw": "黑森林",
+      "link": "黑森林",
+      "zh": "黑森林"
+    },
+    {
+      "en": "Deep Cold Ocean",
+      "raw": "冷水深海",
+      "link": "冷水深海",
+      "zh": "冷水深海"
+    },
+    {
+      "en": "Deep Dark",
+      "raw": "深暗之域",
+      "link": "深暗之域",
+      "zh": "深暗之域"
+    },
+    {
+      "en": "Deep Frozen Ocean",
+      "raw": "冰冻深海",
+      "link": "冰冻深海",
+      "zh": "冰冻深海"
+    },
+    {
+      "en": "Deep Lukewarm Ocean",
+      "raw": "温水深海",
+      "link": "温水深海",
+      "zh": "温水深海"
+    },
+    {
+      "en": "Deep Ocean",
+      "raw": "深海",
+      "link": "深海",
+      "zh": "深海"
+    },
+    {
+      "en": "Desert",
+      "raw": "沙漠",
+      "link": "沙漠",
+      "zh": "沙漠"
+    },
+    {
+      "en": "Dripstone Caves",
+      "raw": "溶洞",
+      "link": "溶洞",
+      "zh": "溶洞"
+    },
+    {
+      "en": "End Barrens",
+      "raw": "末地荒地",
+      "link": "末地荒地",
+      "zh": "末地荒地"
+    },
+    {
+      "en": "End Highlands",
+      "raw": "末地高地",
+      "link": "末地高地",
+      "zh": "末地高地"
+    },
+    {
+      "en": "End Midlands",
+      "raw": "末地内陆",
+      "link": "末地内陆",
+      "zh": "末地内陆"
+    },
+    {
+      "en": "Eroded Badlands",
+      "raw": "风蚀恶地",
+      "link": "风蚀恶地",
+      "zh": "风蚀恶地"
+    },
+    {
+      "en": "Flower Forest",
+      "raw": "繁花森林",
+      "link": "繁花森林",
+      "zh": "繁花森林"
+    },
+    {
+      "en": "Forest",
+      "raw": "森林",
+      "link": "森林",
+      "zh": "森林"
+    },
+    {
+      "en": "Frozen Ocean",
+      "raw": "冻洋",
+      "link": "冻洋",
+      "zh": "冻洋"
+    },
+    {
+      "en": "Frozen Peaks",
+      "raw": "冰封山峰",
+      "link": "冰封山峰",
+      "zh": "冰封山峰"
+    },
+    {
+      "en": "Frozen River",
+      "raw": "冻河",
+      "link": "冻河",
+      "zh": "冻河"
+    },
+    {
+      "en": "Grove",
+      "raw": "雪林",
+      "link": "雪林",
+      "zh": "雪林"
+    },
+    {
+      "en": "Ice Spikes",
+      "raw": "冰刺之地",
+      "link": "冰刺之地",
+      "zh": "冰刺之地"
+    },
+    {
+      "en": "Jagged Peaks",
+      "raw": "尖峭山峰",
+      "link": "尖峭山峰",
+      "zh": "尖峭山峰"
+    },
+    {
+      "en": "Jungle",
+      "raw": "丛林",
+      "link": "丛林",
+      "zh": "丛林"
+    },
+    {
+      "en": "Lukewarm Ocean",
+      "raw": "温水海洋",
+      "link": "温水海洋",
+      "zh": "温水海洋"
+    },
+    {
+      "en": "Lush Caves",
+      "raw": "繁茂洞穴",
+      "link": "繁茂洞穴",
+      "zh": "繁茂洞穴"
+    },
+    {
+      "en": "Mangrove Swamp",
+      "raw": "红树林沼泽",
+      "link": "红树林沼泽",
+      "zh": "红树林沼泽"
+    },
+    {
+      "en": "Meadow",
+      "raw": "草甸",
+      "link": "草甸",
+      "zh": "草甸"
+    },
+    {
+      "en": "Mushroom Fields",
+      "raw": "蘑菇岛",
+      "link": "蘑菇岛",
+      "zh": "蘑菇岛"
+    },
+    {
+      "en": "Nether Wastes",
+      "raw": "下界荒地",
+      "link": "下界荒地",
+      "zh": "下界荒地"
+    },
+    {
+      "en": "Ocean",
+      "raw": "海洋",
+      "link": "海洋",
+      "zh": "海洋"
+    },
+    {
+      "en": "Old Growth Birch Forest",
+      "raw": "原始桦木森林",
+      "link": "原始桦木森林",
+      "zh": "原始桦木森林"
+    },
+    {
+      "en": "Old Growth Pine Taiga",
+      "raw": "原始松木针叶林",
+      "link": "原始松木针叶林",
+      "zh": "原始松木针叶林"
+    },
+    {
+      "en": "Old Growth Spruce Taiga",
+      "raw": "原始云杉针叶林",
+      "link": "原始云杉针叶林",
+      "zh": "原始云杉针叶林"
+    },
+    {
+      "en": "Pale Garden",
+      "raw": "苍白之园",
+      "link": "苍白之园",
+      "zh": "苍白之园"
+    },
+    {
+      "en": "Plains",
+      "raw": "平原",
+      "link": "平原",
+      "zh": "平原"
+    },
+    {
+      "en": "River",
+      "raw": "河流",
+      "link": "河流",
+      "zh": "河流"
+    },
+    {
+      "en": "Savanna",
+      "raw": "热带草原",
+      "link": "热带草原",
+      "zh": "热带草原"
+    },
+    {
+      "en": "Savanna Plateau",
+      "raw": "热带高原",
+      "link": "热带高原",
+      "zh": "热带高原"
+    },
+    {
+      "en": "Small End Islands",
+      "raw": "末地小型岛屿",
+      "link": "末地小型岛屿",
+      "zh": "末地小型岛屿"
+    },
+    {
+      "en": "Snowy Beach",
+      "raw": "积雪沙滩",
+      "link": "积雪沙滩",
+      "zh": "积雪沙滩"
+    },
+    {
+      "en": "Snowy Plains",
+      "raw": "雪原",
+      "link": "雪原",
+      "zh": "雪原"
+    },
+    {
+      "en": "Snowy Slopes",
+      "raw": "积雪山坡",
+      "link": "积雪山坡",
+      "zh": "积雪山坡"
+    },
+    {
+      "en": "Snowy Taiga",
+      "raw": "积雪针叶林",
+      "link": "积雪针叶林",
+      "zh": "积雪针叶林"
+    },
+    {
+      "en": "Soul Sand Valley",
+      "raw": "灵魂沙峡谷",
+      "link": "灵魂沙峡谷",
+      "zh": "灵魂沙峡谷"
+    },
+    {
+      "en": "Sparse Jungle",
+      "raw": "稀疏丛林",
+      "link": "稀疏丛林",
+      "zh": "稀疏丛林"
+    },
+    {
+      "en": "Stony Peaks",
+      "raw": "裸岩山峰",
+      "link": "裸岩山峰",
+      "zh": "裸岩山峰"
+    },
+    {
+      "en": "Stony Shore",
+      "raw": "石岸",
+      "link": "石岸",
+      "zh": "石岸"
+    },
+    {
+      "en": "Sulfur Caves",
+      "raw": "硫黄洞穴",
+      "link": "硫黄洞穴",
+      "zh": "硫黄洞穴"
+    },
+    {
+      "en": "Sunflower Plains",
+      "raw": "向日葵平原",
+      "link": "向日葵平原",
+      "zh": "向日葵平原"
+    },
+    {
+      "en": "Swamp",
+      "raw": "沼泽",
+      "link": "沼泽",
+      "zh": "沼泽"
+    },
+    {
+      "en": "Taiga",
+      "raw": "针叶林",
+      "link": "针叶林",
+      "zh": "针叶林"
+    },
+    {
+      "en": "The End",
+      "raw": "末地（生物群系）|末地",
+      "link": "末地（生物群系）",
+      "zh": "末地"
+    },
+    {
+      "en": "The Void",
+      "raw": "虚空（生物群系）|虚空",
+      "link": "虚空（生物群系）",
+      "zh": "虚空"
+    },
+    {
+      "en": "Warm Ocean",
+      "raw": "暖水海洋",
+      "link": "暖水海洋",
+      "zh": "暖水海洋"
+    },
+    {
+      "en": "Warped Forest",
+      "raw": "诡异森林",
+      "link": "诡异森林",
+      "zh": "诡异森林"
+    },
+    {
+      "en": "Windswept Forest",
+      "raw": "风袭森林",
+      "link": "风袭森林",
+      "zh": "风袭森林"
+    },
+    {
+      "en": "Windswept Gravelly Hills",
+      "raw": "风袭沙砾丘陵",
+      "link": "风袭沙砾丘陵",
+      "zh": "风袭沙砾丘陵"
+    },
+    {
+      "en": "Windswept Hills",
+      "raw": "风袭丘陵",
+      "link": "风袭丘陵",
+      "zh": "风袭丘陵"
+    },
+    {
+      "en": "Windswept Savanna",
+      "raw": "风袭热带草原",
+      "link": "风袭热带草原",
+      "zh": "风袭热带草原"
+    },
+    {
+      "en": "Wooded Badlands",
+      "raw": "疏林恶地",
+      "link": "疏林恶地",
+      "zh": "疏林恶地"
+    },
+    {
+      "en": "Giant Spruce Taiga",
+      "raw": "原始云杉针叶林|巨型云杉针叶林",
+      "link": "原始云杉针叶林",
+      "zh": "巨型云杉针叶林"
+    },
+    {
+      "en": "Giant Tree Taiga",
+      "raw": "原始松木针叶林|巨型针叶林",
+      "link": "原始松木针叶林",
+      "zh": "巨型针叶林"
+    },
+    {
+      "en": "Gravelly Mountains",
+      "raw": "风袭沙砾丘陵|沙砾山地",
+      "link": "风袭沙砾丘陵",
+      "zh": "沙砾山地"
+    },
+    {
+      "en": "Jungle Edge",
+      "raw": "稀疏丛林|丛林边缘",
+      "link": "稀疏丛林",
+      "zh": "丛林边缘"
+    },
+    {
+      "en": "Mountains",
+      "raw": "风袭丘陵|山地",
+      "link": "风袭丘陵",
+      "zh": "山地"
+    },
+    {
+      "en": "Shattered Savanna",
+      "raw": "风袭热带草原|破碎的热带草原",
+      "link": "风袭热带草原",
+      "zh": "破碎的热带草原"
+    },
+    {
+      "en": "Snowy Tundra",
+      "raw": "雪原|积雪的冻原",
+      "link": "雪原",
+      "zh": "积雪的冻原"
+    },
+    {
+      "en": "Stone Shore",
+      "raw": "石岸",
+      "link": "石岸",
+      "zh": "石岸"
+    },
+    {
+      "en": "Tall Birch Forest",
+      "raw": "原始桦木森林|高大桦木森林",
+      "link": "原始桦木森林",
+      "zh": "高大桦木森林"
+    },
+    {
+      "en": "Wooded Badlands Plateau",
+      "raw": "疏林恶地|繁茂的恶地高原",
+      "link": "疏林恶地",
+      "zh": "繁茂的恶地高原"
+    },
+    {
+      "en": "Wooded Mountains",
+      "raw": "风袭森林|繁茂的山地",
+      "link": "风袭森林",
+      "zh": "繁茂的山地"
+    },
+    {
+      "en": "Badlands Plateau",
+      "raw": "恶地高原",
+      "link": "恶地高原",
+      "zh": "恶地高原"
+    },
+    {
+      "en": "Bamboo Jungle Hills",
+      "raw": "竹林丘陵",
+      "link": "竹林丘陵",
+      "zh": "竹林丘陵"
+    },
+    {
+      "en": "Birch Forest Hills",
+      "raw": "桦木森林丘陵",
+      "link": "桦木森林丘陵",
+      "zh": "桦木森林丘陵"
+    },
+    {
+      "en": "Dark Forest Hills",
+      "raw": "黑森林丘陵",
+      "link": "黑森林丘陵",
+      "zh": "黑森林丘陵"
+    },
+    {
+      "en": "Deep Warm Ocean",
+      "raw": "暖水深海",
+      "link": "暖水深海",
+      "zh": "暖水深海"
+    },
+    {
+      "en": "Desert Hills",
+      "raw": "沙漠丘陵",
+      "link": "沙漠丘陵",
+      "zh": "沙漠丘陵"
+    },
+    {
+      "en": "Desert Lakes",
+      "raw": "沙漠湖泊",
+      "link": "沙漠湖泊",
+      "zh": "沙漠湖泊"
+    },
+    {
+      "en": "Giant Spruce Taiga Hills",
+      "raw": "巨型云杉针叶林丘陵",
+      "link": "巨型云杉针叶林丘陵",
+      "zh": "巨型云杉针叶林丘陵"
+    },
+    {
+      "en": "Giant Tree Taiga Hills",
+      "raw": "巨型针叶林丘陵",
+      "link": "巨型针叶林丘陵",
+      "zh": "巨型针叶林丘陵"
+    },
+    {
+      "en": "Jungle Hills",
+      "raw": "丛林丘陵",
+      "link": "丛林丘陵",
+      "zh": "丛林丘陵"
+    },
+    {
+      "en": "Modified Badlands Plateau",
+      "raw": "恶地高原变种",
+      "link": "恶地高原变种",
+      "zh": "恶地高原变种"
+    },
+    {
+      "en": "Modified Gravelly Mountains",
+      "raw": "沙砾山地+",
+      "link": "沙砾山地+",
+      "zh": "沙砾山地+"
+    },
+    {
+      "en": "Modified Jungle",
+      "raw": "丛林变种",
+      "link": "丛林变种",
+      "zh": "丛林变种"
+    },
+    {
+      "en": "Modified Jungle Edge",
+      "raw": "丛林边缘变种",
+      "link": "丛林边缘变种",
+      "zh": "丛林边缘变种"
+    },
+    {
+      "en": "Modified Wooded Badlands Plateau",
+      "raw": "繁茂的恶地高原变种",
+      "link": "繁茂的恶地高原变种",
+      "zh": "繁茂的恶地高原变种"
+    },
+    {
+      "en": "Mountain Edge",
+      "raw": "山地边缘",
+      "link": "山地边缘",
+      "zh": "山地边缘"
+    },
+    {
+      "en": "Mushroom Field Shore",
+      "raw": "蘑菇岛岸",
+      "link": "蘑菇岛岸",
+      "zh": "蘑菇岛岸"
+    },
+    {
+      "en": "Shattered Savanna Plateau",
+      "raw": "破碎的热带高原",
+      "link": "破碎的热带高原",
+      "zh": "破碎的热带高原"
+    },
+    {
+      "en": "Snowy Mountains",
+      "raw": "雪山",
+      "link": "雪山",
+      "zh": "雪山"
+    },
+    {
+      "en": "Snowy Taiga Hills",
+      "raw": "积雪的针叶林丘陵",
+      "link": "积雪的针叶林丘陵",
+      "zh": "积雪的针叶林丘陵"
+    },
+    {
+      "en": "Snowy Taiga Mountains",
+      "raw": "积雪的针叶林山地",
+      "link": "积雪的针叶林山地",
+      "zh": "积雪的针叶林山地"
+    },
+    {
+      "en": "Swamp Hills",
+      "raw": "沼泽丘陵",
+      "link": "沼泽丘陵",
+      "zh": "沼泽丘陵"
+    },
+    {
+      "en": "Taiga Hills",
+      "raw": "针叶林丘陵",
+      "link": "针叶林丘陵",
+      "zh": "针叶林丘陵"
+    },
+    {
+      "en": "Taiga Mountains",
+      "raw": "针叶林山地",
+      "link": "针叶林山地",
+      "zh": "针叶林山地"
+    },
+    {
+      "en": "Tall Birch Hills",
+      "raw": "高大桦木丘陵",
+      "link": "高大桦木丘陵",
+      "zh": "高大桦木丘陵"
+    },
+    {
+      "en": "Wooded Hills",
+      "raw": "繁茂的丘陵",
+      "link": "繁茂的丘陵",
+      "zh": "繁茂的丘陵"
+    },
+    {
+      "en": "Nether",
+      "raw": "下界荒地|下界",
+      "link": "下界荒地",
+      "zh": "下界"
+    },
+    {
+      "en": "the Nether",
+      "raw": "下界荒地|下界",
+      "link": "下界荒地",
+      "zh": "下界"
+    },
+    {
+      "en": "Ice Desert",
+      "raw": "冰原沙漠",
+      "link": "冰原沙漠",
+      "zh": "冰原沙漠"
+    },
+    {
+      "en": "Rain Forest",
+      "raw": "雨林",
+      "link": "雨林",
+      "zh": "雨林"
+    },
+    {
+      "en": "Seasonal Forest",
+      "raw": "季节性森林",
+      "link": "季节性森林",
+      "zh": "季节性森林"
+    },
+    {
+      "en": "Shrubland",
+      "raw": "灌木丛地",
+      "link": "灌木丛地",
+      "zh": "灌木丛地"
+    },
+    {
+      "en": "Tundra",
+      "raw": "冻原",
+      "link": "冻原",
+      "zh": "冻原"
+    },
+    {
+      "en": "Sky",
+      "raw": "天域",
+      "link": "天域",
+      "zh": "天域"
+    }
+  ]
+}

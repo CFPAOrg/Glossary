@@ -1,0 +1,262 @@
+{
+  "_root": [
+    {
+      "en": "Aqua Affinity",
+      "raw": "水下速掘",
+      "link": "水下速掘",
+      "zh": "水下速掘"
+    },
+    {
+      "en": "Bane of Arthropods",
+      "raw": "节肢杀手",
+      "link": "节肢杀手",
+      "zh": "节肢杀手"
+    },
+    {
+      "en": "Blast Protection",
+      "raw": "爆炸保护",
+      "link": "爆炸保护",
+      "zh": "爆炸保护"
+    },
+    {
+      "en": "Breach",
+      "raw": "破甲",
+      "link": "破甲",
+      "zh": "破甲"
+    },
+    {
+      "en": "Channeling",
+      "raw": "引雷",
+      "link": "引雷",
+      "zh": "引雷"
+    },
+    {
+      "en": "Curse of Binding",
+      "raw": "绑定诅咒",
+      "link": "绑定诅咒",
+      "zh": "绑定诅咒"
+    },
+    {
+      "en": "Curse of Vanishing",
+      "raw": "消失诅咒",
+      "link": "消失诅咒",
+      "zh": "消失诅咒"
+    },
+    {
+      "en": "Density",
+      "raw": "致密",
+      "link": "致密",
+      "zh": "致密"
+    },
+    {
+      "en": "Depth Strider",
+      "raw": "深海探索者",
+      "link": "深海探索者",
+      "zh": "深海探索者"
+    },
+    {
+      "en": "Efficiency",
+      "raw": "效率",
+      "link": "效率",
+      "zh": "效率"
+    },
+    {
+      "en": "Feather Falling",
+      "raw": "摔落缓冲",
+      "link": "摔落缓冲",
+      "zh": "摔落缓冲"
+    },
+    {
+      "en": "Fire Aspect",
+      "raw": "火焰附加",
+      "link": "火焰附加",
+      "zh": "火焰附加"
+    },
+    {
+      "en": "Fire Protection",
+      "raw": "火焰保护",
+      "link": "火焰保护",
+      "zh": "火焰保护"
+    },
+    {
+      "en": "Flame",
+      "raw": "火矢",
+      "link": "火矢",
+      "zh": "火矢"
+    },
+    {
+      "en": "Fortune",
+      "raw": "时运",
+      "link": "时运",
+      "zh": "时运"
+    },
+    {
+      "en": "Frost Walker",
+      "raw": "冰霜行者",
+      "link": "冰霜行者",
+      "zh": "冰霜行者"
+    },
+    {
+      "en": "Impaling",
+      "raw": "穿刺",
+      "link": "穿刺",
+      "zh": "穿刺"
+    },
+    {
+      "en": "Infinity",
+      "raw": "无限",
+      "link": "无限",
+      "zh": "无限"
+    },
+    {
+      "en": "Knockback",
+      "raw": "击退",
+      "link": "击退",
+      "zh": "击退"
+    },
+    {
+      "en": "Looting",
+      "raw": "抢夺",
+      "link": "抢夺",
+      "zh": "抢夺"
+    },
+    {
+      "en": "Loyalty",
+      "raw": "忠诚",
+      "link": "忠诚",
+      "zh": "忠诚"
+    },
+    {
+      "en": "Luck of the Sea",
+      "raw": "海之眷顾",
+      "link": "海之眷顾",
+      "zh": "海之眷顾"
+    },
+    {
+      "en": "Lunge",
+      "raw": "突进",
+      "link": "突进",
+      "zh": "突进"
+    },
+    {
+      "en": "Lure",
+      "raw": "饵钓",
+      "link": "饵钓",
+      "zh": "饵钓"
+    },
+    {
+      "en": "Mending",
+      "raw": "经验修补",
+      "link": "经验修补",
+      "zh": "经验修补"
+    },
+    {
+      "en": "Multishot",
+      "raw": "多重射击",
+      "link": "多重射击",
+      "zh": "多重射击"
+    },
+    {
+      "en": "Piercing",
+      "raw": "穿透",
+      "link": "穿透",
+      "zh": "穿透"
+    },
+    {
+      "en": "Power",
+      "raw": "力量（魔咒）|強力",
+      "link": "力量（魔咒）",
+      "zh": "強力"
+    },
+    {
+      "en": "Projectile Protection",
+      "raw": "弹射物保护",
+      "link": "弹射物保护",
+      "zh": "弹射物保护"
+    },
+    {
+      "en": "Protection",
+      "raw": "保护",
+      "link": "保护",
+      "zh": "保护"
+    },
+    {
+      "en": "Punch",
+      "raw": "冲击",
+      "link": "冲击",
+      "zh": "冲击"
+    },
+    {
+      "en": "Quick Charge",
+      "raw": "快速装填",
+      "link": "快速装填",
+      "zh": "快速装填"
+    },
+    {
+      "en": "Respiration",
+      "raw": "水下呼吸（魔咒）|水中呼吸",
+      "link": "水下呼吸（魔咒）",
+      "zh": "水中呼吸"
+    },
+    {
+      "en": "Riptide",
+      "raw": "激流",
+      "link": "激流",
+      "zh": "激流"
+    },
+    {
+      "en": "Sharpness",
+      "raw": "锋利",
+      "link": "锋利",
+      "zh": "锋利"
+    },
+    {
+      "en": "Silk Touch",
+      "raw": "精准采集",
+      "link": "精准采集",
+      "zh": "精准采集"
+    },
+    {
+      "en": "Smite",
+      "raw": "亡灵杀手",
+      "link": "亡灵杀手",
+      "zh": "亡灵杀手"
+    },
+    {
+      "en": "Soul Speed",
+      "raw": "灵魂疾行",
+      "link": "灵魂疾行",
+      "zh": "灵魂疾行"
+    },
+    {
+      "en": "Sweeping Edge",
+      "raw": "横扫之刃",
+      "link": "横扫之刃",
+      "zh": "横扫之刃"
+    },
+    {
+      "en": "Swift Sneak",
+      "raw": "迅捷潜行",
+      "link": "迅捷潜行",
+      "zh": "迅捷潜行"
+    },
+    {
+      "en": "Thorns",
+      "raw": "荆棘",
+      "link": "荆棘",
+      "zh": "荆棘"
+    },
+    {
+      "en": "Unbreaking",
+      "raw": "耐久",
+      "link": "耐久",
+      "zh": "耐久"
+    },
+    {
+      "en": "Wind Burst",
+      "raw": "风爆",
+      "link": "风爆",
+      "zh": "风爆"
+    }
+  ]
+}

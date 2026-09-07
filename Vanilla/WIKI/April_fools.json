@@ -1,0 +1,2048 @@
+{
+  "BiomeSprite": [
+    {
+      "en": "between",
+      "raw": "船间",
+      "link": "船间",
+      "zh": "船间"
+    },
+    {
+      "en": "shapes",
+      "raw": "形状",
+      "link": "形状",
+      "zh": "形状"
+    },
+    {
+      "en": "biome for player with no time for nonsense",
+      "raw": "为无暇应对无谓事物的玩家所准备的生物群系",
+      "link": "为无暇应对无谓事物的玩家所准备的生物群系",
+      "zh": "为无暇应对无谓事物的玩家所准备的生物群系"
+    },
+    {
+      "en": "the moon",
+      "raw": "月球（生物群系）|月球",
+      "link": "月球（生物群系）",
+      "zh": "月球"
+    },
+    {
+      "en": "arboretum",
+      "raw": "植物园",
+      "link": "植物园",
+      "zh": "植物园"
+    },
+    {
+      "en": "curruption",
+      "raw": "腐败区",
+      "link": "腐败区",
+      "zh": "腐败区"
+    },
+    {
+      "en": "fields",
+      "raw": "田野",
+      "link": "田野",
+      "zh": "田野"
+    },
+    {
+      "en": "hash",
+      "raw": "薯饼（生物群系）|薯饼",
+      "link": "薯饼（生物群系）",
+      "zh": "薯饼"
+    },
+    {
+      "en": "wasteland",
+      "raw": "废土",
+      "link": "废土",
+      "zh": "废土"
+    },
+    {
+      "en": "hub",
+      "raw": "大厅（生物群系）|大厅",
+      "link": "大厅（生物群系）",
+      "zh": "大厅"
+    }
+  ],
+  "BlockSprite": [
+    {
+      "en": "black tinted glass",
+      "raw": "有色玻璃|黑色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "黑色有色玻璃"
+    },
+    {
+      "en": "blue tinted glass",
+      "raw": "有色玻璃|蓝色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "蓝色有色玻璃"
+    },
+    {
+      "en": "brown tinted glass",
+      "raw": "有色玻璃|棕色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "棕色有色玻璃"
+    },
+    {
+      "en": "cyan tinted glass",
+      "raw": "有色玻璃|青色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "青色有色玻璃"
+    },
+    {
+      "en": "etho slab",
+      "raw": "Etho台阶",
+      "link": "Etho台阶",
+      "zh": "Etho台阶"
+    },
+    {
+      "en": "gray tinted glass",
+      "raw": "有色玻璃|灰色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "灰色有色玻璃"
+    },
+    {
+      "en": "green tinted glass",
+      "raw": "有色玻璃|绿色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "绿色有色玻璃"
+    },
+    {
+      "en": "light blue tinted glass",
+      "raw": "有色玻璃|淡蓝色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "淡蓝色有色玻璃"
+    },
+    {
+      "en": "light gray tinted glass",
+      "raw": "有色玻璃|淡灰色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "淡灰色有色玻璃"
+    },
+    {
+      "en": "lime tinted glass",
+      "raw": "有色玻璃|黄绿色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "黄绿色有色玻璃"
+    },
+    {
+      "en": "magenta tinted glass",
+      "raw": "有色玻璃|品红色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "品红色有色玻璃"
+    },
+    {
+      "en": "orange tinted glass",
+      "raw": "有色玻璃|橙色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "橙色有色玻璃"
+    },
+    {
+      "en": "pink tinted glass",
+      "raw": "有色玻璃|粉红色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "粉红色有色玻璃"
+    },
+    {
+      "en": "purple tinted glass",
+      "raw": "有色玻璃|紫色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "紫色有色玻璃"
+    },
+    {
+      "en": "red tinted glass",
+      "raw": "有色玻璃|红色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "红色有色玻璃"
+    },
+    {
+      "en": "tinted glass (april fools)",
+      "raw": "有色玻璃",
+      "link": "有色玻璃",
+      "zh": "有色玻璃"
+    },
+    {
+      "en": "torch (burnt-out)",
+      "raw": "火把（燃尽）",
+      "link": "火把（燃尽）",
+      "zh": "火把（燃尽）"
+    },
+    {
+      "en": "white tinted glass",
+      "raw": "有色玻璃|白色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "白色有色玻璃"
+    },
+    {
+      "en": "yellow tinted glass",
+      "raw": "有色玻璃|黄色有色玻璃",
+      "link": "有色玻璃",
+      "zh": "黄色有色玻璃"
+    },
+    {
+      "en": "usb charger block",
+      "raw": "USB充电块",
+      "link": "USB充电块",
+      "zh": "USB充电块"
+    },
+    {
+      "en": "an ant",
+      "raw": "一只蚂蚁",
+      "link": "一只蚂蚁",
+      "zh": "一只蚂蚁"
+    },
+    {
+      "en": "box of infinite books",
+      "raw": "无限书盒",
+      "link": "无限书盒",
+      "zh": "无限书盒"
+    },
+    {
+      "en": "cursor",
+      "raw": "光标",
+      "link": "光标",
+      "zh": "光标"
+    },
+    {
+      "en": "funky portal",
+      "raw": "时髦的传送门（方块）|时髦的传送门",
+      "link": "时髦的传送门（方块）",
+      "zh": "时髦的传送门"
+    },
+    {
+      "en": "leftover",
+      "raw": "剩余物",
+      "link": "剩余物",
+      "zh": "剩余物"
+    },
+    {
+      "en": "swaggiest stairs ever",
+      "raw": "史上最炫楼梯",
+      "link": "史上最炫楼梯",
+      "zh": "史上最炫楼梯"
+    },
+    {
+      "en": "how did we get here?",
+      "raw": "为什么会变成这样呢？（方块）|为什么会变成这样呢？",
+      "link": "为什么会变成这样呢？（方块）",
+      "zh": "为什么会变成这样呢？"
+    },
+    {
+      "en": "cheese",
+      "raw": "芝士",
+      "link": "芝士",
+      "zh": "芝士"
+    },
+    {
+      "en": "copper sink",
+      "raw": "铜水槽",
+      "link": "铜水槽",
+      "zh": "铜水槽"
+    },
+    {
+      "en": "copper spleaves",
+      "raw": "铜枝叶",
+      "link": "铜枝叶",
+      "zh": "铜枝叶"
+    },
+    {
+      "en": "golden chest",
+      "raw": "金箱子",
+      "link": "金箱子",
+      "zh": "金箱子"
+    },
+    {
+      "en": "other portal",
+      "raw": "异界传送门（方块）|异界传送门",
+      "link": "异界传送门（方块）",
+      "zh": "异界传送门"
+    },
+    {
+      "en": "packed air",
+      "raw": "压缩空气",
+      "link": "压缩空气",
+      "zh": "压缩空气"
+    },
+    {
+      "en": "pickaxe block",
+      "raw": "镐方块",
+      "link": "镐方块",
+      "zh": "镐方块"
+    },
+    {
+      "en": "place block",
+      "raw": "放置方块",
+      "link": "放置方块",
+      "zh": "放置方块"
+    },
+    {
+      "en": "baked potato brick slab",
+      "raw": "烤马铃薯砖台阶",
+      "link": "烤马铃薯砖台阶",
+      "zh": "烤马铃薯砖台阶"
+    },
+    {
+      "en": "baked potato brick stairs",
+      "raw": "烤马铃薯砖楼梯",
+      "link": "烤马铃薯砖楼梯",
+      "zh": "烤马铃薯砖楼梯"
+    },
+    {
+      "en": "baked potato brick wall",
+      "raw": "烤马铃薯砖墙",
+      "link": "烤马铃薯砖墙",
+      "zh": "烤马铃薯砖墙"
+    },
+    {
+      "en": "baked potato bricks",
+      "raw": "烤马铃薯砖",
+      "link": "烤马铃薯砖",
+      "zh": "烤马铃薯砖"
+    },
+    {
+      "en": "big brain",
+      "raw": "大脑",
+      "link": "大脑",
+      "zh": "大脑"
+    },
+    {
+      "en": "block of amber",
+      "raw": "琥珀块",
+      "link": "琥珀块",
+      "zh": "琥珀块"
+    },
+    {
+      "en": "block of black potato peels",
+      "raw": "马铃薯皮方块|黑色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "黑色马铃薯皮方块"
+    },
+    {
+      "en": "block of blue potato peels",
+      "raw": "马铃薯皮方块|蓝色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "蓝色马铃薯皮方块"
+    },
+    {
+      "en": "block of brown potato peels",
+      "raw": "马铃薯皮方块|棕色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "棕色马铃薯皮方块"
+    },
+    {
+      "en": "block of corrupted potato peels",
+      "raw": "腐败的马铃薯皮方块",
+      "link": "腐败的马铃薯皮方块",
+      "zh": "腐败的马铃薯皮方块"
+    },
+    {
+      "en": "block of cyan potato peels",
+      "raw": "马铃薯皮方块|青色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "青色马铃薯皮方块"
+    },
+    {
+      "en": "block of gray potato peels",
+      "raw": "马铃薯皮方块|灰色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "灰色马铃薯皮方块"
+    },
+    {
+      "en": "block of green potato peels",
+      "raw": "马铃薯皮方块|绿色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "绿色马铃薯皮方块"
+    },
+    {
+      "en": "block of light blue potato peels",
+      "raw": "马铃薯皮方块|淡蓝色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "淡蓝色马铃薯皮方块"
+    },
+    {
+      "en": "block of light gray potato peels",
+      "raw": "马铃薯皮方块|淡灰色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "淡灰色马铃薯皮方块"
+    },
+    {
+      "en": "block of lime potato peels",
+      "raw": "马铃薯皮方块|黄绿色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "黄绿色马铃薯皮方块"
+    },
+    {
+      "en": "block of magenta potato peels",
+      "raw": "马铃薯皮方块|品红色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "品红色马铃薯皮方块"
+    },
+    {
+      "en": "block of orange potato peels",
+      "raw": "马铃薯皮方块|橙色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "橙色马铃薯皮方块"
+    },
+    {
+      "en": "block of pink potato peels",
+      "raw": "马铃薯皮方块|粉红色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "粉红色马铃薯皮方块"
+    },
+    {
+      "en": "block of potato peels",
+      "raw": "马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "马铃薯皮方块"
+    },
+    {
+      "en": "block of purple potato peels",
+      "raw": "马铃薯皮方块|紫色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "紫色马铃薯皮方块"
+    },
+    {
+      "en": "block of red potato peels",
+      "raw": "马铃薯皮方块|红色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "红色马铃薯皮方块"
+    },
+    {
+      "en": "block of yellow potato peels",
+      "raw": "马铃薯皮方块|黄色马铃薯皮方块",
+      "link": "马铃薯皮方块",
+      "zh": "黄色马铃薯皮方块"
+    },
+    {
+      "en": "charred baked potato brick slab",
+      "raw": "焦糊的烤马铃薯砖台阶",
+      "link": "焦糊的烤马铃薯砖台阶",
+      "zh": "焦糊的烤马铃薯砖台阶"
+    },
+    {
+      "en": "charred baked potato brick stairs",
+      "raw": "焦糊的烤马铃薯砖楼梯",
+      "link": "焦糊的烤马铃薯砖楼梯",
+      "zh": "焦糊的烤马铃薯砖楼梯"
+    },
+    {
+      "en": "charred baked potato brick wall",
+      "raw": "焦糊的烤马铃薯砖墙",
+      "link": "焦糊的烤马铃薯砖墙",
+      "zh": "焦糊的烤马铃薯砖墙"
+    },
+    {
+      "en": "charred baked potato bricks",
+      "raw": "焦糊的烤马铃薯砖",
+      "link": "焦糊的烤马铃薯砖",
+      "zh": "焦糊的烤马铃薯砖"
+    },
+    {
+      "en": "compressed poisonous potato block",
+      "raw": "压缩毒马铃薯块",
+      "link": "压缩毒马铃薯块",
+      "zh": "压缩毒马铃薯块"
+    },
+    {
+      "en": "corrupted peelgrass block",
+      "raw": "腐败的薯皮草方块",
+      "link": "腐败的薯皮草方块",
+      "zh": "腐败的薯皮草方块"
+    },
+    {
+      "en": "deepslate poisonous potato ore",
+      "raw": "毒马铃薯矿石|深层毒马铃薯矿石",
+      "link": "毒马铃薯矿石",
+      "zh": "深层毒马铃薯矿石"
+    },
+    {
+      "en": "double compressed poisonous potato block",
+      "raw": "毒马铃薯块|二重压缩毒马铃薯块",
+      "link": "毒马铃薯块",
+      "zh": "二重压缩毒马铃薯块"
+    },
+    {
+      "en": "expired baked potato brick slab",
+      "raw": "过期的烤马铃薯砖台阶",
+      "link": "过期的烤马铃薯砖台阶",
+      "zh": "过期的烤马铃薯砖台阶"
+    },
+    {
+      "en": "expired baked potato brick stairs",
+      "raw": "过期的烤马铃薯砖楼梯",
+      "link": "过期的烤马铃薯砖楼梯",
+      "zh": "过期的烤马铃薯砖楼梯"
+    },
+    {
+      "en": "expired baked potato brick wall",
+      "raw": "过期的烤马铃薯砖墙",
+      "link": "过期的烤马铃薯砖墙",
+      "zh": "过期的烤马铃薯砖墙"
+    },
+    {
+      "en": "expired baked potato bricks",
+      "raw": "过期的烤马铃薯砖",
+      "link": "过期的烤马铃薯砖",
+      "zh": "过期的烤马铃薯砖"
+    },
+    {
+      "en": "floatater",
+      "raw": "悬浮马铃薯推进器",
+      "link": "悬浮马铃薯推进器",
+      "zh": "悬浮马铃薯推进器"
+    },
+    {
+      "en": "floatato",
+      "raw": "悬浮马铃薯",
+      "link": "悬浮马铃薯",
+      "zh": "悬浮马铃薯"
+    },
+    {
+      "en": "frying table",
+      "raw": "煎炸台",
+      "link": "煎炸台",
+      "zh": "煎炸台"
+    },
+    {
+      "en": "gravtater",
+      "raw": "马铃砂",
+      "link": "马铃砂",
+      "zh": "马铃砂"
+    },
+    {
+      "en": "pedestal",
+      "raw": "传送门底座",
+      "link": "传送门底座",
+      "zh": "传送门底座"
+    },
+    {
+      "en": "peelgrass block",
+      "raw": "薯皮草方块",
+      "link": "薯皮草方块",
+      "zh": "薯皮草方块"
+    },
+    {
+      "en": "poison farmland",
+      "raw": "剧毒耕地",
+      "link": "剧毒耕地",
+      "zh": "剧毒耕地"
+    },
+    {
+      "en": "poison path",
+      "raw": "剧毒土径",
+      "link": "剧毒土径",
+      "zh": "剧毒土径"
+    },
+    {
+      "en": "poisonous mashed potato",
+      "raw": "毒马铃薯糊",
+      "link": "毒马铃薯糊",
+      "zh": "毒马铃薯糊"
+    },
+    {
+      "en": "poisonous potato block",
+      "raw": "毒马铃薯块",
+      "link": "毒马铃薯块",
+      "zh": "毒马铃薯块"
+    },
+    {
+      "en": "poisonous potato cutter",
+      "raw": "切毒马铃薯机",
+      "link": "切毒马铃薯机",
+      "zh": "切毒马铃薯机"
+    },
+    {
+      "en": "poisonous potato ore",
+      "raw": "毒马铃薯矿石",
+      "link": "毒马铃薯矿石",
+      "zh": "毒马铃薯矿石"
+    },
+    {
+      "en": "poisonous potato head block",
+      "raw": "毒马铃薯头块",
+      "link": "毒马铃薯头块",
+      "zh": "毒马铃薯头块"
+    },
+    {
+      "en": "poisonous potato headpiece",
+      "raw": "毒马铃薯头饰",
+      "link": "毒马铃薯头饰",
+      "zh": "毒马铃薯头饰"
+    },
+    {
+      "en": "potato battery",
+      "raw": "马铃薯电池",
+      "link": "马铃薯电池",
+      "zh": "马铃薯电池"
+    },
+    {
+      "en": "potato bud",
+      "raw": "马铃薯芽",
+      "link": "马铃薯芽",
+      "zh": "马铃薯芽"
+    },
+    {
+      "en": "potato button",
+      "raw": "马铃薯木按钮",
+      "link": "马铃薯木按钮",
+      "zh": "马铃薯木按钮"
+    },
+    {
+      "en": "potato door",
+      "raw": "马铃薯木门",
+      "link": "马铃薯木门",
+      "zh": "马铃薯木门"
+    },
+    {
+      "en": "potato fence",
+      "raw": "马铃薯木栅栏",
+      "link": "马铃薯木栅栏",
+      "zh": "马铃薯木栅栏"
+    },
+    {
+      "en": "potato fence gate",
+      "raw": "马铃薯木栅栏门",
+      "link": "马铃薯木栅栏门",
+      "zh": "马铃薯木栅栏门"
+    },
+    {
+      "en": "potato flower",
+      "raw": "马铃薯花",
+      "link": "马铃薯花",
+      "zh": "马铃薯花"
+    },
+    {
+      "en": "potato fruit",
+      "raw": "马铃薯果实",
+      "link": "马铃薯果实",
+      "zh": "马铃薯果实"
+    },
+    {
+      "en": "potato hanging sign",
+      "raw": "悬挂式马铃薯木告示牌",
+      "link": "悬挂式马铃薯木告示牌",
+      "zh": "悬挂式马铃薯木告示牌"
+    },
+    {
+      "en": "potato leaves",
+      "raw": "马铃薯树叶",
+      "link": "马铃薯树叶",
+      "zh": "马铃薯树叶"
+    },
+    {
+      "en": "potato pedicule",
+      "raw": "马铃薯果柄",
+      "link": "马铃薯果柄",
+      "zh": "马铃薯果柄"
+    },
+    {
+      "en": "potato planks",
+      "raw": "马铃薯木板",
+      "link": "马铃薯木板",
+      "zh": "马铃薯木板"
+    },
+    {
+      "en": "potato portal",
+      "raw": "马铃薯传送门",
+      "link": "马铃薯传送门",
+      "zh": "马铃薯传送门"
+    },
+    {
+      "en": "potato pressure plate",
+      "raw": "马铃薯木压力板",
+      "link": "马铃薯木压力板",
+      "zh": "马铃薯木压力板"
+    },
+    {
+      "en": "potato refinery",
+      "raw": "马铃薯精炼炉",
+      "link": "马铃薯精炼炉",
+      "zh": "马铃薯精炼炉"
+    },
+    {
+      "en": "potato sign",
+      "raw": "马铃薯木告示牌",
+      "link": "马铃薯木告示牌",
+      "zh": "马铃薯木告示牌"
+    },
+    {
+      "en": "potato slab",
+      "raw": "马铃薯木台阶",
+      "link": "马铃薯木台阶",
+      "zh": "马铃薯木台阶"
+    },
+    {
+      "en": "potato sprouts",
+      "raw": "马铃薯苗",
+      "link": "马铃薯苗",
+      "zh": "马铃薯苗"
+    },
+    {
+      "en": "potato stairs",
+      "raw": "马铃薯木楼梯",
+      "link": "马铃薯木楼梯",
+      "zh": "马铃薯木楼梯"
+    },
+    {
+      "en": "potato stem",
+      "raw": "马铃薯茎柄",
+      "link": "马铃薯茎柄",
+      "zh": "马铃薯茎柄"
+    },
+    {
+      "en": "potato trapdoor",
+      "raw": "马铃薯木活板门",
+      "link": "马铃薯木活板门",
+      "zh": "马铃薯木活板门"
+    },
+    {
+      "en": "potone",
+      "raw": "马铃石",
+      "link": "马铃石",
+      "zh": "马铃石"
+    },
+    {
+      "en": "potone copper ore",
+      "raw": "马铃铜矿石",
+      "link": "马铃铜矿石",
+      "zh": "马铃铜矿石"
+    },
+    {
+      "en": "potone diamond ore",
+      "raw": "马铃钻石矿石",
+      "link": "马铃钻石矿石",
+      "zh": "马铃钻石矿石"
+    },
+    {
+      "en": "potone gold ore",
+      "raw": "马铃金矿石",
+      "link": "马铃金矿石",
+      "zh": "马铃金矿石"
+    },
+    {
+      "en": "potone iron ore",
+      "raw": "马铃铁矿石",
+      "link": "马铃铁矿石",
+      "zh": "马铃铁矿石"
+    },
+    {
+      "en": "potone lapis lazuli ore",
+      "raw": "马铃青金石矿石",
+      "link": "马铃青金石矿石",
+      "zh": "马铃青金石矿石"
+    },
+    {
+      "en": "potone redstone ore",
+      "raw": "马铃红石矿石",
+      "link": "马铃红石矿石",
+      "zh": "马铃红石矿石"
+    },
+    {
+      "en": "potone slab",
+      "raw": "马铃石台阶",
+      "link": "马铃石台阶",
+      "zh": "马铃石台阶"
+    },
+    {
+      "en": "potone stairs",
+      "raw": "马铃石楼梯",
+      "link": "马铃石楼梯",
+      "zh": "马铃石楼梯"
+    },
+    {
+      "en": "potone wall",
+      "raw": "马铃石墙",
+      "link": "马铃石墙",
+      "zh": "马铃石墙"
+    },
+    {
+      "en": "potted potato flower",
+      "raw": "马铃薯花盆栽",
+      "link": "马铃薯花盆栽",
+      "zh": "马铃薯花盆栽"
+    },
+    {
+      "en": "powerful potato",
+      "raw": "强力马铃薯",
+      "link": "强力马铃薯",
+      "zh": "强力马铃薯"
+    },
+    {
+      "en": "quadruple compressed poisonous potato block",
+      "raw": "毒马铃薯块|四重压缩毒马铃薯块",
+      "link": "毒马铃薯块",
+      "zh": "四重压缩毒马铃薯块"
+    },
+    {
+      "en": "resin ore",
+      "raw": "树脂矿石",
+      "link": "树脂矿石",
+      "zh": "树脂矿石"
+    },
+    {
+      "en": "strong roots",
+      "raw": "强壮根茎",
+      "link": "强壮根茎",
+      "zh": "强壮根茎"
+    },
+    {
+      "en": "taterstone",
+      "raw": "马铃圆石",
+      "link": "马铃圆石",
+      "zh": "马铃圆石"
+    },
+    {
+      "en": "taterstone slab",
+      "raw": "马铃圆石台阶",
+      "link": "马铃圆石台阶",
+      "zh": "马铃圆石台阶"
+    },
+    {
+      "en": "taterstone stairs",
+      "raw": "马铃圆石楼梯",
+      "link": "马铃圆石楼梯",
+      "zh": "马铃圆石楼梯"
+    },
+    {
+      "en": "taterstone wall",
+      "raw": "马铃圆石墙",
+      "link": "马铃圆石墙",
+      "zh": "马铃圆石墙"
+    },
+    {
+      "en": "terre de pomme",
+      "raw": "马铃薯泥土",
+      "link": "马铃薯泥土",
+      "zh": "马铃薯泥土"
+    },
+    {
+      "en": "triple compressed poisonous potato block",
+      "raw": "毒马铃薯块|三重压缩毒马铃薯块",
+      "link": "毒马铃薯块",
+      "zh": "三重压缩毒马铃薯块"
+    },
+    {
+      "en": "vicious potato",
+      "raw": "恶毒马铃薯",
+      "link": "恶毒马铃薯",
+      "zh": "恶毒马铃薯"
+    },
+    {
+      "en": "weak roots",
+      "raw": "瘦弱根茎",
+      "link": "瘦弱根茎",
+      "zh": "瘦弱根茎"
+    },
+    {
+      "en": "dimension control",
+      "raw": "维度控制器",
+      "link": "维度控制器",
+      "zh": "维度控制器"
+    },
+    {
+      "en": "mine crafter",
+      "raw": "矿境合成台",
+      "link": "矿境合成台",
+      "zh": "矿境合成台"
+    },
+    {
+      "en": "mine revisitor",
+      "raw": "矿境回访器",
+      "link": "矿境回访器",
+      "zh": "矿境回访器"
+    },
+    {
+      "en": "mine travelling block",
+      "raw": "矿境传送方块",
+      "link": "矿境传送方块",
+      "zh": "矿境传送方块"
+    },
+    {
+      "en": "mob trophy",
+      "raw": "生物奖杯",
+      "link": "生物奖杯",
+      "zh": "生物奖杯"
+    },
+    {
+      "en": "shimmering door",
+      "raw": "微光之门",
+      "link": "微光之门",
+      "zh": "微光之门"
+    },
+    {
+      "en": "sky",
+      "raw": "天空（方块）|天空",
+      "link": "天空（方块）",
+      "zh": "天空"
+    },
+    {
+      "en": "trophy",
+      "raw": "奖杯（25w14craftmine）|奖杯",
+      "link": "奖杯（25w14craftmine）",
+      "zh": "奖杯"
+    },
+    {
+      "en": "copper trap",
+      "raw": "铜陷阱",
+      "link": "铜陷阱",
+      "zh": "铜陷阱"
+    },
+    {
+      "en": "exposed copper trap",
+      "raw": "铜陷阱|斑驳的铜陷阱",
+      "link": "铜陷阱",
+      "zh": "斑驳的铜陷阱"
+    },
+    {
+      "en": "iron trap",
+      "raw": "铁陷阱",
+      "link": "铁陷阱",
+      "zh": "铁陷阱"
+    },
+    {
+      "en": "oxidized copper trap",
+      "raw": "铜陷阱|氧化的铜陷阱",
+      "link": "铜陷阱",
+      "zh": "氧化的铜陷阱"
+    },
+    {
+      "en": "waxed copper trap",
+      "raw": "铜陷阱|涂蜡的铜陷阱",
+      "link": "铜陷阱",
+      "zh": "涂蜡的铜陷阱"
+    },
+    {
+      "en": "waxed exposed copper trap",
+      "raw": "铜陷阱|涂蜡的斑驳铜陷阱",
+      "link": "铜陷阱",
+      "zh": "涂蜡的斑驳铜陷阱"
+    },
+    {
+      "en": "waxed oxidized copper trap",
+      "raw": "铜陷阱|涂蜡的氧化铜陷阱",
+      "link": "铜陷阱",
+      "zh": "涂蜡的氧化铜陷阱"
+    },
+    {
+      "en": "waxed weathered copper trap",
+      "raw": "铜陷阱|涂蜡的锈蚀铜陷阱",
+      "link": "铜陷阱",
+      "zh": "涂蜡的锈蚀铜陷阱"
+    },
+    {
+      "en": "weathered copper trap",
+      "raw": "铜陷阱|锈蚀的铜陷阱",
+      "link": "铜陷阱",
+      "zh": "锈蚀的铜陷阱"
+    }
+  ],
+  "ItemSprite": [
+    {
+      "en": "obsidian boat",
+      "raw": "黑曜石船",
+      "link": "黑曜石船",
+      "zh": "黑曜石船"
+    },
+    {
+      "en": "ankle monitor",
+      "raw": "电子脚镣",
+      "link": "电子脚镣",
+      "zh": "电子脚镣"
+    },
+    {
+      "en": "reality vision",
+      "raw": "实景视野",
+      "link": "实景视野",
+      "zh": "实景视野"
+    },
+    {
+      "en": "smarter watch",
+      "raw": "智能手表",
+      "link": "智能手表",
+      "zh": "智能手表"
+    },
+    {
+      "en": "3d",
+      "raw": "3D",
+      "link": "3D",
+      "zh": "3D"
+    },
+    {
+      "en": "blue key",
+      "raw": "钥匙（3D Shareware v1.34）|蓝色钥匙",
+      "link": "钥匙（3D Shareware v1.34）",
+      "zh": "蓝色钥匙"
+    },
+    {
+      "en": "red key",
+      "raw": "钥匙（3D Shareware v1.34）|红色钥匙",
+      "link": "钥匙（3D Shareware v1.34）",
+      "zh": "红色钥匙"
+    },
+    {
+      "en": "yellow key",
+      "raw": "钥匙（3D Shareware v1.34）|黄色钥匙",
+      "link": "钥匙（3D Shareware v1.34）",
+      "zh": "黄色钥匙"
+    },
+    {
+      "en": "a very fine item",
+      "raw": "一个极妙之物",
+      "link": "一个极妙之物",
+      "zh": "一个极妙之物"
+    },
+    {
+      "en": "footprint",
+      "raw": "脚印",
+      "link": "脚印",
+      "zh": "脚印"
+    },
+    {
+      "en": "air (april fools)",
+      "raw": "空气（23w13a_or_b）|空气",
+      "link": "空气（23w13a_or_b）",
+      "zh": "空气"
+    },
+    {
+      "en": "arrow of big",
+      "raw": "变大药水|变大之箭",
+      "link": "变大药水",
+      "zh": "变大之箭"
+    },
+    {
+      "en": "arrow of small",
+      "raw": "变小药水|变小之箭",
+      "link": "变小药水",
+      "zh": "变小之箭"
+    },
+    {
+      "en": "bottle of entity",
+      "raw": "实体之瓶",
+      "link": "实体之瓶",
+      "zh": "实体之瓶"
+    },
+    {
+      "en": "bottle of void",
+      "raw": "实体之瓶|虚空之瓶",
+      "link": "实体之瓶",
+      "zh": "虚空之瓶"
+    },
+    {
+      "en": "dupe hack",
+      "raw": "复制秘技",
+      "link": "复制秘技",
+      "zh": "复制秘技"
+    },
+    {
+      "en": "la baguette",
+      "raw": "法棍",
+      "link": "法棍",
+      "zh": "法棍"
+    },
+    {
+      "en": "le tricolore",
+      "raw": "三色旗",
+      "link": "三色旗",
+      "zh": "三色旗"
+    },
+    {
+      "en": "lingering potion of big",
+      "raw": "变大药水|滞留型变大药水",
+      "link": "变大药水",
+      "zh": "滞留型变大药水"
+    },
+    {
+      "en": "lingering potion of small",
+      "raw": "变小药水|滞留型变小药水",
+      "link": "变小药水",
+      "zh": "滞留型变小药水"
+    },
+    {
+      "en": "longer string",
+      "raw": "更长的线",
+      "link": "更长的线",
+      "zh": "更长的线"
+    },
+    {
+      "en": "moon cow spawn egg",
+      "raw": "月球牛|月球牛刷怪蛋",
+      "link": "月球牛",
+      "zh": "月球牛刷怪蛋"
+    },
+    {
+      "en": "new thing banner pattern",
+      "raw": "Mojang新徽标",
+      "link": "Mojang新徽标",
+      "zh": "Mojang新徽标"
+    },
+    {
+      "en": "potion of big",
+      "raw": "变大药水",
+      "link": "变大药水",
+      "zh": "变大药水"
+    },
+    {
+      "en": "potion of small",
+      "raw": "变小药水",
+      "link": "变小药水",
+      "zh": "变小药水"
+    },
+    {
+      "en": "splash potion of big",
+      "raw": "变大药水|喷溅型变大药水",
+      "link": "变大药水",
+      "zh": "喷溅型变大药水"
+    },
+    {
+      "en": "splash bottle of entity",
+      "raw": "实体之瓶|喷溅型实体之瓶",
+      "link": "实体之瓶",
+      "zh": "喷溅型实体之瓶"
+    },
+    {
+      "en": "splash potion of small",
+      "raw": "变小药水|喷溅型变小药水",
+      "link": "变小药水",
+      "zh": "喷溅型变小药水"
+    },
+    {
+      "en": "bit",
+      "raw": "标签（物品）|比特",
+      "link": "标签（物品）",
+      "zh": "比特"
+    },
+    {
+      "en": "byte tag",
+      "raw": "标签（物品）|字节型标签",
+      "link": "标签（物品）",
+      "zh": "字节型标签"
+    },
+    {
+      "en": "compound tag",
+      "raw": "标签（物品）|复合标签",
+      "link": "标签（物品）",
+      "zh": "复合标签"
+    },
+    {
+      "en": "double tag",
+      "raw": "标签（物品）|双精度浮点型标签",
+      "link": "标签（物品）",
+      "zh": "双精度浮点型标签"
+    },
+    {
+      "en": "float tag",
+      "raw": "标签（物品）|单精度浮点型标签",
+      "link": "标签（物品）",
+      "zh": "单精度浮点型标签"
+    },
+    {
+      "en": "int tag",
+      "raw": "标签（物品）|整型标签",
+      "link": "标签（物品）",
+      "zh": "整型标签"
+    },
+    {
+      "en": "left curly",
+      "raw": "标签（物品）|左花括号",
+      "link": "标签（物品）",
+      "zh": "左花括号"
+    },
+    {
+      "en": "left square",
+      "raw": "标签（物品）|左方括号",
+      "link": "标签（物品）",
+      "zh": "左方括号"
+    },
+    {
+      "en": "list tag",
+      "raw": "标签（物品）|列表标签",
+      "link": "标签（物品）",
+      "zh": "列表标签"
+    },
+    {
+      "en": "long tag",
+      "raw": "标签（物品）|长整型标签",
+      "link": "标签（物品）",
+      "zh": "长整型标签"
+    },
+    {
+      "en": "name",
+      "raw": "标签（物品）|名称",
+      "link": "标签（物品）",
+      "zh": "名称"
+    },
+    {
+      "en": "right curly",
+      "raw": "标签（物品）|右花括号",
+      "link": "标签（物品）",
+      "zh": "右花括号"
+    },
+    {
+      "en": "right square",
+      "raw": "标签（物品）|右方括号",
+      "link": "标签（物品）",
+      "zh": "右方括号"
+    },
+    {
+      "en": "short tag",
+      "raw": "标签（物品）|短整型标签",
+      "link": "标签（物品）",
+      "zh": "短整型标签"
+    },
+    {
+      "en": "sssyntax error",
+      "raw": "标签（物品）|嘶嘶…语法错误",
+      "link": "标签（物品）",
+      "zh": "嘶嘶…语法错误"
+    },
+    {
+      "en": "string tag",
+      "raw": "标签（物品）|字符串标签",
+      "link": "标签（物品）",
+      "zh": "字符串标签"
+    },
+    {
+      "en": "tag",
+      "raw": "标签（物品）|标签",
+      "link": "标签（物品）",
+      "zh": "标签"
+    },
+    {
+      "en": "amber gem",
+      "raw": "琥珀宝石",
+      "link": "琥珀宝石",
+      "zh": "琥珀宝石"
+    },
+    {
+      "en": "arrow of deadly oilyness",
+      "raw": "非常滑|致命油滑之箭",
+      "link": "非常滑",
+      "zh": "致命油滑之箭"
+    },
+    {
+      "en": "arrow of oilyness",
+      "raw": "非常滑|油滑之箭",
+      "link": "非常滑",
+      "zh": "油滑之箭"
+    },
+    {
+      "en": "arrow of sticky",
+      "raw": "胶着|胶着之箭",
+      "link": "胶着",
+      "zh": "胶着之箭"
+    },
+    {
+      "en": "batato spawn egg",
+      "raw": "蝙薯刷怪蛋",
+      "link": "蝙薯刷怪蛋",
+      "zh": "蝙薯刷怪蛋"
+    },
+    {
+      "en": "black potato peels",
+      "raw": "马铃薯皮|黑色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "黑色马铃薯皮"
+    },
+    {
+      "en": "blue potato peels",
+      "raw": "马铃薯皮|蓝色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "蓝色马铃薯皮"
+    },
+    {
+      "en": "brown potato peels",
+      "raw": "马铃薯皮|棕色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "棕色马铃薯皮"
+    },
+    {
+      "en": "corrupted potato peels",
+      "raw": "腐败的马铃薯皮",
+      "link": "腐败的马铃薯皮",
+      "zh": "腐败的马铃薯皮"
+    },
+    {
+      "en": "cyan potato peels",
+      "raw": "马铃薯皮|青色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "青色马铃薯皮"
+    },
+    {
+      "en": "dent",
+      "raw": "一叉戟",
+      "link": "一叉戟",
+      "zh": "一叉戟"
+    },
+    {
+      "en": "enchanted golden poisonous potato",
+      "raw": "附魔金毒马铃薯",
+      "link": "附魔金毒马铃薯",
+      "zh": "附魔金毒马铃薯"
+    },
+    {
+      "en": "golden poisonous potato",
+      "raw": "金毒马铃薯",
+      "link": "金毒马铃薯",
+      "zh": "金毒马铃薯"
+    },
+    {
+      "en": "gray potato peels",
+      "raw": "马铃薯皮|灰色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "灰色马铃薯皮"
+    },
+    {
+      "en": "green potato peels",
+      "raw": "马铃薯皮|绿色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "绿色马铃薯皮"
+    },
+    {
+      "en": "hash browns",
+      "raw": "薯饼",
+      "link": "薯饼",
+      "zh": "薯饼"
+    },
+    {
+      "en": "hot potato",
+      "raw": "烫手洋芋",
+      "link": "烫手洋芋",
+      "zh": "烫手洋芋"
+    },
+    {
+      "en": "lashing potato",
+      "raw": "马铃薯钩索",
+      "link": "马铃薯钩索",
+      "zh": "马铃薯钩索"
+    },
+    {
+      "en": "light blue potato peels",
+      "raw": "马铃薯皮|淡蓝色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "淡蓝色马铃薯皮"
+    },
+    {
+      "en": "light gray potato peels",
+      "raw": "马铃薯皮|淡灰色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "淡灰色马铃薯皮"
+    },
+    {
+      "en": "lime potato peels",
+      "raw": "马铃薯皮|黄绿色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "黄绿色马铃薯皮"
+    },
+    {
+      "en": "lingering potion of sticky",
+      "raw": "胶着|滞留型胶着药水",
+      "link": "胶着",
+      "zh": "滞留型胶着药水"
+    },
+    {
+      "en": "mega spud spawn egg",
+      "raw": "超级马铃薯怪|超级马铃薯怪刷怪蛋",
+      "link": "超级马铃薯怪",
+      "zh": "超级马铃薯怪刷怪蛋"
+    },
+    {
+      "en": "magenta potato peels",
+      "raw": "马铃薯皮|品红色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "品红色马铃薯皮"
+    },
+    {
+      "en": "orange potato peels",
+      "raw": "马铃薯皮|橙色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "橙色马铃薯皮"
+    },
+    {
+      "en": "pink potato peels",
+      "raw": "马铃薯皮|粉红色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "粉红色马铃薯皮"
+    },
+    {
+      "en": "plaguewhale slab spawn egg",
+      "raw": "瘟疫鲸台阶|瘟疫鲸台阶刷怪蛋",
+      "link": "瘟疫鲸台阶",
+      "zh": "瘟疫鲸台阶刷怪蛋"
+    },
+    {
+      "en": "purple potato peels",
+      "raw": "马铃薯皮|紫色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "紫色马铃薯皮"
+    },
+    {
+      "en": "poisonous polytra",
+      "raw": "毒马铃薯鞘翅",
+      "link": "毒马铃薯鞘翅",
+      "zh": "毒马铃薯鞘翅"
+    },
+    {
+      "en": "poisonous pota-toes",
+      "raw": "毒马铃薯鞋",
+      "link": "毒马铃薯鞋",
+      "zh": "毒马铃薯鞋"
+    },
+    {
+      "en": "poisonous potato chestplate",
+      "raw": "毒马铃薯胸甲",
+      "link": "毒马铃薯胸甲",
+      "zh": "毒马铃薯胸甲"
+    },
+    {
+      "en": "poisonous potato chips",
+      "raw": "炸毒马铃薯片",
+      "link": "炸毒马铃薯片",
+      "zh": "炸毒马铃薯片"
+    },
+    {
+      "en": "poisonous potato fries",
+      "raw": "炸毒马铃薯条",
+      "link": "炸毒马铃薯条",
+      "zh": "炸毒马铃薯条"
+    },
+    {
+      "en": "poisonous potato oil",
+      "raw": "毒马铃薯油",
+      "link": "毒马铃薯油",
+      "zh": "毒马铃薯油"
+    },
+    {
+      "en": "poisonous potato plant",
+      "raw": "毒马铃薯植物",
+      "link": "毒马铃薯植物",
+      "zh": "毒马铃薯植物"
+    },
+    {
+      "en": "poisonous potato slices",
+      "raw": "生毒马铃薯片",
+      "link": "生毒马铃薯片",
+      "zh": "生毒马铃薯片"
+    },
+    {
+      "en": "poisonous potato sticks",
+      "raw": "生毒马铃薯条",
+      "link": "生毒马铃薯条",
+      "zh": "生毒马铃薯条"
+    },
+    {
+      "en": "poisonous potato zombie spawn egg",
+      "raw": "毒马铃薯僵尸|毒马铃薯僵尸刷怪蛋",
+      "link": "毒马铃薯僵尸",
+      "zh": "毒马铃薯僵尸刷怪蛋"
+    },
+    {
+      "en": "potato eye",
+      "raw": "马铃薯之眼",
+      "link": "马铃薯之眼",
+      "zh": "马铃薯之眼"
+    },
+    {
+      "en": "poisonous potato hammer",
+      "raw": "毒马铃薯锤",
+      "link": "毒马铃薯锤",
+      "zh": "毒马铃薯锤"
+    },
+    {
+      "en": "potato of knowledge",
+      "raw": "知识之薯",
+      "link": "知识之薯",
+      "zh": "知识之薯"
+    },
+    {
+      "en": "potato oil",
+      "raw": "马铃薯油",
+      "link": "马铃薯油",
+      "zh": "马铃薯油"
+    },
+    {
+      "en": "potato peeler",
+      "raw": "马铃薯削皮刀",
+      "link": "马铃薯削皮刀",
+      "zh": "马铃薯削皮刀"
+    },
+    {
+      "en": "potato peels",
+      "raw": "马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "马铃薯皮"
+    },
+    {
+      "en": "potatiesh, greatstaff of the peasant",
+      "raw": "马铃耶什，农民的传说之杖",
+      "link": "马铃耶什，农民的传说之杖",
+      "zh": "马铃耶什，农民的传说之杖"
+    },
+    {
+      "en": "potion of sticky",
+      "raw": "胶着|胶着药水",
+      "link": "胶着",
+      "zh": "胶着药水"
+    },
+    {
+      "en": "red potato peels",
+      "raw": "马铃薯皮|红色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "红色马铃薯皮"
+    },
+    {
+      "en": "snektato",
+      "raw": "烈毒马铃薯|蛇铃薯",
+      "link": "烈毒马铃薯",
+      "zh": "蛇铃薯"
+    },
+    {
+      "en": "splash potion of sticky",
+      "raw": "胶着|喷溅型胶着药水",
+      "link": "胶着",
+      "zh": "喷溅型胶着药水"
+    },
+    {
+      "en": "toxic beam",
+      "raw": "毒光束",
+      "link": "毒光束",
+      "zh": "毒光束"
+    },
+    {
+      "en": "toxic resin",
+      "raw": "毒树脂",
+      "link": "毒树脂",
+      "zh": "毒树脂"
+    },
+    {
+      "en": "toxifin slab spawn egg",
+      "raw": "毒鳍台阶|毒鳍台阶刷怪蛋",
+      "link": "毒鳍台阶",
+      "zh": "毒鳍台阶刷怪蛋"
+    },
+    {
+      "en": "venomous potato",
+      "raw": "烈毒马铃薯",
+      "link": "烈毒马铃薯",
+      "zh": "烈毒马铃薯"
+    },
+    {
+      "en": "yellow potato peels",
+      "raw": "马铃薯皮|黄色马铃薯皮",
+      "link": "马铃薯皮",
+      "zh": "黄色马铃薯皮"
+    },
+    {
+      "en": "lingering poisonous potato oil",
+      "raw": "滞留型毒马铃薯油",
+      "link": "滞留型毒马铃薯油",
+      "zh": "滞留型毒马铃薯油"
+    },
+    {
+      "en": "lingering potato oil",
+      "raw": "滞留型马铃薯油",
+      "link": "滞留型马铃薯油",
+      "zh": "滞留型马铃薯油"
+    },
+    {
+      "en": "splash poisonous potato oil",
+      "raw": "喷溅型毒马铃薯油",
+      "link": "喷溅型毒马铃薯油",
+      "zh": "喷溅型毒马铃薯油"
+    },
+    {
+      "en": "splash potato oil",
+      "raw": "喷溅型马铃薯油",
+      "link": "喷溅型马铃薯油",
+      "zh": "喷溅型马铃薯油"
+    },
+    {
+      "en": "potato oil (potion)",
+      "raw": "马铃薯油",
+      "link": "马铃薯油",
+      "zh": "马铃薯油"
+    },
+    {
+      "en": "poisonous potato oil (potion)",
+      "raw": "毒马铃薯油",
+      "link": "毒马铃薯油",
+      "zh": "毒马铃薯油"
+    },
+    {
+      "en": "eye of exit",
+      "raw": "出口之眼",
+      "link": "出口之眼",
+      "zh": "出口之眼"
+    },
+    {
+      "en": "fire wand",
+      "raw": "火焰魔杖",
+      "link": "火焰魔杖",
+      "zh": "火焰魔杖"
+    },
+    {
+      "en": "grave",
+      "raw": "墓碑",
+      "link": "墓碑",
+      "zh": "墓碑"
+    },
+    {
+      "en": "mine",
+      "raw": "矿境（物品）|矿境",
+      "link": "矿境（物品）",
+      "zh": "矿境"
+    },
+    {
+      "en": "mine ingredient",
+      "raw": "矿境原料",
+      "link": "矿境原料",
+      "zh": "矿境原料"
+    },
+    {
+      "en": "music disc and action",
+      "raw": "音乐唱片And Action!|音乐唱片",
+      "link": "音乐唱片And Action!",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "shazboots!",
+      "raw": "Shazboots!",
+      "link": "Shazboots!",
+      "zh": "Shazboots!"
+    },
+    {
+      "en": "shimmering key",
+      "raw": "微光钥匙",
+      "link": "微光钥匙",
+      "zh": "微光钥匙"
+    },
+    {
+      "en": "sky box",
+      "raw": "天空盒",
+      "link": "天空盒",
+      "zh": "天空盒"
+    },
+    {
+      "en": "displacement wand",
+      "raw": "位移魔杖",
+      "link": "位移魔杖",
+      "zh": "位移魔杖"
+    },
+    {
+      "en": "wind wand",
+      "raw": "旋风魔杖",
+      "link": "旋风魔杖",
+      "zh": "旋风魔杖"
+    },
+    {
+      "en": "attack mine",
+      "raw": "攻击/挖掘",
+      "link": "攻击/挖掘",
+      "zh": "攻击/挖掘"
+    },
+    {
+      "en": "build",
+      "raw": "建造",
+      "link": "建造",
+      "zh": "建造"
+    },
+    {
+      "en": "craft",
+      "raw": "合成（物品）|合成",
+      "link": "合成（物品）",
+      "zh": "合成"
+    },
+    {
+      "en": "follow me",
+      "raw": "跟随",
+      "link": "跟随",
+      "zh": "跟随"
+    },
+    {
+      "en": "group ungroup",
+      "raw": "组合/取消组合",
+      "link": "组合/取消组合",
+      "zh": "组合/取消组合"
+    },
+    {
+      "en": "highlight",
+      "raw": "高亮",
+      "link": "高亮",
+      "zh": "高亮"
+    },
+    {
+      "en": "move",
+      "raw": "移动（26w14a）|移动",
+      "link": "移动（26w14a）",
+      "zh": "移动"
+    },
+    {
+      "en": "punch",
+      "raw": "击打",
+      "link": "击打",
+      "zh": "击打"
+    }
+  ],
+  "EffectSprite": [
+    {
+      "en": "big",
+      "raw": "变大",
+      "link": "变大",
+      "zh": "变大"
+    },
+    {
+      "en": "small",
+      "raw": "变小",
+      "link": "变小",
+      "zh": "变小"
+    },
+    {
+      "en": "It's very slippery",
+      "raw": "非常滑",
+      "link": "非常滑",
+      "zh": "非常滑"
+    },
+    {
+      "en": "sticky",
+      "raw": "胶着",
+      "link": "胶着",
+      "zh": "胶着"
+    },
+    {
+      "en": "shazboots!",
+      "raw": "Shazboots!（状态效果）|Shazboots!",
+      "link": "Shazboots!（状态效果）",
+      "zh": "Shazboots!"
+    }
+  ],
+  "EntitySprite": [
+    {
+      "en": "diamond chicken",
+      "raw": "钻石鸡",
+      "link": "钻石鸡",
+      "zh": "钻石鸡"
+    },
+    {
+      "en": "pink wither",
+      "raw": "粉红凋灵",
+      "link": "粉红凋灵",
+      "zh": "粉红凋灵"
+    },
+    {
+      "en": "pink wither skull",
+      "raw": "粉红凋灵|粉红凋灵之首",
+      "link": "粉红凋灵",
+      "zh": "粉红凋灵之首"
+    },
+    {
+      "en": "redstone bug",
+      "raw": "红石虫",
+      "link": "红石虫",
+      "zh": "红石虫"
+    },
+    {
+      "en": "love golem",
+      "raw": "爱心傀儡",
+      "link": "爱心傀儡",
+      "zh": "爱心傀儡"
+    },
+    {
+      "en": "obsidian boat",
+      "raw": "黑曜石船",
+      "link": "黑曜石船",
+      "zh": "黑曜石船"
+    },
+    {
+      "en": "smiling creeper",
+      "raw": "微笑的苦力怕",
+      "link": "微笑的苦力怕",
+      "zh": "微笑的苦力怕"
+    },
+    {
+      "en": "nerd creeper",
+      "raw": "技术迷苦力怕",
+      "link": "技术迷苦力怕",
+      "zh": "技术迷苦力怕"
+    },
+    {
+      "en": "moon cow",
+      "raw": "月球牛",
+      "link": "月球牛",
+      "zh": "月球牛"
+    },
+    {
+      "en": "ray tracing",
+      "raw": "光线追踪（生物）|光线追踪",
+      "link": "光线追踪（生物）",
+      "zh": "光线追踪"
+    },
+    {
+      "en": "stencil display",
+      "raw": "模板展示实体",
+      "link": "模板展示实体",
+      "zh": "模板展示实体"
+    },
+    {
+      "en": "batato",
+      "raw": "蝙薯",
+      "link": "蝙薯",
+      "zh": "蝙薯"
+    },
+    {
+      "en": "eye of potato",
+      "raw": "马铃薯之眼",
+      "link": "马铃薯之眼",
+      "zh": "马铃薯之眼"
+    },
+    {
+      "en": "lashing potato hook",
+      "raw": "马铃薯钩索#用途|马铃薯钩索",
+      "link": "马铃薯钩索#用途",
+      "zh": "马铃薯钩索"
+    },
+    {
+      "en": "mega spud",
+      "raw": "超级马铃薯怪",
+      "link": "超级马铃薯怪",
+      "zh": "超级马铃薯怪"
+    },
+    {
+      "en": "plaguewhale slab",
+      "raw": "瘟疫鲸台阶",
+      "link": "瘟疫鲸台阶",
+      "zh": "瘟疫鲸台阶"
+    },
+    {
+      "en": "posionous potato zombie",
+      "raw": "毒马铃薯僵尸",
+      "link": "毒马铃薯僵尸",
+      "zh": "毒马铃薯僵尸"
+    },
+    {
+      "en": "super extra magic",
+      "raw": "悬浮马铃薯推进器#用途|超级无敌魔法",
+      "link": "悬浮马铃薯推进器#用途",
+      "zh": "超级无敌魔法"
+    },
+    {
+      "en": "toxifin slab",
+      "raw": "毒鳍台阶",
+      "link": "毒鳍台阶",
+      "zh": "毒鳍台阶"
+    },
+    {
+      "en": "vine",
+      "raw": "恶毒马铃薯#用途|藤蔓",
+      "link": "恶毒马铃薯#用途",
+      "zh": "藤蔓"
+    },
+    {
+      "en": "angry ghast",
+      "raw": "愤怒恶魂",
+      "link": "愤怒恶魂",
+      "zh": "愤怒恶魂"
+    },
+    {
+      "en": "eye of exit",
+      "raw": "出口之眼",
+      "link": "出口之眼",
+      "zh": "出口之眼"
+    },
+    {
+      "en": "pet armadillo",
+      "raw": "宠物犰狳",
+      "link": "宠物犰狳",
+      "zh": "宠物犰狳"
+    },
+    {
+      "en": "pet axolotl",
+      "raw": "宠物美西螈",
+      "link": "宠物美西螈",
+      "zh": "宠物美西螈"
+    },
+    {
+      "en": "pet bee",
+      "raw": "宠物蜜蜂",
+      "link": "宠物蜜蜂",
+      "zh": "宠物蜜蜂"
+    },
+    {
+      "en": "pet cat",
+      "raw": "猫（25w14craftmine）|猫",
+      "link": "猫（25w14craftmine）",
+      "zh": "猫"
+    },
+    {
+      "en": "pet chicken",
+      "raw": "宠物鸡",
+      "link": "宠物鸡",
+      "zh": "宠物鸡"
+    },
+    {
+      "en": "pet cow",
+      "raw": "宠物牛",
+      "link": "宠物牛",
+      "zh": "宠物牛"
+    },
+    {
+      "en": "pet creeper",
+      "raw": "宠物苦力怕",
+      "link": "宠物苦力怕",
+      "zh": "宠物苦力怕"
+    },
+    {
+      "en": "pet fox",
+      "raw": "宠物狐狸",
+      "link": "宠物狐狸",
+      "zh": "宠物狐狸"
+    },
+    {
+      "en": "pet frog",
+      "raw": "宠物青蛙",
+      "link": "宠物青蛙",
+      "zh": "宠物青蛙"
+    },
+    {
+      "en": "pet mooshroom",
+      "raw": "宠物哞菇",
+      "link": "宠物哞菇",
+      "zh": "宠物哞菇"
+    },
+    {
+      "en": "pet polar bear",
+      "raw": "宠物北极熊",
+      "link": "宠物北极熊",
+      "zh": "宠物北极熊"
+    },
+    {
+      "en": "pet slime",
+      "raw": "宠物史莱姆",
+      "link": "宠物史莱姆",
+      "zh": "宠物史莱姆"
+    },
+    {
+      "en": "pet turtle",
+      "raw": "宠物海龟",
+      "link": "宠物海龟",
+      "zh": "宠物海龟"
+    },
+    {
+      "en": "pet wolf",
+      "raw": "宠物狼",
+      "link": "宠物狼",
+      "zh": "宠物狼"
+    },
+    {
+      "en": "traitor",
+      "raw": "叛徒",
+      "link": "叛徒",
+      "zh": "叛徒"
+    },
+    {
+      "en": "crafting grid",
+      "raw": "合成方格（26w14a）|合成方格",
+      "link": "合成方格（26w14a）",
+      "zh": "合成方格"
+    },
+    {
+      "en": "crafting results",
+      "raw": "合成产物",
+      "link": "合成产物",
+      "zh": "合成产物"
+    },
+    {
+      "en": "living block",
+      "raw": "活化方块",
+      "link": "活化方块",
+      "zh": "活化方块"
+    },
+    {
+      "en": "living block command",
+      "raw": "活化方块命令",
+      "link": "活化方块命令",
+      "zh": "活化方块命令"
+    }
+  ],
+  "EnvSprite": [
+    {
+      "en": "other portal",
+      "raw": "异界传送门",
+      "link": "异界传送门",
+      "zh": "异界传送门"
+    },
+    {
+      "en": "the moon",
+      "raw": "月球",
+      "link": "月球",
+      "zh": "月球"
+    },
+    {
+      "en": "lunar base",
+      "raw": "月球基地",
+      "link": "月球基地",
+      "zh": "月球基地"
+    },
+    {
+      "en": "colosseum",
+      "raw": "角斗场",
+      "link": "角斗场",
+      "zh": "角斗场"
+    },
+    {
+      "en": "potato mineshaft",
+      "raw": "马铃薯废弃矿井",
+      "link": "马铃薯废弃矿井",
+      "zh": "马铃薯废弃矿井"
+    },
+    {
+      "en": "potato village",
+      "raw": "马铃薯村庄",
+      "link": "马铃薯村庄",
+      "zh": "马铃薯村庄"
+    },
+    {
+      "en": "ruined portatol",
+      "raw": "废弃马铃薯传送门",
+      "link": "废弃马铃薯传送门",
+      "zh": "废弃马铃薯传送门"
+    },
+    {
+      "en": "hash well",
+      "raw": "薯饼水井",
+      "link": "薯饼水井",
+      "zh": "薯饼水井"
+    },
+    {
+      "en": "potato",
+      "raw": "马铃薯维度",
+      "link": "马铃薯维度",
+      "zh": "马铃薯维度"
+    },
+    {
+      "en": "potato geode",
+      "raw": "马铃薯晶洞",
+      "link": "马铃薯晶洞",
+      "zh": "马铃薯晶洞"
+    },
+    {
+      "en": "potato tree",
+      "raw": "马铃薯树",
+      "link": "马铃薯树",
+      "zh": "马铃薯树"
+    },
+    {
+      "en": "hub",
+      "raw": "大厅",
+      "link": "大厅",
+      "zh": "大厅"
+    },
+    {
+      "en": "mine exit",
+      "raw": "矿境出口",
+      "link": "矿境出口",
+      "zh": "矿境出口"
+    },
+    {
+      "en": "start platform",
+      "raw": "初始平台",
+      "link": "初始平台",
+      "zh": "初始平台"
+    }
+  ]
+}

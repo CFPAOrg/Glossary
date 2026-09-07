@@ -1,0 +1,2110 @@
+{
+  "StoryModeCharacterSprite": [
+    {
+      "en": "announcer",
+      "raw": "主持人",
+      "link": "主持人",
+      "zh": "主持人"
+    },
+    {
+      "en": "brick",
+      "raw": "Brick",
+      "link": "Brick",
+      "zh": "Brick"
+    },
+    {
+      "en": "captain sparklez",
+      "raw": "Sparklez队长",
+      "link": "Sparklez队长",
+      "zh": "Sparklez队长"
+    },
+    {
+      "en": "death bowl announcer",
+      "raw": "死亡之碗主持人",
+      "link": "死亡之碗主持人",
+      "zh": "死亡之碗主持人"
+    },
+    {
+      "en": "deejay",
+      "raw": "DJ",
+      "link": "DJ",
+      "zh": "DJ"
+    },
+    {
+      "en": "esteban",
+      "raw": "花车游行猪|Esteban",
+      "link": "花车游行猪",
+      "zh": "Esteban"
+    },
+    {
+      "en": "fanboy",
+      "raw": "男粉丝",
+      "link": "男粉丝",
+      "zh": "男粉丝"
+    },
+    {
+      "en": "fangirl",
+      "raw": "女粉丝",
+      "link": "女粉丝",
+      "zh": "女粉丝"
+    },
+    {
+      "en": "float coordinator",
+      "raw": "花车协调员",
+      "link": "花车协调员",
+      "zh": "花车协调员"
+    },
+    {
+      "en": "float parade pigs",
+      "raw": "花车游行猪",
+      "link": "花车游行猪",
+      "zh": "花车游行猪"
+    },
+    {
+      "en": "floating build creator",
+      "raw": "漂浮建筑物创作者",
+      "link": "漂浮建筑物创作者",
+      "zh": "漂浮建筑物创作者"
+    },
+    {
+      "en": "henchman",
+      "raw": "次要角色#Henchman|Henchman",
+      "link": "次要角色#Henchman",
+      "zh": "Henchman"
+    },
+    {
+      "en": "history enthusiast",
+      "raw": "历史爱好者",
+      "link": "历史爱好者",
+      "zh": "历史爱好者"
+    },
+    {
+      "en": "ivy",
+      "raw": "Ivy",
+      "link": "Ivy",
+      "zh": "Ivy"
+    },
+    {
+      "en": "jesse's horse",
+      "raw": "Jesse的马",
+      "link": "Jesse的马",
+      "zh": "Jesse的马"
+    },
+    {
+      "en": "lord von thunderpork vi",
+      "raw": "花车游行猪|Lord von Thunderpork VI",
+      "link": "花车游行猪",
+      "zh": "Lord von Thunderpork VI"
+    },
+    {
+      "en": "narrator",
+      "raw": "旁白员",
+      "link": "旁白员",
+      "zh": "旁白员"
+    },
+    {
+      "en": "phillipe",
+      "raw": "次要角色#Phillipe|Phillipe",
+      "link": "次要角色#Phillipe",
+      "zh": "Phillipe"
+    },
+    {
+      "en": "porkchop",
+      "raw": "PorkChop（人类）|PorkChop",
+      "link": "PorkChop（人类）",
+      "zh": "PorkChop"
+    },
+    {
+      "en": "reuben human",
+      "raw": "Reuben（人类）|Reuben",
+      "link": "Reuben（人类）",
+      "zh": "Reuben"
+    },
+    {
+      "en": "schoolboy",
+      "raw": "学童",
+      "link": "学童",
+      "zh": "学童"
+    },
+    {
+      "en": "slab",
+      "raw": "Slab",
+      "link": "Slab",
+      "zh": "Slab"
+    },
+    {
+      "en": "slime diving creator",
+      "raw": "史莱姆跳水创作者",
+      "link": "史莱姆跳水创作者",
+      "zh": "史莱姆跳水创作者"
+    },
+    {
+      "en": "smushy cutecheeks",
+      "raw": "花车游行猪|Smushy Cutecheeks",
+      "link": "花车游行猪",
+      "zh": "Smushy Cutecheeks"
+    },
+    {
+      "en": "the white pumpkin",
+      "raw": "Cassie Rose#白色南瓜|白色南瓜",
+      "link": "Cassie Rose#白色南瓜",
+      "zh": "白色南瓜"
+    },
+    {
+      "en": "torquedawg",
+      "raw": "Torque Dawg",
+      "link": "Torque Dawg",
+      "zh": "Torque Dawg"
+    },
+    {
+      "en": "tripwire",
+      "raw": "Tripwire",
+      "link": "Tripwire",
+      "zh": "Tripwire"
+    },
+    {
+      "en": "warden",
+      "raw": "Gordon",
+      "link": "Gordon",
+      "zh": "Gordon"
+    }
+  ],
+  "StoryModeEntitySprite": [
+    {
+      "en": "admin",
+      "raw": "管理者",
+      "link": "管理者",
+      "zh": "管理者"
+    },
+    {
+      "en": "baby prison zombie",
+      "raw": "幼年监狱僵尸",
+      "link": "幼年监狱僵尸",
+      "zh": "幼年监狱僵尸"
+    },
+    {
+      "en": "bat",
+      "raw": "蝙蝠",
+      "link": "蝙蝠",
+      "zh": "蝙蝠"
+    },
+    {
+      "en": "blaze",
+      "raw": "烈焰人",
+      "link": "烈焰人",
+      "zh": "烈焰人"
+    },
+    {
+      "en": "cat",
+      "raw": "猫",
+      "link": "猫",
+      "zh": "猫"
+    },
+    {
+      "en": "cave spider",
+      "raw": "洞穴蜘蛛",
+      "link": "洞穴蜘蛛",
+      "zh": "洞穴蜘蛛"
+    },
+    {
+      "en": "chicken",
+      "raw": "雞",
+      "link": "雞",
+      "zh": "雞"
+    },
+    {
+      "en": "chicken sized zombie",
+      "raw": "僵尸|鸡大小的僵尸",
+      "link": "僵尸",
+      "zh": "鸡大小的僵尸"
+    },
+    {
+      "en": "clownfish",
+      "raw": "小丑鱼",
+      "link": "小丑鱼",
+      "zh": "小丑鱼"
+    },
+    {
+      "en": "cod",
+      "raw": "鳕鱼",
+      "link": "鳕鱼",
+      "zh": "鳕鱼"
+    },
+    {
+      "en": "computer",
+      "raw": "计算机",
+      "link": "计算机",
+      "zh": "计算机"
+    },
+    {
+      "en": "cow",
+      "raw": "牛",
+      "link": "牛",
+      "zh": "牛"
+    },
+    {
+      "en": "creeder",
+      "raw": "苦力蛛",
+      "link": "苦力蛛",
+      "zh": "苦力蛛"
+    },
+    {
+      "en": "creeper",
+      "raw": "苦力怕",
+      "link": "苦力怕",
+      "zh": "苦力怕"
+    },
+    {
+      "en": "dog",
+      "raw": "狗",
+      "link": "狗",
+      "zh": "狗"
+    },
+    {
+      "en": "donkey",
+      "raw": "驴",
+      "link": "驴",
+      "zh": "驴"
+    },
+    {
+      "en": "elder guardian",
+      "raw": "远古守卫者",
+      "link": "远古守卫者",
+      "zh": "远古守卫者"
+    },
+    {
+      "en": "ender dragon",
+      "raw": "末影龙",
+      "link": "末影龙",
+      "zh": "末影龙"
+    },
+    {
+      "en": "enderman",
+      "raw": "末影人",
+      "link": "末影人",
+      "zh": "末影人"
+    },
+    {
+      "en": "endermite",
+      "raw": "末影螨",
+      "link": "末影螨",
+      "zh": "末影螨"
+    },
+    {
+      "en": "eversource chicken",
+      "raw": "永恒力量",
+      "link": "永恒力量",
+      "zh": "永恒力量"
+    },
+    {
+      "en": "firefly",
+      "raw": "场景装饰#萤火虫|萤火虫",
+      "link": "场景装饰#萤火虫",
+      "zh": "萤火虫"
+    },
+    {
+      "en": "fly",
+      "raw": "场景装饰#苍蝇|苍蝇",
+      "link": "场景装饰#苍蝇",
+      "zh": "苍蝇"
+    },
+    {
+      "en": "fred's keep villager",
+      "raw": "Fred的村民",
+      "link": "Fred的村民",
+      "zh": "Fred的村民"
+    },
+    {
+      "en": "gabriel's horse",
+      "raw": "Gabriel的马",
+      "link": "Gabriel的马",
+      "zh": "Gabriel的马"
+    },
+    {
+      "en": "giant enderman",
+      "raw": "巨型末影人",
+      "link": "巨型末影人",
+      "zh": "巨型末影人"
+    },
+    {
+      "en": "giant ghast",
+      "raw": "巨型地獄幽靈",
+      "link": "巨型地獄幽靈",
+      "zh": "巨型地獄幽靈"
+    },
+    {
+      "en": "giant magma golem",
+      "raw": "巨型岩浆傀儡",
+      "link": "巨型岩浆傀儡",
+      "zh": "巨型岩浆傀儡"
+    },
+    {
+      "en": "guardian",
+      "raw": "守卫者",
+      "link": "守卫者",
+      "zh": "守卫者"
+    },
+    {
+      "en": "ghast",
+      "raw": "恶魂",
+      "link": "恶魂",
+      "zh": "恶魂"
+    },
+    {
+      "en": "horse",
+      "raw": "马",
+      "link": "马",
+      "zh": "马"
+    },
+    {
+      "en": "human",
+      "raw": "人类",
+      "link": "人类",
+      "zh": "人类"
+    },
+    {
+      "en": "icy ender creeper",
+      "raw": "寒冰末影苦力怕",
+      "link": "寒冰末影苦力怕",
+      "zh": "寒冰末影苦力怕"
+    },
+    {
+      "en": "icy golem",
+      "raw": "冰傀儡",
+      "link": "冰傀儡",
+      "zh": "冰傀儡"
+    },
+    {
+      "en": "icy Spider",
+      "raw": "寒冰蜘蛛",
+      "link": "寒冰蜘蛛",
+      "zh": "寒冰蜘蛛"
+    },
+    {
+      "en": "iron golem",
+      "raw": "铁傀儡",
+      "link": "铁傀儡",
+      "zh": "铁傀儡"
+    },
+    {
+      "en": "jack's group",
+      "raw": "Jack的团体",
+      "link": "Jack的团体",
+      "zh": "Jack的团体"
+    },
+    {
+      "en": "larger icy golem",
+      "raw": "大型冰傀儡",
+      "link": "大型冰傀儡",
+      "zh": "大型冰傀儡"
+    },
+    {
+      "en": "llama",
+      "raw": "羊驼",
+      "link": "羊驼",
+      "zh": "羊驼"
+    },
+    {
+      "en": "lukas' ocelot",
+      "raw": "Lukas#Lukas的豹猫|Lukas的豹猫",
+      "link": "Lukas#Lukas的豹猫",
+      "zh": "Lukas的豹猫"
+    },
+    {
+      "en": "magma cube",
+      "raw": "岩浆怪",
+      "link": "岩浆怪",
+      "zh": "岩浆怪"
+    },
+    {
+      "en": "magma golem",
+      "raw": "岩浆傀儡",
+      "link": "岩浆傀儡",
+      "zh": "岩浆傀儡"
+    },
+    {
+      "en": "mooshroom",
+      "raw": "哞菇",
+      "link": "哞菇",
+      "zh": "哞菇"
+    },
+    {
+      "en": "new order of the stone",
+      "raw": "新岩石之令",
+      "link": "新岩石之令",
+      "zh": "新岩石之令"
+    },
+    {
+      "en": "ocelot",
+      "raw": "豹猫",
+      "link": "豹猫",
+      "zh": "豹猫"
+    },
+    {
+      "en": "old builders",
+      "raw": "远古建筑者",
+      "link": "远古建筑者",
+      "zh": "远古建筑者"
+    },
+    {
+      "en": "order of the stone",
+      "raw": "岩石之令（团体）|岩石之令",
+      "link": "岩石之令（团体）",
+      "zh": "岩石之令"
+    },
+    {
+      "en": "oxblood",
+      "raw": "牛血人",
+      "link": "牛血人",
+      "zh": "牛血人"
+    },
+    {
+      "en": "parrot",
+      "raw": "鹦鹉",
+      "link": "鹦鹉",
+      "zh": "鹦鹉"
+    },
+    {
+      "en": "pig",
+      "raw": "猪",
+      "link": "猪",
+      "zh": "猪"
+    },
+    {
+      "en": "polar bear",
+      "raw": "北极熊",
+      "link": "北极熊",
+      "zh": "北极熊"
+    },
+    {
+      "en": "prismarine colossus",
+      "raw": "海晶石像",
+      "link": "海晶石像",
+      "zh": "海晶石像"
+    },
+    {
+      "en": "prismarine creeper",
+      "raw": "海晶石苦力怕",
+      "link": "海晶石苦力怕",
+      "zh": "海晶石苦力怕"
+    },
+    {
+      "en": "prismarine soldier",
+      "raw": "海晶士兵",
+      "link": "海晶士兵",
+      "zh": "海晶士兵"
+    },
+    {
+      "en": "prison cave spider",
+      "raw": "监狱洞穴蜘蛛",
+      "link": "监狱洞穴蜘蛛",
+      "zh": "监狱洞穴蜘蛛"
+    },
+    {
+      "en": "prison slime",
+      "raw": "监狱史萊姆",
+      "link": "监狱史萊姆",
+      "zh": "监狱史萊姆"
+    },
+    {
+      "en": "prison spider",
+      "raw": "监狱蜘蛛",
+      "link": "监狱蜘蛛",
+      "zh": "监狱蜘蛛"
+    },
+    {
+      "en": "prison witch",
+      "raw": "监狱女巫",
+      "link": "监狱女巫",
+      "zh": "监狱女巫"
+    },
+    {
+      "en": "prison zombie",
+      "raw": "僵尸|监狱僵尸",
+      "link": "僵尸",
+      "zh": "监狱僵尸"
+    },
+    {
+      "en": "prison golem",
+      "raw": "监狱傀儡",
+      "link": "监狱傀儡",
+      "zh": "监狱傀儡"
+    },
+    {
+      "en": "pufferfish",
+      "raw": "河豚",
+      "link": "河豚",
+      "zh": "河豚"
+    },
+    {
+      "en": "romeo's magma cube",
+      "raw": "大型岩浆怪",
+      "link": "大型岩浆怪",
+      "zh": "大型岩浆怪"
+    },
+    {
+      "en": "salmon",
+      "raw": "鲑鱼",
+      "link": "鲑鱼",
+      "zh": "鲑鱼"
+    },
+    {
+      "en": "sheep",
+      "raw": "绵羊",
+      "link": "绵羊",
+      "zh": "绵羊"
+    },
+    {
+      "en": "shulker",
+      "raw": "潜影贝",
+      "link": "潜影贝",
+      "zh": "潜影贝"
+    },
+    {
+      "en": "skeleton",
+      "raw": "骷髅",
+      "link": "骷髅",
+      "zh": "骷髅"
+    },
+    {
+      "en": "slime",
+      "raw": "史莱姆",
+      "link": "史莱姆",
+      "zh": "史莱姆"
+    },
+    {
+      "en": "spider jockey",
+      "raw": "蜘蛛骑士",
+      "link": "蜘蛛骑士",
+      "zh": "蜘蛛骑士"
+    },
+    {
+      "en": "spider",
+      "raw": "蜘蛛",
+      "link": "蜘蛛",
+      "zh": "蜘蛛"
+    },
+    {
+      "en": "squid",
+      "raw": "鱿鱼",
+      "link": "鱿鱼",
+      "zh": "鱿鱼"
+    },
+    {
+      "en": "stray",
+      "raw": "流浪者",
+      "link": "流浪者",
+      "zh": "流浪者"
+    },
+    {
+      "en": "the blaze rods",
+      "raw": "烈焰棒",
+      "link": "烈焰棒",
+      "zh": "烈焰棒"
+    },
+    {
+      "en": "the ocelots",
+      "raw": "豹猫（团体）|豹猫",
+      "link": "豹猫（团体）",
+      "zh": "豹猫"
+    },
+    {
+      "en": "tropical fish",
+      "raw": "热带鱼",
+      "link": "热带鱼",
+      "zh": "热带鱼"
+    },
+    {
+      "en": "unused cat",
+      "raw": "未使用的猫",
+      "link": "未使用的猫",
+      "zh": "未使用的猫"
+    },
+    {
+      "en": "unused classic villager",
+      "raw": "未使用的村民",
+      "link": "未使用的村民",
+      "zh": "未使用的村民"
+    },
+    {
+      "en": "unused llama",
+      "raw": "未使用的羊驼",
+      "link": "未使用的羊驼",
+      "zh": "未使用的羊驼"
+    },
+    {
+      "en": "villager",
+      "raw": "村民",
+      "link": "村民",
+      "zh": "村民"
+    },
+    {
+      "en": "witch",
+      "raw": "女巫",
+      "link": "女巫",
+      "zh": "女巫"
+    },
+    {
+      "en": "wither storm",
+      "raw": "凋灵风暴",
+      "link": "凋灵风暴",
+      "zh": "凋灵风暴"
+    },
+    {
+      "en": "wolf",
+      "raw": "狼",
+      "link": "狼",
+      "zh": "狼"
+    },
+    {
+      "en": "zombie",
+      "raw": "僵尸",
+      "link": "僵尸",
+      "zh": "僵尸"
+    },
+    {
+      "en": "zombie pigman",
+      "raw": "僵尸猪人",
+      "link": "僵尸猪人",
+      "zh": "僵尸猪人"
+    },
+    {
+      "en": "zombie sized chicken",
+      "raw": "僵尸大小的鸡",
+      "link": "僵尸大小的鸡",
+      "zh": "僵尸大小的鸡"
+    }
+  ],
+  "StoryModeAreaSprite": [
+    {
+      "en": "abandoned bridge",
+      "raw": "废桥",
+      "link": "废桥",
+      "zh": "废桥"
+    },
+    {
+      "en": "basement",
+      "raw": "地下室",
+      "link": "地下室",
+      "zh": "地下室"
+    },
+    {
+      "en": "beacontown",
+      "raw": "灯塔镇",
+      "link": "灯塔镇",
+      "zh": "灯塔镇"
+    },
+    {
+      "en": "beacontown mine",
+      "raw": "灯塔镇矿井",
+      "link": "灯塔镇矿井",
+      "zh": "灯塔镇矿井"
+    },
+    {
+      "en": "boom town",
+      "raw": "欣荣镇",
+      "link": "欣荣镇",
+      "zh": "欣荣镇"
+    },
+    {
+      "en": "build club",
+      "raw": "建筑俱乐部",
+      "link": "建筑俱乐部",
+      "zh": "建筑俱乐部"
+    },
+    {
+      "en": "builder games",
+      "raw": "建筑者大赛",
+      "link": "建筑者大赛",
+      "zh": "建筑者大赛"
+    },
+    {
+      "en": "cabin",
+      "raw": "管理者的小屋",
+      "link": "管理者的小屋",
+      "zh": "管理者的小屋"
+    },
+    {
+      "en": "cassie rose's cave",
+      "raw": "Cassie Rose的洞穴",
+      "link": "Cassie Rose的洞穴",
+      "zh": "Cassie Rose的洞穴"
+    },
+    {
+      "en": "cassie rose's lair",
+      "raw": "Cassie Rose的藏身之地",
+      "link": "Cassie Rose的藏身之地",
+      "zh": "Cassie Rose的藏身之地"
+    },
+    {
+      "en": "cave (a block and a hard place)",
+      "raw": "洞穴（方块与困难之地）",
+      "link": "洞穴（方块与困难之地）",
+      "zh": "洞穴（方块与困难之地）"
+    },
+    {
+      "en": "cave of wonders",
+      "raw": "奇迹洞穴",
+      "link": "奇迹洞穴",
+      "zh": "奇迹洞穴"
+    },
+    {
+      "en": "caves",
+      "raw": "洞穴",
+      "link": "洞穴",
+      "zh": "洞穴"
+    },
+    {
+      "en": "champion city",
+      "raw": "勇士之城",
+      "link": "勇士之城",
+      "zh": "勇士之城"
+    },
+    {
+      "en": "competitor village",
+      "raw": "选手村",
+      "link": "选手村",
+      "zh": "选手村"
+    },
+    {
+      "en": "crown mesa",
+      "raw": "王冠恶地",
+      "link": "王冠恶地",
+      "zh": "王冠恶地"
+    },
+    {
+      "en": "death bowl",
+      "raw": "死亡之碗",
+      "link": "死亡之碗",
+      "zh": "死亡之碗"
+    },
+    {
+      "en": "dome of concentration",
+      "raw": "沉思穹顶",
+      "link": "沉思穹顶",
+      "zh": "沉思穹顶"
+    },
+    {
+      "en": "doom sea",
+      "raw": "厄运之海",
+      "link": "厄运之海",
+      "zh": "厄运之海"
+    },
+    {
+      "en": "end",
+      "raw": "末地",
+      "link": "末地",
+      "zh": "末地"
+    },
+    {
+      "en": "endercon",
+      "raw": "末影嘉年华",
+      "link": "末影嘉年华",
+      "zh": "末影嘉年华"
+    },
+    {
+      "en": "endercon building competition",
+      "raw": "末影嘉年华建筑大赛",
+      "link": "末影嘉年华建筑大赛",
+      "zh": "末影嘉年华建筑大赛"
+    },
+    {
+      "en": "far lands",
+      "raw": "边境之地",
+      "link": "边境之地",
+      "zh": "边境之地"
+    },
+    {
+      "en": "far lands maze",
+      "raw": "边境之地迷宫",
+      "link": "边境之地迷宫",
+      "zh": "边境之地迷宫"
+    },
+    {
+      "en": "floating tower",
+      "raw": "浮塔",
+      "link": "浮塔",
+      "zh": "浮塔"
+    },
+    {
+      "en": "fred's house",
+      "raw": "Fred的房子",
+      "link": "Fred的房子",
+      "zh": "Fred的房子"
+    },
+    {
+      "en": "fred's keep",
+      "raw": "Fred的堡垒",
+      "link": "Fred的堡垒",
+      "zh": "Fred的堡垒"
+    },
+    {
+      "en": "gabriel's fortress",
+      "raw": "Gabriel的堡垒",
+      "link": "Gabriel的堡垒",
+      "zh": "Gabriel的堡垒"
+    },
+    {
+      "en": "hadrian's Palace",
+      "raw": "Hadrian的宫殿",
+      "link": "Hadrian的宫殿",
+      "zh": "Hadrian的宫殿"
+    },
+    {
+      "en": "hall",
+      "raw": "礼堂",
+      "link": "礼堂",
+      "zh": "礼堂"
+    },
+    {
+      "en": "harper's laboratory",
+      "raw": "Harper的实验室",
+      "link": "Harper的实验室",
+      "zh": "Harper的实验室"
+    },
+    {
+      "en": "heckmouth",
+      "raw": "鬼门关",
+      "link": "鬼门关",
+      "zh": "鬼门关"
+    },
+    {
+      "en": "icy palace of despair",
+      "raw": "绝望冰宫",
+      "link": "绝望冰宫",
+      "zh": "绝望冰宫"
+    },
+    {
+      "en": "icy spider room",
+      "raw": "寒冰蜘蛛房间",
+      "link": "寒冰蜘蛛房间",
+      "zh": "寒冰蜘蛛房间"
+    },
+    {
+      "en": "ivor's cottage",
+      "raw": "Ivor的小屋",
+      "link": "Ivor的小屋",
+      "zh": "Ivor的小屋"
+    },
+    {
+      "en": "jack & nurm's adventure emporium",
+      "raw": "Jack和Nurm的冒险商店",
+      "link": "Jack和Nurm的冒险商店",
+      "zh": "Jack和Nurm的冒险商店"
+    },
+    {
+      "en": "jessecon backstage",
+      "raw": "Jesse大会后台",
+      "link": "Jesse大会后台",
+      "zh": "Jesse大会后台"
+    },
+    {
+      "en": "jungle",
+      "raw": "丛林",
+      "link": "丛林",
+      "zh": "丛林"
+    },
+    {
+      "en": "jungle fortress",
+      "raw": "丛林神庙",
+      "link": "丛林神庙",
+      "zh": "丛林神庙"
+    },
+    {
+      "en": "land of chicken sized zombies",
+      "raw": "鸡大小的僵尸之地",
+      "link": "鸡大小的僵尸之地",
+      "zh": "鸡大小的僵尸之地"
+    },
+    {
+      "en": "land of zombie sized chickens",
+      "raw": "僵尸大小的鸡之地",
+      "link": "僵尸大小的鸡之地",
+      "zh": "僵尸大小的鸡之地"
+    },
+    {
+      "en": "lukas' cottage",
+      "raw": "Lukas的小屋",
+      "link": "Lukas的小屋",
+      "zh": "Lukas的小屋"
+    },
+    {
+      "en": "lava race",
+      "raw": "熔岩竞赛",
+      "link": "熔岩竞赛",
+      "zh": "熔岩竞赛"
+    },
+    {
+      "en": "magnus' tower",
+      "raw": "Magnus的塔",
+      "link": "Magnus的塔",
+      "zh": "Magnus的塔"
+    },
+    {
+      "en": "mush room",
+      "raw": "蘑菇房",
+      "link": "蘑菇房",
+      "zh": "蘑菇房"
+    },
+    {
+      "en": "nether",
+      "raw": "下界",
+      "link": "下界",
+      "zh": "下界"
+    },
+    {
+      "en": "oasis",
+      "raw": "绿洲",
+      "link": "绿洲",
+      "zh": "绿洲"
+    },
+    {
+      "en": "old builders' temple",
+      "raw": "远古建筑者神庙",
+      "link": "远古建筑者神庙",
+      "zh": "远古建筑者神庙"
+    },
+    {
+      "en": "order hall",
+      "raw": "命令圣堂",
+      "link": "命令圣堂",
+      "zh": "命令圣堂"
+    },
+    {
+      "en": "order of the stone's temple",
+      "raw": "岩石之令神庙",
+      "link": "岩石之令神庙",
+      "zh": "岩石之令神庙"
+    },
+    {
+      "en": "overworld",
+      "raw": "主世界",
+      "link": "主世界",
+      "zh": "主世界"
+    },
+    {
+      "en": "overworld (access denied)",
+      "raw": "拒之门外|主世界（拒之门外）",
+      "link": "拒之门外",
+      "zh": "主世界（拒之门外）"
+    },
+    {
+      "en": "overworld (a journey's end?)",
+      "raw": "旅途的终点？|主世界（旅途的终点？）",
+      "link": "旅途的终点？",
+      "zh": "主世界（旅途的终点？）"
+    },
+    {
+      "en": "overworld (a portal to mystery)",
+      "raw": "通往神秘国度的传送门|主世界（通往神秘国度的传送门）",
+      "link": "通往神秘国度的传送门",
+      "zh": "主世界（通往神秘国度的传送门）"
+    },
+    {
+      "en": "overworld (main)",
+      "raw": "主世界（常规）",
+      "link": "主世界（常规）",
+      "zh": "主世界（常规）"
+    },
+    {
+      "en": "overworld (order up!)",
+      "raw": "奔赴前线！|主世界（奔赴前线！）",
+      "link": "奔赴前线！",
+      "zh": "主世界（奔赴前线！）"
+    },
+    {
+      "en": "pama's interior",
+      "raw": "PAMA内部",
+      "link": "PAMA内部",
+      "zh": "PAMA内部"
+    },
+    {
+      "en": "petra's cave",
+      "raw": "Petra的洞穴",
+      "link": "Petra的洞穴",
+      "zh": "Petra的洞穴"
+    },
+    {
+      "en": "portal network",
+      "raw": "传送门网络",
+      "link": "传送门网络",
+      "zh": "传送门网络"
+    },
+    {
+      "en": "redstonia",
+      "raw": "红石尼亚",
+      "link": "红石尼亚",
+      "zh": "红石尼亚"
+    },
+    {
+      "en": "romeoburg",
+      "raw": "Romeo堡",
+      "link": "Romeo堡",
+      "zh": "Romeo堡"
+    },
+    {
+      "en": "sea temple",
+      "raw": "海洋神庙",
+      "link": "海洋神庙",
+      "zh": "海洋神庙"
+    },
+    {
+      "en": "shooting gallery room",
+      "raw": "射击场房间",
+      "link": "射击场房间",
+      "zh": "射击场房间"
+    },
+    {
+      "en": "sky city",
+      "raw": "天空之城",
+      "link": "天空之城",
+      "zh": "天空之城"
+    },
+    {
+      "en": "sky city palace",
+      "raw": "天空之城宫殿",
+      "link": "天空之城宫殿",
+      "zh": "天空之城宫殿"
+    },
+    {
+      "en": "soren's end mansion",
+      "raw": "Soren的末地府邸",
+      "link": "Soren的末地府邸",
+      "zh": "Soren的末地府邸"
+    },
+    {
+      "en": "soren's fortress",
+      "raw": "Soren的要塞",
+      "link": "Soren的要塞",
+      "zh": "Soren的要塞"
+    },
+    {
+      "en": "soren's laboratory",
+      "raw": "Soren的实验室",
+      "link": "Soren的实验室",
+      "zh": "Soren的实验室"
+    },
+    {
+      "en": "soren's mob grinder",
+      "raw": "Soren的怪物磨床",
+      "link": "Soren的怪物磨床",
+      "zh": "Soren的怪物磨床"
+    },
+    {
+      "en": "soren's wool world",
+      "raw": "Soren的羊毛世界",
+      "link": "Soren的羊毛世界",
+      "zh": "Soren的羊毛世界"
+    },
+    {
+      "en": "spleef",
+      "raw": "掘一死战",
+      "link": "掘一死战",
+      "zh": "掘一死战"
+    },
+    {
+      "en": "spooky mansion",
+      "raw": "幽灵府邸",
+      "link": "幽灵府邸",
+      "zh": "幽灵府邸"
+    },
+    {
+      "en": "spooky mansion's dining room",
+      "raw": "幽灵府邸的餐厅",
+      "link": "幽灵府邸的餐厅",
+      "zh": "幽灵府邸的餐厅"
+    },
+    {
+      "en": "spooky mansion's kitchen",
+      "raw": "幽灵府邸的厨房",
+      "link": "幽灵府邸的厨房",
+      "zh": "幽灵府邸的厨房"
+    },
+    {
+      "en": "spooky mansion's library",
+      "raw": "幽灵府邸的书房",
+      "link": "幽灵府邸的书房",
+      "zh": "幽灵府邸的书房"
+    },
+    {
+      "en": "spooky mansion's lounge",
+      "raw": "幽灵府邸的休息室",
+      "link": "幽灵府邸的休息室",
+      "zh": "幽灵府邸的休息室"
+    },
+    {
+      "en": "sunshine institute",
+      "raw": "阳光学院",
+      "link": "阳光学院",
+      "zh": "阳光学院"
+    },
+    {
+      "en": "swamp",
+      "raw": "沼泽",
+      "link": "沼泽",
+      "zh": "沼泽"
+    },
+    {
+      "en": "terminal space",
+      "raw": "终端空间",
+      "link": "终端空间",
+      "zh": "终端空间"
+    },
+    {
+      "en": "treehouse",
+      "raw": "树屋",
+      "link": "树屋",
+      "zh": "树屋"
+    },
+    {
+      "en": "underneath",
+      "raw": "地下世界",
+      "link": "地下世界",
+      "zh": "地下世界"
+    },
+    {
+      "en": "underneath badlands",
+      "raw": "地下世界恶地",
+      "link": "地下世界恶地",
+      "zh": "地下世界恶地"
+    },
+    {
+      "en": "walls",
+      "raw": "迷墙",
+      "link": "迷墙",
+      "zh": "迷墙"
+    },
+    {
+      "en": "wither storm's insides",
+      "raw": "凋灵风暴内部空间",
+      "link": "凋灵风暴内部空间",
+      "zh": "凋灵风暴内部空间"
+    },
+    {
+      "en": "woods",
+      "raw": "森林",
+      "link": "森林",
+      "zh": "森林"
+    },
+    {
+      "en": "woods (reuben's disappearance)",
+      "raw": "森林（Reuben失踪处）",
+      "link": "森林（Reuben失踪处）",
+      "zh": "森林（Reuben失踪处）"
+    },
+    {
+      "en": "woods (soren's fortress)",
+      "raw": "森林（Soren的要塞）",
+      "link": "森林（Soren的要塞）",
+      "zh": "森林（Soren的要塞）"
+    },
+    {
+      "en": "woods (treehouse)",
+      "raw": "森林（树屋）",
+      "link": "森林（树屋）",
+      "zh": "森林（树屋）"
+    },
+    {
+      "en": "zombie mines",
+      "raw": "僵尸矿山",
+      "link": "僵尸矿山",
+      "zh": "僵尸矿山"
+    }
+  ],
+  "StoryModeItemSprite": [
+    {
+      "en": "amulet",
+      "raw": "护身符",
+      "link": "护身符",
+      "zh": "护身符"
+    },
+    {
+      "en": "anvil",
+      "raw": "铁砧",
+      "link": "铁砧",
+      "zh": "铁砧"
+    },
+    {
+      "en": "apple",
+      "raw": "苹果",
+      "link": "苹果",
+      "zh": "苹果"
+    },
+    {
+      "en": "armor",
+      "raw": "盔甲",
+      "link": "盔甲",
+      "zh": "盔甲"
+    },
+    {
+      "en": "arrow",
+      "raw": "箭",
+      "link": "箭",
+      "zh": "箭"
+    },
+    {
+      "en": "arrow of poison",
+      "raw": "箭|剧毒之箭",
+      "link": "箭",
+      "zh": "剧毒之箭"
+    },
+    {
+      "en": "bed",
+      "raw": "床",
+      "link": "床",
+      "zh": "床"
+    },
+    {
+      "en": "blueprint",
+      "raw": "蓝图",
+      "link": "蓝图",
+      "zh": "蓝图"
+    },
+    {
+      "en": "bone",
+      "raw": "骨头",
+      "link": "骨头",
+      "zh": "骨头"
+    },
+    {
+      "en": "book",
+      "raw": "书",
+      "link": "书",
+      "zh": "书"
+    },
+    {
+      "en": "bow",
+      "raw": "弓",
+      "link": "弓",
+      "zh": "弓"
+    },
+    {
+      "en": "bread",
+      "raw": "面包",
+      "link": "面包",
+      "zh": "面包"
+    },
+    {
+      "en": "bucket",
+      "raw": "铁桶",
+      "link": "铁桶",
+      "zh": "铁桶"
+    },
+    {
+      "en": "cake",
+      "raw": "蛋糕",
+      "link": "蛋糕",
+      "zh": "蛋糕"
+    },
+    {
+      "en": "carrot",
+      "raw": "胡萝卜",
+      "link": "胡萝卜",
+      "zh": "胡萝卜"
+    },
+    {
+      "en": "challenge armor",
+      "raw": "挑战盔甲",
+      "link": "挑战盔甲",
+      "zh": "挑战盔甲"
+    },
+    {
+      "en": "champion armor",
+      "raw": "冠军盔甲",
+      "link": "冠军盔甲",
+      "zh": "冠军盔甲"
+    },
+    {
+      "en": "chiseled quartz block",
+      "raw": "雕纹石英块",
+      "link": "雕纹石英块",
+      "zh": "雕纹石英块"
+    },
+    {
+      "en": "clay",
+      "raw": "黏土",
+      "link": "黏土",
+      "zh": "黏土"
+    },
+    {
+      "en": "coarse dirt",
+      "raw": "砂土",
+      "link": "砂土",
+      "zh": "砂土"
+    },
+    {
+      "en": "cod",
+      "raw": "鳕鱼",
+      "link": "鳕鱼",
+      "zh": "鳕鱼"
+    },
+    {
+      "en": "cobblestone",
+      "raw": "圆石",
+      "link": "圆石",
+      "zh": "圆石"
+    },
+    {
+      "en": "command block",
+      "raw": "命令方块",
+      "link": "命令方块",
+      "zh": "命令方块"
+    },
+    {
+      "en": "command enchanting book",
+      "raw": "指令附魔书",
+      "link": "指令附魔书",
+      "zh": "指令附魔书"
+    },
+    {
+      "en": "compass",
+      "raw": "指南针",
+      "link": "指南针",
+      "zh": "指南针"
+    },
+    {
+      "en": "cookie",
+      "raw": "曲奇",
+      "link": "曲奇",
+      "zh": "曲奇"
+    },
+    {
+      "en": "coral",
+      "raw": "场景装饰#珊瑚|珊瑚",
+      "link": "场景装饰#珊瑚",
+      "zh": "珊瑚"
+    },
+    {
+      "en": "crafting table",
+      "raw": "工作台",
+      "link": "工作台",
+      "zh": "工作台"
+    },
+    {
+      "en": "damaged white pumpkin",
+      "raw": "受损的白色南瓜",
+      "link": "受损的白色南瓜",
+      "zh": "受损的白色南瓜"
+    },
+    {
+      "en": "dark prismarine",
+      "raw": "暗海晶石",
+      "link": "暗海晶石",
+      "zh": "暗海晶石"
+    },
+    {
+      "en": "daylight sensor",
+      "raw": "阳光检测器",
+      "link": "阳光检测器",
+      "zh": "阳光检测器"
+    },
+    {
+      "en": "decoration",
+      "raw": "场景装饰",
+      "link": "场景装饰",
+      "zh": "场景装饰"
+    },
+    {
+      "en": "diamond",
+      "raw": "钻石",
+      "link": "钻石",
+      "zh": "钻石"
+    },
+    {
+      "en": "diamond axe",
+      "raw": "钻石斧",
+      "link": "钻石斧",
+      "zh": "钻石斧"
+    },
+    {
+      "en": "diamond hoe",
+      "raw": "钻石锄",
+      "link": "钻石锄",
+      "zh": "钻石锄"
+    },
+    {
+      "en": "diamond katana",
+      "raw": "钻石武士刀",
+      "link": "钻石武士刀",
+      "zh": "钻石武士刀"
+    },
+    {
+      "en": "diamond minecart",
+      "raw": "钻石矿车",
+      "link": "钻石矿车",
+      "zh": "钻石矿车"
+    },
+    {
+      "en": "diamond pickaxe",
+      "raw": "钻石镐",
+      "link": "钻石镐",
+      "zh": "钻石镐"
+    },
+    {
+      "en": "diamond shovel",
+      "raw": "钻石锹",
+      "link": "钻石锹",
+      "zh": "钻石锹"
+    },
+    {
+      "en": "diamond sword",
+      "raw": "钻石剑",
+      "link": "钻石剑",
+      "zh": "钻石剑"
+    },
+    {
+      "en": "diorite",
+      "raw": "闪长岩",
+      "link": "闪长岩",
+      "zh": "闪长岩"
+    },
+    {
+      "en": "dirt",
+      "raw": "泥土",
+      "link": "泥土",
+      "zh": "泥土"
+    },
+    {
+      "en": "diving helmet",
+      "raw": "潜水头盔",
+      "link": "潜水头盔",
+      "zh": "潜水头盔"
+    },
+    {
+      "en": "dragon egg",
+      "raw": "龙蛋",
+      "link": "龙蛋",
+      "zh": "龙蛋"
+    },
+    {
+      "en": "egg",
+      "raw": "鸡蛋",
+      "link": "鸡蛋",
+      "zh": "鸡蛋"
+    },
+    {
+      "en": "ellegaard's armor",
+      "raw": "岩石之令盔甲|Ellegaard的盔甲",
+      "link": "岩石之令盔甲",
+      "zh": "Ellegaard的盔甲"
+    },
+    {
+      "en": "elytra",
+      "raw": "鞘翅",
+      "link": "鞘翅",
+      "zh": "鞘翅"
+    },
+    {
+      "en": "enchanted flint and steel",
+      "raw": "附魔打火石",
+      "link": "附魔打火石",
+      "zh": "附魔打火石"
+    },
+    {
+      "en": "ender crystal",
+      "raw": "末地水晶",
+      "link": "末地水晶",
+      "zh": "末地水晶"
+    },
+    {
+      "en": "ender pearl",
+      "raw": "末影珍珠",
+      "link": "末影珍珠",
+      "zh": "末影珍珠"
+    },
+    {
+      "en": "enderman suit",
+      "raw": "末影人套装",
+      "link": "末影人套装",
+      "zh": "末影人套装"
+    },
+    {
+      "en": "eversource crown",
+      "raw": "永恒力量皇冠",
+      "link": "永恒力量皇冠",
+      "zh": "永恒力量皇冠"
+    },
+    {
+      "en": "fancy armor",
+      "raw": "花哨盔甲",
+      "link": "花哨盔甲",
+      "zh": "花哨盔甲"
+    },
+    {
+      "en": "feather",
+      "raw": "羽毛",
+      "link": "羽毛",
+      "zh": "羽毛"
+    },
+    {
+      "en": "firework rocket",
+      "raw": "烟花火箭",
+      "link": "烟花火箭",
+      "zh": "烟花火箭"
+    },
+    {
+      "en": "fishing rod",
+      "raw": "钓鱼竿",
+      "link": "钓鱼竿",
+      "zh": "钓鱼竿"
+    },
+    {
+      "en": "flint",
+      "raw": "燧石",
+      "link": "燧石",
+      "zh": "燧石"
+    },
+    {
+      "en": "flint and steel",
+      "raw": "打火石",
+      "link": "打火石",
+      "zh": "打火石"
+    },
+    {
+      "en": "formidi bomb",
+      "raw": "恐怖炸弹",
+      "link": "恐怖炸弹",
+      "zh": "恐怖炸弹"
+    },
+    {
+      "en": "fred's gauntlet",
+      "raw": "Fred的护手",
+      "link": "Fred的护手",
+      "zh": "Fred的护手"
+    },
+    {
+      "en": "fred's journal",
+      "raw": "Fred的日记",
+      "link": "Fred的日记",
+      "zh": "Fred的日记"
+    },
+    {
+      "en": "ghast tear",
+      "raw": "恶魂之泪",
+      "link": "恶魂之泪",
+      "zh": "恶魂之泪"
+    },
+    {
+      "en": "giant clock",
+      "raw": "巨型时钟",
+      "link": "巨型时钟",
+      "zh": "巨型时钟"
+    },
+    {
+      "en": "glass",
+      "raw": "玻璃",
+      "link": "玻璃",
+      "zh": "玻璃"
+    },
+    {
+      "en": "glowing mushroom",
+      "raw": "发光蘑菇",
+      "link": "发光蘑菇",
+      "zh": "发光蘑菇"
+    },
+    {
+      "en": "glowing obsidian gauntlet",
+      "raw": "发光的黑曜石护手",
+      "link": "发光的黑曜石护手",
+      "zh": "发光的黑曜石护手"
+    },
+    {
+      "en": "golden sword",
+      "raw": "金剑",
+      "link": "金剑",
+      "zh": "金剑"
+    },
+    {
+      "en": "gunpowder",
+      "raw": "火药",
+      "link": "火药",
+      "zh": "火药"
+    },
+    {
+      "en": "invitation",
+      "raw": "请柬",
+      "link": "请柬",
+      "zh": "请柬"
+    },
+    {
+      "en": "iron block",
+      "raw": "铁块",
+      "link": "铁块",
+      "zh": "铁块"
+    },
+    {
+      "en": "iron sword",
+      "raw": "铁剑",
+      "link": "铁剑",
+      "zh": "铁剑"
+    },
+    {
+      "en": "iron katana",
+      "raw": "铁武士刀",
+      "link": "铁武士刀",
+      "zh": "铁武士刀"
+    },
+    {
+      "en": "ivor's potion",
+      "raw": "Ivor的药水",
+      "link": "Ivor的药水",
+      "zh": "Ivor的药水"
+    },
+    {
+      "en": "ladder",
+      "raw": "梯子",
+      "link": "梯子",
+      "zh": "梯子"
+    },
+    {
+      "en": "lapis lazuli",
+      "raw": "青金石",
+      "link": "青金石",
+      "zh": "青金石"
+    },
+    {
+      "en": "lever",
+      "raw": "拉杆",
+      "link": "拉杆",
+      "zh": "拉杆"
+    },
+    {
+      "en": "lukas' journal",
+      "raw": "Lukas的日记",
+      "link": "Lukas的日记",
+      "zh": "Lukas的日记"
+    },
+    {
+      "en": "magnus' armor",
+      "raw": "岩石之令盔甲|Magnus的盔甲",
+      "link": "岩石之令盔甲",
+      "zh": "Magnus的盔甲"
+    },
+    {
+      "en": "mind control chip",
+      "raw": "精神控制芯片",
+      "link": "精神控制芯片",
+      "zh": "精神控制芯片"
+    },
+    {
+      "en": "minecart",
+      "raw": "矿车",
+      "link": "矿车",
+      "zh": "矿车"
+    },
+    {
+      "en": "mycelium",
+      "raw": "菌丝体",
+      "link": "菌丝体",
+      "zh": "菌丝体"
+    },
+    {
+      "en": "new order of the stone armor",
+      "raw": "新岩石之令盔甲",
+      "link": "新岩石之令盔甲",
+      "zh": "新岩石之令盔甲"
+    },
+    {
+      "en": "order of the stone armor",
+      "raw": "岩石之令盔甲",
+      "link": "岩石之令盔甲",
+      "zh": "岩石之令盔甲"
+    },
+    {
+      "en": "painting",
+      "raw": "画",
+      "link": "画",
+      "zh": "画"
+    },
+    {
+      "en": "piston",
+      "raw": "活塞",
+      "link": "活塞",
+      "zh": "活塞"
+    },
+    {
+      "en": "poisonous potato",
+      "raw": "毒马铃薯",
+      "link": "毒马铃薯",
+      "zh": "毒马铃薯"
+    },
+    {
+      "en": "polished diorite",
+      "raw": "磨制闪长岩",
+      "link": "磨制闪长岩",
+      "zh": "磨制闪长岩"
+    },
+    {
+      "en": "portal atlas",
+      "raw": "传送门地图集",
+      "link": "传送门地图集",
+      "zh": "传送门地图集"
+    },
+    {
+      "en": "potato",
+      "raw": "马铃薯",
+      "link": "马铃薯",
+      "zh": "马铃薯"
+    },
+    {
+      "en": "potion",
+      "raw": "药水",
+      "link": "药水",
+      "zh": "药水"
+    },
+    {
+      "en": "prismarine",
+      "raw": "海晶石",
+      "link": "海晶石",
+      "zh": "海晶石"
+    },
+    {
+      "en": "prismarine arrow",
+      "raw": "海晶石工具|海晶石箭",
+      "link": "海晶石工具",
+      "zh": "海晶石箭"
+    },
+    {
+      "en": "prismarine axe",
+      "raw": "海晶石工具|海晶石斧",
+      "link": "海晶石工具",
+      "zh": "海晶石斧"
+    },
+    {
+      "en": "prismarine bow",
+      "raw": "海晶石工具|海晶石弓",
+      "link": "海晶石工具",
+      "zh": "海晶石弓"
+    },
+    {
+      "en": "prismarine sword",
+      "raw": "海晶石工具|海晶石剑",
+      "link": "海晶石工具",
+      "zh": "海晶石剑"
+    },
+    {
+      "en": "prismarine gauntlet",
+      "raw": "海晶石护手",
+      "link": "海晶石护手",
+      "zh": "海晶石护手"
+    },
+    {
+      "en": "prismarine shard",
+      "raw": "海晶碎片",
+      "link": "海晶碎片",
+      "zh": "海晶碎片"
+    },
+    {
+      "en": "prismarine tool",
+      "raw": "海晶石工具",
+      "link": "海晶石工具",
+      "zh": "海晶石工具"
+    },
+    {
+      "en": "pumpkin",
+      "raw": "南瓜",
+      "link": "南瓜",
+      "zh": "南瓜"
+    },
+    {
+      "en": "pumpkin pie",
+      "raw": "南瓜派",
+      "link": "南瓜派",
+      "zh": "南瓜派"
+    },
+    {
+      "en": "record",
+      "raw": "唱片",
+      "link": "唱片",
+      "zh": "唱片"
+    },
+    {
+      "en": "redstone block",
+      "raw": "红石块",
+      "link": "红石块",
+      "zh": "红石块"
+    },
+    {
+      "en": "redstone dust",
+      "raw": "红石粉",
+      "link": "红石粉",
+      "zh": "红石粉"
+    },
+    {
+      "en": "redstone heart",
+      "raw": "红石之心",
+      "link": "红石之心",
+      "zh": "红石之心"
+    },
+    {
+      "en": "redstone repeater",
+      "raw": "红石中继器",
+      "link": "红石中继器",
+      "zh": "红石中继器"
+    },
+    {
+      "en": "regular armor",
+      "raw": "常规盔甲",
+      "link": "常规盔甲",
+      "zh": "常规盔甲"
+    },
+    {
+      "en": "sand",
+      "raw": "沙子",
+      "link": "沙子",
+      "zh": "沙子"
+    },
+    {
+      "en": "sea lantern",
+      "raw": "海晶灯",
+      "link": "海晶灯",
+      "zh": "海晶灯"
+    },
+    {
+      "en": "shears",
+      "raw": "剪刀",
+      "link": "剪刀",
+      "zh": "剪刀"
+    },
+    {
+      "en": "shield",
+      "raw": "盾牌",
+      "link": "盾牌",
+      "zh": "盾牌"
+    },
+    {
+      "en": "sleeping garments",
+      "raw": "睡衣",
+      "link": "睡衣",
+      "zh": "睡衣"
+    },
+    {
+      "en": "slime block",
+      "raw": "黏液块",
+      "link": "黏液块",
+      "zh": "黏液块"
+    },
+    {
+      "en": "slimeball",
+      "raw": "黏液球",
+      "link": "黏液球",
+      "zh": "黏液球"
+    },
+    {
+      "en": "smoke bomb",
+      "raw": "烟雾弹",
+      "link": "烟雾弹",
+      "zh": "烟雾弹"
+    },
+    {
+      "en": "snowball",
+      "raw": "雪球",
+      "link": "雪球",
+      "zh": "雪球"
+    },
+    {
+      "en": "snowy gauntlet",
+      "raw": "雪护手",
+      "link": "雪护手",
+      "zh": "雪护手"
+    },
+    {
+      "en": "soren's books",
+      "raw": "Soren的书",
+      "link": "Soren的书",
+      "zh": "Soren的书"
+    },
+    {
+      "en": "spawn egg",
+      "raw": "刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "刷怪蛋"
+    },
+    {
+      "en": "spider eye",
+      "raw": "蜘蛛眼",
+      "link": "蜘蛛眼",
+      "zh": "蜘蛛眼"
+    },
+    {
+      "en": "splash potion",
+      "raw": "喷溅药水",
+      "link": "喷溅药水",
+      "zh": "喷溅药水"
+    },
+    {
+      "en": "stick",
+      "raw": "木棍",
+      "link": "木棍",
+      "zh": "木棍"
+    },
+    {
+      "en": "sticky piston",
+      "raw": "黏性活塞",
+      "link": "黏性活塞",
+      "zh": "黏性活塞"
+    },
+    {
+      "en": "stone sword",
+      "raw": "石剑",
+      "link": "石剑",
+      "zh": "石剑"
+    },
+    {
+      "en": "string",
+      "raw": "线",
+      "link": "线",
+      "zh": "线"
+    },
+    {
+      "en": "structure block",
+      "raw": "结构方块",
+      "link": "结构方块",
+      "zh": "结构方块"
+    },
+    {
+      "en": "super tnt",
+      "raw": "超级TNT",
+      "link": "超级TNT",
+      "zh": "超级TNT"
+    },
+    {
+      "en": "the white pumpkin",
+      "raw": "白色南瓜",
+      "link": "白色南瓜",
+      "zh": "白色南瓜"
+    },
+    {
+      "en": "tim's armor",
+      "raw": "Tim的盔甲",
+      "link": "Tim的盔甲",
+      "zh": "Tim的盔甲"
+    },
+    {
+      "en": "torch",
+      "raw": "火把",
+      "link": "火把",
+      "zh": "火把"
+    },
+    {
+      "en": "transmigrational headset",
+      "raw": "转控头盔",
+      "link": "转控头盔",
+      "zh": "转控头盔"
+    },
+    {
+      "en": "ultimate axe",
+      "raw": "终极武器|终极斧",
+      "link": "终极武器",
+      "zh": "终极斧"
+    },
+    {
+      "en": "ultimate hoe",
+      "raw": "终极武器|终极锄",
+      "link": "终极武器",
+      "zh": "终极锄"
+    },
+    {
+      "en": "ultimate pickaxe",
+      "raw": "终极武器|终极镐",
+      "link": "终极武器",
+      "zh": "终极镐"
+    },
+    {
+      "en": "ultimate shovel",
+      "raw": "终极武器|终极锹",
+      "link": "终极武器",
+      "zh": "终极锹"
+    },
+    {
+      "en": "ultimate sword",
+      "raw": "终极武器|终极剑",
+      "link": "终极武器",
+      "zh": "终极剑"
+    },
+    {
+      "en": "ultimate weapon",
+      "raw": "终极武器",
+      "link": "终极武器",
+      "zh": "终极武器"
+    },
+    {
+      "en": "viking helmet",
+      "raw": "维京头盔",
+      "link": "维京头盔",
+      "zh": "维京头盔"
+    },
+    {
+      "en": "water bucket",
+      "raw": "水桶",
+      "link": "水桶",
+      "zh": "水桶"
+    },
+    {
+      "en": "wheat",
+      "raw": "小麦",
+      "link": "小麦",
+      "zh": "小麦"
+    },
+    {
+      "en": "white jack o'lantern",
+      "raw": "白色南瓜|白色南瓜灯",
+      "link": "白色南瓜",
+      "zh": "白色南瓜灯"
+    },
+    {
+      "en": "white pumpkin",
+      "raw": "白色南瓜",
+      "link": "白色南瓜",
+      "zh": "白色南瓜"
+    },
+    {
+      "en": "wither skull",
+      "raw": "凋灵之首",
+      "link": "凋灵之首",
+      "zh": "凋灵之首"
+    },
+    {
+      "en": "withered nether star",
+      "raw": "风暴之星",
+      "link": "风暴之星",
+      "zh": "风暴之星"
+    },
+    {
+      "en": "withered slime block",
+      "raw": "凋零黏液块",
+      "link": "凋零黏液块",
+      "zh": "凋零黏液块"
+    },
+    {
+      "en": "wood planks",
+      "raw": "木板",
+      "link": "木板",
+      "zh": "木板"
+    },
+    {
+      "en": "wooden sword",
+      "raw": "木剑",
+      "link": "木剑",
+      "zh": "木剑"
+    },
+    {
+      "en": "wool",
+      "raw": "羊毛",
+      "link": "羊毛",
+      "zh": "羊毛"
+    },
+    {
+      "en": "written book",
+      "raw": "成书",
+      "link": "成书",
+      "zh": "成书"
+    },
+    {
+      "en": "xara's bed",
+      "raw": "床|Xara的床",
+      "link": "床",
+      "zh": "Xara的床"
+    }
+  ]
+}

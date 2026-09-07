@@ -1,0 +1,8998 @@
+{
+  "_root": [
+    {
+      "en": "acacia button",
+      "raw": "木按钮|金合欢木按钮",
+      "link": "木按钮",
+      "zh": "金合欢木按钮"
+    },
+    {
+      "en": "acacia door",
+      "raw": "木门|金合欢木门",
+      "link": "木门",
+      "zh": "金合欢木门"
+    },
+    {
+      "en": "acacia fence",
+      "raw": "木栅栏|金合欢木栅栏",
+      "link": "木栅栏",
+      "zh": "金合欢木栅栏"
+    },
+    {
+      "en": "acacia fence gate",
+      "raw": "栅栏门|金合欢木栅栏门",
+      "link": "栅栏门",
+      "zh": "金合欢木栅栏门"
+    },
+    {
+      "en": "acacia hanging sign",
+      "raw": "悬挂式告示牌|悬挂式金合欢木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式金合欢木告示牌"
+    },
+    {
+      "en": "acacia leaves",
+      "raw": "树叶|金合欢树叶",
+      "link": "树叶",
+      "zh": "金合欢树叶"
+    },
+    {
+      "en": "acacia log",
+      "raw": "原木|金合欢原木",
+      "link": "原木",
+      "zh": "金合欢原木"
+    },
+    {
+      "en": "acacia planks",
+      "raw": "木板|金合欢木板",
+      "link": "木板",
+      "zh": "金合欢木板"
+    },
+    {
+      "en": "acacia pressure plate",
+      "raw": "木压力板|金合欢木压力板",
+      "link": "木压力板",
+      "zh": "金合欢木压力板"
+    },
+    {
+      "en": "acacia sapling",
+      "raw": "树苗|金合欢树苗",
+      "link": "树苗",
+      "zh": "金合欢树苗"
+    },
+    {
+      "en": "acacia shelf",
+      "raw": "展示架|金合欢木展示架",
+      "link": "展示架",
+      "zh": "金合欢木展示架"
+    },
+    {
+      "en": "acacia sign",
+      "raw": "告示牌|金合欢木告示牌",
+      "link": "告示牌",
+      "zh": "金合欢木告示牌"
+    },
+    {
+      "en": "acacia slab",
+      "raw": "木台阶|金合欢木台阶",
+      "link": "木台阶",
+      "zh": "金合欢木台阶"
+    },
+    {
+      "en": "acacia stairs",
+      "raw": "木楼梯|金合欢木楼梯",
+      "link": "木楼梯",
+      "zh": "金合欢木楼梯"
+    },
+    {
+      "en": "acacia trapdoor",
+      "raw": "木活板门|金合欢木活板门",
+      "link": "木活板门",
+      "zh": "金合欢木活板门"
+    },
+    {
+      "en": "acacia wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式金合欢木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式金合欢木告示牌"
+    },
+    {
+      "en": "acacia wall sign",
+      "raw": "告示牌|墙上的金合欢木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的金合欢木告示牌"
+    },
+    {
+      "en": "acacia wood",
+      "raw": "木头|相思木塊",
+      "link": "木头",
+      "zh": "相思木塊"
+    },
+    {
+      "en": "activator rail",
+      "raw": "激活铁轨",
+      "link": "激活铁轨",
+      "zh": "激活铁轨"
+    },
+    {
+      "en": "air",
+      "raw": "空气",
+      "link": "空气",
+      "zh": "空气"
+    },
+    {
+      "en": "allium",
+      "raw": "绒球葱",
+      "link": "绒球葱",
+      "zh": "绒球葱"
+    },
+    {
+      "en": "amethyst bud",
+      "raw": "紫水晶簇|紫晶芽",
+      "link": "紫水晶簇",
+      "zh": "紫晶芽"
+    },
+    {
+      "en": "amethyst cluster",
+      "raw": "紫水晶簇",
+      "link": "紫水晶簇",
+      "zh": "紫水晶簇"
+    },
+    {
+      "en": "ancient debris",
+      "raw": "远古残骸",
+      "link": "远古残骸",
+      "zh": "远古残骸"
+    },
+    {
+      "en": "andesite",
+      "raw": "安山岩",
+      "link": "安山岩",
+      "zh": "安山岩"
+    },
+    {
+      "en": "andesite slab",
+      "raw": "安山岩台阶",
+      "link": "安山岩台阶",
+      "zh": "安山岩台阶"
+    },
+    {
+      "en": "andesite stairs",
+      "raw": "安山岩楼梯",
+      "link": "安山岩楼梯",
+      "zh": "安山岩楼梯"
+    },
+    {
+      "en": "andesite wall",
+      "raw": "安山岩墙",
+      "link": "安山岩墙",
+      "zh": "安山岩墙"
+    },
+    {
+      "en": "anvil",
+      "raw": "铁砧",
+      "link": "铁砧",
+      "zh": "铁砧"
+    },
+    {
+      "en": "attached melon stem",
+      "raw": "西瓜种子|结果的西瓜茎",
+      "link": "西瓜种子",
+      "zh": "结果的西瓜茎"
+    },
+    {
+      "en": "attached pumpkin stem",
+      "raw": "南瓜种子|结果的南瓜茎",
+      "link": "南瓜种子",
+      "zh": "结果的南瓜茎"
+    },
+    {
+      "en": "azalea",
+      "raw": "杜鹃花丛",
+      "link": "杜鹃花丛",
+      "zh": "杜鹃花丛"
+    },
+    {
+      "en": "azalea leaves",
+      "raw": "树叶|杜鹃树叶",
+      "link": "树叶",
+      "zh": "杜鹃树叶"
+    },
+    {
+      "en": "azure bluet",
+      "raw": "蓝花美耳草",
+      "link": "蓝花美耳草",
+      "zh": "蓝花美耳草"
+    },
+    {
+      "en": "bamboo",
+      "raw": "竹子",
+      "link": "竹子",
+      "zh": "竹子"
+    },
+    {
+      "en": "bamboo button",
+      "raw": "木按钮|竹按钮",
+      "link": "木按钮",
+      "zh": "竹按钮"
+    },
+    {
+      "en": "bamboo door",
+      "raw": "木门|竹门",
+      "link": "木门",
+      "zh": "竹门"
+    },
+    {
+      "en": "bamboo fence",
+      "raw": "木栅栏|竹栅栏",
+      "link": "木栅栏",
+      "zh": "竹栅栏"
+    },
+    {
+      "en": "bamboo fence gate",
+      "raw": "栅栏门|竹栅栏门",
+      "link": "栅栏门",
+      "zh": "竹栅栏门"
+    },
+    {
+      "en": "bamboo hanging sign",
+      "raw": "悬挂式告示牌|悬挂式竹告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式竹告示牌"
+    },
+    {
+      "en": "bamboo mosaic",
+      "raw": "竹马赛克",
+      "link": "竹马赛克",
+      "zh": "竹马赛克"
+    },
+    {
+      "en": "bamboo mosaic slab",
+      "raw": "竹马赛克台阶",
+      "link": "竹马赛克台阶",
+      "zh": "竹马赛克台阶"
+    },
+    {
+      "en": "bamboo mosaic stairs",
+      "raw": "竹马赛克楼梯",
+      "link": "竹马赛克楼梯",
+      "zh": "竹马赛克楼梯"
+    },
+    {
+      "en": "bamboo planks",
+      "raw": "木板|竹板",
+      "link": "木板",
+      "zh": "竹板"
+    },
+    {
+      "en": "bamboo pressure plate",
+      "raw": "木压力板|竹压力板",
+      "link": "木压力板",
+      "zh": "竹压力板"
+    },
+    {
+      "en": "bamboo sapling",
+      "raw": "竹子|竹笋",
+      "link": "竹子",
+      "zh": "竹笋"
+    },
+    {
+      "en": "bamboo shoot",
+      "raw": "竹子|竹笋",
+      "link": "竹子",
+      "zh": "竹笋"
+    },
+    {
+      "en": "bamboo sign",
+      "raw": "告示牌|竹告示牌",
+      "link": "告示牌",
+      "zh": "竹告示牌"
+    },
+    {
+      "en": "bamboo shelf",
+      "raw": "展示架|竹展示架",
+      "link": "展示架",
+      "zh": "竹展示架"
+    },
+    {
+      "en": "bamboo slab",
+      "raw": "木台阶|竹台阶",
+      "link": "木台阶",
+      "zh": "竹台阶"
+    },
+    {
+      "en": "bamboo stairs",
+      "raw": "木楼梯|竹楼梯",
+      "link": "木楼梯",
+      "zh": "竹楼梯"
+    },
+    {
+      "en": "bamboo trapdoor",
+      "raw": "木活板门|竹活板门",
+      "link": "木活板门",
+      "zh": "竹活板门"
+    },
+    {
+      "en": "bamboo wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式竹告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式竹告示牌"
+    },
+    {
+      "en": "bamboo wall sign",
+      "raw": "告示牌|墙上的竹告示牌",
+      "link": "告示牌",
+      "zh": "墙上的竹告示牌"
+    },
+    {
+      "en": "banner",
+      "raw": "旗帜",
+      "link": "旗帜",
+      "zh": "旗帜"
+    },
+    {
+      "en": "barrel",
+      "raw": "木桶",
+      "link": "木桶",
+      "zh": "木桶"
+    },
+    {
+      "en": "barrier",
+      "raw": "屏障",
+      "link": "屏障",
+      "zh": "屏障"
+    },
+    {
+      "en": "basalt",
+      "raw": "玄武岩",
+      "link": "玄武岩",
+      "zh": "玄武岩"
+    },
+    {
+      "en": "beacon",
+      "raw": "信标",
+      "link": "信标",
+      "zh": "信标"
+    },
+    {
+      "en": "bed",
+      "raw": "床",
+      "link": "床",
+      "zh": "床"
+    },
+    {
+      "en": "bedrock",
+      "raw": "基岩",
+      "link": "基岩",
+      "zh": "基岩"
+    },
+    {
+      "en": "bee nest",
+      "raw": "蜂巢（方块）|蜂巢",
+      "link": "蜂巢（方块）",
+      "zh": "蜂巢"
+    },
+    {
+      "en": "beehive",
+      "raw": "蜂箱",
+      "link": "蜂箱",
+      "zh": "蜂箱"
+    },
+    {
+      "en": "beetroots",
+      "raw": "甜菜种子|甜菜根",
+      "link": "甜菜种子",
+      "zh": "甜菜根"
+    },
+    {
+      "en": "bell",
+      "raw": "钟",
+      "link": "钟",
+      "zh": "钟"
+    },
+    {
+      "en": "big dripleaf",
+      "raw": "大型垂滴叶",
+      "link": "大型垂滴叶",
+      "zh": "大型垂滴叶"
+    },
+    {
+      "en": "big dripleaf stem",
+      "raw": "大型垂滴叶|大型垂滴叶茎",
+      "link": "大型垂滴叶",
+      "zh": "大型垂滴叶茎"
+    },
+    {
+      "en": "birch button",
+      "raw": "木按钮|白桦木按钮",
+      "link": "木按钮",
+      "zh": "白桦木按钮"
+    },
+    {
+      "en": "birch door",
+      "raw": "木门|白桦木门",
+      "link": "木门",
+      "zh": "白桦木门"
+    },
+    {
+      "en": "birch fence",
+      "raw": "木栅栏|白桦木栅栏",
+      "link": "木栅栏",
+      "zh": "白桦木栅栏"
+    },
+    {
+      "en": "birch fence gate",
+      "raw": "栅栏门|白桦木栅栏门",
+      "link": "栅栏门",
+      "zh": "白桦木栅栏门"
+    },
+    {
+      "en": "birch hanging sign",
+      "raw": "悬挂式告示牌|悬挂式白桦木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式白桦木告示牌"
+    },
+    {
+      "en": "birch leaves",
+      "raw": "树叶|白桦树叶",
+      "link": "树叶",
+      "zh": "白桦树叶"
+    },
+    {
+      "en": "birch log",
+      "raw": "原木|白桦原木",
+      "link": "原木",
+      "zh": "白桦原木"
+    },
+    {
+      "en": "birch planks",
+      "raw": "木板|白桦木板",
+      "link": "木板",
+      "zh": "白桦木板"
+    },
+    {
+      "en": "birch pressure plate",
+      "raw": "木压力板|白桦木压力板",
+      "link": "木压力板",
+      "zh": "白桦木压力板"
+    },
+    {
+      "en": "birch sapling",
+      "raw": "树苗|白桦树苗",
+      "link": "树苗",
+      "zh": "白桦树苗"
+    },
+    {
+      "en": "birch shelf",
+      "raw": "展示架|白桦木展示架",
+      "link": "展示架",
+      "zh": "白桦木展示架"
+    },
+    {
+      "en": "birch sign",
+      "raw": "告示牌|白桦木告示牌",
+      "link": "告示牌",
+      "zh": "白桦木告示牌"
+    },
+    {
+      "en": "birch slab",
+      "raw": "木台阶|白桦木台阶",
+      "link": "木台阶",
+      "zh": "白桦木台阶"
+    },
+    {
+      "en": "birch stairs",
+      "raw": "木楼梯|白桦木楼梯",
+      "link": "木楼梯",
+      "zh": "白桦木楼梯"
+    },
+    {
+      "en": "birch trapdoor",
+      "raw": "木活板门|白桦木活板门",
+      "link": "木活板门",
+      "zh": "白桦木活板门"
+    },
+    {
+      "en": "birch wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式白桦木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式白桦木告示牌"
+    },
+    {
+      "en": "birch wall sign",
+      "raw": "告示牌|墙上的白桦木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的白桦木告示牌"
+    },
+    {
+      "en": "birch wood",
+      "raw": "木头|樺木塊",
+      "link": "木头",
+      "zh": "樺木塊"
+    },
+    {
+      "en": "black banner",
+      "raw": "旗帜|黑色旗帜",
+      "link": "旗帜",
+      "zh": "黑色旗帜"
+    },
+    {
+      "en": "black bed",
+      "raw": "床|黑色床",
+      "link": "床",
+      "zh": "黑色床"
+    },
+    {
+      "en": "black candle",
+      "raw": "蜡烛|黑色蜡烛",
+      "link": "蜡烛",
+      "zh": "黑色蜡烛"
+    },
+    {
+      "en": "black carpet",
+      "raw": "地毯|黑色地毯",
+      "link": "地毯",
+      "zh": "黑色地毯"
+    },
+    {
+      "en": "black concrete",
+      "raw": "混凝土|黑色混凝土",
+      "link": "混凝土",
+      "zh": "黑色混凝土"
+    },
+    {
+      "en": "black concrete powder",
+      "raw": "混凝土粉末|黑色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "黑色混凝土粉末"
+    },
+    {
+      "en": "black concrete slab",
+      "raw": "混凝土半磚|黑色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "黑色混凝土台阶"
+    },
+    {
+      "en": "black concrete stairs",
+      "raw": "混凝土楼梯|黑色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "黑色混凝土楼梯"
+    },
+    {
+      "en": "black glazed terracotta",
+      "raw": "带釉陶瓦|黑色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "黑色带釉陶瓦"
+    },
+    {
+      "en": "black hardened clay",
+      "raw": "染色陶瓦|黑色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "黑色硬化粘土"
+    },
+    {
+      "en": "black shulker box",
+      "raw": "潜影盒|黑色潜影盒",
+      "link": "潜影盒",
+      "zh": "黑色潜影盒"
+    },
+    {
+      "en": "black stained clay",
+      "raw": "染色陶瓦|黑色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "黑色染色黏土"
+    },
+    {
+      "en": "black stained glass",
+      "raw": "染色玻璃|黑色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "黑色染色玻璃"
+    },
+    {
+      "en": "black stained glass pane",
+      "raw": "染色玻璃板|黑色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "黑色染色玻璃板"
+    },
+    {
+      "en": "black terracotta",
+      "raw": "染色陶瓦|黑色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "黑色陶瓦"
+    },
+    {
+      "en": "black wall banner",
+      "raw": "旗帜|墙上的黑色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的黑色旗帜"
+    },
+    {
+      "en": "black wool",
+      "raw": "羊毛|黑色羊毛",
+      "link": "羊毛",
+      "zh": "黑色羊毛"
+    },
+    {
+      "en": "black wool slab",
+      "raw": "羊毛台阶|黑色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "黑色羊毛台阶"
+    },
+    {
+      "en": "black wool stairs",
+      "raw": "羊毛楼梯|黑色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "黑色羊毛楼梯"
+    },
+    {
+      "en": "blackstone",
+      "raw": "黑石",
+      "link": "黑石",
+      "zh": "黑石"
+    },
+    {
+      "en": "blackstone slab",
+      "raw": "黑石台阶",
+      "link": "黑石台阶",
+      "zh": "黑石台阶"
+    },
+    {
+      "en": "blackstone stairs",
+      "raw": "黑石楼梯",
+      "link": "黑石楼梯",
+      "zh": "黑石楼梯"
+    },
+    {
+      "en": "blackstone wall",
+      "raw": "黑石墙",
+      "link": "黑石墙",
+      "zh": "黑石墙"
+    },
+    {
+      "en": "blast furnace",
+      "raw": "高炉",
+      "link": "高炉",
+      "zh": "高炉"
+    },
+    {
+      "en": "block of amethyst",
+      "raw": "紫水晶块",
+      "link": "紫水晶块",
+      "zh": "紫水晶块"
+    },
+    {
+      "en": "block of bamboo",
+      "raw": "竹块",
+      "link": "竹块",
+      "zh": "竹块"
+    },
+    {
+      "en": "block of coal",
+      "raw": "煤炭块",
+      "link": "煤炭块",
+      "zh": "煤炭块"
+    },
+    {
+      "en": "block of copper",
+      "raw": "铜块",
+      "link": "铜块",
+      "zh": "铜块"
+    },
+    {
+      "en": "block of diamond",
+      "raw": "钻石块",
+      "link": "钻石块",
+      "zh": "钻石块"
+    },
+    {
+      "en": "block of emerald",
+      "raw": "绿宝石块",
+      "link": "绿宝石块",
+      "zh": "绿宝石块"
+    },
+    {
+      "en": "block of gold",
+      "raw": "金块",
+      "link": "金块",
+      "zh": "金块"
+    },
+    {
+      "en": "block of iron",
+      "raw": "铁块",
+      "link": "铁块",
+      "zh": "铁块"
+    },
+    {
+      "en": "block of lapis lazuli",
+      "raw": "青金石块",
+      "link": "青金石块",
+      "zh": "青金石块"
+    },
+    {
+      "en": "block of netherite",
+      "raw": "下界合金块",
+      "link": "下界合金块",
+      "zh": "下界合金块"
+    },
+    {
+      "en": "block of quartz",
+      "raw": "石英块",
+      "link": "石英块",
+      "zh": "石英块"
+    },
+    {
+      "en": "block of raw copper",
+      "raw": "粗铜块",
+      "link": "粗铜块",
+      "zh": "粗铜块"
+    },
+    {
+      "en": "block of raw gold",
+      "raw": "粗金块",
+      "link": "粗金块",
+      "zh": "粗金块"
+    },
+    {
+      "en": "block of raw iron",
+      "raw": "粗铁块",
+      "link": "粗铁块",
+      "zh": "粗铁块"
+    },
+    {
+      "en": "block of redstone",
+      "raw": "红石块",
+      "link": "红石块",
+      "zh": "红石块"
+    },
+    {
+      "en": "block of resin",
+      "raw": "树脂块",
+      "link": "树脂块",
+      "zh": "树脂块"
+    },
+    {
+      "en": "block of stripped bamboo",
+      "raw": "去皮竹块",
+      "link": "去皮竹块",
+      "zh": "去皮竹块"
+    },
+    {
+      "en": "blue banner",
+      "raw": "旗帜|蓝色旗帜",
+      "link": "旗帜",
+      "zh": "蓝色旗帜"
+    },
+    {
+      "en": "blue bed",
+      "raw": "床|蓝色床",
+      "link": "床",
+      "zh": "蓝色床"
+    },
+    {
+      "en": "blue candle",
+      "raw": "蜡烛|蓝色蜡烛",
+      "link": "蜡烛",
+      "zh": "蓝色蜡烛"
+    },
+    {
+      "en": "blue carpet",
+      "raw": "地毯|蓝色地毯",
+      "link": "地毯",
+      "zh": "蓝色地毯"
+    },
+    {
+      "en": "blue concrete",
+      "raw": "混凝土|蓝色混凝土",
+      "link": "混凝土",
+      "zh": "蓝色混凝土"
+    },
+    {
+      "en": "blue concrete powder",
+      "raw": "混凝土粉末|蓝色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "蓝色混凝土粉末"
+    },
+    {
+      "en": "blue concrete slab",
+      "raw": "混凝土半磚|蓝色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "蓝色混凝土台阶"
+    },
+    {
+      "en": "blue concrete stairs",
+      "raw": "混凝土楼梯|蓝色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "蓝色混凝土楼梯"
+    },
+    {
+      "en": "blue glazed terracotta",
+      "raw": "带釉陶瓦|蓝色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "蓝色带釉陶瓦"
+    },
+    {
+      "en": "blue hardened clay",
+      "raw": "染色陶瓦|蓝色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "蓝色硬化粘土"
+    },
+    {
+      "en": "blue ice",
+      "raw": "蓝冰",
+      "link": "蓝冰",
+      "zh": "蓝冰"
+    },
+    {
+      "en": "blue orchid",
+      "raw": "兰花",
+      "link": "兰花",
+      "zh": "兰花"
+    },
+    {
+      "en": "blue shulker box",
+      "raw": "潜影盒|蓝色潜影盒",
+      "link": "潜影盒",
+      "zh": "蓝色潜影盒"
+    },
+    {
+      "en": "blue stained clay",
+      "raw": "染色陶瓦|蓝色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "蓝色染色黏土"
+    },
+    {
+      "en": "blue stained glass",
+      "raw": "染色玻璃|蓝色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "蓝色染色玻璃"
+    },
+    {
+      "en": "blue stained glass pane",
+      "raw": "染色玻璃板|蓝色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "蓝色染色玻璃板"
+    },
+    {
+      "en": "blue terracotta",
+      "raw": "染色陶瓦|蓝色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "蓝色陶瓦"
+    },
+    {
+      "en": "blue wall banner",
+      "raw": "旗帜|墙上的蓝色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的蓝色旗帜"
+    },
+    {
+      "en": "blue wool",
+      "raw": "羊毛|蓝色羊毛",
+      "link": "羊毛",
+      "zh": "蓝色羊毛"
+    },
+    {
+      "en": "blue wool slab",
+      "raw": "羊毛台阶|蓝色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "蓝色羊毛台阶"
+    },
+    {
+      "en": "blue wool stairs",
+      "raw": "羊毛楼梯|蓝色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "蓝色羊毛楼梯"
+    },
+    {
+      "en": "bone block",
+      "raw": "骨块",
+      "link": "骨块",
+      "zh": "骨块"
+    },
+    {
+      "en": "bookshelf",
+      "raw": "书架",
+      "link": "书架",
+      "zh": "书架"
+    },
+    {
+      "en": "brain coral",
+      "raw": "珊瑚|脑纹珊瑚",
+      "link": "珊瑚",
+      "zh": "脑纹珊瑚"
+    },
+    {
+      "en": "brain coral block",
+      "raw": "珊瑚块|脑纹珊瑚块",
+      "link": "珊瑚块",
+      "zh": "脑纹珊瑚块"
+    },
+    {
+      "en": "brain coral fan",
+      "raw": "珊瑚扇|脑纹珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "脑纹珊瑚扇"
+    },
+    {
+      "en": "brain coral wall fan",
+      "raw": "珊瑚扇|墙上的脑纹珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "墙上的脑纹珊瑚扇"
+    },
+    {
+      "en": "brewing stand",
+      "raw": "酿造台",
+      "link": "酿造台",
+      "zh": "酿造台"
+    },
+    {
+      "en": "brick slab",
+      "raw": "红砖台阶",
+      "link": "红砖台阶",
+      "zh": "红砖台阶"
+    },
+    {
+      "en": "brick stairs",
+      "raw": "红砖楼梯",
+      "link": "红砖楼梯",
+      "zh": "红砖楼梯"
+    },
+    {
+      "en": "brick wall",
+      "raw": "红砖墙",
+      "link": "红砖墙",
+      "zh": "红砖墙"
+    },
+    {
+      "en": "bricks",
+      "raw": "红砖块",
+      "link": "红砖块",
+      "zh": "红砖块"
+    },
+    {
+      "en": "brown banner",
+      "raw": "旗帜|棕色旗帜",
+      "link": "旗帜",
+      "zh": "棕色旗帜"
+    },
+    {
+      "en": "brown bed",
+      "raw": "床|棕色床",
+      "link": "床",
+      "zh": "棕色床"
+    },
+    {
+      "en": "brown candle",
+      "raw": "蜡烛|棕色蜡烛",
+      "link": "蜡烛",
+      "zh": "棕色蜡烛"
+    },
+    {
+      "en": "brown carpet",
+      "raw": "地毯|棕色地毯",
+      "link": "地毯",
+      "zh": "棕色地毯"
+    },
+    {
+      "en": "brown concrete",
+      "raw": "混凝土|棕色混凝土",
+      "link": "混凝土",
+      "zh": "棕色混凝土"
+    },
+    {
+      "en": "brown concrete powder",
+      "raw": "混凝土粉末|棕色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "棕色混凝土粉末"
+    },
+    {
+      "en": "brown concrete slab",
+      "raw": "混凝土半磚|棕色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "棕色混凝土台阶"
+    },
+    {
+      "en": "brown concrete stairs",
+      "raw": "混凝土楼梯|棕色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "棕色混凝土楼梯"
+    },
+    {
+      "en": "brown glazed terracotta",
+      "raw": "带釉陶瓦|棕色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "棕色带釉陶瓦"
+    },
+    {
+      "en": "brown hardened clay",
+      "raw": "染色陶瓦|棕色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "棕色硬化粘土"
+    },
+    {
+      "en": "brown mushroom",
+      "raw": "棕色蘑菇",
+      "link": "棕色蘑菇",
+      "zh": "棕色蘑菇"
+    },
+    {
+      "en": "brown mushroom block",
+      "raw": "蘑菇方块|棕色蘑菇方块",
+      "link": "蘑菇方块",
+      "zh": "棕色蘑菇方块"
+    },
+    {
+      "en": "brown shulker box",
+      "raw": "潜影盒|棕色潜影盒",
+      "link": "潜影盒",
+      "zh": "棕色潜影盒"
+    },
+    {
+      "en": "brown stained clay",
+      "raw": "染色陶瓦|棕色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "棕色染色黏土"
+    },
+    {
+      "en": "brown stained glass",
+      "raw": "染色玻璃|棕色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "棕色染色玻璃"
+    },
+    {
+      "en": "brown stained glass pane",
+      "raw": "染色玻璃板|棕色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "棕色染色玻璃板"
+    },
+    {
+      "en": "brown terracotta",
+      "raw": "染色陶瓦|棕色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "棕色陶瓦"
+    },
+    {
+      "en": "brown wall banner",
+      "raw": "旗帜|墙上的棕色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的棕色旗帜"
+    },
+    {
+      "en": "brown wool",
+      "raw": "羊毛|棕色羊毛",
+      "link": "羊毛",
+      "zh": "棕色羊毛"
+    },
+    {
+      "en": "brown wool slab",
+      "raw": "羊毛台阶|棕色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "棕色羊毛台阶"
+    },
+    {
+      "en": "brown wool stairs",
+      "raw": "羊毛楼梯|棕色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "棕色羊毛楼梯"
+    },
+    {
+      "en": "bubble column",
+      "raw": "气泡柱",
+      "link": "气泡柱",
+      "zh": "气泡柱"
+    },
+    {
+      "en": "bubble coral",
+      "raw": "珊瑚|气泡珊瑚",
+      "link": "珊瑚",
+      "zh": "气泡珊瑚"
+    },
+    {
+      "en": "bubble coral block",
+      "raw": "珊瑚块|气泡珊瑚块",
+      "link": "珊瑚块",
+      "zh": "气泡珊瑚块"
+    },
+    {
+      "en": "bubble coral fan",
+      "raw": "珊瑚扇|气泡珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "气泡珊瑚扇"
+    },
+    {
+      "en": "bubble coral wall fan",
+      "raw": "珊瑚扇|墙上的气泡珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "墙上的气泡珊瑚扇"
+    },
+    {
+      "en": "budding amethyst",
+      "raw": "紫水晶母岩",
+      "link": "紫水晶母岩",
+      "zh": "紫水晶母岩"
+    },
+    {
+      "en": "bush",
+      "raw": "灌木丛",
+      "link": "灌木丛",
+      "zh": "灌木丛"
+    },
+    {
+      "en": "button",
+      "raw": "按钮",
+      "link": "按钮",
+      "zh": "按钮"
+    },
+    {
+      "en": "cactus",
+      "raw": "仙人掌",
+      "link": "仙人掌",
+      "zh": "仙人掌"
+    },
+    {
+      "en": "cactus flower",
+      "raw": "仙人掌花",
+      "link": "仙人掌花",
+      "zh": "仙人掌花"
+    },
+    {
+      "en": "cake",
+      "raw": "蛋糕",
+      "link": "蛋糕",
+      "zh": "蛋糕"
+    },
+    {
+      "en": "cake with black candle",
+      "raw": "蛋糕|插上黑色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上黑色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with blue candle",
+      "raw": "蛋糕|插上蓝色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上蓝色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with brown candle",
+      "raw": "蛋糕|插上棕色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上棕色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with candle",
+      "raw": "蛋糕|插上蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with cyan candle",
+      "raw": "蛋糕|插上青色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上青色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with gray candle",
+      "raw": "蛋糕|插上灰色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上灰色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with green candle",
+      "raw": "蛋糕|插上绿色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上绿色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with light blue candle",
+      "raw": "蛋糕|插上淡蓝色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上淡蓝色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with light gray candle",
+      "raw": "蛋糕|插上淡灰色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上淡灰色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with lime candle",
+      "raw": "蛋糕|插上黄绿色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上黄绿色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with magenta candle",
+      "raw": "蛋糕|插上品红色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上品红色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with orange candle",
+      "raw": "蛋糕|插上橙色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上橙色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with pink candle",
+      "raw": "蛋糕|插上粉红色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上粉红色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with purple candle",
+      "raw": "蛋糕|插上紫色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上紫色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with red candle",
+      "raw": "蛋糕|插上红色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上红色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with white candle",
+      "raw": "蛋糕|插上白色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上白色蜡烛的蛋糕"
+    },
+    {
+      "en": "cake with yellow candle",
+      "raw": "蛋糕|插上黄色蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上黄色蜡烛的蛋糕"
+    },
+    {
+      "en": "calcite",
+      "raw": "方解石",
+      "link": "方解石",
+      "zh": "方解石"
+    },
+    {
+      "en": "calibrated sculk sensor",
+      "raw": "校频幽匿感测体",
+      "link": "校频幽匿感测体",
+      "zh": "校频幽匿感测体"
+    },
+    {
+      "en": "campfire",
+      "raw": "营火",
+      "link": "营火",
+      "zh": "营火"
+    },
+    {
+      "en": "candle",
+      "raw": "蜡烛",
+      "link": "蜡烛",
+      "zh": "蜡烛"
+    },
+    {
+      "en": "candle cake",
+      "raw": "蛋糕|插上蜡烛的蛋糕",
+      "link": "蛋糕",
+      "zh": "插上蜡烛的蛋糕"
+    },
+    {
+      "en": "carpet",
+      "raw": "地毯",
+      "link": "地毯",
+      "zh": "地毯"
+    },
+    {
+      "en": "carrots",
+      "raw": "胡萝卜",
+      "link": "胡萝卜",
+      "zh": "胡萝卜"
+    },
+    {
+      "en": "cartography table",
+      "raw": "制图台",
+      "link": "制图台",
+      "zh": "制图台"
+    },
+    {
+      "en": "carved pumpkin",
+      "raw": "雕刻南瓜",
+      "link": "雕刻南瓜",
+      "zh": "雕刻南瓜"
+    },
+    {
+      "en": "cauldron",
+      "raw": "炼药锅",
+      "link": "炼药锅",
+      "zh": "炼药锅"
+    },
+    {
+      "en": "cave air",
+      "raw": "空气|洞穴空气",
+      "link": "空气",
+      "zh": "洞穴空气"
+    },
+    {
+      "en": "cave vines",
+      "raw": "发光浆果|洞穴藤蔓",
+      "link": "发光浆果",
+      "zh": "洞穴藤蔓"
+    },
+    {
+      "en": "cave vines plant",
+      "raw": "发光浆果|洞穴藤蔓植株",
+      "link": "发光浆果",
+      "zh": "洞穴藤蔓植株"
+    },
+    {
+      "en": "chain",
+      "raw": "铁链|锁链",
+      "link": "铁链",
+      "zh": "锁链"
+    },
+    {
+      "en": "chain command block",
+      "raw": "命令方块|连锁型命令方块",
+      "link": "命令方块",
+      "zh": "连锁型命令方块"
+    },
+    {
+      "en": "chalkboard",
+      "raw": "黑板",
+      "link": "黑板",
+      "zh": "黑板"
+    },
+    {
+      "en": "cherry button",
+      "raw": "木按钮|樱花木按钮",
+      "link": "木按钮",
+      "zh": "樱花木按钮"
+    },
+    {
+      "en": "cherry door",
+      "raw": "木门|樱花木门",
+      "link": "木门",
+      "zh": "樱花木门"
+    },
+    {
+      "en": "cherry fence",
+      "raw": "木栅栏|樱花木栅栏",
+      "link": "木栅栏",
+      "zh": "樱花木栅栏"
+    },
+    {
+      "en": "cherry fence gate",
+      "raw": "栅栏门|樱花木栅栏门",
+      "link": "栅栏门",
+      "zh": "樱花木栅栏门"
+    },
+    {
+      "en": "cherry hanging sign",
+      "raw": "悬挂式告示牌|悬挂式樱花木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式樱花木告示牌"
+    },
+    {
+      "en": "cherry leaves",
+      "raw": "树叶|樱花树叶",
+      "link": "树叶",
+      "zh": "樱花树叶"
+    },
+    {
+      "en": "cherry log",
+      "raw": "原木|樱花原木",
+      "link": "原木",
+      "zh": "樱花原木"
+    },
+    {
+      "en": "cherry planks",
+      "raw": "木板|樱花木板",
+      "link": "木板",
+      "zh": "樱花木板"
+    },
+    {
+      "en": "cherry pressure plate",
+      "raw": "木压力板|樱花木压力板",
+      "link": "木压力板",
+      "zh": "樱花木压力板"
+    },
+    {
+      "en": "cherry sapling",
+      "raw": "树苗|樱花树苗",
+      "link": "树苗",
+      "zh": "樱花树苗"
+    },
+    {
+      "en": "cherry shelf",
+      "raw": "展示架|樱花木展示架",
+      "link": "展示架",
+      "zh": "樱花木展示架"
+    },
+    {
+      "en": "cherry sign",
+      "raw": "告示牌|樱花木告示牌",
+      "link": "告示牌",
+      "zh": "樱花木告示牌"
+    },
+    {
+      "en": "cherry slab",
+      "raw": "木台阶|樱花木台阶",
+      "link": "木台阶",
+      "zh": "樱花木台阶"
+    },
+    {
+      "en": "cherry stairs",
+      "raw": "木楼梯|樱花木楼梯",
+      "link": "木楼梯",
+      "zh": "樱花木楼梯"
+    },
+    {
+      "en": "cherry trapdoor",
+      "raw": "木活板门|樱花木活板门",
+      "link": "木活板门",
+      "zh": "樱花木活板门"
+    },
+    {
+      "en": "cherry wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式樱花木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式樱花木告示牌"
+    },
+    {
+      "en": "cherry wall sign",
+      "raw": "告示牌|墙上的樱花木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的樱花木告示牌"
+    },
+    {
+      "en": "cherry wood",
+      "raw": "木头|櫻花木塊",
+      "link": "木头",
+      "zh": "櫻花木塊"
+    },
+    {
+      "en": "chest",
+      "raw": "箱子",
+      "link": "箱子",
+      "zh": "箱子"
+    },
+    {
+      "en": "chipped anvil",
+      "raw": "铁砧|开裂的铁砧",
+      "link": "铁砧",
+      "zh": "开裂的铁砧"
+    },
+    {
+      "en": "chiseled bookshelf",
+      "raw": "雕纹书架",
+      "link": "雕纹书架",
+      "zh": "雕纹书架"
+    },
+    {
+      "en": "chiseled cinnabar",
+      "raw": "雕纹朱砂",
+      "link": "雕纹朱砂",
+      "zh": "雕纹朱砂"
+    },
+    {
+      "en": "chiseled copper",
+      "raw": "雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "雕纹铜块"
+    },
+    {
+      "en": "chiseled deepslate",
+      "raw": "雕纹深板岩",
+      "link": "雕纹深板岩",
+      "zh": "雕纹深板岩"
+    },
+    {
+      "en": "chiseled nether bricks",
+      "raw": "雕纹下界砖块",
+      "link": "雕纹下界砖块",
+      "zh": "雕纹下界砖块"
+    },
+    {
+      "en": "chiseled polished blackstone",
+      "raw": "雕纹磨制黑石",
+      "link": "雕纹磨制黑石",
+      "zh": "雕纹磨制黑石"
+    },
+    {
+      "en": "chiseled quartz block",
+      "raw": "雕纹石英块",
+      "link": "雕纹石英块",
+      "zh": "雕纹石英块"
+    },
+    {
+      "en": "chiseled red sandstone",
+      "raw": "雕纹红砂岩",
+      "link": "雕纹红砂岩",
+      "zh": "雕纹红砂岩"
+    },
+    {
+      "en": "chiseled resin bricks",
+      "raw": "雕纹树脂砖块",
+      "link": "雕纹树脂砖块",
+      "zh": "雕纹树脂砖块"
+    },
+    {
+      "en": "chiseled sandstone",
+      "raw": "雕纹砂岩",
+      "link": "雕纹砂岩",
+      "zh": "雕纹砂岩"
+    },
+    {
+      "en": "chiseled stone bricks",
+      "raw": "雕纹石砖",
+      "link": "雕纹石砖",
+      "zh": "雕纹石砖"
+    },
+    {
+      "en": "chiseled sulfur",
+      "raw": "雕纹硫黄",
+      "link": "雕纹硫黄",
+      "zh": "雕纹硫黄"
+    },
+    {
+      "en": "chiseled tuff",
+      "raw": "雕纹凝灰岩",
+      "link": "雕纹凝灰岩",
+      "zh": "雕纹凝灰岩"
+    },
+    {
+      "en": "chiseled tuff bricks",
+      "raw": "雕纹凝灰岩砖",
+      "link": "雕纹凝灰岩砖",
+      "zh": "雕纹凝灰岩砖"
+    },
+    {
+      "en": "chorus flower",
+      "raw": "紫颂花",
+      "link": "紫颂花",
+      "zh": "紫颂花"
+    },
+    {
+      "en": "chorus plant",
+      "raw": "紫颂植株",
+      "link": "紫颂植株",
+      "zh": "紫颂植株"
+    },
+    {
+      "en": "cinnabar",
+      "raw": "朱砂",
+      "link": "朱砂",
+      "zh": "朱砂"
+    },
+    {
+      "en": "cinnabar brick slab",
+      "raw": "朱砂砖台阶",
+      "link": "朱砂砖台阶",
+      "zh": "朱砂砖台阶"
+    },
+    {
+      "en": "cinnabar brick stairs",
+      "raw": "朱砂砖楼梯",
+      "link": "朱砂砖楼梯",
+      "zh": "朱砂砖楼梯"
+    },
+    {
+      "en": "cinnabar brick wall",
+      "raw": "朱砂砖墙",
+      "link": "朱砂砖墙",
+      "zh": "朱砂砖墙"
+    },
+    {
+      "en": "cinnabar bricks",
+      "raw": "朱砂砖",
+      "link": "朱砂砖",
+      "zh": "朱砂砖"
+    },
+    {
+      "en": "cinnabar slab",
+      "raw": "朱砂台阶",
+      "link": "朱砂台阶",
+      "zh": "朱砂台阶"
+    },
+    {
+      "en": "cinnabar stairs",
+      "raw": "朱砂楼梯",
+      "link": "朱砂楼梯",
+      "zh": "朱砂楼梯"
+    },
+    {
+      "en": "cinnabar wall",
+      "raw": "朱砂墙",
+      "link": "朱砂墙",
+      "zh": "朱砂墙"
+    },
+    {
+      "en": "clay",
+      "raw": "黏土",
+      "link": "黏土",
+      "zh": "黏土"
+    },
+    {
+      "en": "closed eyeblossom",
+      "raw": "眼眸花|闭合的眼眸花",
+      "link": "眼眸花",
+      "zh": "闭合的眼眸花"
+    },
+    {
+      "en": "coal ore",
+      "raw": "煤矿石",
+      "link": "煤矿石",
+      "zh": "煤矿石"
+    },
+    {
+      "en": "coarse dirt",
+      "raw": "砂土",
+      "link": "砂土",
+      "zh": "砂土"
+    },
+    {
+      "en": "cobbled deepslate",
+      "raw": "深板岩圆石",
+      "link": "深板岩圆石",
+      "zh": "深板岩圆石"
+    },
+    {
+      "en": "cobbled deepslate slab",
+      "raw": "深板岩圆石台阶",
+      "link": "深板岩圆石台阶",
+      "zh": "深板岩圆石台阶"
+    },
+    {
+      "en": "cobbled deepslate stairs",
+      "raw": "深板岩圆石楼梯",
+      "link": "深板岩圆石楼梯",
+      "zh": "深板岩圆石楼梯"
+    },
+    {
+      "en": "cobbled deepslate wall",
+      "raw": "深板岩圆石墙",
+      "link": "深板岩圆石墙",
+      "zh": "深板岩圆石墙"
+    },
+    {
+      "en": "cobblestone",
+      "raw": "圆石",
+      "link": "圆石",
+      "zh": "圆石"
+    },
+    {
+      "en": "cobblestone slab",
+      "raw": "圆石台阶",
+      "link": "圆石台阶",
+      "zh": "圆石台阶"
+    },
+    {
+      "en": "cobblestone stairs",
+      "raw": "圆石楼梯",
+      "link": "圆石楼梯",
+      "zh": "圆石楼梯"
+    },
+    {
+      "en": "cobblestone wall",
+      "raw": "圆石墙",
+      "link": "圆石墙",
+      "zh": "圆石墙"
+    },
+    {
+      "en": "cobweb",
+      "raw": "蜘蛛网",
+      "link": "蜘蛛网",
+      "zh": "蜘蛛网"
+    },
+    {
+      "en": "cocoa",
+      "raw": "可可豆|可可果",
+      "link": "可可豆",
+      "zh": "可可果"
+    },
+    {
+      "en": "cog",
+      "raw": "齿轮",
+      "link": "齿轮",
+      "zh": "齿轮"
+    },
+    {
+      "en": "colored terracotta",
+      "raw": "染色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "染色陶瓦"
+    },
+    {
+      "en": "colored wood planks",
+      "raw": "Java版提及特性#染色木板|染色木板",
+      "link": "Java版提及特性#染色木板",
+      "zh": "染色木板"
+    },
+    {
+      "en": "command block",
+      "raw": "命令方块",
+      "link": "命令方块",
+      "zh": "命令方块"
+    },
+    {
+      "en": "composter",
+      "raw": "堆肥桶",
+      "link": "堆肥桶",
+      "zh": "堆肥桶"
+    },
+    {
+      "en": "concrete",
+      "raw": "混凝土",
+      "link": "混凝土",
+      "zh": "混凝土"
+    },
+    {
+      "en": "concrete powder",
+      "raw": "混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "混凝土粉末"
+    },
+    {
+      "en": "concrete slab",
+      "raw": "混凝土半磚",
+      "link": "混凝土半磚",
+      "zh": "混凝土半磚"
+    },
+    {
+      "en": "concrete stairs",
+      "raw": "混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "混凝土楼梯"
+    },
+    {
+      "en": "conduit",
+      "raw": "潮涌核心",
+      "link": "潮涌核心",
+      "zh": "潮涌核心"
+    },
+    {
+      "en": "copper bars",
+      "raw": "铜栏杆",
+      "link": "铜栏杆",
+      "zh": "铜栏杆"
+    },
+    {
+      "en": "copper bulb",
+      "raw": "铜灯",
+      "link": "铜灯",
+      "zh": "铜灯"
+    },
+    {
+      "en": "copper chain",
+      "raw": "铜链",
+      "link": "铜链",
+      "zh": "铜链"
+    },
+    {
+      "en": "copper chest",
+      "raw": "铜箱子",
+      "link": "铜箱子",
+      "zh": "铜箱子"
+    },
+    {
+      "en": "copper door",
+      "raw": "铜门",
+      "link": "铜门",
+      "zh": "铜门"
+    },
+    {
+      "en": "copper golem statue",
+      "raw": "铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "铜傀儡像"
+    },
+    {
+      "en": "copper grate",
+      "raw": "铜格栅",
+      "link": "铜格栅",
+      "zh": "铜格栅"
+    },
+    {
+      "en": "copper lantern",
+      "raw": "铜灯笼",
+      "link": "铜灯笼",
+      "zh": "铜灯笼"
+    },
+    {
+      "en": "copper ore",
+      "raw": "铜矿石",
+      "link": "铜矿石",
+      "zh": "铜矿石"
+    },
+    {
+      "en": "copper torch",
+      "raw": "铜火把",
+      "link": "铜火把",
+      "zh": "铜火把"
+    },
+    {
+      "en": "copper trapdoor",
+      "raw": "铜活板门",
+      "link": "铜活板门",
+      "zh": "铜活板门"
+    },
+    {
+      "en": "copper wall torch",
+      "raw": "铜火把|墙上的铜火把",
+      "link": "铜火把",
+      "zh": "墙上的铜火把"
+    },
+    {
+      "en": "coral",
+      "raw": "珊瑚",
+      "link": "珊瑚",
+      "zh": "珊瑚"
+    },
+    {
+      "en": "coral block",
+      "raw": "珊瑚块",
+      "link": "珊瑚块",
+      "zh": "珊瑚块"
+    },
+    {
+      "en": "coral fan",
+      "raw": "珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "珊瑚扇"
+    },
+    {
+      "en": "coral wall fan",
+      "raw": "珊瑚扇|墙上的珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "墙上的珊瑚扇"
+    },
+    {
+      "en": "cornflower",
+      "raw": "矢车菊",
+      "link": "矢车菊",
+      "zh": "矢车菊"
+    },
+    {
+      "en": "cracked deepslate bricks",
+      "raw": "裂纹深板岩砖",
+      "link": "裂纹深板岩砖",
+      "zh": "裂纹深板岩砖"
+    },
+    {
+      "en": "cracked deepslate tiles",
+      "raw": "裂纹深板岩瓦",
+      "link": "裂纹深板岩瓦",
+      "zh": "裂纹深板岩瓦"
+    },
+    {
+      "en": "cracked nether bricks",
+      "raw": "裂纹下界砖块",
+      "link": "裂纹下界砖块",
+      "zh": "裂纹下界砖块"
+    },
+    {
+      "en": "cracked polished blackstone bricks",
+      "raw": "裂纹磨制黑石砖",
+      "link": "裂纹磨制黑石砖",
+      "zh": "裂纹磨制黑石砖"
+    },
+    {
+      "en": "cracked stone bricks",
+      "raw": "裂纹石砖",
+      "link": "裂纹石砖",
+      "zh": "裂纹石砖"
+    },
+    {
+      "en": "crafter",
+      "raw": "合成器",
+      "link": "合成器",
+      "zh": "合成器"
+    },
+    {
+      "en": "crafting table",
+      "raw": "工作台",
+      "link": "工作台",
+      "zh": "工作台"
+    },
+    {
+      "en": "creaking heart",
+      "raw": "嘎枝之心",
+      "link": "嘎枝之心",
+      "zh": "嘎枝之心"
+    },
+    {
+      "en": "creeper head",
+      "raw": "苦力怕的头",
+      "link": "苦力怕的头",
+      "zh": "苦力怕的头"
+    },
+    {
+      "en": "creeper wall head",
+      "raw": "苦力怕的头|墙上的苦力怕的头",
+      "link": "苦力怕的头",
+      "zh": "墙上的苦力怕的头"
+    },
+    {
+      "en": "crimson button",
+      "raw": "木按钮|绯红木按钮",
+      "link": "木按钮",
+      "zh": "绯红木按钮"
+    },
+    {
+      "en": "crimson door",
+      "raw": "木门|绯红木门",
+      "link": "木门",
+      "zh": "绯红木门"
+    },
+    {
+      "en": "crimson fence",
+      "raw": "木栅栏|绯红木栅栏",
+      "link": "木栅栏",
+      "zh": "绯红木栅栏"
+    },
+    {
+      "en": "crimson fence gate",
+      "raw": "栅栏门|绯红木栅栏门",
+      "link": "栅栏门",
+      "zh": "绯红木栅栏门"
+    },
+    {
+      "en": "crimson fungus",
+      "raw": "绯红菌",
+      "link": "绯红菌",
+      "zh": "绯红菌"
+    },
+    {
+      "en": "crimson hanging sign",
+      "raw": "悬挂式告示牌|悬挂式绯红木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式绯红木告示牌"
+    },
+    {
+      "en": "crimson hyphae",
+      "raw": "木头|绯红菌核",
+      "link": "木头",
+      "zh": "绯红菌核"
+    },
+    {
+      "en": "crimson nylium",
+      "raw": "绯红菌岩",
+      "link": "绯红菌岩",
+      "zh": "绯红菌岩"
+    },
+    {
+      "en": "crimson planks",
+      "raw": "木板|绯红木板",
+      "link": "木板",
+      "zh": "绯红木板"
+    },
+    {
+      "en": "crimson pressure plate",
+      "raw": "木压力板|绯红木压力板",
+      "link": "木压力板",
+      "zh": "绯红木压力板"
+    },
+    {
+      "en": "crimson roots",
+      "raw": "绯红菌索",
+      "link": "绯红菌索",
+      "zh": "绯红菌索"
+    },
+    {
+      "en": "crimson shelf",
+      "raw": "展示架|绯红木展示架",
+      "link": "展示架",
+      "zh": "绯红木展示架"
+    },
+    {
+      "en": "crimson sign",
+      "raw": "告示牌|绯红木告示牌",
+      "link": "告示牌",
+      "zh": "绯红木告示牌"
+    },
+    {
+      "en": "crimson slab",
+      "raw": "木台阶|绯红木台阶",
+      "link": "木台阶",
+      "zh": "绯红木台阶"
+    },
+    {
+      "en": "crimson stairs",
+      "raw": "木楼梯|绯红木楼梯",
+      "link": "木楼梯",
+      "zh": "绯红木楼梯"
+    },
+    {
+      "en": "crimson stem",
+      "raw": "原木|绯红菌柄",
+      "link": "原木",
+      "zh": "绯红菌柄"
+    },
+    {
+      "en": "crimson trapdoor",
+      "raw": "木活板门|绯红木活板门",
+      "link": "木活板门",
+      "zh": "绯红木活板门"
+    },
+    {
+      "en": "crimson wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式绯红木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式绯红木告示牌"
+    },
+    {
+      "en": "crimson wall sign",
+      "raw": "告示牌|墙上的绯红木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的绯红木告示牌"
+    },
+    {
+      "en": "crying obsidian",
+      "raw": "哭泣的黑曜石",
+      "link": "哭泣的黑曜石",
+      "zh": "哭泣的黑曜石"
+    },
+    {
+      "en": "cut copper",
+      "raw": "切制铜块",
+      "link": "切制铜块",
+      "zh": "切制铜块"
+    },
+    {
+      "en": "cut copper slab",
+      "raw": "切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "切制铜台阶"
+    },
+    {
+      "en": "cut copper stairs",
+      "raw": "切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "切制铜楼梯"
+    },
+    {
+      "en": "cut red sandstone",
+      "raw": "切制红砂岩",
+      "link": "切制红砂岩",
+      "zh": "切制红砂岩"
+    },
+    {
+      "en": "cut red sandstone slab",
+      "raw": "切制红砂岩台阶",
+      "link": "切制红砂岩台阶",
+      "zh": "切制红砂岩台阶"
+    },
+    {
+      "en": "cut sandstone",
+      "raw": "切制砂岩",
+      "link": "切制砂岩",
+      "zh": "切制砂岩"
+    },
+    {
+      "en": "cut sandstone slab",
+      "raw": "切制砂岩台阶",
+      "link": "切制砂岩台阶",
+      "zh": "切制砂岩台阶"
+    },
+    {
+      "en": "cyan banner",
+      "raw": "旗帜|青色旗帜",
+      "link": "旗帜",
+      "zh": "青色旗帜"
+    },
+    {
+      "en": "cyan bed",
+      "raw": "床|青色床",
+      "link": "床",
+      "zh": "青色床"
+    },
+    {
+      "en": "cyan candle",
+      "raw": "蜡烛|青色蜡烛",
+      "link": "蜡烛",
+      "zh": "青色蜡烛"
+    },
+    {
+      "en": "cyan carpet",
+      "raw": "地毯|青色地毯",
+      "link": "地毯",
+      "zh": "青色地毯"
+    },
+    {
+      "en": "cyan concrete",
+      "raw": "混凝土|青色混凝土",
+      "link": "混凝土",
+      "zh": "青色混凝土"
+    },
+    {
+      "en": "cyan concrete powder",
+      "raw": "混凝土粉末|青色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "青色混凝土粉末"
+    },
+    {
+      "en": "cyan concrete slab",
+      "raw": "混凝土半磚|青色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "青色混凝土台阶"
+    },
+    {
+      "en": "cyan concrete stairs",
+      "raw": "混凝土楼梯|青色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "青色混凝土楼梯"
+    },
+    {
+      "en": "cyan flower",
+      "raw": "花|青花",
+      "link": "花",
+      "zh": "青花"
+    },
+    {
+      "en": "cyan glazed terracotta",
+      "raw": "带釉陶瓦|青色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "青色带釉陶瓦"
+    },
+    {
+      "en": "cyan hardened clay",
+      "raw": "染色陶瓦|青色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "青色硬化粘土"
+    },
+    {
+      "en": "cyan shulker box",
+      "raw": "潜影盒|青色潜影盒",
+      "link": "潜影盒",
+      "zh": "青色潜影盒"
+    },
+    {
+      "en": "cyan stained clay",
+      "raw": "染色陶瓦|青色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "青色染色黏土"
+    },
+    {
+      "en": "cyan stained glass",
+      "raw": "染色玻璃|青色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "青色染色玻璃"
+    },
+    {
+      "en": "cyan stained glass pane",
+      "raw": "染色玻璃板|青色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "青色染色玻璃板"
+    },
+    {
+      "en": "cyan terracotta",
+      "raw": "染色陶瓦|青色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "青色陶瓦"
+    },
+    {
+      "en": "cyan wall banner",
+      "raw": "旗帜|墙上的青色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的青色旗帜"
+    },
+    {
+      "en": "cyan wool",
+      "raw": "羊毛|青色羊毛",
+      "link": "羊毛",
+      "zh": "青色羊毛"
+    },
+    {
+      "en": "cyan wool slab",
+      "raw": "羊毛台阶|青色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "青色羊毛台阶"
+    },
+    {
+      "en": "cyan wool stairs",
+      "raw": "羊毛楼梯|青色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "青色羊毛楼梯"
+    },
+    {
+      "en": "damaged anvil",
+      "raw": "铁砧|损坏的铁砧",
+      "link": "铁砧",
+      "zh": "损坏的铁砧"
+    },
+    {
+      "en": "dandelion",
+      "raw": "蒲公英",
+      "link": "蒲公英",
+      "zh": "蒲公英"
+    },
+    {
+      "en": "dark oak button",
+      "raw": "木按钮|深色橡木按钮",
+      "link": "木按钮",
+      "zh": "深色橡木按钮"
+    },
+    {
+      "en": "dark oak door",
+      "raw": "木门|深色橡木门",
+      "link": "木门",
+      "zh": "深色橡木门"
+    },
+    {
+      "en": "dark oak fence",
+      "raw": "木栅栏|深色橡木栅栏",
+      "link": "木栅栏",
+      "zh": "深色橡木栅栏"
+    },
+    {
+      "en": "dark oak fence gate",
+      "raw": "栅栏门|深色橡木栅栏门",
+      "link": "栅栏门",
+      "zh": "深色橡木栅栏门"
+    },
+    {
+      "en": "dark oak hanging sign",
+      "raw": "悬挂式告示牌|悬挂式深色橡木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式深色橡木告示牌"
+    },
+    {
+      "en": "dark oak leaves",
+      "raw": "树叶|深色橡树树叶",
+      "link": "树叶",
+      "zh": "深色橡树树叶"
+    },
+    {
+      "en": "dark oak log",
+      "raw": "原木|深色橡木原木",
+      "link": "原木",
+      "zh": "深色橡木原木"
+    },
+    {
+      "en": "dark oak planks",
+      "raw": "木板|深色橡木木板",
+      "link": "木板",
+      "zh": "深色橡木木板"
+    },
+    {
+      "en": "dark oak pressure plate",
+      "raw": "木压力板|深色橡木压力板",
+      "link": "木压力板",
+      "zh": "深色橡木压力板"
+    },
+    {
+      "en": "dark oak sapling",
+      "raw": "树苗|深色橡树树苗",
+      "link": "树苗",
+      "zh": "深色橡树树苗"
+    },
+    {
+      "en": "dark oak shelf",
+      "raw": "展示架|深色橡木展示架",
+      "link": "展示架",
+      "zh": "深色橡木展示架"
+    },
+    {
+      "en": "dark oak sign",
+      "raw": "告示牌|深色橡木告示牌",
+      "link": "告示牌",
+      "zh": "深色橡木告示牌"
+    },
+    {
+      "en": "dark oak slab",
+      "raw": "木台阶|深色橡木台阶",
+      "link": "木台阶",
+      "zh": "深色橡木台阶"
+    },
+    {
+      "en": "dark oak stairs",
+      "raw": "木楼梯|深色橡木楼梯",
+      "link": "木楼梯",
+      "zh": "深色橡木楼梯"
+    },
+    {
+      "en": "dark oak trapdoor",
+      "raw": "木活板门|深色橡木活板门",
+      "link": "木活板门",
+      "zh": "深色橡木活板门"
+    },
+    {
+      "en": "dark oak wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式深色橡木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式深色橡木告示牌"
+    },
+    {
+      "en": "dark oak wall sign",
+      "raw": "告示牌|墙上的深色橡木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的深色橡木告示牌"
+    },
+    {
+      "en": "dark oak wood",
+      "raw": "木头|黑橡木塊",
+      "link": "木头",
+      "zh": "黑橡木塊"
+    },
+    {
+      "en": "dark prismarine",
+      "raw": "暗海晶石",
+      "link": "暗海晶石",
+      "zh": "暗海晶石"
+    },
+    {
+      "en": "dark prismarine slab",
+      "raw": "暗海晶石台阶",
+      "link": "暗海晶石台阶",
+      "zh": "暗海晶石台阶"
+    },
+    {
+      "en": "dark prismarine stairs",
+      "raw": "暗海晶石楼梯",
+      "link": "暗海晶石楼梯",
+      "zh": "暗海晶石楼梯"
+    },
+    {
+      "en": "daylight detector",
+      "raw": "阳光探测器",
+      "link": "阳光探测器",
+      "zh": "阳光探测器"
+    },
+    {
+      "en": "daylight sensor",
+      "raw": "阳光探测器",
+      "link": "阳光探测器",
+      "zh": "阳光探测器"
+    },
+    {
+      "en": "dead brain coral",
+      "raw": "失活的珊瑚|失活的脑纹珊瑚",
+      "link": "失活的珊瑚",
+      "zh": "失活的脑纹珊瑚"
+    },
+    {
+      "en": "dead brain coral block",
+      "raw": "失活的珊瑚块|失活的脑纹珊瑚块",
+      "link": "失活的珊瑚块",
+      "zh": "失活的脑纹珊瑚块"
+    },
+    {
+      "en": "dead brain coral fan",
+      "raw": "失活的珊瑚扇|失活的脑纹珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "失活的脑纹珊瑚扇"
+    },
+    {
+      "en": "dead brain coral wall fan",
+      "raw": "失活的珊瑚扇|墙上的失活脑纹珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "墙上的失活脑纹珊瑚扇"
+    },
+    {
+      "en": "dead bubble coral",
+      "raw": "失活的珊瑚|失活的气泡珊瑚",
+      "link": "失活的珊瑚",
+      "zh": "失活的气泡珊瑚"
+    },
+    {
+      "en": "dead bubble coral block",
+      "raw": "失活的珊瑚块|失活的气泡珊瑚块",
+      "link": "失活的珊瑚块",
+      "zh": "失活的气泡珊瑚块"
+    },
+    {
+      "en": "dead bubble coral fan",
+      "raw": "失活的珊瑚扇|失活的气泡珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "失活的气泡珊瑚扇"
+    },
+    {
+      "en": "dead bubble coral wall fan",
+      "raw": "失活的珊瑚扇|墙上的失活气泡珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "墙上的失活气泡珊瑚扇"
+    },
+    {
+      "en": "dead bush",
+      "raw": "枯萎的灌木",
+      "link": "枯萎的灌木",
+      "zh": "枯萎的灌木"
+    },
+    {
+      "en": "dead coral",
+      "raw": "失活的珊瑚",
+      "link": "失活的珊瑚",
+      "zh": "失活的珊瑚"
+    },
+    {
+      "en": "dead coral blocks",
+      "raw": "失活的珊瑚块",
+      "link": "失活的珊瑚块",
+      "zh": "失活的珊瑚块"
+    },
+    {
+      "en": "dead coral fans",
+      "raw": "失活的珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "失活的珊瑚扇"
+    },
+    {
+      "en": "dead coral wall fan",
+      "raw": "失活的珊瑚扇|墙上的失活珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "墙上的失活珊瑚扇"
+    },
+    {
+      "en": "dead fire coral",
+      "raw": "失活的珊瑚|失活的火珊瑚",
+      "link": "失活的珊瑚",
+      "zh": "失活的火珊瑚"
+    },
+    {
+      "en": "dead fire coral block",
+      "raw": "失活的珊瑚块|失活的火珊瑚块",
+      "link": "失活的珊瑚块",
+      "zh": "失活的火珊瑚块"
+    },
+    {
+      "en": "dead fire coral fan",
+      "raw": "失活的珊瑚扇|失活的火珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "失活的火珊瑚扇"
+    },
+    {
+      "en": "dead fire coral wall fan",
+      "raw": "失活的珊瑚扇|墙上的失活火珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "墙上的失活火珊瑚扇"
+    },
+    {
+      "en": "dead horn coral",
+      "raw": "失活的珊瑚|失活的鹿角珊瑚",
+      "link": "失活的珊瑚",
+      "zh": "失活的鹿角珊瑚"
+    },
+    {
+      "en": "dead horn coral block",
+      "raw": "失活的珊瑚块|失活的鹿角珊瑚块",
+      "link": "失活的珊瑚块",
+      "zh": "失活的鹿角珊瑚块"
+    },
+    {
+      "en": "dead horn coral fan",
+      "raw": "失活的珊瑚扇|失活的鹿角珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "失活的鹿角珊瑚扇"
+    },
+    {
+      "en": "dead horn coral wall fan",
+      "raw": "失活的珊瑚扇|墙上的失活鹿角珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "墙上的失活鹿角珊瑚扇"
+    },
+    {
+      "en": "dead tube coral",
+      "raw": "失活的珊瑚|失活的管珊瑚",
+      "link": "失活的珊瑚",
+      "zh": "失活的管珊瑚"
+    },
+    {
+      "en": "dead tube coral block",
+      "raw": "失活的珊瑚块|失活的管珊瑚块",
+      "link": "失活的珊瑚块",
+      "zh": "失活的管珊瑚块"
+    },
+    {
+      "en": "dead tube coral fan",
+      "raw": "失活的珊瑚扇|失活的管珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "失活的管珊瑚扇"
+    },
+    {
+      "en": "dead tube coral wall fan",
+      "raw": "失活的珊瑚扇|墙上的失活管珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "墙上的失活管珊瑚扇"
+    },
+    {
+      "en": "decorated pot",
+      "raw": "饰纹陶罐",
+      "link": "饰纹陶罐",
+      "zh": "饰纹陶罐"
+    },
+    {
+      "en": "deepslate",
+      "raw": "深板岩",
+      "link": "深板岩",
+      "zh": "深板岩"
+    },
+    {
+      "en": "deepslate brick slab",
+      "raw": "深板岩砖台阶",
+      "link": "深板岩砖台阶",
+      "zh": "深板岩砖台阶"
+    },
+    {
+      "en": "deepslate brick stairs",
+      "raw": "深板岩砖楼梯",
+      "link": "深板岩砖楼梯",
+      "zh": "深板岩砖楼梯"
+    },
+    {
+      "en": "deepslate brick wall",
+      "raw": "深板岩砖墙",
+      "link": "深板岩砖墙",
+      "zh": "深板岩砖墙"
+    },
+    {
+      "en": "deepslate bricks",
+      "raw": "深板岩砖",
+      "link": "深板岩砖",
+      "zh": "深板岩砖"
+    },
+    {
+      "en": "deepslate coal ore",
+      "raw": "煤矿石|深层煤矿石",
+      "link": "煤矿石",
+      "zh": "深层煤矿石"
+    },
+    {
+      "en": "deepslate copper ore",
+      "raw": "铜矿石|深层铜矿石",
+      "link": "铜矿石",
+      "zh": "深层铜矿石"
+    },
+    {
+      "en": "deepslate diamond ore",
+      "raw": "钻石矿石|深层钻石矿石",
+      "link": "钻石矿石",
+      "zh": "深层钻石矿石"
+    },
+    {
+      "en": "deepslate emerald ore",
+      "raw": "绿宝石矿石|深层绿宝石矿石",
+      "link": "绿宝石矿石",
+      "zh": "深层绿宝石矿石"
+    },
+    {
+      "en": "deepslate gold ore",
+      "raw": "金矿石|深层金矿石",
+      "link": "金矿石",
+      "zh": "深层金矿石"
+    },
+    {
+      "en": "deepslate iron ore",
+      "raw": "铁矿石|深层铁矿石",
+      "link": "铁矿石",
+      "zh": "深层铁矿石"
+    },
+    {
+      "en": "deepslate lapis lazuli ore",
+      "raw": "青金石矿石|深层青金石矿石",
+      "link": "青金石矿石",
+      "zh": "深层青金石矿石"
+    },
+    {
+      "en": "deepslate lapis ore",
+      "raw": "青金石矿石|深层青金石矿石",
+      "link": "青金石矿石",
+      "zh": "深层青金石矿石"
+    },
+    {
+      "en": "deepslate redstone ore",
+      "raw": "红石矿石|深层红石矿石",
+      "link": "红石矿石",
+      "zh": "深层红石矿石"
+    },
+    {
+      "en": "deepslate tile slab",
+      "raw": "深板岩瓦台阶",
+      "link": "深板岩瓦台阶",
+      "zh": "深板岩瓦台阶"
+    },
+    {
+      "en": "deepslate tile stairs",
+      "raw": "深板岩瓦楼梯",
+      "link": "深板岩瓦楼梯",
+      "zh": "深板岩瓦楼梯"
+    },
+    {
+      "en": "deepslate tile wall",
+      "raw": "深板岩瓦墙",
+      "link": "深板岩瓦墙",
+      "zh": "深板岩瓦墙"
+    },
+    {
+      "en": "deepslate tiles",
+      "raw": "深板岩瓦",
+      "link": "深板岩瓦",
+      "zh": "深板岩瓦"
+    },
+    {
+      "en": "detector rail",
+      "raw": "探测铁轨",
+      "link": "探测铁轨",
+      "zh": "探测铁轨"
+    },
+    {
+      "en": "diamond ore",
+      "raw": "钻石矿石",
+      "link": "钻石矿石",
+      "zh": "钻石矿石"
+    },
+    {
+      "en": "diorite",
+      "raw": "闪长岩",
+      "link": "闪长岩",
+      "zh": "闪长岩"
+    },
+    {
+      "en": "diorite bell",
+      "raw": "钟|闪长岩钟",
+      "link": "钟",
+      "zh": "闪长岩钟"
+    },
+    {
+      "en": "diorite slab",
+      "raw": "闪长岩台阶",
+      "link": "闪长岩台阶",
+      "zh": "闪长岩台阶"
+    },
+    {
+      "en": "diorite stairs",
+      "raw": "闪长岩楼梯",
+      "link": "闪长岩楼梯",
+      "zh": "闪长岩楼梯"
+    },
+    {
+      "en": "diorite wall",
+      "raw": "闪长岩墙",
+      "link": "闪长岩墙",
+      "zh": "闪长岩墙"
+    },
+    {
+      "en": "dirt",
+      "raw": "泥土",
+      "link": "泥土",
+      "zh": "泥土"
+    },
+    {
+      "en": "dirt path",
+      "raw": "土径",
+      "link": "土径",
+      "zh": "土径"
+    },
+    {
+      "en": "dispenser",
+      "raw": "发射器",
+      "link": "发射器",
+      "zh": "发射器"
+    },
+    {
+      "en": "door",
+      "raw": "门",
+      "link": "门",
+      "zh": "门"
+    },
+    {
+      "en": "dragon egg",
+      "raw": "龙蛋",
+      "link": "龙蛋",
+      "zh": "龙蛋"
+    },
+    {
+      "en": "dragon head",
+      "raw": "龙首",
+      "link": "龙首",
+      "zh": "龙首"
+    },
+    {
+      "en": "dragon wall head",
+      "raw": "龙首|墙上的龙首",
+      "link": "龙首",
+      "zh": "墙上的龙首"
+    },
+    {
+      "en": "dried ghast",
+      "raw": "失水恶魂",
+      "link": "失水恶魂",
+      "zh": "失水恶魂"
+    },
+    {
+      "en": "dried kelp block",
+      "raw": "干海带块",
+      "link": "干海带块",
+      "zh": "干海带块"
+    },
+    {
+      "en": "dripstone block",
+      "raw": "滴水石块",
+      "link": "滴水石块",
+      "zh": "滴水石块"
+    },
+    {
+      "en": "dropper",
+      "raw": "投掷器",
+      "link": "投掷器",
+      "zh": "投掷器"
+    },
+    {
+      "en": "dyed bed",
+      "raw": "床|染色床",
+      "link": "床",
+      "zh": "染色床"
+    },
+    {
+      "en": "dyed carpet",
+      "raw": "地毯|染色地毯",
+      "link": "地毯",
+      "zh": "染色地毯"
+    },
+    {
+      "en": "dyed shulker box",
+      "raw": "潜影盒|染色潜影盒",
+      "link": "潜影盒",
+      "zh": "染色潜影盒"
+    },
+    {
+      "en": "dyed terracotta",
+      "raw": "染色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "染色陶瓦"
+    },
+    {
+      "en": "dyed wool",
+      "raw": "羊毛|染色羊毛",
+      "link": "羊毛",
+      "zh": "染色羊毛"
+    },
+    {
+      "en": "emerald ore",
+      "raw": "绿宝石矿石",
+      "link": "绿宝石矿石",
+      "zh": "绿宝石矿石"
+    },
+    {
+      "en": "empty barrel",
+      "raw": "木桶#画廊|空木桶",
+      "link": "木桶#画廊",
+      "zh": "空木桶"
+    },
+    {
+      "en": "enchanting table",
+      "raw": "附魔台",
+      "link": "附魔台",
+      "zh": "附魔台"
+    },
+    {
+      "en": "enchantment table",
+      "raw": "附魔台",
+      "link": "附魔台",
+      "zh": "附魔台"
+    },
+    {
+      "en": "end gateway",
+      "raw": "末地折跃门（方块）|末地折跃门",
+      "link": "末地折跃门（方块）",
+      "zh": "末地折跃门"
+    },
+    {
+      "en": "end portal",
+      "raw": "末地传送门（方块）|末地传送门",
+      "link": "末地传送门（方块）",
+      "zh": "末地传送门"
+    },
+    {
+      "en": "end portal frame",
+      "raw": "末地传送门框架",
+      "link": "末地传送门框架",
+      "zh": "末地传送门框架"
+    },
+    {
+      "en": "end rod",
+      "raw": "末地烛",
+      "link": "末地烛",
+      "zh": "末地烛"
+    },
+    {
+      "en": "end stone",
+      "raw": "末地石",
+      "link": "末地石",
+      "zh": "末地石"
+    },
+    {
+      "en": "end stone brick slab",
+      "raw": "末地石砖台阶",
+      "link": "末地石砖台阶",
+      "zh": "末地石砖台阶"
+    },
+    {
+      "en": "end stone brick stairs",
+      "raw": "末地石砖楼梯",
+      "link": "末地石砖楼梯",
+      "zh": "末地石砖楼梯"
+    },
+    {
+      "en": "end stone brick wall",
+      "raw": "末地石砖墙",
+      "link": "末地石砖墙",
+      "zh": "末地石砖墙"
+    },
+    {
+      "en": "end stone bricks",
+      "raw": "末地石砖",
+      "link": "末地石砖",
+      "zh": "末地石砖"
+    },
+    {
+      "en": "ender chest",
+      "raw": "末影箱",
+      "link": "末影箱",
+      "zh": "末影箱"
+    },
+    {
+      "en": "exposed chiseled copper",
+      "raw": "雕纹铜块|斑驳的雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "斑驳的雕纹铜块"
+    },
+    {
+      "en": "exposed copper",
+      "raw": "铜块|斑驳的铜块",
+      "link": "铜块",
+      "zh": "斑驳的铜块"
+    },
+    {
+      "en": "exposed copper bars",
+      "raw": "铜栏杆|斑驳的铜栏杆",
+      "link": "铜栏杆",
+      "zh": "斑驳的铜栏杆"
+    },
+    {
+      "en": "exposed copper bulb",
+      "raw": "铜灯|斑驳的铜灯",
+      "link": "铜灯",
+      "zh": "斑驳的铜灯"
+    },
+    {
+      "en": "exposed copper chain",
+      "raw": "铜链|斑驳的铜链",
+      "link": "铜链",
+      "zh": "斑驳的铜链"
+    },
+    {
+      "en": "exposed copper chest",
+      "raw": "铜箱子|斑驳的铜箱子",
+      "link": "铜箱子",
+      "zh": "斑驳的铜箱子"
+    },
+    {
+      "en": "exposed copper door",
+      "raw": "铜门|斑驳的铜门",
+      "link": "铜门",
+      "zh": "斑驳的铜门"
+    },
+    {
+      "en": "exposed copper golem statue",
+      "raw": "铜傀儡像|斑驳的铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "斑驳的铜傀儡像"
+    },
+    {
+      "en": "exposed copper grate",
+      "raw": "铜格栅|斑驳的铜格栅",
+      "link": "铜格栅",
+      "zh": "斑驳的铜格栅"
+    },
+    {
+      "en": "exposed copper lantern",
+      "raw": "铜灯笼|斑驳的铜灯笼",
+      "link": "铜灯笼",
+      "zh": "斑驳的铜灯笼"
+    },
+    {
+      "en": "exposed copper trapdoor",
+      "raw": "铜活板门|斑驳的铜活板门",
+      "link": "铜活板门",
+      "zh": "斑驳的铜活板门"
+    },
+    {
+      "en": "exposed cut copper",
+      "raw": "切制铜块|斑驳的切制铜块",
+      "link": "切制铜块",
+      "zh": "斑驳的切制铜块"
+    },
+    {
+      "en": "exposed cut copper slab",
+      "raw": "切制铜台阶|斑驳的切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "斑驳的切制铜台阶"
+    },
+    {
+      "en": "exposed cut copper stairs",
+      "raw": "切制铜楼梯|斑驳的切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "斑驳的切制铜楼梯"
+    },
+    {
+      "en": "exposed lightning rod",
+      "raw": "避雷针|斑驳的避雷针",
+      "link": "避雷针",
+      "zh": "斑驳的避雷针"
+    },
+    {
+      "en": "eyeblossom",
+      "raw": "眼眸花",
+      "link": "眼眸花",
+      "zh": "眼眸花"
+    },
+    {
+      "en": "fake wood slab",
+      "raw": "石化橡木台阶|伪木台阶",
+      "link": "石化橡木台阶",
+      "zh": "伪木台阶"
+    },
+    {
+      "en": "farmland",
+      "raw": "耕地",
+      "link": "耕地",
+      "zh": "耕地"
+    },
+    {
+      "en": "fence",
+      "raw": "栅栏",
+      "link": "栅栏",
+      "zh": "栅栏"
+    },
+    {
+      "en": "fence gate",
+      "raw": "栅栏门",
+      "link": "栅栏门",
+      "zh": "栅栏门"
+    },
+    {
+      "en": "fern",
+      "raw": "蕨",
+      "link": "蕨",
+      "zh": "蕨"
+    },
+    {
+      "en": "finished nether reactor core",
+      "raw": "下界反应核|耗尽的下界反应核",
+      "link": "下界反应核",
+      "zh": "耗尽的下界反应核"
+    },
+    {
+      "en": "fire",
+      "raw": "火",
+      "link": "火",
+      "zh": "火"
+    },
+    {
+      "en": "fire coral",
+      "raw": "珊瑚|火珊瑚",
+      "link": "珊瑚",
+      "zh": "火珊瑚"
+    },
+    {
+      "en": "fire coral block",
+      "raw": "珊瑚块|火珊瑚块",
+      "link": "珊瑚块",
+      "zh": "火珊瑚块"
+    },
+    {
+      "en": "fire coral fan",
+      "raw": "珊瑚扇|火珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "火珊瑚扇"
+    },
+    {
+      "en": "fire coral wall fan",
+      "raw": "珊瑚扇|墙上的火珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "墙上的火珊瑚扇"
+    },
+    {
+      "en": "firefly bush",
+      "raw": "萤火虫灌木丛",
+      "link": "萤火虫灌木丛",
+      "zh": "萤火虫灌木丛"
+    },
+    {
+      "en": "fish barrel",
+      "raw": "木桶#画廊|鱼木桶",
+      "link": "木桶#画廊",
+      "zh": "鱼木桶"
+    },
+    {
+      "en": "fletching table",
+      "raw": "制箭台",
+      "link": "制箭台",
+      "zh": "制箭台"
+    },
+    {
+      "en": "flower",
+      "raw": "花",
+      "link": "花",
+      "zh": "花"
+    },
+    {
+      "en": "flower pot",
+      "raw": "花盆",
+      "link": "花盆",
+      "zh": "花盆"
+    },
+    {
+      "en": "flowering azalea",
+      "raw": "盛开的杜鹃花丛",
+      "link": "盛开的杜鹃花丛",
+      "zh": "盛开的杜鹃花丛"
+    },
+    {
+      "en": "flowering azalea leaves",
+      "raw": "树叶|盛开的杜鹃树叶",
+      "link": "树叶",
+      "zh": "盛开的杜鹃树叶"
+    },
+    {
+      "en": "frog spawn",
+      "raw": "青蛙卵",
+      "link": "青蛙卵",
+      "zh": "青蛙卵"
+    },
+    {
+      "en": "froglight",
+      "raw": "蛙明灯",
+      "link": "蛙明灯",
+      "zh": "蛙明灯"
+    },
+    {
+      "en": "frogspawn",
+      "raw": "青蛙卵",
+      "link": "青蛙卵",
+      "zh": "青蛙卵"
+    },
+    {
+      "en": "frosted ice",
+      "raw": "霜冰",
+      "link": "霜冰",
+      "zh": "霜冰"
+    },
+    {
+      "en": "fungi",
+      "raw": "下界菌",
+      "link": "下界菌",
+      "zh": "下界菌"
+    },
+    {
+      "en": "fungus",
+      "raw": "下界菌",
+      "link": "下界菌",
+      "zh": "下界菌"
+    },
+    {
+      "en": "furnace",
+      "raw": "熔炉",
+      "link": "熔炉",
+      "zh": "熔炉"
+    },
+    {
+      "en": "furniture",
+      "raw": "Java版已移除特性#家具|家具",
+      "link": "Java版已移除特性#家具",
+      "zh": "家具"
+    },
+    {
+      "en": "gilded blackstone",
+      "raw": "镶金黑石",
+      "link": "镶金黑石",
+      "zh": "镶金黑石"
+    },
+    {
+      "en": "glass",
+      "raw": "玻璃",
+      "link": "玻璃",
+      "zh": "玻璃"
+    },
+    {
+      "en": "glass pane",
+      "raw": "玻璃板",
+      "link": "玻璃板",
+      "zh": "玻璃板"
+    },
+    {
+      "en": "glazed terracotta",
+      "raw": "带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "带釉陶瓦"
+    },
+    {
+      "en": "glow lichen",
+      "raw": "发光地衣",
+      "link": "发光地衣",
+      "zh": "发光地衣"
+    },
+    {
+      "en": "glowstone",
+      "raw": "荧石",
+      "link": "荧石",
+      "zh": "荧石"
+    },
+    {
+      "en": "golden dandelion",
+      "raw": "金蒲公英",
+      "link": "金蒲公英",
+      "zh": "金蒲公英"
+    },
+    {
+      "en": "gold ore",
+      "raw": "金矿石",
+      "link": "金矿石",
+      "zh": "金矿石"
+    },
+    {
+      "en": "granite",
+      "raw": "花岗岩",
+      "link": "花岗岩",
+      "zh": "花岗岩"
+    },
+    {
+      "en": "granite bell",
+      "raw": "钟|花岗岩钟",
+      "link": "钟",
+      "zh": "花岗岩钟"
+    },
+    {
+      "en": "granite slab",
+      "raw": "花岗岩台阶",
+      "link": "花岗岩台阶",
+      "zh": "花岗岩台阶"
+    },
+    {
+      "en": "granite stairs",
+      "raw": "花岗岩楼梯",
+      "link": "花岗岩楼梯",
+      "zh": "花岗岩楼梯"
+    },
+    {
+      "en": "granite wall",
+      "raw": "花岗岩墙",
+      "link": "花岗岩墙",
+      "zh": "花岗岩墙"
+    },
+    {
+      "en": "grass",
+      "raw": "矮草丛|草",
+      "link": "矮草丛",
+      "zh": "草"
+    },
+    {
+      "en": "grass block",
+      "raw": "草方块",
+      "link": "草方块",
+      "zh": "草方块"
+    },
+    {
+      "en": "grass path",
+      "raw": "土径|草径",
+      "link": "土径",
+      "zh": "草径"
+    },
+    {
+      "en": "gravel",
+      "raw": "沙砾",
+      "link": "沙砾",
+      "zh": "沙砾"
+    },
+    {
+      "en": "gray banner",
+      "raw": "旗帜|灰色旗帜",
+      "link": "旗帜",
+      "zh": "灰色旗帜"
+    },
+    {
+      "en": "gray bed",
+      "raw": "床|灰色床",
+      "link": "床",
+      "zh": "灰色床"
+    },
+    {
+      "en": "gray candle",
+      "raw": "蜡烛|灰色蜡烛",
+      "link": "蜡烛",
+      "zh": "灰色蜡烛"
+    },
+    {
+      "en": "gray carpet",
+      "raw": "地毯|灰色地毯",
+      "link": "地毯",
+      "zh": "灰色地毯"
+    },
+    {
+      "en": "gray concrete",
+      "raw": "混凝土|灰色混凝土",
+      "link": "混凝土",
+      "zh": "灰色混凝土"
+    },
+    {
+      "en": "gray concrete powder",
+      "raw": "混凝土粉末|灰色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "灰色混凝土粉末"
+    },
+    {
+      "en": "gray concrete slab",
+      "raw": "混凝土半磚|灰色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "灰色混凝土台阶"
+    },
+    {
+      "en": "gray concrete stairs",
+      "raw": "混凝土楼梯|灰色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "灰色混凝土楼梯"
+    },
+    {
+      "en": "gray glazed terracotta",
+      "raw": "带釉陶瓦|灰色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "灰色带釉陶瓦"
+    },
+    {
+      "en": "gray hardened clay",
+      "raw": "染色陶瓦|灰色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "灰色硬化粘土"
+    },
+    {
+      "en": "gray shulker box",
+      "raw": "潜影盒|灰色潜影盒",
+      "link": "潜影盒",
+      "zh": "灰色潜影盒"
+    },
+    {
+      "en": "gray stained clay",
+      "raw": "染色陶瓦|灰色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "灰色染色黏土"
+    },
+    {
+      "en": "gray stained glass",
+      "raw": "染色玻璃|灰色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "灰色染色玻璃"
+    },
+    {
+      "en": "gray stained glass pane",
+      "raw": "染色玻璃板|灰色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "灰色染色玻璃板"
+    },
+    {
+      "en": "gray terracotta",
+      "raw": "染色陶瓦|灰色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "灰色陶瓦"
+    },
+    {
+      "en": "gray wall banner",
+      "raw": "旗帜|墙上的灰色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的灰色旗帜"
+    },
+    {
+      "en": "gray wool",
+      "raw": "羊毛|灰色羊毛",
+      "link": "羊毛",
+      "zh": "灰色羊毛"
+    },
+    {
+      "en": "gray wool slab",
+      "raw": "羊毛台阶|灰色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "灰色羊毛台阶"
+    },
+    {
+      "en": "gray wool stairs",
+      "raw": "羊毛楼梯|灰色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "灰色羊毛楼梯"
+    },
+    {
+      "en": "green banner",
+      "raw": "旗帜|绿色旗帜",
+      "link": "旗帜",
+      "zh": "绿色旗帜"
+    },
+    {
+      "en": "green bed",
+      "raw": "床|绿色床",
+      "link": "床",
+      "zh": "绿色床"
+    },
+    {
+      "en": "green candle",
+      "raw": "蜡烛|绿色蜡烛",
+      "link": "蜡烛",
+      "zh": "绿色蜡烛"
+    },
+    {
+      "en": "green carpet",
+      "raw": "地毯|绿色地毯",
+      "link": "地毯",
+      "zh": "绿色地毯"
+    },
+    {
+      "en": "green concrete",
+      "raw": "混凝土|绿色混凝土",
+      "link": "混凝土",
+      "zh": "绿色混凝土"
+    },
+    {
+      "en": "green concrete powder",
+      "raw": "混凝土粉末|绿色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "绿色混凝土粉末"
+    },
+    {
+      "en": "green concrete slab",
+      "raw": "混凝土半磚|绿色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "绿色混凝土台阶"
+    },
+    {
+      "en": "green concrete stairs",
+      "raw": "混凝土楼梯|绿色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "绿色混凝土楼梯"
+    },
+    {
+      "en": "green glazed terracotta",
+      "raw": "带釉陶瓦|绿色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "绿色带釉陶瓦"
+    },
+    {
+      "en": "green hardened clay",
+      "raw": "染色陶瓦|绿色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "绿色硬化粘土"
+    },
+    {
+      "en": "green shulker box",
+      "raw": "潜影盒|绿色潜影盒",
+      "link": "潜影盒",
+      "zh": "绿色潜影盒"
+    },
+    {
+      "en": "green stained clay",
+      "raw": "染色陶瓦|绿色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "绿色染色黏土"
+    },
+    {
+      "en": "green stained glass",
+      "raw": "染色玻璃|绿色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "绿色染色玻璃"
+    },
+    {
+      "en": "green stained glass pane",
+      "raw": "染色玻璃板|绿色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "绿色染色玻璃板"
+    },
+    {
+      "en": "green terracotta",
+      "raw": "染色陶瓦|绿色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "绿色陶瓦"
+    },
+    {
+      "en": "green wall banner",
+      "raw": "旗帜|墙上的绿色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的绿色旗帜"
+    },
+    {
+      "en": "green wool",
+      "raw": "羊毛|绿色羊毛",
+      "link": "羊毛",
+      "zh": "绿色羊毛"
+    },
+    {
+      "en": "green wool slab",
+      "raw": "羊毛台阶|绿色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "绿色羊毛台阶"
+    },
+    {
+      "en": "green wool stairs",
+      "raw": "羊毛楼梯|绿色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "绿色羊毛楼梯"
+    },
+    {
+      "en": "grindstone",
+      "raw": "砂轮",
+      "link": "砂轮",
+      "zh": "砂轮"
+    },
+    {
+      "en": "hanging roots",
+      "raw": "垂根",
+      "link": "垂根",
+      "zh": "垂根"
+    },
+    {
+      "en": "hanging sign",
+      "raw": "悬挂式告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式告示牌"
+    },
+    {
+      "en": "hardened clay",
+      "raw": "陶瓦|硬化粘土",
+      "link": "陶瓦",
+      "zh": "硬化粘土"
+    },
+    {
+      "en": "hay bale",
+      "raw": "干草捆",
+      "link": "干草捆",
+      "zh": "干草捆"
+    },
+    {
+      "en": "head",
+      "raw": "生物头颅|头颅",
+      "link": "生物头颅",
+      "zh": "头颅"
+    },
+    {
+      "en": "heavy core",
+      "raw": "沉重核心",
+      "link": "沉重核心",
+      "zh": "沉重核心"
+    },
+    {
+      "en": "heavy weighted pressure plate",
+      "raw": "重质测重压力板",
+      "link": "重质测重压力板",
+      "zh": "重质测重压力板"
+    },
+    {
+      "en": "honey block",
+      "raw": "蜂蜜块",
+      "link": "蜂蜜块",
+      "zh": "蜂蜜块"
+    },
+    {
+      "en": "honeycomb block",
+      "raw": "蜜脾块",
+      "link": "蜜脾块",
+      "zh": "蜜脾块"
+    },
+    {
+      "en": "hopper",
+      "raw": "漏斗",
+      "link": "漏斗",
+      "zh": "漏斗"
+    },
+    {
+      "en": "horn coral",
+      "raw": "珊瑚|鹿角珊瑚",
+      "link": "珊瑚",
+      "zh": "鹿角珊瑚"
+    },
+    {
+      "en": "horn coral block",
+      "raw": "珊瑚块|鹿角珊瑚块",
+      "link": "珊瑚块",
+      "zh": "鹿角珊瑚块"
+    },
+    {
+      "en": "horn coral fan",
+      "raw": "珊瑚扇|鹿角珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "鹿角珊瑚扇"
+    },
+    {
+      "en": "horn coral wall fan",
+      "raw": "珊瑚扇|墙上的鹿角珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "墙上的鹿角珊瑚扇"
+    },
+    {
+      "en": "hyphae",
+      "raw": "木头|菌核",
+      "link": "木头",
+      "zh": "菌核"
+    },
+    {
+      "en": "ice",
+      "raw": "冰",
+      "link": "冰",
+      "zh": "冰"
+    },
+    {
+      "en": "impulse command block",
+      "raw": "命令方块|脉冲型命令方块",
+      "link": "命令方块",
+      "zh": "脉冲型命令方块"
+    },
+    {
+      "en": "infested block",
+      "raw": "虫蚀方块",
+      "link": "虫蚀方块",
+      "zh": "虫蚀方块"
+    },
+    {
+      "en": "infested chiseled stone bricks",
+      "raw": "虫蚀方块|虫蚀雕纹石砖",
+      "link": "虫蚀方块",
+      "zh": "虫蚀雕纹石砖"
+    },
+    {
+      "en": "infested cobblestone",
+      "raw": "虫蚀方块|虫蚀圆石",
+      "link": "虫蚀方块",
+      "zh": "虫蚀圆石"
+    },
+    {
+      "en": "infested cracked stone bricks",
+      "raw": "虫蚀方块|虫蚀裂纹石砖",
+      "link": "虫蚀方块",
+      "zh": "虫蚀裂纹石砖"
+    },
+    {
+      "en": "infested deepslate",
+      "raw": "虫蚀方块|虫蚀深板岩",
+      "link": "虫蚀方块",
+      "zh": "虫蚀深板岩"
+    },
+    {
+      "en": "infested mossy stone bricks",
+      "raw": "虫蚀方块|虫蚀苔石砖",
+      "link": "虫蚀方块",
+      "zh": "虫蚀苔石砖"
+    },
+    {
+      "en": "infested stone",
+      "raw": "虫蚀方块|虫蚀石头",
+      "link": "虫蚀方块",
+      "zh": "虫蚀石头"
+    },
+    {
+      "en": "infested stone bricks",
+      "raw": "虫蚀方块|虫蚀石砖",
+      "link": "虫蚀方块",
+      "zh": "虫蚀石砖"
+    },
+    {
+      "en": "infinite lava source",
+      "raw": "无限熔岩源",
+      "link": "无限熔岩源",
+      "zh": "无限熔岩源"
+    },
+    {
+      "en": "infinite water source",
+      "raw": "无限水源",
+      "link": "无限水源",
+      "zh": "无限水源"
+    },
+    {
+      "en": "initialized nether reactor core",
+      "raw": "下界反应核|激活的下界反应核",
+      "link": "下界反应核",
+      "zh": "激活的下界反应核"
+    },
+    {
+      "en": "inverted daylight detector",
+      "raw": "阳光探测器|反向阳光探测器",
+      "link": "阳光探测器",
+      "zh": "反向阳光探测器"
+    },
+    {
+      "en": "inverted daylight sensor",
+      "raw": "阳光探测器|反向阳光探测器",
+      "link": "阳光探测器",
+      "zh": "反向阳光探测器"
+    },
+    {
+      "en": "iron bars",
+      "raw": "铁栏杆",
+      "link": "铁栏杆",
+      "zh": "铁栏杆"
+    },
+    {
+      "en": "iron chain",
+      "raw": "铁链",
+      "link": "铁链",
+      "zh": "铁链"
+    },
+    {
+      "en": "iron door",
+      "raw": "铁门",
+      "link": "铁门",
+      "zh": "铁门"
+    },
+    {
+      "en": "iron ore",
+      "raw": "铁矿石",
+      "link": "铁矿石",
+      "zh": "铁矿石"
+    },
+    {
+      "en": "iron trapdoor",
+      "raw": "铁活板门",
+      "link": "铁活板门",
+      "zh": "铁活板门"
+    },
+    {
+      "en": "jack o'lantern",
+      "raw": "南瓜灯",
+      "link": "南瓜灯",
+      "zh": "南瓜灯"
+    },
+    {
+      "en": "jigsaw block",
+      "raw": "拼图方块",
+      "link": "拼图方块",
+      "zh": "拼图方块"
+    },
+    {
+      "en": "jukebox",
+      "raw": "唱片机",
+      "link": "唱片机",
+      "zh": "唱片机"
+    },
+    {
+      "en": "jungle button",
+      "raw": "木按钮|丛林木按钮",
+      "link": "木按钮",
+      "zh": "丛林木按钮"
+    },
+    {
+      "en": "jungle door",
+      "raw": "木门|丛林木门",
+      "link": "木门",
+      "zh": "丛林木门"
+    },
+    {
+      "en": "jungle fence",
+      "raw": "木栅栏|丛林木栅栏",
+      "link": "木栅栏",
+      "zh": "丛林木栅栏"
+    },
+    {
+      "en": "jungle fence gate",
+      "raw": "栅栏门|丛林木栅栏门",
+      "link": "栅栏门",
+      "zh": "丛林木栅栏门"
+    },
+    {
+      "en": "jungle hanging sign",
+      "raw": "悬挂式告示牌|悬挂式丛林木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式丛林木告示牌"
+    },
+    {
+      "en": "jungle leaves",
+      "raw": "树叶|丛林树叶",
+      "link": "树叶",
+      "zh": "丛林树叶"
+    },
+    {
+      "en": "jungle log",
+      "raw": "原木|丛林原木",
+      "link": "原木",
+      "zh": "丛林原木"
+    },
+    {
+      "en": "jungle planks",
+      "raw": "木板|丛林木板",
+      "link": "木板",
+      "zh": "丛林木板"
+    },
+    {
+      "en": "jungle pressure plate",
+      "raw": "木压力板|丛林木压力板",
+      "link": "木压力板",
+      "zh": "丛林木压力板"
+    },
+    {
+      "en": "jungle sapling",
+      "raw": "树苗|丛林树苗",
+      "link": "树苗",
+      "zh": "丛林树苗"
+    },
+    {
+      "en": "jungle shelf",
+      "raw": "展示架|丛林木展示架",
+      "link": "展示架",
+      "zh": "丛林木展示架"
+    },
+    {
+      "en": "jungle sign",
+      "raw": "告示牌|丛林木告示牌",
+      "link": "告示牌",
+      "zh": "丛林木告示牌"
+    },
+    {
+      "en": "jungle slab",
+      "raw": "木台阶|丛林木台阶",
+      "link": "木台阶",
+      "zh": "丛林木台阶"
+    },
+    {
+      "en": "jungle stairs",
+      "raw": "木楼梯|丛林木楼梯",
+      "link": "木楼梯",
+      "zh": "丛林木楼梯"
+    },
+    {
+      "en": "jungle trapdoor",
+      "raw": "木活板门|丛林木活板门",
+      "link": "木活板门",
+      "zh": "丛林木活板门"
+    },
+    {
+      "en": "jungle wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式丛林木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式丛林木告示牌"
+    },
+    {
+      "en": "jungle wall sign",
+      "raw": "告示牌|墙上的丛林木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的丛林木告示牌"
+    },
+    {
+      "en": "jungle wood",
+      "raw": "木头|叢林木塊",
+      "link": "木头",
+      "zh": "叢林木塊"
+    },
+    {
+      "en": "kelp",
+      "raw": "海带",
+      "link": "海带",
+      "zh": "海带"
+    },
+    {
+      "en": "kelp plant",
+      "raw": "海带|海带植株",
+      "link": "海带",
+      "zh": "海带植株"
+    },
+    {
+      "en": "ladder",
+      "raw": "梯子",
+      "link": "梯子",
+      "zh": "梯子"
+    },
+    {
+      "en": "lantern",
+      "raw": "灯笼",
+      "link": "灯笼",
+      "zh": "灯笼"
+    },
+    {
+      "en": "lapis lazuli block",
+      "raw": "青金石块",
+      "link": "青金石块",
+      "zh": "青金石块"
+    },
+    {
+      "en": "lapis lazuli ore",
+      "raw": "青金石矿石",
+      "link": "青金石矿石",
+      "zh": "青金石矿石"
+    },
+    {
+      "en": "large amethyst bud",
+      "raw": "紫水晶簇|大型紫晶芽",
+      "link": "紫水晶簇",
+      "zh": "大型紫晶芽"
+    },
+    {
+      "en": "large fern",
+      "raw": "大型蕨",
+      "link": "大型蕨",
+      "zh": "大型蕨"
+    },
+    {
+      "en": "lava",
+      "raw": "熔岩",
+      "link": "熔岩",
+      "zh": "熔岩"
+    },
+    {
+      "en": "lava cauldron",
+      "raw": "炼药锅|装有熔岩的炼药锅",
+      "link": "炼药锅",
+      "zh": "装有熔岩的炼药锅"
+    },
+    {
+      "en": "leaf litter",
+      "raw": "枯叶堆",
+      "link": "枯叶堆",
+      "zh": "枯叶堆"
+    },
+    {
+      "en": "leaves",
+      "raw": "树叶",
+      "link": "树叶",
+      "zh": "树叶"
+    },
+    {
+      "en": "lectern",
+      "raw": "讲台",
+      "link": "讲台",
+      "zh": "讲台"
+    },
+    {
+      "en": "lever",
+      "raw": "拉杆",
+      "link": "拉杆",
+      "zh": "拉杆"
+    },
+    {
+      "en": "light",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 0",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 1",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 10",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 11",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 12",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 13",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 14",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 15",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 2",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 3",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 4",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 5",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 6",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 7",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 8",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light 9",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light blue banner",
+      "raw": "旗帜|淡蓝色旗帜",
+      "link": "旗帜",
+      "zh": "淡蓝色旗帜"
+    },
+    {
+      "en": "light blue bed",
+      "raw": "床|淡蓝色床",
+      "link": "床",
+      "zh": "淡蓝色床"
+    },
+    {
+      "en": "light blue candle",
+      "raw": "蜡烛|淡蓝色蜡烛",
+      "link": "蜡烛",
+      "zh": "淡蓝色蜡烛"
+    },
+    {
+      "en": "light blue carpet",
+      "raw": "地毯|淡蓝色地毯",
+      "link": "地毯",
+      "zh": "淡蓝色地毯"
+    },
+    {
+      "en": "light blue concrete",
+      "raw": "混凝土|淡蓝色混凝土",
+      "link": "混凝土",
+      "zh": "淡蓝色混凝土"
+    },
+    {
+      "en": "light blue concrete powder",
+      "raw": "混凝土粉末|淡蓝色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "淡蓝色混凝土粉末"
+    },
+    {
+      "en": "light blue concrete slab",
+      "raw": "混凝土半磚|淡蓝色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "淡蓝色混凝土台阶"
+    },
+    {
+      "en": "light blue concrete stairs",
+      "raw": "混凝土楼梯|淡蓝色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "淡蓝色混凝土楼梯"
+    },
+    {
+      "en": "light blue glazed terracotta",
+      "raw": "带釉陶瓦|淡蓝色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "淡蓝色带釉陶瓦"
+    },
+    {
+      "en": "light blue hardened clay",
+      "raw": "染色陶瓦|淡蓝色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "淡蓝色硬化粘土"
+    },
+    {
+      "en": "light blue shulker box",
+      "raw": "潜影盒|淡蓝色潜影盒",
+      "link": "潜影盒",
+      "zh": "淡蓝色潜影盒"
+    },
+    {
+      "en": "light blue stained clay",
+      "raw": "染色陶瓦|淡蓝色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "淡蓝色染色黏土"
+    },
+    {
+      "en": "light blue stained glass",
+      "raw": "染色玻璃|淡蓝色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "淡蓝色染色玻璃"
+    },
+    {
+      "en": "light blue stained glass pane",
+      "raw": "染色玻璃板|淡蓝色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "淡蓝色染色玻璃板"
+    },
+    {
+      "en": "light blue terracotta",
+      "raw": "染色陶瓦|淡蓝色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "淡蓝色陶瓦"
+    },
+    {
+      "en": "light blue wall banner",
+      "raw": "旗帜|墙上的淡蓝色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的淡蓝色旗帜"
+    },
+    {
+      "en": "light blue wool",
+      "raw": "羊毛|淡蓝色羊毛",
+      "link": "羊毛",
+      "zh": "淡蓝色羊毛"
+    },
+    {
+      "en": "light blue wool slab",
+      "raw": "羊毛台阶|淡蓝色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "淡蓝色羊毛台阶"
+    },
+    {
+      "en": "light blue wool stairs",
+      "raw": "羊毛楼梯|淡蓝色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "淡蓝色羊毛楼梯"
+    },
+    {
+      "en": "light gray banner",
+      "raw": "旗帜|淡灰色旗帜",
+      "link": "旗帜",
+      "zh": "淡灰色旗帜"
+    },
+    {
+      "en": "light gray bed",
+      "raw": "床|淡灰色床",
+      "link": "床",
+      "zh": "淡灰色床"
+    },
+    {
+      "en": "light gray candle",
+      "raw": "蜡烛|淡灰色蜡烛",
+      "link": "蜡烛",
+      "zh": "淡灰色蜡烛"
+    },
+    {
+      "en": "light gray carpet",
+      "raw": "地毯|淡灰色地毯",
+      "link": "地毯",
+      "zh": "淡灰色地毯"
+    },
+    {
+      "en": "light gray concrete",
+      "raw": "混凝土|淡灰色混凝土",
+      "link": "混凝土",
+      "zh": "淡灰色混凝土"
+    },
+    {
+      "en": "light gray concrete powder",
+      "raw": "混凝土粉末|淡灰色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "淡灰色混凝土粉末"
+    },
+    {
+      "en": "light gray concrete slab",
+      "raw": "混凝土半磚|淡灰色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "淡灰色混凝土台阶"
+    },
+    {
+      "en": "light gray concrete stairs",
+      "raw": "混凝土楼梯|淡灰色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "淡灰色混凝土楼梯"
+    },
+    {
+      "en": "light gray glazed terracotta",
+      "raw": "带釉陶瓦|淡灰色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "淡灰色带釉陶瓦"
+    },
+    {
+      "en": "light gray hardened clay",
+      "raw": "染色陶瓦|淡灰色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "淡灰色硬化粘土"
+    },
+    {
+      "en": "light gray shulker box",
+      "raw": "潜影盒|淡灰色潜影盒",
+      "link": "潜影盒",
+      "zh": "淡灰色潜影盒"
+    },
+    {
+      "en": "light gray stained clay",
+      "raw": "染色陶瓦|淡灰色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "淡灰色染色黏土"
+    },
+    {
+      "en": "light gray stained glass",
+      "raw": "染色玻璃|淡灰色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "淡灰色染色玻璃"
+    },
+    {
+      "en": "light gray stained glass pane",
+      "raw": "染色玻璃板|淡灰色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "淡灰色染色玻璃板"
+    },
+    {
+      "en": "light gray terracotta",
+      "raw": "染色陶瓦|淡灰色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "淡灰色陶瓦"
+    },
+    {
+      "en": "light gray wall banner",
+      "raw": "旗帜|墙上的淡灰色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的淡灰色旗帜"
+    },
+    {
+      "en": "light gray wool",
+      "raw": "羊毛|淡灰色羊毛",
+      "link": "羊毛",
+      "zh": "淡灰色羊毛"
+    },
+    {
+      "en": "light gray wool slab",
+      "raw": "羊毛台阶|淡灰色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "淡灰色羊毛台阶"
+    },
+    {
+      "en": "light gray wool stairs",
+      "raw": "羊毛楼梯|淡灰色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "淡灰色羊毛楼梯"
+    },
+    {
+      "en": "light negative",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light weighted pressure plate",
+      "raw": "轻质测重压力板",
+      "link": "轻质测重压力板",
+      "zh": "轻质测重压力板"
+    },
+    {
+      "en": "lightning rod",
+      "raw": "避雷针",
+      "link": "避雷针",
+      "zh": "避雷针"
+    },
+    {
+      "en": "lilac",
+      "raw": "丁香",
+      "link": "丁香",
+      "zh": "丁香"
+    },
+    {
+      "en": "lily of the valley",
+      "raw": "铃兰",
+      "link": "铃兰",
+      "zh": "铃兰"
+    },
+    {
+      "en": "lily pad",
+      "raw": "睡莲",
+      "link": "睡莲",
+      "zh": "睡莲"
+    },
+    {
+      "en": "lime banner",
+      "raw": "旗帜|黄绿色旗帜",
+      "link": "旗帜",
+      "zh": "黄绿色旗帜"
+    },
+    {
+      "en": "lime bed",
+      "raw": "床|黄绿色床",
+      "link": "床",
+      "zh": "黄绿色床"
+    },
+    {
+      "en": "lime candle",
+      "raw": "蜡烛|黄绿色蜡烛",
+      "link": "蜡烛",
+      "zh": "黄绿色蜡烛"
+    },
+    {
+      "en": "lime carpet",
+      "raw": "地毯|黄绿色地毯",
+      "link": "地毯",
+      "zh": "黄绿色地毯"
+    },
+    {
+      "en": "lime concrete",
+      "raw": "混凝土|黄绿色混凝土",
+      "link": "混凝土",
+      "zh": "黄绿色混凝土"
+    },
+    {
+      "en": "lime concrete powder",
+      "raw": "混凝土粉末|黄绿色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "黄绿色混凝土粉末"
+    },
+    {
+      "en": "lime concrete slab",
+      "raw": "混凝土半磚|黄绿色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "黄绿色混凝土台阶"
+    },
+    {
+      "en": "lime concrete stairs",
+      "raw": "混凝土楼梯|黄绿色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "黄绿色混凝土楼梯"
+    },
+    {
+      "en": "lime glazed terracotta",
+      "raw": "带釉陶瓦|黄绿色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "黄绿色带釉陶瓦"
+    },
+    {
+      "en": "lime hardened clay",
+      "raw": "染色陶瓦|黄绿色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "黄绿色硬化粘土"
+    },
+    {
+      "en": "lime shulker box",
+      "raw": "潜影盒|黄绿色潜影盒",
+      "link": "潜影盒",
+      "zh": "黄绿色潜影盒"
+    },
+    {
+      "en": "lime stained clay",
+      "raw": "染色陶瓦|黄绿色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "黄绿色染色黏土"
+    },
+    {
+      "en": "lime stained glass",
+      "raw": "染色玻璃|黄绿色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "黄绿色染色玻璃"
+    },
+    {
+      "en": "lime stained glass pane",
+      "raw": "染色玻璃板|黄绿色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "黄绿色染色玻璃板"
+    },
+    {
+      "en": "lime terracotta",
+      "raw": "染色陶瓦|黄绿色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "黄绿色陶瓦"
+    },
+    {
+      "en": "lime wall banner",
+      "raw": "旗帜|墙上的黄绿色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的黄绿色旗帜"
+    },
+    {
+      "en": "lime wool",
+      "raw": "羊毛|黄绿色羊毛",
+      "link": "羊毛",
+      "zh": "黄绿色羊毛"
+    },
+    {
+      "en": "lime wool slab",
+      "raw": "羊毛台阶|黄绿色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "黄绿色羊毛台阶"
+    },
+    {
+      "en": "lime wool stairs",
+      "raw": "羊毛楼梯|黄绿色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "黄绿色羊毛楼梯"
+    },
+    {
+      "en": "lit blast furnace",
+      "raw": "高炉|燃烧中的高炉",
+      "link": "高炉",
+      "zh": "燃烧中的高炉"
+    },
+    {
+      "en": "lit deepslate redstone ore",
+      "raw": "红石矿石|点亮的深层红石矿石",
+      "link": "红石矿石",
+      "zh": "点亮的深层红石矿石"
+    },
+    {
+      "en": "lit furnace",
+      "raw": "熔炉|燃烧中的熔炉",
+      "link": "熔炉",
+      "zh": "燃烧中的熔炉"
+    },
+    {
+      "en": "lit redstone lamp",
+      "raw": "红石灯|点亮的红石灯",
+      "link": "红石灯",
+      "zh": "点亮的红石灯"
+    },
+    {
+      "en": "lit redstone ore",
+      "raw": "红石矿石|点亮的红石矿石",
+      "link": "红石矿石",
+      "zh": "点亮的红石矿石"
+    },
+    {
+      "en": "lit smoker",
+      "raw": "烟熏炉|燃烧中的烟熏炉",
+      "link": "烟熏炉",
+      "zh": "燃烧中的烟熏炉"
+    },
+    {
+      "en": "locked chest",
+      "raw": "上锁的箱子",
+      "link": "上锁的箱子",
+      "zh": "上锁的箱子"
+    },
+    {
+      "en": "lodestone",
+      "raw": "磁石",
+      "link": "磁石",
+      "zh": "磁石"
+    },
+    {
+      "en": "log",
+      "raw": "原木",
+      "link": "原木",
+      "zh": "原木"
+    },
+    {
+      "en": "loom",
+      "raw": "织布机",
+      "link": "织布机",
+      "zh": "织布机"
+    },
+    {
+      "en": "magenta banner",
+      "raw": "旗帜|品红色旗帜",
+      "link": "旗帜",
+      "zh": "品红色旗帜"
+    },
+    {
+      "en": "magenta bed",
+      "raw": "床|品红色床",
+      "link": "床",
+      "zh": "品红色床"
+    },
+    {
+      "en": "magenta candle",
+      "raw": "蜡烛|品红色蜡烛",
+      "link": "蜡烛",
+      "zh": "品红色蜡烛"
+    },
+    {
+      "en": "magenta carpet",
+      "raw": "地毯|品红色地毯",
+      "link": "地毯",
+      "zh": "品红色地毯"
+    },
+    {
+      "en": "magenta concrete",
+      "raw": "混凝土|品红色混凝土",
+      "link": "混凝土",
+      "zh": "品红色混凝土"
+    },
+    {
+      "en": "magenta concrete powder",
+      "raw": "混凝土粉末|品红色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "品红色混凝土粉末"
+    },
+    {
+      "en": "magenta concrete slab",
+      "raw": "混凝土半磚|品红色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "品红色混凝土台阶"
+    },
+    {
+      "en": "magenta concrete stairs",
+      "raw": "混凝土楼梯|品红色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "品红色混凝土楼梯"
+    },
+    {
+      "en": "magenta glazed terracotta",
+      "raw": "带釉陶瓦|品红色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "品红色带釉陶瓦"
+    },
+    {
+      "en": "magenta hardened clay",
+      "raw": "染色陶瓦|品红色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "品红色硬化粘土"
+    },
+    {
+      "en": "magenta shulker box",
+      "raw": "潜影盒|品红色潜影盒",
+      "link": "潜影盒",
+      "zh": "品红色潜影盒"
+    },
+    {
+      "en": "magenta stained clay",
+      "raw": "染色陶瓦|品红色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "品红色染色黏土"
+    },
+    {
+      "en": "magenta stained glass",
+      "raw": "染色玻璃|品红色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "品红色染色玻璃"
+    },
+    {
+      "en": "magenta stained glass pane",
+      "raw": "染色玻璃板|品红色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "品红色染色玻璃板"
+    },
+    {
+      "en": "magenta terracotta",
+      "raw": "染色陶瓦|品红色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "品红色陶瓦"
+    },
+    {
+      "en": "magenta wall banner",
+      "raw": "旗帜|墙上的品红色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的品红色旗帜"
+    },
+    {
+      "en": "magenta wool",
+      "raw": "羊毛|品红色羊毛",
+      "link": "羊毛",
+      "zh": "品红色羊毛"
+    },
+    {
+      "en": "magenta wool slab",
+      "raw": "羊毛台阶|品红色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "品红色羊毛台阶"
+    },
+    {
+      "en": "magenta wool stairs",
+      "raw": "羊毛楼梯|品红色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "品红色羊毛楼梯"
+    },
+    {
+      "en": "magma block",
+      "raw": "岩浆块",
+      "link": "岩浆块",
+      "zh": "岩浆块"
+    },
+    {
+      "en": "mangrove button",
+      "raw": "木按钮|红树木按钮",
+      "link": "木按钮",
+      "zh": "红树木按钮"
+    },
+    {
+      "en": "mangrove door",
+      "raw": "木门|红树木门",
+      "link": "木门",
+      "zh": "红树木门"
+    },
+    {
+      "en": "mangrove fence",
+      "raw": "木栅栏|红树木栅栏",
+      "link": "木栅栏",
+      "zh": "红树木栅栏"
+    },
+    {
+      "en": "mangrove fence gate",
+      "raw": "栅栏门|红树木栅栏门",
+      "link": "栅栏门",
+      "zh": "红树木栅栏门"
+    },
+    {
+      "en": "mangrove hanging sign",
+      "raw": "悬挂式告示牌|悬挂式红树木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式红树木告示牌"
+    },
+    {
+      "en": "mangrove leaves",
+      "raw": "树叶|红树树叶",
+      "link": "树叶",
+      "zh": "红树树叶"
+    },
+    {
+      "en": "mangrove log",
+      "raw": "原木|红树原木",
+      "link": "原木",
+      "zh": "红树原木"
+    },
+    {
+      "en": "mangrove planks",
+      "raw": "木板|红树木板",
+      "link": "木板",
+      "zh": "红树木板"
+    },
+    {
+      "en": "mangrove pressure plate",
+      "raw": "木压力板|红树木压力板",
+      "link": "木压力板",
+      "zh": "红树木压力板"
+    },
+    {
+      "en": "mangrove propagule",
+      "raw": "红树胎生苗",
+      "link": "红树胎生苗",
+      "zh": "红树胎生苗"
+    },
+    {
+      "en": "mangrove roots",
+      "raw": "红树根",
+      "link": "红树根",
+      "zh": "红树根"
+    },
+    {
+      "en": "mangrove shelf",
+      "raw": "展示架|红树木展示架",
+      "link": "展示架",
+      "zh": "红树木展示架"
+    },
+    {
+      "en": "mangrove sign",
+      "raw": "告示牌|红树木告示牌",
+      "link": "告示牌",
+      "zh": "红树木告示牌"
+    },
+    {
+      "en": "mangrove slab",
+      "raw": "木台阶|红树木台阶",
+      "link": "木台阶",
+      "zh": "红树木台阶"
+    },
+    {
+      "en": "mangrove stairs",
+      "raw": "木楼梯|红树木楼梯",
+      "link": "木楼梯",
+      "zh": "红树木楼梯"
+    },
+    {
+      "en": "mangrove trapdoor",
+      "raw": "木活板门|红树木活板门",
+      "link": "木活板门",
+      "zh": "红树木活板门"
+    },
+    {
+      "en": "mangrove wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式红树木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式红树木告示牌"
+    },
+    {
+      "en": "mangrove wall sign",
+      "raw": "告示牌|墙上的红树木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的红树木告示牌"
+    },
+    {
+      "en": "mangrove wood",
+      "raw": "木头|紅樹林木塊",
+      "link": "木头",
+      "zh": "紅樹林木塊"
+    },
+    {
+      "en": "medium amethyst bud",
+      "raw": "紫水晶簇|中型紫晶芽",
+      "link": "紫水晶簇",
+      "zh": "中型紫晶芽"
+    },
+    {
+      "en": "melon",
+      "raw": "西瓜",
+      "link": "西瓜",
+      "zh": "西瓜"
+    },
+    {
+      "en": "melon stem",
+      "raw": "西瓜种子|西瓜茎",
+      "link": "西瓜种子",
+      "zh": "西瓜茎"
+    },
+    {
+      "en": "mob head",
+      "raw": "生物头颅",
+      "link": "生物头颅",
+      "zh": "生物头颅"
+    },
+    {
+      "en": "monster spawner",
+      "raw": "刷怪笼",
+      "link": "刷怪笼",
+      "zh": "刷怪笼"
+    },
+    {
+      "en": "moss block",
+      "raw": "苔藓块",
+      "link": "苔藓块",
+      "zh": "苔藓块"
+    },
+    {
+      "en": "moss carpet",
+      "raw": "覆地苔藓",
+      "link": "覆地苔藓",
+      "zh": "覆地苔藓"
+    },
+    {
+      "en": "moss stone",
+      "raw": "苔石",
+      "link": "苔石",
+      "zh": "苔石"
+    },
+    {
+      "en": "mossy cobblestone",
+      "raw": "苔石",
+      "link": "苔石",
+      "zh": "苔石"
+    },
+    {
+      "en": "mossy cobblestone slab",
+      "raw": "苔石台阶",
+      "link": "苔石台阶",
+      "zh": "苔石台阶"
+    },
+    {
+      "en": "mossy cobblestone stairs",
+      "raw": "苔石楼梯",
+      "link": "苔石楼梯",
+      "zh": "苔石楼梯"
+    },
+    {
+      "en": "mossy cobblestone wall",
+      "raw": "苔石墙",
+      "link": "苔石墙",
+      "zh": "苔石墙"
+    },
+    {
+      "en": "mossy stone brick slab",
+      "raw": "苔石砖台阶",
+      "link": "苔石砖台阶",
+      "zh": "苔石砖台阶"
+    },
+    {
+      "en": "mossy stone brick stairs",
+      "raw": "苔石砖楼梯",
+      "link": "苔石砖楼梯",
+      "zh": "苔石砖楼梯"
+    },
+    {
+      "en": "mossy stone brick wall",
+      "raw": "苔石砖墙",
+      "link": "苔石砖墙",
+      "zh": "苔石砖墙"
+    },
+    {
+      "en": "mossy stone bricks",
+      "raw": "苔石砖",
+      "link": "苔石砖",
+      "zh": "苔石砖"
+    },
+    {
+      "en": "moving block",
+      "raw": "移动的活塞|移动的方块",
+      "link": "移动的活塞",
+      "zh": "移动的方块"
+    },
+    {
+      "en": "moving piston",
+      "raw": "移动的活塞",
+      "link": "移动的活塞",
+      "zh": "移动的活塞"
+    },
+    {
+      "en": "mud",
+      "raw": "泥巴",
+      "link": "泥巴",
+      "zh": "泥巴"
+    },
+    {
+      "en": "mud brick slab",
+      "raw": "泥砖台阶",
+      "link": "泥砖台阶",
+      "zh": "泥砖台阶"
+    },
+    {
+      "en": "mud brick stairs",
+      "raw": "泥砖楼梯",
+      "link": "泥砖楼梯",
+      "zh": "泥砖楼梯"
+    },
+    {
+      "en": "mud brick wall",
+      "raw": "泥砖墙",
+      "link": "泥砖墙",
+      "zh": "泥砖墙"
+    },
+    {
+      "en": "mud bricks",
+      "raw": "泥砖",
+      "link": "泥砖",
+      "zh": "泥砖"
+    },
+    {
+      "en": "muddy mangrove roots",
+      "raw": "沾泥的红树根",
+      "link": "沾泥的红树根",
+      "zh": "沾泥的红树根"
+    },
+    {
+      "en": "mushroom",
+      "raw": "蘑菇",
+      "link": "蘑菇",
+      "zh": "蘑菇"
+    },
+    {
+      "en": "mushroom block",
+      "raw": "蘑菇方块",
+      "link": "蘑菇方块",
+      "zh": "蘑菇方块"
+    },
+    {
+      "en": "mushroom stem",
+      "raw": "蘑菇方块|蘑菇柄",
+      "link": "蘑菇方块",
+      "zh": "蘑菇柄"
+    },
+    {
+      "en": "mycelium",
+      "raw": "菌丝体",
+      "link": "菌丝体",
+      "zh": "菌丝体"
+    },
+    {
+      "en": "mysterious frame",
+      "raw": "神秘框架",
+      "link": "神秘框架",
+      "zh": "神秘框架"
+    },
+    {
+      "en": "mysterious frame with slot",
+      "raw": "神秘框架|带插槽的神秘框架",
+      "link": "神秘框架",
+      "zh": "带插槽的神秘框架"
+    },
+    {
+      "en": "nether brick fence",
+      "raw": "下界砖栅栏",
+      "link": "下界砖栅栏",
+      "zh": "下界砖栅栏"
+    },
+    {
+      "en": "nether brick slab",
+      "raw": "下界砖台阶",
+      "link": "下界砖台阶",
+      "zh": "下界砖台阶"
+    },
+    {
+      "en": "nether brick stairs",
+      "raw": "下界砖楼梯",
+      "link": "下界砖楼梯",
+      "zh": "下界砖楼梯"
+    },
+    {
+      "en": "nether brick wall",
+      "raw": "下界砖墙",
+      "link": "下界砖墙",
+      "zh": "下界砖墙"
+    },
+    {
+      "en": "nether bricks",
+      "raw": "下界砖块",
+      "link": "下界砖块",
+      "zh": "下界砖块"
+    },
+    {
+      "en": "nether gold ore",
+      "raw": "下界金矿石",
+      "link": "下界金矿石",
+      "zh": "下界金矿石"
+    },
+    {
+      "en": "nether planks",
+      "raw": "木板|下界木板",
+      "link": "木板",
+      "zh": "下界木板"
+    },
+    {
+      "en": "nether portal",
+      "raw": "下界传送门（方块）|下界传送门",
+      "link": "下界传送门（方块）",
+      "zh": "下界传送门"
+    },
+    {
+      "en": "nether quartz ore",
+      "raw": "下界石英矿石",
+      "link": "下界石英矿石",
+      "zh": "下界石英矿石"
+    },
+    {
+      "en": "nether sprouts",
+      "raw": "下界苗",
+      "link": "下界苗",
+      "zh": "下界苗"
+    },
+    {
+      "en": "nether wart",
+      "raw": "下界疣",
+      "link": "下界疣",
+      "zh": "下界疣"
+    },
+    {
+      "en": "nether wart block",
+      "raw": "下界疣块",
+      "link": "下界疣块",
+      "zh": "下界疣块"
+    },
+    {
+      "en": "netherrack",
+      "raw": "下界岩",
+      "link": "下界岩",
+      "zh": "下界岩"
+    },
+    {
+      "en": "note block",
+      "raw": "音符盒",
+      "link": "音符盒",
+      "zh": "音符盒"
+    },
+    {
+      "en": "nylium",
+      "raw": "菌岩",
+      "link": "菌岩",
+      "zh": "菌岩"
+    },
+    {
+      "en": "oak button",
+      "raw": "木按钮|橡木按钮",
+      "link": "木按钮",
+      "zh": "橡木按钮"
+    },
+    {
+      "en": "oak door",
+      "raw": "木门|橡木门",
+      "link": "木门",
+      "zh": "橡木门"
+    },
+    {
+      "en": "oak fence",
+      "raw": "木栅栏|橡木栅栏",
+      "link": "木栅栏",
+      "zh": "橡木栅栏"
+    },
+    {
+      "en": "oak fence gate",
+      "raw": "栅栏门|橡木栅栏门",
+      "link": "栅栏门",
+      "zh": "橡木栅栏门"
+    },
+    {
+      "en": "oak hanging sign",
+      "raw": "悬挂式告示牌|悬挂式橡木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式橡木告示牌"
+    },
+    {
+      "en": "oak leaves",
+      "raw": "树叶|橡树树叶",
+      "link": "树叶",
+      "zh": "橡树树叶"
+    },
+    {
+      "en": "oak log",
+      "raw": "原木|橡木原木",
+      "link": "原木",
+      "zh": "橡木原木"
+    },
+    {
+      "en": "oak planks",
+      "raw": "木板|橡木木板",
+      "link": "木板",
+      "zh": "橡木木板"
+    },
+    {
+      "en": "oak pressure plate",
+      "raw": "木压力板|橡木压力板",
+      "link": "木压力板",
+      "zh": "橡木压力板"
+    },
+    {
+      "en": "oak sapling",
+      "raw": "树苗|橡树树苗",
+      "link": "树苗",
+      "zh": "橡树树苗"
+    },
+    {
+      "en": "oak shelf",
+      "raw": "展示架|橡木展示架",
+      "link": "展示架",
+      "zh": "橡木展示架"
+    },
+    {
+      "en": "oak sign",
+      "raw": "告示牌|橡木告示牌",
+      "link": "告示牌",
+      "zh": "橡木告示牌"
+    },
+    {
+      "en": "oak slab",
+      "raw": "木台阶|橡木台阶",
+      "link": "木台阶",
+      "zh": "橡木台阶"
+    },
+    {
+      "en": "oak stairs",
+      "raw": "木楼梯|橡木楼梯",
+      "link": "木楼梯",
+      "zh": "橡木楼梯"
+    },
+    {
+      "en": "oak trapdoor",
+      "raw": "木活板门|橡木活板门",
+      "link": "木活板门",
+      "zh": "橡木活板门"
+    },
+    {
+      "en": "oak wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式橡木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式橡木告示牌"
+    },
+    {
+      "en": "oak wall sign",
+      "raw": "告示牌|墙上的橡木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的橡木告示牌"
+    },
+    {
+      "en": "oak wood",
+      "raw": "木头|橡木塊",
+      "link": "木头",
+      "zh": "橡木塊"
+    },
+    {
+      "en": "observer",
+      "raw": "侦测器",
+      "link": "侦测器",
+      "zh": "侦测器"
+    },
+    {
+      "en": "obsidian",
+      "raw": "黑曜石",
+      "link": "黑曜石",
+      "zh": "黑曜石"
+    },
+    {
+      "en": "ochre froglight",
+      "raw": "蛙明灯|赭黄蛙明灯",
+      "link": "蛙明灯",
+      "zh": "赭黄蛙明灯"
+    },
+    {
+      "en": "ominous banner",
+      "raw": "不祥旗帜",
+      "link": "不祥旗帜",
+      "zh": "不祥旗帜"
+    },
+    {
+      "en": "ominous trial spawner",
+      "raw": "不祥试炼刷怪笼",
+      "link": "不祥试炼刷怪笼",
+      "zh": "不祥试炼刷怪笼"
+    },
+    {
+      "en": "ominous vault",
+      "raw": "不祥宝库",
+      "link": "不祥宝库",
+      "zh": "不祥宝库"
+    },
+    {
+      "en": "open eyeblossom",
+      "raw": "眼眸花|张开的眼眸花",
+      "link": "眼眸花",
+      "zh": "张开的眼眸花"
+    },
+    {
+      "en": "orange banner",
+      "raw": "旗帜|橙色旗帜",
+      "link": "旗帜",
+      "zh": "橙色旗帜"
+    },
+    {
+      "en": "orange bed",
+      "raw": "床|橙色床",
+      "link": "床",
+      "zh": "橙色床"
+    },
+    {
+      "en": "orange candle",
+      "raw": "蜡烛|橙色蜡烛",
+      "link": "蜡烛",
+      "zh": "橙色蜡烛"
+    },
+    {
+      "en": "orange carpet",
+      "raw": "地毯|橙色地毯",
+      "link": "地毯",
+      "zh": "橙色地毯"
+    },
+    {
+      "en": "orange concrete",
+      "raw": "混凝土|橙色混凝土",
+      "link": "混凝土",
+      "zh": "橙色混凝土"
+    },
+    {
+      "en": "orange concrete powder",
+      "raw": "混凝土粉末|橙色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "橙色混凝土粉末"
+    },
+    {
+      "en": "orange concrete slab",
+      "raw": "混凝土半磚|橙色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "橙色混凝土台阶"
+    },
+    {
+      "en": "orange concrete stairs",
+      "raw": "混凝土楼梯|橙色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "橙色混凝土楼梯"
+    },
+    {
+      "en": "orange glazed terracotta",
+      "raw": "带釉陶瓦|橙色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "橙色带釉陶瓦"
+    },
+    {
+      "en": "orange hardened clay",
+      "raw": "染色陶瓦|橙色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "橙色硬化粘土"
+    },
+    {
+      "en": "orange poplar leaves",
+      "raw": "树叶|橙色杨树树叶",
+      "link": "树叶",
+      "zh": "橙色杨树树叶"
+    },
+    {
+      "en": "orange shulker box",
+      "raw": "潜影盒|橙色潜影盒",
+      "link": "潜影盒",
+      "zh": "橙色潜影盒"
+    },
+    {
+      "en": "orange stained clay",
+      "raw": "染色陶瓦|橙色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "橙色染色黏土"
+    },
+    {
+      "en": "orange stained glass",
+      "raw": "染色玻璃|橙色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "橙色染色玻璃"
+    },
+    {
+      "en": "orange stained glass pane",
+      "raw": "染色玻璃板|橙色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "橙色染色玻璃板"
+    },
+    {
+      "en": "orange terracotta",
+      "raw": "染色陶瓦|橙色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "橙色陶瓦"
+    },
+    {
+      "en": "orange tulip",
+      "raw": "郁金香|橙色郁金香",
+      "link": "郁金香",
+      "zh": "橙色郁金香"
+    },
+    {
+      "en": "orange wall banner",
+      "raw": "旗帜|墙上的橙色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的橙色旗帜"
+    },
+    {
+      "en": "orange wool",
+      "raw": "羊毛|橙色羊毛",
+      "link": "羊毛",
+      "zh": "橙色羊毛"
+    },
+    {
+      "en": "orange wool slab",
+      "raw": "羊毛台阶|橙色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "橙色羊毛台阶"
+    },
+    {
+      "en": "orange wool stairs",
+      "raw": "羊毛楼梯|橙色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "橙色羊毛楼梯"
+    },
+    {
+      "en": "overworld log",
+      "raw": "原木|主世界原木",
+      "link": "原木",
+      "zh": "主世界原木"
+    },
+    {
+      "en": "overworld planks",
+      "raw": "木板|主世界木板",
+      "link": "木板",
+      "zh": "主世界木板"
+    },
+    {
+      "en": "overworld stripped log",
+      "raw": "去皮原木|主世界去皮原木",
+      "link": "去皮原木",
+      "zh": "主世界去皮原木"
+    },
+    {
+      "en": "overworld stripped wood",
+      "raw": "去皮木头|主世界去皮木头",
+      "link": "去皮木头",
+      "zh": "主世界去皮木头"
+    },
+    {
+      "en": "overworld wood",
+      "raw": "木头|主世界木塊",
+      "link": "木头",
+      "zh": "主世界木塊"
+    },
+    {
+      "en": "oxeye daisy",
+      "raw": "滨菊",
+      "link": "滨菊",
+      "zh": "滨菊"
+    },
+    {
+      "en": "oxidized chiseled copper",
+      "raw": "雕纹铜块|氧化的雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "氧化的雕纹铜块"
+    },
+    {
+      "en": "oxidized copper",
+      "raw": "铜块|氧化的铜块",
+      "link": "铜块",
+      "zh": "氧化的铜块"
+    },
+    {
+      "en": "oxidized copper bars",
+      "raw": "铜栏杆|氧化的铜栏杆",
+      "link": "铜栏杆",
+      "zh": "氧化的铜栏杆"
+    },
+    {
+      "en": "oxidized copper bulb",
+      "raw": "铜灯|氧化的铜灯",
+      "link": "铜灯",
+      "zh": "氧化的铜灯"
+    },
+    {
+      "en": "oxidized copper chain",
+      "raw": "铜链|氧化的铜链",
+      "link": "铜链",
+      "zh": "氧化的铜链"
+    },
+    {
+      "en": "oxidized copper chest",
+      "raw": "铜箱子|氧化的铜箱子",
+      "link": "铜箱子",
+      "zh": "氧化的铜箱子"
+    },
+    {
+      "en": "oxidized copper door",
+      "raw": "铜门|氧化的铜门",
+      "link": "铜门",
+      "zh": "氧化的铜门"
+    },
+    {
+      "en": "oxidized copper golem statue",
+      "raw": "铜傀儡像|氧化的铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "氧化的铜傀儡像"
+    },
+    {
+      "en": "oxidized copper grate",
+      "raw": "铜格栅|氧化的铜格栅",
+      "link": "铜格栅",
+      "zh": "氧化的铜格栅"
+    },
+    {
+      "en": "oxidized copper lantern",
+      "raw": "铜灯笼|氧化的铜灯笼",
+      "link": "铜灯笼",
+      "zh": "氧化的铜灯笼"
+    },
+    {
+      "en": "oxidized copper trapdoor",
+      "raw": "铜活板门|氧化的铜活板门",
+      "link": "铜活板门",
+      "zh": "氧化的铜活板门"
+    },
+    {
+      "en": "oxidized cut copper",
+      "raw": "切制铜块|氧化的切制铜块",
+      "link": "切制铜块",
+      "zh": "氧化的切制铜块"
+    },
+    {
+      "en": "oxidized cut copper slab",
+      "raw": "切制铜台阶|氧化的切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "氧化的切制铜台阶"
+    },
+    {
+      "en": "oxidized cut copper stairs",
+      "raw": "切制铜楼梯|氧化的切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "氧化的切制铜楼梯"
+    },
+    {
+      "en": "oxidized lightning rod",
+      "raw": "避雷针|氧化的避雷针",
+      "link": "避雷针",
+      "zh": "氧化的避雷针"
+    },
+    {
+      "en": "packed ice",
+      "raw": "浮冰",
+      "link": "浮冰",
+      "zh": "浮冰"
+    },
+    {
+      "en": "packed mud",
+      "raw": "泥坯",
+      "link": "泥坯",
+      "zh": "泥坯"
+    },
+    {
+      "en": "pale hanging moss",
+      "raw": "苍白垂须",
+      "link": "苍白垂须",
+      "zh": "苍白垂须"
+    },
+    {
+      "en": "pale moss block",
+      "raw": "苍白苔藓块",
+      "link": "苍白苔藓块",
+      "zh": "苍白苔藓块"
+    },
+    {
+      "en": "pale moss carpet",
+      "raw": "苍白覆地苔藓",
+      "link": "苍白覆地苔藓",
+      "zh": "苍白覆地苔藓"
+    },
+    {
+      "en": "pale oak button",
+      "raw": "木按钮|苍白橡木按钮",
+      "link": "木按钮",
+      "zh": "苍白橡木按钮"
+    },
+    {
+      "en": "pale oak door",
+      "raw": "木门|苍白橡木门",
+      "link": "木门",
+      "zh": "苍白橡木门"
+    },
+    {
+      "en": "pale oak fence",
+      "raw": "木栅栏|苍白橡木栅栏",
+      "link": "木栅栏",
+      "zh": "苍白橡木栅栏"
+    },
+    {
+      "en": "pale oak fence gate",
+      "raw": "栅栏门|苍白橡木栅栏门",
+      "link": "栅栏门",
+      "zh": "苍白橡木栅栏门"
+    },
+    {
+      "en": "pale oak hanging sign",
+      "raw": "悬挂式告示牌|悬挂式苍白橡木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式苍白橡木告示牌"
+    },
+    {
+      "en": "pale oak leaves",
+      "raw": "树叶|苍白橡树树叶",
+      "link": "树叶",
+      "zh": "苍白橡树树叶"
+    },
+    {
+      "en": "pale oak log",
+      "raw": "原木|苍白橡木原木",
+      "link": "原木",
+      "zh": "苍白橡木原木"
+    },
+    {
+      "en": "pale oak planks",
+      "raw": "木板|苍白橡木木板",
+      "link": "木板",
+      "zh": "苍白橡木木板"
+    },
+    {
+      "en": "pale oak pressure plate",
+      "raw": "木压力板|苍白橡木压力板",
+      "link": "木压力板",
+      "zh": "苍白橡木压力板"
+    },
+    {
+      "en": "pale oak sapling",
+      "raw": "树苗|苍白橡树树苗",
+      "link": "树苗",
+      "zh": "苍白橡树树苗"
+    },
+    {
+      "en": "pale oak shelf",
+      "raw": "展示架|苍白橡木展示架",
+      "link": "展示架",
+      "zh": "苍白橡木展示架"
+    },
+    {
+      "en": "pale oak sign",
+      "raw": "告示牌|苍白橡木告示牌",
+      "link": "告示牌",
+      "zh": "苍白橡木告示牌"
+    },
+    {
+      "en": "pale oak slab",
+      "raw": "木台阶|苍白橡木台阶",
+      "link": "木台阶",
+      "zh": "苍白橡木台阶"
+    },
+    {
+      "en": "pale oak stairs",
+      "raw": "木楼梯|苍白橡木楼梯",
+      "link": "木楼梯",
+      "zh": "苍白橡木楼梯"
+    },
+    {
+      "en": "pale oak trapdoor",
+      "raw": "木活板门|苍白橡木活板门",
+      "link": "木活板门",
+      "zh": "苍白橡木活板门"
+    },
+    {
+      "en": "pale oak wall sign",
+      "raw": "告示牌|墙上的苍白橡木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的苍白橡木告示牌"
+    },
+    {
+      "en": "pale oak wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式苍白橡木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式苍白橡木告示牌"
+    },
+    {
+      "en": "pale oak wood",
+      "raw": "木头|蒼白橡木塊",
+      "link": "木头",
+      "zh": "蒼白橡木塊"
+    },
+    {
+      "en": "pearlescent froglight",
+      "raw": "蛙明灯|珠光蛙明灯",
+      "link": "蛙明灯",
+      "zh": "珠光蛙明灯"
+    },
+    {
+      "en": "peony",
+      "raw": "牡丹",
+      "link": "牡丹",
+      "zh": "牡丹"
+    },
+    {
+      "en": "petrified oak slab",
+      "raw": "石化橡木台阶",
+      "link": "石化橡木台阶",
+      "zh": "石化橡木台阶"
+    },
+    {
+      "en": "piglin head",
+      "raw": "猪灵的头",
+      "link": "猪灵的头",
+      "zh": "猪灵的头"
+    },
+    {
+      "en": "piglin wall head",
+      "raw": "猪灵的头|墙上的猪灵的头",
+      "link": "猪灵的头",
+      "zh": "墙上的猪灵的头"
+    },
+    {
+      "en": "pink banner",
+      "raw": "旗帜|粉红色旗帜",
+      "link": "旗帜",
+      "zh": "粉红色旗帜"
+    },
+    {
+      "en": "pink bed",
+      "raw": "床|粉红色床",
+      "link": "床",
+      "zh": "粉红色床"
+    },
+    {
+      "en": "pink candle",
+      "raw": "蜡烛|粉红色蜡烛",
+      "link": "蜡烛",
+      "zh": "粉红色蜡烛"
+    },
+    {
+      "en": "pink carpet",
+      "raw": "地毯|粉红色地毯",
+      "link": "地毯",
+      "zh": "粉红色地毯"
+    },
+    {
+      "en": "pink concrete",
+      "raw": "混凝土|粉红色混凝土",
+      "link": "混凝土",
+      "zh": "粉红色混凝土"
+    },
+    {
+      "en": "pink concrete powder",
+      "raw": "混凝土粉末|粉红色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "粉红色混凝土粉末"
+    },
+    {
+      "en": "pink concrete slab",
+      "raw": "混凝土半磚|粉红色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "粉红色混凝土台阶"
+    },
+    {
+      "en": "pink concrete stairs",
+      "raw": "混凝土楼梯|粉红色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "粉红色混凝土楼梯"
+    },
+    {
+      "en": "pink glazed terracotta",
+      "raw": "带釉陶瓦|粉红色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "粉红色带釉陶瓦"
+    },
+    {
+      "en": "pink hardened clay",
+      "raw": "染色陶瓦|粉红色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "粉红色硬化粘土"
+    },
+    {
+      "en": "pink petals",
+      "raw": "粉红色花簇",
+      "link": "粉红色花簇",
+      "zh": "粉红色花簇"
+    },
+    {
+      "en": "pink shulker box",
+      "raw": "潜影盒|粉红色潜影盒",
+      "link": "潜影盒",
+      "zh": "粉红色潜影盒"
+    },
+    {
+      "en": "pink stained clay",
+      "raw": "染色陶瓦|粉红色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "粉红色染色黏土"
+    },
+    {
+      "en": "pink stained glass",
+      "raw": "染色玻璃|粉红色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "粉红色染色玻璃"
+    },
+    {
+      "en": "pink stained glass pane",
+      "raw": "染色玻璃板|粉红色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "粉红色染色玻璃板"
+    },
+    {
+      "en": "pink terracotta",
+      "raw": "染色陶瓦|粉红色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "粉红色陶瓦"
+    },
+    {
+      "en": "pink tulip",
+      "raw": "郁金香|粉红色郁金香",
+      "link": "郁金香",
+      "zh": "粉红色郁金香"
+    },
+    {
+      "en": "pink wall banner",
+      "raw": "旗帜|墙上的粉红色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的粉红色旗帜"
+    },
+    {
+      "en": "pink wool",
+      "raw": "羊毛|粉红色羊毛",
+      "link": "羊毛",
+      "zh": "粉红色羊毛"
+    },
+    {
+      "en": "pink wool slab",
+      "raw": "羊毛台阶|粉红色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "粉红色羊毛台阶"
+    },
+    {
+      "en": "pink wool stairs",
+      "raw": "羊毛楼梯|粉红色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "粉红色羊毛楼梯"
+    },
+    {
+      "en": "piston",
+      "raw": "活塞",
+      "link": "活塞",
+      "zh": "活塞"
+    },
+    {
+      "en": "piston head",
+      "raw": "活塞|活塞头",
+      "link": "活塞",
+      "zh": "活塞头"
+    },
+    {
+      "en": "pitcher crop",
+      "raw": "瓶子草荚果|瓶子草植株",
+      "link": "瓶子草荚果",
+      "zh": "瓶子草植株"
+    },
+    {
+      "en": "pitcher plant",
+      "raw": "瓶子草",
+      "link": "瓶子草",
+      "zh": "瓶子草"
+    },
+    {
+      "en": "planks",
+      "raw": "木板",
+      "link": "木板",
+      "zh": "木板"
+    },
+    {
+      "en": "player head",
+      "raw": "玩家的头",
+      "link": "玩家的头",
+      "zh": "玩家的头"
+    },
+    {
+      "en": "player wall head",
+      "raw": "玩家的头|墙上的玩家的头",
+      "link": "玩家的头",
+      "zh": "墙上的玩家的头"
+    },
+    {
+      "en": "podzol",
+      "raw": "灰化土",
+      "link": "灰化土",
+      "zh": "灰化土"
+    },
+    {
+      "en": "pointed dripstone",
+      "raw": "滴水石锥",
+      "link": "滴水石锥",
+      "zh": "滴水石锥"
+    },
+    {
+      "en": "polished andesite",
+      "raw": "磨制安山岩",
+      "link": "磨制安山岩",
+      "zh": "磨制安山岩"
+    },
+    {
+      "en": "polished andesite slab",
+      "raw": "磨制安山岩台阶",
+      "link": "磨制安山岩台阶",
+      "zh": "磨制安山岩台阶"
+    },
+    {
+      "en": "polished andesite stairs",
+      "raw": "磨制安山岩楼梯",
+      "link": "磨制安山岩楼梯",
+      "zh": "磨制安山岩楼梯"
+    },
+    {
+      "en": "polished basalt",
+      "raw": "磨制玄武岩",
+      "link": "磨制玄武岩",
+      "zh": "磨制玄武岩"
+    },
+    {
+      "en": "polished blackstone",
+      "raw": "磨制黑石",
+      "link": "磨制黑石",
+      "zh": "磨制黑石"
+    },
+    {
+      "en": "polished blackstone brick slab",
+      "raw": "磨制黑石砖台阶",
+      "link": "磨制黑石砖台阶",
+      "zh": "磨制黑石砖台阶"
+    },
+    {
+      "en": "polished blackstone brick stairs",
+      "raw": "磨制黑石砖楼梯",
+      "link": "磨制黑石砖楼梯",
+      "zh": "磨制黑石砖楼梯"
+    },
+    {
+      "en": "polished blackstone brick wall",
+      "raw": "磨制黑石砖墙",
+      "link": "磨制黑石砖墙",
+      "zh": "磨制黑石砖墙"
+    },
+    {
+      "en": "polished blackstone bricks",
+      "raw": "磨制黑石砖",
+      "link": "磨制黑石砖",
+      "zh": "磨制黑石砖"
+    },
+    {
+      "en": "polished blackstone button",
+      "raw": "磨制黑石按钮",
+      "link": "磨制黑石按钮",
+      "zh": "磨制黑石按钮"
+    },
+    {
+      "en": "polished blackstone pressure plate",
+      "raw": "磨制黑石压力板",
+      "link": "磨制黑石压力板",
+      "zh": "磨制黑石压力板"
+    },
+    {
+      "en": "polished blackstone slab",
+      "raw": "磨制黑石台阶",
+      "link": "磨制黑石台阶",
+      "zh": "磨制黑石台阶"
+    },
+    {
+      "en": "polished blackstone stairs",
+      "raw": "磨制黑石楼梯",
+      "link": "磨制黑石楼梯",
+      "zh": "磨制黑石楼梯"
+    },
+    {
+      "en": "polished blackstone wall",
+      "raw": "磨制黑石墙",
+      "link": "磨制黑石墙",
+      "zh": "磨制黑石墙"
+    },
+    {
+      "en": "polished cinnabar",
+      "raw": "磨制朱砂",
+      "link": "磨制朱砂",
+      "zh": "磨制朱砂"
+    },
+    {
+      "en": "polished cinnabar slab",
+      "raw": "磨制朱砂台阶",
+      "link": "磨制朱砂台阶",
+      "zh": "磨制朱砂台阶"
+    },
+    {
+      "en": "polished cinnabar stairs",
+      "raw": "磨制朱砂楼梯",
+      "link": "磨制朱砂楼梯",
+      "zh": "磨制朱砂楼梯"
+    },
+    {
+      "en": "polished cinnabar wall",
+      "raw": "磨制朱砂墙",
+      "link": "磨制朱砂墙",
+      "zh": "磨制朱砂墙"
+    },
+    {
+      "en": "polished deepslate",
+      "raw": "磨制深板岩",
+      "link": "磨制深板岩",
+      "zh": "磨制深板岩"
+    },
+    {
+      "en": "polished deepslate slab",
+      "raw": "磨制深板岩台阶",
+      "link": "磨制深板岩台阶",
+      "zh": "磨制深板岩台阶"
+    },
+    {
+      "en": "polished deepslate stairs",
+      "raw": "磨制深板岩楼梯",
+      "link": "磨制深板岩楼梯",
+      "zh": "磨制深板岩楼梯"
+    },
+    {
+      "en": "polished deepslate wall",
+      "raw": "磨制深板岩墙",
+      "link": "磨制深板岩墙",
+      "zh": "磨制深板岩墙"
+    },
+    {
+      "en": "polished diorite",
+      "raw": "磨制闪长岩",
+      "link": "磨制闪长岩",
+      "zh": "磨制闪长岩"
+    },
+    {
+      "en": "polished diorite slab",
+      "raw": "磨制闪长岩台阶",
+      "link": "磨制闪长岩台阶",
+      "zh": "磨制闪长岩台阶"
+    },
+    {
+      "en": "polished diorite stairs",
+      "raw": "磨制闪长岩楼梯",
+      "link": "磨制闪长岩楼梯",
+      "zh": "磨制闪长岩楼梯"
+    },
+    {
+      "en": "polished granite",
+      "raw": "磨制花岗岩",
+      "link": "磨制花岗岩",
+      "zh": "磨制花岗岩"
+    },
+    {
+      "en": "polished granite bell",
+      "raw": "钟|磨制花岗岩钟",
+      "link": "钟",
+      "zh": "磨制花岗岩钟"
+    },
+    {
+      "en": "polished granite slab",
+      "raw": "磨制花岗岩台阶",
+      "link": "磨制花岗岩台阶",
+      "zh": "磨制花岗岩台阶"
+    },
+    {
+      "en": "polished granite stairs",
+      "raw": "磨制花岗岩楼梯",
+      "link": "磨制花岗岩楼梯",
+      "zh": "磨制花岗岩楼梯"
+    },
+    {
+      "en": "polished sulfur",
+      "raw": "磨制硫黄",
+      "link": "磨制硫黄",
+      "zh": "磨制硫黄"
+    },
+    {
+      "en": "polished sulfur slab",
+      "raw": "磨制硫黄台阶",
+      "link": "磨制硫黄台阶",
+      "zh": "磨制硫黄台阶"
+    },
+    {
+      "en": "polished sulfur stairs",
+      "raw": "磨制硫黄楼梯",
+      "link": "磨制硫黄楼梯",
+      "zh": "磨制硫黄楼梯"
+    },
+    {
+      "en": "polished sulfur wall",
+      "raw": "磨制硫黄墙",
+      "link": "磨制硫黄墙",
+      "zh": "磨制硫黄墙"
+    },
+    {
+      "en": "polished tuff",
+      "raw": "磨制凝灰岩",
+      "link": "磨制凝灰岩",
+      "zh": "磨制凝灰岩"
+    },
+    {
+      "en": "polished tuff slab",
+      "raw": "磨制凝灰岩台阶",
+      "link": "磨制凝灰岩台阶",
+      "zh": "磨制凝灰岩台阶"
+    },
+    {
+      "en": "polished tuff stairs",
+      "raw": "磨制凝灰岩楼梯",
+      "link": "磨制凝灰岩楼梯",
+      "zh": "磨制凝灰岩楼梯"
+    },
+    {
+      "en": "polished tuff wall",
+      "raw": "磨制凝灰岩墙",
+      "link": "磨制凝灰岩墙",
+      "zh": "磨制凝灰岩墙"
+    },
+    {
+      "en": "poppy",
+      "raw": "虞美人",
+      "link": "虞美人",
+      "zh": "虞美人"
+    },
+    {
+      "en": "potatoes",
+      "raw": "马铃薯",
+      "link": "马铃薯",
+      "zh": "马铃薯"
+    },
+    {
+      "en": "potent sulfur",
+      "raw": "烈性硫黄",
+      "link": "烈性硫黄",
+      "zh": "烈性硫黄"
+    },
+    {
+      "en": "poplar button",
+      "raw": "木按钮|杨木按钮",
+      "link": "木按钮",
+      "zh": "杨木按钮"
+    },
+    {
+      "en": "poplar door",
+      "raw": "木门|杨木门",
+      "link": "木门",
+      "zh": "杨木门"
+    },
+    {
+      "en": "poplar fence",
+      "raw": "木栅栏|杨木栅栏",
+      "link": "木栅栏",
+      "zh": "杨木栅栏"
+    },
+    {
+      "en": "poplar fence gate",
+      "raw": "栅栏门|杨木栅栏门",
+      "link": "栅栏门",
+      "zh": "杨木栅栏门"
+    },
+    {
+      "en": "poplar hanging sign",
+      "raw": "悬挂式告示牌|悬挂式杨木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式杨木告示牌"
+    },
+    {
+      "en": "poplar leaves",
+      "raw": "树叶|杨树树叶",
+      "link": "树叶",
+      "zh": "杨树树叶"
+    },
+    {
+      "en": "poplar log",
+      "raw": "原木|杨木原木",
+      "link": "原木",
+      "zh": "杨木原木"
+    },
+    {
+      "en": "poplar planks",
+      "raw": "木板|杨木木板",
+      "link": "木板",
+      "zh": "杨木木板"
+    },
+    {
+      "en": "poplar pressure plate",
+      "raw": "木压力板|杨木压力板",
+      "link": "木压力板",
+      "zh": "杨木压力板"
+    },
+    {
+      "en": "poplar sapling",
+      "raw": "树苗|杨树树苗",
+      "link": "树苗",
+      "zh": "杨树树苗"
+    },
+    {
+      "en": "poplar shelf",
+      "raw": "展示架|杨木展示架",
+      "link": "展示架",
+      "zh": "杨木展示架"
+    },
+    {
+      "en": "poplar sign",
+      "raw": "告示牌|杨木告示牌",
+      "link": "告示牌",
+      "zh": "杨木告示牌"
+    },
+    {
+      "en": "poplar slab",
+      "raw": "木台阶|杨木台阶",
+      "link": "木台阶",
+      "zh": "杨木台阶"
+    },
+    {
+      "en": "poplar stairs",
+      "raw": "木楼梯|杨木楼梯",
+      "link": "木楼梯",
+      "zh": "杨木楼梯"
+    },
+    {
+      "en": "poplar trapdoor",
+      "raw": "木活板门|杨木活板门",
+      "link": "木活板门",
+      "zh": "杨木活板门"
+    },
+    {
+      "en": "poplar wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式杨木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式杨木告示牌"
+    },
+    {
+      "en": "poplar wall sign",
+      "raw": "告示牌|墙上的杨木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的杨木告示牌"
+    },
+    {
+      "en": "poplar wood",
+      "raw": "木头|楊木塊",
+      "link": "木头",
+      "zh": "楊木塊"
+    },
+    {
+      "en": "potted acacia sapling",
+      "raw": "花盆|金合欢树苗盆栽",
+      "link": "花盆",
+      "zh": "金合欢树苗盆栽"
+    },
+    {
+      "en": "potted allium",
+      "raw": "花盆|绒球葱盆栽",
+      "link": "花盆",
+      "zh": "绒球葱盆栽"
+    },
+    {
+      "en": "potted azalea",
+      "raw": "花盆|杜鹃花丛盆栽",
+      "link": "花盆",
+      "zh": "杜鹃花丛盆栽"
+    },
+    {
+      "en": "potted azure bluet",
+      "raw": "花盆|蓝花美耳草盆栽",
+      "link": "花盆",
+      "zh": "蓝花美耳草盆栽"
+    },
+    {
+      "en": "potted bamboo",
+      "raw": "花盆|竹子盆栽",
+      "link": "花盆",
+      "zh": "竹子盆栽"
+    },
+    {
+      "en": "potted birch sapling",
+      "raw": "花盆|白桦树苗盆栽",
+      "link": "花盆",
+      "zh": "白桦树苗盆栽"
+    },
+    {
+      "en": "potted blue orchid",
+      "raw": "花盆|兰花盆栽",
+      "link": "花盆",
+      "zh": "兰花盆栽"
+    },
+    {
+      "en": "potted brown mushroom",
+      "raw": "花盆|棕色蘑菇盆栽",
+      "link": "花盆",
+      "zh": "棕色蘑菇盆栽"
+    },
+    {
+      "en": "potted cactus",
+      "raw": "花盆|仙人掌盆栽",
+      "link": "花盆",
+      "zh": "仙人掌盆栽"
+    },
+    {
+      "en": "potted cherry sapling",
+      "raw": "花盆|樱花树苗盆栽",
+      "link": "花盆",
+      "zh": "樱花树苗盆栽"
+    },
+    {
+      "en": "potted closed eyeblossom",
+      "raw": "花盆|闭合的眼眸花盆栽",
+      "link": "花盆",
+      "zh": "闭合的眼眸花盆栽"
+    },
+    {
+      "en": "potted cornflower",
+      "raw": "花盆|矢车菊盆栽",
+      "link": "花盆",
+      "zh": "矢车菊盆栽"
+    },
+    {
+      "en": "potted crimson fungus",
+      "raw": "花盆|绯红菌盆栽",
+      "link": "花盆",
+      "zh": "绯红菌盆栽"
+    },
+    {
+      "en": "potted crimson roots",
+      "raw": "花盆|绯红菌索盆栽",
+      "link": "花盆",
+      "zh": "绯红菌索盆栽"
+    },
+    {
+      "en": "potted dandelion",
+      "raw": "花盆|蒲公英盆栽",
+      "link": "花盆",
+      "zh": "蒲公英盆栽"
+    },
+    {
+      "en": "potted dark oak sapling",
+      "raw": "花盆|深色橡树树苗盆栽",
+      "link": "花盆",
+      "zh": "深色橡树树苗盆栽"
+    },
+    {
+      "en": "potted dead bush",
+      "raw": "花盆|枯萎的灌木盆栽",
+      "link": "花盆",
+      "zh": "枯萎的灌木盆栽"
+    },
+    {
+      "en": "potted fern",
+      "raw": "花盆|蕨盆栽",
+      "link": "花盆",
+      "zh": "蕨盆栽"
+    },
+    {
+      "en": "potted flowering azalea",
+      "raw": "花盆|盛开的杜鹃花丛盆栽",
+      "link": "花盆",
+      "zh": "盛开的杜鹃花丛盆栽"
+    },
+    {
+      "en": "potted golden dandelion",
+      "raw": "花盆|金蒲公英盆栽",
+      "link": "花盆",
+      "zh": "金蒲公英盆栽"
+    },
+    {
+      "en": "potted jungle sapling",
+      "raw": "花盆|丛林树苗盆栽",
+      "link": "花盆",
+      "zh": "丛林树苗盆栽"
+    },
+    {
+      "en": "potted lily of the valley",
+      "raw": "花盆|铃兰盆栽",
+      "link": "花盆",
+      "zh": "铃兰盆栽"
+    },
+    {
+      "en": "potted mangrove propagule",
+      "raw": "花盆|红树胎生苗盆栽",
+      "link": "花盆",
+      "zh": "红树胎生苗盆栽"
+    },
+    {
+      "en": "potted oak sapling",
+      "raw": "花盆|橡树树苗盆栽",
+      "link": "花盆",
+      "zh": "橡树树苗盆栽"
+    },
+    {
+      "en": "potted open eyeblossom",
+      "raw": "花盆|张开的眼眸花盆栽",
+      "link": "花盆",
+      "zh": "张开的眼眸花盆栽"
+    },
+    {
+      "en": "potted orange tulip",
+      "raw": "花盆|橙色郁金香盆栽",
+      "link": "花盆",
+      "zh": "橙色郁金香盆栽"
+    },
+    {
+      "en": "potted oxeye daisy",
+      "raw": "花盆|滨菊盆栽",
+      "link": "花盆",
+      "zh": "滨菊盆栽"
+    },
+    {
+      "en": "potted pale oak sapling",
+      "raw": "花盆|苍白橡树树苗盆栽",
+      "link": "花盆",
+      "zh": "苍白橡树树苗盆栽"
+    },
+    {
+      "en": "potted pink tulip",
+      "raw": "花盆|粉红色郁金香盆栽",
+      "link": "花盆",
+      "zh": "粉红色郁金香盆栽"
+    },
+    {
+      "en": "potted poplar sapling",
+      "raw": "杨树树苗盆栽",
+      "link": "杨树树苗盆栽",
+      "zh": "杨树树苗盆栽"
+    },
+    {
+      "en": "potted poppy",
+      "raw": "花盆|虞美人盆栽",
+      "link": "花盆",
+      "zh": "虞美人盆栽"
+    },
+    {
+      "en": "potted red mushroom",
+      "raw": "花盆|红色蘑菇盆栽",
+      "link": "花盆",
+      "zh": "红色蘑菇盆栽"
+    },
+    {
+      "en": "potted red tulip",
+      "raw": "花盆|红色郁金香盆栽",
+      "link": "花盆",
+      "zh": "红色郁金香盆栽"
+    },
+    {
+      "en": "potted spruce sapling",
+      "raw": "花盆|云杉树苗盆栽",
+      "link": "花盆",
+      "zh": "云杉树苗盆栽"
+    },
+    {
+      "en": "potted torchflower",
+      "raw": "花盆|火把花盆栽",
+      "link": "花盆",
+      "zh": "火把花盆栽"
+    },
+    {
+      "en": "potted warped fungus",
+      "raw": "花盆|诡异菌盆栽",
+      "link": "花盆",
+      "zh": "诡异菌盆栽"
+    },
+    {
+      "en": "potted warped roots",
+      "raw": "花盆|诡异菌索盆栽",
+      "link": "花盆",
+      "zh": "诡异菌索盆栽"
+    },
+    {
+      "en": "potted white tulip",
+      "raw": "花盆|白色郁金香盆栽",
+      "link": "花盆",
+      "zh": "白色郁金香盆栽"
+    },
+    {
+      "en": "potted wither rose",
+      "raw": "花盆|凋灵玫瑰盆栽",
+      "link": "花盆",
+      "zh": "凋灵玫瑰盆栽"
+    },
+    {
+      "en": "powder snow",
+      "raw": "细雪",
+      "link": "细雪",
+      "zh": "细雪"
+    },
+    {
+      "en": "powder snow cauldron",
+      "raw": "炼药锅|装有细雪的炼药锅",
+      "link": "炼药锅",
+      "zh": "装有细雪的炼药锅"
+    },
+    {
+      "en": "powered rail",
+      "raw": "动力铁轨",
+      "link": "动力铁轨",
+      "zh": "动力铁轨"
+    },
+    {
+      "en": "powered redstone comparator",
+      "raw": "红石比较器|激活的红石比较器",
+      "link": "红石比较器",
+      "zh": "激活的红石比较器"
+    },
+    {
+      "en": "powered redstone repeater",
+      "raw": "红石中继器|激活的红石中继器",
+      "link": "红石中继器",
+      "zh": "激活的红石中继器"
+    },
+    {
+      "en": "pressure plate",
+      "raw": "压力板",
+      "link": "压力板",
+      "zh": "压力板"
+    },
+    {
+      "en": "prismarine",
+      "raw": "海晶石",
+      "link": "海晶石",
+      "zh": "海晶石"
+    },
+    {
+      "en": "prismarine brick slab",
+      "raw": "海晶石砖台阶",
+      "link": "海晶石砖台阶",
+      "zh": "海晶石砖台阶"
+    },
+    {
+      "en": "prismarine brick stairs",
+      "raw": "海晶石砖楼梯",
+      "link": "海晶石砖楼梯",
+      "zh": "海晶石砖楼梯"
+    },
+    {
+      "en": "prismarine bricks",
+      "raw": "海晶石砖",
+      "link": "海晶石砖",
+      "zh": "海晶石砖"
+    },
+    {
+      "en": "prismarine slab",
+      "raw": "海晶石台阶",
+      "link": "海晶石台阶",
+      "zh": "海晶石台阶"
+    },
+    {
+      "en": "prismarine stairs",
+      "raw": "海晶石楼梯",
+      "link": "海晶石楼梯",
+      "zh": "海晶石楼梯"
+    },
+    {
+      "en": "prismarine wall",
+      "raw": "海晶石墙",
+      "link": "海晶石墙",
+      "zh": "海晶石墙"
+    },
+    {
+      "en": "pumpkin",
+      "raw": "南瓜",
+      "link": "南瓜",
+      "zh": "南瓜"
+    },
+    {
+      "en": "pumpkin stem",
+      "raw": "南瓜种子|南瓜茎",
+      "link": "南瓜种子",
+      "zh": "南瓜茎"
+    },
+    {
+      "en": "purple banner",
+      "raw": "旗帜|紫色旗帜",
+      "link": "旗帜",
+      "zh": "紫色旗帜"
+    },
+    {
+      "en": "purple bed",
+      "raw": "床|紫色床",
+      "link": "床",
+      "zh": "紫色床"
+    },
+    {
+      "en": "purple candle",
+      "raw": "蜡烛|紫色蜡烛",
+      "link": "蜡烛",
+      "zh": "紫色蜡烛"
+    },
+    {
+      "en": "purple carpet",
+      "raw": "地毯|紫色地毯",
+      "link": "地毯",
+      "zh": "紫色地毯"
+    },
+    {
+      "en": "purple concrete",
+      "raw": "混凝土|紫色混凝土",
+      "link": "混凝土",
+      "zh": "紫色混凝土"
+    },
+    {
+      "en": "purple concrete powder",
+      "raw": "混凝土粉末|紫色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "紫色混凝土粉末"
+    },
+    {
+      "en": "purple concrete slab",
+      "raw": "混凝土半磚|紫色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "紫色混凝土台阶"
+    },
+    {
+      "en": "purple concrete stairs",
+      "raw": "混凝土楼梯|紫色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "紫色混凝土楼梯"
+    },
+    {
+      "en": "purple glazed terracotta",
+      "raw": "带釉陶瓦|紫色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "紫色带釉陶瓦"
+    },
+    {
+      "en": "purple hardened clay",
+      "raw": "染色陶瓦|紫色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "紫色硬化粘土"
+    },
+    {
+      "en": "purple shulker box",
+      "raw": "潜影盒|紫色潜影盒",
+      "link": "潜影盒",
+      "zh": "紫色潜影盒"
+    },
+    {
+      "en": "purple stained clay",
+      "raw": "染色陶瓦|紫色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "紫色染色黏土"
+    },
+    {
+      "en": "purple stained glass",
+      "raw": "染色玻璃|紫色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "紫色染色玻璃"
+    },
+    {
+      "en": "purple stained glass pane",
+      "raw": "染色玻璃板|紫色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "紫色染色玻璃板"
+    },
+    {
+      "en": "purple terracotta",
+      "raw": "染色陶瓦|紫色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "紫色陶瓦"
+    },
+    {
+      "en": "purple wall banner",
+      "raw": "旗帜|墙上的紫色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的紫色旗帜"
+    },
+    {
+      "en": "purple wool",
+      "raw": "羊毛|紫色羊毛",
+      "link": "羊毛",
+      "zh": "紫色羊毛"
+    },
+    {
+      "en": "purple wool slab",
+      "raw": "羊毛台阶|紫色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "紫色羊毛台阶"
+    },
+    {
+      "en": "purple wool stairs",
+      "raw": "羊毛楼梯|紫色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "紫色羊毛楼梯"
+    },
+    {
+      "en": "purpur block",
+      "raw": "紫珀块",
+      "link": "紫珀块",
+      "zh": "紫珀块"
+    },
+    {
+      "en": "purpur pillar",
+      "raw": "紫珀柱",
+      "link": "紫珀柱",
+      "zh": "紫珀柱"
+    },
+    {
+      "en": "purpur slab",
+      "raw": "紫珀台阶",
+      "link": "紫珀台阶",
+      "zh": "紫珀台阶"
+    },
+    {
+      "en": "purpur stairs",
+      "raw": "紫珀楼梯",
+      "link": "紫珀楼梯",
+      "zh": "紫珀楼梯"
+    },
+    {
+      "en": "quartz block",
+      "raw": "石英块",
+      "link": "石英块",
+      "zh": "石英块"
+    },
+    {
+      "en": "quartz bricks",
+      "raw": "石英砖",
+      "link": "石英砖",
+      "zh": "石英砖"
+    },
+    {
+      "en": "quartz pillar",
+      "raw": "石英柱",
+      "link": "石英柱",
+      "zh": "石英柱"
+    },
+    {
+      "en": "quartz slab",
+      "raw": "石英台阶",
+      "link": "石英台阶",
+      "zh": "石英台阶"
+    },
+    {
+      "en": "quartz stairs",
+      "raw": "石英楼梯",
+      "link": "石英楼梯",
+      "zh": "石英楼梯"
+    },
+    {
+      "en": "rail",
+      "raw": "铁轨",
+      "link": "铁轨",
+      "zh": "铁轨"
+    },
+    {
+      "en": "red banner",
+      "raw": "旗帜|红色旗帜",
+      "link": "旗帜",
+      "zh": "红色旗帜"
+    },
+    {
+      "en": "red bed",
+      "raw": "床|红色床",
+      "link": "床",
+      "zh": "红色床"
+    },
+    {
+      "en": "red candle",
+      "raw": "蜡烛|红色蜡烛",
+      "link": "蜡烛",
+      "zh": "红色蜡烛"
+    },
+    {
+      "en": "red carpet",
+      "raw": "地毯|红色地毯",
+      "link": "地毯",
+      "zh": "红色地毯"
+    },
+    {
+      "en": "red concrete",
+      "raw": "混凝土|红色混凝土",
+      "link": "混凝土",
+      "zh": "红色混凝土"
+    },
+    {
+      "en": "red concrete powder",
+      "raw": "混凝土粉末|红色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "红色混凝土粉末"
+    },
+    {
+      "en": "red concrete slab",
+      "raw": "混凝土半磚|红色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "红色混凝土台阶"
+    },
+    {
+      "en": "red concrete stairs",
+      "raw": "混凝土楼梯|红色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "红色混凝土楼梯"
+    },
+    {
+      "en": "red glazed terracotta",
+      "raw": "带釉陶瓦|红色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "红色带釉陶瓦"
+    },
+    {
+      "en": "red hardened clay",
+      "raw": "染色陶瓦|红色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "红色硬化粘土"
+    },
+    {
+      "en": "red mushroom",
+      "raw": "红色蘑菇",
+      "link": "红色蘑菇",
+      "zh": "红色蘑菇"
+    },
+    {
+      "en": "red mushroom block",
+      "raw": "蘑菇方块|红色蘑菇方块",
+      "link": "蘑菇方块",
+      "zh": "红色蘑菇方块"
+    },
+    {
+      "en": "red nether brick slab",
+      "raw": "红色下界砖台阶",
+      "link": "红色下界砖台阶",
+      "zh": "红色下界砖台阶"
+    },
+    {
+      "en": "red nether brick stairs",
+      "raw": "红色下界砖楼梯",
+      "link": "红色下界砖楼梯",
+      "zh": "红色下界砖楼梯"
+    },
+    {
+      "en": "red nether brick wall",
+      "raw": "红色下界砖墙",
+      "link": "红色下界砖墙",
+      "zh": "红色下界砖墙"
+    },
+    {
+      "en": "red nether bricks",
+      "raw": "红色下界砖块",
+      "link": "红色下界砖块",
+      "zh": "红色下界砖块"
+    },
+    {
+      "en": "red poplar leaves",
+      "raw": "树叶|红色杨树树叶",
+      "link": "树叶",
+      "zh": "红色杨树树叶"
+    },
+    {
+      "en": "red sand",
+      "raw": "红沙",
+      "link": "红沙",
+      "zh": "红沙"
+    },
+    {
+      "en": "red sandstone",
+      "raw": "红砂岩",
+      "link": "红砂岩",
+      "zh": "红砂岩"
+    },
+    {
+      "en": "red sandstone slab",
+      "raw": "红砂岩台阶",
+      "link": "红砂岩台阶",
+      "zh": "红砂岩台阶"
+    },
+    {
+      "en": "red sandstone stairs",
+      "raw": "红砂岩楼梯",
+      "link": "红砂岩楼梯",
+      "zh": "红砂岩楼梯"
+    },
+    {
+      "en": "red sandstone wall",
+      "raw": "红砂岩墙",
+      "link": "红砂岩墙",
+      "zh": "红砂岩墙"
+    },
+    {
+      "en": "red shrub",
+      "raw": "红灌木",
+      "link": "红灌木",
+      "zh": "红灌木"
+    },
+    {
+      "en": "red shulker box",
+      "raw": "潜影盒|红色潜影盒",
+      "link": "潜影盒",
+      "zh": "红色潜影盒"
+    },
+    {
+      "en": "red stained clay",
+      "raw": "染色陶瓦|红色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "红色染色黏土"
+    },
+    {
+      "en": "red stained glass",
+      "raw": "染色玻璃|红色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "红色染色玻璃"
+    },
+    {
+      "en": "red stained glass pane",
+      "raw": "染色玻璃板|红色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "红色染色玻璃板"
+    },
+    {
+      "en": "red terracotta",
+      "raw": "染色陶瓦|红色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "红色陶瓦"
+    },
+    {
+      "en": "red tulip",
+      "raw": "郁金香|红色郁金香",
+      "link": "郁金香",
+      "zh": "红色郁金香"
+    },
+    {
+      "en": "red wall banner",
+      "raw": "旗帜|墙上的红色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的红色旗帜"
+    },
+    {
+      "en": "red wool",
+      "raw": "羊毛|红色羊毛",
+      "link": "羊毛",
+      "zh": "红色羊毛"
+    },
+    {
+      "en": "red wool slab",
+      "raw": "羊毛台阶|红色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "红色羊毛台阶"
+    },
+    {
+      "en": "red wool stairs",
+      "raw": "羊毛楼梯|红色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "红色羊毛楼梯"
+    },
+    {
+      "en": "redstone comparator",
+      "raw": "红石比较器",
+      "link": "红石比较器",
+      "zh": "红石比较器"
+    },
+    {
+      "en": "redstone lamp",
+      "raw": "红石灯",
+      "link": "红石灯",
+      "zh": "红石灯"
+    },
+    {
+      "en": "redstone ore",
+      "raw": "红石矿石",
+      "link": "红石矿石",
+      "zh": "红石矿石"
+    },
+    {
+      "en": "redstone repeater",
+      "raw": "红石中继器",
+      "link": "红石中继器",
+      "zh": "红石中继器"
+    },
+    {
+      "en": "redstone torch",
+      "raw": "红石火把",
+      "link": "红石火把",
+      "zh": "红石火把"
+    },
+    {
+      "en": "redstone wall torch",
+      "raw": "红石火把|墙上的红石火把",
+      "link": "红石火把",
+      "zh": "墙上的红石火把"
+    },
+    {
+      "en": "redstone wire",
+      "raw": "红石粉|红石线",
+      "link": "红石粉",
+      "zh": "红石线"
+    },
+    {
+      "en": "reinforced deepslate",
+      "raw": "强化深板岩",
+      "link": "强化深板岩",
+      "zh": "强化深板岩"
+    },
+    {
+      "en": "repeating command block",
+      "raw": "命令方块|循环型命令方块",
+      "link": "命令方块",
+      "zh": "循环型命令方块"
+    },
+    {
+      "en": "resin brick slab",
+      "raw": "树脂砖台阶",
+      "link": "树脂砖台阶",
+      "zh": "树脂砖台阶"
+    },
+    {
+      "en": "resin brick stairs",
+      "raw": "树脂砖楼梯",
+      "link": "树脂砖楼梯",
+      "zh": "树脂砖楼梯"
+    },
+    {
+      "en": "resin brick wall",
+      "raw": "树脂砖墙",
+      "link": "树脂砖墙",
+      "zh": "树脂砖墙"
+    },
+    {
+      "en": "resin bricks",
+      "raw": "树脂砖块",
+      "link": "树脂砖块",
+      "zh": "树脂砖块"
+    },
+    {
+      "en": "resin clump",
+      "raw": "树脂团",
+      "link": "树脂团",
+      "zh": "树脂团"
+    },
+    {
+      "en": "respawn anchor",
+      "raw": "重生锚",
+      "link": "重生锚",
+      "zh": "重生锚"
+    },
+    {
+      "en": "rooted dirt",
+      "raw": "缠根泥土",
+      "link": "缠根泥土",
+      "zh": "缠根泥土"
+    },
+    {
+      "en": "roots",
+      "raw": "菌索",
+      "link": "菌索",
+      "zh": "菌索"
+    },
+    {
+      "en": "rose",
+      "raw": "Java版已移除特性#玫瑰|玫瑰",
+      "link": "Java版已移除特性#玫瑰",
+      "zh": "玫瑰"
+    },
+    {
+      "en": "rose bush",
+      "raw": "玫瑰丛",
+      "link": "玫瑰丛",
+      "zh": "玫瑰丛"
+    },
+    {
+      "en": "sand",
+      "raw": "沙子",
+      "link": "沙子",
+      "zh": "沙子"
+    },
+    {
+      "en": "sandstone",
+      "raw": "砂岩",
+      "link": "砂岩",
+      "zh": "砂岩"
+    },
+    {
+      "en": "sandstone slab",
+      "raw": "砂岩台阶",
+      "link": "砂岩台阶",
+      "zh": "砂岩台阶"
+    },
+    {
+      "en": "sandstone stairs",
+      "raw": "砂岩楼梯",
+      "link": "砂岩楼梯",
+      "zh": "砂岩楼梯"
+    },
+    {
+      "en": "sandstone wall",
+      "raw": "砂岩墙",
+      "link": "砂岩墙",
+      "zh": "砂岩墙"
+    },
+    {
+      "en": "sapling",
+      "raw": "树苗",
+      "link": "树苗",
+      "zh": "树苗"
+    },
+    {
+      "en": "scaffolding",
+      "raw": "脚手架",
+      "link": "脚手架",
+      "zh": "脚手架"
+    },
+    {
+      "en": "sculk",
+      "raw": "幽匿块",
+      "link": "幽匿块",
+      "zh": "幽匿块"
+    },
+    {
+      "en": "sculk catalyst",
+      "raw": "幽匿催发体",
+      "link": "幽匿催发体",
+      "zh": "幽匿催发体"
+    },
+    {
+      "en": "sculk sensor",
+      "raw": "幽匿感测体",
+      "link": "幽匿感测体",
+      "zh": "幽匿感测体"
+    },
+    {
+      "en": "sculk shrieker",
+      "raw": "幽匿尖啸体",
+      "link": "幽匿尖啸体",
+      "zh": "幽匿尖啸体"
+    },
+    {
+      "en": "sculk vein",
+      "raw": "幽匿脉络",
+      "link": "幽匿脉络",
+      "zh": "幽匿脉络"
+    },
+    {
+      "en": "sea lantern",
+      "raw": "海晶灯",
+      "link": "海晶灯",
+      "zh": "海晶灯"
+    },
+    {
+      "en": "sea pickle",
+      "raw": "海泡菜",
+      "link": "海泡菜",
+      "zh": "海泡菜"
+    },
+    {
+      "en": "seagrass",
+      "raw": "海草",
+      "link": "海草",
+      "zh": "海草"
+    },
+    {
+      "en": "shelf",
+      "raw": "展示架",
+      "link": "展示架",
+      "zh": "展示架"
+    },
+    {
+      "en": "shelf mushroom",
+      "raw": "层孔菇",
+      "link": "层孔菇",
+      "zh": "层孔菇"
+    },
+    {
+      "en": "short dry grass",
+      "raw": "矮枯草丛",
+      "link": "矮枯草丛",
+      "zh": "矮枯草丛"
+    },
+    {
+      "en": "short grass",
+      "raw": "矮草丛",
+      "link": "矮草丛",
+      "zh": "矮草丛"
+    },
+    {
+      "en": "shroomlight",
+      "raw": "菌光体",
+      "link": "菌光体",
+      "zh": "菌光体"
+    },
+    {
+      "en": "shulker box",
+      "raw": "潜影盒",
+      "link": "潜影盒",
+      "zh": "潜影盒"
+    },
+    {
+      "en": "sign",
+      "raw": "告示牌",
+      "link": "告示牌",
+      "zh": "告示牌"
+    },
+    {
+      "en": "skeleton skull",
+      "raw": "骷髅头颅",
+      "link": "骷髅头颅",
+      "zh": "骷髅头颅"
+    },
+    {
+      "en": "skeleton wall skull",
+      "raw": "骷髅头颅|墙上的骷髅头颅",
+      "link": "骷髅头颅",
+      "zh": "墙上的骷髅头颅"
+    },
+    {
+      "en": "slab",
+      "raw": "台阶",
+      "link": "台阶",
+      "zh": "台阶"
+    },
+    {
+      "en": "slightly damaged anvil",
+      "raw": "铁砧|轻微损坏的铁砧",
+      "link": "铁砧",
+      "zh": "轻微损坏的铁砧"
+    },
+    {
+      "en": "slime block",
+      "raw": "黏液块",
+      "link": "黏液块",
+      "zh": "黏液块"
+    },
+    {
+      "en": "small amethyst bud",
+      "raw": "紫水晶簇|小型紫晶芽",
+      "link": "紫水晶簇",
+      "zh": "小型紫晶芽"
+    },
+    {
+      "en": "small dripleaf",
+      "raw": "小型垂滴叶",
+      "link": "小型垂滴叶",
+      "zh": "小型垂滴叶"
+    },
+    {
+      "en": "smithing table",
+      "raw": "锻造台",
+      "link": "锻造台",
+      "zh": "锻造台"
+    },
+    {
+      "en": "smoker",
+      "raw": "烟熏炉",
+      "link": "烟熏炉",
+      "zh": "烟熏炉"
+    },
+    {
+      "en": "smooth basalt",
+      "raw": "平滑玄武岩",
+      "link": "平滑玄武岩",
+      "zh": "平滑玄武岩"
+    },
+    {
+      "en": "smooth quartz",
+      "raw": "平滑石英块",
+      "link": "平滑石英块",
+      "zh": "平滑石英块"
+    },
+    {
+      "en": "smooth quartz block",
+      "raw": "平滑石英块",
+      "link": "平滑石英块",
+      "zh": "平滑石英块"
+    },
+    {
+      "en": "smooth quartz slab",
+      "raw": "平滑石英台阶",
+      "link": "平滑石英台阶",
+      "zh": "平滑石英台阶"
+    },
+    {
+      "en": "smooth quartz stairs",
+      "raw": "平滑石英楼梯",
+      "link": "平滑石英楼梯",
+      "zh": "平滑石英楼梯"
+    },
+    {
+      "en": "smooth red sandstone",
+      "raw": "平滑红砂岩",
+      "link": "平滑红砂岩",
+      "zh": "平滑红砂岩"
+    },
+    {
+      "en": "smooth red sandstone slab",
+      "raw": "平滑红砂岩台阶",
+      "link": "平滑红砂岩台阶",
+      "zh": "平滑红砂岩台阶"
+    },
+    {
+      "en": "smooth red sandstone stairs",
+      "raw": "平滑红砂岩楼梯",
+      "link": "平滑红砂岩楼梯",
+      "zh": "平滑红砂岩楼梯"
+    },
+    {
+      "en": "smooth sandstone",
+      "raw": "平滑砂岩",
+      "link": "平滑砂岩",
+      "zh": "平滑砂岩"
+    },
+    {
+      "en": "smooth sandstone slab",
+      "raw": "平滑砂岩台阶",
+      "link": "平滑砂岩台阶",
+      "zh": "平滑砂岩台阶"
+    },
+    {
+      "en": "smooth sandstone stairs",
+      "raw": "平滑砂岩楼梯",
+      "link": "平滑砂岩楼梯",
+      "zh": "平滑砂岩楼梯"
+    },
+    {
+      "en": "smooth stone",
+      "raw": "平滑石头",
+      "link": "平滑石头",
+      "zh": "平滑石头"
+    },
+    {
+      "en": "smooth stone slab",
+      "raw": "平滑石头台阶",
+      "link": "平滑石头台阶",
+      "zh": "平滑石头台阶"
+    },
+    {
+      "en": "sniffer egg",
+      "raw": "嗅探兽蛋",
+      "link": "嗅探兽蛋",
+      "zh": "嗅探兽蛋"
+    },
+    {
+      "en": "snow",
+      "raw": "雪",
+      "link": "雪",
+      "zh": "雪"
+    },
+    {
+      "en": "snow block",
+      "raw": "雪块",
+      "link": "雪块",
+      "zh": "雪块"
+    },
+    {
+      "en": "soul campfire",
+      "raw": "灵魂营火",
+      "link": "灵魂营火",
+      "zh": "灵魂营火"
+    },
+    {
+      "en": "soul fire",
+      "raw": "灵魂火",
+      "link": "灵魂火",
+      "zh": "灵魂火"
+    },
+    {
+      "en": "soul lantern",
+      "raw": "灵魂灯笼",
+      "link": "灵魂灯笼",
+      "zh": "灵魂灯笼"
+    },
+    {
+      "en": "soul sand",
+      "raw": "灵魂沙",
+      "link": "灵魂沙",
+      "zh": "灵魂沙"
+    },
+    {
+      "en": "soul soil",
+      "raw": "灵魂土",
+      "link": "灵魂土",
+      "zh": "灵魂土"
+    },
+    {
+      "en": "soul torch",
+      "raw": "灵魂火把",
+      "link": "灵魂火把",
+      "zh": "灵魂火把"
+    },
+    {
+      "en": "soul wall torch",
+      "raw": "灵魂火把|墙上的灵魂火把",
+      "link": "灵魂火把",
+      "zh": "墙上的灵魂火把"
+    },
+    {
+      "en": "spawner",
+      "raw": "刷怪笼",
+      "link": "刷怪笼",
+      "zh": "刷怪笼"
+    },
+    {
+      "en": "sponge",
+      "raw": "海绵",
+      "link": "海绵",
+      "zh": "海绵"
+    },
+    {
+      "en": "spore blossom",
+      "raw": "孢子花",
+      "link": "孢子花",
+      "zh": "孢子花"
+    },
+    {
+      "en": "spruce button",
+      "raw": "木按钮|云杉木按钮",
+      "link": "木按钮",
+      "zh": "云杉木按钮"
+    },
+    {
+      "en": "spruce door",
+      "raw": "木门|云杉木门",
+      "link": "木门",
+      "zh": "云杉木门"
+    },
+    {
+      "en": "spruce fence",
+      "raw": "木栅栏|云杉木栅栏",
+      "link": "木栅栏",
+      "zh": "云杉木栅栏"
+    },
+    {
+      "en": "spruce fence gate",
+      "raw": "栅栏门|云杉木栅栏门",
+      "link": "栅栏门",
+      "zh": "云杉木栅栏门"
+    },
+    {
+      "en": "spruce hanging sign",
+      "raw": "悬挂式告示牌|悬挂式云杉木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式云杉木告示牌"
+    },
+    {
+      "en": "spruce leaves",
+      "raw": "树叶|云杉树叶",
+      "link": "树叶",
+      "zh": "云杉树叶"
+    },
+    {
+      "en": "spruce log",
+      "raw": "原木|云杉原木",
+      "link": "原木",
+      "zh": "云杉原木"
+    },
+    {
+      "en": "spruce planks",
+      "raw": "木板|云杉木板",
+      "link": "木板",
+      "zh": "云杉木板"
+    },
+    {
+      "en": "spruce pressure plate",
+      "raw": "木压力板|云杉木压力板",
+      "link": "木压力板",
+      "zh": "云杉木压力板"
+    },
+    {
+      "en": "spruce sapling",
+      "raw": "树苗|云杉树苗",
+      "link": "树苗",
+      "zh": "云杉树苗"
+    },
+    {
+      "en": "spruce shelf",
+      "raw": "展示架|云杉木展示架",
+      "link": "展示架",
+      "zh": "云杉木展示架"
+    },
+    {
+      "en": "spruce sign",
+      "raw": "告示牌|云杉木告示牌",
+      "link": "告示牌",
+      "zh": "云杉木告示牌"
+    },
+    {
+      "en": "spruce slab",
+      "raw": "木台阶|云杉木台阶",
+      "link": "木台阶",
+      "zh": "云杉木台阶"
+    },
+    {
+      "en": "spruce stairs",
+      "raw": "木楼梯|云杉木楼梯",
+      "link": "木楼梯",
+      "zh": "云杉木楼梯"
+    },
+    {
+      "en": "spruce trapdoor",
+      "raw": "木活板门|云杉木活板门",
+      "link": "木活板门",
+      "zh": "云杉木活板门"
+    },
+    {
+      "en": "spruce wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式云杉木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式云杉木告示牌"
+    },
+    {
+      "en": "spruce wall sign",
+      "raw": "告示牌|墙上的云杉木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的云杉木告示牌"
+    },
+    {
+      "en": "spruce wood",
+      "raw": "木头|杉木塊",
+      "link": "木头",
+      "zh": "杉木塊"
+    },
+    {
+      "en": "stained clay",
+      "raw": "染色陶瓦|染色黏土",
+      "link": "染色陶瓦",
+      "zh": "染色黏土"
+    },
+    {
+      "en": "stained glass",
+      "raw": "染色玻璃",
+      "link": "染色玻璃",
+      "zh": "染色玻璃"
+    },
+    {
+      "en": "stained glass pane",
+      "raw": "染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "染色玻璃板"
+    },
+    {
+      "en": "stairs",
+      "raw": "楼梯",
+      "link": "楼梯",
+      "zh": "楼梯"
+    },
+    {
+      "en": "stem",
+      "raw": "原木|菌柄",
+      "link": "原木",
+      "zh": "菌柄"
+    },
+    {
+      "en": "sticky piston",
+      "raw": "活塞|黏性活塞",
+      "link": "活塞",
+      "zh": "黏性活塞"
+    },
+    {
+      "en": "sticky piston head",
+      "raw": "活塞|黏性活塞头",
+      "link": "活塞",
+      "zh": "黏性活塞头"
+    },
+    {
+      "en": "stone",
+      "raw": "石头",
+      "link": "石头",
+      "zh": "石头"
+    },
+    {
+      "en": "stone brick slab",
+      "raw": "石砖台阶",
+      "link": "石砖台阶",
+      "zh": "石砖台阶"
+    },
+    {
+      "en": "stone brick stairs",
+      "raw": "石砖楼梯",
+      "link": "石砖楼梯",
+      "zh": "石砖楼梯"
+    },
+    {
+      "en": "stone brick wall",
+      "raw": "石砖墙",
+      "link": "石砖墙",
+      "zh": "石砖墙"
+    },
+    {
+      "en": "stone bricks",
+      "raw": "石砖",
+      "link": "石砖",
+      "zh": "石砖"
+    },
+    {
+      "en": "stone bricks slab",
+      "raw": "石砖台阶",
+      "link": "石砖台阶",
+      "zh": "石砖台阶"
+    },
+    {
+      "en": "stone button",
+      "raw": "石头按钮",
+      "link": "石头按钮",
+      "zh": "石头按钮"
+    },
+    {
+      "en": "stone pressure plate",
+      "raw": "石头压力板",
+      "link": "石头压力板",
+      "zh": "石头压力板"
+    },
+    {
+      "en": "stone slab",
+      "raw": "石头台阶",
+      "link": "石头台阶",
+      "zh": "石头台阶"
+    },
+    {
+      "en": "stone stairs",
+      "raw": "石头楼梯",
+      "link": "石头楼梯",
+      "zh": "石头楼梯"
+    },
+    {
+      "en": "stone tier block",
+      "raw": "工具材料|类圆石方块",
+      "link": "工具材料",
+      "zh": "类圆石方块"
+    },
+    {
+      "en": "stonecutter",
+      "raw": "切石机",
+      "link": "切石机",
+      "zh": "切石机"
+    },
+    {
+      "en": "straw bed",
+      "raw": "Straw Bed",
+      "link": "Straw Bed",
+      "zh": "Straw Bed"
+    },
+    {
+      "en": "stripped acacia log",
+      "raw": "去皮原木|去皮金合欢原木",
+      "link": "去皮原木",
+      "zh": "去皮金合欢原木"
+    },
+    {
+      "en": "stripped acacia wood",
+      "raw": "去皮木头|去皮金合欢木",
+      "link": "去皮木头",
+      "zh": "去皮金合欢木"
+    },
+    {
+      "en": "stripped birch log",
+      "raw": "去皮原木|去皮白桦原木",
+      "link": "去皮原木",
+      "zh": "去皮白桦原木"
+    },
+    {
+      "en": "stripped birch wood",
+      "raw": "去皮木头|去皮白桦木",
+      "link": "去皮木头",
+      "zh": "去皮白桦木"
+    },
+    {
+      "en": "stripped cherry log",
+      "raw": "去皮原木|去皮樱花原木",
+      "link": "去皮原木",
+      "zh": "去皮樱花原木"
+    },
+    {
+      "en": "stripped cherry wood",
+      "raw": "去皮木头|去皮樱花木",
+      "link": "去皮木头",
+      "zh": "去皮樱花木"
+    },
+    {
+      "en": "stripped crimson hyphae",
+      "raw": "去皮木头|去皮绯红菌核",
+      "link": "去皮木头",
+      "zh": "去皮绯红菌核"
+    },
+    {
+      "en": "stripped crimson stem",
+      "raw": "去皮原木|去皮绯红菌柄",
+      "link": "去皮原木",
+      "zh": "去皮绯红菌柄"
+    },
+    {
+      "en": "stripped dark oak log",
+      "raw": "去皮原木|去皮深色橡木原木",
+      "link": "去皮原木",
+      "zh": "去皮深色橡木原木"
+    },
+    {
+      "en": "stripped dark oak wood",
+      "raw": "去皮木头|去皮深色橡木",
+      "link": "去皮木头",
+      "zh": "去皮深色橡木"
+    },
+    {
+      "en": "stripped hyphae",
+      "raw": "去皮木头|去皮菌核",
+      "link": "去皮木头",
+      "zh": "去皮菌核"
+    },
+    {
+      "en": "stripped jungle log",
+      "raw": "去皮原木|去皮丛林原木",
+      "link": "去皮原木",
+      "zh": "去皮丛林原木"
+    },
+    {
+      "en": "stripped jungle wood",
+      "raw": "去皮木头|去皮丛林木",
+      "link": "去皮木头",
+      "zh": "去皮丛林木"
+    },
+    {
+      "en": "stripped log",
+      "raw": "去皮原木",
+      "link": "去皮原木",
+      "zh": "去皮原木"
+    },
+    {
+      "en": "stripped mangrove log",
+      "raw": "去皮原木|去皮红树原木",
+      "link": "去皮原木",
+      "zh": "去皮红树原木"
+    },
+    {
+      "en": "stripped mangrove wood",
+      "raw": "去皮木头|去皮红树木",
+      "link": "去皮木头",
+      "zh": "去皮红树木"
+    },
+    {
+      "en": "stripped oak log",
+      "raw": "去皮原木|去皮橡木原木",
+      "link": "去皮原木",
+      "zh": "去皮橡木原木"
+    },
+    {
+      "en": "stripped oak wood",
+      "raw": "去皮木头|去皮橡木",
+      "link": "去皮木头",
+      "zh": "去皮橡木"
+    },
+    {
+      "en": "stripped pale oak log",
+      "raw": "去皮原木|去皮苍白橡木原木",
+      "link": "去皮原木",
+      "zh": "去皮苍白橡木原木"
+    },
+    {
+      "en": "stripped pale oak wood",
+      "raw": "去皮木头|去皮苍白橡木",
+      "link": "去皮木头",
+      "zh": "去皮苍白橡木"
+    },
+    {
+      "en": "stripped poplar log",
+      "raw": "去皮原木|去皮杨木原木",
+      "link": "去皮原木",
+      "zh": "去皮杨木原木"
+    },
+    {
+      "en": "stripped poplar wood",
+      "raw": "去皮木头|去皮杨木",
+      "link": "去皮木头",
+      "zh": "去皮杨木"
+    },
+    {
+      "en": "stripped spruce log",
+      "raw": "去皮原木|去皮云杉原木",
+      "link": "去皮原木",
+      "zh": "去皮云杉原木"
+    },
+    {
+      "en": "stripped spruce wood",
+      "raw": "去皮木头|去皮云杉木",
+      "link": "去皮木头",
+      "zh": "去皮云杉木"
+    },
+    {
+      "en": "stripped stem",
+      "raw": "去皮原木|去皮菌柄",
+      "link": "去皮原木",
+      "zh": "去皮菌柄"
+    },
+    {
+      "en": "stripped warped hyphae",
+      "raw": "去皮木头|去皮诡异菌核",
+      "link": "去皮木头",
+      "zh": "去皮诡异菌核"
+    },
+    {
+      "en": "stripped warped stem",
+      "raw": "去皮原木|去皮诡异菌柄",
+      "link": "去皮原木",
+      "zh": "去皮诡异菌柄"
+    },
+    {
+      "en": "stripped wood",
+      "raw": "去皮木头",
+      "link": "去皮木头",
+      "zh": "去皮木头"
+    },
+    {
+      "en": "structure block",
+      "raw": "结构方块",
+      "link": "结构方块",
+      "zh": "结构方块"
+    },
+    {
+      "en": "structure void",
+      "raw": "结构空位",
+      "link": "结构空位",
+      "zh": "结构空位"
+    },
+    {
+      "en": "sugar cane",
+      "raw": "甘蔗",
+      "link": "甘蔗",
+      "zh": "甘蔗"
+    },
+    {
+      "en": "sulfur",
+      "raw": "硫黄",
+      "link": "硫黄",
+      "zh": "硫黄"
+    },
+    {
+      "en": "sulfur brick slab",
+      "raw": "硫黄砖台阶",
+      "link": "硫黄砖台阶",
+      "zh": "硫黄砖台阶"
+    },
+    {
+      "en": "sulfur brick stairs",
+      "raw": "硫黄砖楼梯",
+      "link": "硫黄砖楼梯",
+      "zh": "硫黄砖楼梯"
+    },
+    {
+      "en": "sulfur bricks",
+      "raw": "硫黄砖",
+      "link": "硫黄砖",
+      "zh": "硫黄砖"
+    },
+    {
+      "en": "sulfur brick wall",
+      "raw": "硫黄砖墙",
+      "link": "硫黄砖墙",
+      "zh": "硫黄砖墙"
+    },
+    {
+      "en": "sulfur slab",
+      "raw": "硫黄台阶",
+      "link": "硫黄台阶",
+      "zh": "硫黄台阶"
+    },
+    {
+      "en": "sulfur spike",
+      "raw": "硫黄尖锥",
+      "link": "硫黄尖锥",
+      "zh": "硫黄尖锥"
+    },
+    {
+      "en": "sulfur stairs",
+      "raw": "硫黄楼梯",
+      "link": "硫黄楼梯",
+      "zh": "硫黄楼梯"
+    },
+    {
+      "en": "sulfur wall",
+      "raw": "硫黄墙",
+      "link": "硫黄墙",
+      "zh": "硫黄墙"
+    },
+    {
+      "en": "sunflower",
+      "raw": "向日葵",
+      "link": "向日葵",
+      "zh": "向日葵"
+    },
+    {
+      "en": "suspicious gravel",
+      "raw": "可疑的沙砾",
+      "link": "可疑的沙砾",
+      "zh": "可疑的沙砾"
+    },
+    {
+      "en": "suspicious sand",
+      "raw": "可疑的沙子",
+      "link": "可疑的沙子",
+      "zh": "可疑的沙子"
+    },
+    {
+      "en": "sweet berry bush",
+      "raw": "甜浆果|甜浆果丛",
+      "link": "甜浆果",
+      "zh": "甜浆果丛"
+    },
+    {
+      "en": "tall dry grass",
+      "raw": "高枯草丛",
+      "link": "高枯草丛",
+      "zh": "高枯草丛"
+    },
+    {
+      "en": "tall grass",
+      "raw": "高草丛",
+      "link": "高草丛",
+      "zh": "高草丛"
+    },
+    {
+      "en": "tall seagrass",
+      "raw": "海草|高海草",
+      "link": "海草",
+      "zh": "高海草"
+    },
+    {
+      "en": "target",
+      "raw": "标靶",
+      "link": "标靶",
+      "zh": "标靶"
+    },
+    {
+      "en": "terracotta",
+      "raw": "陶瓦",
+      "link": "陶瓦",
+      "zh": "陶瓦"
+    },
+    {
+      "en": "test block",
+      "raw": "测试方块",
+      "link": "测试方块",
+      "zh": "测试方块"
+    },
+    {
+      "en": "test block accept",
+      "raw": "测试方块",
+      "link": "测试方块",
+      "zh": "测试方块"
+    },
+    {
+      "en": "test block fail",
+      "raw": "测试方块",
+      "link": "测试方块",
+      "zh": "测试方块"
+    },
+    {
+      "en": "test block log",
+      "raw": "测试方块",
+      "link": "测试方块",
+      "zh": "测试方块"
+    },
+    {
+      "en": "test block start",
+      "raw": "测试方块",
+      "link": "测试方块",
+      "zh": "测试方块"
+    },
+    {
+      "en": "test instance block",
+      "raw": "测试实例方块",
+      "link": "测试实例方块",
+      "zh": "测试实例方块"
+    },
+    {
+      "en": "tinted glass",
+      "raw": "遮光玻璃",
+      "link": "遮光玻璃",
+      "zh": "遮光玻璃"
+    },
+    {
+      "en": "tnt",
+      "raw": "TNT",
+      "link": "TNT",
+      "zh": "TNT"
+    },
+    {
+      "en": "torch",
+      "raw": "火把",
+      "link": "火把",
+      "zh": "火把"
+    },
+    {
+      "en": "torchflower",
+      "raw": "火把花",
+      "link": "火把花",
+      "zh": "火把花"
+    },
+    {
+      "en": "torchflower crop",
+      "raw": "火把花种子|火把花植株",
+      "link": "火把花种子",
+      "zh": "火把花植株"
+    },
+    {
+      "en": "trapdoor",
+      "raw": "活板门",
+      "link": "活板门",
+      "zh": "活板门"
+    },
+    {
+      "en": "trapped chest",
+      "raw": "陷阱箱",
+      "link": "陷阱箱",
+      "zh": "陷阱箱"
+    },
+    {
+      "en": "trial spawner",
+      "raw": "试炼刷怪笼",
+      "link": "试炼刷怪笼",
+      "zh": "试炼刷怪笼"
+    },
+    {
+      "en": "tripwire",
+      "raw": "线|绊线",
+      "link": "线",
+      "zh": "绊线"
+    },
+    {
+      "en": "tripwire hook",
+      "raw": "绊线钩",
+      "link": "绊线钩",
+      "zh": "绊线钩"
+    },
+    {
+      "en": "tube coral",
+      "raw": "珊瑚|管珊瑚",
+      "link": "珊瑚",
+      "zh": "管珊瑚"
+    },
+    {
+      "en": "tube coral block",
+      "raw": "珊瑚块|管珊瑚块",
+      "link": "珊瑚块",
+      "zh": "管珊瑚块"
+    },
+    {
+      "en": "tube coral fan",
+      "raw": "珊瑚扇|管珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "管珊瑚扇"
+    },
+    {
+      "en": "tube coral wall fan",
+      "raw": "珊瑚扇|墙上的管珊瑚扇",
+      "link": "珊瑚扇",
+      "zh": "墙上的管珊瑚扇"
+    },
+    {
+      "en": "tuff",
+      "raw": "凝灰岩",
+      "link": "凝灰岩",
+      "zh": "凝灰岩"
+    },
+    {
+      "en": "tuff brick slab",
+      "raw": "凝灰岩砖台阶",
+      "link": "凝灰岩砖台阶",
+      "zh": "凝灰岩砖台阶"
+    },
+    {
+      "en": "tuff brick stairs",
+      "raw": "凝灰岩砖楼梯",
+      "link": "凝灰岩砖楼梯",
+      "zh": "凝灰岩砖楼梯"
+    },
+    {
+      "en": "tuff brick wall",
+      "raw": "凝灰岩砖墙",
+      "link": "凝灰岩砖墙",
+      "zh": "凝灰岩砖墙"
+    },
+    {
+      "en": "tuff bricks",
+      "raw": "凝灰岩砖",
+      "link": "凝灰岩砖",
+      "zh": "凝灰岩砖"
+    },
+    {
+      "en": "tuff slab",
+      "raw": "凝灰岩台阶",
+      "link": "凝灰岩台阶",
+      "zh": "凝灰岩台阶"
+    },
+    {
+      "en": "tuff stairs",
+      "raw": "凝灰岩楼梯",
+      "link": "凝灰岩楼梯",
+      "zh": "凝灰岩楼梯"
+    },
+    {
+      "en": "tuff wall",
+      "raw": "凝灰岩墙",
+      "link": "凝灰岩墙",
+      "zh": "凝灰岩墙"
+    },
+    {
+      "en": "tulips",
+      "raw": "郁金香",
+      "link": "郁金香",
+      "zh": "郁金香"
+    },
+    {
+      "en": "turtle egg",
+      "raw": "海龟蛋",
+      "link": "海龟蛋",
+      "zh": "海龟蛋"
+    },
+    {
+      "en": "twisting vines",
+      "raw": "缠怨藤",
+      "link": "缠怨藤",
+      "zh": "缠怨藤"
+    },
+    {
+      "en": "twisting vines plant",
+      "raw": "缠怨藤|缠怨藤植株",
+      "link": "缠怨藤",
+      "zh": "缠怨藤植株"
+    },
+    {
+      "en": "unlit redstone torch",
+      "raw": "红石火把|熄灭的红石火把",
+      "link": "红石火把",
+      "zh": "熄灭的红石火把"
+    },
+    {
+      "en": "unpowered redstone comparator",
+      "raw": "红石比较器|未激活的红石比较器",
+      "link": "红石比较器",
+      "zh": "未激活的红石比较器"
+    },
+    {
+      "en": "unpowered redstone repeater",
+      "raw": "红石中继器|未激活的红石中继器",
+      "link": "红石中继器",
+      "zh": "未激活的红石中继器"
+    },
+    {
+      "en": "unwaxed block of copper",
+      "raw": "铜块|未涂蜡的铜块",
+      "link": "铜块",
+      "zh": "未涂蜡的铜块"
+    },
+    {
+      "en": "unwaxed chiseled copper",
+      "raw": "雕纹铜块|未涂蜡的雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "未涂蜡的雕纹铜块"
+    },
+    {
+      "en": "unwaxed copper bars",
+      "raw": "铜栏杆|未涂蜡的铜栏杆",
+      "link": "铜栏杆",
+      "zh": "未涂蜡的铜栏杆"
+    },
+    {
+      "en": "unwaxed copper bulb",
+      "raw": "铜灯|未涂蜡的铜灯",
+      "link": "铜灯",
+      "zh": "未涂蜡的铜灯"
+    },
+    {
+      "en": "unwaxed copper chain",
+      "raw": "铜链|未涂蜡的铜链",
+      "link": "铜链",
+      "zh": "未涂蜡的铜链"
+    },
+    {
+      "en": "unwaxed copper chest",
+      "raw": "铜箱子|未涂蜡的铜箱子",
+      "link": "铜箱子",
+      "zh": "未涂蜡的铜箱子"
+    },
+    {
+      "en": "unwaxed copper door",
+      "raw": "铜门|未涂蜡的铜门",
+      "link": "铜门",
+      "zh": "未涂蜡的铜门"
+    },
+    {
+      "en": "unwaxed copper golem statue",
+      "raw": "铜傀儡像|未涂蜡的铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "未涂蜡的铜傀儡像"
+    },
+    {
+      "en": "unwaxed copper grate",
+      "raw": "铜格栅|未涂蜡的铜格栅",
+      "link": "铜格栅",
+      "zh": "未涂蜡的铜格栅"
+    },
+    {
+      "en": "unwaxed copper lantern",
+      "raw": "铜灯笼|未涂蜡的铜灯笼",
+      "link": "铜灯笼",
+      "zh": "未涂蜡的铜灯笼"
+    },
+    {
+      "en": "unwaxed copper trapdoor",
+      "raw": "铜活板门|未涂蜡的铜活板门",
+      "link": "铜活板门",
+      "zh": "未涂蜡的铜活板门"
+    },
+    {
+      "en": "unwaxed cut copper",
+      "raw": "切制铜块|未涂蜡的切制铜块",
+      "link": "切制铜块",
+      "zh": "未涂蜡的切制铜块"
+    },
+    {
+      "en": "unwaxed cut copper slab",
+      "raw": "切制铜台阶|未涂蜡的切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "未涂蜡的切制铜台阶"
+    },
+    {
+      "en": "unwaxed cut copper stairs",
+      "raw": "切制铜楼梯|未涂蜡的切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "未涂蜡的切制铜楼梯"
+    },
+    {
+      "en": "unwaxed lightning rod",
+      "raw": "避雷针|未涂蜡的避雷针",
+      "link": "避雷针",
+      "zh": "未涂蜡的避雷针"
+    },
+    {
+      "en": "vault",
+      "raw": "宝库",
+      "link": "宝库",
+      "zh": "宝库"
+    },
+    {
+      "en": "verdant froglight",
+      "raw": "蛙明灯|青翠蛙明灯",
+      "link": "蛙明灯",
+      "zh": "青翠蛙明灯"
+    },
+    {
+      "en": "very damaged anvil",
+      "raw": "铁砧|严重损坏的铁砧",
+      "link": "铁砧",
+      "zh": "严重损坏的铁砧"
+    },
+    {
+      "en": "vines",
+      "raw": "藤蔓",
+      "link": "藤蔓",
+      "zh": "藤蔓"
+    },
+    {
+      "en": "void air",
+      "raw": "空气|虚空空气",
+      "link": "空气",
+      "zh": "虚空空气"
+    },
+    {
+      "en": "wall",
+      "raw": "墙",
+      "link": "墙",
+      "zh": "墙"
+    },
+    {
+      "en": "wall banner",
+      "raw": "旗帜|墙上的旗帜",
+      "link": "旗帜",
+      "zh": "墙上的旗帜"
+    },
+    {
+      "en": "wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式告示牌"
+    },
+    {
+      "en": "wall sign",
+      "raw": "告示牌|墙上的告示牌",
+      "link": "告示牌",
+      "zh": "墙上的告示牌"
+    },
+    {
+      "en": "wall torch",
+      "raw": "火把|墙上的火把",
+      "link": "火把",
+      "zh": "墙上的火把"
+    },
+    {
+      "en": "warped button",
+      "raw": "木按钮|诡异木按钮",
+      "link": "木按钮",
+      "zh": "诡异木按钮"
+    },
+    {
+      "en": "warped door",
+      "raw": "木门|诡异木门",
+      "link": "木门",
+      "zh": "诡异木门"
+    },
+    {
+      "en": "warped fence",
+      "raw": "木栅栏|诡异木栅栏",
+      "link": "木栅栏",
+      "zh": "诡异木栅栏"
+    },
+    {
+      "en": "warped fence gate",
+      "raw": "栅栏门|诡异木栅栏门",
+      "link": "栅栏门",
+      "zh": "诡异木栅栏门"
+    },
+    {
+      "en": "warped fungus",
+      "raw": "诡异菌",
+      "link": "诡异菌",
+      "zh": "诡异菌"
+    },
+    {
+      "en": "warped hanging sign",
+      "raw": "悬挂式告示牌|悬挂式诡异木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "悬挂式诡异木告示牌"
+    },
+    {
+      "en": "warped hyphae",
+      "raw": "木头|诡异菌核",
+      "link": "木头",
+      "zh": "诡异菌核"
+    },
+    {
+      "en": "warped nylium",
+      "raw": "诡异菌岩",
+      "link": "诡异菌岩",
+      "zh": "诡异菌岩"
+    },
+    {
+      "en": "warped planks",
+      "raw": "木板|诡异木板",
+      "link": "木板",
+      "zh": "诡异木板"
+    },
+    {
+      "en": "warped pressure plate",
+      "raw": "木压力板|诡异木压力板",
+      "link": "木压力板",
+      "zh": "诡异木压力板"
+    },
+    {
+      "en": "warped roots",
+      "raw": "诡异菌索",
+      "link": "诡异菌索",
+      "zh": "诡异菌索"
+    },
+    {
+      "en": "warped shelf",
+      "raw": "展示架|诡异木展示架",
+      "link": "展示架",
+      "zh": "诡异木展示架"
+    },
+    {
+      "en": "warped sign",
+      "raw": "告示牌|诡异木告示牌",
+      "link": "告示牌",
+      "zh": "诡异木告示牌"
+    },
+    {
+      "en": "warped slab",
+      "raw": "木台阶|诡异木台阶",
+      "link": "木台阶",
+      "zh": "诡异木台阶"
+    },
+    {
+      "en": "warped stairs",
+      "raw": "木楼梯|诡异木楼梯",
+      "link": "木楼梯",
+      "zh": "诡异木楼梯"
+    },
+    {
+      "en": "warped stem",
+      "raw": "原木|诡异菌柄",
+      "link": "原木",
+      "zh": "诡异菌柄"
+    },
+    {
+      "en": "warped trapdoor",
+      "raw": "木活板门|诡异木活板门",
+      "link": "木活板门",
+      "zh": "诡异木活板门"
+    },
+    {
+      "en": "warped wall hanging sign",
+      "raw": "悬挂式告示牌|墙上的悬挂式诡异木告示牌",
+      "link": "悬挂式告示牌",
+      "zh": "墙上的悬挂式诡异木告示牌"
+    },
+    {
+      "en": "warped wall sign",
+      "raw": "告示牌|墙上的诡异木告示牌",
+      "link": "告示牌",
+      "zh": "墙上的诡异木告示牌"
+    },
+    {
+      "en": "warped wart block",
+      "raw": "诡异疣块",
+      "link": "诡异疣块",
+      "zh": "诡异疣块"
+    },
+    {
+      "en": "water",
+      "raw": "水",
+      "link": "水",
+      "zh": "水"
+    },
+    {
+      "en": "water cauldron",
+      "raw": "炼药锅|装有水的炼药锅",
+      "link": "炼药锅",
+      "zh": "装有水的炼药锅"
+    },
+    {
+      "en": "wax block",
+      "raw": "Java版已移除特性#蜂蜡块|蜂蜡块",
+      "link": "Java版已移除特性#蜂蜡块",
+      "zh": "蜂蜡块"
+    },
+    {
+      "en": "waxed block of copper",
+      "raw": "铜块|涂蜡的铜块",
+      "link": "铜块",
+      "zh": "涂蜡的铜块"
+    },
+    {
+      "en": "waxed chiseled copper",
+      "raw": "雕纹铜块|涂蜡的雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "涂蜡的雕纹铜块"
+    },
+    {
+      "en": "waxed copper bars",
+      "raw": "铜栏杆|涂蜡的铜栏杆",
+      "link": "铜栏杆",
+      "zh": "涂蜡的铜栏杆"
+    },
+    {
+      "en": "waxed copper bulb",
+      "raw": "铜灯|涂蜡的铜灯",
+      "link": "铜灯",
+      "zh": "涂蜡的铜灯"
+    },
+    {
+      "en": "waxed copper chain",
+      "raw": "铜链|涂蜡的铜链",
+      "link": "铜链",
+      "zh": "涂蜡的铜链"
+    },
+    {
+      "en": "waxed copper chest",
+      "raw": "铜箱子|涂蜡的铜箱子",
+      "link": "铜箱子",
+      "zh": "涂蜡的铜箱子"
+    },
+    {
+      "en": "waxed copper door",
+      "raw": "铜门|涂蜡的铜门",
+      "link": "铜门",
+      "zh": "涂蜡的铜门"
+    },
+    {
+      "en": "waxed copper golem statue",
+      "raw": "铜傀儡像|涂蜡的铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "涂蜡的铜傀儡像"
+    },
+    {
+      "en": "waxed copper grate",
+      "raw": "铜格栅|涂蜡的铜格栅",
+      "link": "铜格栅",
+      "zh": "涂蜡的铜格栅"
+    },
+    {
+      "en": "waxed copper lantern",
+      "raw": "铜灯笼|涂蜡的铜灯笼",
+      "link": "铜灯笼",
+      "zh": "涂蜡的铜灯笼"
+    },
+    {
+      "en": "waxed copper trapdoor",
+      "raw": "铜活板门|涂蜡的铜活板门",
+      "link": "铜活板门",
+      "zh": "涂蜡的铜活板门"
+    },
+    {
+      "en": "waxed cut copper",
+      "raw": "切制铜块|涂蜡的切制铜块",
+      "link": "切制铜块",
+      "zh": "涂蜡的切制铜块"
+    },
+    {
+      "en": "waxed cut copper slab",
+      "raw": "切制铜台阶|涂蜡的切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的切制铜台阶"
+    },
+    {
+      "en": "waxed cut copper stairs",
+      "raw": "切制铜楼梯|涂蜡的切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "涂蜡的切制铜楼梯"
+    },
+    {
+      "en": "waxed exposed chiseled copper",
+      "raw": "雕纹铜块|涂蜡的斑驳雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "涂蜡的斑驳雕纹铜块"
+    },
+    {
+      "en": "waxed exposed copper",
+      "raw": "铜块|涂蜡的斑驳铜块",
+      "link": "铜块",
+      "zh": "涂蜡的斑驳铜块"
+    },
+    {
+      "en": "waxed exposed copper bars",
+      "raw": "铜栏杆|涂蜡的斑驳铜栏杆",
+      "link": "铜栏杆",
+      "zh": "涂蜡的斑驳铜栏杆"
+    },
+    {
+      "en": "waxed exposed copper bulb",
+      "raw": "铜灯|涂蜡的斑驳铜灯",
+      "link": "铜灯",
+      "zh": "涂蜡的斑驳铜灯"
+    },
+    {
+      "en": "waxed exposed copper chain",
+      "raw": "铜链|涂蜡的斑驳铜链",
+      "link": "铜链",
+      "zh": "涂蜡的斑驳铜链"
+    },
+    {
+      "en": "waxed exposed copper chest",
+      "raw": "铜箱子|涂蜡的斑驳铜箱子",
+      "link": "铜箱子",
+      "zh": "涂蜡的斑驳铜箱子"
+    },
+    {
+      "en": "waxed exposed copper door",
+      "raw": "铜门|涂蜡的斑驳铜门",
+      "link": "铜门",
+      "zh": "涂蜡的斑驳铜门"
+    },
+    {
+      "en": "waxed exposed copper golem statue",
+      "raw": "铜傀儡像|涂蜡的斑驳铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "涂蜡的斑驳铜傀儡像"
+    },
+    {
+      "en": "waxed exposed copper grate",
+      "raw": "铜格栅|涂蜡的斑驳铜格栅",
+      "link": "铜格栅",
+      "zh": "涂蜡的斑驳铜格栅"
+    },
+    {
+      "en": "waxed exposed copper lantern",
+      "raw": "铜灯笼|涂蜡的斑驳铜灯笼",
+      "link": "铜灯笼",
+      "zh": "涂蜡的斑驳铜灯笼"
+    },
+    {
+      "en": "waxed exposed copper trapdoor",
+      "raw": "铜活板门|涂蜡的斑驳铜活板门",
+      "link": "铜活板门",
+      "zh": "涂蜡的斑驳铜活板门"
+    },
+    {
+      "en": "waxed exposed cut copper",
+      "raw": "切制铜块|涂蜡的斑驳切制铜块",
+      "link": "切制铜块",
+      "zh": "涂蜡的斑驳切制铜块"
+    },
+    {
+      "en": "waxed exposed cut copper slab",
+      "raw": "切制铜台阶|涂蜡的斑驳切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的斑驳切制铜台阶"
+    },
+    {
+      "en": "waxed exposed cut copper stairs",
+      "raw": "切制铜楼梯|涂蜡的斑驳切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "涂蜡的斑驳切制铜楼梯"
+    },
+    {
+      "en": "waxed exposed lightning rod",
+      "raw": "避雷针|涂蜡的斑驳避雷针",
+      "link": "避雷针",
+      "zh": "涂蜡的斑驳避雷针"
+    },
+    {
+      "en": "waxed lightning rod",
+      "raw": "避雷针|涂蜡的避雷针",
+      "link": "避雷针",
+      "zh": "涂蜡的避雷针"
+    },
+    {
+      "en": "waxed oxidized chiseled copper",
+      "raw": "雕纹铜块|涂蜡的氧化雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "涂蜡的氧化雕纹铜块"
+    },
+    {
+      "en": "waxed oxidized copper",
+      "raw": "铜块|涂蜡的氧化铜块",
+      "link": "铜块",
+      "zh": "涂蜡的氧化铜块"
+    },
+    {
+      "en": "waxed oxidized copper bars",
+      "raw": "铜栏杆|涂蜡的氧化铜栏杆",
+      "link": "铜栏杆",
+      "zh": "涂蜡的氧化铜栏杆"
+    },
+    {
+      "en": "waxed oxidized copper bulb",
+      "raw": "铜灯|涂蜡的氧化铜灯",
+      "link": "铜灯",
+      "zh": "涂蜡的氧化铜灯"
+    },
+    {
+      "en": "waxed oxidized copper chain",
+      "raw": "铜链|涂蜡的氧化铜链",
+      "link": "铜链",
+      "zh": "涂蜡的氧化铜链"
+    },
+    {
+      "en": "waxed oxidized copper chest",
+      "raw": "铜箱子|涂蜡的氧化铜箱子",
+      "link": "铜箱子",
+      "zh": "涂蜡的氧化铜箱子"
+    },
+    {
+      "en": "waxed oxidized copper door",
+      "raw": "铜门|涂蜡的氧化铜门",
+      "link": "铜门",
+      "zh": "涂蜡的氧化铜门"
+    },
+    {
+      "en": "waxed oxidized copper golem statue",
+      "raw": "铜傀儡像|涂蜡的氧化铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "涂蜡的氧化铜傀儡像"
+    },
+    {
+      "en": "waxed oxidized copper grate",
+      "raw": "铜格栅|涂蜡的氧化铜格栅",
+      "link": "铜格栅",
+      "zh": "涂蜡的氧化铜格栅"
+    },
+    {
+      "en": "waxed oxidized copper lantern",
+      "raw": "铜灯笼|涂蜡的氧化铜灯笼",
+      "link": "铜灯笼",
+      "zh": "涂蜡的氧化铜灯笼"
+    },
+    {
+      "en": "waxed oxidized copper trapdoor",
+      "raw": "铜活板门|涂蜡的氧化铜活板门",
+      "link": "铜活板门",
+      "zh": "涂蜡的氧化铜活板门"
+    },
+    {
+      "en": "waxed oxidized cut copper",
+      "raw": "切制铜块|涂蜡的氧化切制铜块",
+      "link": "切制铜块",
+      "zh": "涂蜡的氧化切制铜块"
+    },
+    {
+      "en": "waxed oxidized cut copper slab",
+      "raw": "切制铜台阶|涂蜡的氧化切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的氧化切制铜台阶"
+    },
+    {
+      "en": "waxed oxidized cut copper stairs",
+      "raw": "切制铜楼梯|涂蜡的氧化切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "涂蜡的氧化切制铜楼梯"
+    },
+    {
+      "en": "waxed oxidized lightning rod",
+      "raw": "避雷针|涂蜡的氧化避雷针",
+      "link": "避雷针",
+      "zh": "涂蜡的氧化避雷针"
+    },
+    {
+      "en": "waxed weathered chiseled copper",
+      "raw": "雕纹铜块|涂蜡的锈蚀雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "涂蜡的锈蚀雕纹铜块"
+    },
+    {
+      "en": "waxed weathered copper",
+      "raw": "铜块|涂蜡的锈蚀铜块",
+      "link": "铜块",
+      "zh": "涂蜡的锈蚀铜块"
+    },
+    {
+      "en": "waxed weathered copper bars",
+      "raw": "铜栏杆|涂蜡的锈蚀铜栏杆",
+      "link": "铜栏杆",
+      "zh": "涂蜡的锈蚀铜栏杆"
+    },
+    {
+      "en": "waxed weathered copper bulb",
+      "raw": "铜灯|涂蜡的锈蚀铜灯",
+      "link": "铜灯",
+      "zh": "涂蜡的锈蚀铜灯"
+    },
+    {
+      "en": "waxed weathered copper chain",
+      "raw": "铜链|涂蜡的锈蚀铜链",
+      "link": "铜链",
+      "zh": "涂蜡的锈蚀铜链"
+    },
+    {
+      "en": "waxed weathered copper chest",
+      "raw": "铜箱子|涂蜡的锈蚀铜箱子",
+      "link": "铜箱子",
+      "zh": "涂蜡的锈蚀铜箱子"
+    },
+    {
+      "en": "waxed weathered copper door",
+      "raw": "铜门|涂蜡的锈蚀铜门",
+      "link": "铜门",
+      "zh": "涂蜡的锈蚀铜门"
+    },
+    {
+      "en": "waxed weathered copper golem statue",
+      "raw": "铜傀儡像|涂蜡的锈蚀铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "涂蜡的锈蚀铜傀儡像"
+    },
+    {
+      "en": "waxed weathered copper grate",
+      "raw": "铜格栅|涂蜡的锈蚀铜格栅",
+      "link": "铜格栅",
+      "zh": "涂蜡的锈蚀铜格栅"
+    },
+    {
+      "en": "waxed weathered copper lantern",
+      "raw": "铜灯笼|涂蜡的锈蚀铜灯笼",
+      "link": "铜灯笼",
+      "zh": "涂蜡的锈蚀铜灯笼"
+    },
+    {
+      "en": "waxed weathered copper trapdoor",
+      "raw": "铜活板门|涂蜡的锈蚀铜活板门",
+      "link": "铜活板门",
+      "zh": "涂蜡的锈蚀铜活板门"
+    },
+    {
+      "en": "waxed weathered cut copper",
+      "raw": "切制铜块|涂蜡的锈蚀切制铜块",
+      "link": "切制铜块",
+      "zh": "涂蜡的锈蚀切制铜块"
+    },
+    {
+      "en": "waxed weathered cut copper slab",
+      "raw": "切制铜台阶|涂蜡的锈蚀切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的锈蚀切制铜台阶"
+    },
+    {
+      "en": "waxed weathered cut copper stairs",
+      "raw": "切制铜楼梯|涂蜡的锈蚀切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "涂蜡的锈蚀切制铜楼梯"
+    },
+    {
+      "en": "waxed weathered lightning rod",
+      "raw": "避雷针|涂蜡的锈蚀避雷针",
+      "link": "避雷针",
+      "zh": "涂蜡的锈蚀避雷针"
+    },
+    {
+      "en": "weathered chiseled copper",
+      "raw": "雕纹铜块|锈蚀的雕纹铜块",
+      "link": "雕纹铜块",
+      "zh": "锈蚀的雕纹铜块"
+    },
+    {
+      "en": "weathered copper",
+      "raw": "铜块|锈蚀的铜块",
+      "link": "铜块",
+      "zh": "锈蚀的铜块"
+    },
+    {
+      "en": "weathered copper bars",
+      "raw": "铜栏杆|锈蚀的铜栏杆",
+      "link": "铜栏杆",
+      "zh": "锈蚀的铜栏杆"
+    },
+    {
+      "en": "weathered copper bulb",
+      "raw": "铜灯|锈蚀的铜灯",
+      "link": "铜灯",
+      "zh": "锈蚀的铜灯"
+    },
+    {
+      "en": "weathered copper chain",
+      "raw": "铜链|锈蚀的铜链",
+      "link": "铜链",
+      "zh": "锈蚀的铜链"
+    },
+    {
+      "en": "weathered copper chest",
+      "raw": "铜箱子|锈蚀的铜箱子",
+      "link": "铜箱子",
+      "zh": "锈蚀的铜箱子"
+    },
+    {
+      "en": "weathered copper door",
+      "raw": "铜门|锈蚀的铜门",
+      "link": "铜门",
+      "zh": "锈蚀的铜门"
+    },
+    {
+      "en": "weathered copper golem statue",
+      "raw": "铜傀儡像|锈蚀的铜傀儡像",
+      "link": "铜傀儡像",
+      "zh": "锈蚀的铜傀儡像"
+    },
+    {
+      "en": "weathered copper grate",
+      "raw": "铜格栅|锈蚀的铜格栅",
+      "link": "铜格栅",
+      "zh": "锈蚀的铜格栅"
+    },
+    {
+      "en": "weathered copper lantern",
+      "raw": "铜灯笼|锈蚀的铜灯笼",
+      "link": "铜灯笼",
+      "zh": "锈蚀的铜灯笼"
+    },
+    {
+      "en": "weathered copper trapdoor",
+      "raw": "铜活板门|锈蚀的铜活板门",
+      "link": "铜活板门",
+      "zh": "锈蚀的铜活板门"
+    },
+    {
+      "en": "weathered cut copper",
+      "raw": "切制铜块|锈蚀的切制铜块",
+      "link": "切制铜块",
+      "zh": "锈蚀的切制铜块"
+    },
+    {
+      "en": "weathered cut copper slab",
+      "raw": "切制铜台阶|锈蚀的切制铜台阶",
+      "link": "切制铜台阶",
+      "zh": "锈蚀的切制铜台阶"
+    },
+    {
+      "en": "weathered cut copper stairs",
+      "raw": "切制铜楼梯|锈蚀的切制铜楼梯",
+      "link": "切制铜楼梯",
+      "zh": "锈蚀的切制铜楼梯"
+    },
+    {
+      "en": "weathered lightning rod",
+      "raw": "避雷针|锈蚀的避雷针",
+      "link": "避雷针",
+      "zh": "锈蚀的避雷针"
+    },
+    {
+      "en": "weeping vines",
+      "raw": "垂泪藤",
+      "link": "垂泪藤",
+      "zh": "垂泪藤"
+    },
+    {
+      "en": "weeping vines plant",
+      "raw": "垂泪藤|垂泪藤植株",
+      "link": "垂泪藤",
+      "zh": "垂泪藤植株"
+    },
+    {
+      "en": "weighted pressure plate",
+      "raw": "压力板|测重压力板",
+      "link": "压力板",
+      "zh": "测重压力板"
+    },
+    {
+      "en": "wet sponge",
+      "raw": "海绵|湿海绵",
+      "link": "海绵",
+      "zh": "湿海绵"
+    },
+    {
+      "en": "wheat crops",
+      "raw": "小麦种子|小麦植株",
+      "link": "小麦种子",
+      "zh": "小麦植株"
+    },
+    {
+      "en": "white banner",
+      "raw": "旗帜|白色旗帜",
+      "link": "旗帜",
+      "zh": "白色旗帜"
+    },
+    {
+      "en": "white bed",
+      "raw": "床|白色床",
+      "link": "床",
+      "zh": "白色床"
+    },
+    {
+      "en": "white candle",
+      "raw": "蜡烛|白色蜡烛",
+      "link": "蜡烛",
+      "zh": "白色蜡烛"
+    },
+    {
+      "en": "white carpet",
+      "raw": "地毯|白色地毯",
+      "link": "地毯",
+      "zh": "白色地毯"
+    },
+    {
+      "en": "white concrete",
+      "raw": "混凝土|白色混凝土",
+      "link": "混凝土",
+      "zh": "白色混凝土"
+    },
+    {
+      "en": "white concrete powder",
+      "raw": "混凝土粉末|白色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "白色混凝土粉末"
+    },
+    {
+      "en": "white concrete slab",
+      "raw": "混凝土半磚|白色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "白色混凝土台阶"
+    },
+    {
+      "en": "white concrete stairs",
+      "raw": "混凝土楼梯|白色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "白色混凝土楼梯"
+    },
+    {
+      "en": "white glazed terracotta",
+      "raw": "带釉陶瓦|白色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "白色带釉陶瓦"
+    },
+    {
+      "en": "white hardened clay",
+      "raw": "染色陶瓦|白色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "白色硬化粘土"
+    },
+    {
+      "en": "white shulker box",
+      "raw": "潜影盒|白色潜影盒",
+      "link": "潜影盒",
+      "zh": "白色潜影盒"
+    },
+    {
+      "en": "white stained clay",
+      "raw": "染色陶瓦|白色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "白色染色黏土"
+    },
+    {
+      "en": "white stained glass",
+      "raw": "染色玻璃|白色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "白色染色玻璃"
+    },
+    {
+      "en": "white stained glass pane",
+      "raw": "染色玻璃板|白色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "白色染色玻璃板"
+    },
+    {
+      "en": "white terracotta",
+      "raw": "染色陶瓦|白色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "白色陶瓦"
+    },
+    {
+      "en": "white tulip",
+      "raw": "郁金香|白色郁金香",
+      "link": "郁金香",
+      "zh": "白色郁金香"
+    },
+    {
+      "en": "white wall banner",
+      "raw": "旗帜|墙上的白色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的白色旗帜"
+    },
+    {
+      "en": "white wool",
+      "raw": "羊毛|白色羊毛",
+      "link": "羊毛",
+      "zh": "白色羊毛"
+    },
+    {
+      "en": "white wool slab",
+      "raw": "羊毛台阶|白色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "白色羊毛台阶"
+    },
+    {
+      "en": "white wool stairs",
+      "raw": "羊毛楼梯|白色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "白色羊毛楼梯"
+    },
+    {
+      "en": "wildflowers",
+      "raw": "野花簇",
+      "link": "野花簇",
+      "zh": "野花簇"
+    },
+    {
+      "en": "wither rose",
+      "raw": "凋灵玫瑰",
+      "link": "凋灵玫瑰",
+      "zh": "凋灵玫瑰"
+    },
+    {
+      "en": "wither skeleton skull",
+      "raw": "凋灵骷髅头颅",
+      "link": "凋灵骷髅头颅",
+      "zh": "凋灵骷髅头颅"
+    },
+    {
+      "en": "wither skeleton wall skull",
+      "raw": "凋灵骷髅头颅|墙上的凋灵骷髅头颅",
+      "link": "凋灵骷髅头颅",
+      "zh": "墙上的凋灵骷髅头颅"
+    },
+    {
+      "en": "wood",
+      "raw": "木头",
+      "link": "木头",
+      "zh": "木头"
+    },
+    {
+      "en": "wood fence",
+      "raw": "木栅栏|木质栅栏",
+      "link": "木栅栏",
+      "zh": "木质栅栏"
+    },
+    {
+      "en": "wood slab",
+      "raw": "木台阶|木质台阶",
+      "link": "木台阶",
+      "zh": "木质台阶"
+    },
+    {
+      "en": "wood stairs",
+      "raw": "木楼梯|木质楼梯",
+      "link": "木楼梯",
+      "zh": "木质楼梯"
+    },
+    {
+      "en": "wooden button",
+      "raw": "木按钮|木质按钮",
+      "link": "木按钮",
+      "zh": "木质按钮"
+    },
+    {
+      "en": "wooden door",
+      "raw": "木门",
+      "link": "木门",
+      "zh": "木门"
+    },
+    {
+      "en": "wooden fence",
+      "raw": "木栅栏|木质栅栏",
+      "link": "木栅栏",
+      "zh": "木质栅栏"
+    },
+    {
+      "en": "wooden planks",
+      "raw": "木板",
+      "link": "木板",
+      "zh": "木板"
+    },
+    {
+      "en": "wooden pressure plate",
+      "raw": "木压力板|木质压力板",
+      "link": "木压力板",
+      "zh": "木质压力板"
+    },
+    {
+      "en": "wooden slab",
+      "raw": "木台阶|木质台阶",
+      "link": "木台阶",
+      "zh": "木质台阶"
+    },
+    {
+      "en": "wooden stairs",
+      "raw": "木楼梯|木质楼梯",
+      "link": "木楼梯",
+      "zh": "木质楼梯"
+    },
+    {
+      "en": "wooden trapdoor",
+      "raw": "木活板门|木质活板门",
+      "link": "木活板门",
+      "zh": "木质活板门"
+    },
+    {
+      "en": "wool",
+      "raw": "羊毛",
+      "link": "羊毛",
+      "zh": "羊毛"
+    },
+    {
+      "en": "wool slab",
+      "raw": "羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "羊毛台阶"
+    },
+    {
+      "en": "wool stairs",
+      "raw": "羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "羊毛楼梯"
+    },
+    {
+      "en": "yellow banner",
+      "raw": "旗帜|黄色旗帜",
+      "link": "旗帜",
+      "zh": "黄色旗帜"
+    },
+    {
+      "en": "yellow bed",
+      "raw": "床|黄色床",
+      "link": "床",
+      "zh": "黄色床"
+    },
+    {
+      "en": "yellow candle",
+      "raw": "蜡烛|黄色蜡烛",
+      "link": "蜡烛",
+      "zh": "黄色蜡烛"
+    },
+    {
+      "en": "yellow carpet",
+      "raw": "地毯|黄色地毯",
+      "link": "地毯",
+      "zh": "黄色地毯"
+    },
+    {
+      "en": "yellow concrete",
+      "raw": "混凝土|黄色混凝土",
+      "link": "混凝土",
+      "zh": "黄色混凝土"
+    },
+    {
+      "en": "yellow concrete powder",
+      "raw": "混凝土粉末|黄色混凝土粉末",
+      "link": "混凝土粉末",
+      "zh": "黄色混凝土粉末"
+    },
+    {
+      "en": "yellow concrete slab",
+      "raw": "混凝土半磚|黄色混凝土台阶",
+      "link": "混凝土半磚",
+      "zh": "黄色混凝土台阶"
+    },
+    {
+      "en": "yellow concrete stairs",
+      "raw": "混凝土楼梯|黄色混凝土楼梯",
+      "link": "混凝土楼梯",
+      "zh": "黄色混凝土楼梯"
+    },
+    {
+      "en": "yellow glazed terracotta",
+      "raw": "带釉陶瓦|黄色带釉陶瓦",
+      "link": "带釉陶瓦",
+      "zh": "黄色带釉陶瓦"
+    },
+    {
+      "en": "yellow hardened clay",
+      "raw": "染色陶瓦|黄色硬化粘土",
+      "link": "染色陶瓦",
+      "zh": "黄色硬化粘土"
+    },
+    {
+      "en": "yellow poplar leaves",
+      "raw": "树叶|黄色杨树树叶",
+      "link": "树叶",
+      "zh": "黄色杨树树叶"
+    },
+    {
+      "en": "yellow shulker box",
+      "raw": "潜影盒|黄色潜影盒",
+      "link": "潜影盒",
+      "zh": "黄色潜影盒"
+    },
+    {
+      "en": "yellow stained clay",
+      "raw": "染色陶瓦|黄色染色黏土",
+      "link": "染色陶瓦",
+      "zh": "黄色染色黏土"
+    },
+    {
+      "en": "yellow stained glass",
+      "raw": "染色玻璃|黄色染色玻璃",
+      "link": "染色玻璃",
+      "zh": "黄色染色玻璃"
+    },
+    {
+      "en": "yellow stained glass pane",
+      "raw": "染色玻璃板|黄色染色玻璃板",
+      "link": "染色玻璃板",
+      "zh": "黄色染色玻璃板"
+    },
+    {
+      "en": "yellow terracotta",
+      "raw": "染色陶瓦|黄色陶瓦",
+      "link": "染色陶瓦",
+      "zh": "黄色陶瓦"
+    },
+    {
+      "en": "yellow wall banner",
+      "raw": "旗帜|墙上的黄色旗帜",
+      "link": "旗帜",
+      "zh": "墙上的黄色旗帜"
+    },
+    {
+      "en": "yellow wool",
+      "raw": "羊毛|黄色羊毛",
+      "link": "羊毛",
+      "zh": "黄色羊毛"
+    },
+    {
+      "en": "yellow wool slab",
+      "raw": "羊毛台阶|黄色羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "黄色羊毛台阶"
+    },
+    {
+      "en": "yellow wool stairs",
+      "raw": "羊毛楼梯|黄色羊毛楼梯",
+      "link": "羊毛楼梯",
+      "zh": "黄色羊毛楼梯"
+    },
+    {
+      "en": "zombie head",
+      "raw": "僵尸的头",
+      "link": "僵尸的头",
+      "zh": "僵尸的头"
+    },
+    {
+      "en": "zombie wall head",
+      "raw": "僵尸的头|墙上的僵尸的头",
+      "link": "僵尸的头",
+      "zh": "墙上的僵尸的头"
+    }
+  ]
+}

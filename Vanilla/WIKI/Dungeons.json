@@ -1,0 +1,5392 @@
+{
+  "DungeonsItemSprite": [
+    {
+      "en": "archer's armor",
+      "raw": "弓箭手护甲",
+      "link": "弓箭手护甲",
+      "zh": "弓箭手护甲"
+    },
+    {
+      "en": "arctic fox armor",
+      "raw": "北极狐护甲",
+      "link": "北极狐护甲",
+      "zh": "北极狐护甲"
+    },
+    {
+      "en": "battle robe",
+      "raw": "战袍",
+      "link": "战袍",
+      "zh": "战袍"
+    },
+    {
+      "en": "beehive armor",
+      "raw": "蜂箱护甲",
+      "link": "蜂箱护甲",
+      "zh": "蜂箱护甲"
+    },
+    {
+      "en": "beenest armor",
+      "raw": "蜂巢护甲",
+      "link": "蜂巢护甲",
+      "zh": "蜂巢护甲"
+    },
+    {
+      "en": "black spot armor",
+      "raw": "黑斑盔甲",
+      "link": "黑斑盔甲",
+      "zh": "黑斑盔甲"
+    },
+    {
+      "en": "black wolf armor",
+      "raw": "黑狼之甲",
+      "link": "黑狼之甲",
+      "zh": "黑狼之甲"
+    },
+    {
+      "en": "cauldron armor",
+      "raw": "锅釜怪盔甲",
+      "link": "锅釜怪盔甲",
+      "zh": "锅釜怪盔甲"
+    },
+    {
+      "en": "cave crawler",
+      "raw": "深穴开拓者",
+      "link": "深穴开拓者",
+      "zh": "深穴开拓者"
+    },
+    {
+      "en": "champion's armor",
+      "raw": "冠军之甲",
+      "link": "冠军之甲",
+      "zh": "冠军之甲"
+    },
+    {
+      "en": "climbing gear",
+      "raw": "登山装",
+      "link": "登山装",
+      "zh": "登山装"
+    },
+    {
+      "en": "cloaked skull",
+      "raw": "头骨斗篷",
+      "link": "头骨斗篷",
+      "zh": "头骨斗篷"
+    },
+    {
+      "en": "curious armor",
+      "raw": "奇特盔甲",
+      "link": "奇特盔甲",
+      "zh": "奇特盔甲"
+    },
+    {
+      "en": "dark armor",
+      "raw": "暗黑盔甲",
+      "link": "暗黑盔甲",
+      "zh": "暗黑盔甲"
+    },
+    {
+      "en": "ember robe",
+      "raw": "灰烬长袍",
+      "link": "灰烬长袍",
+      "zh": "灰烬长袍"
+    },
+    {
+      "en": "emerald gear",
+      "raw": "绿宝石盔甲",
+      "link": "绿宝石盔甲",
+      "zh": "绿宝石盔甲"
+    },
+    {
+      "en": "entertainer's garb",
+      "raw": "演出服",
+      "link": "演出服",
+      "zh": "演出服"
+    },
+    {
+      "en": "evocation robe",
+      "raw": "唤魔长袍",
+      "link": "唤魔长袍",
+      "zh": "唤魔长袍"
+    },
+    {
+      "en": "fox armor",
+      "raw": "狐狸甲",
+      "link": "狐狸甲",
+      "zh": "狐狸甲"
+    },
+    {
+      "en": "frost armor",
+      "raw": "冰霜盔甲",
+      "link": "冰霜盔甲",
+      "zh": "冰霜盔甲"
+    },
+    {
+      "en": "frost bite",
+      "raw": "冰霜之吻",
+      "link": "冰霜之吻",
+      "zh": "冰霜之吻"
+    },
+    {
+      "en": "full metal armor",
+      "raw": "全金属盔甲",
+      "link": "全金属盔甲",
+      "zh": "全金属盔甲"
+    },
+    {
+      "en": "ghost kindler",
+      "raw": "幽灵亲和者",
+      "link": "幽灵亲和者",
+      "zh": "幽灵亲和者"
+    },
+    {
+      "en": "ghostly armor",
+      "raw": "幽灵盔甲",
+      "link": "幽灵盔甲",
+      "zh": "幽灵盔甲"
+    },
+    {
+      "en": "gilded glory",
+      "raw": "镶金荣光",
+      "link": "镶金荣光",
+      "zh": "镶金荣光"
+    },
+    {
+      "en": "glow squid armor",
+      "raw": "发光鱿鱼甲",
+      "link": "发光鱿鱼甲",
+      "zh": "发光鱿鱼甲"
+    },
+    {
+      "en": "goat gear",
+      "raw": "山羊装",
+      "link": "山羊装",
+      "zh": "山羊装"
+    },
+    {
+      "en": "golden piglin armor",
+      "raw": "黄金猪灵盔甲",
+      "link": "黄金猪灵盔甲",
+      "zh": "黄金猪灵盔甲"
+    },
+    {
+      "en": "grim armor",
+      "raw": "冷酷战甲",
+      "link": "冷酷战甲",
+      "zh": "冷酷战甲"
+    },
+    {
+      "en": "guard's armor",
+      "raw": "守卫之甲",
+      "link": "守卫之甲",
+      "zh": "守卫之甲"
+    },
+    {
+      "en": "hero's armor",
+      "raw": "英雄之甲",
+      "link": "英雄之甲",
+      "zh": "英雄之甲"
+    },
+    {
+      "en": "highland armor",
+      "raw": "高地护甲",
+      "link": "高地护甲",
+      "zh": "高地护甲"
+    },
+    {
+      "en": "hungriest horror",
+      "raw": "饕餮怖鬼",
+      "link": "饕餮怖鬼",
+      "zh": "饕餮怖鬼"
+    },
+    {
+      "en": "hungry horror",
+      "raw": "饥饿怖鬼",
+      "link": "饥饿怖鬼",
+      "zh": "饥饿怖鬼"
+    },
+    {
+      "en": "hunter's armor",
+      "raw": "猎人之甲",
+      "link": "猎人之甲",
+      "zh": "猎人之甲"
+    },
+    {
+      "en": "living vines armor",
+      "raw": "生命藤甲",
+      "link": "生命藤甲",
+      "zh": "生命藤甲"
+    },
+    {
+      "en": "mercenary armor",
+      "raw": "雇佣兵盔甲",
+      "link": "雇佣兵盔甲",
+      "zh": "雇佣兵盔甲"
+    },
+    {
+      "en": "mystery armor",
+      "raw": "神秘战甲",
+      "link": "神秘战甲",
+      "zh": "神秘战甲"
+    },
+    {
+      "en": "nimble turtle armor",
+      "raw": "轻灵龟甲",
+      "link": "轻灵龟甲",
+      "zh": "轻灵龟甲"
+    },
+    {
+      "en": "ocelot armor",
+      "raw": "豹猫护甲",
+      "link": "豹猫护甲",
+      "zh": "豹猫护甲"
+    },
+    {
+      "en": "opulent armor",
+      "raw": "华丽盔甲",
+      "link": "华丽盔甲",
+      "zh": "华丽盔甲"
+    },
+    {
+      "en": "phantom armor",
+      "raw": "幻翼护甲",
+      "link": "幻翼护甲",
+      "zh": "幻翼护甲"
+    },
+    {
+      "en": "piglin armor",
+      "raw": "猪灵盔甲",
+      "link": "猪灵盔甲",
+      "zh": "猪灵盔甲"
+    },
+    {
+      "en": "plate armor",
+      "raw": "板甲",
+      "link": "板甲",
+      "zh": "板甲"
+    },
+    {
+      "en": "reinforced mail",
+      "raw": "强化链甲",
+      "link": "强化链甲",
+      "zh": "强化链甲"
+    },
+    {
+      "en": "renegade armor",
+      "raw": "叛节之甲",
+      "link": "叛节之甲",
+      "zh": "叛节之甲"
+    },
+    {
+      "en": "root rot armor",
+      "raw": "腐根护甲",
+      "link": "腐根护甲",
+      "zh": "腐根护甲"
+    },
+    {
+      "en": "rugged climbing gear",
+      "raw": "坚固登山装",
+      "link": "坚固登山装",
+      "zh": "坚固登山装"
+    },
+    {
+      "en": "scale mail",
+      "raw": "鳞甲",
+      "link": "鳞甲",
+      "zh": "鳞甲"
+    },
+    {
+      "en": "shadow walker",
+      "raw": "暗影行者",
+      "link": "暗影行者",
+      "zh": "暗影行者"
+    },
+    {
+      "en": "shulker armor",
+      "raw": "潜影贝盔甲",
+      "link": "潜影贝盔甲",
+      "zh": "潜影贝盔甲"
+    },
+    {
+      "en": "snow armor",
+      "raw": "雪之盔甲",
+      "link": "雪之盔甲",
+      "zh": "雪之盔甲"
+    },
+    {
+      "en": "soul robe",
+      "raw": "灵魂长袍",
+      "link": "灵魂长袍",
+      "zh": "灵魂长袍"
+    },
+    {
+      "en": "souldancer robe",
+      "raw": "魂舞长袍",
+      "link": "魂舞长袍",
+      "zh": "魂舞长袍"
+    },
+    {
+      "en": "spelunker armor",
+      "raw": "探穴者护甲",
+      "link": "探穴者护甲",
+      "zh": "探穴者护甲"
+    },
+    {
+      "en": "spider armor",
+      "raw": "蜘蛛盔甲",
+      "link": "蜘蛛盔甲",
+      "zh": "蜘蛛盔甲"
+    },
+    {
+      "en": "splendid robe",
+      "raw": "华丽长袍",
+      "link": "华丽长袍",
+      "zh": "华丽长袍"
+    },
+    {
+      "en": "sprout armor",
+      "raw": "嫩芽藤甲",
+      "link": "嫩芽藤甲",
+      "zh": "嫩芽藤甲"
+    },
+    {
+      "en": "squid armor",
+      "raw": "鱿鱼甲",
+      "link": "鱿鱼甲",
+      "zh": "鱿鱼甲"
+    },
+    {
+      "en": "stalwart armor",
+      "raw": "忠诚之甲",
+      "link": "忠诚之甲",
+      "zh": "忠诚之甲"
+    },
+    {
+      "en": "sturdy shulker armor",
+      "raw": "坚固潜影贝盔甲",
+      "link": "坚固潜影贝盔甲",
+      "zh": "坚固潜影贝盔甲"
+    },
+    {
+      "en": "sweet tooth",
+      "raw": "嗜甜之甲",
+      "link": "嗜甜之甲",
+      "zh": "嗜甜之甲"
+    },
+    {
+      "en": "teleportation robes",
+      "raw": "传送长袍",
+      "link": "传送长袍",
+      "zh": "传送长袍"
+    },
+    {
+      "en": "the spooky gourdian",
+      "raw": "惊悚南瓜",
+      "link": "惊悚南瓜",
+      "zh": "惊悚南瓜"
+    },
+    {
+      "en": "the troubadour",
+      "raw": "游吟诗人",
+      "link": "游吟诗人",
+      "zh": "游吟诗人"
+    },
+    {
+      "en": "thief armor",
+      "raw": "窃贼之甲",
+      "link": "窃贼之甲",
+      "zh": "窃贼之甲"
+    },
+    {
+      "en": "titan's shroud",
+      "raw": "泰坦钢盔",
+      "link": "泰坦钢盔",
+      "zh": "泰坦钢盔"
+    },
+    {
+      "en": "turtle armor",
+      "raw": "龟甲",
+      "link": "龟甲",
+      "zh": "龟甲"
+    },
+    {
+      "en": "unstable robes",
+      "raw": "不稳定长袍",
+      "link": "不稳定长袍",
+      "zh": "不稳定长袍"
+    },
+    {
+      "en": "verdant robe",
+      "raw": "碧绿长袍",
+      "link": "碧绿长袍",
+      "zh": "碧绿长袍"
+    },
+    {
+      "en": "wither armor",
+      "raw": "凋灵盔甲",
+      "link": "凋灵盔甲",
+      "zh": "凋灵盔甲"
+    },
+    {
+      "en": "wolf armor",
+      "raw": "狼甲",
+      "link": "狼甲",
+      "zh": "狼甲"
+    },
+    {
+      "en": "blast fungus",
+      "raw": "爆破菌",
+      "link": "爆破菌",
+      "zh": "爆破菌"
+    },
+    {
+      "en": "blightbearer",
+      "raw": "凋零者",
+      "link": "凋零者",
+      "zh": "凋零者"
+    },
+    {
+      "en": "boots of swiftness",
+      "raw": "迅捷之靴",
+      "link": "迅捷之靴",
+      "zh": "迅捷之靴"
+    },
+    {
+      "en": "buzzy nest",
+      "raw": "嗡嗡蜂巢",
+      "link": "嗡嗡蜂巢",
+      "zh": "嗡嗡蜂巢"
+    },
+    {
+      "en": "corrupted beacon",
+      "raw": "腐化信标",
+      "link": "腐化信标",
+      "zh": "腐化信标"
+    },
+    {
+      "en": "corrupted pumpkin",
+      "raw": "腐化南瓜",
+      "link": "腐化南瓜",
+      "zh": "腐化南瓜"
+    },
+    {
+      "en": "corrupted seeds",
+      "raw": "腐化种子",
+      "link": "腐化种子",
+      "zh": "腐化种子"
+    },
+    {
+      "en": "death cap mushroom",
+      "raw": "毒帽菇",
+      "link": "毒帽菇",
+      "zh": "毒帽菇"
+    },
+    {
+      "en": "diamond dust",
+      "raw": "钻石粉尘",
+      "link": "钻石粉尘",
+      "zh": "钻石粉尘"
+    },
+    {
+      "en": "enchanted grass",
+      "raw": "附魔草",
+      "link": "附魔草",
+      "zh": "附魔草"
+    },
+    {
+      "en": "enchanter's tome",
+      "raw": "附魔师之典",
+      "link": "附魔师之典",
+      "zh": "附魔师之典"
+    },
+    {
+      "en": "eye of the guardian",
+      "raw": "守卫者之眼",
+      "link": "守卫者之眼",
+      "zh": "守卫者之眼"
+    },
+    {
+      "en": "fireworks arrow",
+      "raw": "烟火之箭",
+      "link": "烟火之箭",
+      "zh": "烟火之箭"
+    },
+    {
+      "en": "fishing rod",
+      "raw": "钓鱼竿",
+      "link": "钓鱼竿",
+      "zh": "钓鱼竿"
+    },
+    {
+      "en": "flaming quiver",
+      "raw": "燃烧箭袋",
+      "link": "燃烧箭袋",
+      "zh": "燃烧箭袋"
+    },
+    {
+      "en": "ghost cloak",
+      "raw": "幽灵战袍",
+      "link": "幽灵战袍",
+      "zh": "幽灵战袍"
+    },
+    {
+      "en": "golem kit",
+      "raw": "傀儡用具",
+      "link": "傀儡用具",
+      "zh": "傀儡用具"
+    },
+    {
+      "en": "gong of weakening",
+      "raw": "弱化之锣",
+      "link": "弱化之锣",
+      "zh": "弱化之锣"
+    },
+    {
+      "en": "harpoon quiver",
+      "raw": "渔叉箭袋",
+      "link": "渔叉箭袋",
+      "zh": "渔叉箭袋"
+    },
+    {
+      "en": "harvester",
+      "raw": "收割者",
+      "link": "收割者",
+      "zh": "收割者"
+    },
+    {
+      "en": "ice wand",
+      "raw": "寒冰魔杖",
+      "link": "寒冰魔杖",
+      "zh": "寒冰魔杖"
+    },
+    {
+      "en": "iron hide amulet",
+      "raw": "铁皮护身符",
+      "link": "铁皮护身符",
+      "zh": "铁皮护身符"
+    },
+    {
+      "en": "light feather",
+      "raw": "浮流之羽",
+      "link": "浮流之羽",
+      "zh": "浮流之羽"
+    },
+    {
+      "en": "lightning rod",
+      "raw": "雷霆法杖",
+      "link": "雷霆法杖",
+      "zh": "雷霆法杖"
+    },
+    {
+      "en": "love medallion",
+      "raw": "迷情挂坠",
+      "link": "迷情挂坠",
+      "zh": "迷情挂坠"
+    },
+    {
+      "en": "powershaker",
+      "raw": "巨力沙锤",
+      "link": "巨力沙锤",
+      "zh": "巨力沙锤"
+    },
+    {
+      "en": "satchel of elements",
+      "raw": "元素背袋",
+      "link": "元素背袋",
+      "zh": "元素背袋"
+    },
+    {
+      "en": "satchel of elixirs",
+      "raw": "药水背袋",
+      "link": "药水背袋",
+      "zh": "药水背袋"
+    },
+    {
+      "en": "satchel of snacks",
+      "raw": "零食背袋",
+      "link": "零食背袋",
+      "zh": "零食背袋"
+    },
+    {
+      "en": "scatter mines",
+      "raw": "撒布地雷",
+      "link": "撒布地雷",
+      "zh": "撒布地雷"
+    },
+    {
+      "en": "shadow shifter",
+      "raw": "暗影装置",
+      "link": "暗影装置",
+      "zh": "暗影装置"
+    },
+    {
+      "en": "shock powder",
+      "raw": "休克粉末",
+      "link": "休克粉末",
+      "zh": "休克粉末"
+    },
+    {
+      "en": "soul healer",
+      "raw": "灵魂治疗器",
+      "link": "灵魂治疗器",
+      "zh": "灵魂治疗器"
+    },
+    {
+      "en": "soul lantern",
+      "raw": "灵魂灯笼",
+      "link": "灵魂灯笼",
+      "zh": "灵魂灯笼"
+    },
+    {
+      "en": "spinblade",
+      "raw": "回旋之刃",
+      "link": "回旋之刃",
+      "zh": "回旋之刃"
+    },
+    {
+      "en": "tasty bone",
+      "raw": "美味骨肉",
+      "link": "美味骨肉",
+      "zh": "美味骨肉"
+    },
+    {
+      "en": "thundering quiver",
+      "raw": "雷霆箭袋",
+      "link": "雷霆箭袋",
+      "zh": "雷霆箭袋"
+    },
+    {
+      "en": "tome of duplication",
+      "raw": "复制之典",
+      "link": "复制之典",
+      "zh": "复制之典"
+    },
+    {
+      "en": "torment quiver",
+      "raw": "苦痛箭袋",
+      "link": "苦痛箭袋",
+      "zh": "苦痛箭袋"
+    },
+    {
+      "en": "totem of casting",
+      "raw": "施法图腾",
+      "link": "施法图腾",
+      "zh": "施法图腾"
+    },
+    {
+      "en": "totem of regeneration",
+      "raw": "再生图腾",
+      "link": "再生图腾",
+      "zh": "再生图腾"
+    },
+    {
+      "en": "totem of resistance",
+      "raw": "抗性图腾",
+      "link": "抗性图腾",
+      "zh": "抗性图腾"
+    },
+    {
+      "en": "totem of shielding",
+      "raw": "护盾图腾",
+      "link": "护盾图腾",
+      "zh": "护盾图腾"
+    },
+    {
+      "en": "totem of soul protection",
+      "raw": "卫魂图腾",
+      "link": "卫魂图腾",
+      "zh": "卫魂图腾"
+    },
+    {
+      "en": "updraft tome",
+      "raw": "鼓风之典",
+      "link": "鼓风之典",
+      "zh": "鼓风之典"
+    },
+    {
+      "en": "vexing chant",
+      "raw": "恼鬼奏章",
+      "link": "恼鬼奏章",
+      "zh": "恼鬼奏章"
+    },
+    {
+      "en": "void quiver",
+      "raw": "虚空箭袋",
+      "link": "虚空箭袋",
+      "zh": "虚空箭袋"
+    },
+    {
+      "en": "wind horn",
+      "raw": "风之号角",
+      "link": "风之号角",
+      "zh": "风之号角"
+    },
+    {
+      "en": "wonderful wheat",
+      "raw": "优质小麦",
+      "link": "优质小麦",
+      "zh": "优质小麦"
+    },
+    {
+      "en": "amethyst cape",
+      "raw": "紫水晶披风",
+      "link": "紫水晶披风",
+      "zh": "紫水晶披风"
+    },
+    {
+      "en": "birthday cape",
+      "raw": "生日披风",
+      "link": "生日披风",
+      "zh": "生日披风"
+    },
+    {
+      "en": "cloudy climb cape",
+      "raw": "云上攀登披风",
+      "link": "云上攀登披风",
+      "zh": "云上攀登披风"
+    },
+    {
+      "en": "cow crusader",
+      "raw": "牛战士",
+      "link": "牛战士",
+      "zh": "牛战士"
+    },
+    {
+      "en": "downpour cape",
+      "raw": "暴雨披风",
+      "link": "暴雨披风",
+      "zh": "暴雨披风"
+    },
+    {
+      "en": "fauna faire",
+      "raw": "动物狂欢（披风）|动物狂欢",
+      "link": "动物狂欢（披风）",
+      "zh": "动物狂欢"
+    },
+    {
+      "en": "gift wrap",
+      "raw": "礼品包装纸",
+      "link": "礼品包装纸",
+      "zh": "礼品包装纸"
+    },
+    {
+      "en": "glow cape",
+      "raw": "荧光披风",
+      "link": "荧光披风",
+      "zh": "荧光披风"
+    },
+    {
+      "en": "hammer cape",
+      "raw": "大锤披风",
+      "link": "大锤披风",
+      "zh": "大锤披风"
+    },
+    {
+      "en": "hero cape",
+      "raw": "英雄披风",
+      "link": "英雄披风",
+      "zh": "英雄披风"
+    },
+    {
+      "en": "hero cape old",
+      "raw": "皇家披风",
+      "link": "皇家披风",
+      "zh": "皇家披风"
+    },
+    {
+      "en": "iceologer cape",
+      "raw": "冰术师披风",
+      "link": "冰术师披风",
+      "zh": "冰术师披风"
+    },
+    {
+      "en": "iron golem cape",
+      "raw": "铁傀儡披风",
+      "link": "铁傀儡披风",
+      "zh": "铁傀儡披风"
+    },
+    {
+      "en": "luminous night cape",
+      "raw": "辉光暗夜披风",
+      "link": "辉光暗夜披风",
+      "zh": "辉光暗夜披风"
+    },
+    {
+      "en": "mystery cape",
+      "raw": "神秘披风",
+      "link": "神秘披风",
+      "zh": "神秘披风"
+    },
+    {
+      "en": "phantom cape",
+      "raw": "幻翼披风",
+      "link": "幻翼披风",
+      "zh": "幻翼披风"
+    },
+    {
+      "en": "prism cape",
+      "raw": "棱镜披风",
+      "link": "棱镜披风",
+      "zh": "棱镜披风"
+    },
+    {
+      "en": "sinister blue cape",
+      "raw": "险恶披风",
+      "link": "险恶披风",
+      "zh": "险恶披风"
+    },
+    {
+      "en": "turtle shell",
+      "raw": "海龟壳",
+      "link": "海龟壳",
+      "zh": "海龟壳"
+    },
+    {
+      "en": "ominous cape",
+      "raw": "不祥披风",
+      "link": "不祥披风",
+      "zh": "不祥披风"
+    },
+    {
+      "en": "apple",
+      "raw": "苹果",
+      "link": "苹果",
+      "zh": "苹果"
+    },
+    {
+      "en": "arrow bundle",
+      "raw": "箭捆",
+      "link": "箭捆",
+      "zh": "箭捆"
+    },
+    {
+      "en": "bread",
+      "raw": "面包",
+      "link": "面包",
+      "zh": "面包"
+    },
+    {
+      "en": "burning brew",
+      "raw": "灼烧之酿",
+      "link": "灼烧之酿",
+      "zh": "灼烧之酿"
+    },
+    {
+      "en": "chorus fruit",
+      "raw": "紫颂果",
+      "link": "紫颂果",
+      "zh": "紫颂果"
+    },
+    {
+      "en": "conduit",
+      "raw": "潮涌核心",
+      "link": "潮涌核心",
+      "zh": "潮涌核心"
+    },
+    {
+      "en": "cooked salmon",
+      "raw": "熟鲑鱼",
+      "link": "熟鲑鱼",
+      "zh": "熟鲑鱼"
+    },
+    {
+      "en": "dense brew",
+      "raw": "浓稠之酿",
+      "link": "浓稠之酿",
+      "zh": "浓稠之酿"
+    },
+    {
+      "en": "eye of ender",
+      "raw": "末影之眼",
+      "link": "末影之眼",
+      "zh": "末影之眼"
+    },
+    {
+      "en": "melon",
+      "raw": "西瓜片",
+      "link": "西瓜片",
+      "zh": "西瓜片"
+    },
+    {
+      "en": "oakwood brew",
+      "raw": "橡木之酿",
+      "link": "橡木之酿",
+      "zh": "橡木之酿"
+    },
+    {
+      "en": "pork",
+      "raw": "猪排",
+      "link": "猪排",
+      "zh": "猪排"
+    },
+    {
+      "en": "potion of water breathing",
+      "raw": "水肺药水",
+      "link": "水肺药水",
+      "zh": "水肺药水"
+    },
+    {
+      "en": "shadow brew",
+      "raw": "暗影之酿",
+      "link": "暗影之酿",
+      "zh": "暗影之酿"
+    },
+    {
+      "en": "strength potion",
+      "raw": "力量药水",
+      "link": "力量药水",
+      "zh": "力量药水"
+    },
+    {
+      "en": "sweet berries",
+      "raw": "甜浆果",
+      "link": "甜浆果",
+      "zh": "甜浆果"
+    },
+    {
+      "en": "sweet brew",
+      "raw": "甜美之酿",
+      "link": "甜美之酿",
+      "zh": "甜美之酿"
+    },
+    {
+      "en": "swiftness potion",
+      "raw": "迅捷药水",
+      "link": "迅捷药水",
+      "zh": "迅捷药水"
+    },
+    {
+      "en": "TNT",
+      "raw": "TNT",
+      "link": "TNT",
+      "zh": "TNT"
+    },
+    {
+      "en": "trident",
+      "raw": "三叉戟",
+      "link": "三叉戟",
+      "zh": "三叉戟"
+    },
+    {
+      "en": "tropical fish",
+      "raw": "热带鱼",
+      "link": "热带鱼",
+      "zh": "热带鱼"
+    },
+    {
+      "en": "anchor",
+      "raw": "船锚",
+      "link": "船锚",
+      "zh": "船锚"
+    },
+    {
+      "en": "axe",
+      "raw": "斧",
+      "link": "斧",
+      "zh": "斧"
+    },
+    {
+      "en": "backstabber",
+      "raw": "背刺利刃",
+      "link": "背刺利刃",
+      "zh": "背刺利刃"
+    },
+    {
+      "en": "battlestaff",
+      "raw": "战斗之杖",
+      "link": "战斗之杖",
+      "zh": "战斗之杖"
+    },
+    {
+      "en": "battlestaff of terror",
+      "raw": "恐怖之杖",
+      "link": "恐怖之杖",
+      "zh": "恐怖之杖"
+    },
+    {
+      "en": "bee stinger",
+      "raw": "蜂之螫针",
+      "link": "蜂之螫针",
+      "zh": "蜂之螫针"
+    },
+    {
+      "en": "boneclub",
+      "raw": "大骨棍",
+      "link": "大骨棍",
+      "zh": "大骨棍"
+    },
+    {
+      "en": "bonehead hammer",
+      "raw": "头骨锤",
+      "link": "头骨锤",
+      "zh": "头骨锤"
+    },
+    {
+      "en": "bone cudgel",
+      "raw": "大骨棒",
+      "link": "大骨棒",
+      "zh": "大骨棒"
+    },
+    {
+      "en": "broadsword",
+      "raw": "大剑",
+      "link": "大剑",
+      "zh": "大剑"
+    },
+    {
+      "en": "broken sawblade",
+      "raw": "破损锯剑",
+      "link": "破损锯剑",
+      "zh": "破损锯剑"
+    },
+    {
+      "en": "cackling broom",
+      "raw": "咯笑扫帚",
+      "link": "咯笑扫帚",
+      "zh": "咯笑扫帚"
+    },
+    {
+      "en": "chill gale knife",
+      "raw": "霜风之刃",
+      "link": "霜风之刃",
+      "zh": "霜风之刃"
+    },
+    {
+      "en": "claymore",
+      "raw": "阔剑",
+      "link": "阔剑",
+      "zh": "阔剑"
+    },
+    {
+      "en": "coral blade",
+      "raw": "珊瑚之刃",
+      "link": "珊瑚之刃",
+      "zh": "珊瑚之刃"
+    },
+    {
+      "en": "cursed axe",
+      "raw": "诅咒之斧",
+      "link": "诅咒之斧",
+      "zh": "诅咒之斧"
+    },
+    {
+      "en": "cutlass",
+      "raw": "弯刀",
+      "link": "弯刀",
+      "zh": "弯刀"
+    },
+    {
+      "en": "daggers",
+      "raw": "双持匕首",
+      "link": "双持匕首",
+      "zh": "双持匕首"
+    },
+    {
+      "en": "dancer's sword",
+      "raw": "舞者之剑",
+      "link": "舞者之剑",
+      "zh": "舞者之剑"
+    },
+    {
+      "en": "dark katana",
+      "raw": "暗黑武士刀",
+      "link": "暗黑武士刀",
+      "zh": "暗黑武士刀"
+    },
+    {
+      "en": "diamond pickaxe",
+      "raw": "钻石镐",
+      "link": "钻石镐",
+      "zh": "钻石镐"
+    },
+    {
+      "en": "diamond sword",
+      "raw": "钻石剑",
+      "link": "钻石剑",
+      "zh": "钻石剑"
+    },
+    {
+      "en": "double axe",
+      "raw": "双刃斧",
+      "link": "双刃斧",
+      "zh": "双刃斧"
+    },
+    {
+      "en": "encrusted anchor",
+      "raw": "覆藤船锚",
+      "link": "覆藤船锚",
+      "zh": "覆藤船锚"
+    },
+    {
+      "en": "eternal knife",
+      "raw": "永恒之刃",
+      "link": "永恒之刃",
+      "zh": "永恒之刃"
+    },
+    {
+      "en": "fangs of frost",
+      "raw": "寒霜獠牙",
+      "link": "寒霜獠牙",
+      "zh": "寒霜獠牙"
+    },
+    {
+      "en": "fighter's bindings",
+      "raw": "战士之缚",
+      "link": "战士之缚",
+      "zh": "战士之缚"
+    },
+    {
+      "en": "firebrand",
+      "raw": "烙火",
+      "link": "烙火",
+      "zh": "烙火"
+    },
+    {
+      "en": "flail",
+      "raw": "链锤",
+      "link": "链锤",
+      "zh": "链锤"
+    },
+    {
+      "en": "fortune spear",
+      "raw": "幸运长矛",
+      "link": "幸运长矛",
+      "zh": "幸运长矛"
+    },
+    {
+      "en": "freezing foil",
+      "raw": "霜冻花剑",
+      "link": "霜冻花剑",
+      "zh": "霜冻花剑"
+    },
+    {
+      "en": "frost scythe",
+      "raw": "冰霜长镰",
+      "link": "冰霜长镰",
+      "zh": "冰霜长镰"
+    },
+    {
+      "en": "frost slayer",
+      "raw": "冰霜杀手",
+      "link": "冰霜杀手",
+      "zh": "冰霜杀手"
+    },
+    {
+      "en": "gauntlets",
+      "raw": "护手",
+      "link": "护手",
+      "zh": "护手"
+    },
+    {
+      "en": "glaive",
+      "raw": "长柄刀",
+      "link": "长柄刀",
+      "zh": "长柄刀"
+    },
+    {
+      "en": "grave bane",
+      "raw": "弑墓者",
+      "link": "弑墓者",
+      "zh": "弑墓者"
+    },
+    {
+      "en": "great axeblade",
+      "raw": "斧阔剑",
+      "link": "斧阔剑",
+      "zh": "斧阔剑"
+    },
+    {
+      "en": "great hammer",
+      "raw": "大锤",
+      "link": "大锤",
+      "zh": "大锤"
+    },
+    {
+      "en": "growing staff",
+      "raw": "生长之杖",
+      "link": "生长之杖",
+      "zh": "生长之杖"
+    },
+    {
+      "en": "hammer of gravity",
+      "raw": "引力之锤",
+      "link": "引力之锤",
+      "zh": "引力之锤"
+    },
+    {
+      "en": "hawkbrand",
+      "raw": "鹰身大剑",
+      "link": "鹰身大剑",
+      "zh": "鹰身大剑"
+    },
+    {
+      "en": "heartstealer",
+      "raw": "窃心者",
+      "link": "窃心者",
+      "zh": "窃心者"
+    },
+    {
+      "en": "highland axe",
+      "raw": "高地之斧",
+      "link": "高地之斧",
+      "zh": "高地之斧"
+    },
+    {
+      "en": "jailor's scythe",
+      "raw": "狱卒之镰",
+      "link": "狱卒之镰",
+      "zh": "狱卒之镰"
+    },
+    {
+      "en": "katana",
+      "raw": "武士刀",
+      "link": "武士刀",
+      "zh": "武士刀"
+    },
+    {
+      "en": "mace",
+      "raw": "锤子",
+      "link": "锤子",
+      "zh": "锤子"
+    },
+    {
+      "en": "master's katana",
+      "raw": "大师的武士刀",
+      "link": "大师的武士刀",
+      "zh": "大师的武士刀"
+    },
+    {
+      "en": "maulers",
+      "raw": "撕裂者",
+      "link": "撕裂者",
+      "zh": "撕裂者"
+    },
+    {
+      "en": "mechanized sawblade",
+      "raw": "机械锯剑",
+      "link": "机械锯剑",
+      "zh": "机械锯剑"
+    },
+    {
+      "en": "moon daggers",
+      "raw": "月之匕首",
+      "link": "月之匕首",
+      "zh": "月之匕首"
+    },
+    {
+      "en": "nameless blade",
+      "raw": "无名之刃",
+      "link": "无名之刃",
+      "zh": "无名之刃"
+    },
+    {
+      "en": "nightmare's bite",
+      "raw": "梦魇之噬",
+      "link": "梦魇之噬",
+      "zh": "梦魇之噬"
+    },
+    {
+      "en": "obsidian claymore",
+      "raw": "黑曜石阔剑",
+      "link": "黑曜石阔剑",
+      "zh": "黑曜石阔剑"
+    },
+    {
+      "en": "pickaxe",
+      "raw": "镐",
+      "link": "镐",
+      "zh": "镐"
+    },
+    {
+      "en": "rapier",
+      "raw": "西洋剑",
+      "link": "西洋剑",
+      "zh": "西洋剑"
+    },
+    {
+      "en": "resolute tempest knife",
+      "raw": "坚挺暴风刃",
+      "link": "坚挺暴风刃",
+      "zh": "坚挺暴风刃"
+    },
+    {
+      "en": "sheer daggers",
+      "raw": "纯正匕首",
+      "link": "纯正匕首",
+      "zh": "纯正匕首"
+    },
+    {
+      "en": "sickles",
+      "raw": "镰刀",
+      "link": "镰刀",
+      "zh": "镰刀"
+    },
+    {
+      "en": "sinister sword",
+      "raw": "邪恶之剑",
+      "link": "邪恶之剑",
+      "zh": "邪恶之剑"
+    },
+    {
+      "en": "skull scythe",
+      "raw": "骷髅长镰",
+      "link": "骷髅长镰",
+      "zh": "骷髅长镰"
+    },
+    {
+      "en": "soul fists",
+      "raw": "灵魂拳套",
+      "link": "灵魂拳套",
+      "zh": "灵魂拳套"
+    },
+    {
+      "en": "soul knife",
+      "raw": "灵魂之刃",
+      "link": "灵魂之刃",
+      "zh": "灵魂之刃"
+    },
+    {
+      "en": "soul scythe",
+      "raw": "灵魂长镰",
+      "link": "灵魂长镰",
+      "zh": "灵魂长镰"
+    },
+    {
+      "en": "sparkler",
+      "raw": "烟花棒",
+      "link": "烟花棒",
+      "zh": "烟花棒"
+    },
+    {
+      "en": "spear",
+      "raw": "长矛",
+      "link": "长矛",
+      "zh": "长矛"
+    },
+    {
+      "en": "spine chill spear",
+      "raw": "脊寒矛",
+      "link": "脊寒矛",
+      "zh": "脊寒矛"
+    },
+    {
+      "en": "sponge striker",
+      "raw": "海绵刺刃",
+      "link": "海绵刺刃",
+      "zh": "海绵刺刃"
+    },
+    {
+      "en": "stormlander",
+      "raw": "雷霆之锤",
+      "link": "雷霆之锤",
+      "zh": "雷霆之锤"
+    },
+    {
+      "en": "sun's grace",
+      "raw": "日之恩惠",
+      "link": "日之恩惠",
+      "zh": "日之恩惠"
+    },
+    {
+      "en": "swift striker",
+      "raw": "迅捷刺刃",
+      "link": "迅捷刺刃",
+      "zh": "迅捷刺刃"
+    },
+    {
+      "en": "sword",
+      "raw": "剑",
+      "link": "剑",
+      "zh": "剑"
+    },
+    {
+      "en": "tempest knife",
+      "raw": "暴风之刃",
+      "link": "暴风之刃",
+      "zh": "暴风之刃"
+    },
+    {
+      "en": "the beginning and the end",
+      "raw": "始与末",
+      "link": "始与末",
+      "zh": "始与末"
+    },
+    {
+      "en": "the last laugh",
+      "raw": "笑到最后",
+      "link": "笑到最后",
+      "zh": "笑到最后"
+    },
+    {
+      "en": "the monkey motivator",
+      "raw": "招猴灵镐",
+      "link": "招猴灵镐",
+      "zh": "招猴灵镐"
+    },
+    {
+      "en": "the starless night",
+      "raw": "无星之夜",
+      "link": "无星之夜",
+      "zh": "无星之夜"
+    },
+    {
+      "en": "truthseeker",
+      "raw": "求真者",
+      "link": "求真者",
+      "zh": "求真者"
+    },
+    {
+      "en": "venom glaive",
+      "raw": "剧毒长刀",
+      "link": "剧毒长刀",
+      "zh": "剧毒长刀"
+    },
+    {
+      "en": "vine whip",
+      "raw": "藤蔓长鞭",
+      "link": "藤蔓长鞭",
+      "zh": "藤蔓长鞭"
+    },
+    {
+      "en": "void touched blades",
+      "raw": "虚空之蚀",
+      "link": "虚空之蚀",
+      "zh": "虚空之蚀"
+    },
+    {
+      "en": "whip",
+      "raw": "鞭子",
+      "link": "鞭子",
+      "zh": "鞭子"
+    },
+    {
+      "en": "whirlwind",
+      "raw": "旋风斧",
+      "link": "旋风斧",
+      "zh": "旋风斧"
+    },
+    {
+      "en": "whispering spear",
+      "raw": "呢喃矛",
+      "link": "呢喃矛",
+      "zh": "呢喃矛"
+    },
+    {
+      "en": "ancient bow",
+      "raw": "古代弓",
+      "link": "古代弓",
+      "zh": "古代弓"
+    },
+    {
+      "en": "auto crossbow",
+      "raw": "自动弩",
+      "link": "自动弩",
+      "zh": "自动弩"
+    },
+    {
+      "en": "azure seeker",
+      "raw": "蔚蓝探索者",
+      "link": "蔚蓝探索者",
+      "zh": "蔚蓝探索者"
+    },
+    {
+      "en": "baby crossbows",
+      "raw": "幼体弩",
+      "link": "幼体弩",
+      "zh": "幼体弩"
+    },
+    {
+      "en": "bonebow",
+      "raw": "骨弓",
+      "link": "骨弓",
+      "zh": "骨弓"
+    },
+    {
+      "en": "bow",
+      "raw": "弓",
+      "link": "弓",
+      "zh": "弓"
+    },
+    {
+      "en": "bow of lost souls",
+      "raw": "亡魂之弓",
+      "link": "亡魂之弓",
+      "zh": "亡魂之弓"
+    },
+    {
+      "en": "bubble bow",
+      "raw": "气泡弓",
+      "link": "气泡弓",
+      "zh": "气泡弓"
+    },
+    {
+      "en": "bubble burster",
+      "raw": "气泡爆裂弓",
+      "link": "气泡爆裂弓",
+      "zh": "气泡爆裂弓"
+    },
+    {
+      "en": "burst crossbow",
+      "raw": "爆裂弩",
+      "link": "爆裂弩",
+      "zh": "爆裂弩"
+    },
+    {
+      "en": "burst gale bow",
+      "raw": "爆裂风弓",
+      "link": "爆裂风弓",
+      "zh": "爆裂风弓"
+    },
+    {
+      "en": "butterfly crossbow",
+      "raw": "蝴蝶弩",
+      "link": "蝴蝶弩",
+      "zh": "蝴蝶弩"
+    },
+    {
+      "en": "call of the void",
+      "raw": "虚空召唤",
+      "link": "虚空召唤",
+      "zh": "虚空召唤"
+    },
+    {
+      "en": "cog crossbow",
+      "raw": "齿轮弩",
+      "link": "齿轮弩",
+      "zh": "齿轮弩"
+    },
+    {
+      "en": "corrupted crossbow",
+      "raw": "腐化弩",
+      "link": "腐化弩",
+      "zh": "腐化弩"
+    },
+    {
+      "en": "crossbow",
+      "raw": "弩",
+      "link": "弩",
+      "zh": "弩"
+    },
+    {
+      "en": "doom crossbow",
+      "raw": "末日弩",
+      "link": "末日弩",
+      "zh": "末日弩"
+    },
+    {
+      "en": "dual crossbows",
+      "raw": "双持弩",
+      "link": "双持弩",
+      "zh": "双持弩"
+    },
+    {
+      "en": "echo of the valley",
+      "raw": "空谷回声",
+      "link": "空谷回声",
+      "zh": "空谷回声"
+    },
+    {
+      "en": "elite power bow",
+      "raw": "精英力量弓",
+      "link": "精英力量弓",
+      "zh": "精英力量弓"
+    },
+    {
+      "en": "exploding crossbow",
+      "raw": "爆炸弩",
+      "link": "爆炸弩",
+      "zh": "爆炸弩"
+    },
+    {
+      "en": "feral soul crossbow",
+      "raw": "野性灵魂弩",
+      "link": "野性灵魂弩",
+      "zh": "野性灵魂弩"
+    },
+    {
+      "en": "firebolt thrower",
+      "raw": "火弩箭",
+      "link": "火弩箭",
+      "zh": "火弩箭"
+    },
+    {
+      "en": "gloopy bow",
+      "raw": "黏液弓",
+      "link": "黏液弓",
+      "zh": "黏液弓"
+    },
+    {
+      "en": "guardian bow",
+      "raw": "守卫者之弓",
+      "link": "守卫者之弓",
+      "zh": "守卫者之弓"
+    },
+    {
+      "en": "harp crossbow",
+      "raw": "竖琴弩",
+      "link": "竖琴弩",
+      "zh": "竖琴弩"
+    },
+    {
+      "en": "harpoon crossbow",
+      "raw": "渔叉弩",
+      "link": "渔叉弩",
+      "zh": "渔叉弩"
+    },
+    {
+      "en": "haunted bow",
+      "raw": "鬼魅弓",
+      "link": "鬼魅弓",
+      "zh": "鬼魅弓"
+    },
+    {
+      "en": "heavy crossbow",
+      "raw": "重弩",
+      "link": "重弩",
+      "zh": "重弩"
+    },
+    {
+      "en": "hunter's promise",
+      "raw": "猎人之誓",
+      "link": "猎人之誓",
+      "zh": "猎人之誓"
+    },
+    {
+      "en": "hunting bow",
+      "raw": "猎手弓",
+      "link": "猎手弓",
+      "zh": "猎手弓"
+    },
+    {
+      "en": "imploding crossbow",
+      "raw": "聚爆弩",
+      "link": "聚爆弩",
+      "zh": "聚爆弩"
+    },
+    {
+      "en": "lightning harp crossbow",
+      "raw": "雷电琴弩",
+      "link": "雷电琴弩",
+      "zh": "雷电琴弩"
+    },
+    {
+      "en": "longbow",
+      "raw": "长弓",
+      "link": "长弓",
+      "zh": "长弓"
+    },
+    {
+      "en": "love spell bow",
+      "raw": "迷情咒弓",
+      "link": "迷情咒弓",
+      "zh": "迷情咒弓"
+    },
+    {
+      "en": "master's bow",
+      "raw": "主宰之弓",
+      "link": "主宰之弓",
+      "zh": "主宰之弓"
+    },
+    {
+      "en": "mechanical shortbow",
+      "raw": "机械短弓",
+      "link": "机械短弓",
+      "zh": "机械短弓"
+    },
+    {
+      "en": "nautical crossbow",
+      "raw": "航海弩",
+      "link": "航海弩",
+      "zh": "航海弩"
+    },
+    {
+      "en": "nocturnal bow",
+      "raw": "光灵弓",
+      "link": "光灵弓",
+      "zh": "光灵弓"
+    },
+    {
+      "en": "phantom bow",
+      "raw": "幻翼弓",
+      "link": "幻翼弓",
+      "zh": "幻翼弓"
+    },
+    {
+      "en": "power bow",
+      "raw": "能量之弓",
+      "link": "能量之弓",
+      "zh": "能量之弓"
+    },
+    {
+      "en": "pride of the piglins",
+      "raw": "猪灵之傲",
+      "link": "猪灵之傲",
+      "zh": "猪灵之傲"
+    },
+    {
+      "en": "purple storm",
+      "raw": "紫色风暴",
+      "link": "紫色风暴",
+      "zh": "紫色风暴"
+    },
+    {
+      "en": "rapid crossbow",
+      "raw": "迅捷弩",
+      "link": "迅捷弩",
+      "zh": "迅捷弩"
+    },
+    {
+      "en": "red snake",
+      "raw": "红蛇",
+      "link": "红蛇",
+      "zh": "红蛇"
+    },
+    {
+      "en": "sabrewing",
+      "raw": "刀翅蜂鸟",
+      "link": "刀翅蜂鸟",
+      "zh": "刀翅蜂鸟"
+    },
+    {
+      "en": "scatter crossbow",
+      "raw": "散射弩",
+      "link": "散射弩",
+      "zh": "散射弩"
+    },
+    {
+      "en": "shadow crossbow",
+      "raw": "暗影弩",
+      "link": "暗影弩",
+      "zh": "暗影弩"
+    },
+    {
+      "en": "shivering bow",
+      "raw": "寒颤弓",
+      "link": "寒颤弓",
+      "zh": "寒颤弓"
+    },
+    {
+      "en": "shortbow",
+      "raw": "短弓",
+      "link": "短弓",
+      "zh": "短弓"
+    },
+    {
+      "en": "shrieking crossbow",
+      "raw": "尖啸弩",
+      "link": "尖啸弩",
+      "zh": "尖啸弩"
+    },
+    {
+      "en": "slayer crossbow",
+      "raw": "杀戮之弩",
+      "link": "杀戮之弩",
+      "zh": "杀戮之弩"
+    },
+    {
+      "en": "snow bow",
+      "raw": "冰雪之弓",
+      "link": "冰雪之弓",
+      "zh": "冰雪之弓"
+    },
+    {
+      "en": "soul bow",
+      "raw": "灵魂之弓",
+      "link": "灵魂之弓",
+      "zh": "灵魂之弓"
+    },
+    {
+      "en": "soul crossbow",
+      "raw": "灵魂弩",
+      "link": "灵魂弩",
+      "zh": "灵魂弩"
+    },
+    {
+      "en": "soul hunter crossbow",
+      "raw": "猎魂弩",
+      "link": "猎魂弩",
+      "zh": "猎魂弩"
+    },
+    {
+      "en": "spellbound crossbows",
+      "raw": "祛魔弩",
+      "link": "祛魔弩",
+      "zh": "祛魔弩"
+    },
+    {
+      "en": "sugar rush",
+      "raw": "甜蜜疾箭",
+      "link": "甜蜜疾箭",
+      "zh": "甜蜜疾箭"
+    },
+    {
+      "en": "the green menace",
+      "raw": "翠绿之殇",
+      "link": "翠绿之殇",
+      "zh": "翠绿之殇"
+    },
+    {
+      "en": "the pink scoundrel",
+      "raw": "粉红恶棍",
+      "link": "粉红恶棍",
+      "zh": "粉红恶棍"
+    },
+    {
+      "en": "the slicer",
+      "raw": "穿刺者",
+      "link": "穿刺者",
+      "zh": "穿刺者"
+    },
+    {
+      "en": "trickbow",
+      "raw": "捣蛋弓",
+      "link": "捣蛋弓",
+      "zh": "捣蛋弓"
+    },
+    {
+      "en": "twin bow",
+      "raw": "双子弓",
+      "link": "双子弓",
+      "zh": "双子弓"
+    },
+    {
+      "en": "twisting vine bow",
+      "raw": "缠怨藤蔓弓",
+      "link": "缠怨藤蔓弓",
+      "zh": "缠怨藤蔓弓"
+    },
+    {
+      "en": "veiled crossbow",
+      "raw": "隐翳弩",
+      "link": "隐翳弩",
+      "zh": "隐翳弩"
+    },
+    {
+      "en": "void bow",
+      "raw": "虚空之弓",
+      "link": "虚空之弓",
+      "zh": "虚空之弓"
+    },
+    {
+      "en": "voidcaller",
+      "raw": "虚空召唤者",
+      "link": "虚空召唤者",
+      "zh": "虚空召唤者"
+    },
+    {
+      "en": "webbed bow",
+      "raw": "蛛网弓",
+      "link": "蛛网弓",
+      "zh": "蛛网弓"
+    },
+    {
+      "en": "weeping vine bow",
+      "raw": "垂泪藤蔓弓",
+      "link": "垂泪藤蔓弓",
+      "zh": "垂泪藤蔓弓"
+    },
+    {
+      "en": "wind bow",
+      "raw": "狂风之弓",
+      "link": "狂风之弓",
+      "zh": "狂风之弓"
+    },
+    {
+      "en": "winter's touch",
+      "raw": "凛冬之触",
+      "link": "凛冬之触",
+      "zh": "凛冬之触"
+    }
+  ],
+  "DungeonsEntitySprite": [
+    {
+      "en": "abomination vine",
+      "raw": "憎恶藤",
+      "link": "憎恶藤",
+      "zh": "憎恶藤"
+    },
+    {
+      "en": "abyssal eye",
+      "raw": "深渊之眼",
+      "link": "深渊之眼",
+      "zh": "深渊之眼"
+    },
+    {
+      "en": "ancient guardian",
+      "raw": "上古守卫者",
+      "link": "上古守卫者",
+      "zh": "上古守卫者"
+    },
+    {
+      "en": "ancient mobs",
+      "raw": "远古生物",
+      "link": "远古生物",
+      "zh": "远古生物"
+    },
+    {
+      "en": "arch illager",
+      "raw": "奇厄教主",
+      "link": "奇厄教主",
+      "zh": "奇厄教主"
+    },
+    {
+      "en": "arch visage",
+      "raw": "灾厄之首",
+      "link": "灾厄之首",
+      "zh": "灾厄之首"
+    },
+    {
+      "en": "armored drowned",
+      "raw": "异色海藻溺尸",
+      "link": "异色海藻溺尸",
+      "zh": "异色海藻溺尸"
+    },
+    {
+      "en": "armored frozen zombie",
+      "raw": "武装霜冻僵尸",
+      "link": "武装霜冻僵尸",
+      "zh": "武装霜冻僵尸"
+    },
+    {
+      "en": "armored husk",
+      "raw": "武装尸壳",
+      "link": "武装尸壳",
+      "zh": "武装尸壳"
+    },
+    {
+      "en": "armored jungle zombie",
+      "raw": "武装丛林僵尸",
+      "link": "武装丛林僵尸",
+      "zh": "武装丛林僵尸"
+    },
+    {
+      "en": "armored mossy skeleton",
+      "raw": "武装青苔骷髅",
+      "link": "武装青苔骷髅",
+      "zh": "武装青苔骷髅"
+    },
+    {
+      "en": "armored stray",
+      "raw": "武装流浪者",
+      "link": "武装流浪者",
+      "zh": "武装流浪者"
+    },
+    {
+      "en": "armored mountaineer",
+      "raw": "武装登山者",
+      "link": "武装登山者",
+      "zh": "武装登山者"
+    },
+    {
+      "en": "armored piglin",
+      "raw": "武装猪灵",
+      "link": "武装猪灵",
+      "zh": "武装猪灵"
+    },
+    {
+      "en": "armored piglin hunter",
+      "raw": "武装猪灵猎手",
+      "link": "武装猪灵猎手",
+      "zh": "武装猪灵猎手"
+    },
+    {
+      "en": "armored pillager",
+      "raw": "武装掠夺者",
+      "link": "武装掠夺者",
+      "zh": "武装掠夺者"
+    },
+    {
+      "en": "armored skeleton",
+      "raw": "武装骷髅",
+      "link": "武装骷髅",
+      "zh": "武装骷髅"
+    },
+    {
+      "en": "armored sunken skeleton",
+      "raw": "异色珊瑚沉溺骷髅",
+      "link": "异色珊瑚沉溺骷髅",
+      "zh": "异色珊瑚沉溺骷髅"
+    },
+    {
+      "en": "armored vindicator",
+      "raw": "武装卫道士",
+      "link": "武装卫道士",
+      "zh": "武装卫道士"
+    },
+    {
+      "en": "armored zombie",
+      "raw": "武装僵尸",
+      "link": "武装僵尸",
+      "zh": "武装僵尸"
+    },
+    {
+      "en": "baby drowned",
+      "raw": "幼年溺尸",
+      "link": "幼年溺尸",
+      "zh": "幼年溺尸"
+    },
+    {
+      "en": "baby zombie",
+      "raw": "幼年僵尸",
+      "link": "幼年僵尸",
+      "zh": "幼年僵尸"
+    },
+    {
+      "en": "bat",
+      "raw": "蝙蝠",
+      "link": "蝙蝠",
+      "zh": "蝙蝠"
+    },
+    {
+      "en": "beacon",
+      "raw": "信标",
+      "link": "信标",
+      "zh": "信标"
+    },
+    {
+      "en": "binding eye",
+      "raw": "锁定之眼",
+      "link": "锁定之眼",
+      "zh": "锁定之眼"
+    },
+    {
+      "en": "blacksmith",
+      "raw": "铁匠",
+      "link": "铁匠",
+      "zh": "铁匠"
+    },
+    {
+      "en": "blastling",
+      "raw": "爆破灵",
+      "link": "爆破灵",
+      "zh": "爆破灵"
+    },
+    {
+      "en": "blaze",
+      "raw": "烈焰人",
+      "link": "烈焰人",
+      "zh": "烈焰人"
+    },
+    {
+      "en": "blaze spawner",
+      "raw": "烈焰人刷怪笼",
+      "link": "烈焰人刷怪笼",
+      "zh": "烈焰人刷怪笼"
+    },
+    {
+      "en": "brown axolotl",
+      "raw": "野生美西螈",
+      "link": "野生美西螈",
+      "zh": "野生美西螈"
+    },
+    {
+      "en": "cauldron",
+      "raw": "锅釜怪",
+      "link": "锅釜怪",
+      "zh": "锅釜怪"
+    },
+    {
+      "en": "corrupted cauldron",
+      "raw": "腐化锅釜怪",
+      "link": "腐化锅釜怪",
+      "zh": "腐化锅釜怪"
+    },
+    {
+      "en": "chicken",
+      "raw": "鸡",
+      "link": "鸡",
+      "zh": "鸡"
+    },
+    {
+      "en": "chicken jockey",
+      "raw": "鸡骑士",
+      "link": "鸡骑士",
+      "zh": "鸡骑士"
+    },
+    {
+      "en": "chicken jockey tower",
+      "raw": "鸡骑士塔",
+      "link": "鸡骑士塔",
+      "zh": "鸡骑士塔"
+    },
+    {
+      "en": "cow",
+      "raw": "牛",
+      "link": "牛",
+      "zh": "牛"
+    },
+    {
+      "en": "creeper",
+      "raw": "苦力怕",
+      "link": "苦力怕",
+      "zh": "苦力怕"
+    },
+    {
+      "en": "drowned",
+      "raw": "溺尸",
+      "link": "溺尸",
+      "zh": "溺尸"
+    },
+    {
+      "en": "drowned necromancer",
+      "raw": "溺尸死灵法师",
+      "link": "溺尸死灵法师",
+      "zh": "溺尸死灵法师"
+    },
+    {
+      "en": "dolphin",
+      "raw": "海豚",
+      "link": "海豚",
+      "zh": "海豚"
+    },
+    {
+      "en": "elder guardian",
+      "raw": "远古守卫者",
+      "link": "远古守卫者",
+      "zh": "远古守卫者"
+    },
+    {
+      "en": "enchanted mob",
+      "raw": "附魔生物",
+      "link": "附魔生物",
+      "zh": "附魔生物"
+    },
+    {
+      "en": "enchanted sheep",
+      "raw": "附魔羊",
+      "link": "附魔羊",
+      "zh": "附魔羊"
+    },
+    {
+      "en": "enchanter",
+      "raw": "附魔师",
+      "link": "附魔师",
+      "zh": "附魔师"
+    },
+    {
+      "en": "enchantsmith",
+      "raw": "附魔匠",
+      "link": "附魔匠",
+      "zh": "附魔匠"
+    },
+    {
+      "en": "enderman",
+      "raw": "末影人",
+      "link": "末影人",
+      "zh": "末影人"
+    },
+    {
+      "en": "endermite",
+      "raw": "末影螨",
+      "link": "末影螨",
+      "zh": "末影螨"
+    },
+    {
+      "en": "endermite pet",
+      "raw": "末影螨（宠物）",
+      "link": "末影螨（宠物）",
+      "zh": "末影螨（宠物）"
+    },
+    {
+      "en": "endersent",
+      "raw": "末影遣使",
+      "link": "末影遣使",
+      "zh": "末影遣使"
+    },
+    {
+      "en": "evoker",
+      "raw": "唤魔者",
+      "link": "唤魔者",
+      "zh": "唤魔者"
+    },
+    {
+      "en": "evoker fang",
+      "raw": "唤魔者尖牙",
+      "link": "唤魔者尖牙",
+      "zh": "唤魔者尖牙"
+    },
+    {
+      "en": "frozen zombie",
+      "raw": "霜冻僵尸",
+      "link": "霜冻僵尸",
+      "zh": "霜冻僵尸"
+    },
+    {
+      "en": "fungus thrower",
+      "raw": "猪灵掷菌手",
+      "link": "猪灵掷菌手",
+      "zh": "猪灵掷菌手"
+    },
+    {
+      "en": "geomancer",
+      "raw": "地卜师",
+      "link": "地卜师",
+      "zh": "地卜师"
+    },
+    {
+      "en": "geomancer bomb",
+      "raw": "地卜师炸弹",
+      "link": "地卜师炸弹",
+      "zh": "地卜师炸弹"
+    },
+    {
+      "en": "geomancer wall",
+      "raw": "地卜师石柱",
+      "link": "地卜师石柱",
+      "zh": "地卜师石柱"
+    },
+    {
+      "en": "ghast",
+      "raw": "恶魂",
+      "link": "恶魂",
+      "zh": "恶魂"
+    },
+    {
+      "en": "giant cave spider",
+      "raw": "巨型洞穴蜘蛛",
+      "link": "巨型洞穴蜘蛛",
+      "zh": "巨型洞穴蜘蛛"
+    },
+    {
+      "en": "giant royal guard",
+      "raw": "巨型皇家守卫",
+      "link": "巨型皇家守卫",
+      "zh": "巨型皇家守卫"
+    },
+    {
+      "en": "giant enchanted royal guard",
+      "raw": "巨型皇家守卫|巨型附魔皇家守卫",
+      "link": "巨型皇家守卫",
+      "zh": "巨型附魔皇家守卫"
+    },
+    {
+      "en": "gift wrapper",
+      "raw": "礼包商",
+      "link": "礼包商",
+      "zh": "礼包商"
+    },
+    {
+      "en": "gildsmith",
+      "raw": "镀金工匠",
+      "link": "镀金工匠",
+      "zh": "镀金工匠"
+    },
+    {
+      "en": "glow squid",
+      "raw": "发光鱿鱼",
+      "link": "发光鱿鱼",
+      "zh": "发光鱿鱼"
+    },
+    {
+      "en": "guardian",
+      "raw": "守卫者",
+      "link": "守卫者",
+      "zh": "守卫者"
+    },
+    {
+      "en": "guardian vex",
+      "raw": "恼鬼守卫",
+      "link": "恼鬼守卫",
+      "zh": "恼鬼守卫"
+    },
+    {
+      "en": "heart of ender",
+      "raw": "末影之心",
+      "link": "末影之心",
+      "zh": "末影之心"
+    },
+    {
+      "en": "hoglin",
+      "raw": "疣猪兽",
+      "link": "疣猪兽",
+      "zh": "疣猪兽"
+    },
+    {
+      "en": "husk",
+      "raw": "尸壳",
+      "link": "尸壳",
+      "zh": "尸壳"
+    },
+    {
+      "en": "iceologer",
+      "raw": "冰术师",
+      "link": "冰术师",
+      "zh": "冰术师"
+    },
+    {
+      "en": "icy creeper",
+      "raw": "寒冰苦力怕",
+      "link": "寒冰苦力怕",
+      "zh": "寒冰苦力怕"
+    },
+    {
+      "en": "illusioner",
+      "raw": "幻术师",
+      "link": "幻术师",
+      "zh": "幻术师"
+    },
+    {
+      "en": "iron golem",
+      "raw": "铁傀儡",
+      "link": "铁傀儡",
+      "zh": "铁傀儡"
+    },
+    {
+      "en": "jack o' lantern",
+      "raw": "南瓜灯",
+      "link": "南瓜灯",
+      "zh": "南瓜灯"
+    },
+    {
+      "en": "jungle abomination",
+      "raw": "丛林恶物",
+      "link": "丛林恶物",
+      "zh": "丛林恶物"
+    },
+    {
+      "en": "jungle zombie",
+      "raw": "丛林僵尸",
+      "link": "丛林僵尸",
+      "zh": "丛林僵尸"
+    },
+    {
+      "en": "key golem",
+      "raw": "钥匙傀儡",
+      "link": "钥匙傀儡",
+      "zh": "钥匙傀儡"
+    },
+    {
+      "en": "leapleaf",
+      "raw": "腾跃之叶",
+      "link": "腾跃之叶",
+      "zh": "腾跃之叶"
+    },
+    {
+      "en": "llama",
+      "raw": "羊驼",
+      "link": "羊驼",
+      "zh": "羊驼"
+    },
+    {
+      "en": "luxury merchant",
+      "raw": "奢侈品商人",
+      "link": "奢侈品商人",
+      "zh": "奢侈品商人"
+    },
+    {
+      "en": "mage",
+      "raw": "魔术师",
+      "link": "魔术师",
+      "zh": "魔术师"
+    },
+    {
+      "en": "magma cube",
+      "raw": "岩浆怪",
+      "link": "岩浆怪",
+      "zh": "岩浆怪"
+    },
+    {
+      "en": "melee armored mossy skeleton",
+      "raw": "武装近战青苔骷髅",
+      "link": "武装近战青苔骷髅",
+      "zh": "武装近战青苔骷髅"
+    },
+    {
+      "en": "melee armored skeleton",
+      "raw": "武装近战骷髅",
+      "link": "武装近战骷髅",
+      "zh": "武装近战骷髅"
+    },
+    {
+      "en": "melee armored stray",
+      "raw": "武装近战流浪者",
+      "link": "武装近战流浪者",
+      "zh": "武装近战流浪者"
+    },
+    {
+      "en": "melee sunken skeleton",
+      "raw": "近战沉溺骷髅",
+      "link": "近战沉溺骷髅",
+      "zh": "近战沉溺骷髅"
+    },
+    {
+      "en": "mob spawner",
+      "raw": "刷怪笼",
+      "link": "刷怪笼",
+      "zh": "刷怪笼"
+    },
+    {
+      "en": "mooshroom",
+      "raw": "哞菇",
+      "link": "哞菇",
+      "zh": "哞菇"
+    },
+    {
+      "en": "mooshroom monstrosity",
+      "raw": "哞菇巨兽",
+      "link": "哞菇巨兽",
+      "zh": "哞菇巨兽"
+    },
+    {
+      "en": "mossy skeleton",
+      "raw": "青苔骷髅",
+      "link": "青苔骷髅",
+      "zh": "青苔骷髅"
+    },
+    {
+      "en": "mountaineer",
+      "raw": "登山者",
+      "link": "登山者",
+      "zh": "登山者"
+    },
+    {
+      "en": "mystery merchant",
+      "raw": "神秘商人",
+      "link": "神秘商人",
+      "zh": "神秘商人"
+    },
+    {
+      "en": "nameless one",
+      "raw": "无名者",
+      "link": "无名者",
+      "zh": "无名者"
+    },
+    {
+      "en": "necromancer",
+      "raw": "死灵法师",
+      "link": "死灵法师",
+      "zh": "死灵法师"
+    },
+    {
+      "en": "obsidian monstrosity",
+      "raw": "黑曜石巨兽",
+      "link": "黑曜石巨兽",
+      "zh": "黑曜石巨兽"
+    },
+    {
+      "en": "panda",
+      "raw": "熊猫",
+      "link": "熊猫",
+      "zh": "熊猫"
+    },
+    {
+      "en": "phantom",
+      "raw": "幻翼",
+      "link": "幻翼",
+      "zh": "幻翼"
+    },
+    {
+      "en": "pig",
+      "raw": "猪",
+      "link": "猪",
+      "zh": "猪"
+    },
+    {
+      "en": "piggy bank",
+      "raw": "宝箱猪",
+      "link": "宝箱猪",
+      "zh": "宝箱猪"
+    },
+    {
+      "en": "piglin",
+      "raw": "猪灵",
+      "link": "猪灵",
+      "zh": "猪灵"
+    },
+    {
+      "en": "piglin brute",
+      "raw": "猪灵蛮兵",
+      "link": "猪灵蛮兵",
+      "zh": "猪灵蛮兵"
+    },
+    {
+      "en": "piglin hunter",
+      "raw": "猪灵猎手",
+      "link": "猪灵猎手",
+      "zh": "猪灵猎手"
+    },
+    {
+      "en": "piglin merchant",
+      "raw": "猪灵商人",
+      "link": "猪灵商人",
+      "zh": "猪灵商人"
+    },
+    {
+      "en": "pillager",
+      "raw": "掠夺者",
+      "link": "掠夺者",
+      "zh": "掠夺者"
+    },
+    {
+      "en": "pillager raid captain",
+      "raw": "掠夺者袭击队长",
+      "link": "掠夺者袭击队长",
+      "zh": "掠夺者袭击队长"
+    },
+    {
+      "en": "pink slime",
+      "raw": "粉色史莱姆",
+      "link": "粉色史莱姆",
+      "zh": "粉色史莱姆"
+    },
+    {
+      "en": "poison anemone",
+      "raw": "毒海葵",
+      "link": "毒海葵",
+      "zh": "毒海葵"
+    },
+    {
+      "en": "poison quill vine",
+      "raw": "毒刺藤",
+      "link": "毒刺藤",
+      "zh": "毒刺藤"
+    },
+    {
+      "en": "polar bear",
+      "raw": "北极熊",
+      "link": "北极熊",
+      "zh": "北极熊"
+    },
+    {
+      "en": "powersmith",
+      "raw": "战力工匠",
+      "link": "战力工匠",
+      "zh": "战力工匠"
+    },
+    {
+      "en": "pufferfish",
+      "raw": "河豚",
+      "link": "河豚",
+      "zh": "河豚"
+    },
+    {
+      "en": "purple slime",
+      "raw": "粉色史莱姆",
+      "link": "粉色史莱姆",
+      "zh": "粉色史莱姆"
+    },
+    {
+      "en": "quick growing kelp",
+      "raw": "速生海带",
+      "link": "速生海带",
+      "zh": "速生海带"
+    },
+    {
+      "en": "quick growing vine",
+      "raw": "速生藤",
+      "link": "速生藤",
+      "zh": "速生藤"
+    },
+    {
+      "en": "raccoon",
+      "raw": "浣熊",
+      "link": "浣熊",
+      "zh": "浣熊"
+    },
+    {
+      "en": "raid captain",
+      "raw": "袭击队长",
+      "link": "袭击队长",
+      "zh": "袭击队长"
+    },
+    {
+      "en": "rampart captain",
+      "raw": "堡垒队长",
+      "link": "堡垒队长",
+      "zh": "堡垒队长"
+    },
+    {
+      "en": "ravager",
+      "raw": "劫掠兽",
+      "link": "劫掠兽",
+      "zh": "劫掠兽"
+    },
+    {
+      "en": "ravenous eye",
+      "raw": "贪婪之眼",
+      "link": "贪婪之眼",
+      "zh": "贪婪之眼"
+    },
+    {
+      "en": "reaping eye",
+      "raw": "收割之眼",
+      "link": "收割之眼",
+      "zh": "收割之眼"
+    },
+    {
+      "en": "redstone cube",
+      "raw": "红石怪",
+      "link": "红石怪",
+      "zh": "红石怪"
+    },
+    {
+      "en": "redstone golem",
+      "raw": "红石傀儡",
+      "link": "红石傀儡",
+      "zh": "红石傀儡"
+    },
+    {
+      "en": "redstone monstrosity",
+      "raw": "红石巨兽",
+      "link": "红石巨兽",
+      "zh": "红石巨兽"
+    },
+    {
+      "en": "retired adventurer",
+      "raw": "退休冒险家",
+      "link": "退休冒险家",
+      "zh": "退休冒险家"
+    },
+    {
+      "en": "royal guard",
+      "raw": "皇家守卫",
+      "link": "皇家守卫",
+      "zh": "皇家守卫"
+    },
+    {
+      "en": "savage eye",
+      "raw": "野蛮之眼",
+      "link": "野蛮之眼",
+      "zh": "野蛮之眼"
+    },
+    {
+      "en": "scuttling torment",
+      "raw": "窸窣苦厄",
+      "link": "窸窣苦厄",
+      "zh": "窸窣苦厄"
+    },
+    {
+      "en": "sheep",
+      "raw": "羊",
+      "link": "羊",
+      "zh": "羊"
+    },
+    {
+      "en": "silverfish",
+      "raw": "蠹虫",
+      "link": "蠹虫",
+      "zh": "蠹虫"
+    },
+    {
+      "en": "skeleton",
+      "raw": "骷髅",
+      "link": "骷髅",
+      "zh": "骷髅"
+    },
+    {
+      "en": "skeleton horseman",
+      "raw": "骷髅骑手",
+      "link": "骷髅骑手",
+      "zh": "骷髅骑手"
+    },
+    {
+      "en": "slime",
+      "raw": "史莱姆",
+      "link": "史莱姆",
+      "zh": "史莱姆"
+    },
+    {
+      "en": "snareling",
+      "raw": "迷惑灵",
+      "link": "迷惑灵",
+      "zh": "迷惑灵"
+    },
+    {
+      "en": "snow fox",
+      "raw": "北极狐",
+      "link": "北极狐",
+      "zh": "北极狐"
+    },
+    {
+      "en": "soul wizard",
+      "raw": "灵魂巫师",
+      "link": "灵魂巫师",
+      "zh": "灵魂巫师"
+    },
+    {
+      "en": "spider",
+      "raw": "蜘蛛",
+      "link": "蜘蛛",
+      "zh": "蜘蛛"
+    },
+    {
+      "en": "spiked eye",
+      "raw": "尖刺之眼",
+      "link": "尖刺之眼",
+      "zh": "尖刺之眼"
+    },
+    {
+      "en": "skeleton vanguard",
+      "raw": "骷髅先锋",
+      "link": "骷髅先锋",
+      "zh": "骷髅先锋"
+    },
+    {
+      "en": "squall golem",
+      "raw": "呼啸傀儡",
+      "link": "呼啸傀儡",
+      "zh": "呼啸傀儡"
+    },
+    {
+      "en": "squid",
+      "raw": "鱿鱼",
+      "link": "鱿鱼",
+      "zh": "鱿鱼"
+    },
+    {
+      "en": "sunken skeleton",
+      "raw": "沉溺骷髅",
+      "link": "沉溺骷髅",
+      "zh": "沉溺骷髅"
+    },
+    {
+      "en": "target dummy",
+      "raw": "训练假人",
+      "link": "训练假人",
+      "zh": "训练假人"
+    },
+    {
+      "en": "tempest golem",
+      "raw": "风暴傀儡",
+      "link": "风暴傀儡",
+      "zh": "风暴傀儡"
+    },
+    {
+      "en": "thundering growth",
+      "raw": "雷霆巨物",
+      "link": "雷霆巨物",
+      "zh": "雷霆巨物"
+    },
+    {
+      "en": "tower guard",
+      "raw": "高塔守卫",
+      "link": "高塔守卫",
+      "zh": "高塔守卫"
+    },
+    {
+      "en": "tower keeper",
+      "raw": "守塔人",
+      "link": "守塔人",
+      "zh": "守塔人"
+    },
+    {
+      "en": "tower wraith",
+      "raw": "高塔幽灵",
+      "link": "高塔幽灵",
+      "zh": "高塔幽灵"
+    },
+    {
+      "en": "treetop whisperer",
+      "raw": "树梢唤藤者",
+      "link": "树梢唤藤者",
+      "zh": "树梢唤藤者"
+    },
+    {
+      "en": "trident drowned",
+      "raw": "三叉戟溺尸",
+      "link": "三叉戟溺尸",
+      "zh": "三叉戟溺尸"
+    },
+    {
+      "en": "tropical fish",
+      "raw": "热带鱼",
+      "link": "热带鱼",
+      "zh": "热带鱼"
+    },
+    {
+      "en": "tropical slime",
+      "raw": "热带史莱姆",
+      "link": "热带史莱姆",
+      "zh": "热带史莱姆"
+    },
+    {
+      "en": "turtle",
+      "raw": "海龟",
+      "link": "海龟",
+      "zh": "海龟"
+    },
+    {
+      "en": "uniquesmith",
+      "raw": "独特工匠",
+      "link": "独特工匠",
+      "zh": "独特工匠"
+    },
+    {
+      "en": "vengeful heart of ender",
+      "raw": "复仇末影之心",
+      "link": "复仇末影之心",
+      "zh": "复仇末影之心"
+    },
+    {
+      "en": "vengeful mariner",
+      "raw": "复仇船员",
+      "link": "复仇船员",
+      "zh": "复仇船员"
+    },
+    {
+      "en": "vanguard",
+      "raw": "骷髅先锋",
+      "link": "骷髅先锋",
+      "zh": "骷髅先锋"
+    },
+    {
+      "en": "vex",
+      "raw": "恼鬼",
+      "link": "恼鬼",
+      "zh": "恼鬼"
+    },
+    {
+      "en": "village merchant",
+      "raw": "村庄商人",
+      "link": "村庄商人",
+      "zh": "村庄商人"
+    },
+    {
+      "en": "villager",
+      "raw": "村民",
+      "link": "村民",
+      "zh": "村民"
+    },
+    {
+      "en": "vindicator",
+      "raw": "卫道士",
+      "link": "卫道士",
+      "zh": "卫道士"
+    },
+    {
+      "en": "vindicator chef",
+      "raw": "卫道士厨师",
+      "link": "卫道士厨师",
+      "zh": "卫道士厨师"
+    },
+    {
+      "en": "vindicator raid captain",
+      "raw": "卫道士袭击队长",
+      "link": "卫道士袭击队长",
+      "zh": "卫道士袭击队长"
+    },
+    {
+      "en": "vulture",
+      "raw": "秃鹰",
+      "link": "秃鹰",
+      "zh": "秃鹰"
+    },
+    {
+      "en": "watcher of the end",
+      "raw": "末地守望者",
+      "link": "末地守望者",
+      "zh": "末地守望者"
+    },
+    {
+      "en": "watchling",
+      "raw": "看守灵",
+      "link": "看守灵",
+      "zh": "看守灵"
+    },
+    {
+      "en": "wavewhisperer",
+      "raw": "唤浪者",
+      "link": "唤浪者",
+      "zh": "唤浪者"
+    },
+    {
+      "en": "web spider",
+      "raw": "缠丝蜘蛛",
+      "link": "缠丝蜘蛛",
+      "zh": "缠丝蜘蛛"
+    },
+    {
+      "en": "whisperer",
+      "raw": "唤藤者",
+      "link": "唤藤者",
+      "zh": "唤藤者"
+    },
+    {
+      "en": "wildfire",
+      "raw": "野火",
+      "link": "野火",
+      "zh": "野火"
+    },
+    {
+      "en": "wind caller",
+      "raw": "唤风者",
+      "link": "唤风者",
+      "zh": "唤风者"
+    },
+    {
+      "en": "witch",
+      "raw": "女巫",
+      "link": "女巫",
+      "zh": "女巫"
+    },
+    {
+      "en": "wither skeleton",
+      "raw": "凋灵骷髅",
+      "link": "凋灵骷髅",
+      "zh": "凋灵骷髅"
+    },
+    {
+      "en": "wither skeleton archer",
+      "raw": "凋灵骷髅弓箭手",
+      "link": "凋灵骷髅弓箭手",
+      "zh": "凋灵骷髅弓箭手"
+    },
+    {
+      "en": "wolf",
+      "raw": "狼",
+      "link": "狼",
+      "zh": "狼"
+    },
+    {
+      "en": "wooly cow",
+      "raw": "羊毛牛",
+      "link": "羊毛牛",
+      "zh": "羊毛牛"
+    },
+    {
+      "en": "wraith",
+      "raw": "幽灵",
+      "link": "幽灵",
+      "zh": "幽灵"
+    },
+    {
+      "en": "wretched wraith",
+      "raw": "哀霜幽灵",
+      "link": "哀霜幽灵",
+      "zh": "哀霜幽灵"
+    },
+    {
+      "en": "zombie",
+      "raw": "僵尸",
+      "link": "僵尸",
+      "zh": "僵尸"
+    },
+    {
+      "en": "zombified armored piglin",
+      "raw": "武装僵尸猪灵",
+      "link": "武装僵尸猪灵",
+      "zh": "武装僵尸猪灵"
+    },
+    {
+      "en": "zombified armored piglin hunter",
+      "raw": "武装僵尸猪灵猎手",
+      "link": "武装僵尸猪灵猎手",
+      "zh": "武装僵尸猪灵猎手"
+    },
+    {
+      "en": "zombified piglin",
+      "raw": "僵尸猪灵",
+      "link": "僵尸猪灵",
+      "zh": "僵尸猪灵"
+    },
+    {
+      "en": "zombified piglin hunter",
+      "raw": "僵尸猪灵猎手",
+      "link": "僵尸猪灵猎手",
+      "zh": "僵尸猪灵猎手"
+    },
+    {
+      "en": "zombified fungus thrower",
+      "raw": "僵尸猪灵掷菌手",
+      "link": "僵尸猪灵掷菌手",
+      "zh": "僵尸猪灵掷菌手"
+    },
+    {
+      "en": "arctic fox",
+      "raw": "北极狐",
+      "link": "北极狐",
+      "zh": "北极狐"
+    },
+    {
+      "en": "axolotl (leucistic)",
+      "raw": "美西螈（白化）",
+      "link": "美西螈（白化）",
+      "zh": "美西螈（白化）"
+    },
+    {
+      "en": "baby chicken",
+      "raw": "鸡宝宝",
+      "link": "鸡宝宝",
+      "zh": "鸡宝宝"
+    },
+    {
+      "en": "baby dairy cow",
+      "raw": "奶牛宝宝",
+      "link": "奶牛宝宝",
+      "zh": "奶牛宝宝"
+    },
+    {
+      "en": "baby ghast",
+      "raw": "恶魂宝宝",
+      "link": "恶魂宝宝",
+      "zh": "恶魂宝宝"
+    },
+    {
+      "en": "baby goat",
+      "raw": "山羊宝宝",
+      "link": "山羊宝宝",
+      "zh": "山羊宝宝"
+    },
+    {
+      "en": "baby moobloom",
+      "raw": "幼年哞花",
+      "link": "幼年哞花",
+      "zh": "幼年哞花"
+    },
+    {
+      "en": "baby piebald pig",
+      "raw": "花斑猪宝宝",
+      "link": "花斑猪宝宝",
+      "zh": "花斑猪宝宝"
+    },
+    {
+      "en": "baby pig",
+      "raw": "猪宝宝",
+      "link": "猪宝宝",
+      "zh": "猪宝宝"
+    },
+    {
+      "en": "baby sooty pig",
+      "raw": "黑猪宝宝",
+      "link": "黑猪宝宝",
+      "zh": "黑猪宝宝"
+    },
+    {
+      "en": "baby squid",
+      "raw": "鱿鱼宝宝",
+      "link": "鱿鱼宝宝",
+      "zh": "鱿鱼宝宝"
+    },
+    {
+      "en": "baby turtle",
+      "raw": "海龟宝宝",
+      "link": "海龟宝宝",
+      "zh": "海龟宝宝"
+    },
+    {
+      "en": "baby wooly cow",
+      "raw": "羊毛牛宝宝",
+      "link": "羊毛牛宝宝",
+      "zh": "羊毛牛宝宝"
+    },
+    {
+      "en": "brown tabby",
+      "raw": "棕虎斑猫",
+      "link": "棕虎斑猫",
+      "zh": "棕虎斑猫"
+    },
+    {
+      "en": "calico cat",
+      "raw": "花猫",
+      "link": "花猫",
+      "zh": "花猫"
+    },
+    {
+      "en": "cinnamon ferret",
+      "raw": "肉桂貂",
+      "link": "肉桂貂",
+      "zh": "肉桂貂"
+    },
+    {
+      "en": "cluckshroom",
+      "raw": "咯菇",
+      "link": "咯菇",
+      "zh": "咯菇"
+    },
+    {
+      "en": "dark baby goat",
+      "raw": "黑色山羊宝宝",
+      "link": "黑色山羊宝宝",
+      "zh": "黑色山羊宝宝"
+    },
+    {
+      "en": "desert rabbit",
+      "raw": "沙漠兔子",
+      "link": "沙漠兔子",
+      "zh": "沙漠兔子"
+    },
+    {
+      "en": "duck",
+      "raw": "鸭子",
+      "link": "鸭子",
+      "zh": "鸭子"
+    },
+    {
+      "en": "emperor penguin",
+      "raw": "帝企鹅",
+      "link": "帝企鹅",
+      "zh": "帝企鹅"
+    },
+    {
+      "en": "fancy chicken",
+      "raw": "华丽鸡",
+      "link": "华丽鸡",
+      "zh": "华丽鸡"
+    },
+    {
+      "en": "glowing mini abomination",
+      "raw": "发光迷你恶物",
+      "link": "发光迷你恶物",
+      "zh": "发光迷你恶物"
+    },
+    {
+      "en": "glowing ministrosity",
+      "raw": "发光小兽",
+      "link": "发光小兽",
+      "zh": "发光小兽"
+    },
+    {
+      "en": "golden axolotl",
+      "raw": "金美西螈",
+      "link": "金美西螈",
+      "zh": "金美西螈"
+    },
+    {
+      "en": "golden parrot",
+      "raw": "金鹦鹉",
+      "link": "金鹦鹉",
+      "zh": "金鹦鹉"
+    },
+    {
+      "en": "grey tabby",
+      "raw": "灰虎斑猫",
+      "link": "灰虎斑猫",
+      "zh": "灰虎斑猫"
+    },
+    {
+      "en": "hedgehog",
+      "raw": "刺猬",
+      "link": "刺猬",
+      "zh": "刺猬"
+    },
+    {
+      "en": "leucistic axolotl",
+      "raw": "美西螈（白化）",
+      "link": "美西螈（白化）",
+      "zh": "美西螈（白化）"
+    },
+    {
+      "en": "mini abomination",
+      "raw": "迷你恶物",
+      "link": "迷你恶物",
+      "zh": "迷你恶物"
+    },
+    {
+      "en": "mole",
+      "raw": "鼹鼠",
+      "link": "鼹鼠",
+      "zh": "鼹鼠"
+    },
+    {
+      "en": "parrot",
+      "raw": "鹦鹉",
+      "link": "鹦鹉",
+      "zh": "鹦鹉"
+    },
+    {
+      "en": "phantom familiar",
+      "raw": "幻翼宠魔",
+      "link": "幻翼宠魔",
+      "zh": "幻翼宠魔"
+    },
+    {
+      "en": "racoon",
+      "raw": "浣熊",
+      "link": "浣熊",
+      "zh": "浣熊"
+    },
+    {
+      "en": "raven",
+      "raw": "乌鸦",
+      "link": "乌鸦",
+      "zh": "乌鸦"
+    },
+    {
+      "en": "redstone ministrosity",
+      "raw": "红石小兽",
+      "link": "红石小兽",
+      "zh": "红石小兽"
+    },
+    {
+      "en": "red cat",
+      "raw": "红虎斑猫",
+      "link": "红虎斑猫",
+      "zh": "红虎斑猫"
+    },
+    {
+      "en": "red panda",
+      "raw": "小熊猫",
+      "link": "小熊猫",
+      "zh": "小熊猫"
+    },
+    {
+      "en": "royal penguin",
+      "raw": "皇家企鹅",
+      "link": "皇家企鹅",
+      "zh": "皇家企鹅"
+    },
+    {
+      "en": "ruby baby turtle",
+      "raw": "红宝石色海龟宝宝",
+      "link": "红宝石色海龟宝宝",
+      "zh": "红宝石色海龟宝宝"
+    },
+    {
+      "en": "sable ferret",
+      "raw": "黑貂",
+      "link": "黑貂",
+      "zh": "黑貂"
+    },
+    {
+      "en": "skunk",
+      "raw": "臭鼬",
+      "link": "臭鼬",
+      "zh": "臭鼬"
+    },
+    {
+      "en": "spotted baby pig",
+      "raw": "斑点猪宝宝",
+      "link": "斑点猪宝宝",
+      "zh": "斑点猪宝宝"
+    },
+    {
+      "en": "stone ministrosity",
+      "raw": "岩石小兽",
+      "link": "岩石小兽",
+      "zh": "岩石小兽"
+    },
+    {
+      "en": "toucan",
+      "raw": "大嘴鸟",
+      "link": "大嘴鸟",
+      "zh": "大嘴鸟"
+    },
+    {
+      "en": "vested rabbit",
+      "raw": "背心兔子",
+      "link": "背心兔子",
+      "zh": "背心兔子"
+    },
+    {
+      "en": "wild axolotl",
+      "raw": "野生美西螈",
+      "link": "野生美西螈",
+      "zh": "野生美西螈"
+    },
+    {
+      "en": "zombified baby pig",
+      "raw": "僵尸猪宝宝",
+      "link": "僵尸猪宝宝",
+      "zh": "僵尸猪宝宝"
+    },
+    {
+      "en": "adriene",
+      "raw": "皮肤|Adriene",
+      "link": "皮肤",
+      "zh": "Adriene"
+    },
+    {
+      "en": "archeologist",
+      "raw": "皮肤|Archeologist",
+      "link": "皮肤",
+      "zh": "Archeologist"
+    },
+    {
+      "en": "baako",
+      "raw": "皮肤|Baako",
+      "link": "皮肤",
+      "zh": "Baako"
+    },
+    {
+      "en": "dani",
+      "raw": "皮肤|Dani",
+      "link": "皮肤",
+      "zh": "Dani"
+    },
+    {
+      "en": "darian",
+      "raw": "皮肤|Darian",
+      "link": "皮肤",
+      "zh": "Darian"
+    },
+    {
+      "en": "ebo",
+      "raw": "皮肤|Ebo",
+      "link": "皮肤",
+      "zh": "Ebo"
+    },
+    {
+      "en": "elaine",
+      "raw": "皮肤|Elaine",
+      "link": "皮肤",
+      "zh": "Elaine"
+    },
+    {
+      "en": "elan",
+      "raw": "皮肤|Elan",
+      "link": "皮肤",
+      "zh": "Elan"
+    },
+    {
+      "en": "frisk",
+      "raw": "皮肤|Frisk",
+      "link": "皮肤",
+      "zh": "Frisk"
+    },
+    {
+      "en": "fuego",
+      "raw": "皮肤|Fuego",
+      "link": "皮肤",
+      "zh": "Fuego"
+    },
+    {
+      "en": "ivy",
+      "raw": "皮肤|Ivy",
+      "link": "皮肤",
+      "zh": "Ivy"
+    },
+    {
+      "en": "kelptomaniac",
+      "raw": "皮肤|Kelptomaniac",
+      "link": "皮肤",
+      "zh": "Kelptomaniac"
+    },
+    {
+      "en": "monumental",
+      "raw": "皮肤|Monumental",
+      "link": "皮肤",
+      "zh": "Monumental"
+    },
+    {
+      "en": "meadow",
+      "raw": "皮肤|Meadow",
+      "link": "皮肤",
+      "zh": "Meadow"
+    },
+    {
+      "en": "morris",
+      "raw": "皮肤|Morris",
+      "link": "皮肤",
+      "zh": "Morris"
+    },
+    {
+      "en": "sam",
+      "raw": "皮肤|Sam",
+      "link": "皮肤",
+      "zh": "Sam"
+    },
+    {
+      "en": "sven",
+      "raw": "皮肤|Sven",
+      "link": "皮肤",
+      "zh": "Sven"
+    },
+    {
+      "en": "valorie",
+      "raw": "皮肤|Valorie",
+      "link": "皮肤",
+      "zh": "Valorie"
+    },
+    {
+      "en": "violet",
+      "raw": "皮肤|Violet",
+      "link": "皮肤",
+      "zh": "Violet"
+    },
+    {
+      "en": "wargen",
+      "raw": "皮肤|Wargen",
+      "link": "皮肤",
+      "zh": "Wargen"
+    }
+  ],
+  "DungeonsEnchantmentSprite": [
+    {
+      "en": "accelerate",
+      "raw": "加速",
+      "link": "加速",
+      "zh": "加速"
+    },
+    {
+      "en": "acrobat",
+      "raw": "杂技",
+      "link": "杂技",
+      "zh": "杂技"
+    },
+    {
+      "en": "altruistic",
+      "raw": "舍己为人",
+      "link": "舍己为人",
+      "zh": "舍己为人"
+    },
+    {
+      "en": "ambush",
+      "raw": "伏击",
+      "link": "伏击",
+      "zh": "伏击"
+    },
+    {
+      "en": "anima conduit",
+      "raw": "灵魂输导",
+      "link": "灵魂输导",
+      "zh": "灵魂输导"
+    },
+    {
+      "en": "artifact charge",
+      "raw": "法器蓄力",
+      "link": "法器蓄力",
+      "zh": "法器蓄力"
+    },
+    {
+      "en": "artifact synergy",
+      "raw": "法器协同",
+      "link": "法器协同",
+      "zh": "法器协同"
+    },
+    {
+      "en": "barrier",
+      "raw": "屏障",
+      "link": "屏障",
+      "zh": "屏障"
+    },
+    {
+      "en": "bag of souls",
+      "raw": "束魂",
+      "link": "束魂",
+      "zh": "束魂"
+    },
+    {
+      "en": "beast boss",
+      "raw": "万兽之王",
+      "link": "万兽之王",
+      "zh": "万兽之王"
+    },
+    {
+      "en": "beast burst",
+      "raw": "万兽之烈",
+      "link": "万兽之烈",
+      "zh": "万兽之烈"
+    },
+    {
+      "en": "beast surge",
+      "raw": "万兽之力",
+      "link": "万兽之力",
+      "zh": "万兽之力"
+    },
+    {
+      "en": "bonus shot",
+      "raw": "奖励射击",
+      "link": "奖励射击",
+      "zh": "奖励射击"
+    },
+    {
+      "en": "burning",
+      "raw": "灼烧",
+      "link": "灼烧",
+      "zh": "灼烧"
+    },
+    {
+      "en": "burst bowstring",
+      "raw": "爆裂弓弦",
+      "link": "爆裂弓弦",
+      "zh": "爆裂弓弦"
+    },
+    {
+      "en": "busy bee",
+      "raw": "忙碌蜜蜂",
+      "link": "忙碌蜜蜂",
+      "zh": "忙碌蜜蜂"
+    },
+    {
+      "en": "celerity",
+      "raw": "冷却",
+      "link": "冷却",
+      "zh": "冷却"
+    },
+    {
+      "en": "chain reaction",
+      "raw": "连锁反应",
+      "link": "连锁反应",
+      "zh": "连锁反应"
+    },
+    {
+      "en": "chains",
+      "raw": "链锁",
+      "link": "链锁",
+      "zh": "链锁"
+    },
+    {
+      "en": "chilling",
+      "raw": "冻结",
+      "link": "冻结",
+      "zh": "冻结"
+    },
+    {
+      "en": "cooldown shot",
+      "raw": "冷却射击",
+      "link": "冷却射击",
+      "zh": "冷却射击"
+    },
+    {
+      "en": "cool down",
+      "raw": "冷却",
+      "link": "冷却",
+      "zh": "冷却"
+    },
+    {
+      "en": "committed",
+      "raw": "进伤",
+      "link": "进伤",
+      "zh": "进伤"
+    },
+    {
+      "en": "cowardice",
+      "raw": "胆怯",
+      "link": "胆怯",
+      "zh": "胆怯"
+    },
+    {
+      "en": "critical hit",
+      "raw": "暴击",
+      "link": "暴击",
+      "zh": "暴击"
+    },
+    {
+      "en": "death barter",
+      "raw": "死亡交易",
+      "link": "死亡交易",
+      "zh": "死亡交易"
+    },
+    {
+      "en": "deflect",
+      "raw": "偏转",
+      "link": "偏转",
+      "zh": "偏转"
+    },
+    {
+      "en": "dipping poison",
+      "raw": "蘸毒",
+      "link": "蘸毒",
+      "zh": "蘸毒"
+    },
+    {
+      "en": "double damage",
+      "raw": "双倍伤害",
+      "link": "双倍伤害",
+      "zh": "双倍伤害"
+    },
+    {
+      "en": "dynamo",
+      "raw": "精力充沛",
+      "link": "精力充沛",
+      "zh": "精力充沛"
+    },
+    {
+      "en": "echo",
+      "raw": "回击",
+      "link": "回击",
+      "zh": "回击"
+    },
+    {
+      "en": "electrified",
+      "raw": "电击",
+      "link": "电击",
+      "zh": "电击"
+    },
+    {
+      "en": "emerald shield",
+      "raw": "绿宝石护盾",
+      "link": "绿宝石护盾",
+      "zh": "绿宝石护盾"
+    },
+    {
+      "en": "enigma resonator",
+      "raw": "灵魂共振",
+      "link": "灵魂共振",
+      "zh": "灵魂共振"
+    },
+    {
+      "en": "environmental protection",
+      "raw": "环境抗性",
+      "link": "环境抗性",
+      "zh": "环境抗性"
+    },
+    {
+      "en": "exploding",
+      "raw": "爆炸",
+      "link": "爆炸",
+      "zh": "爆炸"
+    },
+    {
+      "en": "explorer",
+      "raw": "探险家",
+      "link": "探险家",
+      "zh": "探险家"
+    },
+    {
+      "en": "fast attack",
+      "raw": "快速攻击",
+      "link": "快速攻击",
+      "zh": "快速攻击"
+    },
+    {
+      "en": "final shout",
+      "raw": "拼死一搏",
+      "link": "拼死一搏",
+      "zh": "拼死一搏"
+    },
+    {
+      "en": "fire aspect",
+      "raw": "火焰附加",
+      "link": "火焰附加",
+      "zh": "火焰附加"
+    },
+    {
+      "en": "fire focus",
+      "raw": "烈焰汇聚",
+      "link": "烈焰汇聚",
+      "zh": "烈焰汇聚"
+    },
+    {
+      "en": "fire trail",
+      "raw": "焰尾",
+      "link": "焰尾",
+      "zh": "焰尾"
+    },
+    {
+      "en": "food reserves",
+      "raw": "食物储备",
+      "link": "食物储备",
+      "zh": "食物储备"
+    },
+    {
+      "en": "freezing",
+      "raw": "霜冻",
+      "link": "霜冻",
+      "zh": "霜冻"
+    },
+    {
+      "en": "frenzied",
+      "raw": "狂暴",
+      "link": "狂暴",
+      "zh": "狂暴"
+    },
+    {
+      "en": "fuse shot",
+      "raw": "导火索",
+      "link": "导火索",
+      "zh": "导火索"
+    },
+    {
+      "en": "gravity",
+      "raw": "引力",
+      "link": "引力",
+      "zh": "引力"
+    },
+    {
+      "en": "gravity pulse",
+      "raw": "引力脉冲",
+      "link": "引力脉冲",
+      "zh": "引力脉冲"
+    },
+    {
+      "en": "growing",
+      "raw": "变大",
+      "link": "变大",
+      "zh": "变大"
+    },
+    {
+      "en": "guarding strike",
+      "raw": "守卫攻击",
+      "link": "守卫攻击",
+      "zh": "守卫攻击"
+    },
+    {
+      "en": "heals allies",
+      "raw": "舍己为人",
+      "link": "舍己为人",
+      "zh": "舍己为人"
+    },
+    {
+      "en": "health synergy",
+      "raw": "生命协同",
+      "link": "生命协同",
+      "zh": "生命协同"
+    },
+    {
+      "en": "huge",
+      "raw": "巨大化",
+      "link": "巨大化",
+      "zh": "巨大化"
+    },
+    {
+      "en": "illager's bane",
+      "raw": "灾厄克星",
+      "link": "灾厄克星",
+      "zh": "灾厄克星"
+    },
+    {
+      "en": "infinity",
+      "raw": "无限",
+      "link": "无限",
+      "zh": "无限"
+    },
+    {
+      "en": "knockback",
+      "raw": "击退",
+      "link": "击退",
+      "zh": "击退"
+    },
+    {
+      "en": "leeching",
+      "raw": "吸血",
+      "link": "吸血",
+      "zh": "吸血"
+    },
+    {
+      "en": "levitation shot",
+      "raw": "飘浮射击",
+      "link": "飘浮射击",
+      "zh": "飘浮射击"
+    },
+    {
+      "en": "life boost",
+      "raw": "生命加成",
+      "link": "生命加成",
+      "zh": "生命加成"
+    },
+    {
+      "en": "lightning focus",
+      "raw": "雷霆汇聚",
+      "link": "雷霆汇聚",
+      "zh": "雷霆汇聚"
+    },
+    {
+      "en": "looting",
+      "raw": "抢夺",
+      "link": "抢夺",
+      "zh": "抢夺"
+    },
+    {
+      "en": "luck of the sea",
+      "raw": "海之眷顾",
+      "link": "海之眷顾",
+      "zh": "海之眷顾"
+    },
+    {
+      "en": "lucky explorer",
+      "raw": "幸运探险家",
+      "link": "幸运探险家",
+      "zh": "幸运探险家"
+    },
+    {
+      "en": "mob resurrection aura",
+      "raw": "复活光环",
+      "link": "复活光环",
+      "zh": "复活光环"
+    },
+    {
+      "en": "multi roll",
+      "raw": "多重翻滚",
+      "link": "多重翻滚",
+      "zh": "多重翻滚"
+    },
+    {
+      "en": "multishot",
+      "raw": "多重射击",
+      "link": "多重射击",
+      "zh": "多重射击"
+    },
+    {
+      "en": "overcharge",
+      "raw": "多级蓄力",
+      "link": "多级蓄力",
+      "zh": "多级蓄力"
+    },
+    {
+      "en": "pain cycle",
+      "raw": "痛苦循环",
+      "link": "痛苦循环",
+      "zh": "痛苦循环"
+    },
+    {
+      "en": "piercing",
+      "raw": "穿透",
+      "link": "穿透",
+      "zh": "穿透"
+    },
+    {
+      "en": "poison",
+      "raw": "剧毒",
+      "link": "剧毒",
+      "zh": "剧毒"
+    },
+    {
+      "en": "poison cloud",
+      "raw": "毒雾",
+      "link": "毒雾",
+      "zh": "毒雾"
+    },
+    {
+      "en": "poison focus",
+      "raw": "剧毒汇聚",
+      "link": "剧毒汇聚",
+      "zh": "剧毒汇聚"
+    },
+    {
+      "en": "potion barrier",
+      "raw": "药水护盾",
+      "link": "药水护盾",
+      "zh": "药水护盾"
+    },
+    {
+      "en": "power",
+      "raw": "力量",
+      "link": "力量",
+      "zh": "力量"
+    },
+    {
+      "en": "prospector",
+      "raw": "探矿者",
+      "link": "探矿者",
+      "zh": "探矿者"
+    },
+    {
+      "en": "protection",
+      "raw": "保护",
+      "link": "保护",
+      "zh": "保护"
+    },
+    {
+      "en": "punch",
+      "raw": "冲击",
+      "link": "冲击",
+      "zh": "冲击"
+    },
+    {
+      "en": "quick",
+      "raw": "疾速",
+      "link": "疾速",
+      "zh": "疾速"
+    },
+    {
+      "en": "radiance",
+      "raw": "治愈光辉",
+      "link": "治愈光辉",
+      "zh": "治愈光辉"
+    },
+    {
+      "en": "radiance shot",
+      "raw": "治愈光束",
+      "link": "治愈光束",
+      "zh": "治愈光束"
+    },
+    {
+      "en": "rampaging",
+      "raw": "狂怒",
+      "link": "狂怒",
+      "zh": "狂怒"
+    },
+    {
+      "en": "rapid fire",
+      "raw": "快速射击",
+      "link": "快速射击",
+      "zh": "快速射击"
+    },
+    {
+      "en": "reckless",
+      "raw": "莽撞",
+      "link": "莽撞",
+      "zh": "莽撞"
+    },
+    {
+      "en": "recycler",
+      "raw": "回收",
+      "link": "回收",
+      "zh": "回收"
+    },
+    {
+      "en": "refreshment",
+      "raw": "精神焕发",
+      "link": "精神焕发",
+      "zh": "精神焕发"
+    },
+    {
+      "en": "regeneration",
+      "raw": "生命恢复",
+      "link": "生命恢复",
+      "zh": "生命恢复"
+    },
+    {
+      "en": "reliable ricochet",
+      "raw": "可信反弹",
+      "link": "可信反弹",
+      "zh": "可信反弹"
+    },
+    {
+      "en": "ricochet",
+      "raw": "反弹",
+      "link": "反弹",
+      "zh": "反弹"
+    },
+    {
+      "en": "roll charge",
+      "raw": "蓄力翻滚",
+      "link": "蓄力翻滚",
+      "zh": "蓄力翻滚"
+    },
+    {
+      "en": "rush",
+      "raw": "冲刺",
+      "link": "冲刺",
+      "zh": "冲刺"
+    },
+    {
+      "en": "rushdown",
+      "raw": "奔腾",
+      "link": "奔腾",
+      "zh": "奔腾"
+    },
+    {
+      "en": "shadow blast",
+      "raw": "暗影爆破",
+      "link": "暗影爆破",
+      "zh": "暗影爆破"
+    },
+    {
+      "en": "shadow shot",
+      "raw": "暗影射击",
+      "link": "暗影射击",
+      "zh": "暗影射击"
+    },
+    {
+      "en": "shadow surge",
+      "raw": "暗影之烈",
+      "link": "暗影之烈",
+      "zh": "暗影之烈"
+    },
+    {
+      "en": "shared pain",
+      "raw": "伤害共享",
+      "link": "伤害共享",
+      "zh": "伤害共享"
+    },
+    {
+      "en": "sharpness",
+      "raw": "锋利",
+      "link": "锋利",
+      "zh": "锋利"
+    },
+    {
+      "en": "shielding",
+      "raw": "屏蔽护盾",
+      "link": "屏蔽护盾",
+      "zh": "屏蔽护盾"
+    },
+    {
+      "en": "shock web",
+      "raw": "电网",
+      "link": "电网",
+      "zh": "电网"
+    },
+    {
+      "en": "shockwave",
+      "raw": "冲击波",
+      "link": "冲击波",
+      "zh": "冲击波"
+    },
+    {
+      "en": "smiting",
+      "raw": "亡灵杀手",
+      "link": "亡灵杀手",
+      "zh": "亡灵杀手"
+    },
+    {
+      "en": "snowball",
+      "raw": "雪球",
+      "link": "雪球",
+      "zh": "雪球"
+    },
+    {
+      "en": "soul focus",
+      "raw": "灵魂汇聚",
+      "link": "灵魂汇聚",
+      "zh": "灵魂汇聚"
+    },
+    {
+      "en": "soul siphon",
+      "raw": "灵魂虹吸",
+      "link": "灵魂虹吸",
+      "zh": "灵魂虹吸"
+    },
+    {
+      "en": "soul speed",
+      "raw": "灵魂疾行",
+      "link": "灵魂疾行",
+      "zh": "灵魂疾行"
+    },
+    {
+      "en": "speed synergy",
+      "raw": "速度协同",
+      "link": "速度协同",
+      "zh": "速度协同"
+    },
+    {
+      "en": "stunning",
+      "raw": "眩晕",
+      "link": "眩晕",
+      "zh": "眩晕"
+    },
+    {
+      "en": "supercharge",
+      "raw": "超级蓄力",
+      "link": "超级蓄力",
+      "zh": "超级蓄力"
+    },
+    {
+      "en": "surprise gift",
+      "raw": "惊喜礼物",
+      "link": "惊喜礼物",
+      "zh": "惊喜礼物"
+    },
+    {
+      "en": "swiftfooted",
+      "raw": "疾行",
+      "link": "疾行",
+      "zh": "疾行"
+    },
+    {
+      "en": "swirling",
+      "raw": "旋涡",
+      "link": "旋涡",
+      "zh": "旋涡"
+    },
+    {
+      "en": "tempo theft",
+      "raw": "速度窃取",
+      "link": "速度窃取",
+      "zh": "速度窃取"
+    },
+    {
+      "en": "thorns",
+      "raw": "荆棘",
+      "link": "荆棘",
+      "zh": "荆棘"
+    },
+    {
+      "en": "thrive under pressure",
+      "raw": "砥砺奋进",
+      "link": "砥砺奋进",
+      "zh": "砥砺奋进"
+    },
+    {
+      "en": "thundering",
+      "raw": "引雷",
+      "link": "引雷",
+      "zh": "引雷"
+    },
+    {
+      "en": "tumble bee",
+      "raw": "翻滚蜜蜂",
+      "link": "翻滚蜜蜂",
+      "zh": "翻滚蜜蜂"
+    },
+    {
+      "en": "unchanting",
+      "raw": "祛魔",
+      "link": "祛魔",
+      "zh": "祛魔"
+    },
+    {
+      "en": "vessel trail",
+      "raw": "容器之踪",
+      "link": "容器之踪",
+      "zh": "容器之踪"
+    },
+    {
+      "en": "void strike",
+      "raw": "虚空强袭",
+      "link": "虚空强袭",
+      "zh": "虚空强袭"
+    },
+    {
+      "en": "weakening",
+      "raw": "虚弱",
+      "link": "虚弱",
+      "zh": "虚弱"
+    },
+    {
+      "en": "wild rage",
+      "raw": "挑衅",
+      "link": "挑衅",
+      "zh": "挑衅"
+    }
+  ],
+  "DungeonsLevelSprite": [
+    {
+      "en": "???",
+      "raw": "蘑菇岛|？？？",
+      "link": "蘑菇岛",
+      "zh": "？？？"
+    },
+    {
+      "en": "abyssal monument",
+      "raw": "深渊神殿",
+      "link": "深渊神殿",
+      "zh": "深渊神殿"
+    },
+    {
+      "en": "adventure hub",
+      "raw": "冒险中心",
+      "link": "冒险中心",
+      "zh": "冒险中心"
+    },
+    {
+      "en": "ancient hunt",
+      "raw": "远古狩猎",
+      "link": "远古狩猎",
+      "zh": "远古狩猎"
+    },
+    {
+      "en": "arch haven",
+      "raw": "灾厄港口",
+      "link": "灾厄港口",
+      "zh": "灾厄港口"
+    },
+    {
+      "en": "basalt deltas",
+      "raw": "玄武岩三角洲",
+      "link": "玄武岩三角洲",
+      "zh": "玄武岩三角洲"
+    },
+    {
+      "en": "broken citadel",
+      "raw": "破碎城堡",
+      "link": "破碎城堡",
+      "zh": "破碎城堡"
+    },
+    {
+      "en": "cacti canyon",
+      "raw": "仙人掌峡谷",
+      "link": "仙人掌峡谷",
+      "zh": "仙人掌峡谷"
+    },
+    {
+      "en": "camp",
+      "raw": "营地",
+      "link": "营地",
+      "zh": "营地"
+    },
+    {
+      "en": "colossal rampart",
+      "raw": "巍峨壁垒",
+      "link": "巍峨壁垒",
+      "zh": "巍峨壁垒"
+    },
+    {
+      "en": "coral rise",
+      "raw": "群珊之地",
+      "link": "群珊之地",
+      "zh": "群珊之地"
+    },
+    {
+      "en": "creeper woods",
+      "raw": "苦力怕森林",
+      "link": "苦力怕森林",
+      "zh": "苦力怕森林"
+    },
+    {
+      "en": "creeping winter",
+      "raw": "悚伏寒冬",
+      "link": "悚伏寒冬",
+      "zh": "悚伏寒冬"
+    },
+    {
+      "en": "creepy crypt",
+      "raw": "苦力怕地穴",
+      "link": "苦力怕地穴",
+      "zh": "苦力怕地穴"
+    },
+    {
+      "en": "crimson forest",
+      "raw": "绯红森林",
+      "link": "绯红森林",
+      "zh": "绯红森林"
+    },
+    {
+      "en": "desert temple",
+      "raw": "沙漠神殿",
+      "link": "沙漠神殿",
+      "zh": "沙漠神殿"
+    },
+    {
+      "en": "dingy jungle",
+      "raw": "昏暗丛林",
+      "link": "昏暗丛林",
+      "zh": "昏暗丛林"
+    },
+    {
+      "en": "echoing void",
+      "raw": "虚空回响",
+      "link": "虚空回响",
+      "zh": "虚空回响"
+    },
+    {
+      "en": "end wilds",
+      "raw": "末地荒野",
+      "link": "末地荒野",
+      "zh": "末地荒野"
+    },
+    {
+      "en": "fiery forge",
+      "raw": "烈焰锻造厂",
+      "link": "烈焰锻造厂",
+      "zh": "烈焰锻造厂"
+    },
+    {
+      "en": "flames of the nether",
+      "raw": "下界之焰",
+      "link": "下界之焰",
+      "zh": "下界之焰"
+    },
+    {
+      "en": "frosted fjord",
+      "raw": "冰霜峡湾",
+      "link": "冰霜峡湾",
+      "zh": "冰霜峡湾"
+    },
+    {
+      "en": "gale sanctum",
+      "raw": "烈风圣地",
+      "link": "烈风圣地",
+      "zh": "烈风圣地"
+    },
+    {
+      "en": "gauntlet of gales",
+      "raw": "圣殿之翼",
+      "link": "圣殿之翼",
+      "zh": "圣殿之翼"
+    },
+    {
+      "en": "hidden depths",
+      "raw": "隐秘深渊",
+      "link": "隐秘深渊",
+      "zh": "隐秘深渊"
+    },
+    {
+      "en": "highblock halls",
+      "raw": "高墩大厅",
+      "link": "高墩大厅",
+      "zh": "高墩大厅"
+    },
+    {
+      "en": "howling peaks",
+      "raw": "嚎风山巅",
+      "link": "嚎风山巅",
+      "zh": "嚎风山巅"
+    },
+    {
+      "en": "jungle awakens",
+      "raw": "觉醒丛林",
+      "link": "觉醒丛林",
+      "zh": "觉醒丛林"
+    },
+    {
+      "en": "lone fortress",
+      "raw": "孤寂要塞",
+      "link": "孤寂要塞",
+      "zh": "孤寂要塞"
+    },
+    {
+      "en": "lost settlement",
+      "raw": "失落居所",
+      "link": "失落居所",
+      "zh": "失落居所"
+    },
+    {
+      "en": "lower temple",
+      "raw": "地下神殿",
+      "link": "地下神殿",
+      "zh": "地下神殿"
+    },
+    {
+      "en": "mooshroom island",
+      "raw": "蘑菇岛",
+      "link": "蘑菇岛",
+      "zh": "蘑菇岛"
+    },
+    {
+      "en": "nether fortress",
+      "raw": "下界要塞",
+      "link": "下界要塞",
+      "zh": "下界要塞"
+    },
+    {
+      "en": "nether wastes",
+      "raw": "下界荒地",
+      "link": "下界荒地",
+      "zh": "下界荒地"
+    },
+    {
+      "en": "obsidian pinnacle",
+      "raw": "黑曜之巅",
+      "link": "黑曜之巅",
+      "zh": "黑曜之巅"
+    },
+    {
+      "en": "overgrown temple",
+      "raw": "荒芜神庙",
+      "link": "荒芜神庙",
+      "zh": "荒芜神庙"
+    },
+    {
+      "en": "panda plateau",
+      "raw": "熊猫高原",
+      "link": "熊猫高原",
+      "zh": "熊猫高原"
+    },
+    {
+      "en": "pumpkin pastures",
+      "raw": "南瓜牧场",
+      "link": "南瓜牧场",
+      "zh": "南瓜牧场"
+    },
+    {
+      "en": "radiant ravine",
+      "raw": "璀璨沟谷",
+      "link": "璀璨沟谷",
+      "zh": "璀璨沟谷"
+    },
+    {
+      "en": "redstone mines",
+      "raw": "红石矿山",
+      "link": "红石矿山",
+      "zh": "红石矿山"
+    },
+    {
+      "en": "slimy sewers",
+      "raw": "黏糊阴沟",
+      "link": "黏糊阴沟",
+      "zh": "黏糊阴沟"
+    },
+    {
+      "en": "soggy cave",
+      "raw": "潮湿洞穴",
+      "link": "潮湿洞穴",
+      "zh": "潮湿洞穴"
+    },
+    {
+      "en": "soggy swamp",
+      "raw": "潮湿沼泽",
+      "link": "潮湿沼泽",
+      "zh": "潮湿沼泽"
+    },
+    {
+      "en": "spider cave",
+      "raw": "蜘蛛洞穴",
+      "link": "蜘蛛洞穴",
+      "zh": "蜘蛛洞穴"
+    },
+    {
+      "en": "soul sand valley",
+      "raw": "灵魂沙峡谷",
+      "link": "灵魂沙峡谷",
+      "zh": "灵魂沙峡谷"
+    },
+    {
+      "en": "squid coast",
+      "raw": "鱿鱼海岸",
+      "link": "鱿鱼海岸",
+      "zh": "鱿鱼海岸"
+    },
+    {
+      "en": "the stronghold",
+      "raw": "要塞",
+      "link": "要塞",
+      "zh": "要塞"
+    },
+    {
+      "en": "tower",
+      "raw": "高塔",
+      "link": "高塔",
+      "zh": "高塔"
+    },
+    {
+      "en": "treetop tangle",
+      "raw": "树梢缠结",
+      "link": "树梢缠结",
+      "zh": "树梢缠结"
+    },
+    {
+      "en": "underhalls",
+      "raw": "大厅之下",
+      "link": "大厅之下",
+      "zh": "大厅之下"
+    },
+    {
+      "en": "warped forest",
+      "raw": "诡异森林",
+      "link": "诡异森林",
+      "zh": "诡异森林"
+    },
+    {
+      "en": "windswept peaks",
+      "raw": "迎风之巅",
+      "link": "迎风之巅",
+      "zh": "迎风之巅"
+    },
+    {
+      "en": "woodland mansion",
+      "raw": "林地府邸",
+      "link": "林地府邸",
+      "zh": "林地府邸"
+    },
+    {
+      "en": "woodland prison",
+      "raw": "林地监狱",
+      "link": "林地监狱",
+      "zh": "林地监狱"
+    }
+  ],
+  "DungeonsEmoteSprite": [
+    {
+      "en": "abomination roar",
+      "raw": "动作|恶物咆哮",
+      "link": "动作",
+      "zh": "恶物咆哮"
+    },
+    {
+      "en": "bunny hops",
+      "raw": "动作|兔子跳",
+      "link": "动作",
+      "zh": "兔子跳"
+    },
+    {
+      "en": "chicken",
+      "raw": "动作|鸡",
+      "link": "动作",
+      "zh": "鸡"
+    },
+    {
+      "en": "cleaning",
+      "raw": "动作|舔毛",
+      "link": "动作",
+      "zh": "舔毛"
+    },
+    {
+      "en": "cloud watcher",
+      "raw": "动作|观赏白云",
+      "link": "动作",
+      "zh": "观赏白云"
+    },
+    {
+      "en": "dance fever",
+      "raw": "动作|舞蹈狂",
+      "link": "动作",
+      "zh": "舞蹈狂"
+    },
+    {
+      "en": "dirt roll",
+      "raw": "动作|泥地翻滚",
+      "link": "动作",
+      "zh": "泥地翻滚"
+    },
+    {
+      "en": "dramatic fall",
+      "raw": "动作|综艺摔",
+      "link": "动作",
+      "zh": "综艺摔"
+    },
+    {
+      "en": "fearless flex",
+      "raw": "动作|无惧曲折",
+      "link": "动作",
+      "zh": "无惧曲折"
+    },
+    {
+      "en": "fish out of water",
+      "raw": "动作|离水之鱼",
+      "link": "动作",
+      "zh": "离水之鱼"
+    },
+    {
+      "en": "friendship",
+      "raw": "动作|友谊",
+      "link": "动作",
+      "zh": "友谊"
+    },
+    {
+      "en": "gauntlet check",
+      "raw": "动作|检查准备",
+      "link": "动作",
+      "zh": "检查准备"
+    },
+    {
+      "en": "hero pose",
+      "raw": "动作|英雄姿态",
+      "link": "动作",
+      "zh": "英雄姿态"
+    },
+    {
+      "en": "horse ride",
+      "raw": "动作|骑马",
+      "link": "动作",
+      "zh": "骑马"
+    },
+    {
+      "en": "howl",
+      "raw": "动作|咆哮",
+      "link": "动作",
+      "zh": "咆哮"
+    },
+    {
+      "en": "ironic dance",
+      "raw": "动作|嘲讽舞",
+      "link": "动作",
+      "zh": "嘲讽舞"
+    },
+    {
+      "en": "kneel pose",
+      "raw": "动作|单膝下跪",
+      "link": "动作",
+      "zh": "单膝下跪"
+    },
+    {
+      "en": "log",
+      "raw": "动作|僵直",
+      "link": "动作",
+      "zh": "僵直"
+    },
+    {
+      "en": "mad flap",
+      "raw": "动作|猛烈振翅",
+      "link": "动作",
+      "zh": "猛烈振翅"
+    },
+    {
+      "en": "meow",
+      "raw": "动作|喵喵",
+      "link": "动作",
+      "zh": "喵喵"
+    },
+    {
+      "en": "melee moves",
+      "raw": "动作|近战格斗",
+      "link": "动作",
+      "zh": "近战格斗"
+    },
+    {
+      "en": "mighty sword",
+      "raw": "动作|强势舞剑",
+      "link": "动作",
+      "zh": "强势舞剑"
+    },
+    {
+      "en": "monstrosity stomp",
+      "raw": "动作|巨兽践踏",
+      "link": "动作",
+      "zh": "巨兽践踏"
+    },
+    {
+      "en": "pancake",
+      "raw": "动作|平坠",
+      "link": "动作",
+      "zh": "平坠"
+    },
+    {
+      "en": "penguin waddle",
+      "raw": "动作|企鹅摇摆走",
+      "link": "动作",
+      "zh": "企鹅摇摆走"
+    },
+    {
+      "en": "petting",
+      "raw": "动作|抚摸",
+      "link": "动作",
+      "zh": "抚摸"
+    },
+    {
+      "en": "pspspspspspss",
+      "raw": "动作|逗猫",
+      "link": "动作",
+      "zh": "逗猫"
+    },
+    {
+      "en": "scoot",
+      "raw": "动作|挪动",
+      "link": "动作",
+      "zh": "挪动"
+    },
+    {
+      "en": "simple clap",
+      "raw": "动作|简单鼓掌",
+      "link": "动作",
+      "zh": "简单鼓掌"
+    },
+    {
+      "en": "smooth operator",
+      "raw": "动作|熟练技工",
+      "link": "动作",
+      "zh": "熟练技工"
+    },
+    {
+      "en": "snow shapes",
+      "raw": "动作|玩雪",
+      "link": "动作",
+      "zh": "玩雪"
+    },
+    {
+      "en": "stylish spins",
+      "raw": "动作|街舞",
+      "link": "动作",
+      "zh": "街舞"
+    },
+    {
+      "en": "surprised goat",
+      "raw": "动作|受惊的山羊",
+      "link": "动作",
+      "zh": "受惊的山羊"
+    },
+    {
+      "en": "tail chase",
+      "raw": "动作|追尾游戏",
+      "link": "动作",
+      "zh": "追尾游戏"
+    },
+    {
+      "en": "take aim",
+      "raw": "动作|瞄准目标",
+      "link": "动作",
+      "zh": "瞄准目标"
+    },
+    {
+      "en": "take flight",
+      "raw": "动作|坐飞机",
+      "link": "动作",
+      "zh": "坐飞机"
+    },
+    {
+      "en": "the axolotl",
+      "raw": "动作|美西螈游动",
+      "link": "动作",
+      "zh": "美西螈游动"
+    },
+    {
+      "en": "the elytra",
+      "raw": "动作|鞘翅滑翔",
+      "link": "动作",
+      "zh": "鞘翅滑翔"
+    },
+    {
+      "en": "the enderman",
+      "raw": "动作|末影人",
+      "link": "动作",
+      "zh": "末影人"
+    },
+    {
+      "en": "the pickaxe",
+      "raw": "动作|镐子",
+      "link": "动作",
+      "zh": "镐子"
+    },
+    {
+      "en": "the twirl",
+      "raw": "动作|转圈圈",
+      "link": "动作",
+      "zh": "转圈圈"
+    },
+    {
+      "en": "victorious punch",
+      "raw": "动作|获胜举拳",
+      "link": "动作",
+      "zh": "获胜举拳"
+    },
+    {
+      "en": "walk it off",
+      "raw": "动作|开溜",
+      "link": "动作",
+      "zh": "开溜"
+    },
+    {
+      "en": "workout",
+      "raw": "动作|热身",
+      "link": "动作",
+      "zh": "热身"
+    },
+    {
+      "en": "zombified shuffle",
+      "raw": "动作|僵尸行走",
+      "link": "动作",
+      "zh": "僵尸行走"
+    }
+  ],
+  "DungeonsFlairSprite": [
+    {
+      "en": "amethyst crystal rise",
+      "raw": "特效|紫水晶体升起",
+      "link": "特效",
+      "zh": "紫水晶体升起"
+    },
+    {
+      "en": "amethyst rise",
+      "raw": "特效|紫水晶升起",
+      "link": "特效",
+      "zh": "紫水晶升起"
+    },
+    {
+      "en": "ancient beam",
+      "raw": "特效|远古光束",
+      "link": "特效",
+      "zh": "远古光束"
+    },
+    {
+      "en": "bayou burst",
+      "raw": "特效|微光爆裂",
+      "link": "特效",
+      "zh": "微光爆裂"
+    },
+    {
+      "en": "big lick",
+      "raw": "特效|大舌头",
+      "link": "特效",
+      "zh": "大舌头"
+    },
+    {
+      "en": "big paw print",
+      "raw": "特效|大爪印",
+      "link": "特效",
+      "zh": "大爪印"
+    },
+    {
+      "en": "bite marks",
+      "raw": "特效|咬痕",
+      "link": "特效",
+      "zh": "咬痕"
+    },
+    {
+      "en": "boom",
+      "raw": "特效|爆炸",
+      "link": "特效",
+      "zh": "爆炸"
+    },
+    {
+      "en": "bubbly",
+      "raw": "特效|泡泡",
+      "link": "特效",
+      "zh": "泡泡"
+    },
+    {
+      "en": "bucket drop",
+      "raw": "特效|水桶倾倒",
+      "link": "特效",
+      "zh": "水桶倾倒"
+    },
+    {
+      "en": "burst of feathers",
+      "raw": "特效|羽毛爆发",
+      "link": "特效",
+      "zh": "羽毛爆发"
+    },
+    {
+      "en": "cat face",
+      "raw": "特效|猫脸",
+      "link": "特效",
+      "zh": "猫脸"
+    },
+    {
+      "en": "celebrationmancer",
+      "raw": "特效|欢庆法师",
+      "link": "特效",
+      "zh": "欢庆法师"
+    },
+    {
+      "en": "charged",
+      "raw": "特效|电力满满！",
+      "link": "特效",
+      "zh": "电力满满！"
+    },
+    {
+      "en": "charged!",
+      "raw": "特效|电力满满！",
+      "link": "特效",
+      "zh": "电力满满！"
+    },
+    {
+      "en": "claw slash",
+      "raw": "特效|抓挠",
+      "link": "特效",
+      "zh": "抓挠"
+    },
+    {
+      "en": "confetti",
+      "raw": "特效|彩色纸屑",
+      "link": "特效",
+      "zh": "彩色纸屑"
+    },
+    {
+      "en": "cow bell",
+      "raw": "特效|牛铃",
+      "link": "特效",
+      "zh": "牛铃"
+    },
+    {
+      "en": "cow face",
+      "raw": "特效|牛脸",
+      "link": "特效",
+      "zh": "牛脸"
+    },
+    {
+      "en": "dirt nap",
+      "raw": "特效|重生",
+      "link": "特效",
+      "zh": "重生"
+    },
+    {
+      "en": "dolphin splash",
+      "raw": "特效|海豚溅水",
+      "link": "特效",
+      "zh": "海豚溅水"
+    },
+    {
+      "en": "dramatic",
+      "raw": "特效|盛大登场",
+      "link": "特效",
+      "zh": "盛大登场"
+    },
+    {
+      "en": "egg hatch",
+      "raw": "特效|鸡蛋破裂",
+      "link": "特效",
+      "zh": "鸡蛋破裂"
+    },
+    {
+      "en": "evoker snap",
+      "raw": "特效|唤魔者尖牙",
+      "link": "特效",
+      "zh": "唤魔者尖牙"
+    },
+    {
+      "en": "fired up",
+      "raw": "特效|火力全开",
+      "link": "特效",
+      "zh": "火力全开"
+    },
+    {
+      "en": "fireworks",
+      "raw": "特效|烟花",
+      "link": "特效",
+      "zh": "烟花"
+    },
+    {
+      "en": "fish snack",
+      "raw": "特效|小鱼零食",
+      "link": "特效",
+      "zh": "小鱼零食"
+    },
+    {
+      "en": "flashy fungi",
+      "raw": "特效|华丽菌菇",
+      "link": "特效",
+      "zh": "华丽菌菇"
+    },
+    {
+      "en": "flower power",
+      "raw": "特效|花之力",
+      "link": "特效",
+      "zh": "花之力"
+    },
+    {
+      "en": "food parcel",
+      "raw": "特效|食物包",
+      "link": "特效",
+      "zh": "食物包"
+    },
+    {
+      "en": "full moon",
+      "raw": "特效|满月",
+      "link": "特效",
+      "zh": "满月"
+    },
+    {
+      "en": "glow burst",
+      "raw": "特效|荧光爆裂",
+      "link": "特效",
+      "zh": "荧光爆裂"
+    },
+    {
+      "en": "glow ink explosion",
+      "raw": "特效|荧光墨水爆炸",
+      "link": "特效",
+      "zh": "荧光墨水爆炸"
+    },
+    {
+      "en": "healing bloom",
+      "raw": "特效|治疗盛开",
+      "link": "特效",
+      "zh": "治疗盛开"
+    },
+    {
+      "en": "healing burst",
+      "raw": "特效|治疗爆发",
+      "link": "特效",
+      "zh": "治疗爆发"
+    },
+    {
+      "en": "healing rain",
+      "raw": "特效|治疗之雨",
+      "link": "特效",
+      "zh": "治疗之雨"
+    },
+    {
+      "en": "healing ray",
+      "raw": "特效|治疗之光",
+      "link": "特效",
+      "zh": "治疗之光"
+    },
+    {
+      "en": "healing wind",
+      "raw": "特效|治疗之风",
+      "link": "特效",
+      "zh": "治疗之风"
+    },
+    {
+      "en": "heart fountain",
+      "raw": "特效|爱心喷泉",
+      "link": "特效",
+      "zh": "爱心喷泉"
+    },
+    {
+      "en": "hedgehog face",
+      "raw": "特效|刺猬脸",
+      "link": "特效",
+      "zh": "刺猬脸"
+    },
+    {
+      "en": "horse shoe",
+      "raw": "特效|马蹄铁",
+      "link": "特效",
+      "zh": "马蹄铁"
+    },
+    {
+      "en": "lava burst",
+      "raw": "特效|熔岩喷发",
+      "link": "特效",
+      "zh": "熔岩喷发"
+    },
+    {
+      "en": "light burst",
+      "raw": "特效|光爆",
+      "link": "特效",
+      "zh": "光爆"
+    },
+    {
+      "en": "milk bucket drop",
+      "raw": "特效|奶桶倾倒",
+      "link": "特效",
+      "zh": "奶桶倾倒"
+    },
+    {
+      "en": "mine bonanza",
+      "raw": "特效|地雷群",
+      "link": "特效",
+      "zh": "地雷群"
+    },
+    {
+      "en": "mushroom shower",
+      "raw": "特效|蘑菇沐浴",
+      "link": "特效",
+      "zh": "蘑菇沐浴"
+    },
+    {
+      "en": "orb frenzy",
+      "raw": "特效|支配之球狂热",
+      "link": "特效",
+      "zh": "支配之球狂热"
+    },
+    {
+      "en": "overcast",
+      "raw": "特效|云里雾里",
+      "link": "特效",
+      "zh": "云里雾里"
+    },
+    {
+      "en": "paw prints",
+      "raw": "特效|爪印",
+      "link": "特效",
+      "zh": "爪印"
+    },
+    {
+      "en": "peacock feathers",
+      "raw": "特效|孔雀羽",
+      "link": "特效",
+      "zh": "孔雀羽"
+    },
+    {
+      "en": "pecks",
+      "raw": "特效|猛啄",
+      "link": "特效",
+      "zh": "猛啄"
+    },
+    {
+      "en": "penguin face",
+      "raw": "特效|企鹅脸",
+      "link": "特效",
+      "zh": "企鹅脸"
+    },
+    {
+      "en": "pig face",
+      "raw": "特效|猪脸",
+      "link": "特效",
+      "zh": "猪脸"
+    },
+    {
+      "en": "pig splat",
+      "raw": "特效|烂泥飞溅",
+      "link": "特效",
+      "zh": "烂泥飞溅"
+    },
+    {
+      "en": "poof",
+      "raw": "特效|烟雾突现！",
+      "link": "特效",
+      "zh": "烟雾突现！"
+    },
+    {
+      "en": "poof!",
+      "raw": "特效|烟雾突现！",
+      "link": "特效",
+      "zh": "烟雾突现！"
+    },
+    {
+      "en": "popping candy",
+      "raw": "特效|爆裂糖果",
+      "link": "特效",
+      "zh": "爆裂糖果"
+    },
+    {
+      "en": "portal pop",
+      "raw": "特效|传送门膨胀",
+      "link": "特效",
+      "zh": "传送门膨胀"
+    },
+    {
+      "en": "rainbow radiance",
+      "raw": "特效|彩虹治愈",
+      "link": "特效",
+      "zh": "彩虹治愈"
+    },
+    {
+      "en": "rainbow rings",
+      "raw": "特效|彩虹圆环",
+      "link": "特效",
+      "zh": "彩虹圆环"
+    },
+    {
+      "en": "rainbow",
+      "raw": "特效|彩虹",
+      "link": "特效",
+      "zh": "彩虹"
+    },
+    {
+      "en": "red panda face",
+      "raw": "特效|小熊猫脸",
+      "link": "特效",
+      "zh": "小熊猫脸"
+    },
+    {
+      "en": "release the doves",
+      "raw": "特效|放飞鸽子",
+      "link": "特效",
+      "zh": "放飞鸽子"
+    },
+    {
+      "en": "rich stuff",
+      "raw": "特效|富裕奢豪",
+      "link": "特效",
+      "zh": "富裕奢豪"
+    },
+    {
+      "en": "rise and shine",
+      "raw": "特效|日出闪耀",
+      "link": "特效",
+      "zh": "日出闪耀"
+    },
+    {
+      "en": "shine on",
+      "raw": "特效|闪亮登场",
+      "link": "特效",
+      "zh": "闪亮登场"
+    },
+    {
+      "en": "slime firework",
+      "raw": "特效|史莱姆烟花",
+      "link": "特效",
+      "zh": "史莱姆烟花"
+    },
+    {
+      "en": "sploosh",
+      "raw": "特效|水花四溅！",
+      "link": "特效",
+      "zh": "水花四溅！"
+    },
+    {
+      "en": "sploosh!",
+      "raw": "特效|水花四溅！",
+      "link": "特效",
+      "zh": "水花四溅！"
+    },
+    {
+      "en": "spooky",
+      "raw": "特效|诡谲",
+      "link": "特效",
+      "zh": "诡谲"
+    },
+    {
+      "en": "spore blossom",
+      "raw": "特效|孢子花",
+      "link": "特效",
+      "zh": "孢子花"
+    },
+    {
+      "en": "spore pop",
+      "raw": "特效|孢子爆裂",
+      "link": "特效",
+      "zh": "孢子爆裂"
+    },
+    {
+      "en": "static shock",
+      "raw": "特效|电击",
+      "link": "特效",
+      "zh": "电击"
+    },
+    {
+      "en": "sunbeam",
+      "raw": "特效|光束",
+      "link": "特效",
+      "zh": "光束"
+    },
+    {
+      "en": "sunburst",
+      "raw": "特效|圣光乍现",
+      "link": "特效",
+      "zh": "圣光乍现"
+    },
+    {
+      "en": "tasty bone",
+      "raw": "特效|美味骨肉",
+      "link": "特效",
+      "zh": "美味骨肉"
+    },
+    {
+      "en": "thunder crack",
+      "raw": "特效|霹雳",
+      "link": "特效",
+      "zh": "霹雳"
+    },
+    {
+      "en": "tornado",
+      "raw": "特效|龙卷风",
+      "link": "特效",
+      "zh": "龙卷风"
+    },
+    {
+      "en": "tropical fish",
+      "raw": "特效|热带鱼",
+      "link": "特效",
+      "zh": "热带鱼"
+    },
+    {
+      "en": "vanish",
+      "raw": "特效|消失不见",
+      "link": "特效",
+      "zh": "消失不见"
+    },
+    {
+      "en": "vengeful flame",
+      "raw": "特效|复仇火焰",
+      "link": "特效",
+      "zh": "复仇火焰"
+    },
+    {
+      "en": "whirlwind",
+      "raw": "特效|旋风",
+      "link": "特效",
+      "zh": "旋风"
+    },
+    {
+      "en": "wolf face",
+      "raw": "特效|狼脸",
+      "link": "特效",
+      "zh": "狼脸"
+    },
+    {
+      "en": "wolf moon",
+      "raw": "特效|狼月",
+      "link": "特效",
+      "zh": "狼月"
+    },
+    {
+      "en": "wraith fire",
+      "raw": "特效|幽灵蓝火",
+      "link": "特效",
+      "zh": "幽灵蓝火"
+    },
+    {
+      "en": "wraiths rising",
+      "raw": "特效|幽灵复苏",
+      "link": "特效",
+      "zh": "幽灵复苏"
+    }
+  ],
+  "DungeonsMiscellaneousSprite": [
+    {
+      "en": "adventure",
+      "raw": "冒险",
+      "link": "冒险",
+      "zh": "冒险"
+    },
+    {
+      "en": "apocalypse",
+      "raw": "天启",
+      "link": "天启",
+      "zh": "天启"
+    },
+    {
+      "en": "apocalypse Plus",
+      "raw": "天启+",
+      "link": "天启+",
+      "zh": "天启+"
+    },
+    {
+      "en": "armor",
+      "raw": "盔甲",
+      "link": "盔甲",
+      "zh": "盔甲"
+    },
+    {
+      "en": "artifact",
+      "raw": "法器",
+      "link": "法器",
+      "zh": "法器"
+    },
+    {
+      "en": "common",
+      "raw": "普通",
+      "link": "普通",
+      "zh": "普通"
+    },
+    {
+      "en": "consumable",
+      "raw": "消耗品",
+      "link": "消耗品",
+      "zh": "消耗品"
+    },
+    {
+      "en": "cosmetic",
+      "raw": "装饰",
+      "link": "装饰",
+      "zh": "装饰"
+    },
+    {
+      "en": "daily trial",
+      "raw": "挑战",
+      "link": "挑战",
+      "zh": "挑战"
+    },
+    {
+      "en": "default",
+      "raw": "默认",
+      "link": "默认",
+      "zh": "默认"
+    },
+    {
+      "en": "down",
+      "raw": "低于",
+      "link": "低于",
+      "zh": "低于"
+    },
+    {
+      "en": "enchantment common",
+      "raw": "普通魔咒",
+      "link": "普通魔咒",
+      "zh": "普通魔咒"
+    },
+    {
+      "en": "enchantment powerful",
+      "raw": "强力魔咒",
+      "link": "强力魔咒",
+      "zh": "强力魔咒"
+    },
+    {
+      "en": "item",
+      "raw": "物品",
+      "link": "物品",
+      "zh": "物品"
+    },
+    {
+      "en": "melee",
+      "raw": "近战武器",
+      "link": "近战武器",
+      "zh": "近战武器"
+    },
+    {
+      "en": "mission",
+      "raw": "普通任务",
+      "link": "普通任务",
+      "zh": "普通任务"
+    },
+    {
+      "en": "ranged",
+      "raw": "远程武器",
+      "link": "远程武器",
+      "zh": "远程武器"
+    },
+    {
+      "en": "rare",
+      "raw": "稀有",
+      "link": "稀有",
+      "zh": "稀有"
+    },
+    {
+      "en": "regular bullet",
+      "raw": "常规属性",
+      "link": "常规属性",
+      "zh": "常规属性"
+    },
+    {
+      "en": "seasonal trial",
+      "raw": "挑战|季节挑战",
+      "link": "挑战",
+      "zh": "季节挑战"
+    },
+    {
+      "en": "secret mission",
+      "raw": "隐藏任务",
+      "link": "隐藏任务",
+      "zh": "隐藏任务"
+    },
+    {
+      "en": "soul bullet",
+      "raw": "灵魂收集|需要灵魂",
+      "link": "灵魂收集",
+      "zh": "需要灵魂"
+    },
+    {
+      "en": "unique",
+      "raw": "独特",
+      "link": "独特",
+      "zh": "独特"
+    },
+    {
+      "en": "unique bullet",
+      "raw": "独特属性",
+      "link": "独特属性",
+      "zh": "独特属性"
+    },
+    {
+      "en": "up",
+      "raw": "高于",
+      "link": "高于",
+      "zh": "高于"
+    }
+  ]
+}

@@ -1,0 +1,1354 @@
+{
+  "_root": [
+    {
+      "en": "Acacia Boat",
+      "raw": "船|金合欢木船",
+      "link": "船",
+      "zh": "金合欢木船"
+    },
+    {
+      "en": "Acacia Boat with Chest",
+      "raw": "运输船|金合欢木运输船",
+      "link": "运输船",
+      "zh": "金合欢木运输船"
+    },
+    {
+      "en": "Allay",
+      "raw": "悦灵",
+      "link": "悦灵",
+      "zh": "悦灵"
+    },
+    {
+      "en": "Area Effect Cloud",
+      "raw": "区域效果云",
+      "link": "区域效果云",
+      "zh": "区域效果云"
+    },
+    {
+      "en": "Armadillo",
+      "raw": "犰狳",
+      "link": "犰狳",
+      "zh": "犰狳"
+    },
+    {
+      "en": "Armor Stand",
+      "raw": "盔甲架",
+      "link": "盔甲架",
+      "zh": "盔甲架"
+    },
+    {
+      "en": "Arrow",
+      "raw": "箭",
+      "link": "箭",
+      "zh": "箭"
+    },
+    {
+      "en": "Axolotl",
+      "raw": "美西螈",
+      "link": "美西螈",
+      "zh": "美西螈"
+    },
+    {
+      "en": "Bamboo Raft",
+      "raw": "船|竹筏",
+      "link": "船",
+      "zh": "竹筏"
+    },
+    {
+      "en": "Bamboo Raft with Chest",
+      "raw": "运输船|运输竹筏",
+      "link": "运输船",
+      "zh": "运输竹筏"
+    },
+    {
+      "en": "Bat",
+      "raw": "蝙蝠",
+      "link": "蝙蝠",
+      "zh": "蝙蝠"
+    },
+    {
+      "en": "Bee",
+      "raw": "蜜蜂",
+      "link": "蜜蜂",
+      "zh": "蜜蜂"
+    },
+    {
+      "en": "Birch Boat",
+      "raw": "船|白桦木船",
+      "link": "船",
+      "zh": "白桦木船"
+    },
+    {
+      "en": "Birch Boat with Chest",
+      "raw": "运输船|白桦木运输船",
+      "link": "运输船",
+      "zh": "白桦木运输船"
+    },
+    {
+      "en": "Blaze",
+      "raw": "烈焰人",
+      "link": "烈焰人",
+      "zh": "烈焰人"
+    },
+    {
+      "en": "Block Display",
+      "raw": "展示实体|方块展示实体",
+      "link": "展示实体",
+      "zh": "方块展示实体"
+    },
+    {
+      "en": "Boat",
+      "raw": "船",
+      "link": "船",
+      "zh": "船"
+    },
+    {
+      "en": "Boat with Chest",
+      "raw": "运输船",
+      "link": "运输船",
+      "zh": "运输船"
+    },
+    {
+      "en": "Bogged",
+      "raw": "沼骸",
+      "link": "沼骸",
+      "zh": "沼骸"
+    },
+    {
+      "en": "Breeze",
+      "raw": "旋风人",
+      "link": "旋风人",
+      "zh": "旋风人"
+    },
+    {
+      "en": "Camel",
+      "raw": "骆驼",
+      "link": "骆驼",
+      "zh": "骆驼"
+    },
+    {
+      "en": "Camel Husk",
+      "raw": "骆驼尸壳",
+      "link": "骆驼尸壳",
+      "zh": "骆驼尸壳"
+    },
+    {
+      "en": "Cat",
+      "raw": "猫",
+      "link": "猫",
+      "zh": "猫"
+    },
+    {
+      "en": "Cave Spider",
+      "raw": "洞穴蜘蛛",
+      "link": "洞穴蜘蛛",
+      "zh": "洞穴蜘蛛"
+    },
+    {
+      "en": "Cherry Boat",
+      "raw": "船|樱花木船",
+      "link": "船",
+      "zh": "樱花木船"
+    },
+    {
+      "en": "Cherry Boat with Chest",
+      "raw": "运输船|樱花木运输船",
+      "link": "运输船",
+      "zh": "樱花木运输船"
+    },
+    {
+      "en": "Chicken",
+      "raw": "鸡",
+      "link": "鸡",
+      "zh": "鸡"
+    },
+    {
+      "en": "Cod",
+      "raw": "鳕鱼",
+      "link": "鳕鱼",
+      "zh": "鳕鱼"
+    },
+    {
+      "en": "Copper Golem",
+      "raw": "铜傀儡",
+      "link": "铜傀儡",
+      "zh": "铜傀儡"
+    },
+    {
+      "en": "Cow",
+      "raw": "牛",
+      "link": "牛",
+      "zh": "牛"
+    },
+    {
+      "en": "Creaking",
+      "raw": "嘎枝",
+      "link": "嘎枝",
+      "zh": "嘎枝"
+    },
+    {
+      "en": "Creeper",
+      "raw": "苦力怕",
+      "link": "苦力怕",
+      "zh": "苦力怕"
+    },
+    {
+      "en": "Cushion",
+      "raw": "坐垫",
+      "link": "坐垫",
+      "zh": "坐垫"
+    },
+    {
+      "en": "Dark Oak Boat",
+      "raw": "船|深色橡木船",
+      "link": "船",
+      "zh": "深色橡木船"
+    },
+    {
+      "en": "Dark Oak Boat with Chest",
+      "raw": "运输船|深色橡木运输船",
+      "link": "运输船",
+      "zh": "深色橡木运输船"
+    },
+    {
+      "en": "Dolphin",
+      "raw": "海豚",
+      "link": "海豚",
+      "zh": "海豚"
+    },
+    {
+      "en": "Donkey",
+      "raw": "驴",
+      "link": "驴",
+      "zh": "驴"
+    },
+    {
+      "en": "Dragon Fireball",
+      "raw": "末影龙火球",
+      "link": "末影龙火球",
+      "zh": "末影龙火球"
+    },
+    {
+      "en": "Drowned",
+      "raw": "溺尸",
+      "link": "溺尸",
+      "zh": "溺尸"
+    },
+    {
+      "en": "Elder Guardian",
+      "raw": "远古守卫者",
+      "link": "远古守卫者",
+      "zh": "远古守卫者"
+    },
+    {
+      "en": "Enderman",
+      "raw": "末影人",
+      "link": "末影人",
+      "zh": "末影人"
+    },
+    {
+      "en": "Endermite",
+      "raw": "末影螨",
+      "link": "末影螨",
+      "zh": "末影螨"
+    },
+    {
+      "en": "Ender Dragon",
+      "raw": "末影龙",
+      "link": "末影龙",
+      "zh": "末影龙"
+    },
+    {
+      "en": "End Crystal",
+      "raw": "末地水晶",
+      "link": "末地水晶",
+      "zh": "末地水晶"
+    },
+    {
+      "en": "Evoker",
+      "raw": "唤魔者",
+      "link": "唤魔者",
+      "zh": "唤魔者"
+    },
+    {
+      "en": "Evoker Fangs",
+      "raw": "唤魔者尖牙",
+      "link": "唤魔者尖牙",
+      "zh": "唤魔者尖牙"
+    },
+    {
+      "en": "Experience Orb",
+      "raw": "经验球",
+      "link": "经验球",
+      "zh": "经验球"
+    },
+    {
+      "en": "Eye of Ender",
+      "raw": "末影之眼",
+      "link": "末影之眼",
+      "zh": "末影之眼"
+    },
+    {
+      "en": "Falling Block",
+      "raw": "下落的方块",
+      "link": "下落的方块",
+      "zh": "下落的方块"
+    },
+    {
+      "en": "Fireball",
+      "raw": "火球",
+      "link": "火球",
+      "zh": "火球"
+    },
+    {
+      "en": "Firework Rocket",
+      "raw": "烟花火箭",
+      "link": "烟花火箭",
+      "zh": "烟花火箭"
+    },
+    {
+      "en": "Fishing Bobber",
+      "raw": "钓鱼竿#用途|浮漂",
+      "link": "钓鱼竿#用途",
+      "zh": "浮漂"
+    },
+    {
+      "en": "Fox",
+      "raw": "狐狸",
+      "link": "狐狸",
+      "zh": "狐狸"
+    },
+    {
+      "en": "Frog",
+      "raw": "青蛙",
+      "link": "青蛙",
+      "zh": "青蛙"
+    },
+    {
+      "en": "Ghast",
+      "raw": "恶魂",
+      "link": "恶魂",
+      "zh": "恶魂"
+    },
+    {
+      "en": "Giant",
+      "raw": "巨人",
+      "link": "巨人",
+      "zh": "巨人"
+    },
+    {
+      "en": "Glow Item Frame",
+      "raw": "物品展示框|荧光物品展示框",
+      "link": "物品展示框",
+      "zh": "荧光物品展示框"
+    },
+    {
+      "en": "Glow Squid",
+      "raw": "发光鱿鱼",
+      "link": "发光鱿鱼",
+      "zh": "发光鱿鱼"
+    },
+    {
+      "en": "Goat",
+      "raw": "山羊",
+      "link": "山羊",
+      "zh": "山羊"
+    },
+    {
+      "en": "Guardian",
+      "raw": "守卫者",
+      "link": "守卫者",
+      "zh": "守卫者"
+    },
+    {
+      "en": "Happy Ghast",
+      "raw": "快乐恶魂",
+      "link": "快乐恶魂",
+      "zh": "快乐恶魂"
+    },
+    {
+      "en": "Hoglin",
+      "raw": "疣猪兽",
+      "link": "疣猪兽",
+      "zh": "疣猪兽"
+    },
+    {
+      "en": "Horse",
+      "raw": "马",
+      "link": "马",
+      "zh": "马"
+    },
+    {
+      "en": "Husk",
+      "raw": "尸壳",
+      "link": "尸壳",
+      "zh": "尸壳"
+    },
+    {
+      "en": "Illusioner",
+      "raw": "幻术师",
+      "link": "幻术师",
+      "zh": "幻术师"
+    },
+    {
+      "en": "Interaction",
+      "raw": "交互实体",
+      "link": "交互实体",
+      "zh": "交互实体"
+    },
+    {
+      "en": "Iron Golem",
+      "raw": "铁傀儡",
+      "link": "铁傀儡",
+      "zh": "铁傀儡"
+    },
+    {
+      "en": "Item",
+      "raw": "物品",
+      "link": "物品",
+      "zh": "物品"
+    },
+    {
+      "en": "Item Display",
+      "raw": "展示实体|物品展示实体",
+      "link": "展示实体",
+      "zh": "物品展示实体"
+    },
+    {
+      "en": "Item Frame",
+      "raw": "物品展示框",
+      "link": "物品展示框",
+      "zh": "物品展示框"
+    },
+    {
+      "en": "Jungle Boat",
+      "raw": "船|丛林木船",
+      "link": "船",
+      "zh": "丛林木船"
+    },
+    {
+      "en": "Jungle Boat with Chest",
+      "raw": "运输船|丛林木运输船",
+      "link": "运输船",
+      "zh": "丛林木运输船"
+    },
+    {
+      "en": "Leash Knot",
+      "raw": "拴绳结",
+      "link": "拴绳结",
+      "zh": "拴绳结"
+    },
+    {
+      "en": "Lightning Bolt",
+      "raw": "闪电束",
+      "link": "闪电束",
+      "zh": "闪电束"
+    },
+    {
+      "en": "Lingering Potion",
+      "raw": "滞留药水",
+      "link": "滞留药水",
+      "zh": "滞留药水"
+    },
+    {
+      "en": "Llama",
+      "raw": "羊驼",
+      "link": "羊驼",
+      "zh": "羊驼"
+    },
+    {
+      "en": "Llama Spit",
+      "raw": "羊驼唾沫",
+      "link": "羊驼唾沫",
+      "zh": "羊驼唾沫"
+    },
+    {
+      "en": "Magma Cube",
+      "raw": "岩浆怪",
+      "link": "岩浆怪",
+      "zh": "岩浆怪"
+    },
+    {
+      "en": "Mangrove Boat",
+      "raw": "船|红树木船",
+      "link": "船",
+      "zh": "红树木船"
+    },
+    {
+      "en": "Mangrove Boat with Chest",
+      "raw": "运输船|红树木运输船",
+      "link": "运输船",
+      "zh": "红树木运输船"
+    },
+    {
+      "en": "Mannequin",
+      "raw": "玩家模型",
+      "link": "玩家模型",
+      "zh": "玩家模型"
+    },
+    {
+      "en": "Marker",
+      "raw": "标记",
+      "link": "标记",
+      "zh": "标记"
+    },
+    {
+      "en": "Minecart",
+      "raw": "矿车",
+      "link": "矿车",
+      "zh": "矿车"
+    },
+    {
+      "en": "Minecart with Chest",
+      "raw": "运输矿车",
+      "link": "运输矿车",
+      "zh": "运输矿车"
+    },
+    {
+      "en": "Minecart with Command Block",
+      "raw": "命令方块矿车",
+      "link": "命令方块矿车",
+      "zh": "命令方块矿车"
+    },
+    {
+      "en": "Minecart with Furnace",
+      "raw": "动力矿车",
+      "link": "动力矿车",
+      "zh": "动力矿车"
+    },
+    {
+      "en": "Minecart with Hopper",
+      "raw": "漏斗矿车",
+      "link": "漏斗矿车",
+      "zh": "漏斗矿车"
+    },
+    {
+      "en": "Minecart with Monster Spawner",
+      "raw": "刷怪笼矿车",
+      "link": "刷怪笼矿车",
+      "zh": "刷怪笼矿车"
+    },
+    {
+      "en": "Minecart with TNT",
+      "raw": "TNT矿车",
+      "link": "TNT矿车",
+      "zh": "TNT矿车"
+    },
+    {
+      "en": "Mooshroom",
+      "raw": "哞菇",
+      "link": "哞菇",
+      "zh": "哞菇"
+    },
+    {
+      "en": "Mule",
+      "raw": "骡",
+      "link": "骡",
+      "zh": "骡"
+    },
+    {
+      "en": "Nautilus",
+      "raw": "鹦鹉螺",
+      "link": "鹦鹉螺",
+      "zh": "鹦鹉螺"
+    },
+    {
+      "en": "Oak Boat",
+      "raw": "船|橡木船",
+      "link": "船",
+      "zh": "橡木船"
+    },
+    {
+      "en": "Oak Boat with Chest",
+      "raw": "运输船|橡木运输船",
+      "link": "运输船",
+      "zh": "橡木运输船"
+    },
+    {
+      "en": "Ocelot",
+      "raw": "豹猫",
+      "link": "豹猫",
+      "zh": "豹猫"
+    },
+    {
+      "en": "Ominous Item Spawner",
+      "raw": "不祥之物生成器",
+      "link": "不祥之物生成器",
+      "zh": "不祥之物生成器"
+    },
+    {
+      "en": "Painting",
+      "raw": "画",
+      "link": "画",
+      "zh": "画"
+    },
+    {
+      "en": "Pale Oak Boat",
+      "raw": "船|苍白橡木船",
+      "link": "船",
+      "zh": "苍白橡木船"
+    },
+    {
+      "en": "Pale Oak Boat with Chest",
+      "raw": "运输船|苍白橡木运输船",
+      "link": "运输船",
+      "zh": "苍白橡木运输船"
+    },
+    {
+      "en": "Panda",
+      "raw": "熊猫",
+      "link": "熊猫",
+      "zh": "熊猫"
+    },
+    {
+      "en": "Parched",
+      "raw": "焦骸",
+      "link": "焦骸",
+      "zh": "焦骸"
+    },
+    {
+      "en": "Parrot",
+      "raw": "鹦鹉",
+      "link": "鹦鹉",
+      "zh": "鹦鹉"
+    },
+    {
+      "en": "Phantom",
+      "raw": "幻翼",
+      "link": "幻翼",
+      "zh": "幻翼"
+    },
+    {
+      "en": "Pig",
+      "raw": "猪",
+      "link": "猪",
+      "zh": "猪"
+    },
+    {
+      "en": "Piglin",
+      "raw": "猪灵",
+      "link": "猪灵",
+      "zh": "猪灵"
+    },
+    {
+      "en": "Piglin Brute",
+      "raw": "猪灵蛮兵",
+      "link": "猪灵蛮兵",
+      "zh": "猪灵蛮兵"
+    },
+    {
+      "en": "Pillager",
+      "raw": "掠夺者",
+      "link": "掠夺者",
+      "zh": "掠夺者"
+    },
+    {
+      "en": "Player",
+      "raw": "玩家",
+      "link": "玩家",
+      "zh": "玩家"
+    },
+    {
+      "en": "Polar Bear",
+      "raw": "北极熊",
+      "link": "北极熊",
+      "zh": "北极熊"
+    },
+    {
+      "en": "Primed TNT",
+      "raw": "TNT|被激活的TNT",
+      "link": "TNT",
+      "zh": "被激活的TNT"
+    },
+    {
+      "en": "Pufferfish",
+      "raw": "河豚",
+      "link": "河豚",
+      "zh": "河豚"
+    },
+    {
+      "en": "Rabbit",
+      "raw": "兔子",
+      "link": "兔子",
+      "zh": "兔子"
+    },
+    {
+      "en": "Ravager",
+      "raw": "劫掠兽",
+      "link": "劫掠兽",
+      "zh": "劫掠兽"
+    },
+    {
+      "en": "Salmon",
+      "raw": "鲑鱼",
+      "link": "鲑鱼",
+      "zh": "鲑鱼"
+    },
+    {
+      "en": "Sheep",
+      "raw": "绵羊",
+      "link": "绵羊",
+      "zh": "绵羊"
+    },
+    {
+      "en": "Shulker",
+      "raw": "潜影贝",
+      "link": "潜影贝",
+      "zh": "潜影贝"
+    },
+    {
+      "en": "Shulker Bullet",
+      "raw": "潜影弹",
+      "link": "潜影弹",
+      "zh": "潜影弹"
+    },
+    {
+      "en": "Silverfish",
+      "raw": "蠹虫",
+      "link": "蠹虫",
+      "zh": "蠹虫"
+    },
+    {
+      "en": "Skeleton",
+      "raw": "骷髅",
+      "link": "骷髅",
+      "zh": "骷髅"
+    },
+    {
+      "en": "Skeleton Horse",
+      "raw": "骷髅马",
+      "link": "骷髅马",
+      "zh": "骷髅马"
+    },
+    {
+      "en": "Slime",
+      "raw": "史莱姆",
+      "link": "史莱姆",
+      "zh": "史莱姆"
+    },
+    {
+      "en": "Small Fireball",
+      "raw": "小火球",
+      "link": "小火球",
+      "zh": "小火球"
+    },
+    {
+      "en": "Sniffer",
+      "raw": "嗅探兽",
+      "link": "嗅探兽",
+      "zh": "嗅探兽"
+    },
+    {
+      "en": "Snowball",
+      "raw": "雪球",
+      "link": "雪球",
+      "zh": "雪球"
+    },
+    {
+      "en": "Snow Golem",
+      "raw": "雪傀儡",
+      "link": "雪傀儡",
+      "zh": "雪傀儡"
+    },
+    {
+      "en": "Spectral Arrow",
+      "raw": "光灵箭",
+      "link": "光灵箭",
+      "zh": "光灵箭"
+    },
+    {
+      "en": "Spider",
+      "raw": "蜘蛛",
+      "link": "蜘蛛",
+      "zh": "蜘蛛"
+    },
+    {
+      "en": "Splash Potion",
+      "raw": "喷溅药水",
+      "link": "喷溅药水",
+      "zh": "喷溅药水"
+    },
+    {
+      "en": "Spruce Boat",
+      "raw": "船|云杉木船",
+      "link": "船",
+      "zh": "云杉木船"
+    },
+    {
+      "en": "Spruce Boat with Chest",
+      "raw": "运输船|云杉木运输船",
+      "link": "运输船",
+      "zh": "云杉木运输船"
+    },
+    {
+      "en": "Squid",
+      "raw": "鱿鱼",
+      "link": "鱿鱼",
+      "zh": "鱿鱼"
+    },
+    {
+      "en": "Stray",
+      "raw": "流浪者",
+      "link": "流浪者",
+      "zh": "流浪者"
+    },
+    {
+      "en": "Strider",
+      "raw": "炽足兽",
+      "link": "炽足兽",
+      "zh": "炽足兽"
+    },
+    {
+      "en": "Sulfur Cube",
+      "raw": "硫磺史萊姆",
+      "link": "硫磺史萊姆",
+      "zh": "硫磺史萊姆"
+    },
+    {
+      "en": "Tadpole",
+      "raw": "蝌蚪",
+      "link": "蝌蚪",
+      "zh": "蝌蚪"
+    },
+    {
+      "en": "Text Display",
+      "raw": "展示实体|文本展示实体",
+      "link": "展示实体",
+      "zh": "文本展示实体"
+    },
+    {
+      "en": "The Killer Bunny",
+      "raw": "兔子#杀手兔|杀手兔",
+      "link": "兔子#杀手兔",
+      "zh": "杀手兔"
+    },
+    {
+      "en": "Thrown Bottle o' Enchanting",
+      "raw": "附魔之瓶|掷出的附魔之瓶",
+      "link": "附魔之瓶",
+      "zh": "掷出的附魔之瓶"
+    },
+    {
+      "en": "Thrown Egg",
+      "raw": "鸡蛋|掷出的鸡蛋",
+      "link": "鸡蛋",
+      "zh": "掷出的鸡蛋"
+    },
+    {
+      "en": "Thrown Ender Pearl",
+      "raw": "末影珍珠|掷出的末影珍珠",
+      "link": "末影珍珠",
+      "zh": "掷出的末影珍珠"
+    },
+    {
+      "en": "Trader Llama",
+      "raw": "行商羊驼",
+      "link": "行商羊驼",
+      "zh": "行商羊驼"
+    },
+    {
+      "en": "Trident",
+      "raw": "三叉戟",
+      "link": "三叉戟",
+      "zh": "三叉戟"
+    },
+    {
+      "en": "Tropical Fish",
+      "raw": "热带鱼",
+      "link": "热带鱼",
+      "zh": "热带鱼"
+    },
+    {
+      "en": "Turtle",
+      "raw": "海龟",
+      "link": "海龟",
+      "zh": "海龟"
+    },
+    {
+      "en": "Vex",
+      "raw": "恼鬼",
+      "link": "恼鬼",
+      "zh": "恼鬼"
+    },
+    {
+      "en": "Villager",
+      "raw": "村民",
+      "link": "村民",
+      "zh": "村民"
+    },
+    {
+      "en": "Vindicator",
+      "raw": "卫道士",
+      "link": "卫道士",
+      "zh": "卫道士"
+    },
+    {
+      "en": "Wandering Trader",
+      "raw": "流浪商人",
+      "link": "流浪商人",
+      "zh": "流浪商人"
+    },
+    {
+      "en": "Warden",
+      "raw": "监守者",
+      "link": "监守者",
+      "zh": "监守者"
+    },
+    {
+      "en": "Wind Charge",
+      "raw": "风弹",
+      "link": "风弹",
+      "zh": "风弹"
+    },
+    {
+      "en": "Witch",
+      "raw": "女巫",
+      "link": "女巫",
+      "zh": "女巫"
+    },
+    {
+      "en": "Wither",
+      "raw": "凋灵",
+      "link": "凋灵",
+      "zh": "凋灵"
+    },
+    {
+      "en": "Wither Skeleton",
+      "raw": "凋灵骷髅",
+      "link": "凋灵骷髅",
+      "zh": "凋灵骷髅"
+    },
+    {
+      "en": "Wither Skull",
+      "raw": "凋灵之首",
+      "link": "凋灵之首",
+      "zh": "凋灵之首"
+    },
+    {
+      "en": "Wolf",
+      "raw": "狼",
+      "link": "狼",
+      "zh": "狼"
+    },
+    {
+      "en": "Zoglin",
+      "raw": "僵尸疣猪兽",
+      "link": "僵尸疣猪兽",
+      "zh": "僵尸疣猪兽"
+    },
+    {
+      "en": "Zombie",
+      "raw": "僵尸",
+      "link": "僵尸",
+      "zh": "僵尸"
+    },
+    {
+      "en": "Zombie Horse",
+      "raw": "僵尸马",
+      "link": "僵尸马",
+      "zh": "僵尸马"
+    },
+    {
+      "en": "Zombie Nautilus",
+      "raw": "僵尸鹦鹉螺",
+      "link": "僵尸鹦鹉螺",
+      "zh": "僵尸鹦鹉螺"
+    },
+    {
+      "en": "Zombie Villager",
+      "raw": "僵尸村民",
+      "link": "僵尸村民",
+      "zh": "僵尸村民"
+    },
+    {
+      "en": "Zombified Piglin",
+      "raw": "僵尸猪灵",
+      "link": "僵尸猪灵",
+      "zh": "僵尸猪灵"
+    },
+    {
+      "en": "Killer Bunny",
+      "raw": "兔子#杀手兔|杀手兔",
+      "link": "兔子#杀手兔",
+      "zh": "杀手兔"
+    },
+    {
+      "en": "Sea Turtle",
+      "raw": "海龟",
+      "link": "海龟",
+      "zh": "海龟"
+    },
+    {
+      "en": "Zombie Pigman",
+      "raw": "僵尸猪灵|僵尸猪人",
+      "link": "僵尸猪灵",
+      "zh": "僵尸猪人"
+    },
+    {
+      "en": "Chicken Jockey",
+      "raw": "鸡骑士",
+      "link": "鸡骑士",
+      "zh": "鸡骑士"
+    },
+    {
+      "en": "Skeleton Horseman",
+      "raw": "骷髅马#生成|骷髅骑手",
+      "link": "骷髅马#生成",
+      "zh": "骷髅骑手"
+    },
+    {
+      "en": "Spider Jockey",
+      "raw": "蜘蛛骑士",
+      "link": "蜘蛛骑士",
+      "zh": "蜘蛛骑士"
+    },
+    {
+      "en": "Charged Creeper",
+      "raw": "苦力怕#闪电苦力怕|闪电苦力怕",
+      "link": "苦力怕#闪电苦力怕",
+      "zh": "闪电苦力怕"
+    },
+    {
+      "en": "Ghastling",
+      "raw": "快乐恶魂|小恶魂",
+      "link": "快乐恶魂",
+      "zh": "小恶魂"
+    },
+    {
+      "en": "Tamed Wolf",
+      "raw": "狼#行为|驯服的狼",
+      "link": "狼#行为",
+      "zh": "驯服的狼"
+    },
+    {
+      "en": "Spider Day",
+      "raw": "蜘蛛",
+      "link": "蜘蛛",
+      "zh": "蜘蛛"
+    },
+    {
+      "en": "Black Cat",
+      "raw": "猫|黑猫",
+      "link": "猫",
+      "zh": "黑猫"
+    },
+    {
+      "en": "British Cat",
+      "raw": "猫|英国短毛猫",
+      "link": "猫",
+      "zh": "英国短毛猫"
+    },
+    {
+      "en": "Calico Cat",
+      "raw": "猫|花猫",
+      "link": "猫",
+      "zh": "花猫"
+    },
+    {
+      "en": "Jellie Cat",
+      "raw": "猫|Jellie猫",
+      "link": "猫",
+      "zh": "Jellie猫"
+    },
+    {
+      "en": "Persian Cat",
+      "raw": "猫|波斯猫",
+      "link": "猫",
+      "zh": "波斯猫"
+    },
+    {
+      "en": "Ragdoll Cat",
+      "raw": "猫|布偶猫",
+      "link": "猫",
+      "zh": "布偶猫"
+    },
+    {
+      "en": "Red Cat",
+      "raw": "猫|红虎斑猫",
+      "link": "猫",
+      "zh": "红虎斑猫"
+    },
+    {
+      "en": "Siamese Cat",
+      "raw": "猫|暹罗猫",
+      "link": "猫",
+      "zh": "暹罗猫"
+    },
+    {
+      "en": "Tabby Cat",
+      "raw": "猫|虎斑猫",
+      "link": "猫",
+      "zh": "虎斑猫"
+    },
+    {
+      "en": "Tuxedo Cat",
+      "raw": "猫|西服猫",
+      "link": "猫",
+      "zh": "西服猫"
+    },
+    {
+      "en": "White Cat",
+      "raw": "猫|白猫",
+      "link": "猫",
+      "zh": "白猫"
+    },
+    {
+      "en": "Cold Chicken",
+      "raw": "鸡|寒带鸡",
+      "link": "鸡",
+      "zh": "寒带鸡"
+    },
+    {
+      "en": "Temperate Chicken",
+      "raw": "鸡|温带鸡",
+      "link": "鸡",
+      "zh": "温带鸡"
+    },
+    {
+      "en": "Warm Chicken",
+      "raw": "鸡|热带鸡",
+      "link": "鸡",
+      "zh": "热带鸡"
+    },
+    {
+      "en": "Cold Cow",
+      "raw": "牛|寒带牛",
+      "link": "牛",
+      "zh": "寒带牛"
+    },
+    {
+      "en": "Temperate Cow",
+      "raw": "牛|温带牛",
+      "link": "牛",
+      "zh": "温带牛"
+    },
+    {
+      "en": "Warm Cow",
+      "raw": "牛|热带牛",
+      "link": "牛",
+      "zh": "热带牛"
+    },
+    {
+      "en": "Brown Mooshroom",
+      "raw": "哞菇|棕色哞菇",
+      "link": "哞菇",
+      "zh": "棕色哞菇"
+    },
+    {
+      "en": "Red Mooshroom",
+      "raw": "哞菇|红色哞菇",
+      "link": "哞菇",
+      "zh": "红色哞菇"
+    },
+    {
+      "en": "Cold Pig",
+      "raw": "猪|寒带猪",
+      "link": "猪",
+      "zh": "寒带猪"
+    },
+    {
+      "en": "Temperate Pig",
+      "raw": "猪|温带猪",
+      "link": "猪",
+      "zh": "温带猪"
+    },
+    {
+      "en": "Warm Pig",
+      "raw": "猪|热带猪",
+      "link": "猪",
+      "zh": "热带猪"
+    },
+    {
+      "en": "Ashen Wolf",
+      "raw": "狼|灰狼",
+      "link": "狼",
+      "zh": "灰狼"
+    },
+    {
+      "en": "Black Wolf",
+      "raw": "狼|黑狼",
+      "link": "狼",
+      "zh": "黑狼"
+    },
+    {
+      "en": "Chestnut Wolf",
+      "raw": "狼|栗色狼",
+      "link": "狼",
+      "zh": "栗色狼"
+    },
+    {
+      "en": "Pale Wolf",
+      "raw": "狼|苍狼",
+      "link": "狼",
+      "zh": "苍狼"
+    },
+    {
+      "en": "Rusty Wolf",
+      "raw": "狼|赭红狼",
+      "link": "狼",
+      "zh": "赭红狼"
+    },
+    {
+      "en": "Snowy Wolf",
+      "raw": "狼|雪狼",
+      "link": "狼",
+      "zh": "雪狼"
+    },
+    {
+      "en": "Spotted Wolf",
+      "raw": "狼|斑点狼",
+      "link": "狼",
+      "zh": "斑点狼"
+    },
+    {
+      "en": "Striped Wolf",
+      "raw": "狼|条纹狼",
+      "link": "狼",
+      "zh": "条纹狼"
+    },
+    {
+      "en": "Woods Wolf",
+      "raw": "狼|森林狼",
+      "link": "狼",
+      "zh": "森林狼"
+    },
+    {
+      "en": "Illager",
+      "raw": "灾厄村民",
+      "link": "灾厄村民",
+      "zh": "灾厄村民"
+    },
+    {
+      "en": "Illager Captain",
+      "raw": "袭击队长|灾厄队长",
+      "link": "袭击队长",
+      "zh": "灾厄队长"
+    },
+    {
+      "en": "Raid Captain",
+      "raw": "袭击队长",
+      "link": "袭击队长",
+      "zh": "袭击队长"
+    },
+    {
+      "en": "Ender Crystal",
+      "raw": "末地水晶",
+      "link": "末地水晶",
+      "zh": "末地水晶"
+    },
+    {
+      "en": "Ender Dragon Part",
+      "raw": "末影龙#末影龙部件|末影龙部件",
+      "link": "末影龙#末影龙部件",
+      "zh": "末影龙部件"
+    },
+    {
+      "en": "End Dragon Part",
+      "raw": "末影龙#末影龙部件|末影龙部件",
+      "link": "末影龙#末影龙部件",
+      "zh": "末影龙部件"
+    },
+    {
+      "en": "Shulker Projectile",
+      "raw": "潜影弹",
+      "link": "潜影弹",
+      "zh": "潜影弹"
+    },
+    {
+      "en": "Human",
+      "raw": "人类",
+      "link": "人类",
+      "zh": "人类"
+    },
+    {
+      "en": "Pigman",
+      "raw": "Java版已移除特性#猪人|猪人",
+      "link": "Java版已移除特性#猪人",
+      "zh": "猪人"
+    },
+    {
+      "en": "Armorer",
+      "raw": "盔甲匠",
+      "link": "盔甲匠",
+      "zh": "盔甲匠"
+    },
+    {
+      "en": "Butcher",
+      "raw": "屠夫",
+      "link": "屠夫",
+      "zh": "屠夫"
+    },
+    {
+      "en": "Cartographer",
+      "raw": "制图师",
+      "link": "制图师",
+      "zh": "制图师"
+    },
+    {
+      "en": "Cleric",
+      "raw": "牧师",
+      "link": "牧师",
+      "zh": "牧师"
+    },
+    {
+      "en": "Farmer",
+      "raw": "农民",
+      "link": "农民",
+      "zh": "农民"
+    },
+    {
+      "en": "Fisherman",
+      "raw": "渔夫",
+      "link": "渔夫",
+      "zh": "渔夫"
+    },
+    {
+      "en": "Fletcher",
+      "raw": "制箭师",
+      "link": "制箭师",
+      "zh": "制箭师"
+    },
+    {
+      "en": "Leatherworker",
+      "raw": "皮匠",
+      "link": "皮匠",
+      "zh": "皮匠"
+    },
+    {
+      "en": "Librarian",
+      "raw": "图书管理员",
+      "link": "图书管理员",
+      "zh": "图书管理员"
+    },
+    {
+      "en": "Mason",
+      "raw": "石匠",
+      "link": "石匠",
+      "zh": "石匠"
+    },
+    {
+      "en": "Nitwit",
+      "raw": "村民#傻子|傻子",
+      "link": "村民#傻子",
+      "zh": "傻子"
+    },
+    {
+      "en": "Shepherd",
+      "raw": "牧羊人",
+      "link": "牧羊人",
+      "zh": "牧羊人"
+    },
+    {
+      "en": "Toolsmith",
+      "raw": "工具匠",
+      "link": "工具匠",
+      "zh": "工具匠"
+    },
+    {
+      "en": "Weaponsmith",
+      "raw": "武器匠",
+      "link": "武器匠",
+      "zh": "武器匠"
+    }
+  ]
+}

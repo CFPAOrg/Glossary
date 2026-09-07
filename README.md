@@ -1,19 +1,20 @@
 # 我的世界中英术语库
 
-## 文件说明
+怎么用见 `Docs/TERMS_SPEC.md`。
 
-`标准译名列表`的数据收集自[中文Minecraft Wiki](https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki)，原内容在CC BY-NC-SA 3.0许可协议下提供，Vanilla 文件夹下的内容是 Wiki 内容的衍生作品。
+## 资产
 
-`拓展`是在原版标准译名列表的基础上进行术语提取的结果。
+| 路径 | 内容 |
+|---|---|
+| `Vanilla/terms/terms-v1.tsv` | 原版术语表 |
+| `Vanilla/terms/special/` | 旗帜、音效、纹样、陶片、热带鱼。按领域加载，不要并进主表 |
+| `Vanilla/terms/qa-rules.tsv` | 结构与格式（深层、墙上的、铜的「的」） |
+| `Vanilla/terms/terms-version.tsv` | 分版本差异 |
+| `Vanilla/latest.tsv` | 现行语言文件（en / zh_cn / zh_tw / zh_hk / ja） |
+| `Vanilla/1.12.2.tsv` 等 | 旧版本语言快照 |
+| `Vanilla/diffs/term-key-filters.json` | 名称域 key 过滤 |
+| `Mod/模组简体中文翻译指南.tsv` | 模组译名 |
+| `Mod/模组材料简体中文翻译指南.tsv` | 模组材料 |
+| `Archives/` | 历史摘录 |
 
-`原版语言文件`从 Minecraft 中提取，去除了 3 行语言代码相关的行，剔除了 2 行中英不对应的行。其内容肯定比标准译名列表详尽，但未经术语清洗，有无效项目。
-
-`模组简体中文翻译指南`从各大模组的官方中文和 [CFPAOrg](https://github.com/CFPAOrg) 下的 [Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) 仓库中手动提取。内容与`原版语言文件`等有重合但更为详尽，可能会存在术语重复。
-
-`模组材料简体中文翻译指南`是从从各大模组的官方中文和 [CFPAOrg](https://github.com/CFPAOrg) 下的 [Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) 仓库中手动提取。主要包含常见的模组材料和元素周期表的所有元素。
-
-## 计划
-
-- [x] 组建我的世界模组术语库
-- [x] 组件我的世界模组材料术语库
-- [ ] 支持繁体中文
+`latest.tsv` 和版本快照从游戏语言文件提取，是对照用的记忆库，不是术语。模组两表来自模组官方中文和 [Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package)，可能和主表重复。

@@ -1,0 +1,3432 @@
+{
+  "BiomeSprite": [
+    {
+      "en": "Legacy Frozen Ocean",
+      "raw": "冻洋（旧版）",
+      "link": "冻洋（旧版）",
+      "zh": "冻洋（旧版）"
+    }
+  ],
+  "BlockSprite": [
+    {
+      "en": "chiseled purpur",
+      "raw": "基岩版未使用特性#紫珀块|雕纹紫珀块",
+      "link": "基岩版未使用特性#紫珀块",
+      "zh": "雕纹紫珀块"
+    },
+    {
+      "en": "double plant",
+      "raw": "花|大型花",
+      "link": "花",
+      "zh": "大型花"
+    },
+    {
+      "en": "red flower",
+      "raw": "花|小型花",
+      "link": "花",
+      "zh": "小型花"
+    },
+    {
+      "en": "skull",
+      "raw": "生物头颅",
+      "link": "生物头颅",
+      "zh": "生物头颅"
+    },
+    {
+      "en": "smooth purpur",
+      "raw": "基岩版未使用特性#紫珀块|平滑紫珀块",
+      "link": "基岩版未使用特性#紫珀块",
+      "zh": "平滑紫珀块"
+    },
+    {
+      "en": "smooth stone bricks",
+      "raw": "平滑石砖",
+      "link": "平滑石砖",
+      "zh": "平滑石砖"
+    },
+    {
+      "en": "yellow flower",
+      "raw": "蒲公英",
+      "link": "蒲公英",
+      "zh": "蒲公英"
+    },
+    {
+      "en": "acacia wood stairs",
+      "raw": "木楼梯|金合欢木楼梯",
+      "link": "木楼梯",
+      "zh": "金合欢木楼梯"
+    },
+    {
+      "en": "amethyst block",
+      "raw": "紫水晶块",
+      "link": "紫水晶块",
+      "zh": "紫水晶块"
+    },
+    {
+      "en": "birch wood stairs",
+      "raw": "木楼梯|白桦木楼梯",
+      "link": "木楼梯",
+      "zh": "白桦木楼梯"
+    },
+    {
+      "en": "brick block",
+      "raw": "砖块",
+      "link": "砖块",
+      "zh": "砖块"
+    },
+    {
+      "en": "clay block",
+      "raw": "黏土块",
+      "link": "黏土块",
+      "zh": "黏土块"
+    },
+    {
+      "en": "crops",
+      "raw": "小麦种子|小麦",
+      "link": "小麦种子",
+      "zh": "小麦"
+    },
+    {
+      "en": "dark oak wood stairs",
+      "raw": "木楼梯|深色橡木楼梯",
+      "link": "木楼梯",
+      "zh": "深色橡木楼梯"
+    },
+    {
+      "en": "dead coral fan",
+      "raw": "失活的珊瑚扇",
+      "link": "失活的珊瑚扇",
+      "zh": "失活的珊瑚扇"
+    },
+    {
+      "en": "flowered azalea leaves",
+      "raw": "树叶|盛开的杜鹃树叶",
+      "link": "树叶",
+      "zh": "盛开的杜鹃树叶"
+    },
+    {
+      "en": "jungle wood stairs",
+      "raw": "木楼梯|丛林木楼梯",
+      "link": "木楼梯",
+      "zh": "丛林木楼梯"
+    },
+    {
+      "en": "light block",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "nether brick block",
+      "raw": "下界砖块",
+      "link": "下界砖块",
+      "zh": "下界砖块"
+    },
+    {
+      "en": "oak wood stairs",
+      "raw": "木楼梯|橡木楼梯",
+      "link": "木楼梯",
+      "zh": "橡木楼梯"
+    },
+    {
+      "en": "piston arm collision",
+      "raw": "活塞#活塞头|活塞头",
+      "link": "活塞#活塞头",
+      "zh": "活塞头"
+    },
+    {
+      "en": "sea turtle egg",
+      "raw": "海龟蛋",
+      "link": "海龟蛋",
+      "zh": "海龟蛋"
+    },
+    {
+      "en": "spruce wood stairs",
+      "raw": "木楼梯|云杉木楼梯",
+      "link": "木楼梯",
+      "zh": "云杉木楼梯"
+    },
+    {
+      "en": "sticky piston arm collision",
+      "raw": "活塞#活塞头|黏性活塞头",
+      "link": "活塞#活塞头",
+      "zh": "黏性活塞头"
+    },
+    {
+      "en": "top snow",
+      "raw": "雪|雪层",
+      "link": "雪",
+      "zh": "雪层"
+    },
+    {
+      "en": "light block 0",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 1",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 10",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 11",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 12",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 13",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 14",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 15",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 2",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 3",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 4",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 5",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 6",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 7",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 8",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "light block 9",
+      "raw": "光源方块",
+      "link": "光源方块",
+      "zh": "光源方块"
+    },
+    {
+      "en": "client request placeholder block",
+      "raw": "客户端请求占位符方块",
+      "link": "客户端请求占位符方块",
+      "zh": "客户端请求占位符方块"
+    },
+    {
+      "en": "info update",
+      "raw": "数据更新方块",
+      "link": "数据更新方块",
+      "zh": "数据更新方块"
+    },
+    {
+      "en": "info update 2",
+      "raw": "数据更新方块",
+      "link": "数据更新方块",
+      "zh": "数据更新方块"
+    },
+    {
+      "en": "unknown",
+      "raw": "未知方块",
+      "link": "未知方块",
+      "zh": "未知方块"
+    },
+    {
+      "en": "update game block",
+      "raw": "数据更新方块",
+      "link": "数据更新方块",
+      "zh": "数据更新方块"
+    },
+    {
+      "en": "cave vines body with berries",
+      "raw": "发光浆果|洞穴藤蔓",
+      "link": "发光浆果",
+      "zh": "洞穴藤蔓"
+    },
+    {
+      "en": "cave vines head with berries",
+      "raw": "发光浆果|洞穴藤蔓",
+      "link": "发光浆果",
+      "zh": "洞穴藤蔓"
+    },
+    {
+      "en": "flowing lava",
+      "raw": "熔岩|流动熔岩",
+      "link": "熔岩",
+      "zh": "流动熔岩"
+    },
+    {
+      "en": "flowing water",
+      "raw": "水|流动水",
+      "link": "水",
+      "zh": "流动水"
+    },
+    {
+      "en": "stationary lava",
+      "raw": "熔岩|静态熔岩",
+      "link": "熔岩",
+      "zh": "静态熔岩"
+    },
+    {
+      "en": "stationary water",
+      "raw": "水|静态水",
+      "link": "水",
+      "zh": "静态水"
+    },
+    {
+      "en": "acacia double slab",
+      "raw": "木台阶|金合欢木双层台阶",
+      "link": "木台阶",
+      "zh": "金合欢木双层台阶"
+    },
+    {
+      "en": "andesite double slab",
+      "raw": "安山岩台阶|安山岩双层台阶",
+      "link": "安山岩台阶",
+      "zh": "安山岩双层台阶"
+    },
+    {
+      "en": "bamboo double slab",
+      "raw": "木台阶|竹双层台阶",
+      "link": "木台阶",
+      "zh": "竹双层台阶"
+    },
+    {
+      "en": "bamboo mosaic double slab",
+      "raw": "竹马赛克台阶|竹马赛克双层台阶",
+      "link": "竹马赛克台阶",
+      "zh": "竹马赛克双层台阶"
+    },
+    {
+      "en": "birch double slab",
+      "raw": "木台阶|白桦木双层台阶",
+      "link": "木台阶",
+      "zh": "白桦木双层台阶"
+    },
+    {
+      "en": "black concrete double slab",
+      "raw": "混凝土半磚|黑色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "黑色混凝土双层台阶"
+    },
+    {
+      "en": "black wool double slab",
+      "raw": "羊毛台阶|黑色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "黑色羊毛双层台阶"
+    },
+    {
+      "en": "blackstone double slab",
+      "raw": "黑石台阶|黑石双层台阶",
+      "link": "黑石台阶",
+      "zh": "黑石双层台阶"
+    },
+    {
+      "en": "blue concrete double slab",
+      "raw": "混凝土半磚|蓝色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "蓝色混凝土双层台阶"
+    },
+    {
+      "en": "blue wool double slab",
+      "raw": "羊毛台阶|蓝色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "蓝色羊毛双层台阶"
+    },
+    {
+      "en": "brick double slab",
+      "raw": "红砖台阶|红砖双层台阶",
+      "link": "红砖台阶",
+      "zh": "红砖双层台阶"
+    },
+    {
+      "en": "brown concrete double slab",
+      "raw": "混凝土半磚|棕色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "棕色混凝土双层台阶"
+    },
+    {
+      "en": "brown wool double slab",
+      "raw": "羊毛台阶|棕色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "棕色羊毛双层台阶"
+    },
+    {
+      "en": "cherry double slab",
+      "raw": "木台阶|樱花木双层台阶",
+      "link": "木台阶",
+      "zh": "樱花木双层台阶"
+    },
+    {
+      "en": "cinnabar brick double slab",
+      "raw": "朱砂砖台阶|朱砂砖双层台阶",
+      "link": "朱砂砖台阶",
+      "zh": "朱砂砖双层台阶"
+    },
+    {
+      "en": "cinnabar double slab",
+      "raw": "朱砂台阶|朱砂双层台阶",
+      "link": "朱砂台阶",
+      "zh": "朱砂双层台阶"
+    },
+    {
+      "en": "cobbled deepslate double slab",
+      "raw": "深板岩圆石台阶|深板岩圆石双层台阶",
+      "link": "深板岩圆石台阶",
+      "zh": "深板岩圆石双层台阶"
+    },
+    {
+      "en": "cobblestone double slab",
+      "raw": "圆石台阶|圆石双层台阶",
+      "link": "圆石台阶",
+      "zh": "圆石双层台阶"
+    },
+    {
+      "en": "crimson double slab",
+      "raw": "木台阶|绯红木双层台阶",
+      "link": "木台阶",
+      "zh": "绯红木双层台阶"
+    },
+    {
+      "en": "cut red sandstone double slab",
+      "raw": "切制红砂岩台阶|切制红砂岩双层台阶",
+      "link": "切制红砂岩台阶",
+      "zh": "切制红砂岩双层台阶"
+    },
+    {
+      "en": "cut sandstone double slab",
+      "raw": "砂岩台阶|切制砂岩双层台阶",
+      "link": "砂岩台阶",
+      "zh": "切制砂岩双层台阶"
+    },
+    {
+      "en": "cyan concrete double slab",
+      "raw": "混凝土半磚|青色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "青色混凝土双层台阶"
+    },
+    {
+      "en": "cyan wool double slab",
+      "raw": "羊毛台阶|青色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "青色羊毛双层台阶"
+    },
+    {
+      "en": "dark oak double slab",
+      "raw": "木台阶|深色橡木双层台阶",
+      "link": "木台阶",
+      "zh": "深色橡木双层台阶"
+    },
+    {
+      "en": "dark prismarine double slab",
+      "raw": "海晶石台阶|暗海晶石双层台阶",
+      "link": "海晶石台阶",
+      "zh": "暗海晶石双层台阶"
+    },
+    {
+      "en": "deepslate brick double slab",
+      "raw": "深板岩砖台阶|深板岩砖双层台阶",
+      "link": "深板岩砖台阶",
+      "zh": "深板岩砖双层台阶"
+    },
+    {
+      "en": "deepslate tile double slab",
+      "raw": "深板岩瓦台阶|深板岩瓦双层台阶",
+      "link": "深板岩瓦台阶",
+      "zh": "深板岩瓦双层台阶"
+    },
+    {
+      "en": "diorite double slab",
+      "raw": "闪长岩台阶|闪长岩双层台阶",
+      "link": "闪长岩台阶",
+      "zh": "闪长岩双层台阶"
+    },
+    {
+      "en": "double cut copper slab",
+      "raw": "切制铜台阶|切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "切制铜双层台阶"
+    },
+    {
+      "en": "end stone brick double slab",
+      "raw": "末地石砖台阶|末地石砖双层台阶",
+      "link": "末地石砖台阶",
+      "zh": "末地石砖双层台阶"
+    },
+    {
+      "en": "exposed double cut copper slab",
+      "raw": "切制铜台阶|斑驳的切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "斑驳的切制铜双层台阶"
+    },
+    {
+      "en": "granite double slab",
+      "raw": "花岗岩台阶|花岗岩双层台阶",
+      "link": "花岗岩台阶",
+      "zh": "花岗岩双层台阶"
+    },
+    {
+      "en": "gray concrete double slab",
+      "raw": "混凝土半磚|灰色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "灰色混凝土双层台阶"
+    },
+    {
+      "en": "gray wool double slab",
+      "raw": "羊毛台阶|灰色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "灰色羊毛双层台阶"
+    },
+    {
+      "en": "green concrete double slab",
+      "raw": "混凝土半磚|绿色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "绿色混凝土双层台阶"
+    },
+    {
+      "en": "green wool double slab",
+      "raw": "羊毛台阶|绿色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "绿色羊毛双层台阶"
+    },
+    {
+      "en": "jungle double slab",
+      "raw": "木台阶|丛林木双层台阶",
+      "link": "木台阶",
+      "zh": "丛林木双层台阶"
+    },
+    {
+      "en": "light blue concrete double slab",
+      "raw": "混凝土半磚|淡蓝色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "淡蓝色混凝土双层台阶"
+    },
+    {
+      "en": "light blue wool double slab",
+      "raw": "羊毛台阶|淡蓝色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "淡蓝色羊毛双层台阶"
+    },
+    {
+      "en": "light gray concrete double slab",
+      "raw": "混凝土半磚|淡灰色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "淡灰色混凝土双层台阶"
+    },
+    {
+      "en": "light gray wool double slab",
+      "raw": "羊毛台阶|淡灰色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "淡灰色羊毛双层台阶"
+    },
+    {
+      "en": "lime concrete double slab",
+      "raw": "混凝土半磚|黄绿色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "黄绿色混凝土双层台阶"
+    },
+    {
+      "en": "lime wool double slab",
+      "raw": "羊毛台阶|黄绿色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "黄绿色羊毛双层台阶"
+    },
+    {
+      "en": "magenta concrete double slab",
+      "raw": "混凝土半磚|品红色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "品红色混凝土双层台阶"
+    },
+    {
+      "en": "magenta wool double slab",
+      "raw": "羊毛台阶|品红色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "品红色羊毛双层台阶"
+    },
+    {
+      "en": "mangrove double slab",
+      "raw": "木台阶|红树木双层台阶",
+      "link": "木台阶",
+      "zh": "红树木双层台阶"
+    },
+    {
+      "en": "mossy cobblestone double slab",
+      "raw": "苔石台阶|苔石双层台阶",
+      "link": "苔石台阶",
+      "zh": "苔石双层台阶"
+    },
+    {
+      "en": "mossy stone brick double slab",
+      "raw": "苔石砖台阶|苔石砖双层台阶",
+      "link": "苔石砖台阶",
+      "zh": "苔石砖双层台阶"
+    },
+    {
+      "en": "mud brick double slab",
+      "raw": "泥砖台阶|泥砖双层台阶",
+      "link": "泥砖台阶",
+      "zh": "泥砖双层台阶"
+    },
+    {
+      "en": "nether brick double slab",
+      "raw": "下界砖台阶|下界砖双层台阶",
+      "link": "下界砖台阶",
+      "zh": "下界砖双层台阶"
+    },
+    {
+      "en": "oak double slab",
+      "raw": "木台阶|橡木双层台阶",
+      "link": "木台阶",
+      "zh": "橡木双层台阶"
+    },
+    {
+      "en": "orange concrete double slab",
+      "raw": "混凝土半磚|橙色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "橙色混凝土双层台阶"
+    },
+    {
+      "en": "orange wool double slab",
+      "raw": "羊毛台阶|橙色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "橙色羊毛双层台阶"
+    },
+    {
+      "en": "oxidized double cut copper slab",
+      "raw": "切制铜台阶|氧化的切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "氧化的切制铜双层台阶"
+    },
+    {
+      "en": "pale oak double slab",
+      "raw": "苍白橡木台阶|苍白橡木双层台阶",
+      "link": "苍白橡木台阶",
+      "zh": "苍白橡木双层台阶"
+    },
+    {
+      "en": "petrified oak double slab",
+      "raw": "石化橡木台阶|石化橡木双层台阶",
+      "link": "石化橡木台阶",
+      "zh": "石化橡木双层台阶"
+    },
+    {
+      "en": "pink concrete double slab",
+      "raw": "混凝土半磚|粉红色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "粉红色混凝土双层台阶"
+    },
+    {
+      "en": "pink wool double slab",
+      "raw": "羊毛台阶|粉红色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "粉红色羊毛双层台阶"
+    },
+    {
+      "en": "polished andesite double slab",
+      "raw": "磨制安山岩台阶|磨制安山岩双层台阶",
+      "link": "磨制安山岩台阶",
+      "zh": "磨制安山岩双层台阶"
+    },
+    {
+      "en": "polished blackstone brick double slab",
+      "raw": "磨制黑石砖台阶|磨制黑石砖双层台阶",
+      "link": "磨制黑石砖台阶",
+      "zh": "磨制黑石砖双层台阶"
+    },
+    {
+      "en": "polished blackstone double slab",
+      "raw": "磨制黑石台阶|磨制黑石双层台阶",
+      "link": "磨制黑石台阶",
+      "zh": "磨制黑石双层台阶"
+    },
+    {
+      "en": "polished cinnabar double slab",
+      "raw": "磨制朱砂台阶|磨制朱砂双层台阶",
+      "link": "磨制朱砂台阶",
+      "zh": "磨制朱砂双层台阶"
+    },
+    {
+      "en": "polished deepslate double slab",
+      "raw": "磨制深板岩台阶|磨制深板岩双层台阶",
+      "link": "磨制深板岩台阶",
+      "zh": "磨制深板岩双层台阶"
+    },
+    {
+      "en": "polished diorite double slab",
+      "raw": "磨制闪长岩台阶|磨制闪长岩双层台阶",
+      "link": "磨制闪长岩台阶",
+      "zh": "磨制闪长岩双层台阶"
+    },
+    {
+      "en": "polished granite double slab",
+      "raw": "磨制花岗岩台阶|磨制花岗岩双层台阶",
+      "link": "磨制花岗岩台阶",
+      "zh": "磨制花岗岩双层台阶"
+    },
+    {
+      "en": "polished sulfur double slab",
+      "raw": "磨制硫黄台阶|磨制硫黄双层台阶",
+      "link": "磨制硫黄台阶",
+      "zh": "磨制硫黄双层台阶"
+    },
+    {
+      "en": "polished tuff double slab",
+      "raw": "磨制凝灰岩台阶|磨制凝灰岩双层台阶",
+      "link": "磨制凝灰岩台阶",
+      "zh": "磨制凝灰岩双层台阶"
+    },
+    {
+      "en": "poplar double slab",
+      "raw": "木台阶|杨木双层台阶",
+      "link": "木台阶",
+      "zh": "杨木双层台阶"
+    },
+    {
+      "en": "prismarine brick double slab",
+      "raw": "海晶石砖台阶|海晶石砖双层台阶",
+      "link": "海晶石砖台阶",
+      "zh": "海晶石砖双层台阶"
+    },
+    {
+      "en": "prismarine double slab",
+      "raw": "海晶石台阶|海晶石双层台阶",
+      "link": "海晶石台阶",
+      "zh": "海晶石双层台阶"
+    },
+    {
+      "en": "purple concrete double slab",
+      "raw": "混凝土半磚|紫色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "紫色混凝土双层台阶"
+    },
+    {
+      "en": "purple wool double slab",
+      "raw": "羊毛台阶|紫色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "紫色羊毛双层台阶"
+    },
+    {
+      "en": "purpur double slab",
+      "raw": "紫珀台阶|紫珀双层台阶",
+      "link": "紫珀台阶",
+      "zh": "紫珀双层台阶"
+    },
+    {
+      "en": "quartz double slab",
+      "raw": "石英台阶|石英双层台阶",
+      "link": "石英台阶",
+      "zh": "石英双层台阶"
+    },
+    {
+      "en": "red nether brick double slab",
+      "raw": "红色下界砖台阶|红色下界砖双层台阶",
+      "link": "红色下界砖台阶",
+      "zh": "红色下界砖双层台阶"
+    },
+    {
+      "en": "red sandstone double slab",
+      "raw": "红砂岩台阶|红砂岩双层台阶",
+      "link": "红砂岩台阶",
+      "zh": "红砂岩双层台阶"
+    },
+    {
+      "en": "red concrete double slab",
+      "raw": "混凝土半磚|红色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "红色混凝土双层台阶"
+    },
+    {
+      "en": "red wool double slab",
+      "raw": "羊毛台阶|红色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "红色羊毛双层台阶"
+    },
+    {
+      "en": "resin brick double slab",
+      "raw": "树脂砖台阶|树脂砖双层台阶",
+      "link": "树脂砖台阶",
+      "zh": "树脂砖双层台阶"
+    },
+    {
+      "en": "sandstone double slab",
+      "raw": "砂岩台阶|砂岩双层台阶",
+      "link": "砂岩台阶",
+      "zh": "砂岩双层台阶"
+    },
+    {
+      "en": "smooth quartz double slab",
+      "raw": "平滑石英台阶|平滑石英双层台阶",
+      "link": "平滑石英台阶",
+      "zh": "平滑石英双层台阶"
+    },
+    {
+      "en": "smooth red sandstone double slab",
+      "raw": "平滑红砂岩台阶|平滑红砂岩双层台阶",
+      "link": "平滑红砂岩台阶",
+      "zh": "平滑红砂岩双层台阶"
+    },
+    {
+      "en": "smooth sandstone double slab",
+      "raw": "平滑砂岩台阶|平滑砂岩双层台阶",
+      "link": "平滑砂岩台阶",
+      "zh": "平滑砂岩双层台阶"
+    },
+    {
+      "en": "smooth stone double slab",
+      "raw": "平滑石头台阶|平滑石头双层台阶",
+      "link": "平滑石头台阶",
+      "zh": "平滑石头双层台阶"
+    },
+    {
+      "en": "spruce double slab",
+      "raw": "木台阶|云杉木双层台阶",
+      "link": "木台阶",
+      "zh": "云杉木双层台阶"
+    },
+    {
+      "en": "stone brick double slab",
+      "raw": "石砖台阶|石砖双层台阶",
+      "link": "石砖台阶",
+      "zh": "石砖双层台阶"
+    },
+    {
+      "en": "stone double slab",
+      "raw": "石头台阶|石头双层台阶",
+      "link": "石头台阶",
+      "zh": "石头双层台阶"
+    },
+    {
+      "en": "sulfur brick double slab",
+      "raw": "硫黄砖台阶|硫黄砖双层台阶",
+      "link": "硫黄砖台阶",
+      "zh": "硫黄砖双层台阶"
+    },
+    {
+      "en": "sulfur double slab",
+      "raw": "硫黄台阶|硫黄双层台阶",
+      "link": "硫黄台阶",
+      "zh": "硫黄双层台阶"
+    },
+    {
+      "en": "tuff brick double slab",
+      "raw": "凝灰岩砖台阶|凝灰岩砖双层台阶",
+      "link": "凝灰岩砖台阶",
+      "zh": "凝灰岩砖双层台阶"
+    },
+    {
+      "en": "tuff double slab",
+      "raw": "凝灰岩台阶|凝灰岩双层台阶",
+      "link": "凝灰岩台阶",
+      "zh": "凝灰岩双层台阶"
+    },
+    {
+      "en": "warped double slab",
+      "raw": "木台阶|诡异木双层台阶",
+      "link": "木台阶",
+      "zh": "诡异木双层台阶"
+    },
+    {
+      "en": "waxed double cut copper slab",
+      "raw": "切制铜台阶|涂蜡的切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的切制铜双层台阶"
+    },
+    {
+      "en": "waxed exposed double cut copper slab",
+      "raw": "切制铜台阶|涂蜡的斑驳切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的斑驳切制铜双层台阶"
+    },
+    {
+      "en": "waxed oxidized double cut copper slab",
+      "raw": "切制铜台阶|涂蜡的氧化切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的氧化切制铜双层台阶"
+    },
+    {
+      "en": "waxed weathered double cut copper slab",
+      "raw": "切制铜台阶|涂蜡的锈蚀切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "涂蜡的锈蚀切制铜双层台阶"
+    },
+    {
+      "en": "weathered double cut copper slab",
+      "raw": "切制铜台阶|锈蚀的切制铜双层台阶",
+      "link": "切制铜台阶",
+      "zh": "锈蚀的切制铜双层台阶"
+    },
+    {
+      "en": "white concrete double slab",
+      "raw": "混凝土半磚|白色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "白色混凝土双层台阶"
+    },
+    {
+      "en": "white wool double slab",
+      "raw": "羊毛台阶|白色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "白色羊毛双层台阶"
+    },
+    {
+      "en": "yellow concrete double slab",
+      "raw": "混凝土半磚|黄色混凝土双层台阶",
+      "link": "混凝土半磚",
+      "zh": "黄色混凝土双层台阶"
+    },
+    {
+      "en": "yellow wool double slab",
+      "raw": "羊毛台阶|黄色羊毛双层台阶",
+      "link": "羊毛台阶",
+      "zh": "黄色羊毛双层台阶"
+    },
+    {
+      "en": "double stone slab",
+      "raw": "石头台阶|双层石台阶",
+      "link": "石头台阶",
+      "zh": "双层石台阶"
+    },
+    {
+      "en": "double wood slab",
+      "raw": "木台阶|双层木台阶",
+      "link": "木台阶",
+      "zh": "双层木台阶"
+    },
+    {
+      "en": "double wooden slab",
+      "raw": "木台阶|双层木台阶",
+      "link": "木台阶",
+      "zh": "双层木台阶"
+    },
+    {
+      "en": "double wool slab",
+      "raw": "羊毛台阶|双层羊毛台阶",
+      "link": "羊毛台阶",
+      "zh": "双层羊毛台阶"
+    },
+    {
+      "en": "glowing obsidian",
+      "raw": "发光的黑曜石",
+      "link": "发光的黑曜石",
+      "zh": "发光的黑曜石"
+    },
+    {
+      "en": "hanging mangrove propagule",
+      "raw": "红树胎生苗|悬挂的红树胎生苗",
+      "link": "红树胎生苗",
+      "zh": "悬挂的红树胎生苗"
+    },
+    {
+      "en": "invisible bedrock",
+      "raw": "隐形基岩",
+      "link": "隐形基岩",
+      "zh": "隐形基岩"
+    },
+    {
+      "en": "legacy stonecutter",
+      "raw": "切石机（MATTIS）|切石机",
+      "link": "切石机（MATTIS）",
+      "zh": "切石机"
+    },
+    {
+      "en": "masonry table",
+      "raw": "切石机（MATTIS）|切石机",
+      "link": "切石机（MATTIS）",
+      "zh": "切石机"
+    },
+    {
+      "en": "nether reactor core",
+      "raw": "下界反应核",
+      "link": "下界反应核",
+      "zh": "下界反应核"
+    },
+    {
+      "en": "stonecutter 3ds",
+      "raw": "切石机（MATTIS）|切石机",
+      "link": "切石机（MATTIS）",
+      "zh": "切石机"
+    },
+    {
+      "en": "stonecutter legacy",
+      "raw": "切石机（MATTIS）|切石机",
+      "link": "切石机（MATTIS）",
+      "zh": "切石机"
+    },
+    {
+      "en": "stonecutter mattis",
+      "raw": "切石机（MATTIS）|切石机",
+      "link": "切石机（MATTIS）",
+      "zh": "切石机"
+    },
+    {
+      "en": "stonecutter old",
+      "raw": "切石机（MATTIS）|切石机",
+      "link": "切石机（MATTIS）",
+      "zh": "切石机"
+    },
+    {
+      "en": "allow",
+      "raw": "允许和拒绝方块|允许方块",
+      "link": "允许和拒绝方块",
+      "zh": "允许方块"
+    },
+    {
+      "en": "board",
+      "raw": "黑板|大黑板",
+      "link": "黑板",
+      "zh": "大黑板"
+    },
+    {
+      "en": "border",
+      "raw": "边界",
+      "link": "边界",
+      "zh": "边界"
+    },
+    {
+      "en": "border block",
+      "raw": "边界",
+      "link": "边界",
+      "zh": "边界"
+    },
+    {
+      "en": "camera",
+      "raw": "摄像机",
+      "link": "摄像机",
+      "zh": "摄像机"
+    },
+    {
+      "en": "chemistry table",
+      "raw": "化学设备",
+      "link": "化学设备",
+      "zh": "化学设备"
+    },
+    {
+      "en": "compound creator",
+      "raw": "化合物创建器",
+      "link": "化合物创建器",
+      "zh": "化合物创建器"
+    },
+    {
+      "en": "deny",
+      "raw": "允许和拒绝方块|拒绝方块",
+      "link": "允许和拒绝方块",
+      "zh": "拒绝方块"
+    },
+    {
+      "en": "element",
+      "raw": "元素",
+      "link": "元素",
+      "zh": "元素"
+    },
+    {
+      "en": "element constructor",
+      "raw": "元素构造器",
+      "link": "元素构造器",
+      "zh": "元素构造器"
+    },
+    {
+      "en": "heat block",
+      "raw": "加热块",
+      "link": "加热块",
+      "zh": "加热块"
+    },
+    {
+      "en": "lab table",
+      "raw": "实验台",
+      "link": "实验台",
+      "zh": "实验台"
+    },
+    {
+      "en": "material reducer",
+      "raw": "材料分解器",
+      "link": "材料分解器",
+      "zh": "材料分解器"
+    },
+    {
+      "en": "poster",
+      "raw": "黑板|告示板",
+      "link": "黑板",
+      "zh": "告示板"
+    },
+    {
+      "en": "slate",
+      "raw": "黑板|小黑板",
+      "link": "黑板",
+      "zh": "小黑板"
+    },
+    {
+      "en": "underwater tnt",
+      "raw": "水下TNT",
+      "link": "水下TNT",
+      "zh": "水下TNT"
+    },
+    {
+      "en": "underwater torch",
+      "raw": "水下火把",
+      "link": "水下火把",
+      "zh": "水下火把"
+    },
+    {
+      "en": "blue torch",
+      "raw": "彩色火把|蓝色火把",
+      "link": "彩色火把",
+      "zh": "蓝色火把"
+    },
+    {
+      "en": "colored torches",
+      "raw": "彩色火把",
+      "link": "彩色火把",
+      "zh": "彩色火把"
+    },
+    {
+      "en": "green torch",
+      "raw": "彩色火把|绿色火把",
+      "link": "彩色火把",
+      "zh": "绿色火把"
+    },
+    {
+      "en": "hardened black stained glass",
+      "raw": "染色强化玻璃|黑色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "黑色强化玻璃"
+    },
+    {
+      "en": "hardened black stained glass pane",
+      "raw": "染色强化玻璃板|黑色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "黑色强化玻璃板"
+    },
+    {
+      "en": "hardened blue stained glass",
+      "raw": "染色强化玻璃|蓝色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "蓝色强化玻璃"
+    },
+    {
+      "en": "hardened blue stained glass pane",
+      "raw": "染色强化玻璃板|蓝色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "蓝色强化玻璃板"
+    },
+    {
+      "en": "hardened brown stained glass",
+      "raw": "染色强化玻璃|棕色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "棕色强化玻璃"
+    },
+    {
+      "en": "hardened brown stained glass pane",
+      "raw": "染色强化玻璃板|棕色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "棕色强化玻璃板"
+    },
+    {
+      "en": "hardened cyan stained glass",
+      "raw": "染色强化玻璃|青色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "青色强化玻璃"
+    },
+    {
+      "en": "hardened cyan stained glass pane",
+      "raw": "染色强化玻璃板|青色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "青色强化玻璃板"
+    },
+    {
+      "en": "hardened glass",
+      "raw": "强化玻璃",
+      "link": "强化玻璃",
+      "zh": "强化玻璃"
+    },
+    {
+      "en": "hardened glass pane",
+      "raw": "强化玻璃板",
+      "link": "强化玻璃板",
+      "zh": "强化玻璃板"
+    },
+    {
+      "en": "hardened gray stained glass",
+      "raw": "染色强化玻璃|灰色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "灰色强化玻璃"
+    },
+    {
+      "en": "hardened gray stained glass pane",
+      "raw": "染色强化玻璃板|灰色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "灰色强化玻璃板"
+    },
+    {
+      "en": "hardened green stained glass",
+      "raw": "染色强化玻璃|绿色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "绿色强化玻璃"
+    },
+    {
+      "en": "hardened green stained glass pane",
+      "raw": "染色强化玻璃板|绿色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "绿色强化玻璃板"
+    },
+    {
+      "en": "hardened light blue stained glass",
+      "raw": "染色强化玻璃|淡蓝色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "淡蓝色强化玻璃"
+    },
+    {
+      "en": "hardened light blue stained glass pane",
+      "raw": "染色强化玻璃板|淡蓝色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "淡蓝色强化玻璃板"
+    },
+    {
+      "en": "hardened light gray stained glass",
+      "raw": "染色强化玻璃|淡灰色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "淡灰色强化玻璃"
+    },
+    {
+      "en": "hardened light gray stained glass pane",
+      "raw": "染色强化玻璃板|淡灰色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "淡灰色强化玻璃板"
+    },
+    {
+      "en": "hardened lime stained glass",
+      "raw": "染色强化玻璃|黄绿色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "黄绿色强化玻璃"
+    },
+    {
+      "en": "hardened lime stained glass pane",
+      "raw": "染色强化玻璃板|黄绿色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "黄绿色强化玻璃板"
+    },
+    {
+      "en": "hardened magenta stained glass",
+      "raw": "染色强化玻璃|品红色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "品红色强化玻璃"
+    },
+    {
+      "en": "hardened magenta stained glass pane",
+      "raw": "染色强化玻璃板|品红色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "品红色强化玻璃板"
+    },
+    {
+      "en": "hardened orange stained glass",
+      "raw": "染色强化玻璃|橙色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "橙色强化玻璃"
+    },
+    {
+      "en": "hardened orange stained glass pane",
+      "raw": "染色强化玻璃板|橙色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "橙色强化玻璃板"
+    },
+    {
+      "en": "hardened pink stained glass",
+      "raw": "染色强化玻璃|粉红色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "粉红色强化玻璃"
+    },
+    {
+      "en": "hardened pink stained glass pane",
+      "raw": "染色强化玻璃板|粉红色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "粉红色强化玻璃板"
+    },
+    {
+      "en": "hardened purple stained glass",
+      "raw": "染色强化玻璃|紫色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "紫色强化玻璃"
+    },
+    {
+      "en": "hardened purple stained glass pane",
+      "raw": "染色强化玻璃板|紫色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "紫色强化玻璃板"
+    },
+    {
+      "en": "hardened red stained glass",
+      "raw": "染色强化玻璃|红色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "红色强化玻璃"
+    },
+    {
+      "en": "hardened red stained glass pane",
+      "raw": "染色强化玻璃板|红色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "红色强化玻璃板"
+    },
+    {
+      "en": "hardened stained glass",
+      "raw": "染色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "染色强化玻璃"
+    },
+    {
+      "en": "hardened stained glass pane",
+      "raw": "染色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "染色强化玻璃板"
+    },
+    {
+      "en": "hardened stained glass panes",
+      "raw": "染色强化玻璃板|染色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "染色强化玻璃板"
+    },
+    {
+      "en": "hardened white stained glass",
+      "raw": "染色强化玻璃|白色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "白色强化玻璃"
+    },
+    {
+      "en": "hardened white stained glass pane",
+      "raw": "染色强化玻璃板|白色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "白色强化玻璃板"
+    },
+    {
+      "en": "hardened yellow stained glass",
+      "raw": "染色强化玻璃|黄色强化玻璃",
+      "link": "染色强化玻璃",
+      "zh": "黄色强化玻璃"
+    },
+    {
+      "en": "hardened yellow stained glass pane",
+      "raw": "染色强化玻璃板|黄色强化玻璃板",
+      "link": "染色强化玻璃板",
+      "zh": "黄色强化玻璃板"
+    },
+    {
+      "en": "purple torch",
+      "raw": "彩色火把|紫色火把",
+      "link": "彩色火把",
+      "zh": "紫色火把"
+    },
+    {
+      "en": "red torch",
+      "raw": "彩色火把|红色火把",
+      "link": "彩色火把",
+      "zh": "红色火把"
+    },
+    {
+      "en": "???",
+      "raw": "元素|未知元素",
+      "link": "元素",
+      "zh": "未知元素"
+    },
+    {
+      "en": "actinium",
+      "raw": "元素|锕",
+      "link": "元素",
+      "zh": "锕"
+    },
+    {
+      "en": "aluminium",
+      "raw": "元素|铝",
+      "link": "元素",
+      "zh": "铝"
+    },
+    {
+      "en": "aluminum",
+      "raw": "元素|铝",
+      "link": "元素",
+      "zh": "铝"
+    },
+    {
+      "en": "americium",
+      "raw": "元素|镅",
+      "link": "元素",
+      "zh": "镅"
+    },
+    {
+      "en": "antimony",
+      "raw": "元素|锑",
+      "link": "元素",
+      "zh": "锑"
+    },
+    {
+      "en": "argentum",
+      "raw": "元素|银",
+      "link": "元素",
+      "zh": "银"
+    },
+    {
+      "en": "argon",
+      "raw": "元素|氩",
+      "link": "元素",
+      "zh": "氩"
+    },
+    {
+      "en": "arsenic",
+      "raw": "元素|砷",
+      "link": "元素",
+      "zh": "砷"
+    },
+    {
+      "en": "astatine",
+      "raw": "元素|砹",
+      "link": "元素",
+      "zh": "砹"
+    },
+    {
+      "en": "aurum",
+      "raw": "元素|金",
+      "link": "元素",
+      "zh": "金"
+    },
+    {
+      "en": "barium",
+      "raw": "元素|钡",
+      "link": "元素",
+      "zh": "钡"
+    },
+    {
+      "en": "berkelium",
+      "raw": "元素|锫",
+      "link": "元素",
+      "zh": "锫"
+    },
+    {
+      "en": "beryllium",
+      "raw": "元素|铍",
+      "link": "元素",
+      "zh": "铍"
+    },
+    {
+      "en": "bismuth",
+      "raw": "元素|铋",
+      "link": "元素",
+      "zh": "铋"
+    },
+    {
+      "en": "bohrium",
+      "raw": "元素|𬭛",
+      "link": "元素",
+      "zh": "𬭛"
+    },
+    {
+      "en": "boron",
+      "raw": "元素|硼",
+      "link": "元素",
+      "zh": "硼"
+    },
+    {
+      "en": "bromine",
+      "raw": "元素|溴",
+      "link": "元素",
+      "zh": "溴"
+    },
+    {
+      "en": "cadmium",
+      "raw": "元素|镉",
+      "link": "元素",
+      "zh": "镉"
+    },
+    {
+      "en": "calcium",
+      "raw": "元素|钙",
+      "link": "元素",
+      "zh": "钙"
+    },
+    {
+      "en": "californium",
+      "raw": "元素|锎",
+      "link": "元素",
+      "zh": "锎"
+    },
+    {
+      "en": "carbon",
+      "raw": "元素|碳",
+      "link": "元素",
+      "zh": "碳"
+    },
+    {
+      "en": "cerium",
+      "raw": "元素|铈",
+      "link": "元素",
+      "zh": "铈"
+    },
+    {
+      "en": "cesium",
+      "raw": "元素|铯",
+      "link": "元素",
+      "zh": "铯"
+    },
+    {
+      "en": "chlorine",
+      "raw": "元素|氯",
+      "link": "元素",
+      "zh": "氯"
+    },
+    {
+      "en": "chromium",
+      "raw": "元素|铬",
+      "link": "元素",
+      "zh": "铬"
+    },
+    {
+      "en": "cobalt",
+      "raw": "元素|钴",
+      "link": "元素",
+      "zh": "钴"
+    },
+    {
+      "en": "copernicium",
+      "raw": "元素|鿔",
+      "link": "元素",
+      "zh": "鿔"
+    },
+    {
+      "en": "copper",
+      "raw": "元素|铜",
+      "link": "元素",
+      "zh": "铜"
+    },
+    {
+      "en": "cuprum",
+      "raw": "元素|铜",
+      "link": "元素",
+      "zh": "铜"
+    },
+    {
+      "en": "curium",
+      "raw": "元素|锔",
+      "link": "元素",
+      "zh": "锔"
+    },
+    {
+      "en": "darmstadtium",
+      "raw": "元素|𫟼",
+      "link": "元素",
+      "zh": "𫟼"
+    },
+    {
+      "en": "dubnium",
+      "raw": "元素|𬭊",
+      "link": "元素",
+      "zh": "𬭊"
+    },
+    {
+      "en": "dysprosium",
+      "raw": "元素|镝",
+      "link": "元素",
+      "zh": "镝"
+    },
+    {
+      "en": "einsteinium",
+      "raw": "元素|锿",
+      "link": "元素",
+      "zh": "锿"
+    },
+    {
+      "en": "erbium",
+      "raw": "元素|铒",
+      "link": "元素",
+      "zh": "铒"
+    },
+    {
+      "en": "europium",
+      "raw": "元素|铕",
+      "link": "元素",
+      "zh": "铕"
+    },
+    {
+      "en": "fermium",
+      "raw": "元素|镄",
+      "link": "元素",
+      "zh": "镄"
+    },
+    {
+      "en": "ferum",
+      "raw": "元素|铁",
+      "link": "元素",
+      "zh": "铁"
+    },
+    {
+      "en": "flerovium",
+      "raw": "元素|𫓧",
+      "link": "元素",
+      "zh": "𫓧"
+    },
+    {
+      "en": "fluorine",
+      "raw": "元素|氟",
+      "link": "元素",
+      "zh": "氟"
+    },
+    {
+      "en": "francium",
+      "raw": "元素|钫",
+      "link": "元素",
+      "zh": "钫"
+    },
+    {
+      "en": "gadolinium",
+      "raw": "元素|钆",
+      "link": "元素",
+      "zh": "钆"
+    },
+    {
+      "en": "gallium",
+      "raw": "元素|镓",
+      "link": "元素",
+      "zh": "镓"
+    },
+    {
+      "en": "germanium",
+      "raw": "元素|锗",
+      "link": "元素",
+      "zh": "锗"
+    },
+    {
+      "en": "gold",
+      "raw": "元素|金",
+      "link": "元素",
+      "zh": "金"
+    },
+    {
+      "en": "hafnium",
+      "raw": "元素|铪",
+      "link": "元素",
+      "zh": "铪"
+    },
+    {
+      "en": "hassium",
+      "raw": "元素|𬭶",
+      "link": "元素",
+      "zh": "𬭶"
+    },
+    {
+      "en": "helium",
+      "raw": "元素|氦",
+      "link": "元素",
+      "zh": "氦"
+    },
+    {
+      "en": "holmium",
+      "raw": "元素|钬",
+      "link": "元素",
+      "zh": "钬"
+    },
+    {
+      "en": "hydrargyrum",
+      "raw": "元素|汞",
+      "link": "元素",
+      "zh": "汞"
+    },
+    {
+      "en": "hydrogen",
+      "raw": "元素|氢",
+      "link": "元素",
+      "zh": "氢"
+    },
+    {
+      "en": "indium",
+      "raw": "元素|铟",
+      "link": "元素",
+      "zh": "铟"
+    },
+    {
+      "en": "iodine",
+      "raw": "元素|碘",
+      "link": "元素",
+      "zh": "碘"
+    },
+    {
+      "en": "iridium",
+      "raw": "元素|铱",
+      "link": "元素",
+      "zh": "铱"
+    },
+    {
+      "en": "iron",
+      "raw": "元素|铁",
+      "link": "元素",
+      "zh": "铁"
+    },
+    {
+      "en": "iron (element)",
+      "raw": "元素|铁",
+      "link": "元素",
+      "zh": "铁"
+    },
+    {
+      "en": "kalium",
+      "raw": "元素|钾",
+      "link": "元素",
+      "zh": "钾"
+    },
+    {
+      "en": "krypton",
+      "raw": "元素|氪",
+      "link": "元素",
+      "zh": "氪"
+    },
+    {
+      "en": "lanthanum",
+      "raw": "元素|镧",
+      "link": "元素",
+      "zh": "镧"
+    },
+    {
+      "en": "lawrencium",
+      "raw": "元素|铹",
+      "link": "元素",
+      "zh": "铹"
+    },
+    {
+      "en": "lead (element)",
+      "raw": "元素|铅",
+      "link": "元素",
+      "zh": "铅"
+    },
+    {
+      "en": "lithium",
+      "raw": "元素|锂",
+      "link": "元素",
+      "zh": "锂"
+    },
+    {
+      "en": "livermorium",
+      "raw": "元素|𫟷",
+      "link": "元素",
+      "zh": "𫟷"
+    },
+    {
+      "en": "lutetium",
+      "raw": "元素|镥",
+      "link": "元素",
+      "zh": "镥"
+    },
+    {
+      "en": "magnesium",
+      "raw": "元素|镁",
+      "link": "元素",
+      "zh": "镁"
+    },
+    {
+      "en": "manganese",
+      "raw": "元素|锰",
+      "link": "元素",
+      "zh": "锰"
+    },
+    {
+      "en": "meitnerium",
+      "raw": "元素|鿏",
+      "link": "元素",
+      "zh": "鿏"
+    },
+    {
+      "en": "mendelevium",
+      "raw": "元素|钔",
+      "link": "元素",
+      "zh": "钔"
+    },
+    {
+      "en": "mercury",
+      "raw": "元素|汞",
+      "link": "元素",
+      "zh": "汞"
+    },
+    {
+      "en": "molybdenum",
+      "raw": "元素|钼",
+      "link": "元素",
+      "zh": "钼"
+    },
+    {
+      "en": "moscovium",
+      "raw": "元素|镆",
+      "link": "元素",
+      "zh": "镆"
+    },
+    {
+      "en": "natrium",
+      "raw": "元素|钠",
+      "link": "元素",
+      "zh": "钠"
+    },
+    {
+      "en": "neodymium",
+      "raw": "元素|钕",
+      "link": "元素",
+      "zh": "钕"
+    },
+    {
+      "en": "neon",
+      "raw": "元素|氖",
+      "link": "元素",
+      "zh": "氖"
+    },
+    {
+      "en": "neptunium",
+      "raw": "元素|镎",
+      "link": "元素",
+      "zh": "镎"
+    },
+    {
+      "en": "nickel",
+      "raw": "元素|镍",
+      "link": "元素",
+      "zh": "镍"
+    },
+    {
+      "en": "nihonium",
+      "raw": "元素|鿭",
+      "link": "元素",
+      "zh": "鿭"
+    },
+    {
+      "en": "niobium",
+      "raw": "元素|铌",
+      "link": "元素",
+      "zh": "铌"
+    },
+    {
+      "en": "nitrogen",
+      "raw": "元素|氮",
+      "link": "元素",
+      "zh": "氮"
+    },
+    {
+      "en": "nobelium",
+      "raw": "元素|锘",
+      "link": "元素",
+      "zh": "锘"
+    },
+    {
+      "en": "oganesson",
+      "raw": "元素|鿫",
+      "link": "元素",
+      "zh": "鿫"
+    },
+    {
+      "en": "osmium",
+      "raw": "元素|锇",
+      "link": "元素",
+      "zh": "锇"
+    },
+    {
+      "en": "oxygen",
+      "raw": "元素|氧",
+      "link": "元素",
+      "zh": "氧"
+    },
+    {
+      "en": "palladium",
+      "raw": "元素|钯",
+      "link": "元素",
+      "zh": "钯"
+    },
+    {
+      "en": "phosphorus",
+      "raw": "元素|磷",
+      "link": "元素",
+      "zh": "磷"
+    },
+    {
+      "en": "platinum",
+      "raw": "元素|铂",
+      "link": "元素",
+      "zh": "铂"
+    },
+    {
+      "en": "plumbum",
+      "raw": "元素|铅",
+      "link": "元素",
+      "zh": "铅"
+    },
+    {
+      "en": "plutonium",
+      "raw": "元素|钚",
+      "link": "元素",
+      "zh": "钚"
+    },
+    {
+      "en": "polonium",
+      "raw": "元素|钋",
+      "link": "元素",
+      "zh": "钋"
+    },
+    {
+      "en": "potassium",
+      "raw": "元素|钾",
+      "link": "元素",
+      "zh": "钾"
+    },
+    {
+      "en": "praseodymium",
+      "raw": "元素|镨",
+      "link": "元素",
+      "zh": "镨"
+    },
+    {
+      "en": "promethium",
+      "raw": "元素|钷",
+      "link": "元素",
+      "zh": "钷"
+    },
+    {
+      "en": "protactinium",
+      "raw": "元素|镤",
+      "link": "元素",
+      "zh": "镤"
+    },
+    {
+      "en": "protoactinium",
+      "raw": "元素|镤",
+      "link": "元素",
+      "zh": "镤"
+    },
+    {
+      "en": "radium",
+      "raw": "元素|镭",
+      "link": "元素",
+      "zh": "镭"
+    },
+    {
+      "en": "radon",
+      "raw": "元素|氡",
+      "link": "元素",
+      "zh": "氡"
+    },
+    {
+      "en": "rhenium",
+      "raw": "元素|铼",
+      "link": "元素",
+      "zh": "铼"
+    },
+    {
+      "en": "rhodium",
+      "raw": "元素|铑",
+      "link": "元素",
+      "zh": "铑"
+    },
+    {
+      "en": "roentgenium",
+      "raw": "元素|𬬭",
+      "link": "元素",
+      "zh": "𬬭"
+    },
+    {
+      "en": "rubidium",
+      "raw": "元素|铷",
+      "link": "元素",
+      "zh": "铷"
+    },
+    {
+      "en": "ruthenium",
+      "raw": "元素|钌",
+      "link": "元素",
+      "zh": "钌"
+    },
+    {
+      "en": "rutherfordium",
+      "raw": "元素|𬬻",
+      "link": "元素",
+      "zh": "𬬻"
+    },
+    {
+      "en": "samarium",
+      "raw": "元素|钐",
+      "link": "元素",
+      "zh": "钐"
+    },
+    {
+      "en": "scandium",
+      "raw": "元素|钪",
+      "link": "元素",
+      "zh": "钪"
+    },
+    {
+      "en": "seaborgium",
+      "raw": "元素|𬭳",
+      "link": "元素",
+      "zh": "𬭳"
+    },
+    {
+      "en": "selenium",
+      "raw": "元素|硒",
+      "link": "元素",
+      "zh": "硒"
+    },
+    {
+      "en": "silicon",
+      "raw": "元素|硅",
+      "link": "元素",
+      "zh": "硅"
+    },
+    {
+      "en": "silver",
+      "raw": "元素|银",
+      "link": "元素",
+      "zh": "银"
+    },
+    {
+      "en": "sodium",
+      "raw": "元素|钠",
+      "link": "元素",
+      "zh": "钠"
+    },
+    {
+      "en": "stannum",
+      "raw": "元素|锡",
+      "link": "元素",
+      "zh": "锡"
+    },
+    {
+      "en": "stibium",
+      "raw": "元素|锑",
+      "link": "元素",
+      "zh": "锑"
+    },
+    {
+      "en": "strontium",
+      "raw": "元素|锶",
+      "link": "元素",
+      "zh": "锶"
+    },
+    {
+      "en": "sulfur (element)",
+      "raw": "元素|硫",
+      "link": "元素",
+      "zh": "硫"
+    },
+    {
+      "en": "tantalum",
+      "raw": "元素|钽",
+      "link": "元素",
+      "zh": "钽"
+    },
+    {
+      "en": "technetium",
+      "raw": "元素|锝",
+      "link": "元素",
+      "zh": "锝"
+    },
+    {
+      "en": "tellurium",
+      "raw": "元素|碲",
+      "link": "元素",
+      "zh": "碲"
+    },
+    {
+      "en": "tennessine",
+      "raw": "元素|鿬",
+      "link": "元素",
+      "zh": "鿬"
+    },
+    {
+      "en": "terbium",
+      "raw": "元素|铽",
+      "link": "元素",
+      "zh": "铽"
+    },
+    {
+      "en": "thallium",
+      "raw": "元素|铊",
+      "link": "元素",
+      "zh": "铊"
+    },
+    {
+      "en": "thorium",
+      "raw": "元素|钍",
+      "link": "元素",
+      "zh": "钍"
+    },
+    {
+      "en": "thulium",
+      "raw": "元素|铥",
+      "link": "元素",
+      "zh": "铥"
+    },
+    {
+      "en": "tin",
+      "raw": "元素|锡",
+      "link": "元素",
+      "zh": "锡"
+    },
+    {
+      "en": "titanium",
+      "raw": "元素|钛",
+      "link": "元素",
+      "zh": "钛"
+    },
+    {
+      "en": "tungsten",
+      "raw": "元素|钨",
+      "link": "元素",
+      "zh": "钨"
+    },
+    {
+      "en": "uranium",
+      "raw": "元素|铀",
+      "link": "元素",
+      "zh": "铀"
+    },
+    {
+      "en": "vanadium",
+      "raw": "元素|钒",
+      "link": "元素",
+      "zh": "钒"
+    },
+    {
+      "en": "wolfram",
+      "raw": "元素|钨",
+      "link": "元素",
+      "zh": "钨"
+    },
+    {
+      "en": "xenon",
+      "raw": "元素|氙",
+      "link": "元素",
+      "zh": "氙"
+    },
+    {
+      "en": "ytterbium",
+      "raw": "元素|镱",
+      "link": "元素",
+      "zh": "镱"
+    },
+    {
+      "en": "yttrium",
+      "raw": "元素|钇",
+      "link": "元素",
+      "zh": "钇"
+    },
+    {
+      "en": "zinc",
+      "raw": "元素|锌",
+      "link": "元素",
+      "zh": "锌"
+    },
+    {
+      "en": "zirconium",
+      "raw": "元素|锆",
+      "link": "元素",
+      "zh": "锆"
+    }
+  ],
+  "ItemSprite": [
+    {
+      "en": "book & quill",
+      "raw": "书与笔",
+      "link": "书与笔",
+      "zh": "书与笔"
+    },
+    {
+      "en": "chain boots",
+      "raw": "盔甲|锁链靴子",
+      "link": "盔甲",
+      "zh": "锁链靴子"
+    },
+    {
+      "en": "chain chestplate",
+      "raw": "盔甲|锁链胸甲",
+      "link": "盔甲",
+      "zh": "锁链胸甲"
+    },
+    {
+      "en": "chain helmet",
+      "raw": "盔甲|锁链头盔",
+      "link": "盔甲",
+      "zh": "锁链头盔"
+    },
+    {
+      "en": "chain leggings",
+      "raw": "盔甲|锁链护腿",
+      "link": "盔甲",
+      "zh": "锁链护腿"
+    },
+    {
+      "en": "enchanted apple",
+      "raw": "金苹果|附魔金苹果",
+      "link": "金苹果",
+      "zh": "附魔金苹果"
+    },
+    {
+      "en": "gold horse armor",
+      "raw": "马铠|金马铠",
+      "link": "马铠",
+      "zh": "金马铠"
+    },
+    {
+      "en": "lingering awkward potion",
+      "raw": "粗制的药水|滞留型粗制的药水",
+      "link": "粗制的药水",
+      "zh": "滞留型粗制的药水"
+    },
+    {
+      "en": "lingering mundane potion",
+      "raw": "平凡的药水|滞留型平凡的药水",
+      "link": "平凡的药水",
+      "zh": "滞留型平凡的药水"
+    },
+    {
+      "en": "lingering thick potion",
+      "raw": "浓稠的药水|滞留型浓稠的药水",
+      "link": "浓稠的药水",
+      "zh": "滞留型浓稠的药水"
+    },
+    {
+      "en": "milk",
+      "raw": "奶桶",
+      "link": "奶桶",
+      "zh": "奶桶"
+    },
+    {
+      "en": "splash awkward potion",
+      "raw": "粗制的药水|喷溅型粗制的药水",
+      "link": "粗制的药水",
+      "zh": "喷溅型粗制的药水"
+    },
+    {
+      "en": "splash mundane potion",
+      "raw": "平凡的药水|喷溅型平凡的药水",
+      "link": "平凡的药水",
+      "zh": "喷溅型平凡的药水"
+    },
+    {
+      "en": "splash thick potion",
+      "raw": "浓稠的药水|喷溅型浓稠的药水",
+      "link": "浓稠的药水",
+      "zh": "喷溅型浓稠的药水"
+    },
+    {
+      "en": "agent spawn egg",
+      "raw": "刷怪蛋|智能体刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "智能体刷怪蛋"
+    },
+    {
+      "en": "npc spawn egg",
+      "raw": "刷怪蛋|NPC刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "NPC刷怪蛋"
+    },
+    {
+      "en": "spawn agent",
+      "raw": "刷怪蛋|生成智能体",
+      "link": "刷怪蛋",
+      "zh": "生成智能体"
+    },
+    {
+      "en": "spawn allay",
+      "raw": "刷怪蛋|生成悦灵",
+      "link": "刷怪蛋",
+      "zh": "生成悦灵"
+    },
+    {
+      "en": "spawn armadillo",
+      "raw": "刷怪蛋|生成犰狳",
+      "link": "刷怪蛋",
+      "zh": "生成犰狳"
+    },
+    {
+      "en": "spawn axolotl",
+      "raw": "刷怪蛋|生成美西螈",
+      "link": "刷怪蛋",
+      "zh": "生成美西螈"
+    },
+    {
+      "en": "spawn bat",
+      "raw": "刷怪蛋|生成蝙蝠",
+      "link": "刷怪蛋",
+      "zh": "生成蝙蝠"
+    },
+    {
+      "en": "spawn bee",
+      "raw": "刷怪蛋|生成蜜蜂",
+      "link": "刷怪蛋",
+      "zh": "生成蜜蜂"
+    },
+    {
+      "en": "spawn blaze",
+      "raw": "刷怪蛋|生成烈焰人",
+      "link": "刷怪蛋",
+      "zh": "生成烈焰人"
+    },
+    {
+      "en": "spawn breeze",
+      "raw": "刷怪蛋|生成旋风人",
+      "link": "刷怪蛋",
+      "zh": "生成旋风人"
+    },
+    {
+      "en": "spawn camel",
+      "raw": "刷怪蛋|生成骆驼",
+      "link": "刷怪蛋",
+      "zh": "生成骆驼"
+    },
+    {
+      "en": "spawn cat",
+      "raw": "刷怪蛋|生成猫",
+      "link": "刷怪蛋",
+      "zh": "生成猫"
+    },
+    {
+      "en": "spawn cave spider",
+      "raw": "刷怪蛋|生成洞穴蜘蛛",
+      "link": "刷怪蛋",
+      "zh": "生成洞穴蜘蛛"
+    },
+    {
+      "en": "spawn chicken",
+      "raw": "刷怪蛋|生成鸡",
+      "link": "刷怪蛋",
+      "zh": "生成鸡"
+    },
+    {
+      "en": "spawn cod",
+      "raw": "刷怪蛋|生成鳕鱼",
+      "link": "刷怪蛋",
+      "zh": "生成鳕鱼"
+    },
+    {
+      "en": "spawn cow",
+      "raw": "刷怪蛋|生成牛",
+      "link": "刷怪蛋",
+      "zh": "生成牛"
+    },
+    {
+      "en": "spawn creeper",
+      "raw": "刷怪蛋|生成苦力怕",
+      "link": "刷怪蛋",
+      "zh": "生成苦力怕"
+    },
+    {
+      "en": "spawn dolphin",
+      "raw": "刷怪蛋|生成海豚",
+      "link": "刷怪蛋",
+      "zh": "生成海豚"
+    },
+    {
+      "en": "spawn donkey",
+      "raw": "刷怪蛋|生成驴",
+      "link": "刷怪蛋",
+      "zh": "生成驴"
+    },
+    {
+      "en": "spawn drowned",
+      "raw": "刷怪蛋|生成溺尸",
+      "link": "刷怪蛋",
+      "zh": "生成溺尸"
+    },
+    {
+      "en": "spawn elder guardian",
+      "raw": "刷怪蛋|生成远古守卫者",
+      "link": "刷怪蛋",
+      "zh": "生成远古守卫者"
+    },
+    {
+      "en": "spawn ender dragon",
+      "raw": "刷怪蛋|生成末影龙",
+      "link": "刷怪蛋",
+      "zh": "生成末影龙"
+    },
+    {
+      "en": "spawn enderman",
+      "raw": "刷怪蛋|生成末影人",
+      "link": "刷怪蛋",
+      "zh": "生成末影人"
+    },
+    {
+      "en": "spawn endermite",
+      "raw": "刷怪蛋|生成末影螨",
+      "link": "刷怪蛋",
+      "zh": "生成末影螨"
+    },
+    {
+      "en": "spawn evoker",
+      "raw": "刷怪蛋|生成唤魔者",
+      "link": "刷怪蛋",
+      "zh": "生成唤魔者"
+    },
+    {
+      "en": "spawn fox",
+      "raw": "刷怪蛋|生成狐狸",
+      "link": "刷怪蛋",
+      "zh": "生成狐狸"
+    },
+    {
+      "en": "spawn frog",
+      "raw": "刷怪蛋|生成青蛙",
+      "link": "刷怪蛋",
+      "zh": "生成青蛙"
+    },
+    {
+      "en": "spawn ghast",
+      "raw": "刷怪蛋|生成恶魂",
+      "link": "刷怪蛋",
+      "zh": "生成恶魂"
+    },
+    {
+      "en": "spawn glow squid",
+      "raw": "刷怪蛋|生成发光鱿鱼",
+      "link": "刷怪蛋",
+      "zh": "生成发光鱿鱼"
+    },
+    {
+      "en": "spawn goat",
+      "raw": "刷怪蛋|生成山羊",
+      "link": "刷怪蛋",
+      "zh": "生成山羊"
+    },
+    {
+      "en": "spawn guardian",
+      "raw": "刷怪蛋|生成守卫者",
+      "link": "刷怪蛋",
+      "zh": "生成守卫者"
+    },
+    {
+      "en": "spawn hoglin",
+      "raw": "刷怪蛋|生成疣猪兽",
+      "link": "刷怪蛋",
+      "zh": "生成疣猪兽"
+    },
+    {
+      "en": "spawn horse",
+      "raw": "刷怪蛋|生成马",
+      "link": "刷怪蛋",
+      "zh": "生成马"
+    },
+    {
+      "en": "spawn husk",
+      "raw": "刷怪蛋|生成尸壳",
+      "link": "刷怪蛋",
+      "zh": "生成尸壳"
+    },
+    {
+      "en": "spawn iron golem",
+      "raw": "刷怪蛋|生成铁傀儡",
+      "link": "刷怪蛋",
+      "zh": "生成铁傀儡"
+    },
+    {
+      "en": "spawn llama",
+      "raw": "刷怪蛋|生成羊驼",
+      "link": "刷怪蛋",
+      "zh": "生成羊驼"
+    },
+    {
+      "en": "spawn magma cube",
+      "raw": "刷怪蛋|生成岩浆怪",
+      "link": "刷怪蛋",
+      "zh": "生成岩浆怪"
+    },
+    {
+      "en": "spawn mask",
+      "raw": "刷怪蛋|生成Mask",
+      "link": "刷怪蛋",
+      "zh": "生成Mask"
+    },
+    {
+      "en": "spawn mooshroom",
+      "raw": "刷怪蛋|生成哞菇",
+      "link": "刷怪蛋",
+      "zh": "生成哞菇"
+    },
+    {
+      "en": "spawn mule",
+      "raw": "刷怪蛋|生成骡",
+      "link": "刷怪蛋",
+      "zh": "生成骡"
+    },
+    {
+      "en": "spawn npc",
+      "raw": "刷怪蛋|生成NPC",
+      "link": "刷怪蛋",
+      "zh": "生成NPC"
+    },
+    {
+      "en": "spawn ocelot",
+      "raw": "刷怪蛋|生成豹猫",
+      "link": "刷怪蛋",
+      "zh": "生成豹猫"
+    },
+    {
+      "en": "spawn panda",
+      "raw": "刷怪蛋|生成熊猫",
+      "link": "刷怪蛋",
+      "zh": "生成熊猫"
+    },
+    {
+      "en": "spawn parrot",
+      "raw": "刷怪蛋|生成鹦鹉",
+      "link": "刷怪蛋",
+      "zh": "生成鹦鹉"
+    },
+    {
+      "en": "spawn phantom",
+      "raw": "刷怪蛋|生成幻翼",
+      "link": "刷怪蛋",
+      "zh": "生成幻翼"
+    },
+    {
+      "en": "spawn pig",
+      "raw": "刷怪蛋|生成猪",
+      "link": "刷怪蛋",
+      "zh": "生成猪"
+    },
+    {
+      "en": "spawn piglin",
+      "raw": "刷怪蛋|生成猪灵",
+      "link": "刷怪蛋",
+      "zh": "生成猪灵"
+    },
+    {
+      "en": "spawn piglin brute",
+      "raw": "刷怪蛋|生成猪灵蛮兵",
+      "link": "刷怪蛋",
+      "zh": "生成猪灵蛮兵"
+    },
+    {
+      "en": "spawn pillager",
+      "raw": "刷怪蛋|生成掠夺者",
+      "link": "刷怪蛋",
+      "zh": "生成掠夺者"
+    },
+    {
+      "en": "spawn polar bear",
+      "raw": "刷怪蛋|生成北极熊",
+      "link": "刷怪蛋",
+      "zh": "生成北极熊"
+    },
+    {
+      "en": "spawn pufferfish",
+      "raw": "刷怪蛋|生成河豚",
+      "link": "刷怪蛋",
+      "zh": "生成河豚"
+    },
+    {
+      "en": "spawn rabbit",
+      "raw": "刷怪蛋|生成兔子",
+      "link": "刷怪蛋",
+      "zh": "生成兔子"
+    },
+    {
+      "en": "spawn ravager",
+      "raw": "刷怪蛋|生成劫掠兽",
+      "link": "刷怪蛋",
+      "zh": "生成劫掠兽"
+    },
+    {
+      "en": "spawn salmon",
+      "raw": "刷怪蛋|生成鲑鱼",
+      "link": "刷怪蛋",
+      "zh": "生成鲑鱼"
+    },
+    {
+      "en": "spawn sheep",
+      "raw": "刷怪蛋|生成绵羊",
+      "link": "刷怪蛋",
+      "zh": "生成绵羊"
+    },
+    {
+      "en": "spawn shulker",
+      "raw": "刷怪蛋|生成潜影贝",
+      "link": "刷怪蛋",
+      "zh": "生成潜影贝"
+    },
+    {
+      "en": "spawn silverfish",
+      "raw": "刷怪蛋|生成蠹虫",
+      "link": "刷怪蛋",
+      "zh": "生成蠹虫"
+    },
+    {
+      "en": "spawn skeleton",
+      "raw": "刷怪蛋|生成骷髅",
+      "link": "刷怪蛋",
+      "zh": "生成骷髅"
+    },
+    {
+      "en": "spawn skeleton horse",
+      "raw": "刷怪蛋|生成骷髅马",
+      "link": "刷怪蛋",
+      "zh": "生成骷髅马"
+    },
+    {
+      "en": "spawn slime",
+      "raw": "刷怪蛋|生成史莱姆",
+      "link": "刷怪蛋",
+      "zh": "生成史莱姆"
+    },
+    {
+      "en": "spawn sniffer",
+      "raw": "刷怪蛋|生成嗅探兽",
+      "link": "刷怪蛋",
+      "zh": "生成嗅探兽"
+    },
+    {
+      "en": "spawn snow golem",
+      "raw": "刷怪蛋|生成雪傀儡",
+      "link": "刷怪蛋",
+      "zh": "生成雪傀儡"
+    },
+    {
+      "en": "spawn spider",
+      "raw": "刷怪蛋|生成蜘蛛",
+      "link": "刷怪蛋",
+      "zh": "生成蜘蛛"
+    },
+    {
+      "en": "spawn squid",
+      "raw": "刷怪蛋|生成鱿鱼",
+      "link": "刷怪蛋",
+      "zh": "生成鱿鱼"
+    },
+    {
+      "en": "spawn stray",
+      "raw": "刷怪蛋|生成流浪者",
+      "link": "刷怪蛋",
+      "zh": "生成流浪者"
+    },
+    {
+      "en": "spawn strider",
+      "raw": "刷怪蛋|生成炽足兽",
+      "link": "刷怪蛋",
+      "zh": "生成炽足兽"
+    },
+    {
+      "en": "spawn tadpole",
+      "raw": "刷怪蛋|生成蝌蚪",
+      "link": "刷怪蛋",
+      "zh": "生成蝌蚪"
+    },
+    {
+      "en": "spawn trader llama",
+      "raw": "刷怪蛋|生成行商羊驼",
+      "link": "刷怪蛋",
+      "zh": "生成行商羊驼"
+    },
+    {
+      "en": "spawn tropical fish",
+      "raw": "刷怪蛋|生成热带鱼",
+      "link": "刷怪蛋",
+      "zh": "生成热带鱼"
+    },
+    {
+      "en": "spawn turtle",
+      "raw": "刷怪蛋|生成海龟",
+      "link": "刷怪蛋",
+      "zh": "生成海龟"
+    },
+    {
+      "en": "spawn vex",
+      "raw": "刷怪蛋|生成恼鬼",
+      "link": "刷怪蛋",
+      "zh": "生成恼鬼"
+    },
+    {
+      "en": "spawn villager",
+      "raw": "刷怪蛋|生成村民",
+      "link": "刷怪蛋",
+      "zh": "生成村民"
+    },
+    {
+      "en": "spawn vindicator",
+      "raw": "刷怪蛋|生成卫道士",
+      "link": "刷怪蛋",
+      "zh": "生成卫道士"
+    },
+    {
+      "en": "spawn wandering trader",
+      "raw": "刷怪蛋|生成流浪商人",
+      "link": "刷怪蛋",
+      "zh": "生成流浪商人"
+    },
+    {
+      "en": "spawn warden",
+      "raw": "刷怪蛋|生成监守者",
+      "link": "刷怪蛋",
+      "zh": "生成监守者"
+    },
+    {
+      "en": "spawn witch",
+      "raw": "刷怪蛋|生成女巫",
+      "link": "刷怪蛋",
+      "zh": "生成女巫"
+    },
+    {
+      "en": "spawn wither",
+      "raw": "刷怪蛋|生成凋灵",
+      "link": "刷怪蛋",
+      "zh": "生成凋灵"
+    },
+    {
+      "en": "spawn wither skeleton",
+      "raw": "刷怪蛋|生成凋灵骷髅",
+      "link": "刷怪蛋",
+      "zh": "生成凋灵骷髅"
+    },
+    {
+      "en": "spawn wolf",
+      "raw": "刷怪蛋|生成狼",
+      "link": "刷怪蛋",
+      "zh": "生成狼"
+    },
+    {
+      "en": "spawn zoglin",
+      "raw": "刷怪蛋|生成僵尸疣猪兽",
+      "link": "刷怪蛋",
+      "zh": "生成僵尸疣猪兽"
+    },
+    {
+      "en": "spawn zombie",
+      "raw": "刷怪蛋|生成僵尸",
+      "link": "刷怪蛋",
+      "zh": "生成僵尸"
+    },
+    {
+      "en": "spawn zombie horse",
+      "raw": "刷怪蛋|生成僵尸马",
+      "link": "刷怪蛋",
+      "zh": "生成僵尸马"
+    },
+    {
+      "en": "spawn zombie villager",
+      "raw": "刷怪蛋|生成僵尸村民",
+      "link": "刷怪蛋",
+      "zh": "生成僵尸村民"
+    },
+    {
+      "en": "spawn zombified piglin",
+      "raw": "刷怪蛋|生成僵尸猪灵",
+      "link": "刷怪蛋",
+      "zh": "生成僵尸猪灵"
+    },
+    {
+      "en": "lingering long mundane potion",
+      "raw": "长久平凡药水|滞留型长久平凡药水",
+      "link": "长久平凡药水",
+      "zh": "滞留型长久平凡药水"
+    },
+    {
+      "en": "long mundane potion",
+      "raw": "长久平凡药水",
+      "link": "长久平凡药水",
+      "zh": "长久平凡药水"
+    },
+    {
+      "en": "splash long mundane potion",
+      "raw": "长久平凡药水|喷溅型长久平凡药水",
+      "link": "长久平凡药水",
+      "zh": "喷溅型长久平凡药水"
+    },
+    {
+      "en": "copper horn",
+      "raw": "铜制号角",
+      "link": "铜制号角",
+      "zh": "铜制号角"
+    },
+    {
+      "en": "antidote",
+      "raw": "药物|解毒剂",
+      "link": "药物",
+      "zh": "解毒剂"
+    },
+    {
+      "en": "bleach",
+      "raw": "漂白剂",
+      "link": "漂白剂",
+      "zh": "漂白剂"
+    },
+    {
+      "en": "elixir",
+      "raw": "药物|灵药",
+      "link": "药物",
+      "zh": "灵药"
+    },
+    {
+      "en": "eye drops",
+      "raw": "药物|眼药水",
+      "link": "药物",
+      "zh": "眼药水"
+    },
+    {
+      "en": "ice bomb",
+      "raw": "冰弹",
+      "link": "冰弹",
+      "zh": "冰弹"
+    },
+    {
+      "en": "medicine",
+      "raw": "药物",
+      "link": "药物",
+      "zh": "药物"
+    },
+    {
+      "en": "photo",
+      "raw": "照片",
+      "link": "照片",
+      "zh": "照片"
+    },
+    {
+      "en": "super fertilizer",
+      "raw": "超级肥料",
+      "link": "超级肥料",
+      "zh": "超级肥料"
+    },
+    {
+      "en": "tonic",
+      "raw": "药物|补药",
+      "link": "药物",
+      "zh": "补药"
+    },
+    {
+      "en": "balloon",
+      "raw": "气球",
+      "link": "气球",
+      "zh": "气球"
+    },
+    {
+      "en": "black balloon",
+      "raw": "气球|黑色气球",
+      "link": "气球",
+      "zh": "黑色气球"
+    },
+    {
+      "en": "black glow stick",
+      "raw": "荧光棒|黑色荧光棒",
+      "link": "荧光棒",
+      "zh": "黑色荧光棒"
+    },
+    {
+      "en": "black sparkler",
+      "raw": "烟花棒|黑色烟花棒",
+      "link": "烟花棒",
+      "zh": "黑色烟花棒"
+    },
+    {
+      "en": "blue balloon",
+      "raw": "气球|蓝色气球",
+      "link": "气球",
+      "zh": "蓝色气球"
+    },
+    {
+      "en": "blue glow stick",
+      "raw": "荧光棒|蓝色荧光棒",
+      "link": "荧光棒",
+      "zh": "蓝色荧光棒"
+    },
+    {
+      "en": "blue sparkler",
+      "raw": "烟花棒|蓝色烟花棒",
+      "link": "烟花棒",
+      "zh": "蓝色烟花棒"
+    },
+    {
+      "en": "brown balloon",
+      "raw": "气球|棕色气球",
+      "link": "气球",
+      "zh": "棕色气球"
+    },
+    {
+      "en": "brown glow stick",
+      "raw": "荧光棒|棕色荧光棒",
+      "link": "荧光棒",
+      "zh": "棕色荧光棒"
+    },
+    {
+      "en": "brown sparkler",
+      "raw": "烟花棒|棕色烟花棒",
+      "link": "烟花棒",
+      "zh": "棕色烟花棒"
+    },
+    {
+      "en": "cyan balloon",
+      "raw": "气球|青色气球",
+      "link": "气球",
+      "zh": "青色气球"
+    },
+    {
+      "en": "cyan glow stick",
+      "raw": "荧光棒|青色荧光棒",
+      "link": "荧光棒",
+      "zh": "青色荧光棒"
+    },
+    {
+      "en": "cyan sparkler",
+      "raw": "烟花棒|青色烟花棒",
+      "link": "烟花棒",
+      "zh": "青色烟花棒"
+    },
+    {
+      "en": "glow stick",
+      "raw": "荧光棒",
+      "link": "荧光棒",
+      "zh": "荧光棒"
+    },
+    {
+      "en": "gray balloon",
+      "raw": "气球|灰色气球",
+      "link": "气球",
+      "zh": "灰色气球"
+    },
+    {
+      "en": "gray glow stick",
+      "raw": "荧光棒|灰色荧光棒",
+      "link": "荧光棒",
+      "zh": "灰色荧光棒"
+    },
+    {
+      "en": "gray sparkler",
+      "raw": "烟花棒|灰色烟花棒",
+      "link": "烟花棒",
+      "zh": "灰色烟花棒"
+    },
+    {
+      "en": "green balloon",
+      "raw": "气球|绿色气球",
+      "link": "气球",
+      "zh": "绿色气球"
+    },
+    {
+      "en": "green glow stick",
+      "raw": "荧光棒|绿色荧光棒",
+      "link": "荧光棒",
+      "zh": "绿色荧光棒"
+    },
+    {
+      "en": "green sparkler",
+      "raw": "烟花棒|绿色烟花棒",
+      "link": "烟花棒",
+      "zh": "绿色烟花棒"
+    },
+    {
+      "en": "light blue balloon",
+      "raw": "气球|淡蓝色气球",
+      "link": "气球",
+      "zh": "淡蓝色气球"
+    },
+    {
+      "en": "light blue glow stick",
+      "raw": "荧光棒|淡蓝色荧光棒",
+      "link": "荧光棒",
+      "zh": "淡蓝色荧光棒"
+    },
+    {
+      "en": "light blue sparkler",
+      "raw": "烟花棒|淡蓝色烟花棒",
+      "link": "烟花棒",
+      "zh": "淡蓝色烟花棒"
+    },
+    {
+      "en": "light gray balloon",
+      "raw": "气球|淡灰色气球",
+      "link": "气球",
+      "zh": "淡灰色气球"
+    },
+    {
+      "en": "light gray glow stick",
+      "raw": "荧光棒|淡灰色荧光棒",
+      "link": "荧光棒",
+      "zh": "淡灰色荧光棒"
+    },
+    {
+      "en": "light gray sparkler",
+      "raw": "烟花棒|淡灰色烟花棒",
+      "link": "烟花棒",
+      "zh": "淡灰色烟花棒"
+    },
+    {
+      "en": "lime balloon",
+      "raw": "气球|黄绿色气球",
+      "link": "气球",
+      "zh": "黄绿色气球"
+    },
+    {
+      "en": "lime glow stick",
+      "raw": "荧光棒|黄绿色荧光棒",
+      "link": "荧光棒",
+      "zh": "黄绿色荧光棒"
+    },
+    {
+      "en": "lime sparkler",
+      "raw": "烟花棒|黄绿色烟花棒",
+      "link": "烟花棒",
+      "zh": "黄绿色烟花棒"
+    },
+    {
+      "en": "magenta balloon",
+      "raw": "气球|品红色气球",
+      "link": "气球",
+      "zh": "品红色气球"
+    },
+    {
+      "en": "magenta glow stick",
+      "raw": "荧光棒|品红色荧光棒",
+      "link": "荧光棒",
+      "zh": "品红色荧光棒"
+    },
+    {
+      "en": "magenta sparkler",
+      "raw": "烟花棒|品红色烟花棒",
+      "link": "烟花棒",
+      "zh": "品红色烟花棒"
+    },
+    {
+      "en": "orange balloon",
+      "raw": "气球|橙色气球",
+      "link": "气球",
+      "zh": "橙色气球"
+    },
+    {
+      "en": "orange glow stick",
+      "raw": "荧光棒|橙色荧光棒",
+      "link": "荧光棒",
+      "zh": "橙色荧光棒"
+    },
+    {
+      "en": "orange sparkler",
+      "raw": "烟花棒|橙色烟花棒",
+      "link": "烟花棒",
+      "zh": "橙色烟花棒"
+    },
+    {
+      "en": "pink balloon",
+      "raw": "气球|粉红色气球",
+      "link": "气球",
+      "zh": "粉红色气球"
+    },
+    {
+      "en": "pink glow stick",
+      "raw": "荧光棒|粉红色荧光棒",
+      "link": "荧光棒",
+      "zh": "粉红色荧光棒"
+    },
+    {
+      "en": "pink sparkler",
+      "raw": "烟花棒|粉红色烟花棒",
+      "link": "烟花棒",
+      "zh": "粉红色烟花棒"
+    },
+    {
+      "en": "purple balloon",
+      "raw": "气球|紫色气球",
+      "link": "气球",
+      "zh": "紫色气球"
+    },
+    {
+      "en": "purple glow stick",
+      "raw": "荧光棒|紫色荧光棒",
+      "link": "荧光棒",
+      "zh": "紫色荧光棒"
+    },
+    {
+      "en": "purple sparkler",
+      "raw": "烟花棒|紫色烟花棒",
+      "link": "烟花棒",
+      "zh": "紫色烟花棒"
+    },
+    {
+      "en": "red balloon",
+      "raw": "气球|红色气球",
+      "link": "气球",
+      "zh": "红色气球"
+    },
+    {
+      "en": "red glow stick",
+      "raw": "荧光棒|红色荧光棒",
+      "link": "荧光棒",
+      "zh": "红色荧光棒"
+    },
+    {
+      "en": "red sparkler",
+      "raw": "烟花棒|红色烟花棒",
+      "link": "烟花棒",
+      "zh": "红色烟花棒"
+    },
+    {
+      "en": "silver balloon",
+      "raw": "气球|银色气球",
+      "link": "气球",
+      "zh": "银色气球"
+    },
+    {
+      "en": "sparkler",
+      "raw": "烟花棒",
+      "link": "烟花棒",
+      "zh": "烟花棒"
+    },
+    {
+      "en": "white balloon",
+      "raw": "气球|白色气球",
+      "link": "气球",
+      "zh": "白色气球"
+    },
+    {
+      "en": "white glow stick",
+      "raw": "荧光棒|白色荧光棒",
+      "link": "荧光棒",
+      "zh": "白色荧光棒"
+    },
+    {
+      "en": "white sparkler",
+      "raw": "烟花棒|白色烟花棒",
+      "link": "烟花棒",
+      "zh": "白色烟花棒"
+    },
+    {
+      "en": "yellow balloon",
+      "raw": "气球|黄色气球",
+      "link": "气球",
+      "zh": "黄色气球"
+    },
+    {
+      "en": "yellow glow stick",
+      "raw": "荧光棒|黄色荧光棒",
+      "link": "荧光棒",
+      "zh": "黄色荧光棒"
+    },
+    {
+      "en": "yellow sparkler",
+      "raw": "烟花棒|黄色烟花棒",
+      "link": "烟花棒",
+      "zh": "黄色烟花棒"
+    },
+    {
+      "en": "aluminum oxide",
+      "raw": "化合物|氧化铝",
+      "link": "化合物",
+      "zh": "氧化铝"
+    },
+    {
+      "en": "ammonia",
+      "raw": "化合物|氨",
+      "link": "化合物",
+      "zh": "氨"
+    },
+    {
+      "en": "barium sulfate",
+      "raw": "化合物|硫酸钡",
+      "link": "化合物",
+      "zh": "硫酸钡"
+    },
+    {
+      "en": "benzene",
+      "raw": "化合物|苯",
+      "link": "化合物",
+      "zh": "苯"
+    },
+    {
+      "en": "boron trioxide",
+      "raw": "化合物|三氧化二硼",
+      "link": "化合物",
+      "zh": "三氧化二硼"
+    },
+    {
+      "en": "calcium bromide",
+      "raw": "化合物|溴化钙",
+      "link": "化合物",
+      "zh": "溴化钙"
+    },
+    {
+      "en": "calcium chloride",
+      "raw": "化合物|氯化钙",
+      "link": "化合物",
+      "zh": "氯化钙"
+    },
+    {
+      "en": "cerium chloride",
+      "raw": "化合物|氯化铈",
+      "link": "化合物",
+      "zh": "氯化铈"
+    },
+    {
+      "en": "chloride",
+      "raw": "化合物#氯化物|氯化物",
+      "link": "化合物#氯化物",
+      "zh": "氯化物"
+    },
+    {
+      "en": "compound",
+      "raw": "化合物",
+      "link": "化合物",
+      "zh": "化合物"
+    },
+    {
+      "en": "crude oil",
+      "raw": "化合物|原油",
+      "link": "化合物",
+      "zh": "原油"
+    },
+    {
+      "en": "garbage",
+      "raw": "化合物#废物|废物",
+      "link": "化合物#废物",
+      "zh": "废物"
+    },
+    {
+      "en": "glue",
+      "raw": "化合物|黏合剂（氰基丙烯酸酯）",
+      "link": "化合物",
+      "zh": "黏合剂（氰基丙烯酸酯）"
+    },
+    {
+      "en": "glue (cyanoacrylate)",
+      "raw": "化合物|黏合剂（氰基丙烯酸酯）",
+      "link": "化合物",
+      "zh": "黏合剂（氰基丙烯酸酯）"
+    },
+    {
+      "en": "hydrogen peroxide",
+      "raw": "化合物|过氧化氢",
+      "link": "化合物",
+      "zh": "过氧化氢"
+    },
+    {
+      "en": "hypochlorite",
+      "raw": "化合物|次氯酸盐",
+      "link": "化合物",
+      "zh": "次氯酸盐"
+    },
+    {
+      "en": "iron sulfide",
+      "raw": "化合物|硫化亚铁",
+      "link": "化合物",
+      "zh": "硫化亚铁"
+    },
+    {
+      "en": "latex",
+      "raw": "化合物|乳液",
+      "link": "化合物",
+      "zh": "乳液"
+    },
+    {
+      "en": "lithium hydride",
+      "raw": "化合物|氢化锂",
+      "link": "化合物",
+      "zh": "氢化锂"
+    },
+    {
+      "en": "luminol",
+      "raw": "化合物|鲁米诺",
+      "link": "化合物",
+      "zh": "鲁米诺"
+    },
+    {
+      "en": "lye",
+      "raw": "化合物|碱",
+      "link": "化合物",
+      "zh": "碱"
+    },
+    {
+      "en": "magnesium nitrate",
+      "raw": "化合物|硝酸镁",
+      "link": "化合物",
+      "zh": "硝酸镁"
+    },
+    {
+      "en": "magnesium oxide",
+      "raw": "化合物|氧化镁",
+      "link": "化合物",
+      "zh": "氧化镁"
+    },
+    {
+      "en": "magnesium salts",
+      "raw": "化合物|镁盐",
+      "link": "化合物",
+      "zh": "镁盐"
+    },
+    {
+      "en": "mercuric chloride",
+      "raw": "化合物|氯化汞",
+      "link": "化合物",
+      "zh": "氯化汞"
+    },
+    {
+      "en": "polyethylene",
+      "raw": "化合物|聚乙烯",
+      "link": "化合物",
+      "zh": "聚乙烯"
+    },
+    {
+      "en": "potassium chloride",
+      "raw": "化合物|氯化钾",
+      "link": "化合物",
+      "zh": "氯化钾"
+    },
+    {
+      "en": "potassium iodide",
+      "raw": "化合物|碘化钾",
+      "link": "化合物",
+      "zh": "碘化钾"
+    },
+    {
+      "en": "salt",
+      "raw": "化合物|盐",
+      "link": "化合物",
+      "zh": "盐"
+    },
+    {
+      "en": "soap",
+      "raw": "化合物|肥皂",
+      "link": "化合物",
+      "zh": "肥皂"
+    },
+    {
+      "en": "sodium acetate",
+      "raw": "化合物|乙酸钠",
+      "link": "化合物",
+      "zh": "乙酸钠"
+    },
+    {
+      "en": "sodium fluoride",
+      "raw": "化合物|氟化钠",
+      "link": "化合物",
+      "zh": "氟化钠"
+    },
+    {
+      "en": "sodium hydride",
+      "raw": "化合物|氢化钠",
+      "link": "化合物",
+      "zh": "氢化钠"
+    },
+    {
+      "en": "sodium hypochlorite",
+      "raw": "化合物|次氯酸钠",
+      "link": "化合物",
+      "zh": "次氯酸钠"
+    },
+    {
+      "en": "sodium oxide",
+      "raw": "化合物|氧化钠",
+      "link": "化合物",
+      "zh": "氧化钠"
+    },
+    {
+      "en": "sulfate",
+      "raw": "化合物|硫酸盐",
+      "link": "化合物",
+      "zh": "硫酸盐"
+    },
+    {
+      "en": "tungsten chloride",
+      "raw": "化合物|六氯化钨",
+      "link": "化合物",
+      "zh": "六氯化钨"
+    },
+    {
+      "en": "water (compound)",
+      "raw": "化合物|水（化合物）",
+      "link": "化合物",
+      "zh": "水（化合物）"
+    }
+  ],
+  "EffectSprite": [
+    {
+      "en": "Fatal Poison",
+      "raw": "中毒（致命）",
+      "link": "中毒（致命）",
+      "zh": "中毒（致命）"
+    }
+  ],
+  "EntitySprite": [
+    {
+      "en": "Agent",
+      "raw": "智能体",
+      "link": "智能体",
+      "zh": "智能体"
+    },
+    {
+      "en": "NPC",
+      "raw": "NPC",
+      "link": "NPC",
+      "zh": "NPC"
+    },
+    {
+      "en": "Dangerous Wither Skull",
+      "raw": "凋灵之首|蓝色凋灵之首",
+      "link": "凋灵之首",
+      "zh": "蓝色凋灵之首"
+    },
+    {
+      "en": "Elder Guardian Ghost",
+      "raw": "远古守卫者幽灵",
+      "link": "远古守卫者幽灵",
+      "zh": "远古守卫者幽灵"
+    },
+    {
+      "en": "Firefly",
+      "raw": "萤火虫",
+      "link": "萤火虫",
+      "zh": "萤火虫"
+    },
+    {
+      "en": "Learn to Code Mascot",
+      "raw": "代码学习吉祥物",
+      "link": "代码学习吉祥物",
+      "zh": "代码学习吉祥物"
+    },
+    {
+      "en": "Primed Underwater TNT",
+      "raw": "水下TNT|被激活的水下TNT",
+      "link": "水下TNT",
+      "zh": "被激活的水下TNT"
+    },
+    {
+      "en": "Tripod Camera",
+      "raw": "摄像机|三脚架摄像机",
+      "link": "摄像机",
+      "zh": "三脚架摄像机"
+    }
+  ]
+}

@@ -1,0 +1,1324 @@
+{
+  "_root": [
+    {
+      "en": "acacia",
+      "raw": "金合欢树",
+      "link": "金合欢树",
+      "zh": "金合欢树"
+    },
+    {
+      "en": "amethyst geode",
+      "raw": "紫晶洞",
+      "link": "紫晶洞",
+      "zh": "紫晶洞"
+    },
+    {
+      "en": "azalea",
+      "raw": "杜鹃树",
+      "link": "杜鹃树",
+      "zh": "杜鹃树"
+    },
+    {
+      "en": "basalt column",
+      "raw": "玄武岩石柱林",
+      "link": "玄武岩石柱林",
+      "zh": "玄武岩石柱林"
+    },
+    {
+      "en": "basalt pillar",
+      "raw": "玄武岩柱",
+      "link": "玄武岩柱",
+      "zh": "玄武岩柱"
+    },
+    {
+      "en": "birch",
+      "raw": "白桦",
+      "link": "白桦",
+      "zh": "白桦"
+    },
+    {
+      "en": "blue ice",
+      "raw": "蓝冰（地物）|蓝冰",
+      "link": "蓝冰（地物）",
+      "zh": "蓝冰"
+    },
+    {
+      "en": "bonus chest",
+      "raw": "奖励箱",
+      "link": "奖励箱",
+      "zh": "奖励箱"
+    },
+    {
+      "en": "cherry blossom tree",
+      "raw": "樱花树",
+      "link": "樱花树",
+      "zh": "樱花树"
+    },
+    {
+      "en": "chorus plant",
+      "raw": "紫颂树",
+      "link": "紫颂树",
+      "zh": "紫颂树"
+    },
+    {
+      "en": "coral reef",
+      "raw": "珊瑚礁",
+      "link": "珊瑚礁",
+      "zh": "珊瑚礁"
+    },
+    {
+      "en": "dark oak",
+      "raw": "深色橡树",
+      "link": "深色橡树",
+      "zh": "深色橡树"
+    },
+    {
+      "en": "delta",
+      "raw": "三角洲",
+      "link": "三角洲",
+      "zh": "三角洲"
+    },
+    {
+      "en": "desert well",
+      "raw": "沙漠水井",
+      "link": "沙漠水井",
+      "zh": "沙漠水井"
+    },
+    {
+      "en": "disk",
+      "raw": "圆盘",
+      "link": "圆盘",
+      "zh": "圆盘"
+    },
+    {
+      "en": "dripstone cluster",
+      "raw": "滴水石（地物）|滴水石簇",
+      "link": "滴水石（地物）",
+      "zh": "滴水石簇"
+    },
+    {
+      "en": "dripstone",
+      "raw": "滴水石（地物）|滴水石",
+      "link": "滴水石（地物）",
+      "zh": "滴水石"
+    },
+    {
+      "en": "end gateway",
+      "raw": "末地折跃门",
+      "link": "末地折跃门",
+      "zh": "末地折跃门"
+    },
+    {
+      "en": "end island",
+      "raw": "末地浮岛",
+      "link": "末地浮岛",
+      "zh": "末地浮岛"
+    },
+    {
+      "en": "end platform",
+      "raw": "末地平台",
+      "link": "末地平台",
+      "zh": "末地平台"
+    },
+    {
+      "en": "end podium",
+      "raw": "末地祭坛",
+      "link": "末地祭坛",
+      "zh": "末地祭坛"
+    },
+    {
+      "en": "exit portal",
+      "raw": "返回传送门",
+      "link": "返回传送门",
+      "zh": "返回传送门"
+    },
+    {
+      "en": "fill layer",
+      "raw": "填充层",
+      "link": "填充层",
+      "zh": "填充层"
+    },
+    {
+      "en": "fossil",
+      "raw": "化石",
+      "link": "化石",
+      "zh": "化石"
+    },
+    {
+      "en": "freeze top layer",
+      "raw": "冰冻顶层",
+      "link": "冰冻顶层",
+      "zh": "冰冻顶层"
+    },
+    {
+      "en": "glowstone blob",
+      "raw": "荧石堆",
+      "link": "荧石堆",
+      "zh": "荧石堆"
+    },
+    {
+      "en": "huge brown mushroom",
+      "raw": "巨型蘑菇|巨型棕色蘑菇",
+      "link": "巨型蘑菇",
+      "zh": "巨型棕色蘑菇"
+    },
+    {
+      "en": "huge crimson fungus",
+      "raw": "巨型绯红菌",
+      "link": "巨型绯红菌",
+      "zh": "巨型绯红菌"
+    },
+    {
+      "en": "huge fungus",
+      "raw": "巨型下界菌",
+      "link": "巨型下界菌",
+      "zh": "巨型下界菌"
+    },
+    {
+      "en": "huge mushroom",
+      "raw": "巨型蘑菇",
+      "link": "巨型蘑菇",
+      "zh": "巨型蘑菇"
+    },
+    {
+      "en": "huge red mushroom",
+      "raw": "巨型蘑菇|巨型红色蘑菇",
+      "link": "巨型蘑菇",
+      "zh": "巨型红色蘑菇"
+    },
+    {
+      "en": "huge warped fungus",
+      "raw": "巨型诡异菌",
+      "link": "巨型诡异菌",
+      "zh": "巨型诡异菌"
+    },
+    {
+      "en": "iceberg",
+      "raw": "冰山",
+      "link": "冰山",
+      "zh": "冰山"
+    },
+    {
+      "en": "ice spike",
+      "raw": "冰刺",
+      "link": "冰刺",
+      "zh": "冰刺"
+    },
+    {
+      "en": "jungle tree",
+      "raw": "丛林树",
+      "link": "丛林树",
+      "zh": "丛林树"
+    },
+    {
+      "en": "large dripstone",
+      "raw": "滴水石（地物）|大型滴水石",
+      "link": "滴水石（地物）",
+      "zh": "大型滴水石"
+    },
+    {
+      "en": "lava lake",
+      "raw": "熔岩湖",
+      "link": "熔岩湖",
+      "zh": "熔岩湖"
+    },
+    {
+      "en": "leaf clay",
+      "raw": "多叶黏土层",
+      "link": "多叶黏土层",
+      "zh": "多叶黏土层"
+    },
+    {
+      "en": "mangrove",
+      "raw": "红树",
+      "link": "红树",
+      "zh": "红树"
+    },
+    {
+      "en": "mossy cobblestone boulder",
+      "raw": "生苔的巨石",
+      "link": "生苔的巨石",
+      "zh": "生苔的巨石"
+    },
+    {
+      "en": "oak",
+      "raw": "橡树",
+      "link": "橡树",
+      "zh": "橡树"
+    },
+    {
+      "en": "obsidian pillar",
+      "raw": "黑曜石柱",
+      "link": "黑曜石柱",
+      "zh": "黑曜石柱"
+    },
+    {
+      "en": "obsidian platform",
+      "raw": "地形特征#黑曜石平台|黑曜石平台",
+      "link": "地形特征#黑曜石平台",
+      "zh": "黑曜石平台"
+    },
+    {
+      "en": "ore",
+      "raw": "团簇|矿团",
+      "link": "团簇",
+      "zh": "矿团"
+    },
+    {
+      "en": "pale oak",
+      "raw": "苍白橡树",
+      "link": "苍白橡树",
+      "zh": "苍白橡树"
+    },
+    {
+      "en": "pile",
+      "raw": "方块堆",
+      "link": "方块堆",
+      "zh": "方块堆"
+    },
+    {
+      "en": "pointed dripstone",
+      "raw": "滴水石（地物）|滴水石锥",
+      "link": "滴水石（地物）",
+      "zh": "滴水石锥"
+    },
+    {
+      "en": "random patch",
+      "raw": "随机斑块",
+      "link": "随机斑块",
+      "zh": "随机斑块"
+    },
+    {
+      "en": "sculk patch",
+      "raw": "幽匿斑块",
+      "link": "幽匿斑块",
+      "zh": "幽匿斑块"
+    },
+    {
+      "en": "spring",
+      "raw": "涌泉",
+      "link": "涌泉",
+      "zh": "涌泉"
+    },
+    {
+      "en": "spruce",
+      "raw": "云杉",
+      "link": "云杉",
+      "zh": "云杉"
+    },
+    {
+      "en": "stone platform",
+      "raw": "虚空平台|石头平台",
+      "link": "虚空平台",
+      "zh": "石头平台"
+    },
+    {
+      "en": "sulfur pool",
+      "raw": "硫黄池",
+      "link": "硫黄池",
+      "zh": "硫黄池"
+    },
+    {
+      "en": "sulfur spring",
+      "raw": "硫黄涌泉",
+      "link": "硫黄涌泉",
+      "zh": "硫黄涌泉"
+    },
+    {
+      "en": "sulfur spike",
+      "raw": "硫黄尖锥（地物）|硫黄尖锥",
+      "link": "硫黄尖锥（地物）",
+      "zh": "硫黄尖锥"
+    },
+    {
+      "en": "sulfur spike cluster",
+      "raw": "硫黄尖锥（地物）|硫黄尖锥簇",
+      "link": "硫黄尖锥（地物）",
+      "zh": "硫黄尖锥簇"
+    },
+    {
+      "en": "tree",
+      "raw": "树木",
+      "link": "树木",
+      "zh": "树木"
+    },
+    {
+      "en": "void start platform",
+      "raw": "虚空平台",
+      "link": "虚空平台",
+      "zh": "虚空平台"
+    },
+    {
+      "en": "ancient city",
+      "raw": "远古城市",
+      "link": "远古城市",
+      "zh": "远古城市"
+    },
+    {
+      "en": "abandoned camp",
+      "raw": "废弃营地",
+      "link": "废弃营地",
+      "zh": "废弃营地"
+    },
+    {
+      "en": "bastion remnant",
+      "raw": "堡垒遗迹",
+      "link": "堡垒遗迹",
+      "zh": "堡垒遗迹"
+    },
+    {
+      "en": "buried treasure",
+      "raw": "埋藏的宝藏",
+      "link": "埋藏的宝藏",
+      "zh": "埋藏的宝藏"
+    },
+    {
+      "en": "desert pyramid",
+      "raw": "沙漠神殿",
+      "link": "沙漠神殿",
+      "zh": "沙漠神殿"
+    },
+    {
+      "en": "end city",
+      "raw": "末地城",
+      "link": "末地城",
+      "zh": "末地城"
+    },
+    {
+      "en": "end portal",
+      "raw": "末地传送门",
+      "link": "末地传送门",
+      "zh": "末地传送门"
+    },
+    {
+      "en": "end ship",
+      "raw": "末地城#末地船|末地船",
+      "link": "末地城#末地船",
+      "zh": "末地船"
+    },
+    {
+      "en": "fortress",
+      "raw": "下界要塞",
+      "link": "下界要塞",
+      "zh": "下界要塞"
+    },
+    {
+      "en": "igloo",
+      "raw": "雪屋",
+      "link": "雪屋",
+      "zh": "雪屋"
+    },
+    {
+      "en": "jungle pyramid",
+      "raw": "丛林神庙",
+      "link": "丛林神庙",
+      "zh": "丛林神庙"
+    },
+    {
+      "en": "mansion",
+      "raw": "林地府邸",
+      "link": "林地府邸",
+      "zh": "林地府邸"
+    },
+    {
+      "en": "mineshaft",
+      "raw": "废弃矿井",
+      "link": "废弃矿井",
+      "zh": "废弃矿井"
+    },
+    {
+      "en": "nether fortress",
+      "raw": "下界要塞",
+      "link": "下界要塞",
+      "zh": "下界要塞"
+    },
+    {
+      "en": "nether fossil",
+      "raw": "下界化石",
+      "link": "下界化石",
+      "zh": "下界化石"
+    },
+    {
+      "en": "ocean monument",
+      "raw": "海底神殿",
+      "link": "海底神殿",
+      "zh": "海底神殿"
+    },
+    {
+      "en": "ocean ruin",
+      "raw": "海底废墟",
+      "link": "海底废墟",
+      "zh": "海底废墟"
+    },
+    {
+      "en": "pillager outpost",
+      "raw": "掠夺者前哨站",
+      "link": "掠夺者前哨站",
+      "zh": "掠夺者前哨站"
+    },
+    {
+      "en": "ruined portal",
+      "raw": "废弃传送门",
+      "link": "废弃传送门",
+      "zh": "废弃传送门"
+    },
+    {
+      "en": "shipwreck",
+      "raw": "沉船",
+      "link": "沉船",
+      "zh": "沉船"
+    },
+    {
+      "en": "stronghold",
+      "raw": "要塞",
+      "link": "要塞",
+      "zh": "要塞"
+    },
+    {
+      "en": "swamp hut",
+      "raw": "沼泽小屋",
+      "link": "沼泽小屋",
+      "zh": "沼泽小屋"
+    },
+    {
+      "en": "trail ruins",
+      "raw": "古迹废墟",
+      "link": "古迹废墟",
+      "zh": "古迹废墟"
+    },
+    {
+      "en": "trial chambers",
+      "raw": "试炼密室",
+      "link": "试炼密室",
+      "zh": "试炼密室"
+    },
+    {
+      "en": "underwater ruins",
+      "raw": "海底废墟",
+      "link": "海底废墟",
+      "zh": "海底废墟"
+    },
+    {
+      "en": "village",
+      "raw": "村庄",
+      "link": "村庄",
+      "zh": "村庄"
+    },
+    {
+      "en": "woodland mansion",
+      "raw": "林地府邸",
+      "link": "林地府邸",
+      "zh": "林地府邸"
+    },
+    {
+      "en": "aquifer",
+      "raw": "洞穴#含水层|含水层",
+      "link": "洞穴#含水层",
+      "zh": "含水层"
+    },
+    {
+      "en": "bryce pillar",
+      "raw": "地形特征#岩柱|岩柱",
+      "link": "地形特征#岩柱",
+      "zh": "岩柱"
+    },
+    {
+      "en": "cave",
+      "raw": "洞穴",
+      "link": "洞穴",
+      "zh": "洞穴"
+    },
+    {
+      "en": "cheese cave",
+      "raw": "洞穴#芝士洞穴|芝士洞穴",
+      "link": "洞穴#芝士洞穴",
+      "zh": "芝士洞穴"
+    },
+    {
+      "en": "erosion",
+      "raw": "地形特征#盆地|盆地",
+      "link": "地形特征#盆地",
+      "zh": "盆地"
+    },
+    {
+      "en": "floating island",
+      "raw": "地形特征#浮岛|浮岛",
+      "link": "地形特征#浮岛",
+      "zh": "浮岛"
+    },
+    {
+      "en": "hill",
+      "raw": "地形特征#丘陵|丘陵",
+      "link": "地形特征#丘陵",
+      "zh": "丘陵"
+    },
+    {
+      "en": "lava sea",
+      "raw": "地形特征#熔岩海|熔岩海",
+      "link": "地形特征#熔岩海",
+      "zh": "熔岩海"
+    },
+    {
+      "en": "mountain",
+      "raw": "地形特征#山脉|山脉",
+      "link": "地形特征#山脉",
+      "zh": "山脉"
+    },
+    {
+      "en": "noise cave",
+      "raw": "洞穴|噪声洞穴",
+      "link": "洞穴",
+      "zh": "噪声洞穴"
+    },
+    {
+      "en": "noodle cave",
+      "raw": "洞穴#面条洞穴|面条洞穴",
+      "link": "洞穴#面条洞穴",
+      "zh": "面条洞穴"
+    },
+    {
+      "en": "ore vein",
+      "raw": "矿脉",
+      "link": "矿脉",
+      "zh": "矿脉"
+    },
+    {
+      "en": "ravine",
+      "raw": "峡谷",
+      "link": "峡谷",
+      "zh": "峡谷"
+    },
+    {
+      "en": "spaghetti cave",
+      "raw": "洞穴#意面洞穴|意面洞穴",
+      "link": "洞穴#意面洞穴",
+      "zh": "意面洞穴"
+    },
+    {
+      "en": "underwater cave",
+      "raw": "洞穴#水下洞穴|水下洞穴",
+      "link": "洞穴#水下洞穴",
+      "zh": "水下洞穴"
+    },
+    {
+      "en": "underwater ravine",
+      "raw": "峡谷#水下峡谷|水下峡谷",
+      "link": "峡谷#水下峡谷",
+      "zh": "水下峡谷"
+    },
+    {
+      "en": "far lands",
+      "raw": "边境之地",
+      "link": "边境之地",
+      "zh": "边境之地"
+    },
+    {
+      "en": "dimension",
+      "raw": "维度",
+      "link": "维度",
+      "zh": "维度"
+    },
+    {
+      "en": "overworld",
+      "raw": "主世界",
+      "link": "主世界",
+      "zh": "主世界"
+    },
+    {
+      "en": "the end",
+      "raw": "末地",
+      "link": "末地",
+      "zh": "末地"
+    },
+    {
+      "en": "the nether",
+      "raw": "下界",
+      "link": "下界",
+      "zh": "下界"
+    },
+    {
+      "en": "the void",
+      "raw": "虚空",
+      "link": "虚空",
+      "zh": "虚空"
+    },
+    {
+      "en": "world border",
+      "raw": "世界边界",
+      "link": "世界边界",
+      "zh": "世界边界"
+    },
+    {
+      "en": "world boundary",
+      "raw": "世界界限",
+      "link": "世界界限",
+      "zh": "世界界限"
+    },
+    {
+      "en": "cloud",
+      "raw": "云",
+      "link": "云",
+      "zh": "云"
+    },
+    {
+      "en": "fog",
+      "raw": "迷雾",
+      "link": "迷雾",
+      "zh": "迷雾"
+    },
+    {
+      "en": "moon",
+      "raw": "月亮",
+      "link": "月亮",
+      "zh": "月亮"
+    },
+    {
+      "en": "stars",
+      "raw": "星星",
+      "link": "星星",
+      "zh": "星星"
+    },
+    {
+      "en": "sun",
+      "raw": "太阳",
+      "link": "太阳",
+      "zh": "太阳"
+    },
+    {
+      "en": "rain",
+      "raw": "降雨",
+      "link": "降雨",
+      "zh": "降雨"
+    },
+    {
+      "en": "snowfall",
+      "raw": "降雪",
+      "link": "降雪",
+      "zh": "降雪"
+    },
+    {
+      "en": "thunderstorm",
+      "raw": "雷暴",
+      "link": "雷暴",
+      "zh": "雷暴"
+    },
+    {
+      "en": "conduit frame",
+      "raw": "潮涌核心|潮涌核心框架",
+      "link": "潮涌核心",
+      "zh": "潮涌核心框架"
+    },
+    {
+      "en": "nether portal",
+      "raw": "下界传送门",
+      "link": "下界传送门",
+      "zh": "下界传送门"
+    },
+    {
+      "en": "abandoned mineshaft",
+      "raw": "废弃矿井",
+      "link": "废弃矿井",
+      "zh": "废弃矿井"
+    },
+    {
+      "en": "acacia tree",
+      "raw": "金合欢树",
+      "link": "金合欢树",
+      "zh": "金合欢树"
+    },
+    {
+      "en": "adventure",
+      "raw": "冒险模式",
+      "link": "冒险模式",
+      "zh": "冒险模式"
+    },
+    {
+      "en": "altitude",
+      "raw": "高度",
+      "link": "高度",
+      "zh": "高度"
+    },
+    {
+      "en": "ambience",
+      "raw": "环境音效",
+      "link": "环境音效",
+      "zh": "环境音效"
+    },
+    {
+      "en": "amplified",
+      "raw": "放大化",
+      "link": "放大化",
+      "zh": "放大化"
+    },
+    {
+      "en": "azalea tree",
+      "raw": "杜鹃树",
+      "link": "杜鹃树",
+      "zh": "杜鹃树"
+    },
+    {
+      "en": "bastion",
+      "raw": "堡垒遗迹",
+      "link": "堡垒遗迹",
+      "zh": "堡垒遗迹"
+    },
+    {
+      "en": "beacon pyramid",
+      "raw": "信标|信标金字塔",
+      "link": "信标",
+      "zh": "信标金字塔"
+    },
+    {
+      "en": "biome",
+      "raw": "生物群系",
+      "link": "生物群系",
+      "zh": "生物群系"
+    },
+    {
+      "en": "birch tree",
+      "raw": "白桦",
+      "link": "白桦",
+      "zh": "白桦"
+    },
+    {
+      "en": "block",
+      "raw": "方块",
+      "link": "方块",
+      "zh": "方块"
+    },
+    {
+      "en": "brick pyramid",
+      "raw": "红砖块金字塔",
+      "link": "红砖块金字塔",
+      "zh": "红砖块金字塔"
+    },
+    {
+      "en": "buffet mode",
+      "raw": "自选世界类型",
+      "link": "自选世界类型",
+      "zh": "自选世界类型"
+    },
+    {
+      "en": "canyon",
+      "raw": "峡谷",
+      "link": "峡谷",
+      "zh": "峡谷"
+    },
+    {
+      "en": "cherry",
+      "raw": "樱花树",
+      "link": "樱花树",
+      "zh": "樱花树"
+    },
+    {
+      "en": "chorus tree",
+      "raw": "紫颂树",
+      "link": "紫颂树",
+      "zh": "紫颂树"
+    },
+    {
+      "en": "chunk",
+      "raw": "区块",
+      "link": "区块",
+      "zh": "区块"
+    },
+    {
+      "en": "clay blob",
+      "raw": "黏土团簇",
+      "link": "黏土团簇",
+      "zh": "黏土团簇"
+    },
+    {
+      "en": "crawling",
+      "raw": "爬行",
+      "link": "爬行",
+      "zh": "爬行"
+    },
+    {
+      "en": "creative",
+      "raw": "创造模式",
+      "link": "创造模式",
+      "zh": "创造模式"
+    },
+    {
+      "en": "creaking pale oak",
+      "raw": "嘎枝苍白橡树",
+      "link": "嘎枝苍白橡树",
+      "zh": "嘎枝苍白橡树"
+    },
+    {
+      "en": "custom",
+      "raw": "自定义",
+      "link": "自定义",
+      "zh": "自定义"
+    },
+    {
+      "en": "customized",
+      "raw": "自定义",
+      "link": "自定义",
+      "zh": "自定义"
+    },
+    {
+      "en": "dark oak tree",
+      "raw": "深色橡树",
+      "link": "深色橡树",
+      "zh": "深色橡树"
+    },
+    {
+      "en": "day night cycle",
+      "raw": "昼夜更替",
+      "link": "昼夜更替",
+      "zh": "昼夜更替"
+    },
+    {
+      "en": "daylight cycle",
+      "raw": "昼夜更替",
+      "link": "昼夜更替",
+      "zh": "昼夜更替"
+    },
+    {
+      "en": "debug mode",
+      "raw": "调试模式",
+      "link": "调试模式",
+      "zh": "调试模式"
+    },
+    {
+      "en": "default",
+      "raw": "世界预设#默认|默认",
+      "link": "世界预设#默认",
+      "zh": "默认"
+    },
+    {
+      "en": "desert temple",
+      "raw": "沙漠神殿",
+      "link": "沙漠神殿",
+      "zh": "沙漠神殿"
+    },
+    {
+      "en": "dungeon",
+      "raw": "地牢",
+      "link": "地牢",
+      "zh": "地牢"
+    },
+    {
+      "en": "enchanting library",
+      "raw": "附魔台|附魔用图书馆",
+      "link": "附魔台",
+      "zh": "附魔用图书馆"
+    },
+    {
+      "en": "entities",
+      "raw": "实体",
+      "link": "实体",
+      "zh": "实体"
+    },
+    {
+      "en": "entity",
+      "raw": "实体",
+      "link": "实体",
+      "zh": "实体"
+    },
+    {
+      "en": "explosion",
+      "raw": "爆炸",
+      "link": "爆炸",
+      "zh": "爆炸"
+    },
+    {
+      "en": "flat all dimensions",
+      "raw": "全維度平坦",
+      "link": "全維度平坦",
+      "zh": "全維度平坦"
+    },
+    {
+      "en": "fluid",
+      "raw": "液体|流体",
+      "link": "液体",
+      "zh": "流体"
+    },
+    {
+      "en": "glass pillars",
+      "raw": "玻璃柱",
+      "link": "玻璃柱",
+      "zh": "玻璃柱"
+    },
+    {
+      "en": "glowstone cluster",
+      "raw": "荧石堆",
+      "link": "荧石堆",
+      "zh": "荧石堆"
+    },
+    {
+      "en": "indev house",
+      "raw": "Indev房子",
+      "link": "Indev房子",
+      "zh": "Indev房子"
+    },
+    {
+      "en": "item",
+      "raw": "物品",
+      "link": "物品",
+      "zh": "物品"
+    },
+    {
+      "en": "jungle temple",
+      "raw": "丛林神庙",
+      "link": "丛林神庙",
+      "zh": "丛林神庙"
+    },
+    {
+      "en": "lake",
+      "raw": "Java版已移除特性#湖泊和大型湖泊|湖",
+      "link": "Java版已移除特性#湖泊和大型湖泊",
+      "zh": "湖"
+    },
+    {
+      "en": "large biomes",
+      "raw": "巨型生物群系",
+      "link": "巨型生物群系",
+      "zh": "巨型生物群系"
+    },
+    {
+      "en": "lava aquifer",
+      "raw": "洞穴#含水层|含水层",
+      "link": "洞穴#含水层",
+      "zh": "含水层"
+    },
+    {
+      "en": "lava ocean",
+      "raw": "地形特征#熔岩海|熔岩海",
+      "link": "地形特征#熔岩海",
+      "zh": "熔岩海"
+    },
+    {
+      "en": "lava spring",
+      "raw": "涌泉",
+      "link": "涌泉",
+      "zh": "涌泉"
+    },
+    {
+      "en": "liquid",
+      "raw": "液体",
+      "link": "液体",
+      "zh": "液体"
+    },
+    {
+      "en": "mangrove tree",
+      "raw": "红树",
+      "link": "红树",
+      "zh": "红树"
+    },
+    {
+      "en": "mob",
+      "raw": "生物",
+      "link": "生物",
+      "zh": "生物"
+    },
+    {
+      "en": "monolith",
+      "raw": "Java版已移除特性#独石柱|独石柱",
+      "link": "Java版已移除特性#独石柱",
+      "zh": "独石柱"
+    },
+    {
+      "en": "music",
+      "raw": "音乐",
+      "link": "音乐",
+      "zh": "音乐"
+    },
+    {
+      "en": "nether reactor",
+      "raw": "下界反应器",
+      "link": "下界反应器",
+      "zh": "下界反应器"
+    },
+    {
+      "en": "oak tree",
+      "raw": "橡树",
+      "link": "橡树",
+      "zh": "橡树"
+    },
+    {
+      "en": "obsidian wall",
+      "raw": "黑曜石墙",
+      "link": "黑曜石墙",
+      "zh": "黑曜石墙"
+    },
+    {
+      "en": "pale oak tree",
+      "raw": "苍白橡树",
+      "link": "苍白橡树",
+      "zh": "苍白橡树"
+    },
+    {
+      "en": "poplar",
+      "raw": "杨树",
+      "link": "杨树",
+      "zh": "杨树"
+    },
+    {
+      "en": "projectile",
+      "raw": "弹射物",
+      "link": "弹射物",
+      "zh": "弹射物"
+    },
+    {
+      "en": "renewable resource",
+      "raw": "可再生资源",
+      "link": "可再生资源",
+      "zh": "可再生资源"
+    },
+    {
+      "en": "sitting",
+      "raw": "坐",
+      "link": "坐",
+      "zh": "坐"
+    },
+    {
+      "en": "sky dimension",
+      "raw": "天域",
+      "link": "天域",
+      "zh": "天域"
+    },
+    {
+      "en": "single biome",
+      "raw": "单一生物群系",
+      "link": "单一生物群系",
+      "zh": "单一生物群系"
+    },
+    {
+      "en": "sneaking",
+      "raw": "潜行",
+      "link": "潜行",
+      "zh": "潜行"
+    },
+    {
+      "en": "spectator",
+      "raw": "旁观模式",
+      "link": "旁观模式",
+      "zh": "旁观模式"
+    },
+    {
+      "en": "sprinting",
+      "raw": "疾跑",
+      "link": "疾跑",
+      "zh": "疾跑"
+    },
+    {
+      "en": "spruce tree",
+      "raw": "云杉",
+      "link": "云杉",
+      "zh": "云杉"
+    },
+    {
+      "en": "superflat",
+      "raw": "超平坦世界|超平坦",
+      "link": "超平坦世界",
+      "zh": "超平坦"
+    },
+    {
+      "en": "survival",
+      "raw": "生存模式",
+      "link": "生存模式",
+      "zh": "生存模式"
+    },
+    {
+      "en": "swimming",
+      "raw": "游泳",
+      "link": "游泳",
+      "zh": "游泳"
+    },
+    {
+      "en": "water lake",
+      "raw": "Java版已移除特性#湖泊和大型湖泊|湖泊",
+      "link": "Java版已移除特性#湖泊和大型湖泊",
+      "zh": "湖泊"
+    },
+    {
+      "en": "weather",
+      "raw": "天气",
+      "link": "天气",
+      "zh": "天气"
+    },
+    {
+      "en": "witch hut",
+      "raw": "沼泽小屋|女巫小屋",
+      "link": "沼泽小屋",
+      "zh": "女巫小屋"
+    },
+    {
+      "en": "village desert",
+      "raw": "村庄|沙漠村莊",
+      "link": "村庄",
+      "zh": "沙漠村莊"
+    },
+    {
+      "en": "desert village",
+      "raw": "村庄|沙漠村莊",
+      "link": "村庄",
+      "zh": "沙漠村莊"
+    },
+    {
+      "en": "village plains",
+      "raw": "村庄|平原村莊",
+      "link": "村庄",
+      "zh": "平原村莊"
+    },
+    {
+      "en": "plains village",
+      "raw": "村庄|平原村莊",
+      "link": "村庄",
+      "zh": "平原村莊"
+    },
+    {
+      "en": "village savanna",
+      "raw": "村庄|莽原村莊",
+      "link": "村庄",
+      "zh": "莽原村莊"
+    },
+    {
+      "en": "savanna village",
+      "raw": "村庄|莽原村莊",
+      "link": "村庄",
+      "zh": "莽原村莊"
+    },
+    {
+      "en": "village snowy",
+      "raw": "村庄|雪原村莊",
+      "link": "村庄",
+      "zh": "雪原村莊"
+    },
+    {
+      "en": "snowy village",
+      "raw": "村庄|雪原村莊",
+      "link": "村庄",
+      "zh": "雪原村莊"
+    },
+    {
+      "en": "village taiga",
+      "raw": "村庄|針葉林村莊",
+      "link": "村庄",
+      "zh": "針葉林村莊"
+    },
+    {
+      "en": "taiga village",
+      "raw": "村庄|針葉林村莊",
+      "link": "村庄",
+      "zh": "針葉林村莊"
+    },
+    {
+      "en": "monument",
+      "raw": "海底神殿",
+      "link": "海底神殿",
+      "zh": "海底神殿"
+    },
+    {
+      "en": "abandoned camp bamboo jungle",
+      "raw": "废弃营地|竹林废弃营地",
+      "link": "废弃营地",
+      "zh": "竹林废弃营地"
+    },
+    {
+      "en": "abandoned camp birch forest",
+      "raw": "废弃营地|桦木森林废弃营地",
+      "link": "废弃营地",
+      "zh": "桦木森林废弃营地"
+    },
+    {
+      "en": "abandoned camp cherry grove",
+      "raw": "废弃营地|樱花树林废弃营地",
+      "link": "废弃营地",
+      "zh": "樱花树林废弃营地"
+    },
+    {
+      "en": "abandoned camp dappled forest",
+      "raw": "废弃营地|斑驳森林废弃营地",
+      "link": "废弃营地",
+      "zh": "斑驳森林废弃营地"
+    },
+    {
+      "en": "abandoned camp flower forest",
+      "raw": "废弃营地|繁花森林废弃营地",
+      "link": "废弃营地",
+      "zh": "繁花森林废弃营地"
+    },
+    {
+      "en": "abandoned camp forest",
+      "raw": "废弃营地|森林废弃营地",
+      "link": "废弃营地",
+      "zh": "森林废弃营地"
+    },
+    {
+      "en": "abandoned camp meadow",
+      "raw": "废弃营地|草甸废弃营地",
+      "link": "废弃营地",
+      "zh": "草甸废弃营地"
+    },
+    {
+      "en": "abandoned camp old growth birch forest",
+      "raw": "废弃营地|原始桦木森林废弃营地",
+      "link": "废弃营地",
+      "zh": "原始桦木森林废弃营地"
+    },
+    {
+      "en": "abandoned camp old growth pine taiga",
+      "raw": "废弃营地|原始松木针叶林废弃营地",
+      "link": "废弃营地",
+      "zh": "原始松木针叶林废弃营地"
+    },
+    {
+      "en": "abandoned camp old growth spruce taiga",
+      "raw": "废弃营地|原始云杉针叶林废弃营地",
+      "link": "废弃营地",
+      "zh": "原始云杉针叶林废弃营地"
+    },
+    {
+      "en": "abandoned camp pale garden",
+      "raw": "废弃营地|苍白之园废弃营地",
+      "link": "废弃营地",
+      "zh": "苍白之园废弃营地"
+    },
+    {
+      "en": "abandoned camp savanna",
+      "raw": "废弃营地|热带草原废弃营地",
+      "link": "废弃营地",
+      "zh": "热带草原废弃营地"
+    },
+    {
+      "en": "abandoned camp snowy taiga",
+      "raw": "废弃营地|积雪针叶林废弃营地",
+      "link": "废弃营地",
+      "zh": "积雪针叶林废弃营地"
+    },
+    {
+      "en": "abandoned camp sparse jungle",
+      "raw": "废弃营地|稀疏丛林废弃营地",
+      "link": "废弃营地",
+      "zh": "稀疏丛林废弃营地"
+    },
+    {
+      "en": "abandoned camp swamp",
+      "raw": "废弃营地|沼泽废弃营地",
+      "link": "废弃营地",
+      "zh": "沼泽废弃营地"
+    },
+    {
+      "en": "abandoned camp taiga",
+      "raw": "废弃营地|针叶林废弃营地",
+      "link": "废弃营地",
+      "zh": "针叶林废弃营地"
+    },
+    {
+      "en": "abandoned camp windswept forest",
+      "raw": "废弃营地|风袭森林废弃营地",
+      "link": "废弃营地",
+      "zh": "风袭森林废弃营地"
+    },
+    {
+      "en": "abandoned camp wooded badlands",
+      "raw": "废弃营地|疏林恶地废弃营地",
+      "link": "废弃营地",
+      "zh": "疏林恶地废弃营地"
+    }
+  ]
+}

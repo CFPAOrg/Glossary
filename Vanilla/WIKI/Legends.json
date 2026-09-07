@@ -1,0 +1,1036 @@
+{
+  "LegendsEntitySprite": [
+    {
+      "en": "first",
+      "raw": "首领",
+      "link": "首领",
+      "zh": "首领"
+    },
+    {
+      "en": "frontline",
+      "raw": "近战生物",
+      "link": "近战生物",
+      "zh": "近战生物"
+    },
+    {
+      "en": "ranged",
+      "raw": "远程生物",
+      "link": "远程生物",
+      "zh": "远程生物"
+    },
+    {
+      "en": "special",
+      "raw": "特殊生物",
+      "link": "特殊生物",
+      "zh": "特殊生物"
+    },
+    {
+      "en": "allay",
+      "raw": "悦灵",
+      "link": "悦灵",
+      "zh": "悦灵"
+    },
+    {
+      "en": "badger",
+      "raw": "獾",
+      "link": "獾",
+      "zh": "獾"
+    },
+    {
+      "en": "build allay",
+      "raw": "悦灵|建造型悦灵",
+      "link": "悦灵",
+      "zh": "建造型悦灵"
+    },
+    {
+      "en": "cat",
+      "raw": "猫",
+      "link": "猫",
+      "zh": "猫"
+    },
+    {
+      "en": "chicken",
+      "raw": "鸡",
+      "link": "鸡",
+      "zh": "鸡"
+    },
+    {
+      "en": "fox",
+      "raw": "狐狸",
+      "link": "狐狸",
+      "zh": "狐狸"
+    },
+    {
+      "en": "gather allay",
+      "raw": "悦灵|收集型悦灵",
+      "link": "悦灵",
+      "zh": "收集型悦灵"
+    },
+    {
+      "en": "llama",
+      "raw": "羊驼",
+      "link": "羊驼",
+      "zh": "羊驼"
+    },
+    {
+      "en": "marmot",
+      "raw": "土拨鼠",
+      "link": "土拨鼠",
+      "zh": "土拨鼠"
+    },
+    {
+      "en": "ocelot",
+      "raw": "豹猫",
+      "link": "豹猫",
+      "zh": "豹猫"
+    },
+    {
+      "en": "pig",
+      "raw": "猪",
+      "link": "猪",
+      "zh": "猪"
+    },
+    {
+      "en": "rabbit",
+      "raw": "兔子",
+      "link": "兔子",
+      "zh": "兔子"
+    },
+    {
+      "en": "turtle",
+      "raw": "海龟",
+      "link": "海龟",
+      "zh": "海龟"
+    },
+    {
+      "en": "villager",
+      "raw": "村民",
+      "link": "村民",
+      "zh": "村民"
+    },
+    {
+      "en": "wolf",
+      "raw": "狼",
+      "link": "狼",
+      "zh": "狼"
+    },
+    {
+      "en": "big beak",
+      "raw": "巨喙",
+      "link": "巨喙",
+      "zh": "巨喙"
+    },
+    {
+      "en": "brilliant beetle",
+      "raw": "辉煌甲虫",
+      "link": "辉煌甲虫",
+      "zh": "辉煌甲虫"
+    },
+    {
+      "en": "fearless frog",
+      "raw": "无畏青蛙",
+      "link": "无畏青蛙",
+      "zh": "无畏青蛙"
+    },
+    {
+      "en": "horse",
+      "raw": "马",
+      "link": "马",
+      "zh": "马"
+    },
+    {
+      "en": "regal tiger",
+      "raw": "帝王虎",
+      "link": "帝王虎",
+      "zh": "帝王虎"
+    },
+    {
+      "en": "cobblestone golem",
+      "raw": "圆石傀儡",
+      "link": "圆石傀儡",
+      "zh": "圆石傀儡"
+    },
+    {
+      "en": "creeper",
+      "raw": "苦力怕",
+      "link": "苦力怕",
+      "zh": "苦力怕"
+    },
+    {
+      "en": "grindstone golem",
+      "raw": "磨石傀儡",
+      "link": "磨石傀儡",
+      "zh": "磨石傀儡"
+    },
+    {
+      "en": "mossy golem",
+      "raw": "青苔傀儡",
+      "link": "青苔傀儡",
+      "zh": "青苔傀儡"
+    },
+    {
+      "en": "plank golem",
+      "raw": "木板傀儡",
+      "link": "木板傀儡",
+      "zh": "木板傀儡"
+    },
+    {
+      "en": "skeleton",
+      "raw": "骷髅",
+      "link": "骷髅",
+      "zh": "骷髅"
+    },
+    {
+      "en": "warrior",
+      "raw": "战士",
+      "link": "战士",
+      "zh": "战士"
+    },
+    {
+      "en": "witch",
+      "raw": "女巫",
+      "link": "女巫",
+      "zh": "女巫"
+    },
+    {
+      "en": "zombie",
+      "raw": "僵尸",
+      "link": "僵尸",
+      "zh": "僵尸"
+    },
+    {
+      "en": "first of brick",
+      "raw": "砖石之首",
+      "link": "砖石之首",
+      "zh": "砖石之首"
+    },
+    {
+      "en": "first of diorite",
+      "raw": "闪长岩之首",
+      "link": "闪长岩之首",
+      "zh": "闪长岩之首"
+    },
+    {
+      "en": "first of oak",
+      "raw": "橡树之首",
+      "link": "橡树之首",
+      "zh": "橡树之首"
+    },
+    {
+      "en": "first of stone",
+      "raw": "巨石之首",
+      "link": "巨石之首",
+      "zh": "巨石之首"
+    },
+    {
+      "en": "action",
+      "raw": "行动",
+      "link": "行动",
+      "zh": "行动"
+    },
+    {
+      "en": "foresight",
+      "raw": "远见",
+      "link": "远见",
+      "zh": "远见"
+    },
+    {
+      "en": "knowledge",
+      "raw": "学识",
+      "link": "学识",
+      "zh": "学识"
+    },
+    {
+      "en": "blaze runt",
+      "raw": "烈焰猪儒",
+      "link": "烈焰猪儒",
+      "zh": "烈焰猪儒"
+    },
+    {
+      "en": "brute",
+      "raw": "鬼面兽",
+      "link": "鬼面兽",
+      "zh": "鬼面兽"
+    },
+    {
+      "en": "clanger",
+      "raw": "冲锋兵",
+      "link": "冲锋兵",
+      "zh": "冲锋兵"
+    },
+    {
+      "en": "lava launcher",
+      "raw": "熔岩发射器",
+      "link": "熔岩发射器",
+      "zh": "熔岩发射器"
+    },
+    {
+      "en": "mace runt",
+      "raw": "狼牙棒猪儒",
+      "link": "狼牙棒猪儒",
+      "zh": "狼牙棒猪儒"
+    },
+    {
+      "en": "magma cube",
+      "raw": "岩浆怪",
+      "link": "岩浆怪",
+      "zh": "岩浆怪"
+    },
+    {
+      "en": "piglin builder",
+      "raw": "猪灵建造者",
+      "link": "猪灵建造者",
+      "zh": "猪灵建造者"
+    },
+    {
+      "en": "pigmadillo",
+      "raw": "疯猪",
+      "link": "疯猪",
+      "zh": "疯猪"
+    },
+    {
+      "en": "portal guard",
+      "raw": "传送门守卫",
+      "link": "传送门守卫",
+      "zh": "传送门守卫"
+    },
+    {
+      "en": "seeker",
+      "raw": "探索者",
+      "link": "探索者",
+      "zh": "探索者"
+    },
+    {
+      "en": "spore medic",
+      "raw": "孢子医生",
+      "link": "孢子医生",
+      "zh": "孢子医生"
+    },
+    {
+      "en": "sporeback",
+      "raw": "孢背兽",
+      "link": "孢背兽",
+      "zh": "孢背兽"
+    },
+    {
+      "en": "warboar",
+      "raw": "战猪",
+      "link": "战猪",
+      "zh": "战猪"
+    },
+    {
+      "en": "the great hog",
+      "raw": "猪灵王",
+      "link": "猪灵王",
+      "zh": "猪灵王"
+    },
+    {
+      "en": "the beast",
+      "raw": "野兽",
+      "link": "野兽",
+      "zh": "野兽"
+    },
+    {
+      "en": "the devourer",
+      "raw": "暴食蛮猪",
+      "link": "暴食蛮猪",
+      "zh": "暴食蛮猪"
+    },
+    {
+      "en": "the unbreakable",
+      "raw": "不败盾山",
+      "link": "不败盾山",
+      "zh": "不败盾山"
+    },
+    {
+      "en": "butterfly",
+      "raw": "蝴蝶",
+      "link": "蝴蝶",
+      "zh": "蝴蝶"
+    },
+    {
+      "en": "dragonfly",
+      "raw": "蜻蜓",
+      "link": "蜻蜓",
+      "zh": "蜻蜓"
+    },
+    {
+      "en": "spider",
+      "raw": "蜘蛛",
+      "link": "蜘蛛",
+      "zh": "蜘蛛"
+    }
+  ],
+  "LegendsStructureSprite": [
+    {
+      "en": "arrow tower",
+      "raw": "箭塔",
+      "link": "箭塔",
+      "zh": "箭塔"
+    },
+    {
+      "en": "battle drum",
+      "raw": "战鼓",
+      "link": "战鼓",
+      "zh": "战鼓"
+    },
+    {
+      "en": "blast tower",
+      "raw": "炮塔",
+      "link": "炮塔",
+      "zh": "炮塔"
+    },
+    {
+      "en": "carpenter hut",
+      "raw": "木匠小屋",
+      "link": "木匠小屋",
+      "zh": "木匠小屋"
+    },
+    {
+      "en": "cauldron",
+      "raw": "炼药锅",
+      "link": "炼药锅",
+      "zh": "炼药锅"
+    },
+    {
+      "en": "extendable wall",
+      "raw": "可伸缩城墙",
+      "link": "可伸缩城墙",
+      "zh": "可伸缩城墙"
+    },
+    {
+      "en": "frost tower",
+      "raw": "霜冻塔",
+      "link": "霜冻塔",
+      "zh": "霜冻塔"
+    },
+    {
+      "en": "gate",
+      "raw": "城门",
+      "link": "城门",
+      "zh": "城门"
+    },
+    {
+      "en": "ice trap",
+      "raw": "寒冰陷阱",
+      "link": "寒冰陷阱",
+      "zh": "寒冰陷阱"
+    },
+    {
+      "en": "kaboomery",
+      "raw": "爆炸仓",
+      "link": "爆炸仓",
+      "zh": "爆炸仓"
+    },
+    {
+      "en": "lapis flag",
+      "raw": "青金石旗帜",
+      "link": "青金石旗帜",
+      "zh": "青金石旗帜"
+    },
+    {
+      "en": "masonry",
+      "raw": "石材场",
+      "link": "石材场",
+      "zh": "石材场"
+    },
+    {
+      "en": "protector tower",
+      "raw": "保护塔",
+      "link": "保护塔",
+      "zh": "保护塔"
+    },
+    {
+      "en": "ramp",
+      "raw": "斜坡道",
+      "link": "斜坡道",
+      "zh": "斜坡道"
+    },
+    {
+      "en": "redstone launcher",
+      "raw": "红石发射器",
+      "link": "红石发射器",
+      "zh": "红石发射器"
+    },
+    {
+      "en": "scatter tower",
+      "raw": "散射塔",
+      "link": "散射塔",
+      "zh": "散射塔"
+    },
+    {
+      "en": "spyglass overlook",
+      "raw": "瞭望塔",
+      "link": "瞭望塔",
+      "zh": "瞭望塔"
+    },
+    {
+      "en": "stun tower",
+      "raw": "击昏塔",
+      "link": "击昏塔",
+      "zh": "击昏塔"
+    },
+    {
+      "en": "wellhouse",
+      "raw": "井楼",
+      "link": "井楼",
+      "zh": "井楼"
+    },
+    {
+      "en": "cobblestone golem spawner",
+      "raw": "圆石傀儡生成器",
+      "link": "圆石傀儡生成器",
+      "zh": "圆石傀儡生成器"
+    },
+    {
+      "en": "creeper spawner",
+      "raw": "苦力怕生成器",
+      "link": "苦力怕生成器",
+      "zh": "苦力怕生成器"
+    },
+    {
+      "en": "first of brick spawner",
+      "raw": "砖石之首生成器",
+      "link": "砖石之首生成器",
+      "zh": "砖石之首生成器"
+    },
+    {
+      "en": "first of diorite spawner",
+      "raw": "闪长岩之首生成器",
+      "link": "闪长岩之首生成器",
+      "zh": "闪长岩之首生成器"
+    },
+    {
+      "en": "first of oak spawner",
+      "raw": "橡树之首生成器",
+      "link": "橡树之首生成器",
+      "zh": "橡树之首生成器"
+    },
+    {
+      "en": "first of stone spawner",
+      "raw": "巨石之首生成器",
+      "link": "巨石之首生成器",
+      "zh": "巨石之首生成器"
+    },
+    {
+      "en": "grindstone golem spawner",
+      "raw": "磨石傀儡生成器",
+      "link": "磨石傀儡生成器",
+      "zh": "磨石傀儡生成器"
+    },
+    {
+      "en": "mossy golem spawner",
+      "raw": "青苔傀儡生成器",
+      "link": "青苔傀儡生成器",
+      "zh": "青苔傀儡生成器"
+    },
+    {
+      "en": "plank golem spawner",
+      "raw": "木板傀儡生成器",
+      "link": "木板傀儡生成器",
+      "zh": "木板傀儡生成器"
+    },
+    {
+      "en": "skeleton spawner",
+      "raw": "骷髅生成器",
+      "link": "骷髅生成器",
+      "zh": "骷髅生成器"
+    },
+    {
+      "en": "warrior hut",
+      "raw": "战士生成器",
+      "link": "战士生成器",
+      "zh": "战士生成器"
+    },
+    {
+      "en": "witch hut",
+      "raw": "女巫小屋",
+      "link": "女巫小屋",
+      "zh": "女巫小屋"
+    },
+    {
+      "en": "zombie spawner",
+      "raw": "僵尸生成器",
+      "link": "僵尸生成器",
+      "zh": "僵尸生成器"
+    },
+    {
+      "en": "improvement abundant allays",
+      "raw": "改进设施：大量悦灵",
+      "link": "改进设施：大量悦灵",
+      "zh": "改进设施：大量悦灵"
+    },
+    {
+      "en": "improvement allay storage",
+      "raw": "改进设施：悦灵存储",
+      "link": "改进设施：悦灵存储",
+      "zh": "改进设施：悦灵存储"
+    },
+    {
+      "en": "improvement banner",
+      "raw": "改进设施：旗帜",
+      "link": "改进设施：旗帜",
+      "zh": "改进设施：旗帜"
+    },
+    {
+      "en": "improvement build power towers",
+      "raw": "改进设施：收集能量塔",
+      "link": "改进设施：收集能量塔",
+      "zh": "改进设施：收集能量塔"
+    },
+    {
+      "en": "improvement build the firsts",
+      "raw": "改进设施：唤醒首领",
+      "link": "改进设施：唤醒首领",
+      "zh": "改进设施：唤醒首领"
+    },
+    {
+      "en": "improvement cure netherrack",
+      "raw": "改进设施：清理下界岩",
+      "link": "改进设施：清理下界岩",
+      "zh": "改进设施：清理下界岩"
+    },
+    {
+      "en": "improvement expert carpentry",
+      "raw": "改进设施：专业木工",
+      "link": "改进设施：专业木工",
+      "zh": "改进设施：专业木工"
+    },
+    {
+      "en": "improvement expert mason",
+      "raw": "改进设施：专家梅森",
+      "link": "改进设施：专家梅森",
+      "zh": "改进设施：专家梅森"
+    },
+    {
+      "en": "improvement flames of creation",
+      "raw": "改进设施：创造之火",
+      "link": "改进设施：创造之火",
+      "zh": "改进设施：创造之火"
+    },
+    {
+      "en": "improvement gather coal",
+      "raw": "改进设施：收集煤炭",
+      "link": "改进设施：收集煤炭",
+      "zh": "改进设施：收集煤炭"
+    },
+    {
+      "en": "improvement gather diamond",
+      "raw": "改进设施：收集钻石",
+      "link": "改进设施：收集钻石",
+      "zh": "改进设施：收集钻石"
+    },
+    {
+      "en": "improvement gather iron",
+      "raw": "改进设施：收集铁",
+      "link": "改进设施：收集铁",
+      "zh": "改进设施：收集铁"
+    },
+    {
+      "en": "improvement gather redstone",
+      "raw": "改进设施：收集红石",
+      "link": "改进设施：收集红石",
+      "zh": "改进设施：收集红石"
+    },
+    {
+      "en": "improvement hub",
+      "raw": "改进设施中心",
+      "link": "改进设施中心",
+      "zh": "改进设施中心"
+    },
+    {
+      "en": "improvement shared village chests",
+      "raw": "改进设施：共享村庄宝箱",
+      "link": "改进设施：共享村庄宝箱",
+      "zh": "改进设施：共享村庄宝箱"
+    },
+    {
+      "en": "homestead",
+      "raw": "家园",
+      "link": "家园",
+      "zh": "家园"
+    },
+    {
+      "en": "creeper homestead",
+      "raw": "苦力怕家园",
+      "link": "苦力怕家园",
+      "zh": "苦力怕家园"
+    },
+    {
+      "en": "skeleton homestead",
+      "raw": "骷髅家园",
+      "link": "骷髅家园",
+      "zh": "骷髅家园"
+    },
+    {
+      "en": "zombie homestead",
+      "raw": "僵尸家园",
+      "link": "僵尸家园",
+      "zh": "僵尸家园"
+    },
+    {
+      "en": "village",
+      "raw": "村庄",
+      "link": "村庄",
+      "zh": "村庄"
+    },
+    {
+      "en": "well of fate",
+      "raw": "命运之井",
+      "link": "命运之井",
+      "zh": "命运之井"
+    },
+    {
+      "en": "spider homestead",
+      "raw": "蜘蛛家园",
+      "link": "蜘蛛家园",
+      "zh": "蜘蛛家园"
+    },
+    {
+      "en": "allay chest",
+      "raw": "悦灵宝箱",
+      "link": "悦灵宝箱",
+      "zh": "悦灵宝箱"
+    },
+    {
+      "en": "air chopper",
+      "raw": "空中旋转砍砸机",
+      "link": "空中旋转砍砸机",
+      "zh": "空中旋转砍砸机"
+    },
+    {
+      "en": "armored tower",
+      "raw": "装甲塔",
+      "link": "装甲塔",
+      "zh": "装甲塔"
+    },
+    {
+      "en": "blaze rod tower",
+      "raw": "烈焰棒塔",
+      "link": "烈焰棒塔",
+      "zh": "烈焰棒塔"
+    },
+    {
+      "en": "gold extractor",
+      "raw": "黄金采矿器",
+      "link": "黄金采矿器",
+      "zh": "黄金采矿器"
+    },
+    {
+      "en": "horde of the bastion",
+      "raw": "守卫族群",
+      "link": "守卫族群",
+      "zh": "守卫族群"
+    },
+    {
+      "en": "horde of the hunt",
+      "raw": "狩猎族群",
+      "link": "狩猎族群",
+      "zh": "狩猎族群"
+    },
+    {
+      "en": "horde of the spore",
+      "raw": "孢子族群",
+      "link": "孢子族群",
+      "zh": "孢子族群"
+    },
+    {
+      "en": "lava coil",
+      "raw": "熔岩绳圈",
+      "link": "熔岩绳圈",
+      "zh": "熔岩绳圈"
+    },
+    {
+      "en": "nether portal",
+      "raw": "下界传送门",
+      "link": "下界传送门",
+      "zh": "下界传送门"
+    },
+    {
+      "en": "nether spreader",
+      "raw": "下界扩散机",
+      "link": "下界扩散机",
+      "zh": "下界扩散机"
+    },
+    {
+      "en": "night beacon",
+      "raw": "夜间信标",
+      "link": "夜间信标",
+      "zh": "夜间信标"
+    },
+    {
+      "en": "patcher",
+      "raw": "修补匠",
+      "link": "修补匠",
+      "zh": "修补匠"
+    },
+    {
+      "en": "piglin base",
+      "raw": "猪灵基地",
+      "link": "猪灵基地",
+      "zh": "猪灵基地"
+    },
+    {
+      "en": "piglin cage",
+      "raw": "猪灵笼",
+      "link": "猪灵笼",
+      "zh": "猪灵笼"
+    },
+    {
+      "en": "piglin chest",
+      "raw": "猪灵宝箱",
+      "link": "猪灵宝箱",
+      "zh": "猪灵宝箱"
+    },
+    {
+      "en": "piglin gate",
+      "raw": "猪灵城门",
+      "link": "猪灵城门",
+      "zh": "猪灵城门"
+    },
+    {
+      "en": "piglin launcher",
+      "raw": "猪灵发射器",
+      "link": "猪灵发射器",
+      "zh": "猪灵发射器"
+    },
+    {
+      "en": "piglin outpost",
+      "raw": "猪灵前哨站",
+      "link": "猪灵前哨站",
+      "zh": "猪灵前哨站"
+    },
+    {
+      "en": "piglin pit",
+      "raw": "猪灵坑",
+      "link": "猪灵坑",
+      "zh": "猪灵坑"
+    },
+    {
+      "en": "piglin wall",
+      "raw": "猪灵城墙",
+      "link": "猪灵城墙",
+      "zh": "猪灵城墙"
+    },
+    {
+      "en": "siegeworks",
+      "raw": "攻城器",
+      "link": "攻城器",
+      "zh": "攻城器"
+    },
+    {
+      "en": "spike tower",
+      "raw": "尖刺塔",
+      "link": "尖刺塔",
+      "zh": "尖刺塔"
+    },
+    {
+      "en": "spore tower",
+      "raw": "孢子塔",
+      "link": "孢子塔",
+      "zh": "孢子塔"
+    },
+    {
+      "en": "terror horn",
+      "raw": "恐怖号角",
+      "link": "恐怖号角",
+      "zh": "恐怖号角"
+    }
+  ],
+  "LegendsMiscellaneousSprite": [
+    {
+      "en": "blast tower core",
+      "raw": "炮塔核心",
+      "link": "炮塔核心",
+      "zh": "炮塔核心"
+    },
+    {
+      "en": "bouncecaps",
+      "raw": "弹跳菇",
+      "link": "弹跳菇",
+      "zh": "弹跳菇"
+    },
+    {
+      "en": "coal",
+      "raw": "煤炭",
+      "link": "煤炭",
+      "zh": "煤炭"
+    },
+    {
+      "en": "diamond",
+      "raw": "钻石",
+      "link": "钻石",
+      "zh": "钻石"
+    },
+    {
+      "en": "flames of creation",
+      "raw": "创造之火",
+      "link": "创造之火",
+      "zh": "创造之火"
+    },
+    {
+      "en": "frost tower core",
+      "raw": "霜冻塔核心",
+      "link": "霜冻塔核心",
+      "zh": "霜冻塔核心"
+    },
+    {
+      "en": "geyser",
+      "raw": "间歇喷泉",
+      "link": "间歇喷泉",
+      "zh": "间歇喷泉"
+    },
+    {
+      "en": "gold",
+      "raw": "黄金",
+      "link": "黄金",
+      "zh": "黄金"
+    },
+    {
+      "en": "iron",
+      "raw": "铁",
+      "link": "铁",
+      "zh": "铁"
+    },
+    {
+      "en": "lapis",
+      "raw": "青金石",
+      "link": "青金石",
+      "zh": "青金石"
+    },
+    {
+      "en": "mud puddle",
+      "raw": "泥地水坑",
+      "link": "泥地水坑",
+      "zh": "泥地水坑"
+    },
+    {
+      "en": "piglin key",
+      "raw": "猪灵钥匙",
+      "link": "猪灵钥匙",
+      "zh": "猪灵钥匙"
+    },
+    {
+      "en": "poison vines",
+      "raw": "毒藤",
+      "link": "毒藤",
+      "zh": "毒藤"
+    },
+    {
+      "en": "prismarine",
+      "raw": "海晶石",
+      "link": "海晶石",
+      "zh": "海晶石"
+    },
+    {
+      "en": "redstone",
+      "raw": "红石",
+      "link": "红石",
+      "zh": "红石"
+    },
+    {
+      "en": "redthorn",
+      "raw": "红荆棘",
+      "link": "红荆棘",
+      "zh": "红荆棘"
+    },
+    {
+      "en": "regeneration stone",
+      "raw": "再生石",
+      "link": "再生石",
+      "zh": "再生石"
+    },
+    {
+      "en": "speed wheat",
+      "raw": "极速小麦",
+      "link": "极速小麦",
+      "zh": "极速小麦"
+    },
+    {
+      "en": "stone",
+      "raw": "石料",
+      "link": "石料",
+      "zh": "石料"
+    },
+    {
+      "en": "stun tower core",
+      "raw": "击昏塔核心",
+      "link": "击昏塔核心",
+      "zh": "击昏塔核心"
+    },
+    {
+      "en": "tar pit",
+      "raw": "焦油坑",
+      "link": "焦油坑",
+      "zh": "焦油坑"
+    },
+    {
+      "en": "wood",
+      "raw": "木材",
+      "link": "木材",
+      "zh": "木材"
+    }
+  ],
+  "LegendsBiomeSprite": [
+    {
+      "en": "badlands",
+      "raw": "荒地",
+      "link": "荒地",
+      "zh": "荒地"
+    },
+    {
+      "en": "dry savanna",
+      "raw": "干燥的草原",
+      "link": "干燥的草原",
+      "zh": "干燥的草原"
+    },
+    {
+      "en": "fatelands",
+      "raw": "命运之地",
+      "link": "命运之地",
+      "zh": "命运之地"
+    },
+    {
+      "en": "forest",
+      "raw": "森林",
+      "link": "森林",
+      "zh": "森林"
+    },
+    {
+      "en": "jagged peaks",
+      "raw": "尖峭山峰",
+      "link": "尖峭山峰",
+      "zh": "尖峭山峰"
+    },
+    {
+      "en": "jungle",
+      "raw": "丛林",
+      "link": "丛林",
+      "zh": "丛林"
+    },
+    {
+      "en": "meadow",
+      "raw": "草原",
+      "link": "草原",
+      "zh": "草原"
+    },
+    {
+      "en": "swamp",
+      "raw": "沼泽",
+      "link": "沼泽",
+      "zh": "沼泽"
+    },
+    {
+      "en": "tundra",
+      "raw": "苔原",
+      "link": "苔原",
+      "zh": "苔原"
+    },
+    {
+      "en": "ocean",
+      "raw": "海洋",
+      "link": "海洋",
+      "zh": "海洋"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "DungeonsIIEntitySprite": [
+    {
+      "en": "baby zombie",
+      "raw": "幼年僵尸",
+      "link": "幼年僵尸",
+      "zh": "幼年僵尸"
+    },
+    {
+      "en": "flame construct",
+      "raw": "Flame Construct",
+      "link": "Flame Construct",
+      "zh": "Flame Construct"
+    },
+    {
+      "en": "cave spider",
+      "raw": "洞穴蜘蛛",
+      "link": "洞穴蜘蛛",
+      "zh": "洞穴蜘蛛"
+    },
+    {
+      "en": "chicken jockey",
+      "raw": "鸡骑士",
+      "link": "鸡骑士",
+      "zh": "鸡骑士"
+    },
+    {
+      "en": "copper cube",
+      "raw": "铜方怪",
+      "link": "铜方怪",
+      "zh": "铜方怪"
+    },
+    {
+      "en": "creeper",
+      "raw": "苦力怕",
+      "link": "苦力怕",
+      "zh": "苦力怕"
+    },
+    {
+      "en": "enchanter",
+      "raw": "附魔师",
+      "link": "附魔师",
+      "zh": "附魔师"
+    },
+    {
+      "en": "geomancer",
+      "raw": "地卜师",
+      "link": "地卜师",
+      "zh": "地卜师"
+    },
+    {
+      "en": "excavator",
+      "raw": "挖掘者",
+      "link": "挖掘者",
+      "zh": "挖掘者"
+    },
+    {
+      "en": "pillager",
+      "raw": "掠夺者",
+      "link": "掠夺者",
+      "zh": "掠夺者"
+    },
+    {
+      "en": "ravager",
+      "raw": "劫掠兽",
+      "link": "劫掠兽",
+      "zh": "劫掠兽"
+    },
+    {
+      "en": "royal guard",
+      "raw": "皇家守卫",
+      "link": "皇家守卫",
+      "zh": "皇家守卫"
+    },
+    {
+      "en": "skeleton",
+      "raw": "骷髅",
+      "link": "骷髅",
+      "zh": "骷髅"
+    },
+    {
+      "en": "slime",
+      "raw": "史莱姆",
+      "link": "史莱姆",
+      "zh": "史莱姆"
+    },
+    {
+      "en": "spider",
+      "raw": "蜘蛛",
+      "link": "蜘蛛",
+      "zh": "蜘蛛"
+    },
+    {
+      "en": "spider jockey",
+      "raw": "蜘蛛骑士",
+      "link": "蜘蛛骑士",
+      "zh": "蜘蛛骑士"
+    },
+    {
+      "en": "vindicator",
+      "raw": "卫道士",
+      "link": "卫道士",
+      "zh": "卫道士"
+    },
+    {
+      "en": "zombie",
+      "raw": "僵尸",
+      "link": "僵尸",
+      "zh": "僵尸"
+    },
+    {
+      "en": "enderman",
+      "raw": "末影人",
+      "link": "末影人",
+      "zh": "末影人"
+    },
+    {
+      "en": "warden",
+      "raw": "监守者",
+      "link": "监守者",
+      "zh": "监守者"
+    },
+    {
+      "en": "copper monstrosity",
+      "raw": "铜巨兽",
+      "link": "铜巨兽",
+      "zh": "铜巨兽"
+    },
+    {
+      "en": "redstone monstrosity",
+      "raw": "红石巨兽",
+      "link": "红石巨兽",
+      "zh": "红石巨兽"
+    },
+    {
+      "en": "twisted warden",
+      "raw": "Twisted Warden",
+      "link": "Twisted Warden",
+      "zh": "Twisted Warden"
+    },
+    {
+      "en": "blub",
+      "raw": "Blub",
+      "link": "Blub",
+      "zh": "Blub"
+    }
+  ]
+}

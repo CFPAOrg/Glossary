@@ -1,0 +1,9583 @@
+{
+  "exportedAt": "2026-09-07T07:55:52.443Z",
+  "stats": {
+    "inputPairs": 1538,
+    "skipSame": 39,
+    "skipFormat": 0,
+    "skipCovered": 696,
+    "newPairs": 803,
+    "existingTerms": 1101
+  },
+  "newTerms": [
+    {
+      "en": [
+        "3rd-party"
+      ],
+      "zh": [
+        "第三方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Accept"
+      ],
+      "zh": [
+        "接受"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Account"
+      ],
+      "zh": [
+        "账户"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Active"
+      ],
+      "zh": [
+        "运行"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Activity"
+      ],
+      "zh": [
+        "动态"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "add"
+      ],
+      "zh": [
+        "添加"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Address"
+      ],
+      "zh": [
+        "地址"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Advanced"
+      ],
+      "zh": [
+        "高级"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Adventure"
+      ],
+      "zh": [
+        "冒险"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "agree"
+      ],
+      "zh": [
+        "同意"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "allow"
+      ],
+      "zh": [
+        "允许"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Already"
+      ],
+      "zh": [
+        "已"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Always"
+      ],
+      "zh": [
+        "总是"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Amethyst Bud"
+      ],
+      "zh": [
+        "紫晶芽"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Amethyst Geode"
+      ],
+      "zh": [
+        "紫晶洞"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "amount"
+      ],
+      "zh": [
+        "数量"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ancient"
+      ],
+      "zh": [
+        "远古"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ancient City"
+      ],
+      "zh": [
+        "远古城市"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Angrily"
+      ],
+      "zh": [
+        "愤怒地"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Animal"
+      ],
+      "zh": [
+        "动物"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Animals"
+      ],
+      "zh": [
+        "动物"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Another"
+      ],
+      "zh": [
+        "另一"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Apply"
+      ],
+      "zh": [
+        "应用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Aquifer"
+      ],
+      "zh": [
+        "含水层"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Are you sure you want to"
+      ],
+      "zh": [
+        "你确定要……吗"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Area"
+      ],
+      "zh": [
+        "区域"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Argument"
+      ],
+      "zh": [
+        "参数"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Armor Trim"
+      ],
+      "zh": [
+        "盔甲纹饰"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Array"
+      ],
+      "zh": [
+        "数组"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Arthropod"
+      ],
+      "zh": [
+        "节肢动物"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Asset"
+      ],
+      "zh": [
+        "资产"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Attack"
+      ],
+      "zh": [
+        "攻击"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Attribute"
+      ],
+      "zh": [
+        "属性"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Author"
+      ],
+      "zh": [
+        "作者"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "automagically"
+      ],
+      "zh": [
+        "自动"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Automatically"
+      ],
+      "zh": [
+        "自动地"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Autosave"
+      ],
+      "zh": [
+        "自动保存"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Available"
+      ],
+      "zh": [
+        "可用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Average"
+      ],
+      "zh": [
+        "平均"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Azalea"
+      ],
+      "zh": [
+        "杜鹃花"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Backup"
+      ],
+      "zh": [
+        "备份"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ban"
+      ],
+      "zh": [
+        "封禁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Base"
+      ],
+      "zh": [
+        "基础"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Base Dexter Canton"
+      ],
+      "zh": [
+        "右底方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Base Sinister Canton"
+      ],
+      "zh": [
+        "左底…方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Basin"
+      ],
+      "zh": [
+        "盆地"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Bastion Remnant"
+      ],
+      "zh": [
+        "堡垒遗迹"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Behavior"
+      ],
+      "zh": [
+        "行为"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Bend"
+      ],
+      "zh": [
+        "斜条"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Bend Sinister"
+      ],
+      "zh": [
+        "左斜条"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Big"
+      ],
+      "zh": [
+        "大"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Bit"
+      ],
+      "zh": [
+        "位"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "bites"
+      ],
+      "zh": [
+        "撕咬"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Blastable"
+      ],
+      "zh": [
+        "可冶炼"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Blaze Powder"
+      ],
+      "zh": [
+        "烈焰粉"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Blob"
+      ],
+      "zh": [
+        "团簇"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Block entity"
+      ],
+      "zh": [
+        "方块实体"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Blossom"
+      ],
+      "zh": [
+        "花"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Blue Ice"
+      ],
+      "zh": [
+        "蓝冰"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Boat with Chest"
+      ],
+      "zh": [
+        "运输船"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Boolean"
+      ],
+      "zh": [
+        "布尔型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Border"
+      ],
+      "zh": [
+        "边界"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Bossbar"
+      ],
+      "zh": [
+        "Boss栏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Boundary"
+      ],
+      "zh": [
+        "边界"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Brain Coral"
+      ],
+      "zh": [
+        "脑纹珊瑚"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Break"
+      ],
+      "zh": [
+        "破"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Breath"
+      ],
+      "zh": [
+        "呼吸"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Breed"
+      ],
+      "zh": [
+        "药水"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Brew"
+      ],
+      "zh": [
+        "酿造"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Broadcast"
+      ],
+      "zh": [
+        "广播"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Brush"
+      ],
+      "zh": [
+        "刷子"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Bubble"
+      ],
+      "zh": [
+        "冒泡"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Bubble Coral"
+      ],
+      "zh": [
+        "气泡珊瑚"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Buffer"
+      ],
+      "zh": [
+        "缓冲区"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Buffet"
+      ],
+      "zh": [
+        "自选"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Bug"
+      ],
+      "zh": [
+        "漏洞"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Bug Tracker"
+      ],
+      "zh": [
+        "漏洞追踪器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Build"
+      ],
+      "zh": [
+        "建造"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Build Height Limit"
+      ],
+      "zh": [
+        "建筑高度限制"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Buried Treasure"
+      ],
+      "zh": [
+        "埋藏的宝藏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Buy"
+      ],
+      "zh": [
+        "购买"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Byte"
+      ],
+      "zh": [
+        "字节"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Camera"
+      ],
+      "zh": [
+        "相机"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Cancel"
+      ],
+      "zh": [
+        "取消"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Cannot"
+      ],
+      "zh": [
+        "不能"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Canton"
+      ],
+      "zh": [
+        "方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Canyon"
+      ],
+      "zh": [
+        "峡谷"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Capitals"
+      ],
+      "zh": [
+        "大写"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Cartography Table"
+      ],
+      "zh": [
+        "制图台"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Category"
+      ],
+      "zh": [
+        "类型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Caution"
+      ],
+      "zh": [
+        "警告"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "cave spider"
+      ],
+      "zh": [
+        "洞穴蜘蛛"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Cave Vine"
+      ],
+      "zh": [
+        "洞穴藤蔓"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Chain"
+      ],
+      "zh": [
+        "锁链"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Chain Command Block"
+      ],
+      "zh": [
+        "连锁型命令方块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Chair"
+      ],
+      "zh": [
+        "椅子"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Challenge"
+      ],
+      "zh": [
+        "挑战"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Character"
+      ],
+      "zh": [
+        "字符"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "charge"
+      ],
+      "zh": [
+        "充能"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Cheat"
+      ],
+      "zh": [
+        "作弊"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "cheers"
+      ],
+      "zh": [
+        "欢呼"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Chevron"
+      ],
+      "zh": [
+        "三角"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Chief"
+      ],
+      "zh": [
+        "顶"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Chief Dexter Canton"
+      ],
+      "zh": [
+        "右顶方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Chief Sinister Canton"
+      ],
+      "zh": [
+        "左顶方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Child"
+      ],
+      "zh": [
+        "儿童"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "chirps"
+      ],
+      "zh": [
+        "啾啾"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Choose"
+      ],
+      "zh": [
+        "选择"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Chorus Flower"
+      ],
+      "zh": [
+        "紫颂花"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Chorus Plant"
+      ],
+      "zh": [
+        "紫颂植株"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Chunks"
+      ],
+      "zh": [
+        "区块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "clangs"
+      ],
+      "zh": [
+        "碰擦"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "clanks"
+      ],
+      "zh": [
+        "铿锵"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Classic"
+      ],
+      "zh": [
+        "经典"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "clear"
+      ],
+      "zh": [
+        "清空"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Click"
+      ],
+      "zh": [
+        "点击"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "clicks"
+      ],
+      "zh": [
+        "咔哒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "clinks"
+      ],
+      "zh": [
+        "叮当"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Clipboard"
+      ],
+      "zh": [
+        "剪切板",
+        "剪贴板"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Close"
+      ],
+      "zh": [
+        "关闭"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Cloud"
+      ],
+      "zh": [
+        "云"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Clouds"
+      ],
+      "zh": [
+        "云"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Cold"
+      ],
+      "zh": [
+        "冷"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Collect"
+      ],
+      "zh": [
+        "收集"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Collision Rule"
+      ],
+      "zh": [
+        "碰撞规则"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Color"
+      ],
+      "zh": [
+        "颜色"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Comment"
+      ],
+      "zh": [
+        "留言"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Component"
+      ],
+      "zh": [
+        "组件"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Compound"
+      ],
+      "zh": [
+        "复合类型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Concrete Powder"
+      ],
+      "zh": [
+        "混凝土粉末"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Configure"
+      ],
+      "zh": [
+        "配置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Connect"
+      ],
+      "zh": [
+        "连接"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Connection"
+      ],
+      "zh": [
+        "连接"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Console"
+      ],
+      "zh": [
+        "控制台"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Container"
+      ],
+      "zh": [
+        "容器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Continue"
+      ],
+      "zh": [
+        "继续"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Converting"
+      ],
+      "zh": [
+        "转换;转化"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Copy"
+      ],
+      "zh": [
+        "复制",
+        "重建"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Coral Fan"
+      ],
+      "zh": [
+        "珊瑚扇"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Coral Reef"
+      ],
+      "zh": [
+        "珊瑚礁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Corner"
+      ],
+      "zh": [
+        "角落"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Corruption"
+      ],
+      "zh": [
+        "损坏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Count"
+      ],
+      "zh": [
+        "数量"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Country Lode, Take Me Home"
+      ],
+      "zh": [
+        "天涯共此石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Crab"
+      ],
+      "zh": [
+        "螃蟹"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "crackles"
+      ],
+      "zh": [
+        "噼啪作响"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Craft"
+      ],
+      "zh": [
+        "合成"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Crash"
+      ],
+      "zh": [
+        "崩溃"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Creaking Heart"
+      ],
+      "zh": [
+        "嘎枝之心"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Create"
+      ],
+      "zh": [
+        "创建"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Creative"
+      ],
+      "zh": [
+        "创造"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Creative mode"
+      ],
+      "zh": [
+        "创造"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Creeper Charge"
+      ],
+      "zh": [
+        "苦力怕盾徽"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Crimson Stem"
+      ],
+      "zh": [
+        "绯红菌柄"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Criterion"
+      ],
+      "zh": [
+        "条件"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Crying Obsidian"
+      ],
+      "zh": [
+        "哭泣的黑曜石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Current"
+      ],
+      "zh": [
+        "当前"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Curse"
+      ],
+      "zh": [
+        "诅咒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Custom"
+      ],
+      "zh": [
+        "自定义"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Customization"
+      ],
+      "zh": [
+        "自定义"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Customize"
+      ],
+      "zh": [
+        "自定义"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Customized"
+      ],
+      "zh": [
+        "自定义"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Cycle"
+      ],
+      "zh": [
+        "循环"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Damage"
+      ],
+      "zh": [
+        "伤害"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Data"
+      ],
+      "zh": [
+        "数据"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Data Pack"
+      ],
+      "zh": [
+        "数据包"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Data Tag Name"
+      ],
+      "zh": [
+        "数据标签名"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "dataTag"
+      ],
+      "zh": [
+        "数据标签"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "dataValue"
+      ],
+      "zh": [
+        "数据值"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Day"
+      ],
+      "zh": [
+        "天"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "deactivates"
+      ],
+      "zh": [
+        "失效"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Death Message"
+      ],
+      "zh": [
+        "死亡消息"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Debug"
+      ],
+      "zh": [
+        "调试"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Debug Stick"
+      ],
+      "zh": [
+        "调试棒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Deltas"
+      ],
+      "zh": [
+        "三角洲"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Demo"
+      ],
+      "zh": [
+        "试玩"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Demo Mode"
+      ],
+      "zh": [
+        "演示模式"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Deplete"
+      ],
+      "zh": [
+        "耗尽"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Depth"
+      ],
+      "zh": [
+        "深度"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Desert Pyramid"
+      ],
+      "zh": [
+        "沙漠神殿"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Desert well"
+      ],
+      "zh": [
+        "沙漠水井"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Detail"
+      ],
+      "zh": [
+        "详情"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Development"
+      ],
+      "zh": [
+        "开发"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Device"
+      ],
+      "zh": [
+        "设备"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Dexter"
+      ],
+      "zh": [
+        "右"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Dexter Canton"
+      ],
+      "zh": [
+        "右方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "die"
+      ],
+      "zh": [
+        "死亡"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Difficulty"
+      ],
+      "zh": [
+        "难度"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Dimension"
+      ],
+      "zh": [
+        "维度"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "disable"
+      ],
+      "zh": [
+        "禁用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "disabled"
+      ],
+      "zh": [
+        "禁用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Disc Fragment"
+      ],
+      "zh": [
+        "唱片残片"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Disconnect"
+      ],
+      "zh": [
+        "断开连接"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Discover"
+      ],
+      "zh": [
+        "发现"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Display Auto-update"
+      ],
+      "zh": [
+        "展示自动更新"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Display Name"
+      ],
+      "zh": [
+        "显示名称"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Display Slot"
+      ],
+      "zh": [
+        "显示位置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Distance"
+      ],
+      "zh": [
+        "距离"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "done"
+      ],
+      "zh": [
+        "完成"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Double"
+      ],
+      "zh": [
+        "双精度浮点型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Download"
+      ],
+      "zh": [
+        "下载"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Downloading"
+      ],
+      "zh": [
+        "下载中"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Dried Kelp"
+      ],
+      "zh": [
+        "干海带"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Drip"
+      ],
+      "zh": [
+        "滴"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Drop"
+      ],
+      "zh": [
+        "掉落"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Dry Grass"
+      ],
+      "zh": [
+        "枯草丛"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Dungeon"
+      ],
+      "zh": [
+        "地牢"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Durability"
+      ],
+      "zh": [
+        "耐久度"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Duration"
+      ],
+      "zh": [
+        "时间"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "eats"
+      ],
+      "zh": [
+        "进食"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Echo Shard"
+      ],
+      "zh": [
+        "回响碎片"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Edge"
+      ],
+      "zh": [
+        "边"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Effect"
+      ],
+      "zh": [
+        "效果"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Elder Guardian"
+      ],
+      "zh": [
+        "远古守卫者"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "empty"
+      ],
+      "zh": [
+        "空"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "enable"
+      ],
+      "zh": [
+        "启用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Enchanter"
+      ],
+      "zh": [
+        "附魔师"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Enchanting Table"
+      ],
+      "zh": [
+        "附魔台"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Enchantment"
+      ],
+      "zh": [
+        "魔咒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Enchantment Level"
+      ],
+      "zh": [
+        "经验等级"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Enchantment Table"
+      ],
+      "zh": [
+        "附魔台"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "End City"
+      ],
+      "zh": [
+        "末地城"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "End Crystal"
+      ],
+      "zh": [
+        "末地水晶"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "End Stone"
+      ],
+      "zh": [
+        "末地石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "End Stone Brick"
+      ],
+      "zh": [
+        "末地石砖"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ender Chest"
+      ],
+      "zh": [
+        "末影箱"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ender Pearl"
+      ],
+      "zh": [
+        "末影珍珠"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Enter"
+      ],
+      "zh": [
+        "入"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Entity"
+      ],
+      "zh": [
+        "实体"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "equips"
+      ],
+      "zh": [
+        "装备"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Eroded"
+      ],
+      "zh": [
+        "风蚀"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Error"
+      ],
+      "zh": [
+        "错误"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Evoker Fangs"
+      ],
+      "zh": [
+        "唤魔者尖牙"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Expect"
+      ],
+      "zh": [
+        "预期"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Experimental"
+      ],
+      "zh": [
+        "实验性"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft",
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Expire"
+      ],
+      "zh": [
+        "过期"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Explorer Map"
+      ],
+      "zh": [
+        "探险家地图"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Explosion"
+      ],
+      "zh": [
+        "爆炸"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Exposed"
+      ],
+      "zh": [
+        "斑驳的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Extra"
+      ],
+      "zh": [
+        "额外"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Extreme Hills"
+      ],
+      "zh": [
+        "峭壁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Fail"
+      ],
+      "zh": [
+        "失败"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Falling Block"
+      ],
+      "zh": [
+        "下落的方块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Feedback"
+      ],
+      "zh": [
+        "反馈"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Fess"
+      ],
+      "zh": [
+        "横条"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Field of View"
+      ],
+      "zh": [
+        "视场角"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "File"
+      ],
+      "zh": [
+        "文件"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Filename"
+      ],
+      "zh": [
+        "文件名"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Filtering"
+      ],
+      "zh": [
+        "过滤"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Fire Coral"
+      ],
+      "zh": [
+        "火珊瑚"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Firefly"
+      ],
+      "zh": [
+        "萤火虫"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Firework Rocket"
+      ],
+      "zh": [
+        "烟花火箭"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Fishing"
+      ],
+      "zh": [
+        "钓鱼"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Flat"
+      ],
+      "zh": [
+        "平坦"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Flesh"
+      ],
+      "zh": [
+        "肉"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Fletching Table"
+      ],
+      "zh": [
+        "制箭台"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Flight"
+      ],
+      "zh": [
+        "飞行"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Float"
+      ],
+      "zh": [
+        "浮",
+        "浮点型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Floating Island"
+      ],
+      "zh": [
+        "浮岛"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Floating Islands"
+      ],
+      "zh": [
+        "浮岛"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Flower Charge"
+      ],
+      "zh": [
+        "花朵盾徽"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Folder"
+      ],
+      "zh": [
+        "文件夹"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Foot"
+      ],
+      "zh": [
+        "脚"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "footsteps"
+      ],
+      "zh": [
+        "脚步声"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Force"
+      ],
+      "zh": [
+        "强制"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Force Load"
+      ],
+      "zh": [
+        "强制加载"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Force Loaded"
+      ],
+      "zh": [
+        "强制加载"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Force Loading"
+      ],
+      "zh": [
+        "强制加载"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Forever"
+      ],
+      "zh": [
+        "永久"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Formerly"
+      ],
+      "zh": [
+        "之前"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Fossil"
+      ],
+      "zh": [
+        "化石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Friendly Fire"
+      ],
+      "zh": [
+        "友军伤害"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Frozen"
+      ],
+      "zh": [
+        "冻"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Fullscreen"
+      ],
+      "zh": [
+        "全屏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Function"
+      ],
+      "zh": [
+        "函数"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Game Mode"
+      ],
+      "zh": [
+        "游戏模式"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Gamemode"
+      ],
+      "zh": [
+        "游戏模式"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Gamerule"
+      ],
+      "zh": [
+        "游戏规则"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Gametime"
+      ],
+      "zh": [
+        "游戏时间"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Generate"
+      ],
+      "zh": [
+        "生成"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Generator"
+      ],
+      "zh": [
+        "生成器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Give"
+      ],
+      "zh": [
+        "给予"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Glass Bottle"
+      ],
+      "zh": [
+        "玻璃瓶"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Glazed Terracotta"
+      ],
+      "zh": [
+        "带釉陶瓦"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Glow Berries"
+      ],
+      "zh": [
+        "发光浆果"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Glow Ink Sac"
+      ],
+      "zh": [
+        "荧光墨囊"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Glow Item Frame"
+      ],
+      "zh": [
+        "荧光物品展示框"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Glow Squid"
+      ],
+      "zh": [
+        "发光鱿鱼"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Goal"
+      ],
+      "zh": [
+        "目标"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Goat Horn"
+      ],
+      "zh": [
+        "山羊角"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Golden Apple"
+      ],
+      "zh": [
+        "金苹果"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Grant"
+      ],
+      "zh": [
+        "赋予"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Graphic"
+      ],
+      "zh": [
+        "画质"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Gravelly"
+      ],
+      "zh": [
+        "沙砾"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Grimstone"
+      ],
+      "zh": [
+        "阴沉石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "grunt"
+      ],
+      "zh": [
+        "呼噜"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "GUI"
+      ],
+      "zh": [
+        "界面"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hand"
+      ],
+      "zh": [
+        "手"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hanging Sign"
+      ],
+      "zh": [
+        "悬挂式告示牌"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Hardcore"
+      ],
+      "zh": [
+        "极限"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hardened Clay"
+      ],
+      "zh": [
+        "硬化黏土"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "has been set to"
+      ],
+      "zh": [
+        "已被设置为"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hatches"
+      ],
+      "zh": [
+        "孵化"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Health"
+      ],
+      "zh": [
+        "辅助功能"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Height"
+      ],
+      "zh": [
+        "高度"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Hi"
+      ],
+      "zh": [
+        "你好"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Hidden"
+      ],
+      "zh": [
+        "隐藏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "hide"
+      ],
+      "zh": [
+        "隐藏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Highlight"
+      ],
+      "zh": [
+        "高亮"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Hill"
+      ],
+      "zh": [
+        "丘陵"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hills"
+      ],
+      "zh": [
+        "丘陵"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Hitbox"
+      ],
+      "zh": [
+        "判定箱"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hive"
+      ],
+      "zh": [
+        "巢"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hold"
+      ],
+      "zh": [
+        "保持"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Hollow"
+      ],
+      "zh": [
+        "空"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Home"
+      ],
+      "zh": [
+        "家"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Horn Coral"
+      ],
+      "zh": [
+        "鹿角珊瑚"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Horse Armor"
+      ],
+      "zh": [
+        "马铠"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Hostname"
+      ],
+      "zh": [
+        "主机名"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hour"
+      ],
+      "zh": [
+        "小时"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "hums"
+      ],
+      "zh": [
+        "嗡嗡作响"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Hurt"
+      ],
+      "zh": [
+        "伤"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Iceologer"
+      ],
+      "zh": [
+        "冰术师"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Icon"
+      ],
+      "zh": [
+        "图标"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Igloo"
+      ],
+      "zh": [
+        "雪屋"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Illager"
+      ],
+      "zh": [
+        "灾厄村民"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Illager Beast"
+      ],
+      "zh": [
+        "灾厄之兽"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "incompatible"
+      ],
+      "zh": [
+        "不兼容的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Index"
+      ],
+      "zh": [
+        "索引"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Info"
+      ],
+      "zh": [
+        "信息"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Input"
+      ],
+      "zh": [
+        "输入"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Instantiate"
+      ],
+      "zh": [
+        "实例化"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Integer"
+      ],
+      "zh": [
+        "整型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Interact"
+      ],
+      "zh": [
+        "交互"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Interaction"
+      ],
+      "zh": [
+        "交互"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Invalid"
+      ],
+      "zh": [
+        "无效"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Invisible"
+      ],
+      "zh": [
+        "隐形"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Invite"
+      ],
+      "zh": [
+        "邀请"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Iron Bars"
+      ],
+      "zh": [
+        "铁栏杆"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "is now enabled"
+      ],
+      "zh": [
+        "已启用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Island"
+      ],
+      "zh": [
+        "岛屿"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Isle Land"
+      ],
+      "zh": [
+        "空岛"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Item Frame"
+      ],
+      "zh": [
+        "物品展示框"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Item Modifier"
+      ],
+      "zh": [
+        "物品修饰器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Jagged"
+      ],
+      "zh": [
+        "尖峭"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Jigsaw Block"
+      ],
+      "zh": [
+        "拼图方块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "jingles"
+      ],
+      "zh": [
+        "碰擦"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Jungle Pyramid"
+      ],
+      "zh": [
+        "丛林神庙"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Jungle Temple"
+      ],
+      "zh": [
+        "丛林神庙"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Keep"
+      ],
+      "zh": [
+        "保持"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Keypad"
+      ],
+      "zh": [
+        "小键盘"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Kick"
+      ],
+      "zh": [
+        "踢出"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "kill"
+      ],
+      "zh": [
+        "杀"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Kilometer"
+      ],
+      "zh": [
+        "千米"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Knowledge Book"
+      ],
+      "zh": [
+        "知识之书"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Lake"
+      ],
+      "zh": [
+        "湖"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Lakes"
+      ],
+      "zh": [
+        "湖泊"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "LAN"
+      ],
+      "zh": [
+        "局域网"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Large"
+      ],
+      "zh": [
+        "大"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Large Fern"
+      ],
+      "zh": [
+        "大型蕨"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Last"
+      ],
+      "zh": [
+        "最后"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Launch"
+      ],
+      "zh": [
+        "发射"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Launcher"
+      ],
+      "zh": [
+        "启动器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Lead"
+      ],
+      "zh": [
+        "栓绳"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Leaf"
+      ],
+      "zh": [
+        "树叶"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Learn"
+      ],
+      "zh": [
+        "了解"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Leash"
+      ],
+      "zh": [
+        "缰绳"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Leave"
+      ],
+      "zh": [
+        "离"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Left"
+      ],
+      "zh": [
+        "左"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Leg"
+      ],
+      "zh": [
+        "腿"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Level"
+      ],
+      "zh": [
+        "等级"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Levitation"
+      ],
+      "zh": [
+        "漂浮"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Life"
+      ],
+      "zh": [
+        "生命"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Light Block"
+      ],
+      "zh": [
+        "光源方块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Lightning"
+      ],
+      "zh": [
+        "闪电"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Limit"
+      ],
+      "zh": [
+        "限制"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Link"
+      ],
+      "zh": [
+        "链接"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "List"
+      ],
+      "zh": [
+        "列表"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Load"
+      ],
+      "zh": [
+        "加载"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Local"
+      ],
+      "zh": [
+        "本地"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Location"
+      ],
+      "zh": [
+        "位置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Lock"
+      ],
+      "zh": [
+        "锁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Log in"
+      ],
+      "zh": [
+        "登录"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Long"
+      ],
+      "zh": [
+        "长",
+        "长整型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Lukewarm"
+      ],
+      "zh": [
+        "温"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Macro"
+      ],
+      "zh": [
+        "宏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Magic"
+      ],
+      "zh": [
+        "魔法"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Magma Cream"
+      ],
+      "zh": [
+        "岩浆膏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Main"
+      ],
+      "zh": [
+        "主"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Main Hand"
+      ],
+      "zh": [
+        "主手"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mainhand"
+      ],
+      "zh": [
+        "主手"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Manage"
+      ],
+      "zh": [
+        "管理"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mannequin"
+      ],
+      "zh": [
+        "玩家模型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mark"
+      ],
+      "zh": [
+        "标记"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Marked"
+      ],
+      "zh": [
+        "标记"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Marker"
+      ],
+      "zh": [
+        "标记"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Master Volume"
+      ],
+      "zh": [
+        "主音量"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Match"
+      ],
+      "zh": [
+        "匹配"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Max"
+      ],
+      "zh": [
+        "最大"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Maximum"
+      ],
+      "zh": [
+        "最大值"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Melon Slice"
+      ],
+      "zh": [
+        "西瓜片"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Member"
+      ],
+      "zh": [
+        "成员"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Memory"
+      ],
+      "zh": [
+        "内存"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mesa"
+      ],
+      "zh": [
+        "平顶山"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Message"
+      ],
+      "zh": [
+        "消息"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Meters"
+      ],
+      "zh": [
+        "米"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Migrate"
+      ],
+      "zh": [
+        "迁移"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Millisecond"
+      ],
+      "zh": [
+        "毫秒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mine"
+      ],
+      "zh": [
+        "挖掘"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Minecart with Chest"
+      ],
+      "zh": [
+        "运输矿车"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Minecart with Spawner"
+      ],
+      "zh": [
+        "刷怪笼矿车"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Minecart with TNT"
+      ],
+      "zh": [
+        "TNT矿车"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Minecraft: Java Edition"
+      ],
+      "zh": [
+        "Minecraft：Java版"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mineshaft"
+      ],
+      "zh": [
+        "废弃矿井"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Minigame"
+      ],
+      "zh": [
+        "小游戏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Missing"
+      ],
+      "zh": [
+        "丢失"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "moans"
+      ],
+      "zh": [
+        "低鸣"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Mob"
+      ],
+      "zh": [
+        "生物"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Mod"
+      ],
+      "zh": [
+        "模组"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Modifier"
+      ],
+      "zh": [
+        "修饰符"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Modify"
+      ],
+      "zh": [
+        "修改"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mods"
+      ],
+      "zh": [
+        "模组"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Moody"
+      ],
+      "zh": [
+        "昏暗"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "More"
+      ],
+      "zh": [
+        "更多"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mossy Cobblestone Boulder"
+      ],
+      "zh": [
+        "生苔的巨石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Mountain"
+      ],
+      "zh": [
+        "山"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mountains"
+      ],
+      "zh": [
+        "山地"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Mouse"
+      ],
+      "zh": [
+        "鼠标"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Moving Block"
+      ],
+      "zh": [
+        "移动的方块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Mud Brick"
+      ],
+      "zh": [
+        "泥砖"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Multiplayer"
+      ],
+      "zh": [
+        "多人游戏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Multiplier"
+      ],
+      "zh": [
+        "乘数"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Multiplying symbol"
+      ],
+      "zh": [
+        "X"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "mumbles"
+      ],
+      "zh": [
+        "喃喃自语"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "murmurs"
+      ],
+      "zh": [
+        "咕哝"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mushroom Stem"
+      ],
+      "zh": [
+        "蘑菇柄"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Mushroom Stew"
+      ],
+      "zh": [
+        "蘑菇煲"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Music"
+      ],
+      "zh": [
+        "音乐"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Mutated"
+      ],
+      "zh": [
+        "变种"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Muuda"
+      ],
+      "zh": [
+        "编辑"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Name"
+      ],
+      "zh": [
+        "名称"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Nametag"
+      ],
+      "zh": [
+        "名称标签"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "NBT Path"
+      ],
+      "zh": [
+        "NBT路径"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Need"
+      ],
+      "zh": [
+        "需要"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "neighs"
+      ],
+      "zh": [
+        "嘶鸣"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Nether Brick"
+      ],
+      "zh": [
+        "下界砖"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Nether Fortress"
+      ],
+      "zh": [
+        "下界要塞"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Nether Sprouts"
+      ],
+      "zh": [
+        "下界苗"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Nether Wart"
+      ],
+      "zh": [
+        "下界疣"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Netherie"
+      ],
+      "zh": [
+        "锻造模板"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Netherite Block"
+      ],
+      "zh": [
+        "下界合金块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Neutral"
+      ],
+      "zh": [
+        "中立"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Never"
+      ],
+      "zh": [
+        "从不"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Night"
+      ],
+      "zh": [
+        "夜晚"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Noise"
+      ],
+      "zh": [
+        "噪声"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "None"
+      ],
+      "zh": [
+        "无"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Note"
+      ],
+      "zh": [
+        "注意"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Note Blocks"
+      ],
+      "zh": [
+        "音符盒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Nothing changed."
+      ],
+      "zh": [
+        "无变化"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Now"
+      ],
+      "zh": [
+        "现"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Object"
+      ],
+      "zh": [
+        "对象"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Objective"
+      ],
+      "zh": [
+        "记分项"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Obtain"
+      ],
+      "zh": [
+        "获得"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ocean Monument"
+      ],
+      "zh": [
+        "海底神殿"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ocean Ruins"
+      ],
+      "zh": [
+        "海底废墟"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Off Hand"
+      ],
+      "zh": [
+        "副手"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Offhand"
+      ],
+      "zh": [
+        "副手"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Offline"
+      ],
+      "zh": [
+        "离线"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Offset"
+      ],
+      "zh": [
+        "偏移"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Online"
+      ],
+      "zh": [
+        "在线"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Open"
+      ],
+      "zh": [
+        "打开"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Operator"
+      ],
+      "zh": [
+        "管理员"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Optimize"
+      ],
+      "zh": [
+        "优化"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Option"
+      ],
+      "zh": [
+        "选项"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Ore Vein"
+      ],
+      "zh": [
+        "矿脉"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Original"
+      ],
+      "zh": [
+        "原始"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Outdated"
+      ],
+      "zh": [
+        "过时"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Output"
+      ],
+      "zh": [
+        "输出"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Overflow"
+      ],
+      "zh": [
+        "溢出"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Oxidized"
+      ],
+      "zh": [
+        "氧化的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Pack"
+      ],
+      "zh": [
+        "包"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Packet"
+      ],
+      "zh": [
+        "包"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Page"
+      ],
+      "zh": [
+        "页"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pale"
+      ],
+      "zh": [
+        "竖条"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pale Dexter"
+      ],
+      "zh": [
+        "右竖条"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Pale Moss"
+      ],
+      "zh": [
+        "苍白苔藓"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Pale Sinister"
+      ],
+      "zh": [
+        "左竖条"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Parse"
+      ],
+      "zh": [
+        "解析"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Particle"
+      ],
+      "zh": [
+        "粒子"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Path"
+      ],
+      "zh": [
+        "路径"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pattern"
+      ],
+      "zh": [
+        "图案"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Pause"
+      ],
+      "zh": [
+        "暂停"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Peaks"
+      ],
+      "zh": [
+        "山峰"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Penguin"
+      ],
+      "zh": [
+        "企鹅"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Performance"
+      ],
+      "zh": [
+        "性能"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Permanently"
+      ],
+      "zh": [
+        "永久"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Permission"
+      ],
+      "zh": [
+        "权限"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Petrified Oak Slab"
+      ],
+      "zh": [
+        "石化橡木"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Photo"
+      ],
+      "zh": [
+        "相片"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pick"
+      ],
+      "zh": [
+        "选取"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "pick, pickaxe"
+      ],
+      "zh": [
+        "镐"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Piglin brute"
+      ],
+      "zh": [
+        "猪灵蛮兵"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pillager Ourpost"
+      ],
+      "zh": [
+        "掠夺者前哨站"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pine"
+      ],
+      "zh": [
+        "松树"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Place"
+      ],
+      "zh": [
+        "放置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Plateau"
+      ],
+      "zh": [
+        "高原"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Please try again later"
+      ],
+      "zh": [
+        "请稍后再试"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Point of Interest"
+      ],
+      "zh": [
+        "兴趣点"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pool"
+      ],
+      "zh": [
+        "池"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Port"
+      ],
+      "zh": [
+        "端口"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Portable Device"
+      ],
+      "zh": [
+        "便携设备"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Position"
+      ],
+      "zh": [
+        "位置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Pottery Sherds"
+      ],
+      "zh": [
+        "陶片"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Predicate"
+      ],
+      "zh": [
+        "谓词"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Prefix"
+      ],
+      "zh": [
+        "前缀"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Prepare"
+      ],
+      "zh": [
+        "准备"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Preset"
+      ],
+      "zh": [
+        "预设"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Previous"
+      ],
+      "zh": [
+        "先前的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Privacy"
+      ],
+      "zh": [
+        "隐私"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Proceed"
+      ],
+      "zh": [
+        "继续"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Profiler"
+      ],
+      "zh": [
+        "分析器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Profiling"
+      ],
+      "zh": [
+        "分析"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Property"
+      ],
+      "zh": [
+        "属性"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Public Key"
+      ],
+      "zh": [
+        "公钥"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Quill"
+      ],
+      "zh": [
+        "笔"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Quit"
+      ],
+      "zh": [
+        "退出"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Rabbit Stew"
+      ],
+      "zh": [
+        "兔肉煲"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Raider"
+      ],
+      "zh": [
+        "袭击者"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Rain"
+      ],
+      "zh": [
+        "雨"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Rainbow"
+      ],
+      "zh": [
+        "彩虹"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Random"
+      ],
+      "zh": [
+        "随机"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Randomize"
+      ],
+      "zh": [
+        "随机化"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Ravine"
+      ],
+      "zh": [
+        "峡谷"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Raw Copper"
+      ],
+      "zh": [
+        "粗铜"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Raw Gold"
+      ],
+      "zh": [
+        "粗金"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Raw Iron"
+      ],
+      "zh": [
+        "粗铁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Reach"
+      ],
+      "zh": [
+        "到达"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Read-only"
+      ],
+      "zh": [
+        "只读"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Reason"
+      ],
+      "zh": [
+        "原因"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Recipe"
+      ],
+      "zh": [
+        "配方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Recommend"
+      ],
+      "zh": [
+        "推荐"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Red Sand"
+      ],
+      "zh": [
+        "红沙"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Red Sandstone"
+      ],
+      "zh": [
+        "红砂岩"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Reject"
+      ],
+      "zh": [
+        "拒绝"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Reload"
+      ],
+      "zh": [
+        "重新加载"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Remove"
+      ],
+      "zh": [
+        "移除"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Rename"
+      ],
+      "zh": [
+        "重命名"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Render"
+      ],
+      "zh": [
+        "渲染"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Renew"
+      ],
+      "zh": [
+        "续期"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Repair"
+      ],
+      "zh": [
+        "修复"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Repeating Command Block"
+      ],
+      "zh": [
+        "循环型命令方块"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Replace"
+      ],
+      "zh": [
+        "替换"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Reporting"
+      ],
+      "zh": [
+        "举报"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Require"
+      ],
+      "zh": [
+        "需要"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Requirement"
+      ],
+      "zh": [
+        "要求"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Reset"
+      ],
+      "zh": [
+        "重置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Resource"
+      ],
+      "zh": [
+        "资源"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Resource Pack"
+      ],
+      "zh": [
+        "资源包"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Respawn"
+      ],
+      "zh": [
+        "重生"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Respawn Point"
+      ],
+      "zh": [
+        "重生点"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Respawning"
+      ],
+      "zh": [
+        "重生中"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Restart"
+      ],
+      "zh": [
+        "重启"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Return to Sender"
+      ],
+      "zh": [
+        "见鬼去吧"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Revoke"
+      ],
+      "zh": [
+        "撤销"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Right"
+      ],
+      "zh": [
+        "正确"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "roars"
+      ],
+      "zh": [
+        "咆哮"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Root"
+      ],
+      "zh": [
+        "根"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Ruby"
+      ],
+      "zh": [
+        "红宝石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Ruined Portal"
+      ],
+      "zh": [
+        "废弃传送门"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Rule"
+      ],
+      "zh": [
+        "规则"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Run"
+      ],
+      "zh": [
+        "运行/跑"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Rusty"
+      ],
+      "zh": [
+        "锈蚀的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Safe"
+      ],
+      "zh": [
+        "安全"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Same"
+      ],
+      "zh": [
+        "相同"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "save"
+      ],
+      "zh": [
+        "保存"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Scale"
+      ],
+      "zh": [
+        "倍率"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Schedule"
+      ],
+      "zh": [
+        "计划"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Score"
+      ],
+      "zh": [
+        "分数"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Scoreboard"
+      ],
+      "zh": [
+        "计分板"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Scrape"
+      ],
+      "zh": [
+        "刮削"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "screeches"
+      ],
+      "zh": [
+        "尖声叫"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Screenshot"
+      ],
+      "zh": [
+        "截图"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Scroll"
+      ],
+      "zh": [
+        "滚动"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Sculk Catalyst"
+      ],
+      "zh": [
+        "幽匿催发体"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Sculk Sensor"
+      ],
+      "zh": [
+        "幽匿感测体"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sculk Shrieker"
+      ],
+      "zh": [
+        "幽匿尖啸体"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Sculk Vein"
+      ],
+      "zh": [
+        "幽匿脉络"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Search"
+      ],
+      "zh": [
+        "搜索"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "secure"
+      ],
+      "zh": [
+        "安全"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Seed"
+      ],
+      "zh": [
+        "种子"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Select"
+      ],
+      "zh": [
+        "选择"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Selected"
+      ],
+      "zh": [
+        "选中"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Selector"
+      ],
+      "zh": [
+        "选择器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sequence"
+      ],
+      "zh": [
+        "序列"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Server"
+      ],
+      "zh": [
+        "服务器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Service"
+      ],
+      "zh": [
+        "服务"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Set"
+      ],
+      "zh": [
+        "设置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Set the world border damage time to %s seconds"
+      ],
+      "zh": [
+        "已将世界边界伤害时间设置为%s秒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Setting"
+      ],
+      "zh": [
+        "设置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Settings"
+      ],
+      "zh": [
+        "设置"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Shader"
+      ],
+      "zh": [
+        "着色器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Share"
+      ],
+      "zh": [
+        "分享"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Shipwreck"
+      ],
+      "zh": [
+        "沉船"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Shoot"
+      ],
+      "zh": [
+        "射"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Shore"
+      ],
+      "zh": [
+        "岸"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Show"
+      ],
+      "zh": [
+        "显示"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Shulker Box"
+      ],
+      "zh": [
+        "潜影盒"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Shulker Bullet"
+      ],
+      "zh": [
+        "潜影弹"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Signal"
+      ],
+      "zh": [
+        "信号"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Single"
+      ],
+      "zh": [
+        "单"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Singleplayer"
+      ],
+      "zh": [
+        "单人游戏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sinister"
+      ],
+      "zh": [
+        "左"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Size"
+      ],
+      "zh": [
+        "大小"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Skeleton Horse"
+      ],
+      "zh": [
+        "骷髅马"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Skewer"
+      ],
+      "zh": [
+        "刺穿"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Skin"
+      ],
+      "zh": [
+        "皮肤"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Skip"
+      ],
+      "zh": [
+        "跳过"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Skull Charge"
+      ],
+      "zh": [
+        "头颅盾徽"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Sleep"
+      ],
+      "zh": [
+        "睡觉"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Small"
+      ],
+      "zh": [
+        "小"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Smithing Table"
+      ],
+      "zh": [
+        "锻造台"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Snapshot"
+      ],
+      "zh": [
+        "快照"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sneak 100"
+      ],
+      "zh": [
+        "潜行100级"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sniffer Egg"
+      ],
+      "zh": [
+        "嗅探兽蛋"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "sniffs"
+      ],
+      "zh": [
+        "嗅探"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "snores"
+      ],
+      "zh": [
+        "打鼾"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Snowy"
+      ],
+      "zh": [
+        "积雪的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Social"
+      ],
+      "zh": [
+        "社交"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Soon"
+      ],
+      "zh": [
+        "即将"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Soul Fire"
+      ],
+      "zh": [
+        "灵魂火"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Soul Lantern"
+      ],
+      "zh": [
+        "灵魂灯笼"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Soul Sand"
+      ],
+      "zh": [
+        "灵魂沙"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Soul Soil"
+      ],
+      "zh": [
+        "灵魂土"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Soul Torch"
+      ],
+      "zh": [
+        "灵魂火把"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sound"
+      ],
+      "zh": [
+        "声音"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Source"
+      ],
+      "zh": [
+        "源"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sparse"
+      ],
+      "zh": [
+        "稀疏的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Spawn Point"
+      ],
+      "zh": [
+        "出生点"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Spawner"
+      ],
+      "zh": [
+        "刷怪笼"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Specify"
+      ],
+      "zh": [
+        "指定"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Spectate"
+      ],
+      "zh": [
+        "旁观"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Spectator"
+      ],
+      "zh": [
+        "旁观者"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Spectator Mode"
+      ],
+      "zh": [
+        "旁观模式"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Spike"
+      ],
+      "zh": [
+        "刺"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "splashes"
+      ],
+      "zh": [
+        "溅起水花"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Spooky Scary Skeleton"
+      ],
+      "zh": [
+        "惊悚恐怖骷髅头"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Spore"
+      ],
+      "zh": [
+        "孢子"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "squeaks"
+      ],
+      "zh": [
+        "吱吱叫"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Stained Glass"
+      ],
+      "zh": [
+        "染色玻璃"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Stained Glass Pane"
+      ],
+      "zh": [
+        "染色玻璃板"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Stalactite"
+      ],
+      "zh": [
+        "钟乳石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Stalagmite"
+      ],
+      "zh": [
+        "石笋"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Star Trader"
+      ],
+      "zh": [
+        "星际商人"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "starts clicking"
+      ],
+      "zh": [
+        "开始点击"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Starve"
+      ],
+      "zh": [
+        "饿"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Status"
+      ],
+      "zh": [
+        "状态"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Stem"
+      ],
+      "zh": [
+        "菌柄"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Steps"
+      ],
+      "zh": [
+        "脚步声"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sticky"
+      ],
+      "zh": [
+        "黏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sticky Piston"
+      ],
+      "zh": [
+        "黏性活塞"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Stone Brick"
+      ],
+      "zh": [
+        "石砖"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Stone Bricks"
+      ],
+      "zh": [
+        "石砖"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Stony"
+      ],
+      "zh": [
+        "石"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Stop"
+      ],
+      "zh": [
+        "停止"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Storage"
+      ],
+      "zh": [
+        "存储"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Stronghold"
+      ],
+      "zh": [
+        "要塞"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Style"
+      ],
+      "zh": [
+        "样式"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Styling"
+      ],
+      "zh": [
+        "样式"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Subscribe"
+      ],
+      "zh": [
+        "订阅"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Subscription"
+      ],
+      "zh": [
+        "订阅"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Successfully"
+      ],
+      "zh": [
+        "成功地"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Suffix"
+      ],
+      "zh": [
+        "后缀"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Sulfur"
+      ],
+      "zh": [
+        "硫黄"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "summon"
+      ],
+      "zh": [
+        "召唤"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Superflat"
+      ],
+      "zh": [
+        "超平坦"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Support"
+      ],
+      "zh": [
+        "支持"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Survival"
+      ],
+      "zh": [
+        "生存"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Suspended"
+      ],
+      "zh": [
+        "封禁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Swamp Hut"
+      ],
+      "zh": [
+        "沼泽小屋"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Swap"
+      ],
+      "zh": [
+        "交换"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Sweet Berries"
+      ],
+      "zh": [
+        "甜浆果"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Swim"
+      ],
+      "zh": [
+        "游泳"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Switch"
+      ],
+      "zh": [
+        "切换"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Symbolic Link"
+      ],
+      "zh": [
+        "符号链接"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "System"
+      ],
+      "zh": [
+        "系统"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Tall Grass"
+      ],
+      "zh": [
+        "高草丛"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Tame"
+      ],
+      "zh": [
+        "驯服"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Target"
+      ],
+      "zh": [
+        "目标"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Team"
+      ],
+      "zh": [
+        "队伍"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Teammate"
+      ],
+      "zh": [
+        "队友"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Telemetry Data"
+      ],
+      "zh": [
+        "遥测数据"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Teleport"
+      ],
+      "zh": [
+        "传送"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Templates"
+      ],
+      "zh": [
+        "模板"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Term"
+      ],
+      "zh": [
+        "条款"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Terms of Service"
+      ],
+      "zh": [
+        "服务条款"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Terrain"
+      ],
+      "zh": [
+        "地形"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Text"
+      ],
+      "zh": [
+        "文本"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Texture"
+      ],
+      "zh": [
+        "纹理"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Texture pack"
+      ],
+      "zh": [
+        "纹理包"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "The City at the End of the Game"
+      ],
+      "zh": [
+        "在游戏尽头的城市"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "The Parrots and the Bats"
+      ],
+      "zh": [
+        "我从哪儿来？"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "There are"
+      ],
+      "zh": [
+        "有"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "They"
+      ],
+      "zh": [
+        "其"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Third-party"
+      ],
+      "zh": [
+        "第三方"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Those Were the Days"
+      ],
+      "zh": [
+        "光辉岁月"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Thunder"
+      ],
+      "zh": [
+        "雷"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Thunderstorm"
+      ],
+      "zh": [
+        "雷暴"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Tick"
+      ],
+      "zh": [
+        "刻"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Timeout"
+      ],
+      "zh": [
+        "超时"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Title"
+      ],
+      "zh": [
+        "标题"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Title Screen"
+      ],
+      "zh": [
+        "标题屏幕"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Too"
+      ],
+      "zh": [
+        "太"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Tool"
+      ],
+      "zh": [
+        "工具"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Tools"
+      ],
+      "zh": [
+        "工具"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Torch"
+      ],
+      "zh": [
+        "启用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Totem"
+      ],
+      "zh": [
+        "图腾"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Trace"
+      ],
+      "zh": [
+        "追踪"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Track"
+      ],
+      "zh": [
+        "追踪"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Tracked"
+      ],
+      "zh": [
+        "被追踪的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Trade"
+      ],
+      "zh": [
+        "交易"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Trader"
+      ],
+      "zh": [
+        "商人"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Transfer"
+      ],
+      "zh": [
+        "转移"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Translucent"
+      ],
+      "zh": [
+        "半透明"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Tree"
+      ],
+      "zh": [
+        "树"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Trial"
+      ],
+      "zh": [
+        "试用"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Trial Chamber"
+      ],
+      "zh": [
+        "试炼密室"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Trial Key"
+      ],
+      "zh": [
+        "试炼钥匙"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Trigger"
+      ],
+      "zh": [
+        "触发",
+        "触发器"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Tropical Fish"
+      ],
+      "zh": [
+        "热带鱼"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Trust"
+      ],
+      "zh": [
+        "信任"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Try"
+      ],
+      "zh": [
+        "尝试"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Tube Coral"
+      ],
+      "zh": [
+        "管珊瑚"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Tundra"
+      ],
+      "zh": [
+        "冻原"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Twinkle"
+      ],
+      "zh": [
+        "闪烁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Twisting Vine"
+      ],
+      "zh": [
+        "缠怨藤"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Type"
+      ],
+      "zh": [
+        "类型"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Unable"
+      ],
+      "zh": [
+        "无法"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Unbanned"
+      ],
+      "zh": [
+        "解封"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Unbreakable"
+      ],
+      "zh": [
+        "无法损坏"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Undead"
+      ],
+      "zh": [
+        "亡灵"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Uninvite"
+      ],
+      "zh": [
+        "取消邀请"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "unknown"
+      ],
+      "zh": [
+        "未知"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Unlocked"
+      ],
+      "zh": [
+        "已解锁"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Unmarked"
+      ],
+      "zh": [
+        "解除标记"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Unsupported"
+      ],
+      "zh": [
+        "不受支持"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Until"
+      ],
+      "zh": [
+        "直到"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Update"
+      ],
+      "zh": [
+        "更新"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Upload"
+      ],
+      "zh": [
+        "上传"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "US"
+      ],
+      "zh": [
+        "中国"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Usage"
+      ],
+      "zh": [
+        "用途"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "User"
+      ],
+      "zh": [
+        "用户"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Username"
+      ],
+      "zh": [
+        "用户名"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "uwu"
+      ],
+      "zh": [
+        "实体"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Valid"
+      ],
+      "zh": [
+        "有效"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Value"
+      ],
+      "zh": [
+        "值"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "VBO"
+      ],
+      "zh": [
+        "对象顶点预缓冲"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "VBOs"
+      ],
+      "zh": [
+        "对象顶点预缓冲"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Verify"
+      ],
+      "zh": [
+        "验证"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Version"
+      ],
+      "zh": [
+        "版本"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Vine"
+      ],
+      "zh": [
+        "藤蔓"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Virtual Machine"
+      ],
+      "zh": [
+        "虚拟机"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Visibility"
+      ],
+      "zh": [
+        "可见性"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Visible"
+      ],
+      "zh": [
+        "可见"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "VSync"
+      ],
+      "zh": [
+        "垂直同步"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Wall Hanging Sign"
+      ],
+      "zh": [
+        "墙上的悬挂式告示牌"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Warning"
+      ],
+      "zh": [
+        "警告"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Warped Stem"
+      ],
+      "zh": [
+        "诡异菌柄"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Wax"
+      ],
+      "zh": [
+        "蜡"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Weathered"
+      ],
+      "zh": [
+        "锈蚀的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Website"
+      ],
+      "zh": [
+        "网站"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Weeping Vine"
+      ],
+      "zh": [
+        "垂泪藤"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Weight"
+      ],
+      "zh": [
+        "重量"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Whatever Floats Your Goat!"
+      ],
+      "zh": [
+        "羊帆起航！"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "whilst fighting %2$s"
+      ],
+      "zh": [
+        "在与%2$s战斗时"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "whilst trying to escape %2$s"
+      ],
+      "zh": [
+        "在试图逃离%2$s时"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Whisper"
+      ],
+      "zh": [
+        "耳语"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Whitelist"
+      ],
+      "zh": [
+        "白名单"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Whitespace"
+      ],
+      "zh": [
+        "空格"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Why"
+      ],
+      "zh": [
+        "为什么"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Wide"
+      ],
+      "zh": [
+        "宽"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "will not"
+      ],
+      "zh": [
+        "将不"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Witch Hut"
+      ],
+      "zh": [
+        "女巫小屋"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Wither Rose"
+      ],
+      "zh": [
+        "凋灵玫瑰"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Wither Skull"
+      ],
+      "zh": [
+        "凋灵之首"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Wolf Armor"
+      ],
+      "zh": [
+        "狼铠"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Wood"
+      ],
+      "zh": [
+        "木头"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Wooded"
+      ],
+      "zh": [
+        "繁茂的"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Wooded Badlands"
+      ],
+      "zh": [
+        "繁茂的恶地"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "Woodland Mansion"
+      ],
+      "zh": [
+        "林地府邸"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Work"
+      ],
+      "zh": [
+        "工作"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "World Border"
+      ],
+      "zh": [
+        "世界边界"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Wraith"
+      ],
+      "zh": [
+        "幽灵"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "You may not rest now;"
+      ],
+      "zh": [
+        "你现在不能休息，"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Zombie Horse"
+      ],
+      "zh": [
+        "僵尸马"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Zombie Nautilus"
+      ],
+      "zh": [
+        "僵尸鹦鹉螺"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    },
+    {
+      "en": [
+        "Zombie Villager"
+      ],
+      "zh": [
+        "僵尸村民"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "WIP Minecraft"
+      ]
+    },
+    {
+      "en": [
+        "სარკმელი"
+      ],
+      "zh": [
+        "活板门"
+      ],
+      "source": "crowdin:glossary",
+      "glossaries": [
+        "项目术语库"
+      ]
+    }
+  ]
+}

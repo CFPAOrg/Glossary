@@ -1,0 +1,250 @@
+{
+  "_root": [
+    {
+      "en": "Absorption",
+      "raw": "伤害吸收",
+      "link": "伤害吸收",
+      "zh": "伤害吸收"
+    },
+    {
+      "en": "Bad Luck",
+      "raw": "霉运",
+      "link": "霉运",
+      "zh": "霉运"
+    },
+    {
+      "en": "Bad Omen",
+      "raw": "不祥之兆",
+      "link": "不祥之兆",
+      "zh": "不祥之兆"
+    },
+    {
+      "en": "Blindness",
+      "raw": "失明",
+      "link": "失明",
+      "zh": "失明"
+    },
+    {
+      "en": "Breath of the Nautilus",
+      "raw": "鹦鹉螺之息",
+      "link": "鹦鹉螺之息",
+      "zh": "鹦鹉螺之息"
+    },
+    {
+      "en": "Conduit Power",
+      "raw": "潮涌能量",
+      "link": "潮涌能量",
+      "zh": "潮涌能量"
+    },
+    {
+      "en": "Darkness",
+      "raw": "黑暗",
+      "link": "黑暗",
+      "zh": "黑暗"
+    },
+    {
+      "en": "Dolphin's Grace",
+      "raw": "海豚的恩惠",
+      "link": "海豚的恩惠",
+      "zh": "海豚的恩惠"
+    },
+    {
+      "en": "Fire Resistance",
+      "raw": "抗火",
+      "link": "抗火",
+      "zh": "抗火"
+    },
+    {
+      "en": "Glowing",
+      "raw": "发光",
+      "link": "发光",
+      "zh": "发光"
+    },
+    {
+      "en": "Haste",
+      "raw": "急迫",
+      "link": "急迫",
+      "zh": "急迫"
+    },
+    {
+      "en": "Health Boost",
+      "raw": "生命提升",
+      "link": "生命提升",
+      "zh": "生命提升"
+    },
+    {
+      "en": "Hero of the Village",
+      "raw": "村庄英雄",
+      "link": "村庄英雄",
+      "zh": "村庄英雄"
+    },
+    {
+      "en": "Hunger",
+      "raw": "饥饿（状态效果）|饥饿",
+      "link": "饥饿（状态效果）",
+      "zh": "饥饿"
+    },
+    {
+      "en": "Infested",
+      "raw": "寄生",
+      "link": "寄生",
+      "zh": "寄生"
+    },
+    {
+      "en": "Instant Damage",
+      "raw": "瞬间伤害",
+      "link": "瞬间伤害",
+      "zh": "瞬间伤害"
+    },
+    {
+      "en": "Instant Health",
+      "raw": "瞬间治疗",
+      "link": "瞬间治疗",
+      "zh": "瞬间治疗"
+    },
+    {
+      "en": "Invisibility",
+      "raw": "隐身",
+      "link": "隐身",
+      "zh": "隐身"
+    },
+    {
+      "en": "Jump Boost",
+      "raw": "跳跃提升",
+      "link": "跳跃提升",
+      "zh": "跳跃提升"
+    },
+    {
+      "en": "Levitation",
+      "raw": "飘浮",
+      "link": "飘浮",
+      "zh": "飘浮"
+    },
+    {
+      "en": "Luck",
+      "raw": "幸运",
+      "link": "幸运",
+      "zh": "幸运"
+    },
+    {
+      "en": "Mining Fatigue",
+      "raw": "挖掘疲劳",
+      "link": "挖掘疲劳",
+      "zh": "挖掘疲劳"
+    },
+    {
+      "en": "Nausea",
+      "raw": "反胃",
+      "link": "反胃",
+      "zh": "反胃"
+    },
+    {
+      "en": "Night Vision",
+      "raw": "夜视",
+      "link": "夜视",
+      "zh": "夜视"
+    },
+    {
+      "en": "Oozing",
+      "raw": "渗浆",
+      "link": "渗浆",
+      "zh": "渗浆"
+    },
+    {
+      "en": "Poison",
+      "raw": "中毒",
+      "link": "中毒",
+      "zh": "中毒"
+    },
+    {
+      "en": "Raid Omen",
+      "raw": "袭击之兆",
+      "link": "袭击之兆",
+      "zh": "袭击之兆"
+    },
+    {
+      "en": "Regeneration",
+      "raw": "生命恢复",
+      "link": "生命恢复",
+      "zh": "生命恢复"
+    },
+    {
+      "en": "Resistance",
+      "raw": "抗性提升",
+      "link": "抗性提升",
+      "zh": "抗性提升"
+    },
+    {
+      "en": "Saturation",
+      "raw": "饱和",
+      "link": "饱和",
+      "zh": "饱和"
+    },
+    {
+      "en": "Slowness",
+      "raw": "缓慢|緩速",
+      "link": "缓慢",
+      "zh": "緩速"
+    },
+    {
+      "en": "Slow Falling",
+      "raw": "缓降",
+      "link": "缓降",
+      "zh": "缓降"
+    },
+    {
+      "en": "Speed",
+      "raw": "迅捷",
+      "link": "迅捷",
+      "zh": "迅捷"
+    },
+    {
+      "en": "Strength",
+      "raw": "力量（状态效果）|力量",
+      "link": "力量（状态效果）",
+      "zh": "力量"
+    },
+    {
+      "en": "Trial Omen",
+      "raw": "试炼之兆",
+      "link": "试炼之兆",
+      "zh": "试炼之兆"
+    },
+    {
+      "en": "Water Breathing",
+      "raw": "水下呼吸（状态效果）|水下呼吸",
+      "link": "水下呼吸（状态效果）",
+      "zh": "水下呼吸"
+    },
+    {
+      "en": "Weakness",
+      "raw": "虚弱",
+      "link": "虚弱",
+      "zh": "虚弱"
+    },
+    {
+      "en": "Weaving",
+      "raw": "盘丝",
+      "link": "盘丝",
+      "zh": "盘丝"
+    },
+    {
+      "en": "Wind Charged",
+      "raw": "蓄风",
+      "link": "蓄风",
+      "zh": "蓄风"
+    },
+    {
+      "en": "Wither",
+      "raw": "凋零",
+      "link": "凋零",
+      "zh": "凋零"
+    },
+    {
+      "en": "Dolphins Grace",
+      "raw": "海豚的恩惠",
+      "link": "海豚的恩惠",
+      "zh": "海豚的恩惠"
+    }
+  ]
+}

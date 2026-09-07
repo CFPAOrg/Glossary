@@ -1,0 +1,4750 @@
+{
+  "_root": [
+    {
+      "en": "abandoned camp map",
+      "raw": "探险家地图|废弃营地地图",
+      "link": "探险家地图",
+      "zh": "废弃营地地图"
+    },
+    {
+      "en": "abandoned campsite map",
+      "raw": "探险家地图|废弃营地地图",
+      "link": "探险家地图",
+      "zh": "废弃营地地图"
+    },
+    {
+      "en": "acacia boat",
+      "raw": "船|金合欢木船",
+      "link": "船",
+      "zh": "金合欢木船"
+    },
+    {
+      "en": "acacia boat with chest",
+      "raw": "运输船|金合欢木运输船",
+      "link": "运输船",
+      "zh": "金合欢木运输船"
+    },
+    {
+      "en": "allay spawn egg",
+      "raw": "刷怪蛋|悦灵刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "悦灵刷怪蛋"
+    },
+    {
+      "en": "amethyst shard",
+      "raw": "紫水晶碎片",
+      "link": "紫水晶碎片",
+      "zh": "紫水晶碎片"
+    },
+    {
+      "en": "ancient city map",
+      "raw": "探险家地图|远古城市地图",
+      "link": "探险家地图",
+      "zh": "远古城市地图"
+    },
+    {
+      "en": "apple",
+      "raw": "苹果",
+      "link": "苹果",
+      "zh": "苹果"
+    },
+    {
+      "en": "angler pottery sherd",
+      "raw": "垂钓纹样陶片",
+      "link": "垂钓纹样陶片",
+      "zh": "垂钓纹样陶片"
+    },
+    {
+      "en": "archer pottery sherd",
+      "raw": "弓箭纹样陶片",
+      "link": "弓箭纹样陶片",
+      "zh": "弓箭纹样陶片"
+    },
+    {
+      "en": "armadillo scute",
+      "raw": "犰狳鳞甲",
+      "link": "犰狳鳞甲",
+      "zh": "犰狳鳞甲"
+    },
+    {
+      "en": "armadillo spawn egg",
+      "raw": "刷怪蛋|犰狳刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "犰狳刷怪蛋"
+    },
+    {
+      "en": "armor stand",
+      "raw": "盔甲架",
+      "link": "盔甲架",
+      "zh": "盔甲架"
+    },
+    {
+      "en": "arms up pottery sherd",
+      "raw": "举臂纹样陶片",
+      "link": "举臂纹样陶片",
+      "zh": "举臂纹样陶片"
+    },
+    {
+      "en": "arrow",
+      "raw": "箭",
+      "link": "箭",
+      "zh": "箭"
+    },
+    {
+      "en": "arrow loaded crossbow",
+      "raw": "弩|装填箭的弩",
+      "link": "弩",
+      "zh": "装填箭的弩"
+    },
+    {
+      "en": "arrow of decay",
+      "raw": "衰变药水|衰变之箭",
+      "link": "衰变药水",
+      "zh": "衰变之箭"
+    },
+    {
+      "en": "arrow of fire resistance",
+      "raw": "抗火药水|抗火之箭",
+      "link": "抗火药水",
+      "zh": "抗火之箭"
+    },
+    {
+      "en": "arrow of harming",
+      "raw": "伤害药水|伤害之箭",
+      "link": "伤害药水",
+      "zh": "伤害之箭"
+    },
+    {
+      "en": "arrow of healing",
+      "raw": "治疗药水|治疗之箭",
+      "link": "治疗药水",
+      "zh": "治疗之箭"
+    },
+    {
+      "en": "arrow of infestation",
+      "raw": "虫蚀药水|虫蚀之箭",
+      "link": "虫蚀药水",
+      "zh": "虫蚀之箭"
+    },
+    {
+      "en": "arrow of invisibility",
+      "raw": "隐身药水|隐身之箭",
+      "link": "隐身药水",
+      "zh": "隐身之箭"
+    },
+    {
+      "en": "arrow of leaping",
+      "raw": "跳跃药水|跳跃之箭",
+      "link": "跳跃药水",
+      "zh": "跳跃之箭"
+    },
+    {
+      "en": "arrow of levitation",
+      "raw": "飘浮药水|飘浮之箭",
+      "link": "飘浮药水",
+      "zh": "飘浮之箭"
+    },
+    {
+      "en": "arrow of luck",
+      "raw": "幸运药水|幸运之箭",
+      "link": "幸运药水",
+      "zh": "幸运之箭"
+    },
+    {
+      "en": "arrow of night vision",
+      "raw": "夜视药水|夜视之箭",
+      "link": "夜视药水",
+      "zh": "夜视之箭"
+    },
+    {
+      "en": "arrow of oozing",
+      "raw": "渗浆药水|渗浆之箭",
+      "link": "渗浆药水",
+      "zh": "渗浆之箭"
+    },
+    {
+      "en": "arrow of poison",
+      "raw": "剧毒药水|剧毒之箭",
+      "link": "剧毒药水",
+      "zh": "剧毒之箭"
+    },
+    {
+      "en": "arrow of regeneration",
+      "raw": "再生药水|再生之箭",
+      "link": "再生药水",
+      "zh": "再生之箭"
+    },
+    {
+      "en": "arrow of slow falling",
+      "raw": "缓降药水|缓降之箭",
+      "link": "缓降药水",
+      "zh": "缓降之箭"
+    },
+    {
+      "en": "arrow of slowness",
+      "raw": "迟缓药水|迟缓之箭",
+      "link": "迟缓药水",
+      "zh": "迟缓之箭"
+    },
+    {
+      "en": "arrow of splashing",
+      "raw": "水瓶|喷溅之箭",
+      "link": "水瓶",
+      "zh": "喷溅之箭"
+    },
+    {
+      "en": "arrow of strength",
+      "raw": "力量药水|力量之箭",
+      "link": "力量药水",
+      "zh": "力量之箭"
+    },
+    {
+      "en": "arrow of swiftness",
+      "raw": "迅捷药水|迅捷之箭",
+      "link": "迅捷药水",
+      "zh": "迅捷之箭"
+    },
+    {
+      "en": "arrow of the turtle master",
+      "raw": "神龟药水|神龟之箭",
+      "link": "神龟药水",
+      "zh": "神龟之箭"
+    },
+    {
+      "en": "arrow of water breathing",
+      "raw": "水肺药水|水肺之箭",
+      "link": "水肺药水",
+      "zh": "水肺之箭"
+    },
+    {
+      "en": "arrow of weakness",
+      "raw": "虚弱药水|虚弱之箭",
+      "link": "虚弱药水",
+      "zh": "虚弱之箭"
+    },
+    {
+      "en": "arrow of weaving",
+      "raw": "盘丝药水|盘丝之箭",
+      "link": "盘丝药水",
+      "zh": "盘丝之箭"
+    },
+    {
+      "en": "arrow of wind charging",
+      "raw": "蓄风药水|蓄风之箭",
+      "link": "蓄风药水",
+      "zh": "蓄风之箭"
+    },
+    {
+      "en": "awkward lingering potion",
+      "raw": "粗制的药水|滞留型粗制的药水",
+      "link": "粗制的药水",
+      "zh": "滞留型粗制的药水"
+    },
+    {
+      "en": "awkward potion",
+      "raw": "粗制的药水",
+      "link": "粗制的药水",
+      "zh": "粗制的药水"
+    },
+    {
+      "en": "awkward splash potion",
+      "raw": "粗制的药水|喷溅型粗制的药水",
+      "link": "粗制的药水",
+      "zh": "喷溅型粗制的药水"
+    },
+    {
+      "en": "axe",
+      "raw": "斧",
+      "link": "斧",
+      "zh": "斧"
+    },
+    {
+      "en": "axolotl spawn egg",
+      "raw": "刷怪蛋|美西螈刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "美西螈刷怪蛋"
+    },
+    {
+      "en": "baked potato",
+      "raw": "烤马铃薯",
+      "link": "烤马铃薯",
+      "zh": "烤马铃薯"
+    },
+    {
+      "en": "bamboo raft",
+      "raw": "船|竹筏",
+      "link": "船",
+      "zh": "竹筏"
+    },
+    {
+      "en": "bamboo raft with chest",
+      "raw": "运输船|运输竹筏",
+      "link": "运输船",
+      "zh": "运输竹筏"
+    },
+    {
+      "en": "banner pattern",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern bordure indented",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern creeper",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern creeper charge",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern field masoned",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern flow",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern flower",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern flower charge",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern globe",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern guster",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern snout",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern skull",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern skull charge",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "banner pattern thing",
+      "raw": "旗帜图案",
+      "link": "旗帜图案",
+      "zh": "旗帜图案"
+    },
+    {
+      "en": "bat spawn egg",
+      "raw": "刷怪蛋|蝙蝠刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "蝙蝠刷怪蛋"
+    },
+    {
+      "en": "bee spawn egg",
+      "raw": "刷怪蛋|蜜蜂刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "蜜蜂刷怪蛋"
+    },
+    {
+      "en": "beetroot",
+      "raw": "甜菜根",
+      "link": "甜菜根",
+      "zh": "甜菜根"
+    },
+    {
+      "en": "beetroot seeds",
+      "raw": "甜菜种子",
+      "link": "甜菜种子",
+      "zh": "甜菜种子"
+    },
+    {
+      "en": "beetroot soup",
+      "raw": "甜菜汤",
+      "link": "甜菜汤",
+      "zh": "甜菜汤"
+    },
+    {
+      "en": "birch boat",
+      "raw": "船|白桦木船",
+      "link": "船",
+      "zh": "白桦木船"
+    },
+    {
+      "en": "birch boat with chest",
+      "raw": "运输船|白桦木运输船",
+      "link": "运输船",
+      "zh": "白桦木运输船"
+    },
+    {
+      "en": "bit",
+      "raw": "23w13a_or_b#物品|比特",
+      "link": "23w13a_or_b#物品",
+      "zh": "比特"
+    },
+    {
+      "en": "black bundle",
+      "raw": "收纳袋|黑色收纳袋",
+      "link": "收纳袋",
+      "zh": "黑色收纳袋"
+    },
+    {
+      "en": "black cushion",
+      "raw": "坐垫|黑色坐垫",
+      "link": "坐垫",
+      "zh": "黑色坐垫"
+    },
+    {
+      "en": "black dye",
+      "raw": "黑色染料",
+      "link": "黑色染料",
+      "zh": "黑色染料"
+    },
+    {
+      "en": "black firework star",
+      "raw": "烟火之星|黑色烟火之星",
+      "link": "烟火之星",
+      "zh": "黑色烟火之星"
+    },
+    {
+      "en": "black harness",
+      "raw": "挽具|黑色挽具",
+      "link": "挽具",
+      "zh": "黑色挽具"
+    },
+    {
+      "en": "black shield",
+      "raw": "盾牌|黑色盾牌",
+      "link": "盾牌",
+      "zh": "黑色盾牌"
+    },
+    {
+      "en": "blade pottery sherd",
+      "raw": "利刃纹样陶片",
+      "link": "利刃纹样陶片",
+      "zh": "利刃纹样陶片"
+    },
+    {
+      "en": "blaze powder",
+      "raw": "烈焰粉",
+      "link": "烈焰粉",
+      "zh": "烈焰粉"
+    },
+    {
+      "en": "blaze rod",
+      "raw": "烈焰棒",
+      "link": "烈焰棒",
+      "zh": "烈焰棒"
+    },
+    {
+      "en": "blaze spawn egg",
+      "raw": "刷怪蛋|烈焰人刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "烈焰人刷怪蛋"
+    },
+    {
+      "en": "blue bundle",
+      "raw": "收纳袋|蓝色收纳袋",
+      "link": "收纳袋",
+      "zh": "蓝色收纳袋"
+    },
+    {
+      "en": "blue cushion",
+      "raw": "坐垫|蓝色坐垫",
+      "link": "坐垫",
+      "zh": "蓝色坐垫"
+    },
+    {
+      "en": "blue dye",
+      "raw": "蓝色染料",
+      "link": "蓝色染料",
+      "zh": "蓝色染料"
+    },
+    {
+      "en": "blue egg",
+      "raw": "鸡蛋|蓝色鸡蛋",
+      "link": "鸡蛋",
+      "zh": "蓝色鸡蛋"
+    },
+    {
+      "en": "blue firework star",
+      "raw": "烟火之星|蓝色烟火之星",
+      "link": "烟火之星",
+      "zh": "蓝色烟火之星"
+    },
+    {
+      "en": "blue harness",
+      "raw": "挽具|蓝色挽具",
+      "link": "挽具",
+      "zh": "蓝色挽具"
+    },
+    {
+      "en": "blue shield",
+      "raw": "盾牌|蓝色盾牌",
+      "link": "盾牌",
+      "zh": "蓝色盾牌"
+    },
+    {
+      "en": "boat",
+      "raw": "船",
+      "link": "船",
+      "zh": "船"
+    },
+    {
+      "en": "boat with chest",
+      "raw": "运输船",
+      "link": "运输船",
+      "zh": "运输船"
+    },
+    {
+      "en": "bogged spawn egg",
+      "raw": "刷怪蛋|沼骸刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "沼骸刷怪蛋"
+    },
+    {
+      "en": "bolt armor trim",
+      "raw": "镶铆盔甲纹饰",
+      "link": "镶铆盔甲纹饰",
+      "zh": "镶铆盔甲纹饰"
+    },
+    {
+      "en": "bolt armor trim smithing template",
+      "raw": "镶铆盔甲纹饰",
+      "link": "镶铆盔甲纹饰",
+      "zh": "镶铆盔甲纹饰"
+    },
+    {
+      "en": "bone",
+      "raw": "骨头",
+      "link": "骨头",
+      "zh": "骨头"
+    },
+    {
+      "en": "bone meal",
+      "raw": "骨粉",
+      "link": "骨粉",
+      "zh": "骨粉"
+    },
+    {
+      "en": "book",
+      "raw": "书",
+      "link": "书",
+      "zh": "书"
+    },
+    {
+      "en": "book and quill",
+      "raw": "书与笔",
+      "link": "书与笔",
+      "zh": "书与笔"
+    },
+    {
+      "en": "boots",
+      "raw": "盔甲|靴子",
+      "link": "盔甲",
+      "zh": "靴子"
+    },
+    {
+      "en": "bordure indented banner pattern",
+      "raw": "波纹边旗帜图案",
+      "link": "波纹边旗帜图案",
+      "zh": "波纹边旗帜图案"
+    },
+    {
+      "en": "bottle o' enchanting",
+      "raw": "附魔之瓶",
+      "link": "附魔之瓶",
+      "zh": "附魔之瓶"
+    },
+    {
+      "en": "bow",
+      "raw": "弓",
+      "link": "弓",
+      "zh": "弓"
+    },
+    {
+      "en": "bowl",
+      "raw": "碗",
+      "link": "碗",
+      "zh": "碗"
+    },
+    {
+      "en": "bread",
+      "raw": "面包",
+      "link": "面包",
+      "zh": "面包"
+    },
+    {
+      "en": "breeze rod",
+      "raw": "旋风棒",
+      "link": "旋风棒",
+      "zh": "旋风棒"
+    },
+    {
+      "en": "breeze spawn egg",
+      "raw": "刷怪蛋|旋风人刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "旋风人刷怪蛋"
+    },
+    {
+      "en": "brewer pottery sherd",
+      "raw": "佳酿纹样陶片",
+      "link": "佳酿纹样陶片",
+      "zh": "佳酿纹样陶片"
+    },
+    {
+      "en": "brewing stand",
+      "raw": "酿造台",
+      "link": "酿造台",
+      "zh": "酿造台"
+    },
+    {
+      "en": "brick",
+      "raw": "红砖",
+      "link": "红砖",
+      "zh": "红砖"
+    },
+    {
+      "en": "broken elytra",
+      "raw": "鞘翅|损毁的鞘翅",
+      "link": "鞘翅",
+      "zh": "损毁的鞘翅"
+    },
+    {
+      "en": "brown bundle",
+      "raw": "收纳袋|棕色收纳袋",
+      "link": "收纳袋",
+      "zh": "棕色收纳袋"
+    },
+    {
+      "en": "brown cushion",
+      "raw": "坐垫|棕色坐垫",
+      "link": "坐垫",
+      "zh": "棕色坐垫"
+    },
+    {
+      "en": "brown dye",
+      "raw": "棕色染料",
+      "link": "棕色染料",
+      "zh": "棕色染料"
+    },
+    {
+      "en": "brown egg",
+      "raw": "鸡蛋|棕色鸡蛋",
+      "link": "鸡蛋",
+      "zh": "棕色鸡蛋"
+    },
+    {
+      "en": "brown firework star",
+      "raw": "烟火之星|棕色烟火之星",
+      "link": "烟火之星",
+      "zh": "棕色烟火之星"
+    },
+    {
+      "en": "brown harness",
+      "raw": "挽具|棕色挽具",
+      "link": "挽具",
+      "zh": "棕色挽具"
+    },
+    {
+      "en": "brown shield",
+      "raw": "盾牌|棕色盾牌",
+      "link": "盾牌",
+      "zh": "棕色盾牌"
+    },
+    {
+      "en": "brush",
+      "raw": "刷子",
+      "link": "刷子",
+      "zh": "刷子"
+    },
+    {
+      "en": "bucket",
+      "raw": "铁桶",
+      "link": "铁桶",
+      "zh": "铁桶"
+    },
+    {
+      "en": "bucket of axolotl",
+      "raw": "美西螈桶",
+      "link": "美西螈桶",
+      "zh": "美西螈桶"
+    },
+    {
+      "en": "bucket of cod",
+      "raw": "鳕鱼桶",
+      "link": "鳕鱼桶",
+      "zh": "鳕鱼桶"
+    },
+    {
+      "en": "bucket of pufferfish",
+      "raw": "河豚桶",
+      "link": "河豚桶",
+      "zh": "河豚桶"
+    },
+    {
+      "en": "bucket of salmon",
+      "raw": "鲑鱼桶",
+      "link": "鲑鱼桶",
+      "zh": "鲑鱼桶"
+    },
+    {
+      "en": "bucket of sulfur cube",
+      "raw": "硫磺史萊姆桶",
+      "link": "硫磺史萊姆桶",
+      "zh": "硫磺史萊姆桶"
+    },
+    {
+      "en": "bucket of tadpole",
+      "raw": "蝌蚪桶",
+      "link": "蝌蚪桶",
+      "zh": "蝌蚪桶"
+    },
+    {
+      "en": "bucket of tropical fish",
+      "raw": "热带鱼桶",
+      "link": "热带鱼桶",
+      "zh": "热带鱼桶"
+    },
+    {
+      "en": "bundle",
+      "raw": "收纳袋",
+      "link": "收纳袋",
+      "zh": "收纳袋"
+    },
+    {
+      "en": "buried ancient city map",
+      "raw": "Buried Ancient City Map",
+      "link": "Buried Ancient City Map",
+      "zh": "Buried Ancient City Map"
+    },
+    {
+      "en": "buried mineshaft map",
+      "raw": "Buried Mineshaft Map",
+      "link": "Buried Mineshaft Map",
+      "zh": "Buried Mineshaft Map"
+    },
+    {
+      "en": "buried treasure map",
+      "raw": "探险家地图|藏宝图",
+      "link": "探险家地图",
+      "zh": "藏宝图"
+    },
+    {
+      "en": "buried trial chambers map",
+      "raw": "Buried Trial Chambers Map",
+      "link": "Buried Trial Chambers Map",
+      "zh": "Buried Trial Chambers Map"
+    },
+    {
+      "en": "burn pottery sherd",
+      "raw": "烈焰纹样陶片",
+      "link": "烈焰纹样陶片",
+      "zh": "烈焰纹样陶片"
+    },
+    {
+      "en": "cactus green",
+      "raw": "绿色染料|仙人掌绿",
+      "link": "绿色染料",
+      "zh": "仙人掌绿"
+    },
+    {
+      "en": "camel husk spawn egg",
+      "raw": "刷怪蛋|骆驼尸壳刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "骆驼尸壳刷怪蛋"
+    },
+    {
+      "en": "camel spawn egg",
+      "raw": "刷怪蛋|骆驼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "骆驼刷怪蛋"
+    },
+    {
+      "en": "carrot",
+      "raw": "胡萝卜",
+      "link": "胡萝卜",
+      "zh": "胡萝卜"
+    },
+    {
+      "en": "carrot on a stick",
+      "raw": "胡萝卜钓竿",
+      "link": "胡萝卜钓竿",
+      "zh": "胡萝卜钓竿"
+    },
+    {
+      "en": "cat spawn egg",
+      "raw": "刷怪蛋|猫刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "猫刷怪蛋"
+    },
+    {
+      "en": "cauldron",
+      "raw": "炼药锅",
+      "link": "炼药锅",
+      "zh": "炼药锅"
+    },
+    {
+      "en": "cave spider spawn egg",
+      "raw": "刷怪蛋|洞穴蜘蛛刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "洞穴蜘蛛刷怪蛋"
+    },
+    {
+      "en": "chainmail armor",
+      "raw": "盔甲|锁链盔甲",
+      "link": "盔甲",
+      "zh": "锁链盔甲"
+    },
+    {
+      "en": "chainmail boots",
+      "raw": "盔甲|锁链靴子",
+      "link": "盔甲",
+      "zh": "锁链靴子"
+    },
+    {
+      "en": "chainmail chestplate",
+      "raw": "盔甲|锁链胸甲",
+      "link": "盔甲",
+      "zh": "锁链胸甲"
+    },
+    {
+      "en": "chainmail helmet",
+      "raw": "盔甲|锁链头盔",
+      "link": "盔甲",
+      "zh": "锁链头盔"
+    },
+    {
+      "en": "chainmail leggings",
+      "raw": "盔甲|锁链护腿",
+      "link": "盔甲",
+      "zh": "锁链护腿"
+    },
+    {
+      "en": "charcoal",
+      "raw": "木炭",
+      "link": "木炭",
+      "zh": "木炭"
+    },
+    {
+      "en": "cherry boat",
+      "raw": "船|樱花木船",
+      "link": "船",
+      "zh": "樱花木船"
+    },
+    {
+      "en": "cherry boat with chest",
+      "raw": "运输船|樱花木运输船",
+      "link": "运输船",
+      "zh": "樱花木运输船"
+    },
+    {
+      "en": "chestplate",
+      "raw": "盔甲|胸甲",
+      "link": "盔甲",
+      "zh": "胸甲"
+    },
+    {
+      "en": "chicken spawn egg",
+      "raw": "刷怪蛋|鸡刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "鸡刷怪蛋"
+    },
+    {
+      "en": "chorus fruit",
+      "raw": "紫颂果",
+      "link": "紫颂果",
+      "zh": "紫颂果"
+    },
+    {
+      "en": "clay ball",
+      "raw": "黏土球",
+      "link": "黏土球",
+      "zh": "黏土球"
+    },
+    {
+      "en": "clock",
+      "raw": "时钟",
+      "link": "时钟",
+      "zh": "时钟"
+    },
+    {
+      "en": "clownfish",
+      "raw": "热带鱼（物品）|小丑鱼",
+      "link": "热带鱼（物品）",
+      "zh": "小丑鱼"
+    },
+    {
+      "en": "coal",
+      "raw": "煤炭",
+      "link": "煤炭",
+      "zh": "煤炭"
+    },
+    {
+      "en": "coast armor trim",
+      "raw": "海岸盔甲纹饰",
+      "link": "海岸盔甲纹饰",
+      "zh": "海岸盔甲纹饰"
+    },
+    {
+      "en": "coast armor trim smithing template",
+      "raw": "海岸盔甲纹饰",
+      "link": "海岸盔甲纹饰",
+      "zh": "海岸盔甲纹饰"
+    },
+    {
+      "en": "cocoa beans",
+      "raw": "可可豆",
+      "link": "可可豆",
+      "zh": "可可豆"
+    },
+    {
+      "en": "cod bucket",
+      "raw": "鳕鱼桶",
+      "link": "鳕鱼桶",
+      "zh": "鳕鱼桶"
+    },
+    {
+      "en": "cod spawn egg",
+      "raw": "刷怪蛋|鳕鱼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "鳕鱼刷怪蛋"
+    },
+    {
+      "en": "colored dye",
+      "raw": "染料",
+      "link": "染料",
+      "zh": "染料"
+    },
+    {
+      "en": "compass",
+      "raw": "指南针",
+      "link": "指南针",
+      "zh": "指南针"
+    },
+    {
+      "en": "cooked beef",
+      "raw": "牛排",
+      "link": "牛排",
+      "zh": "牛排"
+    },
+    {
+      "en": "cooked chicken",
+      "raw": "熟鸡肉",
+      "link": "熟鸡肉",
+      "zh": "熟鸡肉"
+    },
+    {
+      "en": "cooked cod",
+      "raw": "熟鳕鱼",
+      "link": "熟鳕鱼",
+      "zh": "熟鳕鱼"
+    },
+    {
+      "en": "cooked fish",
+      "raw": "熟鳕鱼|熟鱼",
+      "link": "熟鳕鱼",
+      "zh": "熟鱼"
+    },
+    {
+      "en": "cooked mutton",
+      "raw": "熟羊肉",
+      "link": "熟羊肉",
+      "zh": "熟羊肉"
+    },
+    {
+      "en": "cooked porkchop",
+      "raw": "熟猪排",
+      "link": "熟猪排",
+      "zh": "熟猪排"
+    },
+    {
+      "en": "cooked rabbit",
+      "raw": "熟兔肉",
+      "link": "熟兔肉",
+      "zh": "熟兔肉"
+    },
+    {
+      "en": "cooked salmon",
+      "raw": "熟鲑鱼",
+      "link": "熟鲑鱼",
+      "zh": "熟鲑鱼"
+    },
+    {
+      "en": "cookie",
+      "raw": "曲奇",
+      "link": "曲奇",
+      "zh": "曲奇"
+    },
+    {
+      "en": "copper armor",
+      "raw": "盔甲|铜盔甲",
+      "link": "盔甲",
+      "zh": "铜盔甲"
+    },
+    {
+      "en": "copper axe",
+      "raw": "斧|铜斧",
+      "link": "斧",
+      "zh": "铜斧"
+    },
+    {
+      "en": "copper boots",
+      "raw": "盔甲|铜靴子",
+      "link": "盔甲",
+      "zh": "铜靴子"
+    },
+    {
+      "en": "copper chestplate",
+      "raw": "盔甲|铜胸甲",
+      "link": "盔甲",
+      "zh": "铜胸甲"
+    },
+    {
+      "en": "copper golem spawn egg",
+      "raw": "刷怪蛋|铜傀儡刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "铜傀儡刷怪蛋"
+    },
+    {
+      "en": "copper helmet",
+      "raw": "盔甲|铜头盔",
+      "link": "盔甲",
+      "zh": "铜头盔"
+    },
+    {
+      "en": "copper hoe",
+      "raw": "锄|铜锄",
+      "link": "锄",
+      "zh": "铜锄"
+    },
+    {
+      "en": "copper horse armor",
+      "raw": "马铠|铜马铠",
+      "link": "马铠",
+      "zh": "铜马铠"
+    },
+    {
+      "en": "copper ingot",
+      "raw": "铜锭",
+      "link": "铜锭",
+      "zh": "铜锭"
+    },
+    {
+      "en": "copper leggings",
+      "raw": "盔甲|铜护腿",
+      "link": "盔甲",
+      "zh": "铜护腿"
+    },
+    {
+      "en": "copper nautilus armor",
+      "raw": "鹦鹉螺铠|铜鹦鹉螺铠",
+      "link": "鹦鹉螺铠",
+      "zh": "铜鹦鹉螺铠"
+    },
+    {
+      "en": "copper nugget",
+      "raw": "铜粒",
+      "link": "铜粒",
+      "zh": "铜粒"
+    },
+    {
+      "en": "copper pickaxe",
+      "raw": "镐|铜镐",
+      "link": "镐",
+      "zh": "铜镐"
+    },
+    {
+      "en": "copper shovel",
+      "raw": "锹|铜锹",
+      "link": "锹",
+      "zh": "铜锹"
+    },
+    {
+      "en": "copper spear",
+      "raw": "矛|铜矛",
+      "link": "矛",
+      "zh": "铜矛"
+    },
+    {
+      "en": "copper sword",
+      "raw": "剑|铜剑",
+      "link": "剑",
+      "zh": "铜剑"
+    },
+    {
+      "en": "copper tools",
+      "raw": "工具|铜质工具",
+      "link": "工具",
+      "zh": "铜质工具"
+    },
+    {
+      "en": "cow spawn egg",
+      "raw": "刷怪蛋|牛刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "牛刷怪蛋"
+    },
+    {
+      "en": "creaking spawn egg",
+      "raw": "刷怪蛋|嘎枝刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "嘎枝刷怪蛋"
+    },
+    {
+      "en": "creeper charge banner pattern",
+      "raw": "苦力怕盾徽旗帜图案",
+      "link": "苦力怕盾徽旗帜图案",
+      "zh": "苦力怕盾徽旗帜图案"
+    },
+    {
+      "en": "creeper spawn egg",
+      "raw": "刷怪蛋|苦力怕刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "苦力怕刷怪蛋"
+    },
+    {
+      "en": "crossbow",
+      "raw": "弩",
+      "link": "弩",
+      "zh": "弩"
+    },
+    {
+      "en": "crystallized honey",
+      "raw": "Java版已移除特性#结晶蜜|结晶蜜",
+      "link": "Java版已移除特性#结晶蜜",
+      "zh": "结晶蜜"
+    },
+    {
+      "en": "cyan bundle",
+      "raw": "收纳袋|青色收纳袋",
+      "link": "收纳袋",
+      "zh": "青色收纳袋"
+    },
+    {
+      "en": "cyan cushion",
+      "raw": "坐垫|青色坐垫",
+      "link": "坐垫",
+      "zh": "青色坐垫"
+    },
+    {
+      "en": "cyan dye",
+      "raw": "青色染料",
+      "link": "青色染料",
+      "zh": "青色染料"
+    },
+    {
+      "en": "cyan firework star",
+      "raw": "烟火之星|青色烟火之星",
+      "link": "烟火之星",
+      "zh": "青色烟火之星"
+    },
+    {
+      "en": "cyan harness",
+      "raw": "挽具|青色挽具",
+      "link": "挽具",
+      "zh": "青色挽具"
+    },
+    {
+      "en": "cyan shield",
+      "raw": "盾牌|青色盾牌",
+      "link": "盾牌",
+      "zh": "青色盾牌"
+    },
+    {
+      "en": "dandelion yellow",
+      "raw": "黄色染料|蒲公英黄",
+      "link": "黄色染料",
+      "zh": "蒲公英黄"
+    },
+    {
+      "en": "danger pottery sherd",
+      "raw": "危机纹样陶片",
+      "link": "危机纹样陶片",
+      "zh": "危机纹样陶片"
+    },
+    {
+      "en": "dark oak boat",
+      "raw": "船|深色橡木船",
+      "link": "船",
+      "zh": "深色橡木船"
+    },
+    {
+      "en": "dark oak boat with chest",
+      "raw": "运输船|深色橡木运输船",
+      "link": "运输船",
+      "zh": "深色橡木运输船"
+    },
+    {
+      "en": "debug stick",
+      "raw": "调试棒",
+      "link": "调试棒",
+      "zh": "调试棒"
+    },
+    {
+      "en": "desert pyramid map",
+      "raw": "探险家地图|沙漠神殿地图",
+      "link": "探险家地图",
+      "zh": "沙漠神殿地图"
+    },
+    {
+      "en": "desert village map",
+      "raw": "探险家地图|沙漠村庄地图",
+      "link": "探险家地图",
+      "zh": "沙漠村庄地图"
+    },
+    {
+      "en": "diamond",
+      "raw": "钻石",
+      "link": "钻石",
+      "zh": "钻石"
+    },
+    {
+      "en": "diamond armor",
+      "raw": "盔甲|钻石盔甲",
+      "link": "盔甲",
+      "zh": "钻石盔甲"
+    },
+    {
+      "en": "diamond axe",
+      "raw": "斧|钻石斧",
+      "link": "斧",
+      "zh": "钻石斧"
+    },
+    {
+      "en": "diamond boots",
+      "raw": "盔甲|钻石靴子",
+      "link": "盔甲",
+      "zh": "钻石靴子"
+    },
+    {
+      "en": "diamond chestplate",
+      "raw": "盔甲|钻石胸甲",
+      "link": "盔甲",
+      "zh": "钻石胸甲"
+    },
+    {
+      "en": "diamond helmet",
+      "raw": "盔甲|钻石头盔",
+      "link": "盔甲",
+      "zh": "钻石头盔"
+    },
+    {
+      "en": "diamond hoe",
+      "raw": "锄|钻石锄",
+      "link": "锄",
+      "zh": "钻石锄"
+    },
+    {
+      "en": "diamond horse armor",
+      "raw": "马铠|钻石马铠",
+      "link": "马铠",
+      "zh": "钻石马铠"
+    },
+    {
+      "en": "diamond leggings",
+      "raw": "盔甲|钻石护腿",
+      "link": "盔甲",
+      "zh": "钻石护腿"
+    },
+    {
+      "en": "diamond nautilus armor",
+      "raw": "鹦鹉螺铠|钻石鹦鹉螺铠",
+      "link": "鹦鹉螺铠",
+      "zh": "钻石鹦鹉螺铠"
+    },
+    {
+      "en": "diamond pickaxe",
+      "raw": "镐|钻石镐",
+      "link": "镐",
+      "zh": "钻石镐"
+    },
+    {
+      "en": "diamond shovel",
+      "raw": "锹|钻石锹",
+      "link": "锹",
+      "zh": "钻石锹"
+    },
+    {
+      "en": "diamond spear",
+      "raw": "矛|钻石矛",
+      "link": "矛",
+      "zh": "钻石矛"
+    },
+    {
+      "en": "diamond sword",
+      "raw": "剑|钻石剑",
+      "link": "剑",
+      "zh": "钻石剑"
+    },
+    {
+      "en": "disc fragment",
+      "raw": "唱片残片",
+      "link": "唱片残片",
+      "zh": "唱片残片"
+    },
+    {
+      "en": "disc fragment 5",
+      "raw": "唱片残片",
+      "link": "唱片残片",
+      "zh": "唱片残片"
+    },
+    {
+      "en": "dolphin spawn egg",
+      "raw": "刷怪蛋|海豚刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "海豚刷怪蛋"
+    },
+    {
+      "en": "donkey spawn egg",
+      "raw": "刷怪蛋|驴刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "驴刷怪蛋"
+    },
+    {
+      "en": "dragon's breath",
+      "raw": "龙息",
+      "link": "龙息",
+      "zh": "龙息"
+    },
+    {
+      "en": "dried kelp",
+      "raw": "干海带",
+      "link": "干海带",
+      "zh": "干海带"
+    },
+    {
+      "en": "drowned spawn egg",
+      "raw": "刷怪蛋|溺尸刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "溺尸刷怪蛋"
+    },
+    {
+      "en": "dune armor trim",
+      "raw": "沙丘盔甲纹饰",
+      "link": "沙丘盔甲纹饰",
+      "zh": "沙丘盔甲纹饰"
+    },
+    {
+      "en": "dune armor trim smithing template",
+      "raw": "沙丘盔甲纹饰",
+      "link": "沙丘盔甲纹饰",
+      "zh": "沙丘盔甲纹饰"
+    },
+    {
+      "en": "dye",
+      "raw": "染料",
+      "link": "染料",
+      "zh": "染料"
+    },
+    {
+      "en": "echo shard",
+      "raw": "回响碎片",
+      "link": "回响碎片",
+      "zh": "回响碎片"
+    },
+    {
+      "en": "egg",
+      "raw": "鸡蛋",
+      "link": "鸡蛋",
+      "zh": "鸡蛋"
+    },
+    {
+      "en": "elder guardian spawn egg",
+      "raw": "刷怪蛋|远古守卫者刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "远古守卫者刷怪蛋"
+    },
+    {
+      "en": "elytra",
+      "raw": "鞘翅",
+      "link": "鞘翅",
+      "zh": "鞘翅"
+    },
+    {
+      "en": "emerald",
+      "raw": "绿宝石",
+      "link": "绿宝石",
+      "zh": "绿宝石"
+    },
+    {
+      "en": "empty locator map",
+      "raw": "地图|空定位器地图",
+      "link": "地图",
+      "zh": "空定位器地图"
+    },
+    {
+      "en": "empty map",
+      "raw": "地图|空地图",
+      "link": "地图",
+      "zh": "空地图"
+    },
+    {
+      "en": "enchanted book",
+      "raw": "附魔书",
+      "link": "附魔书",
+      "zh": "附魔书"
+    },
+    {
+      "en": "enchanted golden apple",
+      "raw": "附魔金苹果",
+      "link": "附魔金苹果",
+      "zh": "附魔金苹果"
+    },
+    {
+      "en": "end crystal",
+      "raw": "末地水晶",
+      "link": "末地水晶",
+      "zh": "末地水晶"
+    },
+    {
+      "en": "ender dragon spawn egg",
+      "raw": "刷怪蛋|末影龙刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "末影龙刷怪蛋"
+    },
+    {
+      "en": "ender pearl",
+      "raw": "末影珍珠",
+      "link": "末影珍珠",
+      "zh": "末影珍珠"
+    },
+    {
+      "en": "enderman spawn egg",
+      "raw": "刷怪蛋|末影人刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "末影人刷怪蛋"
+    },
+    {
+      "en": "endermite spawn egg",
+      "raw": "刷怪蛋|末影螨刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "末影螨刷怪蛋"
+    },
+    {
+      "en": "evoker spawn egg",
+      "raw": "刷怪蛋|唤魔者刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "唤魔者刷怪蛋"
+    },
+    {
+      "en": "explorer map",
+      "raw": "探险家地图",
+      "link": "探险家地图",
+      "zh": "探险家地图"
+    },
+    {
+      "en": "explorer pottery sherd",
+      "raw": "探险纹样陶片",
+      "link": "探险纹样陶片",
+      "zh": "探险纹样陶片"
+    },
+    {
+      "en": "eye armor trim",
+      "raw": "眼眸盔甲纹饰",
+      "link": "眼眸盔甲纹饰",
+      "zh": "眼眸盔甲纹饰"
+    },
+    {
+      "en": "eye armor trim smithing template",
+      "raw": "眼眸盔甲纹饰",
+      "link": "眼眸盔甲纹饰",
+      "zh": "眼眸盔甲纹饰"
+    },
+    {
+      "en": "eye of ender",
+      "raw": "末影之眼",
+      "link": "末影之眼",
+      "zh": "末影之眼"
+    },
+    {
+      "en": "feather",
+      "raw": "羽毛",
+      "link": "羽毛",
+      "zh": "羽毛"
+    },
+    {
+      "en": "fermented spider eye",
+      "raw": "发酵蛛眼",
+      "link": "发酵蛛眼",
+      "zh": "发酵蛛眼"
+    },
+    {
+      "en": "field masoned banner pattern",
+      "raw": "砖纹旗帜图案",
+      "link": "砖纹旗帜图案",
+      "zh": "砖纹旗帜图案"
+    },
+    {
+      "en": "filled bundle",
+      "raw": "收纳袋",
+      "link": "收纳袋",
+      "zh": "收纳袋"
+    },
+    {
+      "en": "filled map",
+      "raw": "地图",
+      "link": "地图",
+      "zh": "地图"
+    },
+    {
+      "en": "flow armor trim",
+      "raw": "涡流盔甲纹饰",
+      "link": "涡流盔甲纹饰",
+      "zh": "涡流盔甲纹饰"
+    },
+    {
+      "en": "flow armor trim smithing template",
+      "raw": "涡流盔甲纹饰",
+      "link": "涡流盔甲纹饰",
+      "zh": "涡流盔甲纹饰"
+    },
+    {
+      "en": "flow banner pattern",
+      "raw": "涡流旗帜图案",
+      "link": "涡流旗帜图案",
+      "zh": "涡流旗帜图案"
+    },
+    {
+      "en": "flow pottery sherd",
+      "raw": "涡流纹样陶片",
+      "link": "涡流纹样陶片",
+      "zh": "涡流纹样陶片"
+    },
+    {
+      "en": "flower charge banner pattern",
+      "raw": "花朵盾徽旗帜图案",
+      "link": "花朵盾徽旗帜图案",
+      "zh": "花朵盾徽旗帜图案"
+    },
+    {
+      "en": "flower pot",
+      "raw": "花盆",
+      "link": "花盆",
+      "zh": "花盆"
+    },
+    {
+      "en": "fire charge",
+      "raw": "火焰弹",
+      "link": "火焰弹",
+      "zh": "火焰弹"
+    },
+    {
+      "en": "firefly spawn egg",
+      "raw": "刷怪蛋|萤火虫刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "萤火虫刷怪蛋"
+    },
+    {
+      "en": "firework loaded crossbow",
+      "raw": "弩|装填烟花的弩",
+      "link": "弩",
+      "zh": "装填烟花的弩"
+    },
+    {
+      "en": "firework rocket",
+      "raw": "烟花火箭",
+      "link": "烟花火箭",
+      "zh": "烟花火箭"
+    },
+    {
+      "en": "firework star",
+      "raw": "烟火之星",
+      "link": "烟火之星",
+      "zh": "烟火之星"
+    },
+    {
+      "en": "fish",
+      "raw": "热带鱼（物品）|鱼",
+      "link": "热带鱼（物品）",
+      "zh": "鱼"
+    },
+    {
+      "en": "fishing rod",
+      "raw": "钓鱼竿",
+      "link": "钓鱼竿",
+      "zh": "钓鱼竿"
+    },
+    {
+      "en": "flint",
+      "raw": "燧石",
+      "link": "燧石",
+      "zh": "燧石"
+    },
+    {
+      "en": "flint and steel",
+      "raw": "打火石",
+      "link": "打火石",
+      "zh": "打火石"
+    },
+    {
+      "en": "fox spawn egg",
+      "raw": "刷怪蛋|狐狸刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "狐狸刷怪蛋"
+    },
+    {
+      "en": "friend pottery sherd",
+      "raw": "挚友纹样陶片",
+      "link": "挚友纹样陶片",
+      "zh": "挚友纹样陶片"
+    },
+    {
+      "en": "frog spawn egg",
+      "raw": "刷怪蛋|青蛙刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "青蛙刷怪蛋"
+    },
+    {
+      "en": "fuel",
+      "raw": "烧炼#燃料效率|燃料",
+      "link": "烧炼#燃料效率",
+      "zh": "燃料"
+    },
+    {
+      "en": "ghast spawn egg",
+      "raw": "刷怪蛋|恶魂刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "恶魂刷怪蛋"
+    },
+    {
+      "en": "ghast tear",
+      "raw": "恶魂之泪",
+      "link": "恶魂之泪",
+      "zh": "恶魂之泪"
+    },
+    {
+      "en": "glass bottle",
+      "raw": "玻璃瓶",
+      "link": "玻璃瓶",
+      "zh": "玻璃瓶"
+    },
+    {
+      "en": "glistering melon",
+      "raw": "闪烁的西瓜片",
+      "link": "闪烁的西瓜片",
+      "zh": "闪烁的西瓜片"
+    },
+    {
+      "en": "glistering melon slice",
+      "raw": "闪烁的西瓜片",
+      "link": "闪烁的西瓜片",
+      "zh": "闪烁的西瓜片"
+    },
+    {
+      "en": "globe banner pattern",
+      "raw": "地球旗帜图案",
+      "link": "地球旗帜图案",
+      "zh": "地球旗帜图案"
+    },
+    {
+      "en": "glow berries",
+      "raw": "发光浆果",
+      "link": "发光浆果",
+      "zh": "发光浆果"
+    },
+    {
+      "en": "glow ink sac",
+      "raw": "荧光墨囊",
+      "link": "荧光墨囊",
+      "zh": "荧光墨囊"
+    },
+    {
+      "en": "glow item frame",
+      "raw": "物品展示框|荧光物品展示框",
+      "link": "物品展示框",
+      "zh": "荧光物品展示框"
+    },
+    {
+      "en": "glow squid spawn egg",
+      "raw": "刷怪蛋|发光鱿鱼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "发光鱿鱼刷怪蛋"
+    },
+    {
+      "en": "glowstone dust",
+      "raw": "荧石粉",
+      "link": "荧石粉",
+      "zh": "荧石粉"
+    },
+    {
+      "en": "goat horn",
+      "raw": "山羊角",
+      "link": "山羊角",
+      "zh": "山羊角"
+    },
+    {
+      "en": "goat spawn egg",
+      "raw": "刷怪蛋|山羊刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "山羊刷怪蛋"
+    },
+    {
+      "en": "gold ingot",
+      "raw": "金锭",
+      "link": "金锭",
+      "zh": "金锭"
+    },
+    {
+      "en": "gold nugget",
+      "raw": "金粒",
+      "link": "金粒",
+      "zh": "金粒"
+    },
+    {
+      "en": "golden apple",
+      "raw": "金苹果",
+      "link": "金苹果",
+      "zh": "金苹果"
+    },
+    {
+      "en": "golden armor",
+      "raw": "盔甲|金盔甲",
+      "link": "盔甲",
+      "zh": "金盔甲"
+    },
+    {
+      "en": "golden axe",
+      "raw": "斧|金斧",
+      "link": "斧",
+      "zh": "金斧"
+    },
+    {
+      "en": "golden boots",
+      "raw": "盔甲|金靴子",
+      "link": "盔甲",
+      "zh": "金靴子"
+    },
+    {
+      "en": "golden carrot",
+      "raw": "金胡萝卜",
+      "link": "金胡萝卜",
+      "zh": "金胡萝卜"
+    },
+    {
+      "en": "golden chestplate",
+      "raw": "盔甲|金胸甲",
+      "link": "盔甲",
+      "zh": "金胸甲"
+    },
+    {
+      "en": "golden helmet",
+      "raw": "盔甲|金头盔",
+      "link": "盔甲",
+      "zh": "金头盔"
+    },
+    {
+      "en": "golden hoe",
+      "raw": "锄|金锄",
+      "link": "锄",
+      "zh": "金锄"
+    },
+    {
+      "en": "golden horse armor",
+      "raw": "马铠|金马铠",
+      "link": "马铠",
+      "zh": "金马铠"
+    },
+    {
+      "en": "golden leggings",
+      "raw": "盔甲|金护腿",
+      "link": "盔甲",
+      "zh": "金护腿"
+    },
+    {
+      "en": "golden nautilus armor",
+      "raw": "鹦鹉螺铠|金鹦鹉螺铠",
+      "link": "鹦鹉螺铠",
+      "zh": "金鹦鹉螺铠"
+    },
+    {
+      "en": "golden pickaxe",
+      "raw": "镐|金镐",
+      "link": "镐",
+      "zh": "金镐"
+    },
+    {
+      "en": "golden shovel",
+      "raw": "锹|金锹",
+      "link": "锹",
+      "zh": "金锹"
+    },
+    {
+      "en": "golden spear",
+      "raw": "矛|金矛",
+      "link": "矛",
+      "zh": "金矛"
+    },
+    {
+      "en": "golden sword",
+      "raw": "剑|金剑",
+      "link": "剑",
+      "zh": "金剑"
+    },
+    {
+      "en": "golden tools",
+      "raw": "工具|金质工具",
+      "link": "工具",
+      "zh": "金质工具"
+    },
+    {
+      "en": "gray bundle",
+      "raw": "收纳袋|灰色收纳袋",
+      "link": "收纳袋",
+      "zh": "灰色收纳袋"
+    },
+    {
+      "en": "gray cushion",
+      "raw": "坐垫|灰色坐垫",
+      "link": "坐垫",
+      "zh": "灰色坐垫"
+    },
+    {
+      "en": "gray dye",
+      "raw": "灰色染料",
+      "link": "灰色染料",
+      "zh": "灰色染料"
+    },
+    {
+      "en": "gray firework star",
+      "raw": "烟火之星|灰色烟火之星",
+      "link": "烟火之星",
+      "zh": "灰色烟火之星"
+    },
+    {
+      "en": "gray harness",
+      "raw": "挽具|灰色挽具",
+      "link": "挽具",
+      "zh": "灰色挽具"
+    },
+    {
+      "en": "gray shield",
+      "raw": "盾牌|灰色盾牌",
+      "link": "盾牌",
+      "zh": "灰色盾牌"
+    },
+    {
+      "en": "green bundle",
+      "raw": "收纳袋|绿色收纳袋",
+      "link": "收纳袋",
+      "zh": "绿色收纳袋"
+    },
+    {
+      "en": "green cushion",
+      "raw": "坐垫|绿色坐垫",
+      "link": "坐垫",
+      "zh": "绿色坐垫"
+    },
+    {
+      "en": "green dye",
+      "raw": "绿色染料",
+      "link": "绿色染料",
+      "zh": "绿色染料"
+    },
+    {
+      "en": "green firework star",
+      "raw": "烟火之星|绿色烟火之星",
+      "link": "烟火之星",
+      "zh": "绿色烟火之星"
+    },
+    {
+      "en": "green harness",
+      "raw": "挽具|绿色挽具",
+      "link": "挽具",
+      "zh": "绿色挽具"
+    },
+    {
+      "en": "green shield",
+      "raw": "盾牌|绿色盾牌",
+      "link": "盾牌",
+      "zh": "绿色盾牌"
+    },
+    {
+      "en": "guardian spawn egg",
+      "raw": "刷怪蛋|守卫者刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "守卫者刷怪蛋"
+    },
+    {
+      "en": "guster pottery sherd",
+      "raw": "旋风纹样陶片",
+      "link": "旋风纹样陶片",
+      "zh": "旋风纹样陶片"
+    },
+    {
+      "en": "guster banner pattern",
+      "raw": "旋风旗帜图案",
+      "link": "旋风旗帜图案",
+      "zh": "旋风旗帜图案"
+    },
+    {
+      "en": "gunpowder",
+      "raw": "火药",
+      "link": "火药",
+      "zh": "火药"
+    },
+    {
+      "en": "half filled bundle",
+      "raw": "收纳袋",
+      "link": "收纳袋",
+      "zh": "收纳袋"
+    },
+    {
+      "en": "happy ghast spawn egg",
+      "raw": "刷怪蛋|快乐恶魂刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "快乐恶魂刷怪蛋"
+    },
+    {
+      "en": "harness",
+      "raw": "挽具",
+      "link": "挽具",
+      "zh": "挽具"
+    },
+    {
+      "en": "heart of the sea",
+      "raw": "海洋之心",
+      "link": "海洋之心",
+      "zh": "海洋之心"
+    },
+    {
+      "en": "heart pottery sherd",
+      "raw": "爱心纹样陶片",
+      "link": "爱心纹样陶片",
+      "zh": "爱心纹样陶片"
+    },
+    {
+      "en": "heartbreak pottery sherd",
+      "raw": "心碎纹样陶片",
+      "link": "心碎纹样陶片",
+      "zh": "心碎纹样陶片"
+    },
+    {
+      "en": "helmet",
+      "raw": "盔甲|头盔",
+      "link": "盔甲",
+      "zh": "头盔"
+    },
+    {
+      "en": "hoe",
+      "raw": "锄",
+      "link": "锄",
+      "zh": "锄"
+    },
+    {
+      "en": "hoglin spawn egg",
+      "raw": "刷怪蛋|疣猪兽刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "疣猪兽刷怪蛋"
+    },
+    {
+      "en": "honey bottle",
+      "raw": "蜂蜜瓶",
+      "link": "蜂蜜瓶",
+      "zh": "蜂蜜瓶"
+    },
+    {
+      "en": "honeycomb",
+      "raw": "蜜脾",
+      "link": "蜜脾",
+      "zh": "蜜脾"
+    },
+    {
+      "en": "horse armor",
+      "raw": "马铠",
+      "link": "马铠",
+      "zh": "马铠"
+    },
+    {
+      "en": "horse saddle",
+      "raw": "Java版已移除物品#马鞍|马鞍",
+      "link": "Java版已移除物品#马鞍",
+      "zh": "马鞍"
+    },
+    {
+      "en": "horse spawn egg",
+      "raw": "刷怪蛋|马刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "马刷怪蛋"
+    },
+    {
+      "en": "host armor trim",
+      "raw": "雇主盔甲纹饰",
+      "link": "雇主盔甲纹饰",
+      "zh": "雇主盔甲纹饰"
+    },
+    {
+      "en": "host armor trim smithing template",
+      "raw": "雇主盔甲纹饰",
+      "link": "雇主盔甲纹饰",
+      "zh": "雇主盔甲纹饰"
+    },
+    {
+      "en": "howl pottery sherd",
+      "raw": "狼嚎纹样陶片",
+      "link": "狼嚎纹样陶片",
+      "zh": "狼嚎纹样陶片"
+    },
+    {
+      "en": "husk spawn egg",
+      "raw": "刷怪蛋|尸壳刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "尸壳刷怪蛋"
+    },
+    {
+      "en": "ink sac",
+      "raw": "墨囊",
+      "link": "墨囊",
+      "zh": "墨囊"
+    },
+    {
+      "en": "iron armor",
+      "raw": "盔甲|铁盔甲",
+      "link": "盔甲",
+      "zh": "铁盔甲"
+    },
+    {
+      "en": "iron axe",
+      "raw": "斧|铁斧",
+      "link": "斧",
+      "zh": "铁斧"
+    },
+    {
+      "en": "iron boots",
+      "raw": "盔甲|铁靴子",
+      "link": "盔甲",
+      "zh": "铁靴子"
+    },
+    {
+      "en": "iron chestplate",
+      "raw": "盔甲|铁胸甲",
+      "link": "盔甲",
+      "zh": "铁胸甲"
+    },
+    {
+      "en": "iron golem spawn egg",
+      "raw": "刷怪蛋|铁傀儡刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "铁傀儡刷怪蛋"
+    },
+    {
+      "en": "iron helmet",
+      "raw": "盔甲|铁头盔",
+      "link": "盔甲",
+      "zh": "铁头盔"
+    },
+    {
+      "en": "iron hoe",
+      "raw": "锄|铁锄",
+      "link": "锄",
+      "zh": "铁锄"
+    },
+    {
+      "en": "iron horse armor",
+      "raw": "马铠|铁马铠",
+      "link": "马铠",
+      "zh": "铁马铠"
+    },
+    {
+      "en": "iron ingot",
+      "raw": "铁锭",
+      "link": "铁锭",
+      "zh": "铁锭"
+    },
+    {
+      "en": "iron leggings",
+      "raw": "盔甲|铁护腿",
+      "link": "盔甲",
+      "zh": "铁护腿"
+    },
+    {
+      "en": "iron nautilus armor",
+      "raw": "鹦鹉螺铠|铁鹦鹉螺铠",
+      "link": "鹦鹉螺铠",
+      "zh": "铁鹦鹉螺铠"
+    },
+    {
+      "en": "iron nugget",
+      "raw": "铁粒",
+      "link": "铁粒",
+      "zh": "铁粒"
+    },
+    {
+      "en": "iron pickaxe",
+      "raw": "镐|铁镐",
+      "link": "镐",
+      "zh": "铁镐"
+    },
+    {
+      "en": "iron shovel",
+      "raw": "锹|铁锹",
+      "link": "锹",
+      "zh": "铁锹"
+    },
+    {
+      "en": "iron spear",
+      "raw": "矛|铁矛",
+      "link": "矛",
+      "zh": "铁矛"
+    },
+    {
+      "en": "iron sword",
+      "raw": "剑|铁剑",
+      "link": "剑",
+      "zh": "铁剑"
+    },
+    {
+      "en": "iron tools",
+      "raw": "工具|铁质工具",
+      "link": "工具",
+      "zh": "铁质工具"
+    },
+    {
+      "en": "item frame",
+      "raw": "物品展示框",
+      "link": "物品展示框",
+      "zh": "物品展示框"
+    },
+    {
+      "en": "jungle boat",
+      "raw": "船|丛林木船",
+      "link": "船",
+      "zh": "丛林木船"
+    },
+    {
+      "en": "jungle boat with chest",
+      "raw": "运输船|丛林木运输船",
+      "link": "运输船",
+      "zh": "丛林木运输船"
+    },
+    {
+      "en": "jungle explorer map",
+      "raw": "探险家地图|丛林探险家地图",
+      "link": "探险家地图",
+      "zh": "丛林探险家地图"
+    },
+    {
+      "en": "jungle pyramid explorer map",
+      "raw": "探险家地图|丛林神庙探险家地图",
+      "link": "探险家地图",
+      "zh": "丛林神庙探险家地图"
+    },
+    {
+      "en": "jungle pyramid map",
+      "raw": "Jungle Pyramid Map",
+      "link": "Jungle Pyramid Map",
+      "zh": "Jungle Pyramid Map"
+    },
+    {
+      "en": "knowledge book",
+      "raw": "知识之书",
+      "link": "知识之书",
+      "zh": "知识之书"
+    },
+    {
+      "en": "lapis lazuli",
+      "raw": "青金石",
+      "link": "青金石",
+      "zh": "青金石"
+    },
+    {
+      "en": "lava bucket",
+      "raw": "熔岩桶",
+      "link": "熔岩桶",
+      "zh": "熔岩桶"
+    },
+    {
+      "en": "lead",
+      "raw": "拴绳",
+      "link": "拴绳",
+      "zh": "拴绳"
+    },
+    {
+      "en": "leather",
+      "raw": "皮革",
+      "link": "皮革",
+      "zh": "皮革"
+    },
+    {
+      "en": "leather armor",
+      "raw": "盔甲|皮革盔甲",
+      "link": "盔甲",
+      "zh": "皮革盔甲"
+    },
+    {
+      "en": "leather boots",
+      "raw": "盔甲|皮革靴子",
+      "link": "盔甲",
+      "zh": "皮革靴子"
+    },
+    {
+      "en": "leather cap",
+      "raw": "盔甲|皮革帽子",
+      "link": "盔甲",
+      "zh": "皮革帽子"
+    },
+    {
+      "en": "leather horse armor",
+      "raw": "马铠|皮革马铠",
+      "link": "马铠",
+      "zh": "皮革马铠"
+    },
+    {
+      "en": "leather pants",
+      "raw": "盔甲|皮革裤子",
+      "link": "盔甲",
+      "zh": "皮革裤子"
+    },
+    {
+      "en": "leather tunic",
+      "raw": "盔甲|皮革外套",
+      "link": "盔甲",
+      "zh": "皮革外套"
+    },
+    {
+      "en": "leggings",
+      "raw": "盔甲|护腿",
+      "link": "盔甲",
+      "zh": "护腿"
+    },
+    {
+      "en": "light blue bundle",
+      "raw": "收纳袋|淡蓝色收纳袋",
+      "link": "收纳袋",
+      "zh": "淡蓝色收纳袋"
+    },
+    {
+      "en": "light blue cushion",
+      "raw": "坐垫|淡蓝色坐垫",
+      "link": "坐垫",
+      "zh": "淡蓝色坐垫"
+    },
+    {
+      "en": "light blue dye",
+      "raw": "淡蓝色染料",
+      "link": "淡蓝色染料",
+      "zh": "淡蓝色染料"
+    },
+    {
+      "en": "light blue firework star",
+      "raw": "烟火之星|淡蓝色烟火之星",
+      "link": "烟火之星",
+      "zh": "淡蓝色烟火之星"
+    },
+    {
+      "en": "light blue harness",
+      "raw": "挽具|淡蓝色挽具",
+      "link": "挽具",
+      "zh": "淡蓝色挽具"
+    },
+    {
+      "en": "light blue shield",
+      "raw": "盾牌|淡蓝色盾牌",
+      "link": "盾牌",
+      "zh": "淡蓝色盾牌"
+    },
+    {
+      "en": "light gray bundle",
+      "raw": "收纳袋|淡灰色收纳袋",
+      "link": "收纳袋",
+      "zh": "淡灰色收纳袋"
+    },
+    {
+      "en": "light gray cushion",
+      "raw": "坐垫|淡灰色坐垫",
+      "link": "坐垫",
+      "zh": "淡灰色坐垫"
+    },
+    {
+      "en": "light gray dye",
+      "raw": "淡灰色染料",
+      "link": "淡灰色染料",
+      "zh": "淡灰色染料"
+    },
+    {
+      "en": "light gray firework star",
+      "raw": "烟火之星|淡灰色烟火之星",
+      "link": "烟火之星",
+      "zh": "淡灰色烟火之星"
+    },
+    {
+      "en": "light gray harness",
+      "raw": "挽具|淡灰色挽具",
+      "link": "挽具",
+      "zh": "淡灰色挽具"
+    },
+    {
+      "en": "light gray shield",
+      "raw": "盾牌|淡灰色盾牌",
+      "link": "盾牌",
+      "zh": "淡灰色盾牌"
+    },
+    {
+      "en": "lime bundle",
+      "raw": "收纳袋|黄绿色收纳袋",
+      "link": "收纳袋",
+      "zh": "黄绿色收纳袋"
+    },
+    {
+      "en": "lime cushion",
+      "raw": "坐垫|黄绿色坐垫",
+      "link": "坐垫",
+      "zh": "黄绿色坐垫"
+    },
+    {
+      "en": "lime dye",
+      "raw": "黄绿色染料",
+      "link": "黄绿色染料",
+      "zh": "黄绿色染料"
+    },
+    {
+      "en": "lime firework star",
+      "raw": "烟火之星|黄绿色烟火之星",
+      "link": "烟火之星",
+      "zh": "黄绿色烟火之星"
+    },
+    {
+      "en": "lime harness",
+      "raw": "挽具|黄绿色挽具",
+      "link": "挽具",
+      "zh": "黄绿色挽具"
+    },
+    {
+      "en": "lime shield",
+      "raw": "盾牌|黄绿色盾牌",
+      "link": "盾牌",
+      "zh": "黄绿色盾牌"
+    },
+    {
+      "en": "lingering potion",
+      "raw": "滞留药水",
+      "link": "滞留药水",
+      "zh": "滞留药水"
+    },
+    {
+      "en": "lingering potion of decay",
+      "raw": "衰变药水|滞留型衰变药水",
+      "link": "衰变药水",
+      "zh": "滞留型衰变药水"
+    },
+    {
+      "en": "lingering potion of fire resistance",
+      "raw": "抗火药水|滞留型抗火药水",
+      "link": "抗火药水",
+      "zh": "滞留型抗火药水"
+    },
+    {
+      "en": "lingering potion of harming",
+      "raw": "伤害药水|滞留型伤害药水",
+      "link": "伤害药水",
+      "zh": "滞留型伤害药水"
+    },
+    {
+      "en": "lingering potion of healing",
+      "raw": "治疗药水|滞留型治疗药水",
+      "link": "治疗药水",
+      "zh": "滞留型治疗药水"
+    },
+    {
+      "en": "lingering potion of infestation",
+      "raw": "虫蚀药水|滞留型虫蚀药水",
+      "link": "虫蚀药水",
+      "zh": "滞留型虫蚀药水"
+    },
+    {
+      "en": "lingering potion of invisibility",
+      "raw": "隐身药水|滞留型隐身药水",
+      "link": "隐身药水",
+      "zh": "滞留型隐身药水"
+    },
+    {
+      "en": "lingering potion of leaping",
+      "raw": "跳跃药水|滞留型跳跃药水",
+      "link": "跳跃药水",
+      "zh": "滞留型跳跃药水"
+    },
+    {
+      "en": "lingering potion of levitation",
+      "raw": "飘浮药水|滞留型飘浮药水",
+      "link": "飘浮药水",
+      "zh": "滞留型飘浮药水"
+    },
+    {
+      "en": "lingering potion of luck",
+      "raw": "幸运药水|滞留型幸运药水",
+      "link": "幸运药水",
+      "zh": "滞留型幸运药水"
+    },
+    {
+      "en": "lingering potion of night vision",
+      "raw": "夜视药水|滞留型夜视药水",
+      "link": "夜视药水",
+      "zh": "滞留型夜视药水"
+    },
+    {
+      "en": "lingering potion of oozing",
+      "raw": "渗浆药水|滞留型渗浆药水",
+      "link": "渗浆药水",
+      "zh": "滞留型渗浆药水"
+    },
+    {
+      "en": "lingering potion of poison",
+      "raw": "剧毒药水|滞留型剧毒药水",
+      "link": "剧毒药水",
+      "zh": "滞留型剧毒药水"
+    },
+    {
+      "en": "lingering potion of regeneration",
+      "raw": "再生药水|滞留型再生药水",
+      "link": "再生药水",
+      "zh": "滞留型再生药水"
+    },
+    {
+      "en": "lingering potion of slow falling",
+      "raw": "缓降药水|滞留型缓降药水",
+      "link": "缓降药水",
+      "zh": "滞留型缓降药水"
+    },
+    {
+      "en": "lingering potion of slowness",
+      "raw": "迟缓药水|滞留型迟缓药水",
+      "link": "迟缓药水",
+      "zh": "滞留型迟缓药水"
+    },
+    {
+      "en": "lingering potion of strength",
+      "raw": "力量药水|滞留型力量药水",
+      "link": "力量药水",
+      "zh": "滞留型力量药水"
+    },
+    {
+      "en": "lingering potion of swiftness",
+      "raw": "迅捷药水|滞留型迅捷药水",
+      "link": "迅捷药水",
+      "zh": "滞留型迅捷药水"
+    },
+    {
+      "en": "lingering potion of the turtle master",
+      "raw": "神龟药水|滞留型神龟药水",
+      "link": "神龟药水",
+      "zh": "滞留型神龟药水"
+    },
+    {
+      "en": "lingering potion of water breathing",
+      "raw": "水肺药水|滞留型水肺药水",
+      "link": "水肺药水",
+      "zh": "滞留型水肺药水"
+    },
+    {
+      "en": "lingering potion of weakness",
+      "raw": "虚弱药水|滞留型虚弱药水",
+      "link": "虚弱药水",
+      "zh": "滞留型虚弱药水"
+    },
+    {
+      "en": "lingering potion of weaving",
+      "raw": "盘丝药水|滞留型盘丝药水",
+      "link": "盘丝药水",
+      "zh": "滞留型盘丝药水"
+    },
+    {
+      "en": "lingering potion of wind charging",
+      "raw": "蓄风药水|滞留型蓄风药水",
+      "link": "蓄风药水",
+      "zh": "滞留型蓄风药水"
+    },
+    {
+      "en": "lingering uncraftable potion",
+      "raw": "不可合成的药水|不可合成的滞留型药水",
+      "link": "不可合成的药水",
+      "zh": "不可合成的滞留型药水"
+    },
+    {
+      "en": "lingering water bottle",
+      "raw": "水瓶|滞留型水瓶",
+      "link": "水瓶",
+      "zh": "滞留型水瓶"
+    },
+    {
+      "en": "llama spawn egg",
+      "raw": "刷怪蛋|羊驼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "羊驼刷怪蛋"
+    },
+    {
+      "en": "locked map",
+      "raw": "地图|已锁定的地图",
+      "link": "地图",
+      "zh": "已锁定的地图"
+    },
+    {
+      "en": "lodestone compass",
+      "raw": "指南针#磁石指针|磁石指针",
+      "link": "指南针#磁石指针",
+      "zh": "磁石指针"
+    },
+    {
+      "en": "mace",
+      "raw": "重锤",
+      "link": "重锤",
+      "zh": "重锤"
+    },
+    {
+      "en": "magenta bundle",
+      "raw": "收纳袋|品红色收纳袋",
+      "link": "收纳袋",
+      "zh": "品红色收纳袋"
+    },
+    {
+      "en": "magenta cushion",
+      "raw": "坐垫|品红色坐垫",
+      "link": "坐垫",
+      "zh": "品红色坐垫"
+    },
+    {
+      "en": "magenta dye",
+      "raw": "品红色染料",
+      "link": "品红色染料",
+      "zh": "品红色染料"
+    },
+    {
+      "en": "magenta firework star",
+      "raw": "烟火之星|品红色烟火之星",
+      "link": "烟火之星",
+      "zh": "品红色烟火之星"
+    },
+    {
+      "en": "magenta harness",
+      "raw": "挽具|品红色挽具",
+      "link": "挽具",
+      "zh": "品红色挽具"
+    },
+    {
+      "en": "magenta shield",
+      "raw": "盾牌|品红色盾牌",
+      "link": "盾牌",
+      "zh": "品红色盾牌"
+    },
+    {
+      "en": "magma cream",
+      "raw": "岩浆膏",
+      "link": "岩浆膏",
+      "zh": "岩浆膏"
+    },
+    {
+      "en": "magma cube spawn egg",
+      "raw": "刷怪蛋|岩浆怪刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "岩浆怪刷怪蛋"
+    },
+    {
+      "en": "mangrove boat",
+      "raw": "船|红树木船",
+      "link": "船",
+      "zh": "红树木船"
+    },
+    {
+      "en": "mangrove boat with chest",
+      "raw": "运输船|红树木运输船",
+      "link": "运输船",
+      "zh": "红树木运输船"
+    },
+    {
+      "en": "map",
+      "raw": "地图",
+      "link": "地图",
+      "zh": "地图"
+    },
+    {
+      "en": "melon seeds",
+      "raw": "西瓜种子",
+      "link": "西瓜种子",
+      "zh": "西瓜种子"
+    },
+    {
+      "en": "melon slice",
+      "raw": "西瓜片",
+      "link": "西瓜片",
+      "zh": "西瓜片"
+    },
+    {
+      "en": "milk bucket",
+      "raw": "奶桶",
+      "link": "奶桶",
+      "zh": "奶桶"
+    },
+    {
+      "en": "minecart",
+      "raw": "矿车",
+      "link": "矿车",
+      "zh": "矿车"
+    },
+    {
+      "en": "minecart with chest",
+      "raw": "运输矿车",
+      "link": "运输矿车",
+      "zh": "运输矿车"
+    },
+    {
+      "en": "minecart with command block",
+      "raw": "命令方块矿车",
+      "link": "命令方块矿车",
+      "zh": "命令方块矿车"
+    },
+    {
+      "en": "minecart with dispenser",
+      "raw": "Java版提及特性#更具体的特性|发射器矿车",
+      "link": "Java版提及特性#更具体的特性",
+      "zh": "发射器矿车"
+    },
+    {
+      "en": "minecart with furnace",
+      "raw": "动力矿车",
+      "link": "动力矿车",
+      "zh": "动力矿车"
+    },
+    {
+      "en": "minecart with hopper",
+      "raw": "漏斗矿车",
+      "link": "漏斗矿车",
+      "zh": "漏斗矿车"
+    },
+    {
+      "en": "minecart with monster spawner",
+      "raw": "刷怪笼矿车",
+      "link": "刷怪笼矿车",
+      "zh": "刷怪笼矿车"
+    },
+    {
+      "en": "minecart with repeating command block",
+      "raw": "命令方块矿车|循环型命令方块矿车",
+      "link": "命令方块矿车",
+      "zh": "循环型命令方块矿车"
+    },
+    {
+      "en": "minecart with spawner",
+      "raw": "刷怪笼矿车",
+      "link": "刷怪笼矿车",
+      "zh": "刷怪笼矿车"
+    },
+    {
+      "en": "minecart with tnt",
+      "raw": "TNT矿车",
+      "link": "TNT矿车",
+      "zh": "TNT矿车"
+    },
+    {
+      "en": "miner pottery sherd",
+      "raw": "采矿纹样陶片",
+      "link": "采矿纹样陶片",
+      "zh": "采矿纹样陶片"
+    },
+    {
+      "en": "mineshaft map",
+      "raw": "Mineshaft Map",
+      "link": "Mineshaft Map",
+      "zh": "Mineshaft Map"
+    },
+    {
+      "en": "mooshroom spawn egg",
+      "raw": "刷怪蛋|哞菇刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "哞菇刷怪蛋"
+    },
+    {
+      "en": "mourner pottery sherd",
+      "raw": "悲恸纹样陶片",
+      "link": "悲恸纹样陶片",
+      "zh": "悲恸纹样陶片"
+    },
+    {
+      "en": "mule spawn egg",
+      "raw": "刷怪蛋|骡刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "骡刷怪蛋"
+    },
+    {
+      "en": "mundane lingering potion",
+      "raw": "平凡的药水|滞留型平凡的药水",
+      "link": "平凡的药水",
+      "zh": "滞留型平凡的药水"
+    },
+    {
+      "en": "mundane potion",
+      "raw": "平凡的药水",
+      "link": "平凡的药水",
+      "zh": "平凡的药水"
+    },
+    {
+      "en": "mundane splash potion",
+      "raw": "平凡的药水|喷溅型平凡的药水",
+      "link": "平凡的药水",
+      "zh": "喷溅型平凡的药水"
+    },
+    {
+      "en": "mushroom stew",
+      "raw": "蘑菇煲",
+      "link": "蘑菇煲",
+      "zh": "蘑菇煲"
+    },
+    {
+      "en": "music disc",
+      "raw": "音乐唱片",
+      "link": "音乐唱片",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc 11",
+      "raw": "音乐唱片11|音乐唱片",
+      "link": "音乐唱片11",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc 13",
+      "raw": "音乐唱片13|音乐唱片",
+      "link": "音乐唱片13",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc 5",
+      "raw": "音乐唱片5|音乐唱片",
+      "link": "音乐唱片5",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc blocks",
+      "raw": "音乐唱片blocks|音乐唱片",
+      "link": "音乐唱片blocks",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc bounce",
+      "raw": "音乐唱片Bounce|音乐唱片",
+      "link": "音乐唱片Bounce",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc cat",
+      "raw": "音乐唱片cat|音乐唱片",
+      "link": "音乐唱片cat",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc chirp",
+      "raw": "音乐唱片chirp|音乐唱片",
+      "link": "音乐唱片chirp",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc creator",
+      "raw": "音乐唱片Creator|音乐唱片",
+      "link": "音乐唱片Creator",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc creator (music box)",
+      "raw": "音乐唱片Creator（八音盒）|音乐唱片",
+      "link": "音乐唱片Creator（八音盒）",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc far",
+      "raw": "音乐唱片far|音乐唱片",
+      "link": "音乐唱片far",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc lava chicken",
+      "raw": "音乐唱片Lava Chicken|音乐唱片",
+      "link": "音乐唱片Lava Chicken",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc mall",
+      "raw": "音乐唱片mall|音乐唱片",
+      "link": "音乐唱片mall",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc mellohi",
+      "raw": "音乐唱片mellohi|音乐唱片",
+      "link": "音乐唱片mellohi",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc otherside",
+      "raw": "音乐唱片otherside|音乐唱片",
+      "link": "音乐唱片otherside",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc pigstep",
+      "raw": "音乐唱片Pigstep|音乐唱片",
+      "link": "音乐唱片Pigstep",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc precipice",
+      "raw": "音乐唱片Precipice|音乐唱片",
+      "link": "音乐唱片Precipice",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc relic",
+      "raw": "音乐唱片Relic|音乐唱片",
+      "link": "音乐唱片Relic",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc stal",
+      "raw": "音乐唱片stal|音乐唱片",
+      "link": "音乐唱片stal",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc strad",
+      "raw": "音乐唱片strad|音乐唱片",
+      "link": "音乐唱片strad",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc tears",
+      "raw": "音乐唱片Tears|音乐唱片",
+      "link": "音乐唱片Tears",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc wait",
+      "raw": "音乐唱片wait|音乐唱片",
+      "link": "音乐唱片wait",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "music disc ward",
+      "raw": "音乐唱片ward|音乐唱片",
+      "link": "音乐唱片ward",
+      "zh": "音乐唱片"
+    },
+    {
+      "en": "name tag",
+      "raw": "命名牌",
+      "link": "命名牌",
+      "zh": "命名牌"
+    },
+    {
+      "en": "nautilus armor",
+      "raw": "鹦鹉螺铠",
+      "link": "鹦鹉螺铠",
+      "zh": "鹦鹉螺铠"
+    },
+    {
+      "en": "nautilus shell",
+      "raw": "鹦鹉螺壳",
+      "link": "鹦鹉螺壳",
+      "zh": "鹦鹉螺壳"
+    },
+    {
+      "en": "nautilus spawn egg",
+      "raw": "刷怪蛋|鹦鹉螺刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "鹦鹉螺刷怪蛋"
+    },
+    {
+      "en": "nether brick",
+      "raw": "下界砖",
+      "link": "下界砖",
+      "zh": "下界砖"
+    },
+    {
+      "en": "nether quartz",
+      "raw": "下界石英",
+      "link": "下界石英",
+      "zh": "下界石英"
+    },
+    {
+      "en": "nether star",
+      "raw": "下界之星",
+      "link": "下界之星",
+      "zh": "下界之星"
+    },
+    {
+      "en": "nether wart",
+      "raw": "下界疣",
+      "link": "下界疣",
+      "zh": "下界疣"
+    },
+    {
+      "en": "netherite armor",
+      "raw": "盔甲|下界合金盔甲",
+      "link": "盔甲",
+      "zh": "下界合金盔甲"
+    },
+    {
+      "en": "netherite axe",
+      "raw": "斧|下界合金斧",
+      "link": "斧",
+      "zh": "下界合金斧"
+    },
+    {
+      "en": "netherite boots",
+      "raw": "盔甲|下界合金靴子",
+      "link": "盔甲",
+      "zh": "下界合金靴子"
+    },
+    {
+      "en": "netherite chestplate",
+      "raw": "盔甲|下界合金胸甲",
+      "link": "盔甲",
+      "zh": "下界合金胸甲"
+    },
+    {
+      "en": "netherite helmet",
+      "raw": "盔甲|下界合金头盔",
+      "link": "盔甲",
+      "zh": "下界合金头盔"
+    },
+    {
+      "en": "netherite hoe",
+      "raw": "锄|下界合金锄",
+      "link": "锄",
+      "zh": "下界合金锄"
+    },
+    {
+      "en": "netherite horse armor",
+      "raw": "马铠|下界合金马铠",
+      "link": "马铠",
+      "zh": "下界合金马铠"
+    },
+    {
+      "en": "netherite ingot",
+      "raw": "下界合金锭",
+      "link": "下界合金锭",
+      "zh": "下界合金锭"
+    },
+    {
+      "en": "netherite leggings",
+      "raw": "盔甲|下界合金护腿",
+      "link": "盔甲",
+      "zh": "下界合金护腿"
+    },
+    {
+      "en": "netherite nautilus armor",
+      "raw": "鹦鹉螺铠|下界合金鹦鹉螺铠",
+      "link": "鹦鹉螺铠",
+      "zh": "下界合金鹦鹉螺铠"
+    },
+    {
+      "en": "netherite pickaxe",
+      "raw": "镐|下界合金镐",
+      "link": "镐",
+      "zh": "下界合金镐"
+    },
+    {
+      "en": "netherite scrap",
+      "raw": "下界合金碎片",
+      "link": "下界合金碎片",
+      "zh": "下界合金碎片"
+    },
+    {
+      "en": "netherite shovel",
+      "raw": "锹|下界合金锹",
+      "link": "锹",
+      "zh": "下界合金锹"
+    },
+    {
+      "en": "netherite spear",
+      "raw": "矛|下界合金矛",
+      "link": "矛",
+      "zh": "下界合金矛"
+    },
+    {
+      "en": "netherite sword",
+      "raw": "剑|下界合金剑",
+      "link": "剑",
+      "zh": "下界合金剑"
+    },
+    {
+      "en": "netherite upgrade",
+      "raw": "下界合金升级",
+      "link": "下界合金升级",
+      "zh": "下界合金升级"
+    },
+    {
+      "en": "netherite upgrade smithing template",
+      "raw": "下界合金升级",
+      "link": "下界合金升级",
+      "zh": "下界合金升级"
+    },
+    {
+      "en": "oak boat",
+      "raw": "船|橡木船",
+      "link": "船",
+      "zh": "橡木船"
+    },
+    {
+      "en": "oak boat with chest",
+      "raw": "运输船|橡木运输船",
+      "link": "运输船",
+      "zh": "橡木运输船"
+    },
+    {
+      "en": "ocean explorer map",
+      "raw": "探险家地图|海洋探险家地图",
+      "link": "探险家地图",
+      "zh": "海洋探险家地图"
+    },
+    {
+      "en": "ocean monument explorer map",
+      "raw": "探险家地图|海底神殿探险家地图",
+      "link": "探险家地图",
+      "zh": "海底神殿探险家地图"
+    },
+    {
+      "en": "ocean monument map",
+      "raw": "Ocean Monument Map",
+      "link": "Ocean Monument Map",
+      "zh": "Ocean Monument Map"
+    },
+    {
+      "en": "ocelot spawn egg",
+      "raw": "刷怪蛋|豹猫刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "豹猫刷怪蛋"
+    },
+    {
+      "en": "ominous bottle",
+      "raw": "不祥之瓶",
+      "link": "不祥之瓶",
+      "zh": "不祥之瓶"
+    },
+    {
+      "en": "ominous trial key",
+      "raw": "不祥试炼钥匙",
+      "link": "不祥试炼钥匙",
+      "zh": "不祥试炼钥匙"
+    },
+    {
+      "en": "orange bundle",
+      "raw": "收纳袋|橙色收纳袋",
+      "link": "收纳袋",
+      "zh": "橙色收纳袋"
+    },
+    {
+      "en": "orange cushion",
+      "raw": "坐垫|橙色坐垫",
+      "link": "坐垫",
+      "zh": "橙色坐垫"
+    },
+    {
+      "en": "orange dye",
+      "raw": "橙色染料",
+      "link": "橙色染料",
+      "zh": "橙色染料"
+    },
+    {
+      "en": "orange firework star",
+      "raw": "烟火之星|橙色烟火之星",
+      "link": "烟火之星",
+      "zh": "橙色烟火之星"
+    },
+    {
+      "en": "orange harness",
+      "raw": "挽具|橙色挽具",
+      "link": "挽具",
+      "zh": "橙色挽具"
+    },
+    {
+      "en": "orange shield",
+      "raw": "盾牌|橙色盾牌",
+      "link": "盾牌",
+      "zh": "橙色盾牌"
+    },
+    {
+      "en": "painting",
+      "raw": "画",
+      "link": "画",
+      "zh": "画"
+    },
+    {
+      "en": "pale oak boat",
+      "raw": "船|苍白橡木船",
+      "link": "船",
+      "zh": "苍白橡木船"
+    },
+    {
+      "en": "pale oak boat with chest",
+      "raw": "运输船|苍白橡木运输船",
+      "link": "运输船",
+      "zh": "苍白橡木运输船"
+    },
+    {
+      "en": "panda spawn egg",
+      "raw": "刷怪蛋|熊猫刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "熊猫刷怪蛋"
+    },
+    {
+      "en": "paper",
+      "raw": "纸",
+      "link": "纸",
+      "zh": "纸"
+    },
+    {
+      "en": "parched spawn egg",
+      "raw": "刷怪蛋|焦骸刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "焦骸刷怪蛋"
+    },
+    {
+      "en": "parrot spawn egg",
+      "raw": "刷怪蛋|鹦鹉刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "鹦鹉刷怪蛋"
+    },
+    {
+      "en": "phantom membrane",
+      "raw": "幻翼膜",
+      "link": "幻翼膜",
+      "zh": "幻翼膜"
+    },
+    {
+      "en": "phantom spawn egg",
+      "raw": "刷怪蛋|幻翼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "幻翼刷怪蛋"
+    },
+    {
+      "en": "pickaxe",
+      "raw": "镐",
+      "link": "镐",
+      "zh": "镐"
+    },
+    {
+      "en": "pig spawn egg",
+      "raw": "刷怪蛋|猪刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "猪刷怪蛋"
+    },
+    {
+      "en": "piglin brute spawn egg",
+      "raw": "刷怪蛋|猪灵蛮兵刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "猪灵蛮兵刷怪蛋"
+    },
+    {
+      "en": "piglin spawn egg",
+      "raw": "刷怪蛋|猪灵刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "猪灵刷怪蛋"
+    },
+    {
+      "en": "pillager spawn egg",
+      "raw": "刷怪蛋|掠夺者刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "掠夺者刷怪蛋"
+    },
+    {
+      "en": "pink bundle",
+      "raw": "收纳袋|粉红色收纳袋",
+      "link": "收纳袋",
+      "zh": "粉红色收纳袋"
+    },
+    {
+      "en": "pink cushion",
+      "raw": "坐垫|粉红色坐垫",
+      "link": "坐垫",
+      "zh": "粉红色坐垫"
+    },
+    {
+      "en": "pink dye",
+      "raw": "粉红色染料",
+      "link": "粉红色染料",
+      "zh": "粉红色染料"
+    },
+    {
+      "en": "pink firework star",
+      "raw": "烟火之星|粉红色烟火之星",
+      "link": "烟火之星",
+      "zh": "粉红色烟火之星"
+    },
+    {
+      "en": "pink harness",
+      "raw": "挽具|粉红色挽具",
+      "link": "挽具",
+      "zh": "粉红色挽具"
+    },
+    {
+      "en": "pink shield",
+      "raw": "盾牌|粉红色盾牌",
+      "link": "盾牌",
+      "zh": "粉红色盾牌"
+    },
+    {
+      "en": "pitcher pod",
+      "raw": "瓶子草荚果",
+      "link": "瓶子草荚果",
+      "zh": "瓶子草荚果"
+    },
+    {
+      "en": "plains village map",
+      "raw": "探险家地图|平原村庄地图",
+      "link": "探险家地图",
+      "zh": "平原村庄地图"
+    },
+    {
+      "en": "plenty pottery sherd",
+      "raw": "富饶纹样陶片",
+      "link": "富饶纹样陶片",
+      "zh": "富饶纹样陶片"
+    },
+    {
+      "en": "poisonous potato",
+      "raw": "毒马铃薯",
+      "link": "毒马铃薯",
+      "zh": "毒马铃薯"
+    },
+    {
+      "en": "polar bear spawn egg",
+      "raw": "刷怪蛋|北极熊刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "北极熊刷怪蛋"
+    },
+    {
+      "en": "poplar boat",
+      "raw": "船|杨木船",
+      "link": "船",
+      "zh": "杨木船"
+    },
+    {
+      "en": "poplar boat with chest",
+      "raw": "运输船|杨木运输船",
+      "link": "运输船",
+      "zh": "杨木运输船"
+    },
+    {
+      "en": "popped chorus fruit",
+      "raw": "爆裂紫颂果",
+      "link": "爆裂紫颂果",
+      "zh": "爆裂紫颂果"
+    },
+    {
+      "en": "portfolio",
+      "raw": "相片簿",
+      "link": "相片簿",
+      "zh": "相片簿"
+    },
+    {
+      "en": "potato",
+      "raw": "马铃薯",
+      "link": "马铃薯",
+      "zh": "马铃薯"
+    },
+    {
+      "en": "potion",
+      "raw": "药水",
+      "link": "药水",
+      "zh": "药水"
+    },
+    {
+      "en": "potion of decay",
+      "raw": "衰变药水",
+      "link": "衰变药水",
+      "zh": "衰变药水"
+    },
+    {
+      "en": "potion of fire resistance",
+      "raw": "抗火药水",
+      "link": "抗火药水",
+      "zh": "抗火药水"
+    },
+    {
+      "en": "potion of harming",
+      "raw": "伤害药水",
+      "link": "伤害药水",
+      "zh": "伤害药水"
+    },
+    {
+      "en": "potion of healing",
+      "raw": "治疗药水",
+      "link": "治疗药水",
+      "zh": "治疗药水"
+    },
+    {
+      "en": "potion of infestation",
+      "raw": "虫蚀药水",
+      "link": "虫蚀药水",
+      "zh": "虫蚀药水"
+    },
+    {
+      "en": "potion of invisibility",
+      "raw": "隐身药水",
+      "link": "隐身药水",
+      "zh": "隐身药水"
+    },
+    {
+      "en": "potion of leaping",
+      "raw": "跳跃药水",
+      "link": "跳跃药水",
+      "zh": "跳跃药水"
+    },
+    {
+      "en": "potion of levitation",
+      "raw": "飘浮药水",
+      "link": "飘浮药水",
+      "zh": "飘浮药水"
+    },
+    {
+      "en": "potion of luck",
+      "raw": "幸运药水",
+      "link": "幸运药水",
+      "zh": "幸运药水"
+    },
+    {
+      "en": "potion of night vision",
+      "raw": "夜视药水",
+      "link": "夜视药水",
+      "zh": "夜视药水"
+    },
+    {
+      "en": "potion of oozing",
+      "raw": "渗浆药水",
+      "link": "渗浆药水",
+      "zh": "渗浆药水"
+    },
+    {
+      "en": "potion of poison",
+      "raw": "剧毒药水",
+      "link": "剧毒药水",
+      "zh": "剧毒药水"
+    },
+    {
+      "en": "potion of regeneration",
+      "raw": "再生药水",
+      "link": "再生药水",
+      "zh": "再生药水"
+    },
+    {
+      "en": "potion of slow falling",
+      "raw": "缓降药水",
+      "link": "缓降药水",
+      "zh": "缓降药水"
+    },
+    {
+      "en": "potion of slowness",
+      "raw": "迟缓药水",
+      "link": "迟缓药水",
+      "zh": "迟缓药水"
+    },
+    {
+      "en": "potion of strength",
+      "raw": "力量药水",
+      "link": "力量药水",
+      "zh": "力量药水"
+    },
+    {
+      "en": "potion of swiftness",
+      "raw": "迅捷药水",
+      "link": "迅捷药水",
+      "zh": "迅捷药水"
+    },
+    {
+      "en": "potion of the turtle master",
+      "raw": "神龟药水",
+      "link": "神龟药水",
+      "zh": "神龟药水"
+    },
+    {
+      "en": "potion of water breathing",
+      "raw": "水肺药水",
+      "link": "水肺药水",
+      "zh": "水肺药水"
+    },
+    {
+      "en": "potion of weakness",
+      "raw": "虚弱药水",
+      "link": "虚弱药水",
+      "zh": "虚弱药水"
+    },
+    {
+      "en": "potion of weaving",
+      "raw": "盘丝药水",
+      "link": "盘丝药水",
+      "zh": "盘丝药水"
+    },
+    {
+      "en": "potion of wind charging",
+      "raw": "蓄风药水",
+      "link": "蓄风药水",
+      "zh": "蓄风药水"
+    },
+    {
+      "en": "pottery sherd",
+      "raw": "陶片",
+      "link": "陶片",
+      "zh": "陶片"
+    },
+    {
+      "en": "powder snow bucket",
+      "raw": "细雪桶",
+      "link": "细雪桶",
+      "zh": "细雪桶"
+    },
+    {
+      "en": "prismarine crystals",
+      "raw": "海晶砂粒",
+      "link": "海晶砂粒",
+      "zh": "海晶砂粒"
+    },
+    {
+      "en": "prismarine shard",
+      "raw": "海晶碎片",
+      "link": "海晶碎片",
+      "zh": "海晶碎片"
+    },
+    {
+      "en": "prize pottery sherd",
+      "raw": "珍宝纹样陶片",
+      "link": "珍宝纹样陶片",
+      "zh": "珍宝纹样陶片"
+    },
+    {
+      "en": "pufferfish",
+      "raw": "河豚（物品）|河豚",
+      "link": "河豚（物品）",
+      "zh": "河豚"
+    },
+    {
+      "en": "pufferfish bucket",
+      "raw": "河豚桶",
+      "link": "河豚桶",
+      "zh": "河豚桶"
+    },
+    {
+      "en": "pufferfish spawn egg",
+      "raw": "刷怪蛋|河豚刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "河豚刷怪蛋"
+    },
+    {
+      "en": "pumpkin pie",
+      "raw": "南瓜派",
+      "link": "南瓜派",
+      "zh": "南瓜派"
+    },
+    {
+      "en": "pumpkin seeds",
+      "raw": "南瓜种子",
+      "link": "南瓜种子",
+      "zh": "南瓜种子"
+    },
+    {
+      "en": "purple bundle",
+      "raw": "收纳袋|紫色收纳袋",
+      "link": "收纳袋",
+      "zh": "紫色收纳袋"
+    },
+    {
+      "en": "purple cushion",
+      "raw": "坐垫|紫色坐垫",
+      "link": "坐垫",
+      "zh": "紫色坐垫"
+    },
+    {
+      "en": "purple dye",
+      "raw": "紫色染料",
+      "link": "紫色染料",
+      "zh": "紫色染料"
+    },
+    {
+      "en": "purple firework star",
+      "raw": "烟火之星|紫色烟火之星",
+      "link": "烟火之星",
+      "zh": "紫色烟火之星"
+    },
+    {
+      "en": "purple harness",
+      "raw": "挽具|紫色挽具",
+      "link": "挽具",
+      "zh": "紫色挽具"
+    },
+    {
+      "en": "purple shield",
+      "raw": "盾牌|紫色盾牌",
+      "link": "盾牌",
+      "zh": "紫色盾牌"
+    },
+    {
+      "en": "rabbit hide",
+      "raw": "兔子皮",
+      "link": "兔子皮",
+      "zh": "兔子皮"
+    },
+    {
+      "en": "rabbit spawn egg",
+      "raw": "刷怪蛋|兔子刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "兔子刷怪蛋"
+    },
+    {
+      "en": "rabbit stew",
+      "raw": "兔肉煲",
+      "link": "兔肉煲",
+      "zh": "兔肉煲"
+    },
+    {
+      "en": "rabbit's foot",
+      "raw": "兔子脚",
+      "link": "兔子脚",
+      "zh": "兔子脚"
+    },
+    {
+      "en": "raiser armor trim",
+      "raw": "牧民盔甲纹饰",
+      "link": "牧民盔甲纹饰",
+      "zh": "牧民盔甲纹饰"
+    },
+    {
+      "en": "raiser armor trim smithing template",
+      "raw": "牧民盔甲纹饰",
+      "link": "牧民盔甲纹饰",
+      "zh": "牧民盔甲纹饰"
+    },
+    {
+      "en": "ravager spawn egg",
+      "raw": "刷怪蛋|劫掠兽刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "劫掠兽刷怪蛋"
+    },
+    {
+      "en": "raw beef",
+      "raw": "生牛肉",
+      "link": "生牛肉",
+      "zh": "生牛肉"
+    },
+    {
+      "en": "raw chicken",
+      "raw": "生鸡肉",
+      "link": "生鸡肉",
+      "zh": "生鸡肉"
+    },
+    {
+      "en": "raw cod",
+      "raw": "生鳕鱼",
+      "link": "生鳕鱼",
+      "zh": "生鳕鱼"
+    },
+    {
+      "en": "raw copper",
+      "raw": "粗铜",
+      "link": "粗铜",
+      "zh": "粗铜"
+    },
+    {
+      "en": "raw fish",
+      "raw": "生鳕鱼|生鱼",
+      "link": "生鳕鱼",
+      "zh": "生鱼"
+    },
+    {
+      "en": "raw gold",
+      "raw": "粗金",
+      "link": "粗金",
+      "zh": "粗金"
+    },
+    {
+      "en": "raw iron",
+      "raw": "粗铁",
+      "link": "粗铁",
+      "zh": "粗铁"
+    },
+    {
+      "en": "raw mutton",
+      "raw": "生羊肉",
+      "link": "生羊肉",
+      "zh": "生羊肉"
+    },
+    {
+      "en": "raw porkchop",
+      "raw": "生猪排",
+      "link": "生猪排",
+      "zh": "生猪排"
+    },
+    {
+      "en": "raw rabbit",
+      "raw": "生兔肉",
+      "link": "生兔肉",
+      "zh": "生兔肉"
+    },
+    {
+      "en": "raw salmon",
+      "raw": "生鲑鱼",
+      "link": "生鲑鱼",
+      "zh": "生鲑鱼"
+    },
+    {
+      "en": "recovery compass",
+      "raw": "追溯指针",
+      "link": "追溯指针",
+      "zh": "追溯指针"
+    },
+    {
+      "en": "red bundle",
+      "raw": "收纳袋|红色收纳袋",
+      "link": "收纳袋",
+      "zh": "红色收纳袋"
+    },
+    {
+      "en": "red cushion",
+      "raw": "坐垫|红色坐垫",
+      "link": "坐垫",
+      "zh": "红色坐垫"
+    },
+    {
+      "en": "red dye",
+      "raw": "红色染料",
+      "link": "红色染料",
+      "zh": "红色染料"
+    },
+    {
+      "en": "red firework star",
+      "raw": "烟火之星|红色烟火之星",
+      "link": "烟火之星",
+      "zh": "红色烟火之星"
+    },
+    {
+      "en": "red harness",
+      "raw": "挽具|红色挽具",
+      "link": "挽具",
+      "zh": "红色挽具"
+    },
+    {
+      "en": "red shield",
+      "raw": "盾牌|红色盾牌",
+      "link": "盾牌",
+      "zh": "红色盾牌"
+    },
+    {
+      "en": "redstone",
+      "raw": "红石粉",
+      "link": "红石粉",
+      "zh": "红石粉"
+    },
+    {
+      "en": "redstone dust",
+      "raw": "红石粉",
+      "link": "红石粉",
+      "zh": "红石粉"
+    },
+    {
+      "en": "resin brick",
+      "raw": "树脂砖",
+      "link": "树脂砖",
+      "zh": "树脂砖"
+    },
+    {
+      "en": "rib armor trim",
+      "raw": "肋骨盔甲纹饰",
+      "link": "肋骨盔甲纹饰",
+      "zh": "肋骨盔甲纹饰"
+    },
+    {
+      "en": "rib armor trim smithing template",
+      "raw": "肋骨盔甲纹饰",
+      "link": "肋骨盔甲纹饰",
+      "zh": "肋骨盔甲纹饰"
+    },
+    {
+      "en": "rose red",
+      "raw": "红色染料|玫瑰红",
+      "link": "红色染料",
+      "zh": "玫瑰红"
+    },
+    {
+      "en": "rotten flesh",
+      "raw": "腐肉",
+      "link": "腐肉",
+      "zh": "腐肉"
+    },
+    {
+      "en": "saddle",
+      "raw": "鞍",
+      "link": "鞍",
+      "zh": "鞍"
+    },
+    {
+      "en": "salmon bucket",
+      "raw": "鲑鱼桶",
+      "link": "鲑鱼桶",
+      "zh": "鲑鱼桶"
+    },
+    {
+      "en": "salmon spawn egg",
+      "raw": "刷怪蛋|鲑鱼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "鲑鱼刷怪蛋"
+    },
+    {
+      "en": "savanna village map",
+      "raw": "探险家地图|热带草原村庄地图",
+      "link": "探险家地图",
+      "zh": "热带草原村庄地图"
+    },
+    {
+      "en": "scrape pottery sherd",
+      "raw": "刮削纹样陶片",
+      "link": "刮削纹样陶片",
+      "zh": "刮削纹样陶片"
+    },
+    {
+      "en": "scute",
+      "raw": "海龟鳞甲|鳞甲",
+      "link": "海龟鳞甲",
+      "zh": "鳞甲"
+    },
+    {
+      "en": "seeds",
+      "raw": "小麦种子|种子",
+      "link": "小麦种子",
+      "zh": "种子"
+    },
+    {
+      "en": "sentry armor trim",
+      "raw": "哨兵盔甲纹饰",
+      "link": "哨兵盔甲纹饰",
+      "zh": "哨兵盔甲纹饰"
+    },
+    {
+      "en": "sentry armor trim smithing template",
+      "raw": "哨兵盔甲纹饰",
+      "link": "哨兵盔甲纹饰",
+      "zh": "哨兵盔甲纹饰"
+    },
+    {
+      "en": "shaper armor trim",
+      "raw": "塑造盔甲纹饰",
+      "link": "塑造盔甲纹饰",
+      "zh": "塑造盔甲纹饰"
+    },
+    {
+      "en": "shaper armor trim smithing template",
+      "raw": "塑造盔甲纹饰",
+      "link": "塑造盔甲纹饰",
+      "zh": "塑造盔甲纹饰"
+    },
+    {
+      "en": "sheaf pottery sherd",
+      "raw": "麦捆纹样陶片",
+      "link": "麦捆纹样陶片",
+      "zh": "麦捆纹样陶片"
+    },
+    {
+      "en": "shears",
+      "raw": "剪刀",
+      "link": "剪刀",
+      "zh": "剪刀"
+    },
+    {
+      "en": "sheep spawn egg",
+      "raw": "刷怪蛋|绵羊刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "绵羊刷怪蛋"
+    },
+    {
+      "en": "shelter pottery sherd",
+      "raw": "树荫纹样陶片",
+      "link": "树荫纹样陶片",
+      "zh": "树荫纹样陶片"
+    },
+    {
+      "en": "shield",
+      "raw": "盾牌",
+      "link": "盾牌",
+      "zh": "盾牌"
+    },
+    {
+      "en": "shovel",
+      "raw": "锹",
+      "link": "锹",
+      "zh": "锹"
+    },
+    {
+      "en": "shulker shell",
+      "raw": "潜影壳",
+      "link": "潜影壳",
+      "zh": "潜影壳"
+    },
+    {
+      "en": "shulker spawn egg",
+      "raw": "刷怪蛋|潜影贝刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "潜影贝刷怪蛋"
+    },
+    {
+      "en": "silence armor trim",
+      "raw": "幽静盔甲纹饰",
+      "link": "幽静盔甲纹饰",
+      "zh": "幽静盔甲纹饰"
+    },
+    {
+      "en": "silence armor trim smithing template",
+      "raw": "幽静盔甲纹饰",
+      "link": "幽静盔甲纹饰",
+      "zh": "幽静盔甲纹饰"
+    },
+    {
+      "en": "silverfish spawn egg",
+      "raw": "刷怪蛋|蠹虫刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "蠹虫刷怪蛋"
+    },
+    {
+      "en": "skeleton horse spawn egg",
+      "raw": "刷怪蛋|骷髅马刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "骷髅马刷怪蛋"
+    },
+    {
+      "en": "skeleton spawn egg",
+      "raw": "刷怪蛋|骷髅刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "骷髅刷怪蛋"
+    },
+    {
+      "en": "skull charge banner pattern",
+      "raw": "头颅盾徽旗帜图案",
+      "link": "头颅盾徽旗帜图案",
+      "zh": "头颅盾徽旗帜图案"
+    },
+    {
+      "en": "skull pottery sherd",
+      "raw": "头颅纹样陶片",
+      "link": "头颅纹样陶片",
+      "zh": "头颅纹样陶片"
+    },
+    {
+      "en": "slime spawn egg",
+      "raw": "刷怪蛋|史莱姆刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "史莱姆刷怪蛋"
+    },
+    {
+      "en": "slimeball",
+      "raw": "黏液球",
+      "link": "黏液球",
+      "zh": "黏液球"
+    },
+    {
+      "en": "smithing template",
+      "raw": "锻造模板",
+      "link": "锻造模板",
+      "zh": "锻造模板"
+    },
+    {
+      "en": "sniffer spawn egg",
+      "raw": "刷怪蛋|嗅探兽刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "嗅探兽刷怪蛋"
+    },
+    {
+      "en": "snort pottery sherd",
+      "raw": "嗅探纹样陶片",
+      "link": "嗅探纹样陶片",
+      "zh": "嗅探纹样陶片"
+    },
+    {
+      "en": "snout armor trim",
+      "raw": "猪鼻盔甲纹饰",
+      "link": "猪鼻盔甲纹饰",
+      "zh": "猪鼻盔甲纹饰"
+    },
+    {
+      "en": "snout armor trim smithing template",
+      "raw": "猪鼻盔甲纹饰",
+      "link": "猪鼻盔甲纹饰",
+      "zh": "猪鼻盔甲纹饰"
+    },
+    {
+      "en": "snout banner pattern",
+      "raw": "猪鼻旗帜图案",
+      "link": "猪鼻旗帜图案",
+      "zh": "猪鼻旗帜图案"
+    },
+    {
+      "en": "snow golem spawn egg",
+      "raw": "刷怪蛋|雪傀儡刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "雪傀儡刷怪蛋"
+    },
+    {
+      "en": "snowball",
+      "raw": "雪球",
+      "link": "雪球",
+      "zh": "雪球"
+    },
+    {
+      "en": "snowy village map",
+      "raw": "探险家地图|雪原村庄地图",
+      "link": "探险家地图",
+      "zh": "雪原村庄地图"
+    },
+    {
+      "en": "spawn egg",
+      "raw": "刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "刷怪蛋"
+    },
+    {
+      "en": "spear",
+      "raw": "矛",
+      "link": "矛",
+      "zh": "矛"
+    },
+    {
+      "en": "spectral arrow",
+      "raw": "光灵箭",
+      "link": "光灵箭",
+      "zh": "光灵箭"
+    },
+    {
+      "en": "spider eye",
+      "raw": "蜘蛛眼",
+      "link": "蜘蛛眼",
+      "zh": "蜘蛛眼"
+    },
+    {
+      "en": "spider spawn egg",
+      "raw": "刷怪蛋|蜘蛛刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "蜘蛛刷怪蛋"
+    },
+    {
+      "en": "spire armor trim",
+      "raw": "尖塔盔甲纹饰",
+      "link": "尖塔盔甲纹饰",
+      "zh": "尖塔盔甲纹饰"
+    },
+    {
+      "en": "spire armor trim smithing template",
+      "raw": "尖塔盔甲纹饰",
+      "link": "尖塔盔甲纹饰",
+      "zh": "尖塔盔甲纹饰"
+    },
+    {
+      "en": "splash awkward potion",
+      "raw": "粗制的药水|喷溅型粗制的药水",
+      "link": "粗制的药水",
+      "zh": "喷溅型粗制的药水"
+    },
+    {
+      "en": "splash mundane potion",
+      "raw": "平凡的药水|喷溅型平凡的药水",
+      "link": "平凡的药水",
+      "zh": "喷溅型平凡的药水"
+    },
+    {
+      "en": "splash potion",
+      "raw": "喷溅药水",
+      "link": "喷溅药水",
+      "zh": "喷溅药水"
+    },
+    {
+      "en": "splash potion of decay",
+      "raw": "衰变药水|喷溅型衰变药水",
+      "link": "衰变药水",
+      "zh": "喷溅型衰变药水"
+    },
+    {
+      "en": "splash potion of fire resistance",
+      "raw": "抗火药水|喷溅型抗火药水",
+      "link": "抗火药水",
+      "zh": "喷溅型抗火药水"
+    },
+    {
+      "en": "splash potion of harming",
+      "raw": "伤害药水|喷溅型伤害药水",
+      "link": "伤害药水",
+      "zh": "喷溅型伤害药水"
+    },
+    {
+      "en": "splash potion of healing",
+      "raw": "治疗药水|喷溅型治疗药水",
+      "link": "治疗药水",
+      "zh": "喷溅型治疗药水"
+    },
+    {
+      "en": "splash potion of infestation",
+      "raw": "虫蚀药水|喷溅型虫蚀药水",
+      "link": "虫蚀药水",
+      "zh": "喷溅型虫蚀药水"
+    },
+    {
+      "en": "splash potion of invisibility",
+      "raw": "隐身药水|喷溅型隐身药水",
+      "link": "隐身药水",
+      "zh": "喷溅型隐身药水"
+    },
+    {
+      "en": "splash potion of leaping",
+      "raw": "跳跃药水|喷溅型跳跃药水",
+      "link": "跳跃药水",
+      "zh": "喷溅型跳跃药水"
+    },
+    {
+      "en": "splash potion of levitation",
+      "raw": "飘浮药水|喷溅型飘浮药水",
+      "link": "飘浮药水",
+      "zh": "喷溅型飘浮药水"
+    },
+    {
+      "en": "splash potion of luck",
+      "raw": "幸运药水|喷溅型幸运药水",
+      "link": "幸运药水",
+      "zh": "喷溅型幸运药水"
+    },
+    {
+      "en": "splash potion of night vision",
+      "raw": "夜视药水|喷溅型夜视药水",
+      "link": "夜视药水",
+      "zh": "喷溅型夜视药水"
+    },
+    {
+      "en": "splash potion of oozing",
+      "raw": "渗浆药水|喷溅型渗浆药水",
+      "link": "渗浆药水",
+      "zh": "喷溅型渗浆药水"
+    },
+    {
+      "en": "splash potion of poison",
+      "raw": "剧毒药水|喷溅型剧毒药水",
+      "link": "剧毒药水",
+      "zh": "喷溅型剧毒药水"
+    },
+    {
+      "en": "splash potion of regeneration",
+      "raw": "再生药水|喷溅型再生药水",
+      "link": "再生药水",
+      "zh": "喷溅型再生药水"
+    },
+    {
+      "en": "splash potion of slow falling",
+      "raw": "缓降药水|喷溅型缓降药水",
+      "link": "缓降药水",
+      "zh": "喷溅型缓降药水"
+    },
+    {
+      "en": "splash potion of slowness",
+      "raw": "迟缓药水|喷溅型迟缓药水",
+      "link": "迟缓药水",
+      "zh": "喷溅型迟缓药水"
+    },
+    {
+      "en": "splash potion of strength",
+      "raw": "力量药水|喷溅型力量药水",
+      "link": "力量药水",
+      "zh": "喷溅型力量药水"
+    },
+    {
+      "en": "splash potion of swiftness",
+      "raw": "迅捷药水|喷溅型迅捷药水",
+      "link": "迅捷药水",
+      "zh": "喷溅型迅捷药水"
+    },
+    {
+      "en": "splash potion of the turtle master",
+      "raw": "神龟药水|喷溅型神龟药水",
+      "link": "神龟药水",
+      "zh": "喷溅型神龟药水"
+    },
+    {
+      "en": "splash potion of water breathing",
+      "raw": "水肺药水|喷溅型水肺药水",
+      "link": "水肺药水",
+      "zh": "喷溅型水肺药水"
+    },
+    {
+      "en": "splash potion of weakness",
+      "raw": "虚弱药水|喷溅型虚弱药水",
+      "link": "虚弱药水",
+      "zh": "喷溅型虚弱药水"
+    },
+    {
+      "en": "splash potion of weaving",
+      "raw": "盘丝药水|喷溅型盘丝药水",
+      "link": "盘丝药水",
+      "zh": "喷溅型盘丝药水"
+    },
+    {
+      "en": "splash potion of wind charging",
+      "raw": "蓄风药水|喷溅型蓄风药水",
+      "link": "蓄风药水",
+      "zh": "喷溅型蓄风药水"
+    },
+    {
+      "en": "splash uncraftable potion",
+      "raw": "不可合成的药水|不可合成的喷溅型药水",
+      "link": "不可合成的药水",
+      "zh": "不可合成的喷溅型药水"
+    },
+    {
+      "en": "splash water bottle",
+      "raw": "水瓶|喷溅型水瓶",
+      "link": "水瓶",
+      "zh": "喷溅型水瓶"
+    },
+    {
+      "en": "spruce boat",
+      "raw": "船|云杉木船",
+      "link": "船",
+      "zh": "云杉木船"
+    },
+    {
+      "en": "spruce boat with chest",
+      "raw": "运输船|云杉木运输船",
+      "link": "运输船",
+      "zh": "云杉木运输船"
+    },
+    {
+      "en": "spyglass",
+      "raw": "望远镜",
+      "link": "望远镜",
+      "zh": "望远镜"
+    },
+    {
+      "en": "squid spawn egg",
+      "raw": "刷怪蛋|鱿鱼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "鱿鱼刷怪蛋"
+    },
+    {
+      "en": "steak",
+      "raw": "牛排",
+      "link": "牛排",
+      "zh": "牛排"
+    },
+    {
+      "en": "stick",
+      "raw": "木棍",
+      "link": "木棍",
+      "zh": "木棍"
+    },
+    {
+      "en": "stone axe",
+      "raw": "斧|石斧",
+      "link": "斧",
+      "zh": "石斧"
+    },
+    {
+      "en": "stone hoe",
+      "raw": "锄|石锄",
+      "link": "锄",
+      "zh": "石锄"
+    },
+    {
+      "en": "stone pickaxe",
+      "raw": "镐|石镐",
+      "link": "镐",
+      "zh": "石镐"
+    },
+    {
+      "en": "stone shovel",
+      "raw": "锹|石锹",
+      "link": "锹",
+      "zh": "石锹"
+    },
+    {
+      "en": "stone spear",
+      "raw": "矛|石矛",
+      "link": "矛",
+      "zh": "石矛"
+    },
+    {
+      "en": "stone sword",
+      "raw": "剑|石剑",
+      "link": "剑",
+      "zh": "石剑"
+    },
+    {
+      "en": "stray spawn egg",
+      "raw": "刷怪蛋|流浪者刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "流浪者刷怪蛋"
+    },
+    {
+      "en": "strider spawn egg",
+      "raw": "刷怪蛋|炽足兽刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "炽足兽刷怪蛋"
+    },
+    {
+      "en": "string",
+      "raw": "线",
+      "link": "线",
+      "zh": "线"
+    },
+    {
+      "en": "sugar",
+      "raw": "糖",
+      "link": "糖",
+      "zh": "糖"
+    },
+    {
+      "en": "sulfur cube spawn egg",
+      "raw": "刷怪蛋|硫方怪刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "硫方怪刷怪蛋"
+    },
+    {
+      "en": "suspicious stew",
+      "raw": "谜之炖菜",
+      "link": "谜之炖菜",
+      "zh": "谜之炖菜"
+    },
+    {
+      "en": "swamp explorer map",
+      "raw": "探险家地图|沼泽探险家地图",
+      "link": "探险家地图",
+      "zh": "沼泽探险家地图"
+    },
+    {
+      "en": "swamp hut explorer map",
+      "raw": "探险家地图|沼泽小屋探险家地图",
+      "link": "探险家地图",
+      "zh": "沼泽小屋探险家地图"
+    },
+    {
+      "en": "swamp hut map",
+      "raw": "Swamp Hut Map",
+      "link": "Swamp Hut Map",
+      "zh": "Swamp Hut Map"
+    },
+    {
+      "en": "sweet berries",
+      "raw": "甜浆果",
+      "link": "甜浆果",
+      "zh": "甜浆果"
+    },
+    {
+      "en": "sword",
+      "raw": "剑",
+      "link": "剑",
+      "zh": "剑"
+    },
+    {
+      "en": "tadpole spawn egg",
+      "raw": "刷怪蛋|蝌蚪刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "蝌蚪刷怪蛋"
+    },
+    {
+      "en": "taiga village map",
+      "raw": "探险家地图|针叶林村庄地图",
+      "link": "探险家地图",
+      "zh": "针叶林村庄地图"
+    },
+    {
+      "en": "thick lingering potion",
+      "raw": "浓稠的药水|滞留型浓稠的药水",
+      "link": "浓稠的药水",
+      "zh": "滞留型浓稠的药水"
+    },
+    {
+      "en": "thick potion",
+      "raw": "浓稠的药水",
+      "link": "浓稠的药水",
+      "zh": "浓稠的药水"
+    },
+    {
+      "en": "thick splash potion",
+      "raw": "浓稠的药水|喷溅型浓稠的药水",
+      "link": "浓稠的药水",
+      "zh": "喷溅型浓稠的药水"
+    },
+    {
+      "en": "thing banner pattern",
+      "raw": "Mojang徽标旗帜图案",
+      "link": "Mojang徽标旗帜图案",
+      "zh": "Mojang徽标旗帜图案"
+    },
+    {
+      "en": "tide armor trim",
+      "raw": "潮汐盔甲纹饰",
+      "link": "潮汐盔甲纹饰",
+      "zh": "潮汐盔甲纹饰"
+    },
+    {
+      "en": "tide armor trim smithing template",
+      "raw": "潮汐盔甲纹饰",
+      "link": "潮汐盔甲纹饰",
+      "zh": "潮汐盔甲纹饰"
+    },
+    {
+      "en": "tipped arrow",
+      "raw": "药箭",
+      "link": "药箭",
+      "zh": "药箭"
+    },
+    {
+      "en": "torchflower seeds",
+      "raw": "火把花种子",
+      "link": "火把花种子",
+      "zh": "火把花种子"
+    },
+    {
+      "en": "totem of undying",
+      "raw": "不死图腾",
+      "link": "不死图腾",
+      "zh": "不死图腾"
+    },
+    {
+      "en": "trader llama spawn egg",
+      "raw": "刷怪蛋|行商羊驼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "行商羊驼刷怪蛋"
+    },
+    {
+      "en": "trial chambers explorer map",
+      "raw": "探险家地图|试炼密室探险家地图",
+      "link": "探险家地图",
+      "zh": "试炼密室探险家地图"
+    },
+    {
+      "en": "trial chambers map",
+      "raw": "探险家地图|试炼密室地图",
+      "link": "探险家地图",
+      "zh": "试炼密室地图"
+    },
+    {
+      "en": "trial explorer map",
+      "raw": "探险家地图|试炼探险家地图",
+      "link": "探险家地图",
+      "zh": "试炼探险家地图"
+    },
+    {
+      "en": "trial key",
+      "raw": "试炼钥匙",
+      "link": "试炼钥匙",
+      "zh": "试炼钥匙"
+    },
+    {
+      "en": "trident",
+      "raw": "三叉戟",
+      "link": "三叉戟",
+      "zh": "三叉戟"
+    },
+    {
+      "en": "tropical fish",
+      "raw": "热带鱼（物品）|热带鱼",
+      "link": "热带鱼（物品）",
+      "zh": "热带鱼"
+    },
+    {
+      "en": "tropical fish bucket",
+      "raw": "热带鱼桶",
+      "link": "热带鱼桶",
+      "zh": "热带鱼桶"
+    },
+    {
+      "en": "tropical fish spawn egg",
+      "raw": "刷怪蛋|热带鱼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "热带鱼刷怪蛋"
+    },
+    {
+      "en": "turtle scute",
+      "raw": "海龟鳞甲",
+      "link": "海龟鳞甲",
+      "zh": "海龟鳞甲"
+    },
+    {
+      "en": "turtle shell",
+      "raw": "海龟壳",
+      "link": "海龟壳",
+      "zh": "海龟壳"
+    },
+    {
+      "en": "turtle spawn egg",
+      "raw": "刷怪蛋|海龟刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "海龟刷怪蛋"
+    },
+    {
+      "en": "uncraftable lingering potion",
+      "raw": "不可合成的药水|不可合成的滞留型药水",
+      "link": "不可合成的药水",
+      "zh": "不可合成的滞留型药水"
+    },
+    {
+      "en": "uncraftable potion",
+      "raw": "不可合成的药水",
+      "link": "不可合成的药水",
+      "zh": "不可合成的药水"
+    },
+    {
+      "en": "uncraftable splash potion",
+      "raw": "不可合成的药水|不可合成的喷溅型药水",
+      "link": "不可合成的药水",
+      "zh": "不可合成的喷溅型药水"
+    },
+    {
+      "en": "uncraftable tipped arrow",
+      "raw": "不可合成的药水|不可合成的药箭",
+      "link": "不可合成的药水",
+      "zh": "不可合成的药箭"
+    },
+    {
+      "en": "undying totem",
+      "raw": "不死图腾",
+      "link": "不死图腾",
+      "zh": "不死图腾"
+    },
+    {
+      "en": "vex armor trim",
+      "raw": "恼鬼盔甲纹饰",
+      "link": "恼鬼盔甲纹饰",
+      "zh": "恼鬼盔甲纹饰"
+    },
+    {
+      "en": "vex armor trim smithing template",
+      "raw": "恼鬼盔甲纹饰",
+      "link": "恼鬼盔甲纹饰",
+      "zh": "恼鬼盔甲纹饰"
+    },
+    {
+      "en": "vex spawn egg",
+      "raw": "刷怪蛋|恼鬼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "恼鬼刷怪蛋"
+    },
+    {
+      "en": "villager spawn egg",
+      "raw": "刷怪蛋|村民刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "村民刷怪蛋"
+    },
+    {
+      "en": "vindicator spawn egg",
+      "raw": "刷怪蛋|卫道士刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "卫道士刷怪蛋"
+    },
+    {
+      "en": "wandering trader spawn egg",
+      "raw": "刷怪蛋|流浪商人刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "流浪商人刷怪蛋"
+    },
+    {
+      "en": "ward armor trim",
+      "raw": "监守盔甲纹饰",
+      "link": "监守盔甲纹饰",
+      "zh": "监守盔甲纹饰"
+    },
+    {
+      "en": "ward armor trim smithing template",
+      "raw": "监守盔甲纹饰",
+      "link": "监守盔甲纹饰",
+      "zh": "监守盔甲纹饰"
+    },
+    {
+      "en": "warden spawn egg",
+      "raw": "刷怪蛋|监守者刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "监守者刷怪蛋"
+    },
+    {
+      "en": "warm ocean ruins map",
+      "raw": "Warm Ocean Ruins Map",
+      "link": "Warm Ocean Ruins Map",
+      "zh": "Warm Ocean Ruins Map"
+    },
+    {
+      "en": "warped fungus on a stick",
+      "raw": "诡异菌钓竿",
+      "link": "诡异菌钓竿",
+      "zh": "诡异菌钓竿"
+    },
+    {
+      "en": "water bottle",
+      "raw": "水瓶",
+      "link": "水瓶",
+      "zh": "水瓶"
+    },
+    {
+      "en": "water bucket",
+      "raw": "水桶",
+      "link": "水桶",
+      "zh": "水桶"
+    },
+    {
+      "en": "wayfinder armor trim",
+      "raw": "向导盔甲纹饰",
+      "link": "向导盔甲纹饰",
+      "zh": "向导盔甲纹饰"
+    },
+    {
+      "en": "wayfinder armor trim smithing template",
+      "raw": "向导盔甲纹饰",
+      "link": "向导盔甲纹饰",
+      "zh": "向导盔甲纹饰"
+    },
+    {
+      "en": "wheat",
+      "raw": "小麦",
+      "link": "小麦",
+      "zh": "小麦"
+    },
+    {
+      "en": "wheat seeds",
+      "raw": "小麦种子",
+      "link": "小麦种子",
+      "zh": "小麦种子"
+    },
+    {
+      "en": "white bundle",
+      "raw": "收纳袋|白色收纳袋",
+      "link": "收纳袋",
+      "zh": "白色收纳袋"
+    },
+    {
+      "en": "white cushion",
+      "raw": "坐垫|白色坐垫",
+      "link": "坐垫",
+      "zh": "白色坐垫"
+    },
+    {
+      "en": "white dye",
+      "raw": "白色染料",
+      "link": "白色染料",
+      "zh": "白色染料"
+    },
+    {
+      "en": "white firework star",
+      "raw": "烟火之星|白色烟火之星",
+      "link": "烟火之星",
+      "zh": "白色烟火之星"
+    },
+    {
+      "en": "white harness",
+      "raw": "挽具|白色挽具",
+      "link": "挽具",
+      "zh": "白色挽具"
+    },
+    {
+      "en": "white shield",
+      "raw": "盾牌|白色盾牌",
+      "link": "盾牌",
+      "zh": "白色盾牌"
+    },
+    {
+      "en": "wild armor trim",
+      "raw": "荒野盔甲纹饰",
+      "link": "荒野盔甲纹饰",
+      "zh": "荒野盔甲纹饰"
+    },
+    {
+      "en": "wild armor trim smithing template",
+      "raw": "荒野盔甲纹饰",
+      "link": "荒野盔甲纹饰",
+      "zh": "荒野盔甲纹饰"
+    },
+    {
+      "en": "wind charge",
+      "raw": "风弹",
+      "link": "风弹",
+      "zh": "风弹"
+    },
+    {
+      "en": "witch spawn egg",
+      "raw": "刷怪蛋|女巫刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "女巫刷怪蛋"
+    },
+    {
+      "en": "wither skeleton spawn egg",
+      "raw": "刷怪蛋|凋灵骷髅刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "凋灵骷髅刷怪蛋"
+    },
+    {
+      "en": "wither spawn egg",
+      "raw": "刷怪蛋|凋灵刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "凋灵刷怪蛋"
+    },
+    {
+      "en": "wolf armor",
+      "raw": "狼铠",
+      "link": "狼铠",
+      "zh": "狼铠"
+    },
+    {
+      "en": "wolf spawn egg",
+      "raw": "刷怪蛋|狼刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "狼刷怪蛋"
+    },
+    {
+      "en": "wooden axe",
+      "raw": "斧|木斧",
+      "link": "斧",
+      "zh": "木斧"
+    },
+    {
+      "en": "wooden hoe",
+      "raw": "锄|木锄",
+      "link": "锄",
+      "zh": "木锄"
+    },
+    {
+      "en": "wooden pickaxe",
+      "raw": "镐|木镐",
+      "link": "镐",
+      "zh": "木镐"
+    },
+    {
+      "en": "wooden shovel",
+      "raw": "锹|木锹",
+      "link": "锹",
+      "zh": "木锹"
+    },
+    {
+      "en": "wooden spear",
+      "raw": "矛|木矛",
+      "link": "矛",
+      "zh": "木矛"
+    },
+    {
+      "en": "wooden sword",
+      "raw": "剑|木剑",
+      "link": "剑",
+      "zh": "木剑"
+    },
+    {
+      "en": "woodland explorer map",
+      "raw": "探险家地图|林地探险家地图",
+      "link": "探险家地图",
+      "zh": "林地探险家地图"
+    },
+    {
+      "en": "woodland mansion explorer map",
+      "raw": "探险家地图|林地府邸探险家地图",
+      "link": "探险家地图",
+      "zh": "林地府邸探险家地图"
+    },
+    {
+      "en": "woodland mansion map",
+      "raw": "Woodland Mansion Map",
+      "link": "Woodland Mansion Map",
+      "zh": "Woodland Mansion Map"
+    },
+    {
+      "en": "written book",
+      "raw": "成书",
+      "link": "成书",
+      "zh": "成书"
+    },
+    {
+      "en": "yellow bundle",
+      "raw": "收纳袋|黄色收纳袋",
+      "link": "收纳袋",
+      "zh": "黄色收纳袋"
+    },
+    {
+      "en": "yellow cushion",
+      "raw": "坐垫|黄色坐垫",
+      "link": "坐垫",
+      "zh": "黄色坐垫"
+    },
+    {
+      "en": "yellow dye",
+      "raw": "黄色染料",
+      "link": "黄色染料",
+      "zh": "黄色染料"
+    },
+    {
+      "en": "yellow firework star",
+      "raw": "烟火之星|黄色烟火之星",
+      "link": "烟火之星",
+      "zh": "黄色烟火之星"
+    },
+    {
+      "en": "yellow harness",
+      "raw": "挽具|黄色挽具",
+      "link": "挽具",
+      "zh": "黄色挽具"
+    },
+    {
+      "en": "yellow shield",
+      "raw": "盾牌|黄色盾牌",
+      "link": "盾牌",
+      "zh": "黄色盾牌"
+    },
+    {
+      "en": "zoglin spawn egg",
+      "raw": "刷怪蛋|僵尸疣猪兽刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "僵尸疣猪兽刷怪蛋"
+    },
+    {
+      "en": "zombie horse spawn egg",
+      "raw": "刷怪蛋|僵尸马刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "僵尸马刷怪蛋"
+    },
+    {
+      "en": "zombie nautilus spawn egg",
+      "raw": "刷怪蛋|僵尸鹦鹉螺刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "僵尸鹦鹉螺刷怪蛋"
+    },
+    {
+      "en": "zombie spawn egg",
+      "raw": "刷怪蛋|僵尸刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "僵尸刷怪蛋"
+    },
+    {
+      "en": "zombie villager spawn egg",
+      "raw": "刷怪蛋|僵尸村民刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "僵尸村民刷怪蛋"
+    },
+    {
+      "en": "zombified piglin spawn egg",
+      "raw": "刷怪蛋|僵尸猪灵刷怪蛋",
+      "link": "刷怪蛋",
+      "zh": "僵尸猪灵刷怪蛋"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "_root": [
+    {
+      "en": "Auction Attendees",
+      "raw": "彩蛋|拍卖会参与者",
+      "link": "彩蛋",
+      "zh": "拍卖会参与者"
+    },
+    {
+      "en": "Birdie",
+      "raw": "麦当劳附加包|大鸟姐姐",
+      "link": "麦当劳附加包",
+      "zh": "大鸟姐姐"
+    },
+    {
+      "en": "Birdie The Early Bird",
+      "raw": "麦当劳附加包|大鸟姐姐",
+      "link": "麦当劳附加包",
+      "zh": "大鸟姐姐"
+    },
+    {
+      "en": "Game Over World",
+      "raw": "游戏大世界",
+      "link": "游戏大世界",
+      "zh": "游戏大世界"
+    },
+    {
+      "en": "Gang",
+      "raw": "小队",
+      "link": "小队",
+      "zh": "小队"
+    },
+    {
+      "en": "General Chungus",
+      "raw": "Chungus将军",
+      "link": "Chungus将军",
+      "zh": "Chungus将军"
+    },
+    {
+      "en": "Great Hog",
+      "raw": "猪灵王",
+      "link": "猪灵王",
+      "zh": "猪灵王"
+    },
+    {
+      "en": "Miner",
+      "raw": "次要角色#矿工|矿工",
+      "link": "次要角色#矿工",
+      "zh": "矿工"
+    },
+    {
+      "en": "Nitwit",
+      "raw": "傻子",
+      "link": "傻子",
+      "zh": "傻子"
+    },
+    {
+      "en": "Super Iron Golem",
+      "raw": "超级铁傀儡",
+      "link": "超级铁傀儡",
+      "zh": "超级铁傀儡"
+    },
+    {
+      "en": "Technoblade",
+      "raw": "次要角色#Technoblade|Technoblade",
+      "link": "次要角色#Technoblade",
+      "zh": "Technoblade"
+    },
+    {
+      "en": "Bass Guitar",
+      "raw": "贝斯吉他",
+      "link": "贝斯吉他",
+      "zh": "贝斯吉他"
+    },
+    {
+      "en": "Battleaxe",
+      "raw": "战斧",
+      "link": "战斧",
+      "zh": "战斧"
+    },
+    {
+      "en": "Block City Battle Buddies",
+      "raw": "方块城市终极战士",
+      "link": "方块城市终极战士",
+      "zh": "方块城市终极战士"
+    },
+    {
+      "en": "Buck Chuckets",
+      "raw": "双节桶",
+      "link": "双节桶",
+      "zh": "双节桶"
+    },
+    {
+      "en": "Cactus Ball",
+      "raw": "仙人掌球",
+      "link": "仙人掌球",
+      "zh": "仙人掌球"
+    },
+    {
+      "en": "Car",
+      "raw": "车",
+      "link": "车",
+      "zh": "车"
+    },
+    {
+      "en": "Diamond Battleaxe",
+      "raw": "钻石战斧",
+      "link": "钻石战斧",
+      "zh": "钻石战斧"
+    },
+    {
+      "en": "Drum",
+      "raw": "鼓",
+      "link": "鼓",
+      "zh": "鼓"
+    },
+    {
+      "en": "Earth Crystal",
+      "raw": "地球水晶",
+      "link": "地球水晶",
+      "zh": "地球水晶"
+    },
+    {
+      "en": "Eraser",
+      "raw": "橡皮",
+      "link": "橡皮",
+      "zh": "橡皮"
+    },
+    {
+      "en": "Golden Battleaxe",
+      "raw": "金战斧",
+      "link": "金战斧",
+      "zh": "金战斧"
+    },
+    {
+      "en": "Hunk City Rampage",
+      "raw": "猛男城市狂暴战",
+      "link": "猛男城市狂暴战",
+      "zh": "猛男城市狂暴战"
+    },
+    {
+      "en": "Iron Battleaxe",
+      "raw": "铁战斧",
+      "link": "铁战斧",
+      "zh": "铁战斧"
+    },
+    {
+      "en": "Jetpack",
+      "raw": "喷气背包",
+      "link": "喷气背包",
+      "zh": "喷气背包"
+    },
+    {
+      "en": "Malgosha's Staff",
+      "raw": "Malgosha的权杖",
+      "link": "Malgosha的权杖",
+      "zh": "Malgosha的权杖"
+    },
+    {
+      "en": "Movie Diamond",
+      "raw": "钻石",
+      "link": "钻石",
+      "zh": "钻石"
+    },
+    {
+      "en": "Movie Diamond Spear",
+      "raw": "钻石矛",
+      "link": "钻石矛",
+      "zh": "钻石矛"
+    },
+    {
+      "en": "Movie Diamond Sword",
+      "raw": "钻石剑",
+      "link": "钻石剑",
+      "zh": "钻石剑"
+    },
+    {
+      "en": "Movie Golden Spear",
+      "raw": "金矛",
+      "link": "金矛",
+      "zh": "金矛"
+    },
+    {
+      "en": "Movie Iron Block",
+      "raw": "铁块",
+      "link": "铁块",
+      "zh": "铁块"
+    },
+    {
+      "en": "Movie Iron Ingot",
+      "raw": "铁锭",
+      "link": "铁锭",
+      "zh": "铁锭"
+    },
+    {
+      "en": "Movie Iron Spear",
+      "raw": "铁矛",
+      "link": "铁矛",
+      "zh": "铁矛"
+    },
+    {
+      "en": "Movie Iron Sword",
+      "raw": "铁剑",
+      "link": "铁剑",
+      "zh": "铁剑"
+    },
+    {
+      "en": "Movie Netherite Spear",
+      "raw": "下界合金矛",
+      "link": "下界合金矛",
+      "zh": "下界合金矛"
+    },
+    {
+      "en": "Movie Stick",
+      "raw": "木棍",
+      "link": "木棍",
+      "zh": "木棍"
+    },
+    {
+      "en": "Movie Stone Spear",
+      "raw": "石矛",
+      "link": "石矛",
+      "zh": "石矛"
+    },
+    {
+      "en": "Movie Wooden Spear",
+      "raw": "木矛",
+      "link": "木矛",
+      "zh": "木矛"
+    },
+    {
+      "en": "Mushroom Hat",
+      "raw": "蘑菇帽",
+      "link": "蘑菇帽",
+      "zh": "蘑菇帽"
+    },
+    {
+      "en": "Netherite Battleaxe",
+      "raw": "下界合金战斧",
+      "link": "下界合金战斧",
+      "zh": "下界合金战斧"
+    },
+    {
+      "en": "Nine Volt Battery",
+      "raw": "马铃薯发射器|9号电池",
+      "link": "马铃薯发射器",
+      "zh": "9号电池"
+    },
+    {
+      "en": "Orb Of Dominance",
+      "raw": "支配之球",
+      "link": "支配之球",
+      "zh": "支配之球"
+    },
+    {
+      "en": "Paper Clip",
+      "raw": "回形针",
+      "link": "回形针",
+      "zh": "回形针"
+    },
+    {
+      "en": "Potato Launcher",
+      "raw": "马铃薯发射器",
+      "link": "马铃薯发射器",
+      "zh": "马铃薯发射器"
+    },
+    {
+      "en": "Staff of Dominance",
+      "raw": "支配权杖",
+      "link": "支配权杖",
+      "zh": "支配权杖"
+    },
+    {
+      "en": "Stone Battleaxe",
+      "raw": "石战斧",
+      "link": "石战斧",
+      "zh": "石战斧"
+    },
+    {
+      "en": "Tater Tot",
+      "raw": "马铃薯发射器|薯球",
+      "link": "马铃薯发射器",
+      "zh": "薯球"
+    },
+    {
+      "en": "Wooden Battleaxe",
+      "raw": "木战斧",
+      "link": "木战斧",
+      "zh": "木战斧"
+    },
+    {
+      "en": "Chuglass",
+      "raw": "查格拉斯",
+      "link": "查格拉斯",
+      "zh": "查格拉斯"
+    },
+    {
+      "en": "Chuglass High School",
+      "raw": "查格拉斯高中",
+      "link": "查格拉斯高中",
+      "zh": "查格拉斯高中"
+    },
+    {
+      "en": "Earth",
+      "raw": "地球",
+      "link": "地球",
+      "zh": "地球"
+    },
+    {
+      "en": "Earth Portal",
+      "raw": "地球传送门",
+      "link": "地球传送门",
+      "zh": "地球传送门"
+    },
+    {
+      "en": "Obsidian gateway",
+      "raw": "下界传送门",
+      "link": "下界传送门",
+      "zh": "下界传送门"
+    },
+    {
+      "en": "Midport Village",
+      "raw": "中港村",
+      "link": "中港村",
+      "zh": "中港村"
+    },
+    {
+      "en": "Mine",
+      "raw": "矿井",
+      "link": "矿井",
+      "zh": "矿井"
+    },
+    {
+      "en": "A Minecraft Movie Official Coloring Book",
+      "raw": "A Minecraft Movie官方涂色书",
+      "link": "A Minecraft Movie官方涂色书",
+      "zh": "A Minecraft Movie官方涂色书"
+    },
+    {
+      "en": "World Video Game Championship",
+      "raw": "世界电子游戏锦标赛",
+      "link": "世界电子游戏锦标赛",
+      "zh": "世界电子游戏锦标赛"
+    }
+  ]
+}
