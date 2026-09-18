@@ -956,219 +956,273 @@
   "changed": {
     "advancements.story.enter_the_nether.description": {
       "en_us": "Build, light, and enter a Nether Portal",
-      "zh_cn": "建造、激活并进入一座下界传送门"
+      "zh_cn": "建造、激活并进入一座下界传送门",
+      "origin_en": "Build, light and enter a Nether Portal"
     },
     "argument.resource_or_id.invalid": {
       "en_us": "Invalid ID or tag",
-      "zh_cn": "无效的ID或标签"
+      "zh_cn": "无效的ID或标签",
+      "origin_en": "Invalid id or tag"
     },
     "build.tooHigh": {
       "en_us": "The height limit for building is %s",
-      "zh_cn": "建筑高度上限是%s"
+      "zh_cn": "建筑高度上限是%s",
+      "origin_en": "Height limit for building is %s"
     },
     "build.tooLow": {
       "en_us": "The minimum height for building is %s",
-      "zh_cn": "建筑高度下限是%s"
+      "zh_cn": "建筑高度下限是%s",
+      "origin_en": "Minimum height for building is %s"
     },
     "command.failed": {
       "en_us": "An unexpected error occurred while trying to execute that command",
-      "zh_cn": "试图执行该命令时出现意外错误"
+      "zh_cn": "试图执行该命令时出现意外错误",
+      "origin_en": "An unexpected error occurred trying to execute that command"
     },
     "commands.data.block.modified": {
       "en_us": "Modified block data of %s, %s, %s",
-      "zh_cn": "已修改位于%s, %s, %s的方块数据"
+      "zh_cn": "已修改位于%s, %s, %s的方块数据",
+      "origin_zh": "已修改%s, %s, %s处的方块数据"
     },
     "commands.gamerule.set": {
       "en_us": "Gamerule %s is now set to: %s",
-      "zh_cn": "已将游戏规则%s设为%s"
+      "zh_cn": "已将游戏规则%s设为%s",
+      "origin_zh": "游戏规则%s已被设为：%s"
     },
     "commands.item.block.set.success": {
       "en_us": "Replaced a slot at %s, %s, %s with %s",
-      "zh_cn": "已用%4$s替换位于%1$s, %2$s, %3$s的槽位"
+      "zh_cn": "已用%4$s替换位于%1$s, %2$s, %3$s的槽位",
+      "origin_zh": "已用%4$s替换了位于%1$s, %2$s, %3$s的槽位"
     },
     "commands.item.entity.set.success.multiple": {
       "en_us": "Replaced a slot on %s entities with %s",
-      "zh_cn": "已用%2$s替换%1$s个实体的槽位"
+      "zh_cn": "已用%2$s替换%1$s个实体的槽位",
+      "origin_zh": "已用%2$s替换了%1$s个实体的槽位"
     },
     "commands.item.entity.set.success.single": {
       "en_us": "Replaced a slot on %s with %s",
-      "zh_cn": "已用%2$s替换%1$s的槽位"
+      "zh_cn": "已用%2$s替换%1$s的槽位",
+      "origin_zh": "已用%2$s替换了%1$s的槽位"
     },
     "commands.locate.biome.not_found": {
       "en_us": "Could not find a biome of type \"%s\" within a reasonable distance",
-      "zh_cn": "无法在合理距离内找到类型为“%s”的生物群系"
+      "zh_cn": "无法在合理距离内找到类型为“%s”的生物群系",
+      "origin_en": "Could not find a biome of type \"%s\" within reasonable distance"
     },
     "commands.locate.poi.not_found": {
       "en_us": "Could not find a point of interest of type \"%s\" within a reasonable distance",
-      "zh_cn": "在合理距离内找不到类型为“%s”的兴趣点"
+      "zh_cn": "在合理距离内找不到类型为“%s”的兴趣点",
+      "origin_en": "Could not find a point of interest of type \"%s\" within reasonable distance"
     },
     "commands.place.template.invalid": {
       "en_us": "There is no template with ID \"%s\"",
-      "zh_cn": "没有ID为“%s”的模板"
+      "zh_cn": "没有ID为“%s”的模板",
+      "origin_en": "There is no template with id \"%s\""
     },
     "commands.profile_fetch.id.failure": {
       "en_us": "Failed to resolve profile for ID %s",
-      "zh_cn": "无法解析ID为%s的玩家档案"
+      "zh_cn": "无法解析ID为%s的玩家档案",
+      "origin_en": "Failed to resolved profile for id %s"
     },
     "commands.profile_fetch.id.success": {
       "en_us": "Resolved profile for ID %s: %s",
-      "zh_cn": "已解析ID为%s的玩家档案：%s"
+      "zh_cn": "已解析ID为%s的玩家档案：%s",
+      "origin_en": "Resolved profile for id %s: %s"
     },
     "commands.random.error.range_too_large": {
       "en_us": "The range of the random value must be at most 2147483646",
-      "zh_cn": "随机值的范围最大为2147483647"
+      "zh_cn": "随机值的范围最大为2147483647",
+      "origin_zh": "随机值的范围最大为2147483646"
     },
     "commands.random.error.range_too_small": {
       "en_us": "The range of the random value must be at least 2",
-      "zh_cn": "随机值的范围最小为1"
+      "zh_cn": "随机值的范围最小为1",
+      "origin_zh": "随机值的范围最小为2"
     },
     "commands.schedule.cleared.failure": {
       "en_us": "No schedules with ID %s",
-      "zh_cn": "没有ID为%s的计划"
+      "zh_cn": "没有ID为%s的计划",
+      "origin_en": "No schedules with id %s"
     },
     "commands.schedule.cleared.success": {
       "en_us": "Removed %s schedule(s) with ID %s",
-      "zh_cn": "已移除%s个ID为%s的时间安排"
+      "zh_cn": "已移除%s个ID为%s的时间安排",
+      "origin_en": "Removed %s schedule(s) with id %s"
     },
     "container.shulkerBox.itemCount": {
       "en_us": "%s x%s",
-      "zh_cn": "%s × %s"
+      "zh_cn": "%s × %s",
+      "origin_zh": "%s ×%s"
     },
     "datapackFailure.title": {
       "en_us": "Errors in the currently selected data pack(s) prevented the world from loading.\nYou can either try to load it with only the vanilla data pack (\"Safe Mode\"), or go back to the title screen and fix it manually.",
-      "zh_cn": "当前选中的数据包中出现了错误，导致世界无法加载。\n你可以尝试仅加载原版数据包（“安全模式”）或回到标题屏幕手动修复该问题。"
+      "zh_cn": "当前选中的数据包中出现了错误，导致世界无法加载。\n你可以尝试仅加载原版数据包（“安全模式”）或回到标题屏幕手动修复该问题。",
+      "origin_en": "Errors in currently selected data packs prevented the world from loading.\nYou can either try to load it with only the vanilla data pack (\"safe mode\"), or go back to the title screen and fix it manually."
     },
     "debug.pause_focus.off": {
       "en_us": "Pause on lost focus: disabled",
-      "zh_cn": "失去焦点时暂停：禁用"
+      "zh_cn": "失去焦点时暂停：禁用",
+      "origin_zh": "失去焦点时暂停：停用"
     },
     "filled_map.id": {
       "en_us": "ID #%s",
-      "zh_cn": "ID #%s"
+      "zh_cn": "ID #%s",
+      "origin_en": "Id #%s"
     },
     "gamerule.lavaSourceConversion.description": {
       "en_us": "When flowing lava is surrounded on two sides by lava sources, it converts into a source.",
-      "zh_cn": "相邻两面方块为熔岩源的流动熔岩会转化为熔岩源。"
+      "zh_cn": "相邻两面方块为熔岩源的流动熔岩会转化为熔岩源。",
+      "origin_en": "When flowing lava is surrounded on two sides by lava sources it converts into a source."
     },
     "gamerule.playersNetherPortalCreativeDelay": {
       "en_us": "Player's Nether Portal delay in creative mode",
-      "zh_cn": "创造模式下玩家在下界传送门中等待的时间"
+      "zh_cn": "创造模式下玩家在下界传送门中等待的时间",
+      "origin_en": "Player's Nether portal delay in creative mode"
     },
     "gamerule.playersNetherPortalCreativeDelay.description": {
       "en_us": "Time (in ticks) that a creative mode player needs to stand in a Nether Portal before changing dimensions.",
-      "zh_cn": "创造模式下的玩家通过下界传送门前往其他维度前需要站在其中等待的时间（以刻为单位）。"
+      "zh_cn": "创造模式下的玩家通过下界传送门前往其他维度前需要站在其中等待的时间（以刻为单位）。",
+      "origin_en": "Time (in ticks) that a creative mode player needs to stand in a Nether portal before changing dimensions."
     },
     "gamerule.playersNetherPortalDefaultDelay": {
       "en_us": "Player's Nether Portal delay in non-creative mode",
-      "zh_cn": "非创造模式下玩家在下界传送门中等待的时间"
+      "zh_cn": "非创造模式下玩家在下界传送门中等待的时间",
+      "origin_en": "Player's Nether portal delay in non-creative mode"
     },
     "gamerule.playersNetherPortalDefaultDelay.description": {
       "en_us": "Time (in ticks) that a non-creative mode player needs to stand in a Nether Portal before changing dimensions.",
-      "zh_cn": "非创造模式下的玩家通过下界传送门前往其他维度前需要站在其中等待的时间（以刻为单位）。"
+      "zh_cn": "非创造模式下的玩家通过下界传送门前往其他维度前需要站在其中等待的时间（以刻为单位）。",
+      "origin_en": "Time (in ticks) that a non-creative mode player needs to stand in a Nether portal before changing dimensions."
     },
     "gamerule.waterSourceConversion.description": {
       "en_us": "When flowing water is surrounded on two sides by water sources, it converts into a source.",
-      "zh_cn": "相邻两面方块为水源的流动水会转化为水源。"
+      "zh_cn": "相邻两面方块为水源的流动水会转化为水源。",
+      "origin_en": "When flowing water is surrounded on two sides by water sources it converts into a source."
     },
     "gui.abuseReport.discard.title": {
       "en_us": "Discard Report and Comments?",
-      "zh_cn": "放弃举报和留言？"
+      "zh_cn": "放弃举报和留言？",
+      "origin_en": "Discard report and comments?"
     },
     "gui.abuseReport.draft.title": {
       "en_us": "Edit Draft Chat Report?",
-      "zh_cn": "编辑聊天举报草稿？"
+      "zh_cn": "编辑聊天举报草稿？",
+      "origin_en": "Edit draft chat report?"
     },
     "gui.abuseReport.error.title": {
       "en_us": "Problem Sending Your Report",
-      "zh_cn": "发送举报时出现问题"
+      "zh_cn": "发送举报时出现问题",
+      "origin_en": "Problem sending your report"
     },
     "gui.abuseReport.sending.title": {
       "en_us": "Sending Your Report...",
-      "zh_cn": "发送举报中…"
+      "zh_cn": "发送举报中…",
+      "origin_en": "Sending your report..."
     },
     "gui.abuseReport.sent.title": {
       "en_us": "Report Sent",
-      "zh_cn": "举报已发送"
+      "zh_cn": "举报已发送",
+      "origin_en": "Report sent"
     },
     "gui.banned.title.permanent": {
       "en_us": "Account Permanently Banned",
-      "zh_cn": "账户已被永久封禁"
+      "zh_cn": "账户已被永久封禁",
+      "origin_en": "Account permanently banned"
     },
     "gui.banned.title.temporary": {
       "en_us": "Account Temporarily Suspended",
-      "zh_cn": "账户已被暂时封禁"
+      "zh_cn": "账户已被暂时封禁",
+      "origin_en": "Account temporarily suspended"
     },
     "gui.chatReport.discard.title": {
       "en_us": "Discard Report and Comments?",
-      "zh_cn": "放弃举报和评论？"
+      "zh_cn": "放弃举报和评论？",
+      "origin_en": "Discard report and comments?"
     },
     "gui.chatReport.draft.title": {
       "en_us": "Edit Draft Chat Report?",
-      "zh_cn": "编辑聊天举报草稿？"
+      "zh_cn": "编辑聊天举报草稿？",
+      "origin_en": "Edit draft chat report?"
     },
     "item.minecraft.firework_rocket.flight": {
       "en_us": "Flight Duration:",
-      "zh_cn": "飞行时间：%s"
+      "zh_cn": "飞行时间：%s",
+      "origin_zh": "飞行时间："
     },
     "mco.configure.world.leave.question.line1": {
       "en_us": "If you leave this Realm, you won't see it unless you are invited again",
-      "zh_cn": "离开该Realm后，除非再次收到邀请，否则其不会再显示"
+      "zh_cn": "离开该Realm后，除非再次收到邀请，否则其不会再显示",
+      "origin_en": "If you leave this Realm you won't see it unless you are invited again"
     },
     "mco.configure.world.restore.download.question.line1": {
       "en_us": "The world will be downloaded and added to your singleplayer worlds.",
-      "zh_cn": "世界将会被下载并添加至你的单人游戏世界中。"
+      "zh_cn": "世界将会被下载并添加至你的单人游戏世界中。",
+      "origin_en": "The world will be downloaded and added to your single player worlds."
     },
     "mco.selectServer.popup": {
       "en_us": "Realms is a safe, simple way to enjoy an online Minecraft world with up to ten friends at a time. It supports loads of minigames and plenty of custom worlds! Only the owner of the Realm needs to pay.",
-      "zh_cn": "Realms是一种安全、简单地享受在线Minecraft世界的方式，可支持多达十位好友同时在线。它也支持多种小游戏与海量自定义世界！只有Realm的所有者需要付款。"
+      "zh_cn": "Realms是一种安全、简单地享受在线Minecraft世界的方式，可支持多达十位好友同时在线。它也支持多种小游戏与海量自定义世界！只有Realm的所有者需要付款。",
+      "origin_en": "Realms is a safe, simple way to enjoy an online Minecraft world with up to ten friends at a time. It supports loads of minigames and plenty of custom worlds! Only the owner of the realm needs to pay."
     },
     "options.allowServerListing.tooltip": {
       "en_us": "Servers may list online players as part of their public status.\nWith this option off, your name will not show up in such lists.",
-      "zh_cn": "服务器可能会公开列出目前在线的玩家。\n若关闭此选项，你的名字将不会显示在此列表中。"
+      "zh_cn": "服务器可能会公开列出目前在线的玩家。\n若关闭此选项，你的名字将不会显示在此列表中。",
+      "origin_en": "Servers may list online players as part of their public status.\nWith this option off your name will not show up in such lists."
     },
     "options.directionalAudio.on.tooltip": {
       "en_us": "Uses HRTF-based directional audio to improve the simulation of 3D sound. Requires HRTF-compatible audio hardware, and is best experienced with headphones.",
-      "zh_cn": "通过基于HRTF算法的定向环绕音频来改善立体音效的模拟。需使用与HRTF兼容的音频硬件，推荐在使用时佩戴耳机。"
+      "zh_cn": "通过基于HRTF算法的定向环绕音频来改善立体音效的模拟。需使用与HRTF兼容的音频硬件，推荐在使用时佩戴耳机。",
+      "origin_en": "Uses HRTF-based directional audio to improve the simulation of 3D sound. Requires HRTF compatible audio hardware, and is best experienced with headphones."
     },
     "options.improvedTransparency.tooltip": {
       "en_us": "An experimental approach that uses screen shaders for drawing weather, clouds, and particles behind translucent blocks and water.\nThis will impact GPU performance.",
-      "zh_cn": "实验性方案，使用顺序无关透明算法，以避免透视多层半透明物体时常见的图形问题。\n此设置会影响性能。"
+      "zh_cn": "实验性方案，使用顺序无关透明算法，以避免透视多层半透明物体时常见的图形问题。\n此设置会影响性能。",
+      "origin_zh": "使用屏幕着色器在半透明方块和水后面绘制天气、云和粒子的实验性方案。\n此设置会影响GPU性能。"
     },
     "options.multiplayer.title": {
       "en_us": "Open to LAN",
-      "zh_cn": "对局域网开放"
+      "zh_cn": "对局域网开放",
+      "origin_en": "Multiplayer Settings..."
     },
     "options.needsRestart": {
       "en_us": "Requires a game restart to take effect.",
-      "zh_cn": "需要重启游戏才能生效。"
+      "zh_cn": "需要重启游戏才能生效。",
+      "origin_en": "Option will be applied after restart."
     },
     "options.screenEffectScale.tooltip": {
       "en_us": "Strength of Nausea and Nether Portal screen distortion effects.\nAt lower values, the Nausea effect is replaced with a green overlay.",
-      "zh_cn": "反胃状态效果和下界传送门所使用的屏幕扭曲效果的强度。\n值较低时，反胃的扭曲效果会被一层绿色的视觉效果替代。"
+      "zh_cn": "反胃状态效果和下界传送门所使用的屏幕扭曲效果的强度。\n值较低时，反胃的扭曲效果会被一层绿色的视觉效果替代。",
+      "origin_en": "Strength of nausea and Nether portal screen distortion effects.\nAt lower values, the nausea effect is replaced with a green overlay."
     },
     "options.textureFiltering.anisotropic.tooltip": {
       "en_us": "A hardware-based filtering method, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware.",
-      "zh_cn": "基于硬件的过滤方法，但会影响性能，并大幅增加显存占用。可能不支持所有硬件。"
+      "zh_cn": "基于硬件的过滤方法，但会影响性能，并大幅增加显存占用。可能不支持所有硬件。",
+      "origin_en": "A hardware based filtering method, but impacts performance and significantly impacts video memory usage. May not be supported on all hardware."
     },
     "options.textureFiltering.rgss.tooltip": {
       "en_us": "(Rotated Grid Super Sampling)\nA shader-based filtering method that improves texture quality with a moderate performance impact.",
-      "zh_cn": "（旋转网格超采样）\n基于着色器的过滤方法，可在适度性能影响下提高纹理品质。"
+      "zh_cn": "（旋转网格超采样）\n基于着色器的过滤方法，可在适度性能影响下提高纹理品质。",
+      "origin_en": "(Rotated Grid Super Sampling)\nA shader based filtering method that improves texture quality with a moderate performance impact."
     },
     "restrictions_screen.permission.receive_system_messages.allowed": {
       "en_us": "You can receive system messages from the server",
-      "zh_cn": "你可以收到来自服务器的系统消息"
+      "zh_cn": "你可以收到来自服务器的系统消息",
+      "origin_zh": "你可以从服务器收到系统消息"
     },
     "restrictions_screen.permission.receive_system_messages.denied": {
       "en_us": "You can't receive system messages from the server",
-      "zh_cn": "你无法收到来自服务器的系统消息"
+      "zh_cn": "你无法收到来自服务器的系统消息",
+      "origin_zh": "你无法从服务器收到系统消息"
     },
     "selectWorld.backupJoinSkipButton": {
       "en_us": "I Know What I'm Doing!",
-      "zh_cn": "我知道我在做什么！"
+      "zh_cn": "我知道我在做什么！",
+      "origin_en": "I know what I'm doing!"
     },
     "stat.minecraft.sleep_in_bed": {
       "en_us": "Times Slept in a Bed",
-      "zh_cn": "床上入眠次数"
+      "zh_cn": "床上入眠次数",
+      "origin_zh": "入眠次数"
     }
   },
   "removed_count": 0,

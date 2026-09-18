@@ -169,7 +169,9 @@ jobs:
                   f.write(key + "\t" + "\t".join(vals_esc) + "\n")
           print(f"Generated {prev_path} with {len(keys)} keys")
 
-          # Compute and write diff
+          # Compute and write diff (en_us + zh_cn only; zh_tw/zh_hk/ja_jp stay in latest.tsv)
+          DIFF_LANGS = ["en_us", "zh_cn"]
+          ORIGIN_KEYS = {"en_us": "origin_en", "zh_cn": "origin_zh"}
           if prev_exists:
               added = {}
               changed = {}
@@ -178,15 +180,21 @@ jobs:
 
               for key in keys:
                   if key not in prev_vals:
-                      added[key] = {lang: new_table[key][lang] for lang in LANGS}
+                      added[key] = {lang: new_table[key][lang] for lang in DIFF_LANGS}
                   else:
-                      new_vals = [new_table[key][lang] for lang in LANGS]
-                      if new_vals != prev_vals[key]:
-                          changed[key] = {lang: new_table[key][lang] for lang in LANGS}
+                      row = {lang: new_table[key][lang] for lang in DIFF_LANGS}
+                      origin = {
+                          ORIGIN_KEYS[lang]: prev_vals[key][LANGS.index(lang)]
+                          for lang in DIFF_LANGS
+                          if prev_vals[key][LANGS.index(lang)] != row[lang]
+                      }
+                      if origin:
+                          row.update(origin)
+                          changed[key] = row
 
               for key, vals in prev_vals.items():
                   if key not in new_key_set:
-                      removed[key] = dict(zip(LANGS, vals))
+                      removed[key] = dict(zip(DIFF_LANGS, vals))
 
               # Read previous version from .latest if available
               prev_version = None

@@ -5,3856 +5,2219 @@
   "added": {
     "argument.swing_animation.invalid": {
       "en_us": "Unknown swing animation type: %s",
-      "zh_cn": "未知的挥臂动画类型：%s",
-      "zh_tw": "未知的揮臂動畫類型：%s",
-      "zh_hk": "未知揮臂動畫類型：%s",
-      "ja_jp": "不明な腕振りアニメーションの形式です：%s"
+      "zh_cn": "未知的挥臂动画类型：%s"
     },
     "biome.minecraft.dappled_forest": {
       "en_us": "Dappled Forest",
-      "zh_cn": "斑驳森林",
-      "zh_tw": "斑駁森林",
-      "zh_hk": "斑駁森林",
-      "ja_jp": "まだらな森"
+      "zh_cn": "斑驳森林"
     },
     "block.minecraft.black_concrete_slab": {
       "en_us": "Black Concrete Slab",
-      "zh_cn": "黑色混凝土台阶",
-      "zh_tw": "黑色混凝土半磚",
-      "zh_hk": "黑色混凝土半磚",
-      "ja_jp": "黒色のコンクリートのハーフブロック"
+      "zh_cn": "黑色混凝土台阶"
     },
     "block.minecraft.black_concrete_stairs": {
       "en_us": "Black Concrete Stairs",
-      "zh_cn": "黑色混凝土楼梯",
-      "zh_tw": "黑色混凝土階梯",
-      "zh_hk": "黑色混凝土樓梯",
-      "ja_jp": "黒色のコンクリートの階段"
+      "zh_cn": "黑色混凝土楼梯"
     },
     "block.minecraft.black_wool_slab": {
       "en_us": "Black Wool Slab",
-      "zh_cn": "黑色羊毛台阶",
-      "zh_tw": "黑色羊毛半磚",
-      "zh_hk": "黑色羊毛半磚",
-      "ja_jp": "黒色の羊毛のハーフブロック"
+      "zh_cn": "黑色羊毛台阶"
     },
     "block.minecraft.black_wool_stairs": {
       "en_us": "Black Wool Stairs",
-      "zh_cn": "黑色羊毛楼梯",
-      "zh_tw": "黑色羊毛階梯",
-      "zh_hk": "黑色羊毛樓梯",
-      "ja_jp": "黒色の羊毛の階段"
+      "zh_cn": "黑色羊毛楼梯"
     },
     "block.minecraft.blue_concrete_slab": {
       "en_us": "Blue Concrete Slab",
-      "zh_cn": "蓝色混凝土台阶",
-      "zh_tw": "藍色混凝土半磚",
-      "zh_hk": "藍色混凝土半磚",
-      "ja_jp": "青色のコンクリートのハーフブロック"
+      "zh_cn": "蓝色混凝土台阶"
     },
     "block.minecraft.blue_concrete_stairs": {
       "en_us": "Blue Concrete Stairs",
-      "zh_cn": "蓝色混凝土楼梯",
-      "zh_tw": "藍色混凝土階梯",
-      "zh_hk": "藍色混凝土樓梯",
-      "ja_jp": "青色のコンクリートの階段"
+      "zh_cn": "蓝色混凝土楼梯"
     },
     "block.minecraft.blue_wool_slab": {
       "en_us": "Blue Wool Slab",
-      "zh_cn": "蓝色羊毛台阶",
-      "zh_tw": "藍色羊毛半磚",
-      "zh_hk": "藍色羊毛半磚",
-      "ja_jp": "青色の羊毛のハーフブロック"
+      "zh_cn": "蓝色羊毛台阶"
     },
     "block.minecraft.blue_wool_stairs": {
       "en_us": "Blue Wool Stairs",
-      "zh_cn": "蓝色羊毛楼梯",
-      "zh_tw": "藍色羊毛階梯",
-      "zh_hk": "藍色羊毛樓梯",
-      "ja_jp": "青色の羊毛の階段"
+      "zh_cn": "蓝色羊毛楼梯"
     },
     "block.minecraft.brown_concrete_slab": {
       "en_us": "Brown Concrete Slab",
-      "zh_cn": "棕色混凝土台阶",
-      "zh_tw": "棕色混凝土半磚",
-      "zh_hk": "啡色混凝土半磚",
-      "ja_jp": "茶色のコンクリートのハーフブロック"
+      "zh_cn": "棕色混凝土台阶"
     },
     "block.minecraft.brown_concrete_stairs": {
       "en_us": "Brown Concrete Stairs",
-      "zh_cn": "棕色混凝土楼梯",
-      "zh_tw": "棕色混凝土階梯",
-      "zh_hk": "啡色混凝土樓梯",
-      "ja_jp": "茶色のコンクリートの階段"
+      "zh_cn": "棕色混凝土楼梯"
     },
     "block.minecraft.brown_wool_slab": {
       "en_us": "Brown Wool Slab",
-      "zh_cn": "棕色羊毛台阶",
-      "zh_tw": "棕色羊毛半磚",
-      "zh_hk": "啡色羊毛半磚",
-      "ja_jp": "茶色の羊毛のハーフブロック"
+      "zh_cn": "棕色羊毛台阶"
     },
     "block.minecraft.brown_wool_stairs": {
       "en_us": "Brown Wool Stairs",
-      "zh_cn": "棕色羊毛楼梯",
-      "zh_tw": "棕色羊毛階梯",
-      "zh_hk": "啡色羊毛樓梯",
-      "ja_jp": "茶色の羊毛の階段"
+      "zh_cn": "棕色羊毛楼梯"
     },
     "block.minecraft.cyan_concrete_slab": {
       "en_us": "Cyan Concrete Slab",
-      "zh_cn": "青色混凝土台阶",
-      "zh_tw": "青色混凝土半磚",
-      "zh_hk": "青藍色混凝土半磚",
-      "ja_jp": "青緑色のコンクリートのハーフブロック"
+      "zh_cn": "青色混凝土台阶"
     },
     "block.minecraft.cyan_concrete_stairs": {
       "en_us": "Cyan Concrete Stairs",
-      "zh_cn": "青色混凝土楼梯",
-      "zh_tw": "青色混凝土階梯",
-      "zh_hk": "青藍色混凝土樓梯",
-      "ja_jp": "青緑色のコンクリートの階段"
+      "zh_cn": "青色混凝土楼梯"
     },
     "block.minecraft.cyan_wool_slab": {
       "en_us": "Cyan Wool Slab",
-      "zh_cn": "青色羊毛台阶",
-      "zh_tw": "青色羊毛半磚",
-      "zh_hk": "青藍色羊毛半磚",
-      "ja_jp": "青緑色の羊毛のハーフブロック"
+      "zh_cn": "青色羊毛台阶"
     },
     "block.minecraft.cyan_wool_stairs": {
       "en_us": "Cyan Wool Stairs",
-      "zh_cn": "青色羊毛楼梯",
-      "zh_tw": "青色羊毛階梯",
-      "zh_hk": "青藍色羊毛樓梯",
-      "ja_jp": "青緑色の羊毛の階段"
+      "zh_cn": "青色羊毛楼梯"
     },
     "block.minecraft.gray_concrete_slab": {
       "en_us": "Gray Concrete Slab",
-      "zh_cn": "灰色混凝土台阶",
-      "zh_tw": "灰色混凝土半磚",
-      "zh_hk": "灰色混凝土半磚",
-      "ja_jp": "灰色のコンクリートのハーフブロック"
+      "zh_cn": "灰色混凝土台阶"
     },
     "block.minecraft.gray_concrete_stairs": {
       "en_us": "Gray Concrete Stairs",
-      "zh_cn": "灰色混凝土楼梯",
-      "zh_tw": "灰色混凝土階梯",
-      "zh_hk": "灰色混凝土樓梯",
-      "ja_jp": "灰色のコンクリートの階段"
+      "zh_cn": "灰色混凝土楼梯"
     },
     "block.minecraft.gray_wool_slab": {
       "en_us": "Gray Wool Slab",
-      "zh_cn": "灰色羊毛台阶",
-      "zh_tw": "灰色羊毛半磚",
-      "zh_hk": "灰色羊毛半磚",
-      "ja_jp": "灰色の羊毛のハーフブロック"
+      "zh_cn": "灰色羊毛台阶"
     },
     "block.minecraft.gray_wool_stairs": {
       "en_us": "Gray Wool Stairs",
-      "zh_cn": "灰色羊毛楼梯",
-      "zh_tw": "灰色羊毛階梯",
-      "zh_hk": "灰色羊毛樓梯",
-      "ja_jp": "灰色の羊毛の階段"
+      "zh_cn": "灰色羊毛楼梯"
     },
     "block.minecraft.green_concrete_slab": {
       "en_us": "Green Concrete Slab",
-      "zh_cn": "绿色混凝土台阶",
-      "zh_tw": "綠色混凝土半磚",
-      "zh_hk": "綠色混凝土半磚",
-      "ja_jp": "緑色のコンクリートのハーフブロック"
+      "zh_cn": "绿色混凝土台阶"
     },
     "block.minecraft.green_concrete_stairs": {
       "en_us": "Green Concrete Stairs",
-      "zh_cn": "绿色混凝土楼梯",
-      "zh_tw": "綠色混凝土階梯",
-      "zh_hk": "綠色混凝土樓梯",
-      "ja_jp": "緑色のコンクリートの階段"
+      "zh_cn": "绿色混凝土楼梯"
     },
     "block.minecraft.green_wool_slab": {
       "en_us": "Green Wool Slab",
-      "zh_cn": "绿色羊毛台阶",
-      "zh_tw": "綠色羊毛半磚",
-      "zh_hk": "綠色羊毛半磚",
-      "ja_jp": "緑色の羊毛のハーフブロック"
+      "zh_cn": "绿色羊毛台阶"
     },
     "block.minecraft.green_wool_stairs": {
       "en_us": "Green Wool Stairs",
-      "zh_cn": "绿色羊毛楼梯",
-      "zh_tw": "綠色羊毛階梯",
-      "zh_hk": "綠色羊毛樓梯",
-      "ja_jp": "緑色の羊毛の階段"
+      "zh_cn": "绿色羊毛楼梯"
     },
     "block.minecraft.light_blue_concrete_slab": {
       "en_us": "Light Blue Concrete Slab",
-      "zh_cn": "淡蓝色混凝土台阶",
-      "zh_tw": "淺藍色混凝土半磚",
-      "zh_hk": "淺藍色混凝土半磚",
-      "ja_jp": "空色のコンクリートのハーフブロック"
+      "zh_cn": "淡蓝色混凝土台阶"
     },
     "block.minecraft.light_blue_concrete_stairs": {
       "en_us": "Light Blue Concrete Stairs",
-      "zh_cn": "淡蓝色混凝土楼梯",
-      "zh_tw": "淺藍色混凝土階梯",
-      "zh_hk": "淺藍色混凝土樓梯",
-      "ja_jp": "空色のコンクリートの階段"
+      "zh_cn": "淡蓝色混凝土楼梯"
     },
     "block.minecraft.light_blue_wool_slab": {
       "en_us": "Light Blue Wool Slab",
-      "zh_cn": "淡蓝色羊毛台阶",
-      "zh_tw": "淺藍色羊毛半磚",
-      "zh_hk": "淺藍色羊毛半磚",
-      "ja_jp": "空色の羊毛のハーフブロック"
+      "zh_cn": "淡蓝色羊毛台阶"
     },
     "block.minecraft.light_blue_wool_stairs": {
       "en_us": "Light Blue Wool Stairs",
-      "zh_cn": "淡蓝色羊毛楼梯",
-      "zh_tw": "淺藍色羊毛階梯",
-      "zh_hk": "淺藍色羊毛樓梯",
-      "ja_jp": "空色の羊毛の階段"
+      "zh_cn": "淡蓝色羊毛楼梯"
     },
     "block.minecraft.light_gray_concrete_slab": {
       "en_us": "Light Gray Concrete Slab",
-      "zh_cn": "淡灰色混凝土台阶",
-      "zh_tw": "淺灰色混凝土半磚",
-      "zh_hk": "淺灰色混凝土半磚",
-      "ja_jp": "薄灰色のコンクリートのハーフブロック"
+      "zh_cn": "淡灰色混凝土台阶"
     },
     "block.minecraft.light_gray_concrete_stairs": {
       "en_us": "Light Gray Concrete Stairs",
-      "zh_cn": "淡灰色混凝土楼梯",
-      "zh_tw": "淺灰色混凝土階梯",
-      "zh_hk": "淺灰色混凝土樓梯",
-      "ja_jp": "薄灰色のコンクリートの階段"
+      "zh_cn": "淡灰色混凝土楼梯"
     },
     "block.minecraft.light_gray_wool_slab": {
       "en_us": "Light Gray Wool Slab",
-      "zh_cn": "淡灰色羊毛台阶",
-      "zh_tw": "淺灰色羊毛半磚",
-      "zh_hk": "淺灰色羊毛半磚",
-      "ja_jp": "薄灰色の羊毛のハーフブロック"
+      "zh_cn": "淡灰色羊毛台阶"
     },
     "block.minecraft.light_gray_wool_stairs": {
       "en_us": "Light Gray Wool Stairs",
-      "zh_cn": "淡灰色羊毛楼梯",
-      "zh_tw": "淺灰色羊毛階梯",
-      "zh_hk": "淺灰色羊毛樓梯",
-      "ja_jp": "薄灰色の羊毛の階段"
+      "zh_cn": "淡灰色羊毛楼梯"
     },
     "block.minecraft.lime_concrete_slab": {
       "en_us": "Lime Concrete Slab",
-      "zh_cn": "黄绿色混凝土台阶",
-      "zh_tw": "淺綠色混凝土半磚",
-      "zh_hk": "淺綠色混凝土半磚",
-      "ja_jp": "黄緑色のコンクリートのハーフブロック"
+      "zh_cn": "黄绿色混凝土台阶"
     },
     "block.minecraft.lime_concrete_stairs": {
       "en_us": "Lime Concrete Stairs",
-      "zh_cn": "黄绿色混凝土楼梯",
-      "zh_tw": "淺綠色混凝土階梯",
-      "zh_hk": "淺綠色混凝土樓梯",
-      "ja_jp": "黄緑色のコンクリートの階段"
+      "zh_cn": "黄绿色混凝土楼梯"
     },
     "block.minecraft.lime_wool_slab": {
       "en_us": "Lime Wool Slab",
-      "zh_cn": "黄绿色羊毛台阶",
-      "zh_tw": "淺綠色羊毛半磚",
-      "zh_hk": "淺綠色羊毛半磚",
-      "ja_jp": "黄緑色の羊毛のハーフブロック"
+      "zh_cn": "黄绿色羊毛台阶"
     },
     "block.minecraft.lime_wool_stairs": {
       "en_us": "Lime Wool Stairs",
-      "zh_cn": "黄绿色羊毛楼梯",
-      "zh_tw": "淺綠色羊毛階梯",
-      "zh_hk": "淺綠色羊毛樓梯",
-      "ja_jp": "黄緑色の羊毛の階段"
+      "zh_cn": "黄绿色羊毛楼梯"
     },
     "block.minecraft.magenta_concrete_slab": {
       "en_us": "Magenta Concrete Slab",
-      "zh_cn": "品红色混凝土台阶",
-      "zh_tw": "洋紅色混凝土半磚",
-      "zh_hk": "紫紅色混凝土半磚",
-      "ja_jp": "赤紫色のコンクリートのハーフブロック"
+      "zh_cn": "品红色混凝土台阶"
     },
     "block.minecraft.magenta_concrete_stairs": {
       "en_us": "Magenta Concrete Stairs",
-      "zh_cn": "品红色混凝土楼梯",
-      "zh_tw": "洋紅色混凝土階梯",
-      "zh_hk": "紫紅色混凝土樓梯",
-      "ja_jp": "赤紫色のコンクリートの階段"
+      "zh_cn": "品红色混凝土楼梯"
     },
     "block.minecraft.magenta_wool_slab": {
       "en_us": "Magenta Wool Slab",
-      "zh_cn": "品红色羊毛台阶",
-      "zh_tw": "洋紅色羊毛半磚",
-      "zh_hk": "紫紅色羊毛半磚",
-      "ja_jp": "赤紫色の羊毛のハーフブロック"
+      "zh_cn": "品红色羊毛台阶"
     },
     "block.minecraft.magenta_wool_stairs": {
       "en_us": "Magenta Wool Stairs",
-      "zh_cn": "品红色羊毛楼梯",
-      "zh_tw": "洋紅色羊毛階梯",
-      "zh_hk": "紫紅色羊毛樓梯",
-      "ja_jp": "赤紫色の羊毛の階段"
+      "zh_cn": "品红色羊毛楼梯"
     },
     "block.minecraft.orange_concrete_slab": {
       "en_us": "Orange Concrete Slab",
-      "zh_cn": "橙色混凝土台阶",
-      "zh_tw": "橙色混凝土半磚",
-      "zh_hk": "橙色混凝土半磚",
-      "ja_jp": "橙色のコンクリートのハーフブロック"
+      "zh_cn": "橙色混凝土台阶"
     },
     "block.minecraft.orange_concrete_stairs": {
       "en_us": "Orange Concrete Stairs",
-      "zh_cn": "橙色混凝土楼梯",
-      "zh_tw": "橙色混凝土階梯",
-      "zh_hk": "橙色混凝土樓梯",
-      "ja_jp": "橙色のコンクリートの階段"
+      "zh_cn": "橙色混凝土楼梯"
     },
     "block.minecraft.orange_poplar_leaves": {
       "en_us": "Orange Poplar Leaves",
-      "zh_cn": "橙色杨树树叶",
-      "zh_tw": "橙色楊木樹葉",
-      "zh_hk": "橙色楊木樹葉",
-      "ja_jp": "橙色のポプラの葉"
+      "zh_cn": "橙色杨树树叶"
     },
     "block.minecraft.orange_wool_slab": {
       "en_us": "Orange Wool Slab",
-      "zh_cn": "橙色羊毛台阶",
-      "zh_tw": "橙色羊毛半磚",
-      "zh_hk": "橙色羊毛半磚",
-      "ja_jp": "橙色の羊毛のハーフブロック"
+      "zh_cn": "橙色羊毛台阶"
     },
     "block.minecraft.orange_wool_stairs": {
       "en_us": "Orange Wool Stairs",
-      "zh_cn": "橙色羊毛楼梯",
-      "zh_tw": "橙色羊毛階梯",
-      "zh_hk": "橙色羊毛樓梯",
-      "ja_jp": "橙色の羊毛の階段"
+      "zh_cn": "橙色羊毛楼梯"
     },
     "block.minecraft.pink_concrete_slab": {
       "en_us": "Pink Concrete Slab",
-      "zh_cn": "粉红色混凝土台阶",
-      "zh_tw": "粉紅色混凝土半磚",
-      "zh_hk": "粉紅色混凝土半磚",
-      "ja_jp": "桃色のコンクリートのハーフブロック"
+      "zh_cn": "粉红色混凝土台阶"
     },
     "block.minecraft.pink_concrete_stairs": {
       "en_us": "Pink Concrete Stairs",
-      "zh_cn": "粉红色混凝土楼梯",
-      "zh_tw": "粉紅色混凝土階梯",
-      "zh_hk": "粉紅色混凝土樓梯",
-      "ja_jp": "桃色のコンクリートの階段"
+      "zh_cn": "粉红色混凝土楼梯"
     },
     "block.minecraft.pink_wool_slab": {
       "en_us": "Pink Wool Slab",
-      "zh_cn": "粉红色羊毛台阶",
-      "zh_tw": "粉紅色羊毛半磚",
-      "zh_hk": "粉紅色羊毛半磚",
-      "ja_jp": "桃色の羊毛のハーフブロック"
+      "zh_cn": "粉红色羊毛台阶"
     },
     "block.minecraft.pink_wool_stairs": {
       "en_us": "Pink Wool Stairs",
-      "zh_cn": "粉红色羊毛楼梯",
-      "zh_tw": "粉紅色羊毛階梯",
-      "zh_hk": "粉紅色羊毛樓梯",
-      "ja_jp": "桃色の羊毛の階段"
+      "zh_cn": "粉红色羊毛楼梯"
     },
     "block.minecraft.poplar_button": {
       "en_us": "Poplar Button",
-      "zh_cn": "杨木按钮",
-      "zh_tw": "楊木按鈕",
-      "zh_hk": "楊木按鈕",
-      "ja_jp": "ポプラのボタン"
+      "zh_cn": "杨木按钮"
     },
     "block.minecraft.poplar_door": {
       "en_us": "Poplar Door",
-      "zh_cn": "杨木门",
-      "zh_tw": "楊木門",
-      "zh_hk": "楊木門",
-      "ja_jp": "ポプラのドア"
+      "zh_cn": "杨木门"
     },
     "block.minecraft.poplar_fence": {
       "en_us": "Poplar Fence",
-      "zh_cn": "杨木栅栏",
-      "zh_tw": "楊木柵欄",
-      "zh_hk": "楊木欄杆",
-      "ja_jp": "ポプラのフェンス"
+      "zh_cn": "杨木栅栏"
     },
     "block.minecraft.poplar_fence_gate": {
       "en_us": "Poplar Fence Gate",
-      "zh_cn": "杨木栅栏门",
-      "zh_tw": "楊木柵欄門",
-      "zh_hk": "楊木閘門",
-      "ja_jp": "ポプラのフェンスゲート"
+      "zh_cn": "杨木栅栏门"
     },
     "block.minecraft.poplar_hanging_sign": {
       "en_us": "Poplar Hanging Sign",
-      "zh_cn": "悬挂式杨木告示牌",
-      "zh_tw": "懸掛式楊木告示牌",
-      "zh_hk": "楊木吊牌",
-      "ja_jp": "ポプラの吊り看板"
+      "zh_cn": "悬挂式杨木告示牌"
     },
     "block.minecraft.poplar_leaves": {
       "en_us": "Poplar Leaves",
-      "zh_cn": "杨树树叶",
-      "zh_tw": "楊木樹葉",
-      "zh_hk": "楊木樹葉",
-      "ja_jp": "ポプラの葉"
+      "zh_cn": "杨树树叶"
     },
     "block.minecraft.poplar_log": {
       "en_us": "Poplar Log",
-      "zh_cn": "杨木原木",
-      "zh_tw": "楊木原木",
-      "zh_hk": "楊木原木",
-      "ja_jp": "ポプラの原木"
+      "zh_cn": "杨木原木"
     },
     "block.minecraft.poplar_planks": {
       "en_us": "Poplar Planks",
-      "zh_cn": "杨木木板",
-      "zh_tw": "楊木材",
-      "zh_hk": "楊木板",
-      "ja_jp": "ポプラの板材"
+      "zh_cn": "杨木木板"
     },
     "block.minecraft.poplar_pressure_plate": {
       "en_us": "Poplar Pressure Plate",
-      "zh_cn": "杨木压力板",
-      "zh_tw": "楊木壓力板",
-      "zh_hk": "楊木壓力板",
-      "ja_jp": "ポプラの感圧板"
+      "zh_cn": "杨木压力板"
     },
     "block.minecraft.poplar_sapling": {
       "en_us": "Poplar Sapling",
-      "zh_cn": "杨树树苗",
-      "zh_tw": "楊木樹苗",
-      "zh_hk": "楊木樹苗",
-      "ja_jp": "ポプラの苗木"
+      "zh_cn": "杨树树苗"
     },
     "block.minecraft.poplar_shelf": {
       "en_us": "Poplar Shelf",
-      "zh_cn": "杨木展示架",
-      "zh_tw": "楊木展示架",
-      "zh_hk": "楊木置物架",
-      "ja_jp": "ポプラの棚"
+      "zh_cn": "杨木展示架"
     },
     "block.minecraft.poplar_sign": {
       "en_us": "Poplar Sign",
-      "zh_cn": "杨木告示牌",
-      "zh_tw": "楊木告示牌",
-      "zh_hk": "楊木指示牌",
-      "ja_jp": "ポプラの看板"
+      "zh_cn": "杨木告示牌"
     },
     "block.minecraft.poplar_slab": {
       "en_us": "Poplar Slab",
-      "zh_cn": "杨木台阶",
-      "zh_tw": "楊木半磚",
-      "zh_hk": "楊木半磚",
-      "ja_jp": "ポプラのハーフブロック"
+      "zh_cn": "杨木台阶"
     },
     "block.minecraft.poplar_stairs": {
       "en_us": "Poplar Stairs",
-      "zh_cn": "杨木楼梯",
-      "zh_tw": "楊木階梯",
-      "zh_hk": "楊木樓梯",
-      "ja_jp": "ポプラの階段"
+      "zh_cn": "杨木楼梯"
     },
     "block.minecraft.poplar_trapdoor": {
       "en_us": "Poplar Trapdoor",
-      "zh_cn": "杨木活板门",
-      "zh_tw": "楊木地板門",
-      "zh_hk": "楊木地板門",
-      "ja_jp": "ポプラのトラップドア"
+      "zh_cn": "杨木活板门"
     },
     "block.minecraft.poplar_wall_hanging_sign": {
       "en_us": "Poplar Wall Hanging Sign",
-      "zh_cn": "墙上的悬挂式杨木告示牌",
-      "zh_tw": "牆上的懸掛式楊木告示牌",
-      "zh_hk": "牆上的楊木吊牌",
-      "ja_jp": "壁に付けられたポプラの吊り看板"
+      "zh_cn": "墙上的悬挂式杨木告示牌"
     },
     "block.minecraft.poplar_wall_sign": {
       "en_us": "Poplar Wall Sign",
-      "zh_cn": "墙上的杨木告示牌",
-      "zh_tw": "牆上的楊木告示牌",
-      "zh_hk": "牆上的楊木指示牌",
-      "ja_jp": "壁に付けられたポプラの看板"
+      "zh_cn": "墙上的杨木告示牌"
     },
     "block.minecraft.poplar_wood": {
       "en_us": "Poplar Wood",
-      "zh_cn": "杨木",
-      "zh_tw": "楊木塊",
-      "zh_hk": "楊木",
-      "ja_jp": "ポプラの木"
+      "zh_cn": "杨木"
     },
     "block.minecraft.potted_poplar_sapling": {
       "en_us": "Potted Poplar Sapling",
-      "zh_cn": "杨树树苗盆栽",
-      "zh_tw": "楊木樹苗盆栽",
-      "zh_hk": "楊木樹苗盆栽",
-      "ja_jp": "ポプラの苗木入り植木鉢"
+      "zh_cn": "杨树树苗盆栽"
     },
     "block.minecraft.purple_concrete_slab": {
       "en_us": "Purple Concrete Slab",
-      "zh_cn": "紫色混凝土台阶",
-      "zh_tw": "紫色混凝土半磚",
-      "zh_hk": "紫色混凝土半磚",
-      "ja_jp": "紫色のコンクリートのハーフブロック"
+      "zh_cn": "紫色混凝土台阶"
     },
     "block.minecraft.purple_concrete_stairs": {
       "en_us": "Purple Concrete Stairs",
-      "zh_cn": "紫色混凝土楼梯",
-      "zh_tw": "紫色混凝土階梯",
-      "zh_hk": "紫色混凝土樓梯",
-      "ja_jp": "紫色のコンクリートの階段"
+      "zh_cn": "紫色混凝土楼梯"
     },
     "block.minecraft.purple_wool_slab": {
       "en_us": "Purple Wool Slab",
-      "zh_cn": "紫色羊毛台阶",
-      "zh_tw": "紫色羊毛半磚",
-      "zh_hk": "紫色羊毛半磚",
-      "ja_jp": "紫色の羊毛のハーフブロック"
+      "zh_cn": "紫色羊毛台阶"
     },
     "block.minecraft.purple_wool_stairs": {
       "en_us": "Purple Wool Stairs",
-      "zh_cn": "紫色羊毛楼梯",
-      "zh_tw": "紫色羊毛階梯",
-      "zh_hk": "紫色羊毛樓梯",
-      "ja_jp": "紫色の羊毛の階段"
+      "zh_cn": "紫色羊毛楼梯"
     },
     "block.minecraft.red_concrete_slab": {
       "en_us": "Red Concrete Slab",
-      "zh_cn": "红色混凝土台阶",
-      "zh_tw": "紅色混凝土半磚",
-      "zh_hk": "紅色混凝土半磚",
-      "ja_jp": "赤色のコンクリートのハーフブロック"
+      "zh_cn": "红色混凝土台阶"
     },
     "block.minecraft.red_concrete_stairs": {
       "en_us": "Red Concrete Stairs",
-      "zh_cn": "红色混凝土楼梯",
-      "zh_tw": "紅色混凝土階梯",
-      "zh_hk": "紅色混凝土樓梯",
-      "ja_jp": "赤色のコンクリートの階段"
+      "zh_cn": "红色混凝土楼梯"
     },
     "block.minecraft.red_poplar_leaves": {
       "en_us": "Red Poplar Leaves",
-      "zh_cn": "红色杨树树叶",
-      "zh_tw": "紅色楊木樹葉",
-      "zh_hk": "紅色楊木樹葉",
-      "ja_jp": "赤色のポプラの葉"
+      "zh_cn": "红色杨树树叶"
     },
     "block.minecraft.red_shrub": {
       "en_us": "Red Shrub",
-      "zh_cn": "红灌木",
-      "zh_tw": "紅灌木",
-      "zh_hk": "紅灌木",
-      "ja_jp": "赤色の低木"
+      "zh_cn": "红灌木"
     },
     "block.minecraft.red_wool_slab": {
       "en_us": "Red Wool Slab",
-      "zh_cn": "红色羊毛台阶",
-      "zh_tw": "紅色羊毛半磚",
-      "zh_hk": "紅色羊毛半磚",
-      "ja_jp": "赤色の羊毛のハーフブロック"
+      "zh_cn": "红色羊毛台阶"
     },
     "block.minecraft.red_wool_stairs": {
       "en_us": "Red Wool Stairs",
-      "zh_cn": "红色羊毛楼梯",
-      "zh_tw": "紅色羊毛階梯",
-      "zh_hk": "紅色羊毛樓梯",
-      "ja_jp": "赤色の羊毛の階段"
+      "zh_cn": "红色羊毛楼梯"
     },
     "block.minecraft.shelf_mushroom": {
       "en_us": "Shelf Mushroom",
-      "zh_cn": "层孔菇",
-      "zh_tw": "層孔菇",
-      "zh_hk": "層架蘑菇",
-      "ja_jp": "サルノコシカケ"
+      "zh_cn": "层孔菇"
     },
     "block.minecraft.straw_bed": {
       "en_us": "Straw Bed",
-      "zh_cn": "麦秆床",
-      "zh_tw": "乾草床",
-      "zh_hk": "禾稈牀",
-      "ja_jp": "藁のベッド"
+      "zh_cn": "麦秆床"
     },
     "block.minecraft.stripped_poplar_log": {
       "en_us": "Stripped Poplar Log",
-      "zh_cn": "去皮杨木原木",
-      "zh_tw": "剝皮楊木原木",
-      "zh_hk": "剝皮楊木原木",
-      "ja_jp": "樹皮を剥いだポプラの原木"
+      "zh_cn": "去皮杨木原木"
     },
     "block.minecraft.stripped_poplar_wood": {
       "en_us": "Stripped Poplar Wood",
-      "zh_cn": "去皮杨木",
-      "zh_tw": "剝皮楊木塊",
-      "zh_hk": "剝皮楊木",
-      "ja_jp": "樹皮を剥いだポプラの木"
+      "zh_cn": "去皮杨木"
     },
     "block.minecraft.white_concrete_slab": {
       "en_us": "White Concrete Slab",
-      "zh_cn": "白色混凝土台阶",
-      "zh_tw": "白色混凝土半磚",
-      "zh_hk": "白色混凝土半磚",
-      "ja_jp": "白色のコンクリートのハーフブロック"
+      "zh_cn": "白色混凝土台阶"
     },
     "block.minecraft.white_concrete_stairs": {
       "en_us": "White Concrete Stairs",
-      "zh_cn": "白色混凝土楼梯",
-      "zh_tw": "白色混凝土階梯",
-      "zh_hk": "白色混凝土樓梯",
-      "ja_jp": "白色のコンクリートの階段"
+      "zh_cn": "白色混凝土楼梯"
     },
     "block.minecraft.white_wool_slab": {
       "en_us": "White Wool Slab",
-      "zh_cn": "白色羊毛台阶",
-      "zh_tw": "白色羊毛半磚",
-      "zh_hk": "白色羊毛半磚",
-      "ja_jp": "白色の羊毛のハーフブロック"
+      "zh_cn": "白色羊毛台阶"
     },
     "block.minecraft.white_wool_stairs": {
       "en_us": "White Wool Stairs",
-      "zh_cn": "白色羊毛楼梯",
-      "zh_tw": "白色羊毛階梯",
-      "zh_hk": "白色羊毛樓梯",
-      "ja_jp": "白色の羊毛の階段"
+      "zh_cn": "白色羊毛楼梯"
     },
     "block.minecraft.yellow_concrete_slab": {
       "en_us": "Yellow Concrete Slab",
-      "zh_cn": "黄色混凝土台阶",
-      "zh_tw": "黃色混凝土半磚",
-      "zh_hk": "黃色混凝土半磚",
-      "ja_jp": "黄色のコンクリートのハーフブロック"
+      "zh_cn": "黄色混凝土台阶"
     },
     "block.minecraft.yellow_concrete_stairs": {
       "en_us": "Yellow Concrete Stairs",
-      "zh_cn": "黄色混凝土楼梯",
-      "zh_tw": "黃色混凝土階梯",
-      "zh_hk": "黃色混凝土樓梯",
-      "ja_jp": "黄色のコンクリートの階段"
+      "zh_cn": "黄色混凝土楼梯"
     },
     "block.minecraft.yellow_poplar_leaves": {
       "en_us": "Yellow Poplar Leaves",
-      "zh_cn": "黄色杨树树叶",
-      "zh_tw": "黃色楊木樹葉",
-      "zh_hk": "黃色楊木樹葉",
-      "ja_jp": "黄色のポプラの葉"
+      "zh_cn": "黄色杨树树叶"
     },
     "block.minecraft.yellow_wool_slab": {
       "en_us": "Yellow Wool Slab",
-      "zh_cn": "黄色羊毛台阶",
-      "zh_tw": "黃色羊毛半磚",
-      "zh_hk": "黃色羊毛半磚",
-      "ja_jp": "黄色の羊毛のハーフブロック"
+      "zh_cn": "黄色羊毛台阶"
     },
     "block.minecraft.yellow_wool_stairs": {
       "en_us": "Yellow Wool Stairs",
-      "zh_cn": "黄色羊毛楼梯",
-      "zh_tw": "黃色羊毛階梯",
-      "zh_hk": "黃色羊毛樓梯",
-      "ja_jp": "黄色の羊毛の階段"
+      "zh_cn": "黄色羊毛楼梯"
     },
     "command.compute.result.named.exact": {
       "en_us": "%s returned value %s",
-      "zh_cn": "%s返回了值%s",
-      "zh_tw": "%s 已回傳數值 %s",
-      "zh_hk": "%s 已返回數值 %s",
-      "ja_jp": "%sは値%sを返しました"
+      "zh_cn": "%s返回了值%s"
     },
     "command.compute.result.named.invalid": {
       "en_us": "%s returned invalid value (%s)",
-      "zh_cn": "%s返回了无效的值（%s）",
-      "zh_tw": "%s 已回傳無效的數值 (%s)",
-      "zh_hk": "%s 已返回無效數值 (%s)",
-      "ja_jp": "%sは不正な値を返しました（%s）"
+      "zh_cn": "%s返回了无效的值（%s）"
     },
     "command.compute.result.named.rounded": {
       "en_us": "%s returned value %s (rounded to %s)",
-      "zh_cn": "%s返回了值%s（取整为%s）",
-      "zh_tw": "%s 已回傳數值 %s（捨去至 %s）",
-      "zh_hk": "%s 已返回數值 %s（下捨入為 %s）",
-      "ja_jp": "%sは値%sを返しました（%sに丸め）"
+      "zh_cn": "%s返回了值%s（取整为%s）"
     },
     "command.compute.result.unnamed.exact": {
       "en_us": "Number provider returned value %s",
-      "zh_cn": "数值提供器返回了值%s",
-      "zh_tw": "數值提供器已回傳數值 %s",
-      "zh_hk": "數值提供器已返回數值 %s",
-      "ja_jp": "ナンバープロバイダーは値%sを返しました"
+      "zh_cn": "数值提供器返回了值%s"
     },
     "command.compute.result.unnamed.invalid": {
       "en_us": "Number provider returned invalid value (%s)",
-      "zh_cn": "数值提供器返回了无效的值（%s）",
-      "zh_tw": "數值提供器已回傳無效的數值 (%s)",
-      "zh_hk": "數值提供器已返回無效數值 (%s)",
-      "ja_jp": "ナンバープロバイダーは不正な値を返しました（%s）"
+      "zh_cn": "数值提供器返回了无效的值（%s）"
     },
     "command.compute.result.unnamed.rounded": {
       "en_us": "Number provider returned value %s (rounded to %s)",
-      "zh_cn": "数值提供器返回了值%s（取整为%s）",
-      "zh_tw": "數值提供器已回傳數值 %s（捨去至 %s）",
-      "zh_hk": "數值提供器已返回數值 %s（四捨五入為 %s）",
-      "ja_jp": "ナンバープロバイダーは値%sを返しました（%sに丸め）"
+      "zh_cn": "数值提供器返回了值%s（取整为%s）"
     },
     "commands.fillbiome.no_changes": {
       "en_us": "No biome entries were changed",
-      "zh_cn": "未更改任何生物群系",
-      "zh_tw": "未變更任何生態域",
-      "zh_hk": "未變更任何生物羣落",
-      "ja_jp": "どのバイオームエントリーも変更されませんでした"
+      "zh_cn": "未更改任何生物群系"
     },
     "commands.gamerule.not_set": {
       "en_us": "Game rule %s is already set to %s",
-      "zh_cn": "游戏规则%s原已设为%s",
-      "zh_tw": "遊戲規則 %s 原已設為 %s",
-      "zh_hk": "遊戲規則 %s 原本已設為 %s",
-      "ja_jp": "ゲームルール%sは既に%sに設定されています"
+      "zh_cn": "游戏规则%s原已设为%s"
     },
     "commands.item.block.modify.success": {
       "en_us": "Modified %s slot(s) at %s, %s, %s",
-      "zh_cn": "已修改位于%2$s, %3$s, %4$s的%1$s个槽位",
-      "zh_tw": "已修改位於 %2$s, %3$s, %4$s 的 %1$s 個欄位",
-      "zh_hk": "已修改位於 %2$s, %3$s, %4$s 的 %1$s 個欄位",
-      "ja_jp": "%2$s, %3$s, %4$sにおける%1$s個のスロットを変更しました"
+      "zh_cn": "已修改位于%2$s, %3$s, %4$s的%1$s个槽位"
     },
     "commands.item.block.replace.success": {
       "en_us": "Replaced %s slot(s) at %s, %s, %s",
-      "zh_cn": "已替换位于%2$s, %3$s, %4$s的%1$s个槽位",
-      "zh_tw": "已取代位於 %2$s, %3$s, %4$s 的 %1$s 個欄位",
-      "zh_hk": "已替換位於 %2$s, %3$s, %4$s 的 %1$s 個欄位",
-      "ja_jp": "%2$s, %3$s, %4$sにおける%1$s個のスロットを置換しました"
+      "zh_cn": "已替换位于%2$s, %3$s, %4$s的%1$s个槽位"
     },
     "commands.item.block.replace.success.known_item": {
       "en_us": "Replaced %s slot(s) at %s, %s, %s with %s",
-      "zh_cn": "已用%5$s替换位于%2$s, %3$s, %4$s的%1$s个槽位",
-      "zh_tw": "已將位於 %2$s, %3$s, %4$s 的 %1$s 個欄位取代為 %5$s",
-      "zh_hk": "已將位於 %2$s, %3$s, %4$s 的 %1$s 個欄位替換為 %5$s",
-      "ja_jp": "%2$s, %3$s, %4$sにおける%1$s個のスロットを%5$sに置換しました"
+      "zh_cn": "已用%5$s替换位于%2$s, %3$s, %4$s的%1$s个槽位"
     },
     "commands.item.entity.modify.success.multiple": {
       "en_us": "Modified slot(s) on %s entities",
-      "zh_cn": "已修改%s个实体的槽位",
-      "zh_tw": "已修改 %s 個實體的欄位",
-      "zh_hk": "已修改 %s 個實體上的欄位",
-      "ja_jp": "%s体のエンティティのスロットを変更しました"
+      "zh_cn": "已修改%s个实体的槽位"
     },
     "commands.item.entity.modify.success.single": {
       "en_us": "Modified %s slot(s) on %s",
-      "zh_cn": "已修改%2$s的%1$s个槽位",
-      "zh_tw": "已修改 %2$s 的 %1$s 個欄位",
-      "zh_hk": "已修改 %2$s 上的 %1$s 個欄位",
-      "ja_jp": "%2$sの%1$s個のスロットを変更しました"
+      "zh_cn": "已修改%2$s的%1$s个槽位"
     },
     "commands.item.entity.replace.success.multiple": {
       "en_us": "Replaced slot(s) on %s entities",
-      "zh_cn": "已替换%s个实体的槽位",
-      "zh_tw": "已取代 %s 個實體的欄位",
-      "zh_hk": "已替換 %s 個實體上的欄位",
-      "ja_jp": "%s体のエンティティのスロットを置換しました"
+      "zh_cn": "已替换%s个实体的槽位"
     },
     "commands.item.entity.replace.success.multiple.known_item": {
       "en_us": "Replaced slot(s) on %s entities with %s",
-      "zh_cn": "已用%2$s替换%1$s个实体的槽位",
-      "zh_tw": "已用 %2$s 取代 %1$s 個實體上的欄位",
-      "zh_hk": "已用 %2$s 替換 %1$s 個實體上的欄位",
-      "ja_jp": "%s体のエンティティのスロットを%sに置換しました"
+      "zh_cn": "已用%2$s替换%1$s个实体的槽位"
     },
     "commands.item.entity.replace.success.single": {
       "en_us": "Replaced %s slot(s) on %s",
-      "zh_cn": "已替换%2$s的%1$s个槽位",
-      "zh_tw": "已取代 %2$s 的 %1$s 個欄位",
-      "zh_hk": "已替換 %2$s 上的 %1$s 個欄位",
-      "ja_jp": "%2$sの%1$s個のスロットを置換しました"
+      "zh_cn": "已替换%2$s的%1$s个槽位"
     },
     "commands.item.entity.replace.success.single.known_item": {
       "en_us": "Replaced %s slot(s) on %s with %s",
-      "zh_cn": "已用%3$s替换%2$s的%1$s个槽位",
-      "zh_tw": "已用 %3$s 取代 %2$s 的 %1$s 個欄位",
-      "zh_hk": "已用 %3$s 替換 %2$s 上的 %1$s 個欄位",
-      "ja_jp": "%2$sの%1$s個のスロットを%3$sで置換しました"
+      "zh_cn": "已用%3$s替换%2$s的%1$s个槽位"
     },
     "commands.item.source.no_such_slot.unnamed": {
       "en_us": "The source does not have specified slots",
-      "zh_cn": "来源没有指定的槽位",
-      "zh_tw": "該來源沒有指定的欄位",
-      "zh_hk": "來源並無指定欄位",
-      "ja_jp": "コピー元に指定のスロットが存在しません"
+      "zh_cn": "来源没有指定的槽位"
     },
     "commands.item.target.failed": {
       "en_us": "No targets accepted items into specified slots",
-      "zh_cn": "没有对象在指定槽位接受物品",
-      "zh_tw": "沒有對象在指定欄位接受物品",
-      "zh_hk": "並無對象於指定欄位接受物品",
-      "ja_jp": "指定のスロットにアイテムを入れられる対象が存在しませんでした"
+      "zh_cn": "没有对象在指定槽位接受物品"
     },
     "commands.item.target.failed.known_item": {
       "en_us": "No targets accepted item %s into specified slots",
-      "zh_cn": "没有对象在指定槽位接受物品%s",
-      "zh_tw": "沒有對象在指定欄位接受物品 %s",
-      "zh_hk": "並無對象於指定欄位接受物品 %s",
-      "ja_jp": "指定のスロットにアイテム「%s」を入れられる対象が存在しませんでした"
+      "zh_cn": "没有对象在指定槽位接受物品%s"
     },
     "commands.item.target.no_such_slot.unnamed": {
       "en_us": "The target does not have specified slots",
-      "zh_cn": "对象没有指定的槽位",
-      "zh_tw": "該對象沒有指定的欄位",
-      "zh_hk": "對象並無指定欄位",
-      "ja_jp": "対象に指定のスロットが存在しません"
+      "zh_cn": "对象没有指定的槽位"
     },
     "commands.place.feature.success.inline": {
       "en_us": "Placed feature at %s, %s, %s",
-      "zh_cn": "已在%s, %s, %s处放置地物",
-      "zh_tw": "已於 %s, %s, %s 處放置地物",
-      "zh_hk": "已於 %s, %s, %s 處放置地物",
-      "ja_jp": "%s, %s, %sに生成物を配置しました"
+      "zh_cn": "已在%s, %s, %s处放置地物"
     },
     "commands.posteffect.add.failed": {
       "en_us": "Player already has the specified post effect",
-      "zh_cn": "玩家原已拥有指定的后处理效果",
-      "zh_tw": "玩家已經擁有指定的後製效果",
-      "zh_hk": "玩家原本已擁有指定後製效果",
-      "ja_jp": "プレイヤーはすでに指定されたポストエフェクトが適用されています"
+      "zh_cn": "玩家原已拥有指定的后处理效果"
     },
     "commands.posteffect.add.success.multiple": {
       "en_us": "Added post effect %s to %s players",
-      "zh_cn": "已向%2$s名玩家添加后处理效果%1$s",
-      "zh_tw": "已將後製效果 %s 加至 %s 個玩家",
-      "zh_hk": "已將後製效果 %s 增添至 %s 個玩家",
-      "ja_jp": "ポストエフェクト%sを%s人のプレイヤーに適用しました"
+      "zh_cn": "已向%2$s名玩家添加后处理效果%1$s"
     },
     "commands.posteffect.add.success.single": {
       "en_us": "Added post effect %s to %s",
-      "zh_cn": "已向%2$s添加后处理效果%1$s",
-      "zh_tw": "已將後製效果 %s 加至 %s",
-      "zh_hk": "已將後製效果 %s 增添至 %s",
-      "ja_jp": "ポストエフェクト%sを%sに適用しました"
+      "zh_cn": "已向%2$s添加后处理效果%1$s"
     },
     "commands.posteffect.clear.failed": {
       "en_us": "Player does not have any post effects to remove",
-      "zh_cn": "玩家没有可移除的后处理效果",
-      "zh_tw": "玩家沒有任何可移除的後製效果",
-      "zh_hk": "玩家並無可移除的後製效果",
-      "ja_jp": "プレイヤーに除去できるポストエフェクトがありません"
+      "zh_cn": "玩家没有可移除的后处理效果"
     },
     "commands.posteffect.clear.success.multiple": {
       "en_us": "Removed all post effects from %s players",
-      "zh_cn": "已移除%s名玩家的所有后处理效果",
-      "zh_tw": "已移除 %s 個玩家的所有後製效果",
-      "zh_hk": "已移除 %s 個玩家的全部後製效果",
-      "ja_jp": "%s人のプレイヤーからポストエフェクトをすべて除去しました"
+      "zh_cn": "已移除%s名玩家的所有后处理效果"
     },
     "commands.posteffect.clear.success.single": {
       "en_us": "Removed all post effects from %s",
-      "zh_cn": "已移除%s的所有后处理效果",
-      "zh_tw": "已移除 %s 的所有後製效果",
-      "zh_hk": "已移除 %s 的全部後製效果",
-      "ja_jp": "%sから全てのポストエフェクトを除去しました"
+      "zh_cn": "已移除%s的所有后处理效果"
     },
     "commands.posteffect.list.empty": {
       "en_us": "Player %s does not have any post effects",
-      "zh_cn": "玩家%s没有任何后处理效果",
-      "zh_tw": "玩家 %s 沒有任何後製效果",
-      "zh_hk": "玩家 %s 並無任何後製效果",
-      "ja_jp": "プレイヤー%sには何のポストエフェクトも適用されていません"
+      "zh_cn": "玩家%s没有任何后处理效果"
     },
     "commands.posteffect.list.success": {
       "en_us": "Player %s has %s post effects: %s",
-      "zh_cn": "玩家%s拥有%s个后处理效果：%s",
-      "zh_tw": "玩家 %s 擁有 %s 個後製效果：%s",
-      "zh_hk": "玩家 %s 有 %s 個後製效果：%s",
-      "ja_jp": "プレイヤー%sには%s個のポストエフェクトが適用されています：%s"
+      "zh_cn": "玩家%s拥有%s个后处理效果：%s"
     },
     "commands.posteffect.remove.failed": {
       "en_us": "Player does not have the specified post effect",
-      "zh_cn": "玩家没有指定的后处理效果",
-      "zh_tw": "玩家沒有指定的後製效果",
-      "zh_hk": "玩家並無指定後製效果",
-      "ja_jp": "プレイヤーに指定されたポストエフェクトが適用されていません"
+      "zh_cn": "玩家没有指定的后处理效果"
     },
     "commands.posteffect.remove.success.multiple": {
       "en_us": "Removed post effect %s from %s players",
-      "zh_cn": "已移除%2$s名玩家的后处理效果%1$s",
-      "zh_tw": "已移除 %2$s 個玩家的後製效果 %1$s",
-      "zh_hk": "已移除 %2$s 個玩家的後製效果 %1$s",
-      "ja_jp": "%s人のプレイヤーからポストエフェクト%sを除去しました"
+      "zh_cn": "已移除%2$s名玩家的后处理效果%1$s"
     },
     "commands.posteffect.remove.success.single": {
       "en_us": "Removed post effect %s from %s",
-      "zh_cn": "已移除%2$s的后处理效果%1$s",
-      "zh_tw": "已移除 %2$s 的後製效果 %1$s",
-      "zh_hk": "已移除 %2$s 的後製效果 %1$s",
-      "ja_jp": "%sからポストエフェクト%sを除去しました"
+      "zh_cn": "已移除%2$s的后处理效果%1$s"
     },
     "commands.time.pause.already_paused": {
       "en_us": "Clock %s is already paused",
-      "zh_cn": "时钟%s原已暂停",
-      "zh_tw": "時鐘 %s 已經暫停",
-      "zh_hk": "時鐘 %s 原本已暫停",
-      "ja_jp": "時計「%s」は既に一時停止しています"
+      "zh_cn": "时钟%s原已暂停"
     },
     "commands.time.pause.already_running": {
       "en_us": "Clock %s is already running",
-      "zh_cn": "时钟%s原已在运行中",
-      "zh_tw": "時鐘 %s 已經在執行中",
-      "zh_hk": "時鐘 %s 原本已在執行",
-      "ja_jp": "時計「%s」は既に動作中です"
+      "zh_cn": "时钟%s原已在运行中"
     },
     "commands.time.rate.already_same": {
       "en_us": "Clock %s is already advancing at %sx normal rate",
-      "zh_cn": "时钟%s原已以正常速度的%s倍运行",
-      "zh_tw": "時鐘 %s 的速度已經設為正常速度的 %s 倍",
-      "zh_hk": "時鐘 %s 原本已以正常速度的 %s 倍前進",
-      "ja_jp": "時計「%s」の進行速度は既に通常の%s倍です"
+      "zh_cn": "时钟%s原已以正常速度的%s倍运行"
     },
     "commands.time.set.already_at_time": {
       "en_us": "Clock %s is already set to %s tick(s)",
-      "zh_cn": "时钟%s原已处于%s刻",
-      "zh_tw": "時鐘 %s 已經設為 %s 刻",
-      "zh_hk": "時鐘 %s 原本已設為 %s 刻",
-      "ja_jp": "時計「%s」は既に%sティックに設定されています"
+      "zh_cn": "时钟%s原已处于%s刻"
     },
     "commands.time.set.already_at_time_marker": {
       "en_us": "Clock %s is already at time marker %s",
-      "zh_cn": "时钟%s原已处于时间标记%s的时刻",
-      "zh_tw": "時鐘 %s 已經處於時間標記 %s",
-      "zh_hk": "時鐘 %s 原本已處於時間標記 %s 的時刻",
-      "ja_jp": "時計「%s」は既にタイムマーカー「%s」の位置になっています"
+      "zh_cn": "时钟%s原已处于时间标记%s的时刻"
     },
     "death.attack.sulfurCubeHot.item": {
       "en_us": "%2$s showed %1$s that not just the floor is lava using %3$s",
-      "zh_cn": "%2$s用%3$s让%1$s知道了不只有地板是熔岩做的",
-      "zh_tw": "%2$s 用 %3$s 讓 %1$s 察覺不只有地面是熔岩",
-      "zh_hk": "%2$s 用 %3$s 令 %1$s 發覺不只有地面是熔巖",
-      "ja_jp": "%2$sは%1$sに%3$sで溶岩は床だけではないことを思い知らせた"
+      "zh_cn": "%2$s用%3$s让%1$s知道了不只有地板是熔岩做的"
     },
     "debug.improvedTransparency.off": {
       "en_us": "Improved transparency: disabled",
-      "zh_cn": "改进透明显示：禁用",
-      "zh_tw": "改善透明顯示：停用",
-      "zh_hk": "改進透明顯示：已停用",
-      "ja_jp": "透過物描画の改良：無効"
+      "zh_cn": "改进透明显示：禁用"
     },
     "debug.improvedTransparency.on": {
       "en_us": "Improved transparency: enabled",
-      "zh_cn": "改进透明显示：启用",
-      "zh_tw": "改善透明顯示：啟用",
-      "zh_hk": "改進透明顯示：已啟用",
-      "ja_jp": "透過物描画の改良：有効"
+      "zh_cn": "改进透明显示：启用"
     },
     "entity.minecraft.cushion": {
       "en_us": "Cushion",
-      "zh_cn": "坐垫",
-      "zh_tw": "坐墊",
-      "zh_hk": "咕臣",
-      "ja_jp": "クッション"
+      "zh_cn": "坐垫"
     },
     "entity.minecraft.poplar_boat": {
       "en_us": "Poplar Boat",
-      "zh_cn": "杨木船",
-      "zh_tw": "楊木船",
-      "zh_hk": "楊木船",
-      "ja_jp": "ポプラのボート"
+      "zh_cn": "杨木船"
     },
     "entity.minecraft.poplar_chest_boat": {
       "en_us": "Poplar Boat with Chest",
-      "zh_cn": "杨木运输船",
-      "zh_tw": "儲物箱楊木船",
-      "zh_hk": "儲物箱楊木船",
-      "ja_jp": "チェスト付きのポプラのボート"
+      "zh_cn": "杨木运输船"
     },
     "filled_map.bamboo_camp_map": {
       "en_us": "Bamboo Camp Map",
-      "zh_cn": "竹林营地地图",
-      "zh_tw": "竹林營地地圖",
-      "zh_hk": "竹林營地地圖",
-      "ja_jp": "竹林のキャンプの地図"
+      "zh_cn": "竹林营地地图"
     },
     "filled_map.bamboo_jungle_abandoned_camp": {
       "en_us": "Bamboo Jungle Abandoned Camp Map",
-      "zh_cn": "竹林废弃营地地图",
-      "zh_tw": "竹林廢棄營地地圖",
-      "zh_hk": "竹林廢棄營地地圖",
-      "ja_jp": "竹林の放棄されたキャンプの地図"
+      "zh_cn": "竹林废弃营地地图"
     },
     "filled_map.birch_forest_abandoned_camp": {
       "en_us": "Birch Forest Abandoned Camp Map",
-      "zh_cn": "桦木森林废弃营地地图",
-      "zh_tw": "樺木森林廢棄營地地圖",
-      "zh_hk": "樺木森林廢棄營地地圖",
-      "ja_jp": "シラカバの森の放棄されたキャンプの地図"
+      "zh_cn": "桦木森林废弃营地地图"
     },
     "filled_map.birch_forest_camp_map": {
       "en_us": "Birch Forest Camp Map",
-      "zh_cn": "桦木森林营地地图",
-      "zh_tw": "樺木森林營地地圖",
-      "zh_hk": "樺木森林營地地圖",
-      "ja_jp": "シラカバの森のキャンプの地図"
+      "zh_cn": "桦木森林营地地图"
     },
     "filled_map.cherry_grove_abandoned_camp": {
       "en_us": "Cherry Grove Abandoned Camp Map",
-      "zh_cn": "樱花树林废弃营地地图",
-      "zh_tw": "櫻花樹林廢棄營地地圖",
-      "zh_hk": "櫻花樹林廢棄營地地圖",
-      "ja_jp": "サクラの林の放棄されたキャンプの地図"
+      "zh_cn": "樱花树林废弃营地地图"
     },
     "filled_map.cherry_grove_camp_map": {
       "en_us": "Cherry Grove Camp Map",
-      "zh_cn": "樱花树林营地地图",
-      "zh_tw": "櫻花樹林營地地圖",
-      "zh_hk": "櫻花樹林營地地圖",
-      "ja_jp": "サクラの林のキャンプの地図"
+      "zh_cn": "樱花树林营地地图"
     },
     "filled_map.dappled_forest_abandoned_camp": {
       "en_us": "Dappled Forest Abandoned Camp Map",
-      "zh_cn": "斑驳森林废弃营地地图",
-      "zh_tw": "斑駁森林廢棄營地地圖",
-      "zh_hk": "斑駁森林廢棄營地地圖",
-      "ja_jp": "まだらな森の放棄されたキャンプの地図"
+      "zh_cn": "斑驳森林废弃营地地图"
     },
     "filled_map.dappled_forest_camp_map": {
       "en_us": "Dappled Forest Camp Map",
-      "zh_cn": "斑驳森林营地地图",
-      "zh_tw": "斑駁森林營地地圖",
-      "zh_hk": "斑駁森林營地地圖",
-      "ja_jp": "まだらな森のキャンプの地図"
+      "zh_cn": "斑驳森林营地地图"
     },
     "filled_map.flower_forest_abandoned_camp": {
       "en_us": "Flower Forest Abandoned Camp Map",
-      "zh_cn": "繁花森林废弃营地地图",
-      "zh_tw": "繁花森林廢棄營地地圖",
-      "zh_hk": "繁花森林廢棄營地地圖",
-      "ja_jp": "花の森の放棄されたキャンプの地図"
+      "zh_cn": "繁花森林废弃营地地图"
     },
     "filled_map.flower_forest_camp_map": {
       "en_us": "Flower Forest Camp Map",
-      "zh_cn": "繁花森林营地地图",
-      "zh_tw": "繁花森林營地地圖",
-      "zh_hk": "繁花森林營地地圖",
-      "ja_jp": "花の森のキャンプの地図"
+      "zh_cn": "繁花森林营地地图"
     },
     "filled_map.jungle_temple": {
       "en_us": "Jungle Temple Map",
-      "zh_cn": "丛林神庙地图",
-      "zh_tw": "叢林遺跡地圖",
-      "zh_hk": "叢林神廟地圖",
-      "ja_jp": "ジャングルの寺院の地図"
+      "zh_cn": "丛林神庙地图"
     },
     "filled_map.pale_garden_abandoned_camp": {
       "en_us": "Pale Garden Abandoned Camp Map",
-      "zh_cn": "苍白之园废弃营地地图",
-      "zh_tw": "蒼白之園廢棄營地地圖",
-      "zh_hk": "蒼白之園廢棄營地地圖",
-      "ja_jp": "ペールガーデンの放棄されたキャンプの地図"
+      "zh_cn": "苍白之园废弃营地地图"
     },
     "filled_map.pale_garden_camp_map": {
       "en_us": "Pale Garden Camp Map",
-      "zh_cn": "苍白之园营地地图",
-      "zh_tw": "蒼白之園營地地圖",
-      "zh_hk": "蒼白之園營地地圖",
-      "ja_jp": "ペールガーデンのキャンプの地図"
+      "zh_cn": "苍白之园营地地图"
     },
     "filled_map.swamp_abandoned_camp": {
       "en_us": "Swamp Abandoned Camp Map",
-      "zh_cn": "沼泽废弃营地地图",
-      "zh_tw": "沼澤廢棄營地地圖",
-      "zh_hk": "沼澤地廢棄營地地圖",
-      "ja_jp": "沼地の放棄されたキャンプの地図"
+      "zh_cn": "沼泽废弃营地地图"
     },
     "filled_map.swamp_camp_map": {
       "en_us": "Swamp Camp Map",
-      "zh_cn": "沼泽营地地图",
-      "zh_tw": "沼澤營地地圖",
-      "zh_hk": "沼澤地營地地圖",
-      "ja_jp": "沼地のキャンプの地図"
+      "zh_cn": "沼泽营地地图"
     },
     "filled_map.windswept_forest_abandoned_camp": {
       "en_us": "Windswept Forest Abandoned Camp Map",
-      "zh_cn": "风袭森林废弃营地地图",
-      "zh_tw": "風蝕森林廢棄營地地圖",
-      "zh_hk": "風襲森林廢棄營地地圖",
-      "ja_jp": "吹きさらしの森の放棄されたキャンプの地図"
+      "zh_cn": "风袭森林废弃营地地图"
     },
     "filled_map.windswept_forest_camp_map": {
       "en_us": "Windswept Forest Camp Map",
-      "zh_cn": "风袭森林营地地图",
-      "zh_tw": "風蝕森林營地地圖",
-      "zh_hk": "風襲森林營地地圖",
-      "ja_jp": "吹きさらしの森のキャンプの地図"
+      "zh_cn": "风袭森林营地地图"
     },
     "item.minecraft.abandoned_camp_map": {
       "en_us": "Abandoned Camp Map",
-      "zh_cn": "废弃营地地图",
-      "zh_tw": "廢棄營地地圖",
-      "zh_hk": "廢棄營地地圖",
-      "ja_jp": "放棄されたキャンプの地図"
+      "zh_cn": "废弃营地地图"
     },
     "item.minecraft.abandoned_campsite_map": {
       "en_us": "Abandoned Campsite Map",
-      "zh_cn": "废弃营地地图",
-      "zh_tw": "廢棄營地地圖",
-      "zh_hk": "廢棄營地地圖",
-      "ja_jp": "放棄されたキャンプの地図"
+      "zh_cn": "废弃营地地图"
     },
     "item.minecraft.ancient_city_map": {
       "en_us": "Ancient City Map",
-      "zh_cn": "远古城市地图",
-      "zh_tw": "遠古城市地圖",
-      "zh_hk": "遠古城市地圖",
-      "ja_jp": "古代都市の地図"
+      "zh_cn": "远古城市地图"
     },
     "item.minecraft.black_cushion": {
       "en_us": "Black Cushion",
-      "zh_cn": "黑色坐垫",
-      "zh_tw": "黑色坐墊",
-      "zh_hk": "黑色咕臣",
-      "ja_jp": "黒色のクッション"
+      "zh_cn": "黑色坐垫"
     },
     "item.minecraft.blue_cushion": {
       "en_us": "Blue Cushion",
-      "zh_cn": "蓝色坐垫",
-      "zh_tw": "藍色坐墊",
-      "zh_hk": "藍色咕臣",
-      "ja_jp": "青色のクッション"
+      "zh_cn": "蓝色坐垫"
     },
     "item.minecraft.brown_cushion": {
       "en_us": "Brown Cushion",
-      "zh_cn": "棕色坐垫",
-      "zh_tw": "棕色坐墊",
-      "zh_hk": "啡色咕臣",
-      "ja_jp": "茶色のクッション"
+      "zh_cn": "棕色坐垫"
     },
     "item.minecraft.buried_ancient_city_map": {
       "en_us": "Buried Ancient City Map",
-      "zh_cn": "埋藏的远古城市地图",
-      "zh_tw": "掩埋的遠古城市地圖",
-      "zh_hk": "埋藏的遠古城市地圖",
-      "ja_jp": "埋もれた古代都市の地図"
+      "zh_cn": "埋藏的远古城市地图"
     },
     "item.minecraft.buried_mineshaft_map": {
       "en_us": "Buried Mineshaft Map",
-      "zh_cn": "埋藏的废弃矿井地图",
-      "zh_tw": "掩埋的礦坑地圖",
-      "zh_hk": "埋藏的礦坑地圖",
-      "ja_jp": "埋もれた廃坑の地図"
+      "zh_cn": "埋藏的废弃矿井地图"
     },
     "item.minecraft.buried_treasure_map": {
       "en_us": "Buried Treasure Map",
-      "zh_cn": "藏宝图",
-      "zh_tw": "掩埋的寶藏地圖",
-      "zh_hk": "藏寶圖",
-      "ja_jp": "埋もれた宝の地図"
+      "zh_cn": "藏宝图"
     },
     "item.minecraft.buried_trial_chambers_map": {
       "en_us": "Buried Trial Chambers Map",
-      "zh_cn": "埋藏的试炼密室地图",
-      "zh_tw": "掩埋的試煉密室地圖",
-      "zh_hk": "埋藏的試煉密室地圖",
-      "ja_jp": "埋もれた試練の間の地図"
+      "zh_cn": "埋藏的试炼密室地图"
     },
     "item.minecraft.cyan_cushion": {
       "en_us": "Cyan Cushion",
-      "zh_cn": "青色坐垫",
-      "zh_tw": "青色坐墊",
-      "zh_hk": "青藍色咕臣",
-      "ja_jp": "青緑色のクッション"
+      "zh_cn": "青色坐垫"
     },
     "item.minecraft.desert_pyramid_map": {
       "en_us": "Desert Pyramid Map",
-      "zh_cn": "沙漠神殿地图",
-      "zh_tw": "沙漠神殿地圖",
-      "zh_hk": "沙漠神殿地圖",
-      "ja_jp": "砂漠の寺院の地図"
+      "zh_cn": "沙漠神殿地图"
     },
     "item.minecraft.desert_village_map": {
       "en_us": "Desert Village Map",
-      "zh_cn": "沙漠村庄地图",
-      "zh_tw": "沙漠村莊地圖",
-      "zh_hk": "沙漠村莊地圖",
-      "ja_jp": "砂漠の村の地図"
+      "zh_cn": "沙漠村庄地图"
     },
     "item.minecraft.firework_rocket.flight_duration": {
       "en_us": "Flight Duration: %s",
-      "zh_cn": "飞行时间：%s",
-      "zh_tw": "飛行時間：%s",
-      "zh_hk": "飛行時間：%s",
-      "ja_jp": "飛翔時間：%s"
+      "zh_cn": "飞行时间：%s"
     },
     "item.minecraft.gray_cushion": {
       "en_us": "Gray Cushion",
-      "zh_cn": "灰色坐垫",
-      "zh_tw": "灰色坐墊",
-      "zh_hk": "灰色咕臣",
-      "ja_jp": "灰色のクッション"
+      "zh_cn": "灰色坐垫"
     },
     "item.minecraft.green_cushion": {
       "en_us": "Green Cushion",
-      "zh_cn": "绿色坐垫",
-      "zh_tw": "綠色坐墊",
-      "zh_hk": "綠色咕臣",
-      "ja_jp": "緑色のクッション"
+      "zh_cn": "绿色坐垫"
     },
     "item.minecraft.jungle_explorer_map": {
       "en_us": "Jungle Explorer Map",
-      "zh_cn": "丛林探险家地图",
-      "zh_tw": "叢林探險家地圖",
-      "zh_hk": "叢林探險家地圖",
-      "ja_jp": "ジャングル探検家の地図"
+      "zh_cn": "丛林探险家地图"
     },
     "item.minecraft.jungle_pyramid_map": {
       "en_us": "Jungle Pyramid Map",
-      "zh_cn": "丛林神庙地图",
-      "zh_tw": "叢林遺跡地圖",
-      "zh_hk": "叢林神廟地圖",
-      "ja_jp": "ジャングルの寺院の地図"
+      "zh_cn": "丛林神庙地图"
     },
     "item.minecraft.light_blue_cushion": {
       "en_us": "Light Blue Cushion",
-      "zh_cn": "淡蓝色坐垫",
-      "zh_tw": "淺藍色坐墊",
-      "zh_hk": "淺藍色咕臣",
-      "ja_jp": "空色のクッション"
+      "zh_cn": "淡蓝色坐垫"
     },
     "item.minecraft.light_gray_cushion": {
       "en_us": "Light Gray Cushion",
-      "zh_cn": "淡灰色坐垫",
-      "zh_tw": "淺灰色坐墊",
-      "zh_hk": "淺灰色咕臣",
-      "ja_jp": "薄灰色のクッション"
+      "zh_cn": "淡灰色坐垫"
     },
     "item.minecraft.lime_cushion": {
       "en_us": "Lime Cushion",
-      "zh_cn": "黄绿色坐垫",
-      "zh_tw": "淺綠色坐墊",
-      "zh_hk": "淺綠色咕臣",
-      "ja_jp": "黄緑色のクッション"
+      "zh_cn": "黄绿色坐垫"
     },
     "item.minecraft.magenta_cushion": {
       "en_us": "Magenta Cushion",
-      "zh_cn": "品红色坐垫",
-      "zh_tw": "洋紅色坐墊",
-      "zh_hk": "紫紅色咕臣",
-      "ja_jp": "赤紫色のクッション"
+      "zh_cn": "品红色坐垫"
     },
     "item.minecraft.mineshaft_map": {
       "en_us": "Mineshaft Map",
-      "zh_cn": "废弃矿井地图",
-      "zh_tw": "礦坑地圖",
-      "zh_hk": "礦坑地圖",
-      "ja_jp": "廃坑の地図"
+      "zh_cn": "废弃矿井地图"
     },
     "item.minecraft.ocean_explorer_map": {
       "en_us": "Ocean Explorer Map",
-      "zh_cn": "海洋探险家地图",
-      "zh_tw": "海洋探險家地圖",
-      "zh_hk": "海洋探險家地圖",
-      "ja_jp": "海洋探検家の地図"
+      "zh_cn": "海洋探险家地图"
     },
     "item.minecraft.ocean_monument_map": {
       "en_us": "Ocean Monument Map",
-      "zh_cn": "海底神殿地图",
-      "zh_tw": "海底遺跡地圖",
-      "zh_hk": "海底遺跡地圖",
-      "ja_jp": "海底神殿の地図"
+      "zh_cn": "海底神殿地图"
     },
     "item.minecraft.orange_cushion": {
       "en_us": "Orange Cushion",
-      "zh_cn": "橙色坐垫",
-      "zh_tw": "橙色坐墊",
-      "zh_hk": "橙色咕臣",
-      "ja_jp": "橙色のクッション"
+      "zh_cn": "橙色坐垫"
     },
     "item.minecraft.pink_cushion": {
       "en_us": "Pink Cushion",
-      "zh_cn": "粉红色坐垫",
-      "zh_tw": "粉紅色坐墊",
-      "zh_hk": "粉紅色咕臣",
-      "ja_jp": "桃色のクッション"
+      "zh_cn": "粉红色坐垫"
     },
     "item.minecraft.plains_village_map": {
       "en_us": "Plains Village Map",
-      "zh_cn": "平原村庄地图",
-      "zh_tw": "平原村莊地圖",
-      "zh_hk": "平原村莊地圖",
-      "ja_jp": "平原の村の地図"
+      "zh_cn": "平原村庄地图"
     },
     "item.minecraft.poplar_boat": {
       "en_us": "Poplar Boat",
-      "zh_cn": "杨木船",
-      "zh_tw": "楊木船",
-      "zh_hk": "楊木船",
-      "ja_jp": "ポプラのボート"
+      "zh_cn": "杨木船"
     },
     "item.minecraft.poplar_chest_boat": {
       "en_us": "Poplar Boat with Chest",
-      "zh_cn": "杨木运输船",
-      "zh_tw": "儲物箱楊木船",
-      "zh_hk": "儲物箱楊木船",
-      "ja_jp": "チェスト付きのポプラのボート"
+      "zh_cn": "杨木运输船"
     },
     "item.minecraft.purple_cushion": {
       "en_us": "Purple Cushion",
-      "zh_cn": "紫色坐垫",
-      "zh_tw": "紫色坐墊",
-      "zh_hk": "紫色咕臣",
-      "ja_jp": "紫色のクッション"
+      "zh_cn": "紫色坐垫"
     },
     "item.minecraft.red_cushion": {
       "en_us": "Red Cushion",
-      "zh_cn": "红色坐垫",
-      "zh_tw": "紅色坐墊",
-      "zh_hk": "紅色咕臣",
-      "ja_jp": "赤色のクッション"
+      "zh_cn": "红色坐垫"
     },
     "item.minecraft.savanna_village_map": {
       "en_us": "Savanna Village Map",
-      "zh_cn": "热带草原村庄地图",
-      "zh_tw": "莽原村莊地圖",
-      "zh_hk": "熱帶稀樹草原村莊地圖",
-      "ja_jp": "サバンナの村の地図"
+      "zh_cn": "热带草原村庄地图"
     },
     "item.minecraft.snowy_village_map": {
       "en_us": "Snowy Village Map",
-      "zh_cn": "雪原村庄地图",
-      "zh_tw": "雪原村莊地圖",
-      "zh_hk": "雪原村莊地圖",
-      "ja_jp": "雪原の村の地図"
+      "zh_cn": "雪原村庄地图"
     },
     "item.minecraft.straw_bed": {
       "en_us": "Straw Bed",
-      "zh_cn": "麦秆床",
-      "zh_tw": "乾草床",
-      "zh_hk": "禾稈牀",
-      "ja_jp": "藁のベッド"
+      "zh_cn": "麦秆床"
     },
     "item.minecraft.swamp_explorer_map": {
       "en_us": "Swamp Explorer Map",
-      "zh_cn": "沼泽探险家地图",
-      "zh_tw": "沼澤探險家地圖",
-      "zh_hk": "沼澤地探險家地圖",
-      "ja_jp": "沼地探検家の地図"
+      "zh_cn": "沼泽探险家地图"
     },
     "item.minecraft.swamp_hut_map": {
       "en_us": "Swamp Hut Map",
-      "zh_cn": "沼泽小屋地图",
-      "zh_tw": "沼澤小屋地圖",
-      "zh_hk": "沼澤地小屋地圖",
-      "ja_jp": "沼地の小屋の地図"
+      "zh_cn": "沼泽小屋地图"
     },
     "item.minecraft.taiga_village_map": {
       "en_us": "Taiga Village Map",
-      "zh_cn": "针叶林村庄地图",
-      "zh_tw": "針葉林村莊地圖",
-      "zh_hk": "針葉林村莊地圖",
-      "ja_jp": "タイガの村の地図"
+      "zh_cn": "针叶林村庄地图"
     },
     "item.minecraft.trial_explorer_map": {
       "en_us": "Trial Explorer Map",
-      "zh_cn": "试炼探险家地图",
-      "zh_tw": "試煉探險家地圖",
-      "zh_hk": "試煉探險家地圖",
-      "ja_jp": "試練の間の地図"
+      "zh_cn": "试炼探险家地图"
     },
     "item.minecraft.warm_ocean_ruins_map": {
       "en_us": "Warm Ocean Ruins Map",
-      "zh_cn": "暖水海底废墟地图",
-      "zh_tw": "溫暖海底廢墟地圖",
-      "zh_hk": "温暖海底廢墟地圖",
-      "ja_jp": "暖かい海底遺跡の地図"
+      "zh_cn": "暖水海底废墟地图"
     },
     "item.minecraft.white_cushion": {
       "en_us": "White Cushion",
-      "zh_cn": "白色坐垫",
-      "zh_tw": "白色坐墊",
-      "zh_hk": "白色咕臣",
-      "ja_jp": "白色のクッション"
+      "zh_cn": "白色坐垫"
     },
     "item.minecraft.woodland_explorer_map": {
       "en_us": "Woodland Explorer Map",
-      "zh_cn": "林地探险家地图",
-      "zh_tw": "林地探險家地圖",
-      "zh_hk": "林地探險家地圖",
-      "ja_jp": "森林探検家の地図"
+      "zh_cn": "林地探险家地图"
     },
     "item.minecraft.woodland_mansion_map": {
       "en_us": "Woodland Mansion Map",
-      "zh_cn": "林地府邸地图",
-      "zh_tw": "綠林府邸地圖",
-      "zh_hk": "林間別墅地圖",
-      "ja_jp": "森の洋館の地図"
+      "zh_cn": "林地府邸地图"
     },
     "item.minecraft.yellow_cushion": {
       "en_us": "Yellow Cushion",
-      "zh_cn": "黄色坐垫",
-      "zh_tw": "黃色坐墊",
-      "zh_hk": "黃色咕臣",
-      "ja_jp": "黄色のクッション"
+      "zh_cn": "黄色坐垫"
     },
     "key.debug.improvedTransparency": {
       "en_us": "Toggle Improved Transparency",
-      "zh_cn": "切换改进透明显示",
-      "zh_tw": "切換改善透明顯示",
-      "zh_hk": "切換改進透明顯示",
-      "ja_jp": "透過物描画の改良の切り替え"
+      "zh_cn": "切换改进透明显示"
     },
     "key.keyboard.ac.back": {
       "en_us": "AC Back",
-      "zh_cn": "AC 后退",
-      "zh_tw": "AC 後退",
-      "zh_hk": "程式控制 後退",
-      "ja_jp": "AC 戻る"
+      "zh_cn": "AC 后退"
     },
     "key.keyboard.ac.bookmarks": {
       "en_us": "AC Favorites",
-      "zh_cn": "AC 收藏夹",
-      "zh_tw": "AC 書籤",
-      "zh_hk": "程式控制 我的最愛",
-      "ja_jp": "AC ブックマーク"
+      "zh_cn": "AC 收藏夹"
     },
     "key.keyboard.ac.close": {
       "en_us": "AC Close",
-      "zh_cn": "AC 关闭",
-      "zh_tw": "AC 關閉",
-      "zh_hk": "程式控制 關閉",
-      "ja_jp": "AC 閉じる"
+      "zh_cn": "AC 关闭"
     },
     "key.keyboard.ac.exit": {
       "en_us": "AC Exit",
-      "zh_cn": "AC 退出",
-      "zh_tw": "AC 離開",
-      "zh_hk": "程式控制 結束",
-      "ja_jp": "AC 終了"
+      "zh_cn": "AC 退出"
     },
     "key.keyboard.ac.forward": {
       "en_us": "AC Forward",
-      "zh_cn": "AC 前进",
-      "zh_tw": "AC 前進",
-      "zh_hk": "程式控制 前進",
-      "ja_jp": "AC 進む"
+      "zh_cn": "AC 前进"
     },
     "key.keyboard.ac.home": {
       "en_us": "AC Home",
-      "zh_cn": "AC 主页",
-      "zh_tw": "AC 首頁",
-      "zh_hk": "程式控制 首頁",
-      "ja_jp": "AC ホーム"
+      "zh_cn": "AC 主页"
     },
     "key.keyboard.ac.new": {
       "en_us": "AC New",
-      "zh_cn": "AC 新建",
-      "zh_tw": "AC 新增",
-      "zh_hk": "程式控制 新增",
-      "ja_jp": "AC 新規"
+      "zh_cn": "AC 新建"
     },
     "key.keyboard.ac.open": {
       "en_us": "AC Open",
-      "zh_cn": "AC 打开",
-      "zh_tw": "AC 開啟",
-      "zh_hk": "程式控制 打開",
-      "ja_jp": "AC 開く"
+      "zh_cn": "AC 打开"
     },
     "key.keyboard.ac.print": {
       "en_us": "AC Print",
-      "zh_cn": "AC 打印",
-      "zh_tw": "AC 列印",
-      "zh_hk": "程式控制 列印",
-      "ja_jp": "AC 印刷"
+      "zh_cn": "AC 打印"
     },
     "key.keyboard.ac.properties": {
       "en_us": "AC Properties",
-      "zh_cn": "AC 属性",
-      "zh_tw": "AC 屬性",
-      "zh_hk": "程式控制 屬性",
-      "ja_jp": "AC プロパティ"
+      "zh_cn": "AC 属性"
     },
     "key.keyboard.ac.refresh": {
       "en_us": "AC Refresh",
-      "zh_cn": "AC 刷新",
-      "zh_tw": "AC 重新整理",
-      "zh_hk": "程式控制 重新整理",
-      "ja_jp": "AC 更新"
+      "zh_cn": "AC 刷新"
     },
     "key.keyboard.ac.save": {
       "en_us": "AC Save",
-      "zh_cn": "AC 保存",
-      "zh_tw": "AC 儲存",
-      "zh_hk": "程式控制 儲存",
-      "ja_jp": "AC 保存"
+      "zh_cn": "AC 保存"
     },
     "key.keyboard.ac.search": {
       "en_us": "AC Search",
-      "zh_cn": "AC 搜索",
-      "zh_tw": "AC 搜尋",
-      "zh_hk": "程式控制 搜尋",
-      "ja_jp": "AC 検索"
+      "zh_cn": "AC 搜索"
     },
     "key.keyboard.ac.stop": {
       "en_us": "AC Stop",
-      "zh_cn": "AC 停止",
-      "zh_tw": "AC 停止",
-      "zh_hk": "程式控制 停止",
-      "ja_jp": "AC 停止"
+      "zh_cn": "AC 停止"
     },
     "key.keyboard.again": {
       "en_us": "Again",
-      "zh_cn": "Again",
-      "zh_tw": "Again",
-      "zh_hk": "Again",
-      "ja_jp": "繰り返し"
+      "zh_cn": "Again"
     },
     "key.keyboard.alternate.erase": {
       "en_us": "Alternate Erase",
-      "zh_cn": "Alternate Erase",
-      "zh_tw": "Alternate Erase",
-      "zh_hk": "Alternate Erase",
-      "ja_jp": "代替消去"
+      "zh_cn": "Alternate Erase"
     },
     "key.keyboard.application": {
       "en_us": "Application",
-      "zh_cn": "应用程序",
-      "zh_tw": "應用程式鍵",
-      "zh_hk": "應用程式",
-      "ja_jp": "メニュー"
+      "zh_cn": "应用程序"
     },
     "key.keyboard.call": {
       "en_us": "Call",
-      "zh_cn": "接听",
-      "zh_tw": "通話",
-      "zh_hk": "開始通話",
-      "ja_jp": "通話"
+      "zh_cn": "接听"
     },
     "key.keyboard.cancel": {
       "en_us": "Cancel",
-      "zh_cn": "取消",
-      "zh_tw": "取消",
-      "zh_hk": "取消",
-      "ja_jp": "キャンセル"
+      "zh_cn": "取消"
     },
     "key.keyboard.channel.down": {
       "en_us": "Channel Down",
-      "zh_cn": "上一频道",
-      "zh_tw": "頻道－",
-      "zh_hk": "上一頻道",
-      "ja_jp": "チャンネル-"
+      "zh_cn": "上一频道"
     },
     "key.keyboard.channel.up": {
       "en_us": "Channel Up",
-      "zh_cn": "下一频道",
-      "zh_tw": "頻道＋",
-      "zh_hk": "下一頻道",
-      "ja_jp": "チャンネル+"
+      "zh_cn": "下一频道"
     },
     "key.keyboard.clear": {
       "en_us": "Clear",
-      "zh_cn": "清除",
-      "zh_tw": "清除",
-      "zh_hk": "清除",
-      "ja_jp": "クリア"
+      "zh_cn": "清除"
     },
     "key.keyboard.clear.again": {
       "en_us": "Clear Again",
-      "zh_cn": "再次清除",
-      "zh_tw": "再次清除",
-      "zh_hk": "再次清除",
-      "ja_jp": "再度クリア"
+      "zh_cn": "再次清除"
     },
     "key.keyboard.copy": {
       "en_us": "Copy",
-      "zh_cn": "Copy",
-      "zh_tw": "Copy",
-      "zh_hk": "Copy",
-      "ja_jp": "コピー"
+      "zh_cn": "Copy"
     },
     "key.keyboard.crsel": {
       "en_us": "CrSel",
-      "zh_cn": "CrSel",
-      "zh_tw": "CrSel",
-      "zh_hk": "CrSel",
-      "ja_jp": "CrSel"
+      "zh_cn": "CrSel"
     },
     "key.keyboard.currency.subunit": {
       "en_us": "Currency Subunit",
-      "zh_cn": "货币辅单位",
-      "zh_tw": "輔幣單位",
-      "zh_hk": "貨幣輔助單位",
-      "ja_jp": "通貨の補助単位"
+      "zh_cn": "货币辅单位"
     },
     "key.keyboard.currency.unit": {
       "en_us": "Currency Unit",
-      "zh_cn": "货币单位",
-      "zh_tw": "貨幣單位",
-      "zh_hk": "貨幣單位",
-      "ja_jp": "通貨の単位"
+      "zh_cn": "货币单位"
     },
     "key.keyboard.cut": {
       "en_us": "Cut",
-      "zh_cn": "Cut",
-      "zh_tw": "Cut",
-      "zh_hk": "Cut",
-      "ja_jp": "切り取り"
+      "zh_cn": "Cut"
     },
     "key.keyboard.decimal.separator": {
       "en_us": "Decimal Separator",
-      "zh_cn": "小数分隔符",
-      "zh_tw": "小數分隔符",
-      "zh_hk": "小數分隔符",
-      "ja_jp": "小数点"
+      "zh_cn": "小数分隔符"
     },
     "key.keyboard.end.call": {
       "en_us": "End Call",
-      "zh_cn": "挂断",
-      "zh_tw": "結束通話",
-      "zh_hk": "結束通話",
-      "ja_jp": "通話を切る"
+      "zh_cn": "挂断"
     },
     "key.keyboard.enter2": {
       "en_us": "Enter 2",
-      "zh_cn": "Enter 2",
-      "zh_tw": "Enter 2",
-      "zh_hk": "Enter 2",
-      "ja_jp": "Enter 2"
+      "zh_cn": "Enter 2"
     },
     "key.keyboard.execute": {
       "en_us": "Execute",
-      "zh_cn": "执行",
-      "zh_tw": "執行",
-      "zh_hk": "執行",
-      "ja_jp": "実行"
+      "zh_cn": "执行"
     },
     "key.keyboard.exsel": {
       "en_us": "ExSel",
-      "zh_cn": "ExSel",
-      "zh_tw": "ExSel",
-      "zh_hk": "ExSel",
-      "ja_jp": "ExSel"
+      "zh_cn": "ExSel"
     },
     "key.keyboard.find": {
       "en_us": "Find",
-      "zh_cn": "Find",
-      "zh_tw": "Find",
-      "zh_hk": "Find",
-      "ja_jp": "検索"
+      "zh_cn": "Find"
     },
     "key.keyboard.help": {
       "en_us": "Help",
-      "zh_cn": "Help",
-      "zh_tw": "Help",
-      "zh_hk": "Help",
-      "ja_jp": "ヘルプ"
+      "zh_cn": "Help"
     },
     "key.keyboard.international1": {
       "en_us": "International 1",
-      "zh_cn": "国际键 1",
-      "zh_tw": "國際鍵 1",
-      "zh_hk": "國際鍵 1",
-      "ja_jp": "ろ"
+      "zh_cn": "国际键 1"
     },
     "key.keyboard.international2": {
       "en_us": "International 2",
-      "zh_cn": "国际键 2",
-      "zh_tw": "國際鍵 2",
-      "zh_hk": "國際鍵 2",
-      "ja_jp": "カタカナ / ひらがな"
+      "zh_cn": "国际键 2"
     },
     "key.keyboard.international3": {
       "en_us": "International 3",
-      "zh_cn": "国际键 3",
-      "zh_tw": "國際鍵 3",
-      "zh_hk": "國際鍵 3",
-      "ja_jp": "￥"
+      "zh_cn": "国际键 3"
     },
     "key.keyboard.international4": {
       "en_us": "International 4",
-      "zh_cn": "国际键 4",
-      "zh_tw": "國際鍵 4",
-      "zh_hk": "國際鍵 4",
-      "ja_jp": "変換"
+      "zh_cn": "国际键 4"
     },
     "key.keyboard.international5": {
       "en_us": "International 5",
-      "zh_cn": "国际键 5",
-      "zh_tw": "國際鍵 5",
-      "zh_hk": "國際鍵 5",
-      "ja_jp": "無変換"
+      "zh_cn": "国际键 5"
     },
     "key.keyboard.international6": {
       "en_us": "International 6",
-      "zh_cn": "国际键 6",
-      "zh_tw": "國際鍵 6",
-      "zh_hk": "國際鍵 6",
-      "ja_jp": "キーパッド ,"
+      "zh_cn": "国际键 6"
     },
     "key.keyboard.international7": {
       "en_us": "International 7",
-      "zh_cn": "国际键 7",
-      "zh_tw": "國際鍵 7",
-      "zh_hk": "國際鍵 7",
-      "ja_jp": "国際配列7"
+      "zh_cn": "国际键 7"
     },
     "key.keyboard.international8": {
       "en_us": "International 8",
-      "zh_cn": "国际键 8",
-      "zh_tw": "國際鍵 8",
-      "zh_hk": "國際鍵 8",
-      "ja_jp": "国際配列8"
+      "zh_cn": "国际键 8"
     },
     "key.keyboard.international9": {
       "en_us": "International 9",
-      "zh_cn": "国际键 9",
-      "zh_tw": "國際鍵 9",
-      "zh_hk": "國際鍵 9",
-      "ja_jp": "国際配列9"
+      "zh_cn": "国际键 9"
     },
     "key.keyboard.keypad.00": {
       "en_us": "Keypad 00",
-      "zh_cn": "小键盘 00",
-      "zh_tw": "數字鍵 00",
-      "zh_hk": "數字鍵 00",
-      "ja_jp": "キーパッド 00"
+      "zh_cn": "小键盘 00"
     },
     "key.keyboard.keypad.000": {
       "en_us": "Keypad 000",
-      "zh_cn": "小键盘 000",
-      "zh_tw": "數字鍵 000",
-      "zh_hk": "數字鍵 000",
-      "ja_jp": "キーパッド 000"
+      "zh_cn": "小键盘 000"
     },
     "key.keyboard.keypad.a": {
       "en_us": "Keypad A",
-      "zh_cn": "小键盘 A",
-      "zh_tw": "數字鍵 A",
-      "zh_hk": "數字鍵 A",
-      "ja_jp": "キーパッド A"
+      "zh_cn": "小键盘 A"
     },
     "key.keyboard.keypad.ampersand": {
       "en_us": "Keypad &",
-      "zh_cn": "小键盘 &",
-      "zh_tw": "數字鍵 &",
-      "zh_hk": "數字鍵 &",
-      "ja_jp": "キーパッド &"
+      "zh_cn": "小键盘 &"
     },
     "key.keyboard.keypad.at": {
       "en_us": "Keypad @",
-      "zh_cn": "小键盘 @",
-      "zh_tw": "數字鍵 @",
-      "zh_hk": "數字鍵 @",
-      "ja_jp": "キーパッド @"
+      "zh_cn": "小键盘 @"
     },
     "key.keyboard.keypad.b": {
       "en_us": "Keypad B",
-      "zh_cn": "小键盘 B",
-      "zh_tw": "數字鍵 B",
-      "zh_hk": "數字鍵 B",
-      "ja_jp": "キーパッド B"
+      "zh_cn": "小键盘 B"
     },
     "key.keyboard.keypad.backspace": {
       "en_us": "Keypad Backspace",
-      "zh_cn": "小键盘 Backspace",
-      "zh_tw": "數字鍵 Backspace",
-      "zh_hk": "數字鍵 Backspace",
-      "ja_jp": "キーパッド Backspace"
+      "zh_cn": "小键盘 Backspace"
     },
     "key.keyboard.keypad.binary": {
       "en_us": "Keypad Binary",
-      "zh_cn": "小键盘 二进制",
-      "zh_tw": "數字鍵 二進位",
-      "zh_hk": "數字鍵 二進制",
-      "ja_jp": "キーパッド 2進数"
+      "zh_cn": "小键盘 二进制"
     },
     "key.keyboard.keypad.c": {
       "en_us": "Keypad C",
-      "zh_cn": "小键盘 C",
-      "zh_tw": "數字鍵 C",
-      "zh_hk": "數字鍵 C",
-      "ja_jp": "キーパッド C"
+      "zh_cn": "小键盘 C"
     },
     "key.keyboard.keypad.clear": {
       "en_us": "Keypad Clear",
-      "zh_cn": "小键盘 清除",
-      "zh_tw": "數字鍵 清除",
-      "zh_hk": "數字鍵 清除",
-      "ja_jp": "キーパッド クリア"
+      "zh_cn": "小键盘 清除"
     },
     "key.keyboard.keypad.clear.entry": {
       "en_us": "Keypad Clear Entry",
-      "zh_cn": "小键盘 清除输入",
-      "zh_tw": "數字鍵 清除輸入",
-      "zh_hk": "數字鍵 清除輸入",
-      "ja_jp": "キーパッド 候補をクリア"
+      "zh_cn": "小键盘 清除输入"
     },
     "key.keyboard.keypad.colon": {
       "en_us": "Keypad :",
-      "zh_cn": "小键盘 :",
-      "zh_tw": "數字鍵 :",
-      "zh_hk": "數字鍵 :",
-      "ja_jp": "キーパッド :"
+      "zh_cn": "小键盘 :"
     },
     "key.keyboard.keypad.comma": {
       "en_us": "Keypad ,",
-      "zh_cn": "小键盘 ,",
-      "zh_tw": "數字鍵 ,",
-      "zh_hk": "數字鍵 ,",
-      "ja_jp": "キーパッド ,"
+      "zh_cn": "小键盘 ,"
     },
     "key.keyboard.keypad.d": {
       "en_us": "Keypad D",
-      "zh_cn": "小键盘 D",
-      "zh_tw": "數字鍵 D",
-      "zh_hk": "數字鍵 D",
-      "ja_jp": "キーパッド D"
+      "zh_cn": "小键盘 D"
     },
     "key.keyboard.keypad.double.ampersand": {
       "en_us": "Keypad &&",
-      "zh_cn": "小键盘 &&",
-      "zh_tw": "數字鍵 &&",
-      "zh_hk": "數字鍵 &&",
-      "ja_jp": "キーパッド &&"
+      "zh_cn": "小键盘 &&"
     },
     "key.keyboard.keypad.double.vertical.bar": {
       "en_us": "Keypad ||",
-      "zh_cn": "小键盘 ||",
-      "zh_tw": "數字鍵 ||",
-      "zh_hk": "數字鍵 ||",
-      "ja_jp": "キーパッド ||"
+      "zh_cn": "小键盘 ||"
     },
     "key.keyboard.keypad.e": {
       "en_us": "Keypad E",
-      "zh_cn": "小键盘 E",
-      "zh_tw": "數字鍵 E",
-      "zh_hk": "數字鍵 E",
-      "ja_jp": "キーパッド E"
+      "zh_cn": "小键盘 E"
     },
     "key.keyboard.keypad.equals.as400": {
       "en_us": "Keypad = (AS400)",
-      "zh_cn": "小键盘 =（AS400）",
-      "zh_tw": "數字鍵 = (AS400)",
-      "zh_hk": "數字鍵 = (AS400)",
-      "ja_jp": "キーパッド = (AS400)"
+      "zh_cn": "小键盘 =（AS400）"
     },
     "key.keyboard.keypad.exclamation": {
       "en_us": "Keypad !",
-      "zh_cn": "小键盘 !",
-      "zh_tw": "數字鍵 !",
-      "zh_hk": "數字鍵 !",
-      "ja_jp": "キーパッド !"
+      "zh_cn": "小键盘 !"
     },
     "key.keyboard.keypad.f": {
       "en_us": "Keypad F",
-      "zh_cn": "小键盘 F",
-      "zh_tw": "數字鍵 F",
-      "zh_hk": "數字鍵 F",
-      "ja_jp": "キーパッド F"
+      "zh_cn": "小键盘 F"
     },
     "key.keyboard.keypad.greater": {
       "en_us": "Keypad >",
-      "zh_cn": "小键盘 >",
-      "zh_tw": "數字鍵 >",
-      "zh_hk": "數字鍵 >",
-      "ja_jp": "キーパッド >"
+      "zh_cn": "小键盘 >"
     },
     "key.keyboard.keypad.hash": {
       "en_us": "Keypad #",
-      "zh_cn": "小键盘 #",
-      "zh_tw": "數字鍵 #",
-      "zh_hk": "數字鍵 #",
-      "ja_jp": "キーパッド #"
+      "zh_cn": "小键盘 #"
     },
     "key.keyboard.keypad.hexadecimal": {
       "en_us": "Keypad Hexadecimal",
-      "zh_cn": "小键盘 十六进制",
-      "zh_tw": "數字鍵 十六進位",
-      "zh_hk": "數字鍵 十六進制",
-      "ja_jp": "キーパッド 16進数"
+      "zh_cn": "小键盘 十六进制"
     },
     "key.keyboard.keypad.left.brace": {
       "en_us": "Keypad {",
-      "zh_cn": "小键盘 {",
-      "zh_tw": "數字鍵 {",
-      "zh_hk": "數字鍵 {",
-      "ja_jp": "キーパッド {"
+      "zh_cn": "小键盘 {"
     },
     "key.keyboard.keypad.left.parenthesis": {
       "en_us": "Keypad (",
-      "zh_cn": "小键盘 (",
-      "zh_tw": "數字鍵 (",
-      "zh_hk": "數字鍵 (",
-      "ja_jp": "キーパッド ("
+      "zh_cn": "小键盘 ("
     },
     "key.keyboard.keypad.less": {
       "en_us": "Keypad <",
-      "zh_cn": "小键盘 <",
-      "zh_tw": "數字鍵 <",
-      "zh_hk": "數字鍵 <",
-      "ja_jp": "キーパッド <"
+      "zh_cn": "小键盘 <"
     },
     "key.keyboard.keypad.memory.add": {
       "en_us": "Keypad M+",
-      "zh_cn": "小键盘 M+",
-      "zh_tw": "數字鍵 M+",
-      "zh_hk": "數字鍵 M+",
-      "ja_jp": "キーパッド M+"
+      "zh_cn": "小键盘 M+"
     },
     "key.keyboard.keypad.memory.clear": {
       "en_us": "Keypad MC",
-      "zh_cn": "小键盘 MC",
-      "zh_tw": "數字鍵 MC",
-      "zh_hk": "數字鍵 MC",
-      "ja_jp": "キーパッド MC"
+      "zh_cn": "小键盘 MC"
     },
     "key.keyboard.keypad.memory.divide": {
       "en_us": "Keypad M/",
-      "zh_cn": "小键盘 M/",
-      "zh_tw": "數字鍵 M/",
-      "zh_hk": "數字鍵 M/",
-      "ja_jp": "キーパッド M/"
+      "zh_cn": "小键盘 M/"
     },
     "key.keyboard.keypad.memory.multiply": {
       "en_us": "Keypad M*",
-      "zh_cn": "小键盘 M*",
-      "zh_tw": "數字鍵 M*",
-      "zh_hk": "數字鍵 M*",
-      "ja_jp": "キーパッド M*"
+      "zh_cn": "小键盘 M*"
     },
     "key.keyboard.keypad.memory.recall": {
       "en_us": "Keypad MR",
-      "zh_cn": "小键盘 MR",
-      "zh_tw": "數字鍵 MR",
-      "zh_hk": "數字鍵 MR",
-      "ja_jp": "キーパッド MR"
+      "zh_cn": "小键盘 MR"
     },
     "key.keyboard.keypad.memory.store": {
       "en_us": "Keypad MS",
-      "zh_cn": "小键盘 MS",
-      "zh_tw": "數字鍵 MS",
-      "zh_hk": "數字鍵 MS",
-      "ja_jp": "キーパッド MS"
+      "zh_cn": "小键盘 MS"
     },
     "key.keyboard.keypad.memory.subtract": {
       "en_us": "Keypad M-",
-      "zh_cn": "小键盘 M-",
-      "zh_tw": "數字鍵 M-",
-      "zh_hk": "數字鍵 M-",
-      "ja_jp": "キーパッド M-"
+      "zh_cn": "小键盘 M-"
     },
     "key.keyboard.keypad.octal": {
       "en_us": "Keypad Octal",
-      "zh_cn": "小键盘 八进制",
-      "zh_tw": "數字鍵 八進位",
-      "zh_hk": "數字鍵 八進制",
-      "ja_jp": "キーパッド 8進数"
+      "zh_cn": "小键盘 八进制"
     },
     "key.keyboard.keypad.percent": {
       "en_us": "Keypad %",
-      "zh_cn": "小键盘 %",
-      "zh_tw": "數字鍵 %",
-      "zh_hk": "數字鍵 %",
-      "ja_jp": "キーパッド %"
+      "zh_cn": "小键盘 %"
     },
     "key.keyboard.keypad.period": {
       "en_us": "Keypad .",
-      "zh_cn": "小键盘 .",
-      "zh_tw": "數字鍵 .",
-      "zh_hk": "數字鍵 .",
-      "ja_jp": "キーパッド ."
+      "zh_cn": "小键盘 ."
     },
     "key.keyboard.keypad.plus.minus": {
       "en_us": "Keypad ±",
-      "zh_cn": "小键盘 ±",
-      "zh_tw": "數字鍵 ±",
-      "zh_hk": "數字鍵 ±",
-      "ja_jp": "キーパッド ±"
+      "zh_cn": "小键盘 ±"
     },
     "key.keyboard.keypad.power": {
       "en_us": "Keypad ^",
-      "zh_cn": "小键盘 ^",
-      "zh_tw": "數字鍵 ^",
-      "zh_hk": "數字鍵 ^",
-      "ja_jp": "キーパッド ^"
+      "zh_cn": "小键盘 ^"
     },
     "key.keyboard.keypad.right.brace": {
       "en_us": "Keypad }",
-      "zh_cn": "小键盘 }",
-      "zh_tw": "數字鍵 }",
-      "zh_hk": "數字鍵 }",
-      "ja_jp": "キーパッド }"
+      "zh_cn": "小键盘 }"
     },
     "key.keyboard.keypad.right.parenthesis": {
       "en_us": "Keypad )",
-      "zh_cn": "小键盘 )",
-      "zh_tw": "數字鍵 )",
-      "zh_hk": "數字鍵 )",
-      "ja_jp": "キーパッド )"
+      "zh_cn": "小键盘 )"
     },
     "key.keyboard.keypad.space": {
       "en_us": "Keypad Space",
-      "zh_cn": "小键盘 空格",
-      "zh_tw": "數字鍵 空白鍵",
-      "zh_hk": "數字鍵 空白鍵",
-      "ja_jp": "キーパッド スペース"
+      "zh_cn": "小键盘 空格"
     },
     "key.keyboard.keypad.tab": {
       "en_us": "Keypad Tab",
-      "zh_cn": "小键盘 Tab",
-      "zh_tw": "數字鍵 Tab",
-      "zh_hk": "數字鍵 Tab",
-      "ja_jp": "キーパッド Tab"
+      "zh_cn": "小键盘 Tab"
     },
     "key.keyboard.keypad.vertical.bar": {
       "en_us": "Keypad |",
-      "zh_cn": "小键盘 |",
-      "zh_tw": "數字鍵 |",
-      "zh_hk": "數字鍵 |",
-      "ja_jp": "キーパッド |"
+      "zh_cn": "小键盘 |"
     },
     "key.keyboard.keypad.xor": {
       "en_us": "Keypad XOR",
-      "zh_cn": "小键盘 XOR",
-      "zh_tw": "數字鍵 XOR",
-      "zh_hk": "數字鍵 XOR",
-      "ja_jp": "キーパッド XOR"
+      "zh_cn": "小键盘 XOR"
     },
     "key.keyboard.lang1": {
       "en_us": "Language 1",
-      "zh_cn": "语言键 1",
-      "zh_tw": "語言鍵 1",
-      "zh_hk": "語言鍵 1",
-      "ja_jp": "한 / 영"
+      "zh_cn": "语言键 1"
     },
     "key.keyboard.lang2": {
       "en_us": "Language 2",
-      "zh_cn": "语言键 2",
-      "zh_tw": "語言鍵 2",
-      "zh_hk": "語言鍵 2",
-      "ja_jp": "한자"
+      "zh_cn": "语言键 2"
     },
     "key.keyboard.lang3": {
       "en_us": "Language 3",
-      "zh_cn": "语言键 3",
-      "zh_tw": "語言鍵 3",
-      "zh_hk": "語言鍵 3",
-      "ja_jp": "カタカナ"
+      "zh_cn": "语言键 3"
     },
     "key.keyboard.lang4": {
       "en_us": "Language 4",
-      "zh_cn": "语言键 4",
-      "zh_tw": "語言鍵 4",
-      "zh_hk": "語言鍵 4",
-      "ja_jp": "ひらがな"
+      "zh_cn": "语言键 4"
     },
     "key.keyboard.lang5": {
       "en_us": "Language 5",
-      "zh_cn": "语言键 5",
-      "zh_tw": "語言鍵 5",
-      "zh_hk": "語言鍵 5",
-      "ja_jp": "全角 / 半角"
+      "zh_cn": "语言键 5"
     },
     "key.keyboard.lang6": {
       "en_us": "Language 6",
-      "zh_cn": "语言键 6",
-      "zh_tw": "語言鍵 6",
-      "zh_hk": "語言鍵 6",
-      "ja_jp": "言語配列6"
+      "zh_cn": "语言键 6"
     },
     "key.keyboard.lang7": {
       "en_us": "Language 7",
-      "zh_cn": "语言键 7",
-      "zh_tw": "語言鍵 7",
-      "zh_hk": "語言鍵 7",
-      "ja_jp": "言語配列7"
+      "zh_cn": "语言键 7"
     },
     "key.keyboard.lang8": {
       "en_us": "Language 8",
-      "zh_cn": "语言键 8",
-      "zh_tw": "語言鍵 8",
-      "zh_hk": "語言鍵 8",
-      "ja_jp": "言語配列8"
+      "zh_cn": "语言键 8"
     },
     "key.keyboard.lang9": {
       "en_us": "Language 9",
-      "zh_cn": "语言键 9",
-      "zh_tw": "語言鍵 9",
-      "zh_hk": "語言鍵 9",
-      "ja_jp": "言語配列9"
+      "zh_cn": "语言键 9"
     },
     "key.keyboard.left.command": {
       "en_us": "Left Command",
-      "zh_cn": "左Command",
-      "zh_tw": "左 Command",
-      "zh_hk": "左 Command",
-      "ja_jp": "左Command"
+      "zh_cn": "左Command"
     },
     "key.keyboard.left.meta": {
       "en_us": "Left Meta",
-      "zh_cn": "左Meta",
-      "zh_tw": "左 Meta",
-      "zh_hk": "左 Meta",
-      "ja_jp": "左Meta"
+      "zh_cn": "左Meta"
     },
     "key.keyboard.left.option": {
       "en_us": "Left Option",
-      "zh_cn": "左Option",
-      "zh_tw": "左 Option",
-      "zh_hk": "左 Option",
-      "ja_jp": "左Option"
+      "zh_cn": "左Option"
     },
     "key.keyboard.left.windows": {
       "en_us": "Left Windows",
-      "zh_cn": "左Windows",
-      "zh_tw": "左 Windows",
-      "zh_hk": "左 Windows",
-      "ja_jp": "左Win"
+      "zh_cn": "左Windows"
     },
     "key.keyboard.media.eject": {
       "en_us": "Eject",
-      "zh_cn": "弹出",
-      "zh_tw": "退出媒體",
-      "zh_hk": "退出媒體",
-      "ja_jp": "取り出し"
+      "zh_cn": "弹出"
     },
     "key.keyboard.media.fast.forward": {
       "en_us": "Fast Forward",
-      "zh_cn": "快进",
-      "zh_tw": "快轉",
-      "zh_hk": "快轉",
-      "ja_jp": "早送り"
+      "zh_cn": "快进"
     },
     "key.keyboard.media.next.track": {
       "en_us": "Next Track",
-      "zh_cn": "下一曲",
-      "zh_tw": "下一曲目",
-      "zh_hk": "下一曲目",
-      "ja_jp": "次のトラック"
+      "zh_cn": "下一曲"
     },
     "key.keyboard.media.pause": {
       "en_us": "Media Pause",
-      "zh_cn": "媒体暂停",
-      "zh_tw": "媒體暫停",
-      "zh_hk": "媒體暫停",
-      "ja_jp": "メディア一時停止"
+      "zh_cn": "媒体暂停"
     },
     "key.keyboard.media.play": {
       "en_us": "Media Play",
-      "zh_cn": "媒体播放",
-      "zh_tw": "媒體播放",
-      "zh_hk": "媒體播放",
-      "ja_jp": "メディア再生"
+      "zh_cn": "媒体播放"
     },
     "key.keyboard.media.play.pause": {
       "en_us": "Play/Pause",
-      "zh_cn": "Play/Pause",
-      "zh_tw": "播放／暫停",
-      "zh_hk": "Play/Pause",
-      "ja_jp": "再生/一時停止"
+      "zh_cn": "Play/Pause"
     },
     "key.keyboard.media.previous.track": {
       "en_us": "Previous Track",
-      "zh_cn": "上一曲",
-      "zh_tw": "上一曲目",
-      "zh_hk": "上一曲目",
-      "ja_jp": "前のトラック"
+      "zh_cn": "上一曲"
     },
     "key.keyboard.media.record": {
       "en_us": "Record",
-      "zh_cn": "录制",
-      "zh_tw": "錄製",
-      "zh_hk": "錄製",
-      "ja_jp": "記録"
+      "zh_cn": "录制"
     },
     "key.keyboard.media.rewind": {
       "en_us": "Rewind",
-      "zh_cn": "快退",
-      "zh_tw": "倒帶",
-      "zh_hk": "倒帶",
-      "ja_jp": "巻き戻し"
+      "zh_cn": "快退"
     },
     "key.keyboard.media.select": {
       "en_us": "Media Select",
-      "zh_cn": "媒体选择",
-      "zh_tw": "媒體選擇",
-      "zh_hk": "媒體選擇",
-      "ja_jp": "メディア選択"
+      "zh_cn": "媒体选择"
     },
     "key.keyboard.media.stop": {
       "en_us": "Media Stop",
-      "zh_cn": "媒体停止",
-      "zh_tw": "媒體停止",
-      "zh_hk": "媒體停止",
-      "ja_jp": "メディア停止"
+      "zh_cn": "媒体停止"
     },
     "key.keyboard.mode": {
       "en_us": "Mode",
-      "zh_cn": "模式",
-      "zh_tw": "模式",
-      "zh_hk": "模式",
-      "ja_jp": "モード"
+      "zh_cn": "模式"
     },
     "key.keyboard.mute": {
       "en_us": "Mute",
-      "zh_cn": "Mute",
-      "zh_tw": "靜音",
-      "zh_hk": "Mute",
-      "ja_jp": "ミュート"
+      "zh_cn": "Mute"
     },
     "key.keyboard.new": {
       "en_us": "New",
-      "zh_cn": "New",
-      "zh_tw": "New",
-      "zh_hk": "New",
-      "ja_jp": "新規作成"
+      "zh_cn": "New"
     },
     "key.keyboard.oper": {
       "en_us": "Oper",
-      "zh_cn": "Oper",
-      "zh_tw": "Oper",
-      "zh_hk": "Oper",
-      "ja_jp": "Oper"
+      "zh_cn": "Oper"
     },
     "key.keyboard.out": {
       "en_us": "Out",
-      "zh_cn": "Out",
-      "zh_tw": "Out",
-      "zh_hk": "Out",
-      "ja_jp": "アウト"
+      "zh_cn": "Out"
     },
     "key.keyboard.paste": {
       "en_us": "Paste",
-      "zh_cn": "Paste",
-      "zh_tw": "Paste",
-      "zh_hk": "Paste",
-      "ja_jp": "貼り付け"
+      "zh_cn": "Paste"
     },
     "key.keyboard.power": {
       "en_us": "Power",
-      "zh_cn": "电源",
-      "zh_tw": "電源",
-      "zh_hk": "電源",
-      "ja_jp": "電源"
+      "zh_cn": "电源"
     },
     "key.keyboard.prior": {
       "en_us": "Prior",
-      "zh_cn": "Prior",
-      "zh_tw": "Prior",
-      "zh_hk": "Prior",
-      "ja_jp": "戻す"
+      "zh_cn": "Prior"
     },
     "key.keyboard.right.command": {
       "en_us": "Right Command",
-      "zh_cn": "右Command",
-      "zh_tw": "右 Command",
-      "zh_hk": "右 Command",
-      "ja_jp": "右Command"
+      "zh_cn": "右Command"
     },
     "key.keyboard.right.meta": {
       "en_us": "Right Meta",
-      "zh_cn": "右Meta",
-      "zh_tw": "右 Meta",
-      "zh_hk": "右 Meta",
-      "ja_jp": "右Meta"
+      "zh_cn": "右Meta"
     },
     "key.keyboard.right.option": {
       "en_us": "Right Option",
-      "zh_cn": "右Option",
-      "zh_tw": "右 Option",
-      "zh_hk": "右 Option",
-      "ja_jp": "右Option"
+      "zh_cn": "右Option"
     },
     "key.keyboard.right.windows": {
       "en_us": "Right Windows",
-      "zh_cn": "右Windows",
-      "zh_tw": "右 Windows",
-      "zh_hk": "右 Windows",
-      "ja_jp": "右Win"
+      "zh_cn": "右Windows"
     },
     "key.keyboard.save": {
       "en_us": "Save",
-      "zh_cn": "Save",
-      "zh_tw": "Save",
-      "zh_hk": "Save",
-      "ja_jp": "保存"
+      "zh_cn": "Save"
     },
     "key.keyboard.select": {
       "en_us": "Select",
-      "zh_cn": "选择",
-      "zh_tw": "Select",
-      "zh_hk": "選擇",
-      "ja_jp": "セレクト"
+      "zh_cn": "选择"
     },
     "key.keyboard.separator": {
       "en_us": "Separator",
-      "zh_cn": "分隔符",
-      "zh_tw": "分隔符",
-      "zh_hk": "分隔符",
-      "ja_jp": "セパレータ"
+      "zh_cn": "分隔符"
     },
     "key.keyboard.sleep": {
       "en_us": "Sleep",
-      "zh_cn": "睡眠",
-      "zh_tw": "睡眠",
-      "zh_hk": "睡眠",
-      "ja_jp": "スリープ"
+      "zh_cn": "睡眠"
     },
     "key.keyboard.soft.left": {
       "en_us": "Soft Left",
-      "zh_cn": "左软键",
-      "zh_tw": "左軟鍵",
-      "zh_hk": "左軟鍵",
-      "ja_jp": "左Soft"
+      "zh_cn": "左软键"
     },
     "key.keyboard.soft.right": {
       "en_us": "Soft Right",
-      "zh_cn": "右软键",
-      "zh_tw": "右軟鍵",
-      "zh_hk": "右軟鍵",
-      "ja_jp": "右Soft"
+      "zh_cn": "右软键"
     },
     "key.keyboard.stop": {
       "en_us": "Stop",
-      "zh_cn": "Stop",
-      "zh_tw": "Stop",
-      "zh_hk": "Stop",
-      "ja_jp": "停止"
+      "zh_cn": "Stop"
     },
     "key.keyboard.sys.req": {
       "en_us": "SysRq",
-      "zh_cn": "SysRq",
-      "zh_tw": "SysRq",
-      "zh_hk": "SysRq",
-      "ja_jp": "SysRq"
+      "zh_cn": "SysRq"
     },
     "key.keyboard.thousands.separator": {
       "en_us": "Thousands Separator",
-      "zh_cn": "千位分隔符",
-      "zh_tw": "千位分隔符",
-      "zh_hk": "千位分隔符",
-      "ja_jp": "桁区切り"
+      "zh_cn": "千位分隔符"
     },
     "key.keyboard.undo": {
       "en_us": "Undo",
-      "zh_cn": "Undo",
-      "zh_tw": "Undo",
-      "zh_hk": "Undo",
-      "ja_jp": "元に戻す"
+      "zh_cn": "Undo"
     },
     "key.keyboard.volume.down": {
       "en_us": "Volume Down",
-      "zh_cn": "音量减",
-      "zh_tw": "音量－",
-      "zh_hk": "降低音量",
-      "ja_jp": "ボリューム-"
+      "zh_cn": "音量减"
     },
     "key.keyboard.volume.up": {
       "en_us": "Volume Up",
-      "zh_cn": "音量加",
-      "zh_tw": "音量＋",
-      "zh_hk": "提高音量",
-      "ja_jp": "ボリューム+"
+      "zh_cn": "音量加"
     },
     "key.keyboard.wake": {
       "en_us": "Wake",
-      "zh_cn": "唤醒",
-      "zh_tw": "喚醒",
-      "zh_hk": "喚醒",
-      "ja_jp": "復帰"
+      "zh_cn": "唤醒"
     },
     "mco.configure.world.buttons.invite_codes": {
       "en_us": "Invite Codes",
-      "zh_cn": "邀请码",
-      "zh_tw": "邀請碼",
-      "zh_hk": "邀請代碼",
-      "ja_jp": "招待コード"
+      "zh_cn": "邀请码"
     },
     "mco.configure.world.invite_codes.copy": {
       "en_us": "Copy",
-      "zh_cn": "复制",
-      "zh_tw": "複製",
-      "zh_hk": "複製",
-      "ja_jp": "コピー"
+      "zh_cn": "复制"
     },
     "mco.configure.world.invite_codes.create": {
       "en_us": "Create Invite Code",
-      "zh_cn": "创建邀请码",
-      "zh_tw": "建立邀請碼",
-      "zh_hk": "建立邀請代碼",
-      "ja_jp": "招待コードの作成"
+      "zh_cn": "创建邀请码"
     },
     "mco.configure.world.invite_codes.delete": {
       "en_us": "Delete",
-      "zh_cn": "删除",
-      "zh_tw": "刪除",
-      "zh_hk": "刪除",
-      "ja_jp": "削除"
+      "zh_cn": "删除"
     },
     "mco.configure.world.invite_codes.edit": {
       "en_us": "Edit",
-      "zh_cn": "编辑",
-      "zh_tw": "編輯",
-      "zh_hk": "編輯",
-      "ja_jp": "編集"
+      "zh_cn": "编辑"
     },
     "mco.configure.world.invite_codes.edit.active": {
       "en_us": "Active",
-      "zh_cn": "有效",
-      "zh_tw": "有效",
-      "zh_hk": "有效",
-      "ja_jp": "有効"
+      "zh_cn": "有效"
     },
     "mco.configure.world.invite_codes.edit.expiration_date": {
       "en_us": "Expiration Date",
-      "zh_cn": "有效期",
-      "zh_tw": "有效期限",
-      "zh_hk": "有效期",
-      "ja_jp": "有効期限"
+      "zh_cn": "有效期"
     },
     "mco.configure.world.invite_codes.edit.expires": {
       "en_us": "Expires: %s",
-      "zh_cn": "有效期：%s",
-      "zh_tw": "有效期限：%s",
-      "zh_hk": "有效期至：%s",
-      "ja_jp": "有効期限：%s"
+      "zh_cn": "有效期：%s"
     },
     "mco.configure.world.invite_codes.edit.title": {
       "en_us": "Edit Invite Code",
-      "zh_cn": "编辑邀请码",
-      "zh_tw": "編輯邀請碼",
-      "zh_hk": "編輯邀請代碼",
-      "ja_jp": "招待コードの編集"
+      "zh_cn": "编辑邀请码"
     },
     "mco.configure.world.invite_codes.expiration.1_day": {
       "en_us": "1 day",
-      "zh_cn": "1天",
-      "zh_tw": "1 天",
-      "zh_hk": "1 日",
-      "ja_jp": "1日"
+      "zh_cn": "1天"
     },
     "mco.configure.world.invite_codes.expiration.1_hour": {
       "en_us": "1 hour",
-      "zh_cn": "1小时",
-      "zh_tw": "1 小時",
-      "zh_hk": "1 小時",
-      "ja_jp": "1時間"
+      "zh_cn": "1小时"
     },
     "mco.configure.world.invite_codes.expiration.6_hours": {
       "en_us": "6 hours",
-      "zh_cn": "6小时",
-      "zh_tw": "6 小時",
-      "zh_hk": "6 小時",
-      "ja_jp": "6時間"
+      "zh_cn": "6小时"
     },
     "mco.configure.world.invite_codes.expiration.7_days": {
       "en_us": "7 days",
-      "zh_cn": "7天",
-      "zh_tw": "7 天",
-      "zh_hk": "7 日",
-      "ja_jp": "7日"
+      "zh_cn": "7天"
     },
     "mco.configure.world.invite_codes.expiration.12_hours": {
       "en_us": "12 hours",
-      "zh_cn": "12小时",
-      "zh_tw": "12 小時",
-      "zh_hk": "12 小時",
-      "ja_jp": "12時間"
+      "zh_cn": "12小时"
     },
     "mco.configure.world.invite_codes.expiration.30_minutes": {
       "en_us": "30 minutes",
-      "zh_cn": "30分钟",
-      "zh_tw": "30 分鐘",
-      "zh_hk": "30 分鐘",
-      "ja_jp": "30分"
+      "zh_cn": "30分钟"
     },
     "mco.configure.world.invite_codes.expiration.never": {
       "en_us": "Never",
-      "zh_cn": "始终有效",
-      "zh_tw": "永不",
-      "zh_hk": "始終有效",
-      "ja_jp": "無期限"
+      "zh_cn": "始终有效"
     },
     "mco.configure.world.invite_codes.loading": {
       "en_us": "Loading invite codes",
-      "zh_cn": "正在加载邀请码",
-      "zh_tw": "正在載入邀請碼",
-      "zh_hk": "正在載入邀請代碼",
-      "ja_jp": "招待コードを読み込み中"
+      "zh_cn": "正在加载邀请码"
     },
     "mco.configure.world.invite_codes.subtitle": {
       "en_us": "You can add up to %s invite codes and share them so people can join your Realm",
-      "zh_cn": "你可以添加最多%s个邀请码并与他人分享，让他们加入你的Realm",
-      "zh_tw": "您最多可以新增 %s 組邀請碼並分享出去，讓其他人加入您的 Realm",
-      "zh_hk": "你最多可新增 %s 個邀請代碼，並將其分享出去，以供他人加入你的 Realm",
-      "ja_jp": "%s個まで招待コードを追加でき、Realmに招待したい人々と共有できます"
+      "zh_cn": "你可以添加最多%s个邀请码并与他人分享，让他们加入你的Realm"
     },
     "mco.configure.world.invite_codes.title": {
       "en_us": "Invite Codes (%s/%s)",
-      "zh_cn": "邀请码（%s/%s）",
-      "zh_tw": "邀請碼 (%s/%s)",
-      "zh_hk": "邀請代碼 (%s/%s)",
-      "ja_jp": "招待コード（%s/%s）"
+      "zh_cn": "邀请码（%s/%s）"
     },
     "mco.configure.world.renderDistance": {
       "en_us": "Render Distance Limit",
-      "zh_cn": "渲染距离限制",
-      "zh_tw": "顯示距離上限",
-      "zh_hk": "渲染距離上限",
-      "ja_jp": "描画距離上限"
+      "zh_cn": "渲染距离限制"
     },
     "mco.configure.world.renderDistance.tooltip": {
       "en_us": "The maximum distance visible to Realm members. Higher values may impact performance.",
-      "zh_cn": "Realm成员可见的最大距离。较高数值可能会影响性能。",
-      "zh_tw": "Realm 成員能看見的最大距離。數值愈高愈可能影響效能。",
-      "zh_hk": "Realm 成員可看見的最大距離。較高的數值或會影響效能。",
-      "ja_jp": "Realm参加者に適用される最大描画距離です。大きな値を設定した場合、パフォーマンスに大きな影響を及ぼす可能性があります。"
+      "zh_cn": "Realm成员可见的最大距离。较高数值可能会影响性能。"
     },
     "mco.configure.world.simulationDistance": {
       "en_us": "Simulation Distance",
-      "zh_cn": "模拟距离",
-      "zh_tw": "模擬距離",
-      "zh_hk": "模擬距離",
-      "ja_jp": "演算距離"
+      "zh_cn": "模拟距离"
     },
     "mco.configure.world.simulationDistance.tooltip": {
       "en_us": "The range around players where the game loads and applies changes.",
-      "zh_cn": "玩家周围游戏加载并应用更改的范围。",
-      "zh_tw": "玩家周圍會載入並運算變化的範圍。",
-      "zh_hk": "玩家周圍會載入遊戲並套用變更的範圍。",
-      "ja_jp": "プレイヤーの周囲の、ゲームが読み込み・変更の適用を行える範囲です。"
+      "zh_cn": "玩家周围游戏加载并应用更改的范围。"
     },
     "mco.pdp.friends.description": {
       "en_us": "Your invited friends can play in your Realm for free, anytime - even when you're not online. Play with up to 10 at once!",
-      "zh_cn": "你邀请的好友可以随时免费进入你的Realm，即使你不在线。最多可与10名玩家同时在线！",
-      "zh_tw": "受邀的好友隨時都能免費進入您的 Realm 遊玩，即使您不在線上也沒問題。最多可同時與 10 位好友一同遊玩！",
-      "zh_hk": "你邀請的朋友可隨時進入你的 Realm 遊玩，毋需付費。即使你不在線，亦不成問題。最多可同時與 10 名玩家一同遊玩！",
-      "ja_jp": "招待された友達は、無料でいつでも（あなたがオフラインのときも）あなたのRealmでプレイできます。一度に最大10人まで遊べます！"
+      "zh_cn": "你邀请的好友可以随时免费进入你的Realm，即使你不在线。最多可与10名玩家同时在线！"
     },
     "mco.pdp.friends.title": {
       "en_us": "A better way to play together",
-      "zh_cn": "更好的共同游戏方式",
-      "zh_tw": "更佳的同樂方式",
-      "zh_hk": "一同遊玩的更佳選項",
-      "ja_jp": "一緒に遊ぶ、より良い方法"
+      "zh_cn": "更好的共同游戏方式"
     },
     "mco.pdp.minigames.description": {
       "en_us": "Explore the rotating library of minigames, adventure maps and more.",
-      "zh_cn": "探索不断更新的小游戏、冒险地图和更多内容。",
-      "zh_tw": "探索不斷更新的小遊戲、冒險地圖以及更多內容。",
-      "zh_hk": "探索不斷更新的小遊戲、冒險地圖以及更多內容。",
-      "ja_jp": "入れ替っていくアドベンチャーマップやミニゲームなどのラインナップを探索しましょう。"
+      "zh_cn": "探索不断更新的小游戏、冒险地图和更多内容。"
     },
     "mco.pdp.minigames.title": {
       "en_us": "Minigames - Free creator content",
-      "zh_cn": "小游戏 - 免费创作者内容",
-      "zh_tw": "小遊戲 ─ 免費創作者內容",
-      "zh_hk": "小遊戲——免費創作者內容",
-      "ja_jp": "ミニゲーム - 無料のクリエーターコンテンツ"
+      "zh_cn": "小游戏 - 免费创作者内容"
     },
     "mco.pdp.private.backups": {
       "en_us": "• Automatic backups",
-      "zh_cn": "• 自动备份",
-      "zh_tw": "• 自動備份",
-      "zh_hk": "• 自動備份",
-      "ja_jp": "• 自動バックアップ"
+      "zh_cn": "• 自动备份"
     },
     "mco.pdp.private.easyToManage": {
       "en_us": "• Easy to set up, easy to manage",
-      "zh_cn": "• 易于设置，易于管理",
-      "zh_tw": "• 設定輕鬆，管理簡單",
-      "zh_hk": "• 易於設定，易於管理",
-      "ja_jp": "• 準備も管理も簡単"
+      "zh_cn": "• 易于设置，易于管理"
     },
     "mco.pdp.private.secure": {
       "en_us": "• Private and secure",
-      "zh_cn": "• 私密且安全",
-      "zh_tw": "• 隱私又安全",
-      "zh_hk": "• 既私密又安全",
-      "ja_jp": "• プライベートで安全"
+      "zh_cn": "• 私密且安全"
     },
     "mco.pdp.private.title": {
       "en_us": "Personal server",
-      "zh_cn": "个人服务器",
-      "zh_tw": "個人專屬伺服器",
-      "zh_hk": "個人伺服器",
-      "ja_jp": "自分のサーバー"
+      "zh_cn": "个人服务器"
     },
     "mco.pdp.private.worldSlots": {
       "en_us": "• Three world slots",
-      "zh_cn": "• 三个世界栏位",
-      "zh_tw": "• 三個世界欄位",
-      "zh_hk": "• 三個世界欄位",
-      "ja_jp": "• 3つのワールドスロット"
+      "zh_cn": "• 三个世界栏位"
     },
     "mco.pdp.trial.description": {
       "en_us": "Free 30-day trial!",
-      "zh_cn": "30天免费试用！",
-      "zh_tw": "30 天免費試用！",
-      "zh_hk": "30 日免費試用！",
-      "ja_jp": "30日間の無料体験！"
+      "zh_cn": "30天免费试用！"
     },
     "mco.pdp.trial.title": {
       "en_us": "Your own server, always online",
-      "zh_cn": "不断线的专属服务器",
-      "zh_tw": "您的專屬伺服器，永不斷線",
-      "zh_hk": "你的專屬伺服器，永不斷線",
-      "ja_jp": "自分専用の、常時オンラインのサーバー"
+      "zh_cn": "不断线的专属服务器"
     },
     "mco.pdp.tryForFree": {
       "en_us": "Try for free",
-      "zh_cn": "免费尝试",
-      "zh_tw": "免費試用",
-      "zh_hk": "免費試用",
-      "ja_jp": "無料で体験する"
+      "zh_cn": "免费尝试"
     },
     "mco.selectServer.freeTrial": {
       "en_us": "Free trial",
-      "zh_cn": "免费试用",
-      "zh_tw": "免費試用",
-      "zh_hk": "免費試用",
-      "ja_jp": "無料体験版"
+      "zh_cn": "免费试用"
     },
     "mco.selectServer.joinCode": {
       "en_us": "Join Code",
-      "zh_cn": "加入代码",
-      "zh_tw": "加入碼",
-      "zh_hk": "加入代碼",
-      "ja_jp": "参加コード"
+      "zh_cn": "加入代码"
     },
     "mco.selectServer.joinCode.hint": {
       "en_us": "Enter join code",
-      "zh_cn": "输入加入代码",
-      "zh_tw": "輸入加入碼",
-      "zh_hk": "輸入加入代碼",
-      "ja_jp": "参加コードを入力"
+      "zh_cn": "输入加入代码"
     },
     "mco.selectServer.joinCode.invalid": {
       "en_us": "The code you entered is invalid.",
-      "zh_cn": "输入的代码无效。",
-      "zh_tw": "輸入的加入碼無效。",
-      "zh_hk": "輸入的代碼無效。",
-      "ja_jp": "入力されたコードが無効です。"
+      "zh_cn": "输入的代码无效。"
     },
     "mco.selectServer.joinCode.select": {
       "en_us": "Join Realm",
-      "zh_cn": "加入Realm",
-      "zh_tw": "加入 Realm",
-      "zh_hk": "加入 Realm",
-      "ja_jp": "Realmに参加"
+      "zh_cn": "加入Realm"
     },
     "mco.selectServer.joinCode.title": {
       "en_us": "Enter Join Code",
-      "zh_cn": "输入加入代码",
-      "zh_tw": "輸入加入碼",
-      "zh_hk": "輸入加入代碼",
-      "ja_jp": "参加コードを入力"
+      "zh_cn": "输入加入代码"
     },
     "mco.selectServer.joinCode.validating": {
       "en_us": "Validating code",
-      "zh_cn": "验证代码中",
-      "zh_tw": "正在驗證加入碼",
-      "zh_hk": "正在驗證代碼",
-      "ja_jp": "コードを検証中"
+      "zh_cn": "验证代码中"
     },
     "mco.selectServer.joinRealm": {
       "en_us": "Join Realm",
-      "zh_cn": "加入Realm",
-      "zh_tw": "加入 Realm",
-      "zh_hk": "加入 Realm",
-      "ja_jp": "Realmに参加"
+      "zh_cn": "加入Realm"
     },
     "mount.sit": {
       "en_us": "Press %1$s to get up",
-      "zh_cn": "按下%1$s来起身",
-      "zh_tw": "按 %1$s 起身",
-      "zh_hk": "按 %1$s 起身",
-      "ja_jp": "%1$sで立ち上がる"
+      "zh_cn": "按下%1$s来起身"
     },
     "options.ctrlClickEmulatesRightClick": {
       "en_us": "Right Click Emulation",
-      "zh_cn": "右键单击模拟",
-      "zh_tw": "右鍵模擬",
-      "zh_hk": "按右鍵模擬",
-      "ja_jp": "右クリックエミュレーション"
+      "zh_cn": "右键单击模拟"
     },
     "options.ctrlClickEmulatesRightClick.tooltip": {
       "en_us": "When enabled, Control + left-click is treated as a right-click. Only applies on macOS.",
-      "zh_cn": "启用后，Control + 左键单击将被视为右键单击。仅适用于 macOS。",
-      "zh_tw": "啟用後，Control + 左鍵會被視為右鍵。僅適用於 macOS。",
-      "zh_hk": "啟用後，Control + 左鍵將被視為右鍵。僅適用於 macOS。",
-      "ja_jp": "有効化すると、Ctrl+左クリックを右クリックとして扱います。macOSでのみ利用可能です。"
+      "zh_cn": "启用后，Control + 左键单击将被视为右键单击。仅适用于 macOS。"
     },
     "options.debugGuiScale.tooltip": {
       "en_us": "Overrides the debug overlay with a different GUI scale than the rest of the game",
-      "zh_cn": "为调试叠加层单独设置与游戏其他界面不同的界面尺寸",
-      "zh_tw": "單獨調整除錯覆蓋層的介面大小",
-      "zh_hk": "以有別於遊戲其餘部分的界面大小，覆蓋除錯疊加層",
-      "ja_jp": "デバッグオーバーレイ限定でGUIのサイズを変更します"
+      "zh_cn": "为调试叠加层单独设置与游戏其他界面不同的界面尺寸"
     },
     "options.debugGuiScale.unchanged": {
       "en_us": "Unchanged",
-      "zh_cn": "不变",
-      "zh_tw": "不變",
-      "zh_hk": "不變",
-      "ja_jp": "変更なし"
+      "zh_cn": "不变"
     },
     "options.fullscreen.exclusive.mode": {
       "en_us": "Exclusive Fullscreen Mode",
-      "zh_cn": "独占全屏模式",
-      "zh_tw": "獨占全螢幕模式",
-      "zh_hk": "獨佔全螢幕模式",
-      "ja_jp": "排他的フルスクリーンモード"
+      "zh_cn": "独占全屏模式"
     },
     "options.fullscreen.exclusive.mode.tooltip": {
       "en_us": "This setting only takes effect when Exclusive Fullscreen is enabled.",
-      "zh_cn": "此设置仅在“独占全屏”启用时生效。",
-      "zh_tw": "這項設定只在「獨占全螢幕」啟用時生效。",
-      "zh_hk": "此設定僅於「獨佔全螢幕」啟用後生效。",
-      "ja_jp": "この設定は排他的フルスクリーンが有効であるときのみ影響があります。"
+      "zh_cn": "此设置仅在“独占全屏”启用时生效。"
     },
     "options.improvedTransparency.oit.tooltip": {
       "en_us": "An experimental approach that uses an order-independent transparency algorithm to avoid graphical issues normally present when looking through multiple layers of translucent objects.\nThis will impact performance.",
-      "zh_cn": "实验性方案，使用顺序无关透明算法，以避免透视多层半透明物体时常见的图形问题。\n此设置会影响性能。",
-      "zh_tw": "實驗性功能，採用無關順序的透明度演算法，可避免視角透過多層半透明物件時常出現的圖形問題。\n這項功能會影響效能。",
-      "zh_hk": "實驗性功能，採用順序無關的半透明渲染，用以避免觀察多層半透明物體時，通常會出現的圖形問題。\n此功能會影響效能。",
-      "ja_jp": "半透明なオブジェクトを複数のレイヤー越しに見た際に生ずる描画上の問題を回避するための、順序に依拠しない透過物描画アルゴリズムを使用する実験的な仕様です。\nパフォーマンスに影響する可能性があります。"
+      "zh_cn": "实验性方案，使用顺序无关透明算法，以避免透视多层半透明物体时常见的图形问题。\n此设置会影响性能。"
     },
     "options.language.empty_or_missing_translation": {
       "en_us": "Translation file for %s was empty or missing. Restart your game and launcher, then try again.",
-      "zh_cn": "%s的翻译文件为空或缺失。请重启游戏及启动器并重试。",
-      "zh_tw": "%s 的翻譯檔案為空或遺失。請重新啟動遊戲與啟動器，然後再試一次。",
-      "zh_hk": "%s 的翻譯檔案為空或遺失。請重新啟動遊戲與啟動器，然後重試。",
-      "ja_jp": "翻訳ファイルにおける%sの翻訳が空か、もしくは存在しません。ゲームとランチャーを再起動してもう一度お試しください。"
+      "zh_cn": "%s的翻译文件为空或缺失。请重启游戏及启动器并重试。"
     },
     "options.language.load_translations_failed": {
       "en_us": "Loading translations failed",
-      "zh_cn": "翻译加载失败",
-      "zh_tw": "無法載入翻譯",
-      "zh_hk": "翻譯載入失敗",
-      "ja_jp": "翻訳の読み込みに失敗しました"
+      "zh_cn": "翻译加载失败"
     },
     "options.macFullscreenMenuVisibility": {
       "en_us": "Menu/Dock Visibility",
-      "zh_cn": "菜单/程序坞可见性",
-      "zh_tw": "選單列／Dock 顯示",
-      "zh_hk": "選單列／Dock 可見度",
-      "ja_jp": "メニューバー・Dockの表示"
+      "zh_cn": "菜单/程序坞可见性"
     },
     "options.macFullscreenMenuVisibility.tooltip": {
       "en_us": "Whether the macOS Menu bar and Dock can be revealed by moving the mouse to the edge of the screen while in non-exclusive fullscreen.",
-      "zh_cn": "在非独占全屏模式下，是否可以将鼠标移动到屏幕边缘来显示macOS菜单栏和程序坞。",
-      "zh_tw": "在非獨占全螢幕模式下，將滑鼠移至螢幕邊緣時，是否能顯示 macOS 選單列與 Dock。",
-      "zh_hk": "在非獨佔全螢幕模式下，將滑鼠移至螢幕邊緣時，可否顯示 macOS 選單列與 Dock。",
-      "ja_jp": "排他的フルスクリーンがオフの状態で画面端にマウスを移動することで、macOSのメニューバーおよびDockを表示させられるかどうかを設定します。"
+      "zh_cn": "在非独占全屏模式下，是否可以将鼠标移动到屏幕边缘来显示macOS菜单栏和程序坞。"
     },
     "options.quitShortcuts": {
       "en_us": "Quit Shortcuts",
-      "zh_cn": "退出游戏快捷键",
-      "zh_tw": "離開遊戲快速鍵",
-      "zh_hk": "離開遊戲快捷鍵",
-      "ja_jp": "終了ショートカット"
+      "zh_cn": "退出游戏快捷键"
     },
     "options.quitShortcuts.tooltip": {
       "en_us": "Whether keyboard shortcuts can close the game. When off, Alt + F4 on Windows and Linux, and Cmd + Q on macOS, will no longer quit the game.",
-      "zh_cn": "能否使用键盘快捷键关闭游戏。禁用时，无法通过Windows和Linux上的Alt + F4以及macOS上的Cmd + Q退出游戏。",
-      "zh_tw": "控制是否能使用鍵盤快速鍵關閉遊戲。設為關閉時，無法使用 Windows 與 Linux 上的 Alt + F4 及 macOS 上的 Cmd + Q 離開遊戲。",
-      "zh_hk": "能否使用鍵盤快捷鍵關閉遊戲。設為關閉時，Windows 及 Linux 上的 Alt + F4，以及 macOS 上的 Cmd + Q，將不再可用於離開遊戲。",
-      "ja_jp": "キーボートショートカットでゲームを終了することができるかどうかを設定します。オフの場合、Windows・LinuxならAlt + F4、macOSならCmd + Wを入力してもゲームが終了しなくなります。"
+      "zh_cn": "能否使用键盘快捷键关闭游戏。禁用时，无法通过Windows和Linux上的Alt + F4以及macOS上的Cmd + Q退出游戏。"
     },
     "options.worldOptions.allow_commands.disabled.demo.tooltip": {
       "en_us": "Cannot allow commands in a demo world.",
-      "zh_cn": "无法在试玩世界中开启“允许命令”。",
-      "zh_tw": "無法在試玩世界中開啟「允許指令」。",
-      "zh_hk": "無法於試玩世界中開啟「允許命令」。",
-      "ja_jp": "デモワールドではコマンドの許可をオンにできません。"
+      "zh_cn": "无法在试玩世界中开启“允许命令”。"
     },
     "options.worldOptions.allow_commands.tooltip": {
       "en_us": "Allows the use of commands in this world.",
-      "zh_cn": "允许在此世界中使用命令。",
-      "zh_tw": "允許在這個世界中使用指令。",
-      "zh_hk": "允許於此世界中使用命令。",
-      "ja_jp": "ワールドにおけるコマンドの使用可否を設定します。"
+      "zh_cn": "允许在此世界中使用命令。"
     },
     "options.worldOptions.difficulty.disabled.hardcore.tooltip": {
       "en_us": "Cannot change the difficulty in a hardcore world.",
-      "zh_cn": "无法在极限模式世界中更改难度。",
-      "zh_tw": "無法在極限模式世界中變更難易度。",
-      "zh_hk": "無法於極限模式世界中變更難度。",
-      "ja_jp": "ハードコアのワールドでは難易度を変えることは出来ません。"
+      "zh_cn": "无法在极限模式世界中更改难度。"
     },
     "options.worldOptions.difficulty.disabled.locked.tooltip": {
       "en_us": "Difficulty is locked.",
-      "zh_cn": "难度已锁定。",
-      "zh_tw": "難易度已鎖定。",
-      "zh_hk": "難度已鎖定。",
-      "ja_jp": "難易度はロックされています。"
+      "zh_cn": "难度已锁定。"
     },
     "options.worldOptions.difficulty.disabled.operator.tooltip": {
       "en_us": "Changing the difficulty requires operator permissions.",
-      "zh_cn": "更改难度需要管理员权限。",
-      "zh_tw": "變更難易度需要管理員權限。",
-      "zh_hk": "變更難度須管理員權限。",
-      "ja_jp": "難易度の変更には管理者権限が必要です。"
+      "zh_cn": "更改难度需要管理员权限。"
     },
     "options.worldOptions.game_mode": {
       "en_us": "Default Game Mode",
-      "zh_cn": "默认游戏模式",
-      "zh_tw": "預設遊戲模式",
-      "zh_hk": "預設遊戲模式",
-      "ja_jp": "デフォルトゲームモード"
+      "zh_cn": "默认游戏模式"
     },
     "options.worldOptions.game_mode.tooltip": {
       "en_us": "Changes the default game mode of the world.",
-      "zh_cn": "更改世界的默认游戏模式。",
-      "zh_tw": "變更世界的預設遊戲模式。",
-      "zh_hk": "變更世界的預設遊戲模式。",
-      "ja_jp": "ワールドのデフォルトゲームモードを変更します。"
+      "zh_cn": "更改世界的默认游戏模式。"
     },
     "options.worldOptions.general.title": {
       "en_us": "General",
-      "zh_cn": "通用",
-      "zh_tw": "一般",
-      "zh_hk": "通用",
-      "ja_jp": "一般"
+      "zh_cn": "通用"
     },
     "options.worldOptions.guest.command_access": {
       "en_us": "Command Access",
-      "zh_cn": "命令使用权限",
-      "zh_tw": "指令使用權限",
-      "zh_hk": "命令使用權限",
-      "ja_jp": "コマンドへのアクセス"
+      "zh_cn": "命令使用权限"
     },
     "options.worldOptions.guest.command_access.disabled.commands.tooltip": {
       "en_us": "Cannot change the command access of players joining your world when commands are not allowed.",
-      "zh_cn": "无法在禁用命令时更改加入世界的玩家的命令使用权限。",
-      "zh_tw": "當「允許指令」設為關閉時，無法變更加入世界玩家的指令使用權限。",
-      "zh_hk": "當「允許命令」關閉時，無法變更加入世界玩家的命令使用權限。",
-      "ja_jp": "コマンドが許可されていない状態では、ワールドに参加中のプレイヤーのコマンドへのアクセスを変更することはできません。"
+      "zh_cn": "无法在禁用命令时更改加入世界的玩家的命令使用权限。"
     },
     "options.worldOptions.guest.command_access.disabled.scope.tooltip": {
       "en_us": "Cannot change the command access of players joining your world when the world's multiplayer scope is set to \"Off\".",
-      "zh_cn": "无法在未开启多人游戏时更改加入世界的玩家的命令使用权限。",
-      "zh_tw": "當世界沒有開放多人遊戲時，無法變更加入世界玩家的指令使用權限。",
-      "zh_hk": "當世界的多人遊戲選項設為「關」時，無法變更加入世界玩家的命令使用權限。",
-      "ja_jp": "ワールドのマルチプレイ公開範囲が「オフ」の状態では、ワールドに参加しているプレイヤーのコマンドへのアクセスを変更できません。"
+      "zh_cn": "无法在未开启多人游戏时更改加入世界的玩家的命令使用权限。"
     },
     "options.worldOptions.guest.command_access.tooltip": {
       "en_us": "Controls whether players that join your world can use commands or not.",
-      "zh_cn": "控制加入世界的玩家能否使用命令。",
-      "zh_tw": "控制加入世界的玩家是否能使用指令。",
-      "zh_hk": "控制加入世界的玩家能否使用命令。",
-      "ja_jp": "ワールドに参加したプレイヤーがコマンドを使用できるかどうかを制御します。"
+      "zh_cn": "控制加入世界的玩家能否使用命令。"
     },
     "options.worldOptions.guest.force_game_mode": {
       "en_us": "Force Game Mode",
-      "zh_cn": "强制游戏模式",
-      "zh_tw": "鎖定遊戲模式",
-      "zh_hk": "鎖定遊戲模式",
-      "ja_jp": "ゲームモードの強制"
+      "zh_cn": "强制游戏模式"
     },
     "options.worldOptions.guest.force_game_mode.off.commands.tooltip": {
       "en_us": "Other players can set their own game mode through commands.",
-      "zh_cn": "其他玩家可以通过命令设置自己的游戏模式。",
-      "zh_tw": "其他玩家可使用指令設定自己的遊戲模式。",
-      "zh_hk": "其他玩家可通過命令設定自己的遊戲模式。",
-      "ja_jp": "他のプレイヤーがコマンドを使用して自身のゲームモードを設定できます。"
+      "zh_cn": "其他玩家可以通过命令设置自己的游戏模式。"
     },
     "options.worldOptions.guest.force_game_mode.off.hardcore.tooltip": {
       "en_us": "Cannot change this setting in a hardcore world.",
-      "zh_cn": "无法在极限模式世界中更改此设置。",
-      "zh_tw": "無法在極限模式世界中變更這項設定。",
-      "zh_hk": "無法於極限模式世界中變更此設定。",
-      "ja_jp": "ハードコアのワールドではこの設定を変更できません。"
+      "zh_cn": "无法在极限模式世界中更改此设置。"
     },
     "options.worldOptions.guest.force_game_mode.off.scope.tooltip": {
       "en_us": "Cannot change this setting when the world's multiplayer scope is set to \"Off\".",
-      "zh_cn": "无法在世界的多人游戏范围设置为“关”时更改此设置。",
-      "zh_tw": "當世界沒有開放多人遊戲時，無法變更這項設定。",
-      "zh_hk": "當世界的多人遊戲範圍設為「關」時，無法變更此設定。",
-      "ja_jp": "ワールドのマルチプレイヤースコープが「オフ」になっている時はこの設定を変更できません。"
+      "zh_cn": "无法在世界的多人游戏范围设置为“关”时更改此设置。"
     },
     "options.worldOptions.guest.force_game_mode.off.tooltip": {
       "en_us": "Other players will retain their current game mode regardless of the world's default game mode.",
-      "zh_cn": "其他玩家将保留其当前游戏模式，且不受世界默认游戏模式的影响。",
-      "zh_tw": "無論世界的預設遊戲模式為何，其他玩家都會維持目前的遊戲模式。",
-      "zh_hk": "其他玩家將維持其目前的遊戲模式，不受世界的預設遊戲模式影響。",
-      "ja_jp": "ワールドにおける他のプレイヤーのゲームモードをデフォルトゲームモードに関わらず維持します。"
+      "zh_cn": "其他玩家将保留其当前游戏模式，且不受世界默认游戏模式的影响。"
     },
     "options.worldOptions.guest.force_game_mode.on.tooltip": {
       "en_us": "Other players will be forced to play the world's default game mode.",
-      "zh_cn": "其他玩家将被强制设为世界的默认游戏模式。",
-      "zh_tw": "其他玩家將強制以世界預設遊戲模式遊玩。",
-      "zh_hk": "其他玩家將強制於世界的預設遊戲模式下遊玩。",
-      "ja_jp": "ワールドにおける他プレイヤーのゲームモードをデフォルトゲームモードに強制します。"
+      "zh_cn": "其他玩家将被强制设为世界的默认游戏模式。"
     },
     "options.worldOptions.multiplayer.title": {
       "en_us": "Multiplayer",
-      "zh_cn": "多人游戏",
-      "zh_tw": "多人遊戲",
-      "zh_hk": "多人遊戲",
-      "ja_jp": "マルチプレイ"
+      "zh_cn": "多人游戏"
     },
     "options.worldOptions.personal_game_mode": {
       "en_us": "Personal Game Mode",
-      "zh_cn": "个人游戏模式",
-      "zh_tw": "個人遊戲模式",
-      "zh_hk": "個人遊戲模式",
-      "ja_jp": "個人用ゲームモード"
+      "zh_cn": "个人游戏模式"
     },
     "options.worldOptions.personal_game_mode.tooltip": {
       "en_us": "Changes your game mode in this world.",
-      "zh_cn": "更改你在此世界中的游戏模式。",
-      "zh_tw": "變更你在這個世界的遊戲模式。",
-      "zh_hk": "變更你在此世界中的遊戲模式。",
-      "ja_jp": "このワールドにおけるあなたのゲームモードを変更します。"
+      "zh_cn": "更改你在此世界中的游戏模式。"
     },
     "realms.configuration.region.canada_central": {
       "en_us": "Canada",
-      "zh_cn": "加拿大",
-      "zh_tw": "加拿大",
-      "zh_hk": "加拿大",
-      "ja_jp": "カナダ"
+      "zh_cn": "加拿大"
     },
     "realms.configuration.region.mexico_central": {
       "en_us": "Mexico",
-      "zh_cn": "墨西哥",
-      "zh_tw": "墨西哥",
-      "zh_hk": "墨西哥",
-      "ja_jp": "メキシコ"
+      "zh_cn": "墨西哥"
     },
     "realms.configuration.region.south_africa_north": {
       "en_us": "South Africa",
-      "zh_cn": "南非",
-      "zh_tw": "南非",
-      "zh_hk": "南非",
-      "ja_jp": "南アフリカ"
+      "zh_cn": "南非"
     },
     "realms.configuration.region.west_us_3": {
       "en_us": "Arizona, USA",
-      "zh_cn": "美国亚利桑那州",
-      "zh_tw": "美國亞利桑那州",
-      "zh_hk": "美國亞利桑那州",
-      "ja_jp": "アメリカ合衆国・アリゾナ州"
+      "zh_cn": "美国亚利桑那州"
     },
     "sign.back_text": {
       "en_us": "Back Text:",
-      "zh_cn": "背面文本：",
-      "zh_tw": "背面文字：",
-      "zh_hk": "背面文字：",
-      "ja_jp": "裏側のテキスト："
+      "zh_cn": "背面文本："
     },
     "sign.click_actions_disabled": {
       "en_us": "Click actions are disabled for this sign",
-      "zh_cn": "此告示牌的点击操作已被禁用",
-      "zh_tw": "這個告示牌已停用點擊動作",
-      "zh_hk": "此指示牌的點擊操作已被停用",
-      "ja_jp": "この看板ではクリックアクションは無効化されています"
+      "zh_cn": "此告示牌的点击操作已被禁用"
     },
     "sign.front_text": {
       "en_us": "Front Text:",
-      "zh_cn": "正面文本：",
-      "zh_tw": "正面文字：",
-      "zh_hk": "正面文字：",
-      "ja_jp": "表側のテキスト："
+      "zh_cn": "正面文本："
     },
     "spectator.cannot_teleport": {
       "en_us": "Unable to teleport. The other side is not generated yet.",
-      "zh_cn": "无法传送。另一侧尚未生成。",
-      "zh_tw": "無法傳送。傳送門另一端尚未生成。",
-      "zh_hk": "無法傳送。另一側尚未生成。",
-      "ja_jp": "反対側がまだ生成されていないため、テレポートできません。"
+      "zh_cn": "无法传送。另一侧尚未生成。"
     },
     "stat.minecraft.sleep_in_straw_bed": {
       "en_us": "Times Slept in a Straw Bed",
-      "zh_cn": "麦秆床上入眠次数",
-      "zh_tw": "在乾草床上睡覺次數",
-      "zh_hk": "禾稈牀上入睡次數",
-      "ja_jp": "藁のベッドで寝た回数"
+      "zh_cn": "麦秆床上入眠次数"
     },
     "subtitles.block.poplar_leaves.ambient": {
       "en_us": "Leaves rustling",
-      "zh_cn": "树叶：沙沙作响",
-      "zh_tw": "樹葉颯颯聲",
-      "zh_hk": "樹葉沙沙聲",
-      "ja_jp": "葉がささめく"
+      "zh_cn": "树叶：沙沙作响"
     },
     "subtitles.block.shelf_mushroom.bounce": {
       "en_us": "Something bounces on a Shelf Mushroom",
-      "zh_cn": "某物：在层孔菇上弹跳",
-      "zh_tw": "某物在層孔菇上彈跳",
-      "zh_hk": "某物於層架蘑菇上彈跳",
-      "ja_jp": "サルノコシカケで何かが跳ねる"
+      "zh_cn": "某物：在层孔菇上弹跳"
     },
     "subtitles.block.straw_bed.break_leave": {
       "en_us": "Straw Bed breaks",
-      "zh_cn": "麦秆床：损坏",
-      "zh_tw": "乾草床損壞",
-      "zh_hk": "禾稈牀被破壞",
-      "ja_jp": "藁のベッドが破壊される"
+      "zh_cn": "麦秆床：损坏"
     },
     "subtitles.entity.cushion.break": {
       "en_us": "Cushion breaks",
-      "zh_cn": "坐垫：被破坏",
-      "zh_tw": "坐墊損壞",
-      "zh_hk": "咕臣被破壞",
-      "ja_jp": "クッションが破壊される"
+      "zh_cn": "坐垫：被破坏"
     },
     "subtitles.entity.cushion.get_up": {
       "en_us": "Gets up from Cushion",
-      "zh_cn": "离开坐垫",
-      "zh_tw": "從坐墊起身",
-      "zh_hk": "於咕臣上起身",
-      "ja_jp": "クッションから立ち上がる"
+      "zh_cn": "离开坐垫"
     },
     "subtitles.entity.cushion.place": {
       "en_us": "Cushion placed",
-      "zh_cn": "坐垫：被放置",
-      "zh_tw": "放置坐墊",
-      "zh_hk": "咕臣被放置",
-      "ja_jp": "クッションが設置される"
+      "zh_cn": "坐垫：被放置"
     },
     "subtitles.entity.cushion.sit": {
       "en_us": "Sits on Cushion",
-      "zh_cn": "坐上坐垫",
-      "zh_tw": "坐上坐墊",
-      "zh_hk": "坐上咕臣",
-      "ja_jp": "クッションに座る"
+      "zh_cn": "坐上坐垫"
     },
     "subtitles.entity.happy_ghast.riding": {
       "en_us": "Wind rushes past",
-      "zh_cn": "风呼啸而过",
-      "zh_tw": "風呼嘯而過",
-      "zh_hk": "風呼嘯而過",
-      "ja_jp": "風が吹き抜ける"
+      "zh_cn": "风呼啸而过"
     },
     "subtitles.entity.nautilus.riding": {
       "en_us": "Nautilus bubbles",
-      "zh_cn": "鹦鹉螺：冒泡",
-      "zh_tw": "鸚鵡螺吐出氣泡",
-      "zh_hk": "鸚鵡螺冒泡",
-      "ja_jp": "オウムガイが泡音を立てる"
+      "zh_cn": "鹦鹉螺：冒泡"
     },
     "test_instance.description.dimension": {
       "en_us": "Dimension: %s",
-      "zh_cn": "维度：%s",
-      "zh_tw": "維度：%s",
-      "zh_hk": "維度：%s",
-      "ja_jp": "ディメンション：%s"
+      "zh_cn": "维度：%s"
     },
     "test.player.coordinates": {
       "en_us": "Player coordinates: [%s, %s, %s] in %s",
-      "zh_cn": "玩家坐标：[%s, %s, %s]，位于%s",
-      "zh_tw": "玩家座標：[%s, %s, %s]，位於 %s",
-      "zh_hk": "玩家坐標：[%s, %s, %s]，位於 %s",
-      "ja_jp": "プレイヤーの座標：%4$s内の[%1$s, %2$s, %3$s]"
+      "zh_cn": "玩家坐标：[%s, %s, %s]，位于%s"
     },
     "test.run.coordinates": {
       "en_us": "Test coordinates: [%s, %s, %s] in %s",
-      "zh_cn": "测试坐标：[%s, %s, %s]，位于%s",
-      "zh_tw": "測試座標：[%s, %s, %s]，位於 %s",
-      "zh_hk": "測試坐標：[%s, %s, %s]，位於 %s",
-      "ja_jp": "テストの座標：%4$s内の[%1$s, %2$s, %3$s]"
+      "zh_cn": "测试坐标：[%s, %s, %s]，位于%s"
     },
     "upgradeWorld.aborted.file_already_exists": {
       "en_us": "The world folder seems to already contain some upgraded files. The game is unable to correctly upgrade your world.",
-      "zh_cn": "世界文件夹似乎已包含一些升级过的文件。游戏无法正确升级你的世界。",
-      "zh_tw": "世界資料夾似乎已包含部分升級後的檔案。遊戲無法正確升級你的世界。",
-      "zh_hk": "世界文件夾似乎原本已包含部分升級過的檔案。遊戲無法正確升級你的世界。",
-      "ja_jp": "ワールドのフォルダには既にアップグレード済みのファイルがあるようです。ワールドを正常にアップグレード出来ません。"
+      "zh_cn": "世界文件夹似乎已包含一些升级过的文件。游戏无法正确升级你的世界。"
     }
   },
-  "changed_count": 114,
+  "changed_count": 90,
   "changed": {
-    "advancements.husbandry.complete_catalogue.description": {
-      "en_us": "Tame all Cat variants!",
-      "zh_cn": "驯服所有种类的猫！",
-      "zh_tw": "馴服所有種類的貓！",
-      "zh_hk": "馴養所有種類的貓！",
-      "ja_jp": "すべての種類のネコを手懐ける"
-    },
     "advancements.husbandry.safely_harvest_honey.description": {
       "en_us": "Use a Campfire to collect Honey from a Beehive using a Glass Bottle without aggravating the Bees",
       "zh_cn": "利用营火，在不惊动蜜蜂的情况下，用玻璃瓶从蜂巢收集蜂蜜",
-      "zh_tw": "使用營火以在不激怒蜜蜂的情況下用玻璃瓶從蜂窩中取得蜂蜜",
-      "zh_hk": "用營火及玻璃樽獲取蜜糖，過程中不激怒蜂巢中的蜜蜂",
-      "ja_jp": "焚き火を利用して、ミツバチを怒らせずにガラス瓶にハチミツを採取する"
-    },
-    "advancements.husbandry.tame_an_animal.description": {
-      "en_us": "Tame an animal",
-      "zh_cn": "驯服一只动物",
-      "zh_tw": "馴服一隻動物",
-      "zh_hk": "馴養一隻動物",
-      "ja_jp": "動物を手懐ける"
-    },
-    "advancements.husbandry.whole_pack.description": {
-      "en_us": "Tame one of each Wolf variant",
-      "zh_cn": "驯服所有种类的狼",
-      "zh_tw": "馴服所有種類的狼",
-      "zh_hk": "馴養所有種類的狼",
-      "ja_jp": "すべての種類のオオカミを手懐ける"
-    },
-    "advancements.nether.ride_strider_in_overworld_lava.description": {
-      "en_us": "Take a Strider for a loooong ride on a lava lake in the Overworld",
-      "zh_cn": "带炽足兽在主世界的熔岩湖上来一场长——途旅行",
-      "zh_tw": "在主世界的熔岩湖上和熾足獸來一段長～～途旅行",
-      "zh_hk": "騎上熾足獸，於主世界的熔巖湖上去一次長——途旅行",
-      "ja_jp": "オーバーワールドの溶岩湖で長ーーーくストライダーを乗りこなす"
+      "origin_zh": "利用营火在不惊动蜜蜂的情况下从蜂巢收集蜂蜜"
     },
     "advancements.story.iron_tools.title": {
       "en_us": "Isn't It Iron Pick?",
       "zh_cn": "这不是铁镐么？",
-      "zh_tw": "莫非這是鐵鎬？",
-      "zh_hk": "呢把就係鐵鎬？",
-      "ja_jp": "鉄のツルハシで決まり"
+      "origin_en": "Isn't It Iron Pick",
+      "origin_zh": "这不是铁镐么"
     },
     "advMode.trackOutput": {
       "en_us": "Track Output",
       "zh_cn": "记录输出",
-      "zh_tw": "追蹤資料輸出",
-      "zh_hk": "追蹤數據輸出",
-      "ja_jp": "トラックの出力"
-    },
-    "argument.block.property.novalue": {
-      "en_us": "Expected value for property '%s' on block %s",
-      "zh_cn": "方块%2$s上的属性“%1$s”应有值",
-      "zh_tw": "%2$s 方塊的屬性 '%1$s' 應為值",
-      "zh_hk": "方塊 %2$s 上的屬性「%1$s」應有數值",
-      "ja_jp": "ブロック%2$sのプロパティ「%1$s」には値が必要です"
+      "origin_en": "Track output"
     },
     "argument.enum.invalid": {
       "en_us": "Invalid value '%s'",
       "zh_cn": "无效的值“%s”",
-      "zh_tw": "無效的值 '%s'",
-      "zh_hk": "無效數值「%s」",
-      "ja_jp": "「%s」は無効な値です"
+      "origin_en": "Invalid value \"%s\""
     },
     "argument.float.low": {
       "en_us": "Float must not be less than %s: found %s",
       "zh_cn": "单精度浮点型数据不能小于%s：实际为%s",
-      "zh_tw": "單精度浮點數不能少於 %s，但實際為 %s",
-      "zh_hk": "浮點值不得少於 %s，惟發現 %s",
-      "ja_jp": "この浮動小数点数は%s以上でなくてはならないため、%sは適しません"
+      "origin_zh": "浮点型数据不能小于%s：实际为%s"
     },
     "argument.pos.mixed": {
       "en_us": "Cannot mix world and local coordinates (everything must either use ^ or not)",
       "zh_cn": "不能混用绝对坐标与局部坐标（必须全部使用^或都不使用）",
-      "zh_tw": "不能混用世界與局部座標（必須全部都用 ^ 或是完全不用）",
-      "zh_hk": "不應混用世界與局部坐標（必須全部使用 ^ 或全部不使用）",
-      "ja_jp": "ワールド座標とローカル座標は混合できません（^を用いるか用いないかは統一する必要があります）"
+      "origin_en": "Cannot mix world & local coordinates (everything must either use ^ or not)",
+      "origin_zh": "不能混用世界与局部坐标（必须全部用^或都不使用）"
     },
     "argument.pos.outofbounds": {
       "en_us": "That position is outside the allowed boundaries",
       "zh_cn": "该位置超出了允许的范围",
-      "zh_tw": "該位置位於允許的範圍外",
-      "zh_hk": "此位置超出容許範圍",
-      "ja_jp": "その位置は許可された範囲外です"
+      "origin_en": "That position is outside the allowed boundaries.",
+      "origin_zh": "该位置超出了允许的范围。"
     },
     "chat_restriction.disabled_by_launcher": {
       "en_us": "Chat is restricted by the launcher.",
       "zh_cn": "聊天功能受启动器限制。",
-      "zh_tw": "聊天功能受到啟動器限制。",
-      "zh_hk": "聊天功能受啟動器限制。",
-      "ja_jp": "ランチャー側でチャットが制限されています。"
+      "origin_en": "Chat is restricted by the launcher",
+      "origin_zh": "聊天功能受启动器限制"
     },
     "chat_restriction.disabled_by_profile.action": {
       "en_us": "Go to Your Profile Settings",
       "zh_cn": "前往玩家档案设置",
-      "zh_tw": "前往玩家檔案設定",
-      "zh_hk": "前往玩家檔案設定",
-      "ja_jp": "プロフィール設定へ移動"
+      "origin_en": "Go to your profile settings"
     },
     "command.expected.separator": {
       "en_us": "Expected whitespace to end one argument, but found trailing data",
       "zh_cn": "参数后应有空格分隔，但发现了尾随数据",
-      "zh_tw": "引數結尾應為空白字元，但發現有尾隨資料",
-      "zh_hk": "引數結尾應為空白字符，惟發現有尾隨數據",
-      "ja_jp": "引数の区切りに空白が必要ですが、つながっています"
-    },
-    "commands.advancement.criterionNotFound": {
-      "en_us": "The advancement %1$s does not contain the criterion '%2$s'",
-      "zh_cn": "进度%1$s并不包含条件“%2$s”",
-      "zh_tw": "進度 %1$s 不包含 '%2$s' 標準條件",
-      "zh_hk": "進度 %1$s 不包含「%2$s」標準條件",
-      "ja_jp": "進捗%1$sは条件「%2$s」を含んでいません"
+      "origin_zh": "参数后应有空格分隔，但发现了紧邻的数据"
     },
     "commands.bossbar.get.visible.visible": {
       "en_us": "Custom bossbar %s is currently visible",
       "zh_cn": "自定义Boss栏%s现为可见",
-      "zh_tw": "自訂 Boss 狀態條 %s 目前可見",
-      "zh_hk": "自訂 Boss 狀態條 %s 目前可見",
-      "ja_jp": "カスタムボスバー%sは現在表示されています"
+      "origin_en": "Custom bossbar %s is currently shown"
     },
     "commands.bossbar.set.max.unchanged": {
       "en_us": "Nothing changed. That's already the maximum of this bossbar",
       "zh_cn": "无变化，这本就是这个Boss栏的最大值",
-      "zh_tw": "未進行任何變更。此 Boss 狀態條已經是該最大值",
-      "zh_hk": "未作任何變更。此 Boss 狀態條原本已為最大值",
-      "ja_jp": "指定したボスバーは既にその最大値であるため、変更されませんでした"
+      "origin_en": "Nothing changed. That's already the max of this bossbar"
     },
     "commands.datapack.unknown": {
       "en_us": "Unknown data pack '%s'",
       "zh_cn": "未知的数据包“%s”",
-      "zh_tw": "未知的資料包 '%s'",
-      "zh_hk": "未知數據包「%s」",
-      "ja_jp": "「%s」は不明なデータパックです"
-    },
-    "commands.function.result": {
-      "en_us": "Function %s returned %s",
-      "zh_cn": "函数%s返回了%s",
-      "zh_tw": "函數 %s 已回傳 %s",
-      "zh_hk": "函數 %s 已返回 %s",
-      "ja_jp": "関数「%s」が戻り値%sを返しました"
-    },
-    "commands.function.success.single.result": {
-      "en_us": "Function '%2$s' returned %1$s",
-      "zh_cn": "函数“%2$s”返回了%1$s",
-      "zh_tw": "函數 '%2$s' 已回傳 %1$s",
-      "zh_hk": "函數「%2$s」已返回 %1$s",
-      "ja_jp": "関数「%2$s」が戻り値%1$sを返しました"
+      "origin_zh": "未知的数据包 “%s”"
     },
     "commands.gamerule.query": {
       "en_us": "Game rule %s is currently set to %s",
       "zh_cn": "游戏规则%s目前为：%s",
-      "zh_tw": "遊戲規則 %s 目前設為 %s",
-      "zh_hk": "遊戲規則 %s 目前設為 %s",
-      "ja_jp": "ゲームルール「%s」は%sに設定されています"
+      "origin_en": "Gamerule %s is currently set to: %s"
     },
     "commands.gamerule.set": {
       "en_us": "Game rule %s is now set to %s",
       "zh_cn": "已将游戏规则%s设为%s",
-      "zh_tw": "遊戲規則 %s 已設為 %s",
-      "zh_hk": "已將遊戲規則 %s 設為 %s",
-      "ja_jp": "ゲームルール「%s」が%sに設定されました"
+      "origin_en": "Gamerule %s is now set to: %s"
     },
     "commands.kick.owner.failed": {
       "en_us": "Cannot kick the server owner in a LAN game",
       "zh_cn": "无法在局域网游戏中踢出服务器所有者",
-      "zh_tw": "無法在區域網路遊戲中踢出伺服器擁有者",
-      "zh_hk": "無法於 LAN 遊戲內踢出伺服器擁有者",
-      "ja_jp": "LANゲームではサーバーの所有者を退出させることはできません"
+      "origin_en": "Cannot kick server owner in LAN game"
     },
     "commands.op.failed": {
       "en_us": "Nothing changed. The player is already an operator",
       "zh_cn": "无变化，该玩家已是管理员",
-      "zh_tw": "未進行任何變更。該玩家已是管理員",
-      "zh_hk": "未作任何變更。此玩家原本已為管理員",
-      "ja_jp": "そのプレイヤーには既に管理者権限があるため、変更されませんでした"
+      "origin_en": "Nothing changed. The player already is an operator",
+      "origin_zh": "无变化，此玩家已是管理员"
     },
     "commands.perf.started": {
       "en_us": "Started a 10-second performance profiling run (use '/perf stop' to stop early)",
       "zh_cn": "已开始时长为10秒的性能分析测试（使用“/perf stop”以提前结束）",
-      "zh_tw": "已啟動持續 10 秒的效能分析測試（使用 '/perf stop' 以提前結束）",
-      "zh_hk": "已啟動持續 10 秒的效能分析器（用 「/perf stop」可提前停止）",
-      "ja_jp": "10秒間のパフォーマンスプロファイリングを開始しました（「/perf stop」で中断します）"
+      "origin_en": "Started 10 second performance profiling run (use '/perf stop' to stop early)"
     },
     "commands.random.error.range_too_large": {
       "en_us": "The range of the random value must be at most 2147483647",
       "zh_cn": "随机值的范围最大为2147483647",
-      "zh_tw": "隨機值範圍最大為 2147483647",
-      "zh_hk": "隨機值範圍須至多為 2147483647",
-      "ja_jp": "乱数の範囲は2147483647以下である必要があります"
+      "origin_en": "The range of the random value must be at most 2147483646"
     },
     "commands.random.error.range_too_small": {
       "en_us": "The range of the random value must be at least 1",
       "zh_cn": "随机值的范围最小为1",
-      "zh_tw": "隨機值範圍最小為 1",
-      "zh_hk": "隨機值範圍須至少為 1",
-      "ja_jp": "乱数の範囲は1以上である必要があります"
+      "origin_en": "The range of the random value must be at least 2"
     },
     "commands.schedule.cleared.success": {
       "en_us": "Removed %s schedule(s) with ID %s",
       "zh_cn": "已移除%s个ID为%s的计划",
-      "zh_tw": "已移除 ID 為 %2$s 的 %1$s 個排程",
-      "zh_hk": "已移除 %s 個 ID 為 %s 的計劃",
-      "ja_jp": "ID「%2$s」のスケジュールを%1$s個削除しました"
+      "origin_zh": "已移除%s个ID为%s的时间安排"
     },
     "commands.setworldspawn.failure.not_overworld": {
       "en_us": "Can only set the world spawn for the Overworld",
       "zh_cn": "只能为主世界设置世界出生点",
-      "zh_tw": "只能在主世界設定世界重生點",
-      "zh_hk": "僅可於主世界設定世界重生點",
-      "ja_jp": "ワールドのスポーン地点はオーバーワールドにのみ設定できます"
+      "origin_en": "Can only set the world spawn for overworld"
     },
     "commands.stopwatch.create.success": {
       "en_us": "Created stopwatch '%s'",
       "zh_cn": "已创建秒表“%s”",
-      "zh_tw": "已建立碼表 '%s'",
-      "zh_hk": "已建立秒錶「%s」",
-      "ja_jp": "ストップウォッチ「%s」を作成しました"
+      "origin_en": "Created Stopwatch '%s'"
     },
     "commands.stopwatch.remove.success": {
       "en_us": "Removed stopwatch '%s'",
       "zh_cn": "已移除秒表“%s”",
-      "zh_tw": "已移除碼表 '%s'",
-      "zh_hk": "已移除秒錶「%s」",
-      "ja_jp": "ストップウォッチ「%s」を削除しました"
+      "origin_en": "Removed Stopwatch '%s'"
     },
     "commands.stopwatch.restart.success": {
       "en_us": "Restarted stopwatch '%s'",
       "zh_cn": "已重新开始秒表“%s”",
-      "zh_tw": "已重新開始碼表 '%s'",
-      "zh_hk": "已重新開始秒錶「%s」",
-      "ja_jp": "ストップウォッチ「%s」を再始動しました"
+      "origin_en": "Restarted Stopwatch '%s'"
     },
     "commands.tag.list.multiple.success": {
       "en_us": "The %s entities have %s total tag(s): %s",
       "zh_cn": "%s个实体拥有共计%s项标签：%s",
-      "zh_tw": "這 %s 個實體總共有 %s 個標籤：%s",
-      "zh_hk": "%s 個實體總共有 %s 個標籤：%s",
-      "ja_jp": "%s体のエンティティは合計%s個のタグを持っています：%s"
+      "origin_en": "The %s entities have %s total tags: %s"
     },
     "commands.tag.list.single.success": {
       "en_us": "%s has %s tag(s): %s",
       "zh_cn": "%s拥有%s个标签：%s",
-      "zh_tw": "%s 有 %s 個標籤：%s",
-      "zh_hk": "%s 有 %s 個標籤：%s",
-      "ja_jp": "%sは%s個のタグを持っています：%s"
+      "origin_en": "%s has %s tags: %s"
     },
     "commands.tick.status.lagging": {
       "en_us": "The game is running, but can't keep up with the target tick rate",
       "zh_cn": "游戏正在运行，但无法维持目标速率",
-      "zh_tw": "遊戲正在執行，但無法維持目標速率",
-      "zh_hk": "遊戲正在執行，惟無法維持目標速率",
-      "ja_jp": "ゲームは実行されていますが、目標のティック速度を維持できていません"
+      "origin_zh": "游戏正在运行，但无法达到目标速率"
     },
     "commands.weather.set.thunder": {
       "en_us": "Set the weather to rain and thunder",
       "zh_cn": "天气已设为雷雨",
-      "zh_tw": "已將天氣設為雷雨",
-      "zh_hk": "已將天氣設為雷雨",
-      "ja_jp": "天候を雷雨に設定しました"
+      "origin_en": "Set the weather to rain & thunder"
     },
     "commands.worldborder.set.grow": {
       "en_us": "Growing the world border to %s block(s) wide over %s second(s)",
       "zh_cn": "正在将世界边界的宽度扩大为%s个方块，用时%s秒",
-      "zh_tw": "在 %2$s 秒間將世界邊界擴增為 %1$s 格寬",
-      "zh_hk": "正在將世界界限的寬度拓寬至 %s 個方塊，用時 %s 秒",
-      "ja_jp": "ワールドボーダーの幅を%2$s秒かけて%1$sブロックに拡大します"
-    },
-    "commands.worldborder.set.shrink": {
-      "en_us": "Shrinking the world border to %s block(s) wide over %s second(s)",
-      "zh_cn": "正在将世界边界的宽度缩小为%s个方块，用时%s秒",
-      "zh_tw": "在 %2$s 秒間將世界邊界縮減為 %1$s 格寬",
-      "zh_hk": "正在將世界界限的寬度縮窄至 %s 個方塊，用時 %s 秒",
-      "ja_jp": "ワールドボーダーの幅を%2$s秒かけて%1$sブロックに縮小します"
+      "origin_en": "Growing the world border to %s blocks wide over %s seconds"
     },
     "connect.connecting": {
       "en_us": "Connecting to the server...",
       "zh_cn": "正在连接至服务器…",
-      "zh_tw": "正在連線到伺服器...",
-      "zh_hk": "正在連線到伺服器⋯⋯",
-      "ja_jp": "サーバーに接続中…"
+      "origin_zh": "正在连接到服务器…"
     },
     "connect.failed.transfer": {
       "en_us": "Connection failed while transferring to the server",
       "zh_cn": "转移至服务器时连接失败",
-      "zh_tw": "轉移至伺服器時連線失敗",
-      "zh_hk": "轉移至伺服器時連線失敗",
-      "ja_jp": "サーバーへの転送中に接続が切断されました"
-    },
-    "container.repair.expensive": {
-      "en_us": "Too Expensive!",
-      "zh_cn": "过于昂贵！",
-      "zh_tw": "太貴了！",
-      "zh_hk": "太貴喇！",
-      "ja_jp": "コストが高すぎます！"
+      "origin_zh": "转移到服务器时连接失败"
     },
     "container.shulkerBox.itemCount": {
       "en_us": "%s x %s",
       "zh_cn": "%s × %s",
-      "zh_tw": "%s × %s",
-      "zh_hk": "%s × %s",
-      "ja_jp": "%s %s個"
-    },
-    "container.shulkerBox.more": {
-      "en_us": "and %s more...",
-      "zh_cn": "还有%s项未显示…",
-      "zh_tw": "還有 %s 件物品...",
-      "zh_hk": "尚有 %s 件物品⋯⋯",
-      "ja_jp": "その他%s項目…"
-    },
-    "container.spectatorCantOpen": {
-      "en_us": "Unable to open. Loot not generated yet.",
-      "zh_cn": "无法打开：战利品尚未生成。",
-      "zh_tw": "無法開啟。戰利品尚未生成。",
-      "zh_hk": "無法打開。戰利品尚未生成。",
-      "ja_jp": "中身のアイテムがまだ生成されていないため、開くことができません。"
+      "origin_en": "%s x%s"
     },
     "datapackFailure.safeMode.failed.title": {
       "en_us": "Failed to load world in Safe Mode",
       "zh_cn": "无法在安全模式下加载世界",
-      "zh_tw": "無法在安全模式下載入世界",
-      "zh_hk": "無法於安全模式下載入世界",
-      "ja_jp": "セーフモードでのワールドの読み込みに失敗しました"
-    },
-    "death.attack.fireworks": {
-      "en_us": "%1$s went off with a bang",
-      "zh_cn": "%1$s随着一声巨响消失了",
-      "zh_tw": "%1$s 在爆炸中犧牲了",
-      "zh_hk": "%1$s 燦爛謝幕",
-      "ja_jp": "%1$sは花火の爆発に巻き込まれた"
-    },
-    "death.attack.fireworks.item": {
-      "en_us": "%1$s went off with a bang due to a firework fired from %3$s by %2$s",
-      "zh_cn": "%1$s随着%2$s用%3$s发射的烟花发出的巨响消失了",
-      "zh_tw": "%1$s 在 %2$s 用 %3$s 發射的煙火所產生的爆炸中犧牲了",
-      "zh_hk": "%1$s 被 %2$s 用 %3$s 射出的煙花而燦爛謝幕",
-      "ja_jp": "%1$sは%2$sの%3$sが発射した花火の爆発に巻き込まれた"
-    },
-    "death.attack.fireworks.player": {
-      "en_us": "%1$s went off with a bang while fighting %2$s",
-      "zh_cn": "%1$s在与%2$s战斗时随着一声巨响消失了",
-      "zh_tw": "%1$s 在與 %2$s 戰鬥時隨著爆炸逝去",
-      "zh_hk": "%1$s 與 %2$s 戰鬥時燦爛謝幕",
-      "ja_jp": "%1$sは%2$sと戦いながら花火の爆発に巻き込まれた"
+      "origin_en": "Failed to load world in Safe Mode.",
+      "origin_zh": "无法在安全模式下加载世界。"
     },
     "death.attack.sting": {
       "en_us": "%1$s was stung to death",
       "zh_cn": "%1$s被蜇死了",
-      "zh_tw": "%1$s 被螫死了",
-      "zh_hk": "%1$s 被叮死",
-      "ja_jp": "%1$sは刺されて死んだ"
+      "origin_zh": "%1$s被蛰死了"
     },
     "death.attack.sting.item": {
       "en_us": "%1$s was stung to death by %2$s using %3$s",
       "zh_cn": "%1$s被%2$s用%3$s蜇死了",
-      "zh_tw": "%1$s 被 %2$s 以 %3$s 螫死了",
-      "zh_hk": "%1$s 被 %2$s 用 %3$s 叮死",
-      "ja_jp": "%1$sは%2$sの%3$sに刺されて死んだ"
+      "origin_zh": "%1$s被%2$s用%3$s蛰死了"
     },
     "death.attack.sting.player": {
       "en_us": "%1$s was stung to death by %2$s",
       "zh_cn": "%1$s被%2$s蜇死了",
-      "zh_tw": "%1$s 被 %2$s 螫死了",
-      "zh_hk": "%1$s 被 %2$s 叮死",
-      "ja_jp": "%1$sは%2$sに刺されて死んだ"
-    },
-    "death.attack.sulfurCubeHot": {
-      "en_us": "%1$s died because not just the floor is lava",
-      "zh_cn": "%1$s发现了不只有地板是熔岩做的",
-      "zh_tw": "%1$s 察覺不只有地面是熔岩",
-      "zh_hk": "%1$s 未能發覺不只有地面是熔巖",
-      "ja_jp": "%1$sは溶岩は床だけではなかったと気付いた"
+      "origin_zh": "%1$s被%2$s蛰死了"
     },
     "debug.options.notAllowed.tooltip": {
       "en_us": "Not visible when debug info is reduced.",
       "zh_cn": "简化调试信息时隐藏。",
-      "zh_tw": "簡化除錯資訊時隱藏。",
-      "zh_hk": "簡化除錯資訊時隱藏。",
-      "ja_jp": "デバッグ情報が制限されている状態では表示できません。"
+      "origin_en": "Not visible when debug info is reduced",
+      "origin_zh": "简化调试信息时隐藏"
     },
     "editGamerule.inGame.discardChanges.title": {
       "en_us": "Game Rule Changes",
       "zh_cn": "游戏规则更改",
-      "zh_tw": "遊戲規則變更",
-      "zh_hk": "遊戲規則變更",
-      "ja_jp": "ゲームルールの変更"
-    },
-    "filled_map.explorer_swamp": {
-      "en_us": "Swamp Explorer Map",
-      "zh_cn": "沼泽探险家地图",
-      "zh_tw": "沼澤探險家地圖",
-      "zh_hk": "沼澤地探險家地圖",
-      "ja_jp": "沼地探検家の地図"
+      "origin_en": "Game rule Changes"
     },
     "filled_map.level": {
       "en_us": "(Level %s/%s)",
       "zh_cn": "（缩放等级%s/%s）",
-      "zh_tw": "（縮放等級 %s/%s）",
-      "zh_hk": "（縮放等級 %s/%s）",
-      "ja_jp": "（レベル%s／%s）"
+      "origin_zh": "（等级 %s/%s）"
     },
     "gamerule.doEntityDrops.description": {
       "en_us": "Controls drops from Minecarts (including inventories), Item Frames, Boats, etc.",
       "zh_cn": "控制各种矿车（含内容物）、物品展示框、船等的物品掉落。",
-      "zh_tw": "控制礦車（包括內容物）、物品展示框、船等的掉落物。",
-      "zh_hk": "控制礦車（包括儲存物）、物品展示框、船之類的跌落物。",
-      "ja_jp": "トロッコや額縁、ボートなどの破壊時に、（内容物も含め）アイテムがドロップするかを設定できます"
+      "origin_en": "Controls drops from minecarts (including inventories), item frames, boats, etc.",
+      "origin_zh": "控制矿车（包括内容物）、物品展示框、船等的物品掉落。"
     },
     "gamerule.minecraft.fire_spread_radius_around_player.description": {
       "en_us": "The radius in blocks around a player in which fire can spread.",
       "zh_cn": "玩家周围火可以蔓延的方块半径。",
-      "zh_tw": "玩家周圍火焰可蔓延的半徑格數。",
-      "zh_hk": "玩家周圍火焰可蔓延的半徑（以方塊為單位）。",
-      "ja_jp": "プレイヤーの周囲の炎の延焼が発生しうる範囲の半径（ブロック）。"
+      "origin_en": "The radius in blocks around a player in which fire can spread",
+      "origin_zh": "玩家周围火焰可以蔓延的方块半径"
     },
     "gamerule.spawnChunkRadius.description": {
       "en_us": "The amount of chunks that stay loaded around the Overworld spawn position.",
       "zh_cn": "主世界出生点周围保持加载的区块数量。",
-      "zh_tw": "主世界重生點周圍維持載入的區塊數量。",
-      "zh_hk": "主世界重生點周圍保持載入的區塊數量。",
-      "ja_jp": "オーバーワールドのスポーン地点周辺の、常に読み込まれているチャンクの量。"
-    },
-    "gui.abuseReport.draft.quittotitle.title": {
-      "en_us": "You have a draft chat report that will be lost if you quit",
-      "zh_cn": "该聊天举报草稿将在退出时丢失",
-      "zh_tw": "您有一份聊天訊息檢舉草稿，如果離開，將遺失您的草稿",
-      "zh_hk": "你有一份聊天舉報草稿將於離開時遺失",
-      "ja_jp": "退出するとチャットの通報の下書きが破棄されます"
+      "origin_en": "The amount of chunks that stay loaded around the overworld spawn position."
     },
     "gui.chatReport.discard.title": {
       "en_us": "Discard Report and Comments?",
       "zh_cn": "放弃举报和留言？",
-      "zh_tw": "是否捨棄檢舉及留言？",
-      "zh_hk": "放棄舉報及留言？",
-      "ja_jp": "通報内容とコメントを破棄しますか？"
-    },
-    "gui.chatReport.draft.quittotitle.title": {
-      "en_us": "You have a draft chat report that will be lost if you quit",
-      "zh_cn": "你有一份聊天举报草稿将在退出时丢失",
-      "zh_tw": "您有一份聊天訊息檢舉草稿，如果離開，將遺失您的草稿",
-      "zh_hk": "你有一份聊天舉報草稿將於離開時遺失",
-      "ja_jp": "退出するとチャットの通報の下書きが破棄されます"
-    },
-    "gui.friends.enter_nickname": {
-      "en_us": "Enter Profile Name",
-      "zh_cn": "输入玩家档案名称",
-      "zh_tw": "輸入玩家檔案名稱",
-      "zh_hk": "輸入玩家檔案名稱",
-      "ja_jp": "プロフィール名を入力"
+      "origin_zh": "放弃举报和评论？"
     },
     "gui.friends.error.unauthorized": {
       "en_us": "Invalid token supplied. Restart your game and launcher, then try again.",
       "zh_cn": "提供的令牌无效。请重启游戏及启动器并重试。",
-      "zh_tw": "提供的權杖無效。請重新啟動遊戲與啟動器，然後再試一次。",
-      "zh_hk": "提供的權杖無效，請重新啟動遊戲與啟動器，然後重試。",
-      "ja_jp": "不正なトークンを受け取りました。ゲームおよびランチャーを再起動し、もう一度お試しください。"
+      "origin_en": "Invalid token supplied. Restart your game and launcher, then try again",
+      "origin_zh": "提供的令牌无效。请重启游戏及启动器并重试"
     },
     "gui.friends.loading_friends": {
       "en_us": "Loading Friends List...",
       "zh_cn": "加载好友列表中…",
-      "zh_tw": "正在載入好友清單...",
-      "zh_hk": "正在載入朋友列表⋯⋯",
-      "ja_jp": "フレンドリストを読み込み中…"
+      "origin_zh": "加载好友列表中..."
     },
     "gui.report_to_server": {
       "en_us": "Report to Server",
       "zh_cn": "向服务器报告",
-      "zh_tw": "向伺服器回報",
-      "zh_hk": "向伺服器報吿",
-      "ja_jp": "サーバーに報告"
+      "origin_en": "Report To Server"
     },
     "item.minecraft.firework_rocket.flight": {
       "en_us": "Flight Duration:",
       "zh_cn": "飞行时间：",
-      "zh_tw": "飛行時間：",
-      "zh_hk": "飛行時間：",
-      "ja_jp": "飛翔時間："
+      "origin_zh": "飞行时间：%s"
     },
     "key.debug.fpsCharts": {
       "en_us": "Fps Charts",
       "zh_cn": "FPS图表",
-      "zh_tw": "FPS 圖表",
-      "zh_hk": "FPS 圖表",
-      "ja_jp": "FPSグラフ"
-    },
-    "key.keyboard.left.win": {
-      "en_us": "Left Win",
-      "zh_cn": "左Win",
-      "zh_tw": "左 Win",
-      "zh_hk": "左 Win",
-      "ja_jp": "左Win"
-    },
-    "key.keyboard.right.win": {
-      "en_us": "Right Win",
-      "zh_cn": "右Win",
-      "zh_tw": "右 Win",
-      "zh_hk": "右 Win",
-      "ja_jp": "右Win"
+      "origin_en": "FPS Charts"
     },
     "mco.account.privacyinfo": {
       "en_us": "Mojang implements certain procedures to help protect children and their privacy including complying with the Children's Online Privacy Protection Act (COPPA) and General Data Protection Regulation (GDPR).\n\nYou may need to obtain parental consent before accessing your Realms account.\n\nIf you have an older Minecraft account (you log in with your username), you need to migrate the account to a Mojang account in order to access Realms.",
       "zh_cn": "Mojang实施许多方法来促进儿童及其隐私权的保护，包括履行《儿童在线隐私权保护法案》（COPPA）与《通用数据保护条例》（GDPR）。\n\n在访问你的Realms账户之前，你可能需要征得父母的同意。\n\n如果你拥有的是旧版的Minecraft账户（登录时使用用户名），你需要将其迁移到Mojang账户以访问Realms。",
-      "zh_tw": "Mojang 為了保護兒童及其隱私權施行了許多政策，包含《兒童線上隱私保護法》(COPPA) 與《一般資料保護規則》(GDPR)。\n\n您在存取 Realms 帳號之前可能需要取得家長的同意。\n\n如果您擁有較舊的 Minecraft 帳號（以使用者名稱登入），您必須將帳號轉移為 Mojang 帳號以使用 Realms。",
-      "zh_hk": "Mojang 通過實施數項政策保護兒童及其私隱，包括遵守《兒童線上私隱保護法》(COPPA) 及《通用數據保障規例》(GDPR)。\n\n你或須在存取你的 Realms 帳户前徵得家長同意。\n\n若你的 Minecraft 帳户較舊（以用户名稱登入），則須將該帳户轉移至 Mojang 帳户方可使用 Realms。",
-      "ja_jp": "Mojangは児童オンライン保護法（COPPA）と一般データ保護規則（GDPR）に基づく、こどもとそのプライバシーを保護するための手続きを履行しています。\n\nRealmsアカウントにアクセスするには保護者の同意が必要となる場合があります。\n\n古いMinecraftアカウント（ユーザー名でログインする形式）を所有している場合、RealmsにアクセスするにはMojangアカウントに移行する必要があります。"
+      "origin_zh": "Mojang实施许多方法来促进儿童及其隐私权的保护，包括履行《儿童在线隐私权保护法案》（COPPA）与《通用数据保护条例》（GDPR）。\n\n在访问你的Realms账户之前，你可能需要征得父母的同意。\n\n如果你拥有的是旧版的Minecraft账户（登录时使用用户名），你需要将其合并到Mojang账户以访问Realms。"
     },
     "mco.configure.world.close.question.line1": {
       "en_us": "You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready.\n\nThis does not cancel your Realms subscription.",
       "zh_cn": "你可以暂时关闭Realm，从而防止有人在你调整设置时进入游戏。准备就绪后即可重新打开。\n\n此操作不会取消你的Realms订阅。",
-      "zh_tw": "您可以暫時關閉 Realm，以防有人在調整時進入遊玩。準備就緒後就可以重新開啟。\n\n此操作不會取消您的 Realms 訂閱。",
-      "zh_hk": "您可暫時關閉 Realm，以防有人於您調整設定時進入遊玩。準備就緒後即可重新開啟。\n\n此操作不會取消您的 Realms 訂閲。",
-      "ja_jp": "調整のためRealmを一時的に閉じ、プレイを不可能にすることができます。準備が完了したら、再度開いてください。\n\nRealmの契約がキャンセルされることはありません。"
+      "origin_en": "You can temporarily close your Realm, preventing play while you make adjustments. Open it back up when you're ready. \n\nThis does not cancel your Realms Subscription.",
+      "origin_zh": "你可以暂时关闭Realm，从而防止有人在你调整设置时进入游戏。准备就绪后Realm可以重新打开。\n\n此操作不会取消你的Realms订阅。"
     },
     "mco.configure.world.reset.question.line1": {
       "en_us": "Your world will be regenerated and your current world will be lost",
       "zh_cn": "你的世界将被重新生成，而当前的世界将会消失",
-      "zh_tw": "您的世界將重新生成，您將失去當前的世界",
-      "zh_hk": "你的世界將重新生成，你將失去當前的世界",
-      "ja_jp": "ワールドが再生成され、このワールドは失われます"
+      "origin_zh": "你的Realm将被重新生成，而当前的Realm将会消失"
     },
     "mco.download.percent": {
       "en_us": "%s%%",
       "zh_cn": "%s%%",
-      "zh_tw": "%s%%",
-      "zh_hk": "%s%%",
-      "ja_jp": "%s%%"
+      "origin_en": "%s %%",
+      "origin_zh": "%s %%"
     },
     "mco.errorMessage.6002": {
       "en_us": "Terms of Service not accepted",
       "zh_cn": "未同意服务条款",
-      "zh_tw": "尚未接受服務條款",
-      "zh_hk": "並未接受服務條款",
-      "ja_jp": "利用規約に同意していません"
-    },
-    "mco.selectServer.noRealms": {
-      "en_us": "You don't seem to have a Realm. Add a Realm to play together with your friends.",
-      "zh_cn": "你似乎还没有Realm。添加Realm与朋友们一同畅玩。",
-      "zh_tw": "你似乎還沒有 Realm。新增 Realm 來與朋友一起遊玩。",
-      "zh_hk": "你似乎並未擁有 Realm。新增 Realm 與你的朋友一同遊玩。",
-      "ja_jp": "Realmを所有していないようです。Realmを追加してフレンドと一緒にプレイしましょう。"
+      "origin_en": "Terms of service not accepted",
+      "origin_zh": "尚未同意服务条款"
     },
     "mco.snapshot.subscription.info": {
       "en_us": "This is a Snapshot Realm that is paired with the subscription of your Realm '%s'. It will stay active for as long as its paired Realm is.",
       "zh_cn": "这是与你的Realm订阅“%s”绑定的快照版Realm。它会在与其绑定的Realm可用时保持可用。",
-      "zh_tw": "這是與您 Realm 訂閱「%s」綁定的快照版 Realm。與其綁定的 Realm 可以使用時，它也會維持能夠使用。",
-      "zh_hk": "此為一個快相版 Realm，並與 Realm 訂閲「%s」綁定。其有效期與所綁定的 Realm 相同。",
-      "ja_jp": "これはご契約中のRealm「%s」に結び付けられているスナップショット用Realmです。ご契約中のRealmが有効である間はこのRealmもご利用になれます。"
+      "origin_en": "This is a Snapshot Realm that is paired to the subscription of your Realm '%s'. It will stay active for as long as its paired Realm is."
     },
     "mco.template.select.none.linkTitle": {
       "en_us": "consider submitting something yourself",
       "zh_cn": "也可以自己提交一些内容",
-      "zh_tw": "您可以考慮上傳一些自己的東西",
-      "zh_hk": "嘗試一下自己提交自己的內容",
-      "ja_jp": "あなた自身でなにか投稿してはいかがでしょうか"
+      "origin_zh": "尝试自己提交一些自己的内容"
     },
     "mco.trial.message.line2": {
       "en_us": "Click here for more info!",
       "zh_cn": "点击此处了解更多信息！",
-      "zh_tw": "按此獲得更多資訊",
-      "zh_hk": "按此處獲取更多資訊！",
-      "ja_jp": "詳しくはこちらをクリック！"
+      "origin_zh": "点击此处来获得更多消息！"
     },
     "mco.upload.percent": {
       "en_us": "%s%%",
       "zh_cn": "%s %%",
-      "zh_tw": "%s%%",
-      "zh_hk": "%s%%",
-      "ja_jp": "%s%%"
+      "origin_en": "%s %%"
     },
     "mount.onboard": {
       "en_us": "Press %1$s to dismount",
       "zh_cn": "按下%1$s来脱离",
-      "zh_tw": "按 %1$s 取消乘坐",
-      "zh_hk": "按 %1$s 取消乘搭",
-      "ja_jp": "%1$sで降りる"
+      "origin_en": "Press %1$s to Dismount"
     },
     "multiplayer.confirm_command.signature_required": {
       "en_us": "You are trying to execute a command that will send chat messages using your name.\nIt can only be run from the chat screen.\nCommand: %s",
       "zh_cn": "你尝试执行的命令将使用你的名称发送聊天消息。\n该命令只能在聊天屏幕执行。\n命令：%s",
-      "zh_tw": "你嘗試執行的指令將使用你的名稱傳送聊天訊息。\n該指令只能從聊天欄執行。\n指令：%s",
-      "zh_hk": "你正嘗試執行一則命令，其將以你的名義傳送聊天訊息。\n此命令僅可於聊天畫面執行。\n命令：%s",
-      "ja_jp": "あなたの名前でチャットメッセージを送信するコマンドを実行しようとしています。\nこのコマンドはチャット欄からしか実行できません。\nコマンド：%s"
+      "origin_en": "You are trying to execute a command that will send chat messages using your name.\nIt can only be run from the chat screen\nCommand: %s",
+      "origin_zh": "你尝试执行的命令将使用你的名称发送聊天消息。\n该命令只能在聊天屏幕执行\n命令：%s"
     },
     "multiplayer.disconnect.too_many_pending_chats": {
       "en_us": "Too many unacknowledged chat messages",
       "zh_cn": "未经确认的聊天消息过多",
-      "zh_tw": "太多未經認可的聊天訊息",
-      "zh_hk": "未確認的聊天訊息過多",
-      "ja_jp": "未承認のチャットメッセージが多すぎます"
+      "origin_zh": "没有确认的聊天消息过多"
     },
     "multiplayer.disconnect.unexpected_query_response": {
       "en_us": "Unexpected custom data from client",
       "zh_cn": "从客户端收到意外的自定义数据",
-      "zh_tw": "從用戶端接收到預期外的自訂資料",
-      "zh_hk": "從客户端接收到預期外的自訂數據",
-      "ja_jp": "クライアントからの予期しないカスタムデータ"
+      "origin_zh": "从客户端收到未知的自定义数据"
     },
     "multiplayer.message_not_delivered": {
       "en_us": "Can't deliver chat message; check server logs: %s",
       "zh_cn": "无法发送聊天消息，请检查服务器日志：%s",
-      "zh_tw": "無法傳送聊天訊息，請檢查伺服器記錄：%s",
-      "zh_hk": "無法傳送聊天訊息，請檢查伺服器紀錄：%s",
-      "ja_jp": "チャットメッセージを配信できません。サーバーのログを確認してください：%s"
+      "origin_zh": "无法发送聊天信息，请检查服务器日志：%s"
     },
     "multiplayer.status.cannot_connect": {
       "en_us": "Can't connect to server",
       "zh_cn": "无法连接至服务器",
-      "zh_tw": "無法連線到伺服器",
-      "zh_hk": "無法連接伺服器",
-      "ja_jp": "サーバーに接続できません"
+      "origin_zh": "无法连接到服务器"
     },
     "multiplayerWarning.message": {
       "en_us": "Caution: Online play is offered by third-party servers that are not owned, operated, or supervised by Mojang Studios or Microsoft. During online play, you may be exposed to unmoderated chat messages or other types of user-generated content that may not be suitable for everyone.",
       "zh_cn": "警告：在线游戏由第三方服务器提供，不由Mojang Studios或Microsoft拥有、运营和监督。在线游戏的过程中，你可能会收到不受规制的聊天消息或者其他用户生成内容，而这些内容可能不适合所有人。",
-      "zh_tw": "警告：第三方伺服器所提供的遊戲不隸屬於 Mojang Studios 或 Microsoft， 不會受到我們的管理或監督。 線上遊玩時，您可能會遭遇到未受管理的聊天訊息、或是其他由使用者製造的內容，而這些內容可能不適合所有人。",
-      "zh_hk": "警吿：線上遊戲由第三方伺服器提供，這些伺服器並非由 Mojang Studios 或 Microsoft 擁有、營運及監管。遊玩線上遊戲時，你可能會見到未經審核的聊天訊息或其他類型的用户創造內容，這些內容未必適合所有人。",
-      "ja_jp": "警告：オンラインでのプレイはサードパーティ製のサーバーによって提供されており、Mojang StudiosやMicrosoftが所有、運営、監督するものではありません。オンラインでのプレイ中に、不適切な可能性があるチャットメッセージ等の内容にさらされる可能性があります。"
+      "origin_zh": "警告：在线游戏由第三方服务器提供，不由Mojang Studios或Microsoft拥有、运营和监督。 在线游戏的过程中，你可能会收到不受规制的聊天消息或者其他用户生成内容，而这些内容可能不适合所有人。"
     },
     "options.improvedTransparency.tooltip": {
       "en_us": "An experimental approach that uses screen shaders for drawing weather, clouds, and particles behind translucent blocks and water.\nThis will impact GPU performance.",
       "zh_cn": "使用屏幕着色器在半透明方块和水后面绘制天气、云和粒子的实验性方案。\n此设置会影响GPU性能。",
-      "zh_tw": "實驗性功能，使用畫面著色器在半透明方塊及水的後面繪製天氣、雲及粒子。\n這項功能會影響 GPU 效能。",
-      "zh_hk": "實驗性功能，此功能會調用影像着色器，用以在不透明方塊與水後方繪製天氣、雲層及粒子。\n此選項會影響 GPU 效能。",
-      "ja_jp": "半透明なブロックや水の後ろに描画される天候・雲・パーティクルに対してスクリーンシェーダーを使用する実験的な仕様です。\nGPUのパフォーマンスに影響を及ぼす可能性があります。"
+      "origin_zh": "实验性方案，使用顺序无关透明算法，以避免透视多层半透明物体时常见的图形问题。\n此设置会影响性能。"
     },
     "options.inactivityFpsLimit": {
       "en_us": "Reduce fps when",
       "zh_cn": "降低帧率",
-      "zh_tw": "限制 FPS",
-      "zh_hk": "限制 FPS",
-      "ja_jp": "FPS制限の条件"
+      "origin_en": "Reduce FPS when"
     },
     "options.languageWarning": {
       "en_us": "Language translations may not be 100%% accurate.",
       "zh_cn": "语言翻译不一定100%%准确。",
-      "zh_tw": "語言翻譯並不一定是 100%% 精確。",
-      "zh_hk": "語言翻譯未必 100%% 準確。",
-      "ja_jp": "正確な翻訳が行われていない可能性があります。"
+      "origin_en": "Language translations may not be 100%% accurate",
+      "origin_zh": "语言翻译不一定100%%准确"
     },
     "options.prioritizeChunkUpdates.byPlayer.tooltip": {
       "en_us": "Some actions within a chunk will recompile the chunk immediately. This includes block placing and destroying.",
       "zh_cn": "区块中的某些行为会导致区块的重新编译。例如对方块进行放置或破坏。",
-      "zh_tw": "區塊內的部分動作會將該區塊即時重新編譯。其中包括放置或破壞方塊。",
-      "zh_hk": "部分操作會即時將所處區塊重新編譯，包括放置與破壞方塊。",
-      "ja_jp": "ブロックの破壊や設置を含む特定のアクションがチャンク内で発生する度に、直ちにそのチャンクを再構築します。"
+      "origin_en": "Some actions within a chunk will recompile the chunk immediately. This includes block placing & destroying.",
+      "origin_zh": "区块内部的某些行为会导致区块立刻重新编译。这包括放置或破坏方块。"
     },
     "options.worldOptions.allow_commands.disabled.tooltip": {
       "en_us": "Cannot allow commands in a hardcore world.",
       "zh_cn": "无法在极限模式世界中开启“允许命令”。",
-      "zh_tw": "無法在極限模式世界中開啟「允許指令」。",
-      "zh_hk": "無法於極限模式世界中開啟「允許命令」。",
-      "ja_jp": "ハードコアのワールドではコマンドの許可をオンにできません。"
+      "origin_zh": "无法在极限模式世界中开启允许命令。"
     },
     "outOfMemory.message": {
       "en_us": "Minecraft has run out of memory.\n\nThis could be caused by a bug in the game or by the Java Virtual Machine not being allocated enough memory.\n\nTo prevent world corruption, the current game has quit. We've tried to free up enough memory to let you go back to the main menu and back to playing, but this may not have worked.\n\nPlease restart the game if you see this message again.",
       "zh_cn": "Minecraft已耗尽内存。\n\n原因可能是游戏存在漏洞，或分配给Java虚拟机的内存不足。\n\n为避免世界损坏，当前游戏已退出。我们已尝试腾出内存，让你可以回到主菜单并继续游戏，但这不一定奏效。\n\n如果你再次看见此消息，请重启游戏。",
-      "zh_tw": "Minecraft 記憶體不足。\n\n可能是由於遊戲錯誤，或配置給 Java 虛擬機器的記憶體不足。\n\n為防止世界損毀，已結束目前遊戲。我們已嘗試釋放記憶體，讓您返回主選單並繼續遊玩，但這個方法也可能無法解決問題。\n\n如果您再次看到此訊息，請重新啟動遊戲。",
-      "zh_hk": "Minecraft 已耗盡記憶體。\n\n此狀況可能源於遊戲存在漏洞，或分配給 Java 虛擬器的記憶體太少。\n\n為防止存檔損壞，目前遊戲已結束。我們已嘗試清除記憶體以令你返回主畫面繼續遊玩，惟未必奏效。\n\n若你再次見到此訊息，請重新啟動遊戲。",
-      "ja_jp": "Minecraftのメモリが不足しました。\n\nこれはゲームのバグもしくはJava仮想マシンに十分なメモリが割り当てられていないことが原因であると考えられます。\n\nワールドの破損を防ぐため、プレイ中のゲームを終了しました。メインメニューに戻ってプレイを再開できるよう、十分なメモリを解放することを試みましたが、正常に行われなかった可能性があります。\n\nこのメッセージが再び表示された場合は、ゲームを再起動してください。"
+      "origin_zh": "Minecraft已耗尽内存。\n\n原因可能是游戏存在漏洞，或分配给Java虚拟机的内存过少。\n\n为避免世界损坏，当前游戏已退出。我们已尝试腾出内存，让你可以回到主菜单并继续游戏，但这不一定奏效。\n\n如果你再次看见此消息，请重启游戏。"
     },
     "pack.dropRejected.message": {
       "en_us": "The following entries were not valid packs and were not copied:\n%s",
       "zh_cn": "以下项目不是有效的包，未能执行复制操作：\n %s",
-      "zh_tw": "下列項目不是有效的資源或資料包，因此未能執行複製操作：\n%s",
-      "zh_hk": "以下項目並非有效的包，因此並未複製：\n%s",
-      "ja_jp": "以下の項目は有効なパックではないため、コピーされませんでした\n %s"
+      "origin_en": "The following entries were not valid packs and were not copied:\n %s"
     },
     "quickplay.error.invalid_identifier": {
       "en_us": "Could not find a world with the provided identifier",
       "zh_cn": "无法找到具有指定标识符的世界",
-      "zh_tw": "找不到具有指定識別碼的世界",
-      "zh_hk": "未發現具有指定識別符的世界",
-      "ja_jp": "指定された識別子を持つワールドが見つかりませんでした"
+      "origin_en": "Could not find world with the provided identifier"
     },
     "quickplay.error.realm_connect": {
       "en_us": "Could not connect to this Realm",
       "zh_cn": "无法连接至此Realm",
-      "zh_tw": "無法連線至 Realm",
-      "zh_hk": "無法連線至 Realm",
-      "ja_jp": "Realmに接続できませんでした"
+      "origin_en": "Could not connect to Realm",
+      "origin_zh": "无法连接至Realm"
     },
     "selectWorld.conversion.tooltip": {
       "en_us": "This world must be opened in an older version (like 1.6.4) to be safely converted.",
       "zh_cn": "此世界必须在较旧版本（比如1.6.4）中打开，以便安全转换。",
-      "zh_tw": "此世界必須先以較舊的版本（如 1.6.4）開啟後才能安全轉換",
-      "zh_hk": "此世界須用較舊版本（例如 1.6.4）打開，以確保安全轉換。",
-      "ja_jp": "このワールドを安全に変換するには、一度古いバージョン（1.6.4など）で開く必要があります。"
+      "origin_en": "This world must be opened in an older version (like 1.6.4) to be safely converted",
+      "origin_zh": "此世界必须在较旧版本（比如1.6.4）中打开，以便安全转换"
     },
     "selectWorld.edit.backupSize": {
       "en_us": "Size: %s MB",
       "zh_cn": "大小：%s MB",
-      "zh_tw": "檔案大小：%s MB",
-      "zh_hk": "檔案大小：%s MB",
-      "ja_jp": "サイズ：%s MB"
+      "origin_en": "size: %s MB"
     },
     "selectWorld.experiments.info": {
       "en_us": "Experiments are potential new features. Be careful as things might break. Experiments can't be turned off after world creation.",
       "zh_cn": "实验性内容，即仍在开发的新功能。请小心，这些内容存在损坏风险。已开启的实验性内容在创建世界后将无法再关闭。",
-      "zh_tw": "實驗性內容為可能在未來加入的新功能。請小心它們可能造成損壞。已開啟的實驗性內容無法在建立世界後關閉。",
-      "zh_hk": "實驗性內容為可能會加入的新功能。請小心可能會造成損壞。已開啟的實驗性內容無法在建立世界後關閉。",
-      "ja_jp": "実験的機能には開発中の新要素が含まれます。破損の可能性を了解の上でご使用ください。実験的機能は、ワールドを作成した後から無効にすることはできません。"
+      "origin_zh": "实验性内容，即仍在开发的新功能。请小心，启用这些内容有损坏风险。已开启的实验性内容在创建世界后将无法再关闭。"
     },
     "selectWorld.load_folder_access": {
       "en_us": "Unable to read or access the folder where game worlds are saved!",
       "zh_cn": "无法读取或访问游戏世界存档所在的文件夹！",
-      "zh_tw": "無法讀取或存取遊戲世界存檔所在的資料夾！",
-      "zh_hk": "無法載入或存取遊戲世界存檔所在的文件夾！",
-      "ja_jp": "ワールドのフォルダーの読み込みまたは書き込みができないため、セーブできません！"
+      "origin_en": "Unable to read or access folder where game worlds are saved!"
     },
     "spectatorMenu.root.prompt": {
       "en_us": "Press a key to select a command, and again to use it.",
       "zh_cn": "按下任意键选择命令，再次按下即可使用。",
-      "zh_tw": "按下任意鍵以選擇指令，再按一次該按鍵以使用它",
-      "zh_hk": "按任意鍵選擇命令，再按一次此鍵以使用。",
-      "ja_jp": "キーを押してコマンドを選択してください。もう一度押すことで使用することができます。"
+      "origin_zh": "按下任意键选择命令，再次按下使用该键。"
     },
     "stat.minecraft.happy_ghast_one_cm": {
       "en_us": "Distance by Happy Ghast",
       "zh_cn": "骑快乐恶魂移动距离",
-      "zh_tw": "騎快樂幽靈移動距離",
-      "zh_hk": "快樂幽靈策騎距離",
-      "ja_jp": "ハッピーガストで移動した距離"
+      "origin_zh": "骑乘快乐恶魂移动距离"
     },
     "structure_block.load_not_found": {
       "en_us": "Structure '%s' is not available",
       "zh_cn": "不存在名为“%s”的结构",
-      "zh_tw": "沒有名為 '%s' 的結構",
-      "zh_hk": "並無名為「%s」的結構",
-      "ja_jp": "構造物「%s」は利用できません"
+      "origin_zh": "不存在名为“%s”的结构 "
     },
     "structure_block.position.x": {
       "en_us": "relative position x",
       "zh_cn": "相对X坐标",
-      "zh_tw": "X 軸相對位置",
-      "zh_hk": "X 軸相對位置",
-      "ja_jp": "X軸方向の相対座標"
+      "origin_en": "relative Position x"
     },
     "subtitles.block.bubble_column.upwards_inside": {
       "en_us": "Bubbles whoosh",
       "zh_cn": "气泡：上升",
-      "zh_tw": "氣泡推升",
-      "zh_hk": "氣泡飛升",
-      "ja_jp": "泡に押し上げられる"
+      "origin_en": "Bubbles woosh",
+      "origin_zh": "气泡：飞升"
     },
     "subtitles.entity.bee.sting": {
       "en_us": "Bee stings",
       "zh_cn": "蜜蜂：刺蜇",
-      "zh_tw": "蜜蜂螫咬",
-      "zh_hk": "蜜蜂叮咬",
-      "ja_jp": "ミツバチが刺す"
+      "origin_zh": "蜜蜂：刺蛰"
     },
     "subtitles.entity.copper_golem.no_item_get": {
       "en_us": "Copper Golem is picking up an item",
       "zh_cn": "铜傀儡：取出物品",
-      "zh_tw": "銅魔像取出物品",
-      "zh_hk": "銅人取出物品",
-      "ja_jp": "カッパーゴーレムがアイテムを取る"
+      "origin_en": "Copper Golem is picking up item"
     },
     "subtitles.entity.copper_golem.no_item_no_get": {
       "en_us": "Copper Golem can't pick up an item",
       "zh_cn": "铜傀儡：无法取出物品",
-      "zh_tw": "銅魔像無法取出物品",
-      "zh_hk": "銅人無法取出物品",
-      "ja_jp": "カッパーゴーレムがアイテムを取るのに失敗する"
+      "origin_en": "Copper Golem can't pick up item"
     },
     "subtitles.entity.puffer_fish.sting": {
       "en_us": "Pufferfish stings",
       "zh_cn": "河豚：刺蜇",
-      "zh_tw": "河豚螫人",
-      "zh_hk": "河豚針刺",
-      "ja_jp": "フグが毒を刺す"
+      "origin_zh": "河豚：刺蛰"
     },
     "subtitles.entity.warden.agitated": {
       "en_us": "Warden groans angrily",
       "zh_cn": "监守者：怒吼",
-      "zh_tw": "伏守者怒吼",
-      "zh_hk": "沉靈守衞怒吼",
-      "ja_jp": "ウォーデンが怒って唸る"
+      "origin_zh": "监守者：愤怒地呻吟"
     },
     "telemetry.event.performance_metrics.description": {
       "en_us": "Knowing the overall performance profile of Minecraft helps us tune and optimize the game for a wide range of machine specifications and operating systems.\nGame version is included to help us compare the performance profile for new versions of Minecraft.",
       "zh_cn": "了解Minecraft的整体性能概况，可以帮助我们针对各种机型和操作系统调整与优化游戏。 \n游戏版本信息也包含在其中，以帮助我们比较Minecraft新版本的性能概况。",
-      "zh_tw": "了解 Minecraft 整體的效能概況，可以幫助我們針對各類裝置及作業系統調整並改進遊戲。\n遊戲版本資訊也包含在內，以便我們比較新版本 Minecraft 的效能概況。",
-      "zh_hk": "瞭解 Minecraft 整體的效能概況，有助我們因應各類裝置及操作系統，調整及改進遊戲。\n記錄遊戲版本資訊則旨在協助我們比較 Minecraft 後續版本的效能概況。",
-      "ja_jp": "Minecraft全体のパフォーマンスプロファイルを知ることで、様々なマシンのスペックやOSに向けたゲームの調整や最適化が出来ます。\n新しいバージョンのMinecraftのパフォーマンスプロファイルを比較するために、ゲームのバージョンが含まれます。"
+      "origin_en": "Knowing the overall performance profile of Minecraft helps us tune and optimize the game for a wide range of machine specifications and operating systems. \nGame version is included to help us compare the performance profile for new versions of Minecraft."
     },
     "telemetry.property.frame_rate_samples.title": {
       "en_us": "Frame Rate Samples (fps)",
       "zh_cn": "帧率样本（FPS）",
-      "zh_tw": "畫面更新率樣本（FPS）",
-      "zh_hk": "畫面更新率樣本（FPS）",
-      "ja_jp": "フレームレートのサンプル（FPS）"
-    },
-    "translation.test.complex": {
-      "en_us": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!",
-      "zh_cn": "前缀，%s%2$s 然后是 %s 和 %1$s 最后是 %s 还有 %1$s！",
-      "zh_tw": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!",
-      "zh_hk": "前綴，%s%2$s 之後為 %s 與 %1$s 最後為 %s 以及 %1$s！",
-      "ja_jp": "Prefix, %s%2$s again %s and %1$s lastly %s and also %1$s again!"
+      "origin_en": "Frame Rate Samples (FPS)"
     }
   },
   "removed_count": 0,
