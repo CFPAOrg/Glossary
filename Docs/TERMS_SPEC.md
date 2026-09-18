@@ -7,7 +7,7 @@
 | 文件 | 角色 |
 |---|---|
 | `Vanilla/terms/terms-v1.tsv` | 术语表 |
-| `Vanilla/terms/special/*.tsv` | 旗帜 / 音效 / 纹样 / 陶片 / 热带鱼。消费侧 **根据领域按需加载** |
+| `Vanilla/terms/special/terms-<token>.tsv` | key 含 token 才加载。不要并进主表 |
 | `Vanilla/terms/qa-rules.tsv` | 英文结构、汉语格式（深层、墙上的、铜的「的」） |
 | `Vanilla/latest.tsv` | 原版语言文件，不是术语 |
 
@@ -46,6 +46,6 @@
 
 ## 6. 分表
 
-旗帜、音效、纹样、陶片、热带鱼在 `Vanilla/terms/special/`。这些词在原版里合法，丢进主表当普通词扫会误伤：旗帜的 Pale 是「竖条」，主表 Pale 是「苍白」；Coast、Tide 当纹样名没问题，当普通词会打中海岸和潮汐。
+`Vanilla/terms/special/terms-<token>.tsv`。token 字面即作用域：语言 key **包含** `<token>` 才加载这张表。不要并进主表。同 en 以所在表为准。
 
-按正在译的领域加载，不要把五张分表和主表合成一张大表。表面上相同的 `en` 以所在表为准。
+例：`terms-subtitles.tsv` 只打 `subtitles.entity.pig.ambient`，不打 `item.minecraft.porkchop`。文件名用 key 里的真实片段（`terms-tropical_fish.tsv`，不要 `tropical-fish`）。

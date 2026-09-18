@@ -7,7 +7,7 @@
 | 路径 | 内容 |
 |---|---|
 | `Vanilla/terms/terms-v1.tsv` | 原版术语表 |
-| `Vanilla/terms/special/` | 旗帜、音效、纹样、陶片、热带鱼。按领域加载，不要并进主表 |
+| `Vanilla/terms/special/` | `terms-<token>.tsv`。key 含 token 才加载，不要并进主表 |
 | `Vanilla/terms/qa-rules.tsv` | 结构与格式（深层、墙上的、铜的「的」） |
 | `Vanilla/terms/terms-version.tsv` | 分版本差异 |
 | `Vanilla/latest.tsv` | 现行语言文件（en / zh_cn / zh_tw / zh_hk / ja） |
