@@ -92,9 +92,9 @@ LLM 复核暂停：`judge` 不读 `LLM_*` 环境变量、不调模型，卡片�
 | `utility/test_termgen.py` | 11 条单元测试 |
 | `utility/termgen_scorecard.py` | 打分脚本，对比各版本；v1、v4 用临时目录现跑 |
 | `utility/termgen_review.html` | 单页审校工具：贴入 `terms-v1.tsv` 和 `<版本>.terms.json`，勾选后导出新的 v1 |
-| `Vanilla/diffs/<from>-<to>.terms.json` | `judge` 出的审校清单，人工过一遍后合并 |
+| `Vanilla/diffs/<from>-<to>.terms.json` | CI 跑 `judge` 生成的审校清单，人工过一遍后合并 |
 
-CI（Continuous Integration，持续集成）在 `.github/workflows/term-candidates.yml`：`Vanilla/diffs/*.json` 有新提交时选最新一份，跑一条 `judge --input Vanilla/latest.tsv --focus <diff> --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv`，把那份 JSON 作为 artifact 上传。手动触发时可以指定 diff 路径。
+CI（Continuous Integration，持续集成）在 `.github/workflows/term-candidates.yml`：`Vanilla/diffs/*.json` 有新提交时选最新一份，跑一条 `judge --input Vanilla/latest.tsv --focus <diff> --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv`，产物按默认命名落在 diff 旁边（`<版本>.terms.json`），由 bot 提交回 main。手动触发时可以指定 diff 路径。
 
 ## 实测数字
 

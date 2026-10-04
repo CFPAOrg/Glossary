@@ -11,9 +11,10 @@ on:
   push:
     paths:
       - 'Vanilla/diffs/*.json'
+      - '!Vanilla/diffs/*.terms.json'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   candidates:
@@ -59,6 +60,7 @@ jobs:
 
           echo "Selected diff: $DIFF"
           echo "diff=$DIFF" >> "$GITHUB_OUTPUT"
+          echo "out=${DIFF%.json}.terms.json" >> "$GITHUB_OUTPUT"
           echo "skip=false" >> "$GITHUB_OUTPUT"
 
       - name: Review candidates
@@ -70,17 +72,25 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
         run: |
           set -euo pipefail
+          # 不给 --out：judge 按默认命名把结果写在 diff 旁边，<版本>.terms.json
           python utility/termgen.py judge \
             --input Vanilla/latest.tsv \
             --focus "$DIFF" \
             --exclude-keys 'banner|tropical_fish|subtitles' \
-            --known Vanilla/terms/terms-v1.tsv \
-            --out "${{ runner.temp }}/termgen/terms.json"
+            --known Vanilla/terms/terms-v1.tsv
 
-      - name: Upload artifact
+      - name: Commit review list
         if: steps.select.outputs.skip != 'true'
-        uses: actions/upload-artifact@v4
-        with:
-          name: term-candidates
-          path: ${{ runner.temp }}/termgen/terms.json
-          if-no-files-found: warn
+        env:
+          OUT: ${{ steps.select.outputs.out }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$OUT"
+          if git diff --cached --quiet; then
+            echo "No changes to $OUT"
+            exit 0
+          fi
+          git commit -m "chore(termgen): 更新 $OUT [skip ci]"
+          git push
