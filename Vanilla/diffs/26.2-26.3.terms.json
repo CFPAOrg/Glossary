@@ -1,0 +1,187 @@
+{
+  "from": "26.2",
+  "to": "26.3",
+  "source_diff": "Vanilla/diffs/26.2-26.3.json",
+  "added_count": 37,
+  "added": [
+    {
+      "en": ["Dappled Forest"],
+      "zh": ["斑驳森林"],
+      "single_use": true,
+      "labels": ["biome"]
+    },
+    {
+      "en": ["Poplar"],
+      "zh": ["杨木", "杨树"]
+    },
+    {
+      "en": ["Door"],
+      "zh": ["门"]
+    },
+    {
+      "en": ["Poplar Fence"],
+      "zh": ["杨木栅栏"],
+      "single_use": true
+    },
+    {
+      "en": ["Poplar Shelf"],
+      "zh": ["杨木展示架"],
+      "single_use": true
+    },
+    {
+      "en": ["Wall"],
+      "zh": ["墙上的"]
+    },
+    {
+      "en": ["Poplar Wood"],
+      "zh": ["杨木"]
+    },
+    {
+      "en": ["Red Shrub"],
+      "zh": ["红灌木"],
+      "single_use": true
+    },
+    {
+      "en": ["Shelf Mushroom"],
+      "zh": ["层孔菇"],
+      "single_use": true
+    },
+    {
+      "en": ["Straw Bed"],
+      "zh": ["麦秆床"]
+    },
+    {
+      "en": ["Cushion"],
+      "zh": ["坐垫"]
+    },
+    {
+      "en": ["Boat"],
+      "zh": ["船"]
+    },
+    {
+      "en": ["Abandoned Camp Map"],
+      "zh": ["废弃营地地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Map"],
+      "zh": ["地图"]
+    },
+    {
+      "en": ["Abandoned Campsite Map"],
+      "zh": ["废弃营地地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Ancient City Map"],
+      "zh": ["远古城市地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Mineshaft Map"],
+      "zh": ["废弃矿井地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Buried Treasure Map"],
+      "zh": ["藏宝图"],
+      "single_use": true
+    },
+    {
+      "en": ["Buried Trial Chambers Map"],
+      "zh": ["埋藏的试炼密室地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Desert Pyramid Map"],
+      "zh": ["沙漠神殿地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Desert"],
+      "zh": ["沙漠"]
+    },
+    {
+      "en": ["Village"],
+      "zh": ["村庄"]
+    },
+    {
+      "en": ["Flight Duration: %s"],
+      "zh": ["飞行时间："],
+      "single_use": true
+    },
+    {
+      "en": ["Explorer"],
+      "zh": ["探险家"]
+    },
+    {
+      "en": ["Jungle Pyramid Map"],
+      "zh": ["丛林神庙地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Ocean"],
+      "zh": ["海洋"]
+    },
+    {
+      "en": ["Ocean Monument Map"],
+      "zh": ["海底神殿地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Plains"],
+      "zh": ["平原"]
+    },
+    {
+      "en": ["Snowy"],
+      "zh": ["雪原"]
+    },
+    {
+      "en": ["Swamp"],
+      "zh": ["沼泽"]
+    },
+    {
+      "en": ["Swamp Hut Map"],
+      "zh": ["沼泽小屋地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Warm Ocean Ruins Map"],
+      "zh": ["暖水海底废墟地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Woodland"],
+      "zh": ["林地"],
+      "single_use": true
+    },
+    {
+      "en": ["Woodland Mansion Map"],
+      "zh": ["林地府邸地图"],
+      "single_use": true
+    },
+    {
+      "en": ["Times Slept in a Straw Bed"],
+      "zh": ["麦秆床上入眠次数"],
+      "single_use": true,
+      "labels": ["stat"]
+    },
+    {
+      "en": ["Flight Duration:"],
+      "zh": ["飞行时间："],
+      "single_use": true,
+      "origin_zh": ["飞行时间：%s"]
+    },
+    {
+      "en": ["Distance by Happy Ghast"],
+      "zh": ["骑快乐恶魂移动距离"],
+      "single_use": true,
+      "labels": ["stat"],
+      "origin_zh": ["骑乘快乐恶魂移动距离"]
+    }
+  ],
+  "updated_count": 0,
+  "updated": [],
+  "removed_count": 0,
+  "removed": []
+}
