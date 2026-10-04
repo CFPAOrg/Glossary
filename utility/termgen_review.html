@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>术语表维护</title>
+<style>
+:root{--bd:#d0d7de;--muted:#57606a;--accent:#0969da;--ok:#1a7f37;--warn:#9a6700;--bad:#cf222e;--bg:#fff}
+*{box-sizing:border-box}
+body{margin:0;padding:16px;font:14px/1.5 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;background:#f6f8fa;color:#1f2328}
+h1{font-size:18px;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 14px}
+.sub code{background:#eaeef2;padding:1px 4px;border-radius:4px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px 12px}
+.card h2{font-size:13px;margin:0 0 6px;display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted);font-weight:600}
+textarea{width:100%;font:12px/1.45 ui-monospace,Consolas,"Courier New",monospace;border:1px solid var(--bd);border-radius:6px;padding:8px;resize:vertical;background:#fff}
+#v1,#diff{height:130px}
+#out{height:220px}
+button{font:13px inherit;padding:3px 10px;border:1px solid var(--bd);border-radius:6px;background:#fff;cursor:pointer}
+button:hover{background:#f3f4f6}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.primary:hover{background:#0860c4}
+button:disabled{opacity:.5;cursor:default}
+.bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0 8px}
+.count{color:var(--muted);font-size:13px}
+.count b{color:#1f2328}
+.wrap{max-height:360px;overflow:auto;background:var(--bg);border:1px solid var(--bd);border-radius:8px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{border-bottom:1px solid #eaeef2;padding:5px 7px;text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--muted);position:sticky;top:0;background:#fff;z-index:1}
+tr.off td{opacity:.45}
+tr.hit{background:#fff8c5}
+td.pick{width:28px}
+td.state{width:74px;white-space:nowrap}
+input[type=text]{width:100%;border:1px solid var(--bd);border-radius:4px;padding:2px 5px;font:13px inherit;background:#fff}
+.chip{display:inline-block;font-size:11px;line-height:16px;padding:0 6px;border-radius:9px;border:1px solid var(--bd);color:var(--muted);margin:2px 4px 0 0;white-space:nowrap}
+.chip.single{color:var(--warn);border-color:#d4a72c}
+.chip.upd{color:var(--bad);border-color:#ff8182}
+.chip.new{color:var(--ok);border-color:#4ac26b}
+.chip.same{color:var(--muted)}
+.why{color:var(--muted);font-size:12px;margin-top:2px}
+.wide{min-width:130px}
+footer{margin-top:14px;color:var(--muted);font-size:12px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<h1>术语表维护</h1>
+<p class="sub">左边贴 <code>Vanilla/terms/terms-v1.tsv</code>，右边贴 <code>Vanilla/diffs/&lt;版本&gt;.terms.json</code>，勾选要收的词，最后复制新的 v1。文件也可以直接选，全程在本机浏览器里跑，不上传。</p>
+
+<div class="grid">
+  <div class="card">
+    <h2>1 · 现有术语表 <span><input type="file" id="fileV1" hidden><button id="pickV1">选文件</button></span></h2>
+    <textarea id="v1" spellcheck="false" placeholder="en&#9;zh&#9;reason&#9;comment"></textarea>
+  </div>
+  <div class="card">
+    <h2>2 · 审校清单 <span><input type="file" id="fileDiff" hidden><button id="pickDiff">选文件</button></span></h2>
+    <textarea id="diff" spellcheck="false" placeholder="{ &quot;from&quot;: …, &quot;added&quot;: [ … ] }"></textarea>
+  </div>
+</div>
+
+<div class="bar">
+  <span class="count" id="counts"></span>
+  <span style="flex:1"></span>
+  <input type="text" id="filter" placeholder="过滤（en 或 zh）" style="width:180px">
+  <button id="allNew">选中全部新增</button>
+  <button id="none">全部取消</button>
+</div>
+<div id="warn" class="why"></div>
+
+<div class="wrap"><table>
+<thead><tr><th class="pick"></th><th class="state">状态</th><th>en</th><th class="wide">zh</th><th>reason</th><th>comment</th></tr></thead>
+<tbody id="rows"></tbody>
+</table></div>
+
+<div class="bar">
+  <span class="count" id="outInfo"></span>
+  <span style="flex:1"></span>
+  <button class="primary" id="copy">复制新的 v1</button>
+  <button id="download">下载 terms-v1.tsv</button>
+</div>
+<textarea id="out" readonly spellcheck="false"></textarea>
+
+<footer>勾选的「新增」追加到表尾；「更新」改的是原行，zh 默认取旧值和新值的并集，reason/comment 保留原值，可改。</footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const V1 = $('v1'), DIFF = $('diff'), OUT = $('out'), TBODY = $('rows'), FILTER = $('filter');
+let model = { lines: [], eol: '\n', trailing: false, index: new Map() };
+let entries = [];
+let dropped = { updated: 0, removed: 0 };
+
+function norm(en) {
+  return String(en || '').toLowerCase().replace(/[\u2019]/g, "'")
+    .replace(/[^a-z0-9' ]+/g, ' ').replace(/'s\b/g, '').replace(/\s+/g, ' ').trim();
+}
+function variants(zh) {
+  if (Array.isArray(zh)) return zh.map(s => String(s).trim()).filter(Boolean);
+  return String(zh || '').split('|').map(s => s.trim()).filter(Boolean);
+}
+function cell(v) {
+  return String(v == null ? '' : v).replace(/[\t\r\n]+/g, ' ').trim();
+}
+function pad(cols) {
+  const out = cols.slice(0, 4);
+  while (out.length < 4) out.push('');
+  return out;
+}
+
+function parseV1(text) {
+  const eol = text.indexOf('\r\n') >= 0 ? '\r\n' : '\n';
+  const trailing = /\r?\n$/.test(text);
+  const raw = text.replace(/\r\n/g, '\n').split('\n');
+  if (trailing) raw.pop();
+  const lines = [], index = new Map();
+  raw.forEach((line, i) => {
+    const rec = { raw: line, cols: pad(line.split('\t')), i };
+    if (i === 0 && rec.cols[0].trim().toLowerCase() === 'en') rec.header = true;
+    else if (line.trim()) {
+      const key = norm(rec.cols[0]);
+      if (key) index.set(key, rec);
+    }
+    lines.push(rec);
+  });
+  return { lines, eol, trailing, index };
+}
+
+function parseDiff(text) {
+  const data = JSON.parse(text);
+  const list = [];
+  const add = (item, force) => {
+    const en = (item.en || [])[0] || '';
+    if (!en) return;
+    list.push({
+      en,
+      zh: variants(item.zh).join('|'),
+      why: item.reason || '',
+      reason: '',
+      comment: item.comment || '',
+      labels: item.labels || [],
+      single: !!item.single_use,
+      origin: (item.origin_zh || []).slice(),
+      force: force || '',
+      keep: null
+    });
+  };
+  (data.added || []).forEach(item => add(item, ''));
+  (data.updated || []).forEach(item => add(item, 'update'));
+  dropped = { updated: (data.updated || []).length, removed: (data.removed || []).length };
+  return list;
+}
+
+function classify() {
+  entries.forEach(e => {
+    const hit = model.index.get(norm(e.en)) || null;
+    e.hit = hit;
+    if (e.force === 'update') e.status = hit ? 'update' : 'new';
+    else if (!hit) e.status = 'new';
+    else {
+      const have = new Set(variants(hit.cols[1]));
+      e.status = variants(e.zh).every(v => have.has(v)) ? 'same' : 'update';
+    }
+    if (e.keep === null) e.keep = e.status === 'new';
+    if (e.status === 'update' && hit && !e.touched) {
+      e.zh = variants(hit.cols[1]).concat(variants(e.zh))
+        .filter((v, i, all) => all.indexOf(v) === i).join('|');
+      if (e.reason === '') e.reason = hit.cols[2];
+      if (e.comment === '') e.comment = hit.cols[3];
+    }
+  });
+}
+
+function rowFor(e) {
+  const tr = document.createElement('tr');
+  tr.className = (e.keep ? '' : 'off') + (e.status === 'same' ? ' hit' : '');
+
+  const pick = document.createElement('td');
+  pick.className = 'pick';
+  const box = document.createElement('input');
+  box.type = 'checkbox';
+  box.checked = !!e.keep;
+  box.disabled = e.status === 'same';
+  box.addEventListener('change', () => { e.keep = box.checked; render(); });
+  pick.appendChild(box);
+
+  const state = document.createElement('td');
+  state.className = 'state';
+  const chip = document.createElement('span');
+  chip.className = 'chip ' + e.status;
+  chip.textContent = e.status === 'new' ? '新增' : e.status === 'update' ? '更新' : '已有';
+  state.appendChild(chip);
+
+  const en = document.createElement('td');
+  en.textContent = e.en;
+  const why = [];
+  if (e.single) why.push('语料中只出现一次');
+  if (e.labels.length) why.push(e.labels.join('/'));
+  if (e.origin.length) why.push('原译：' + e.origin.join('、'));
+  if (e.hit && e.status === 'update') why.push('表内原值：' + e.hit.cols[1]);
+  if (e.why) why.push('模型：' + e.why);
+  const note = document.createElement('div');
+  note.className = 'why';
+  note.textContent = why.join(' · ');
+  if (note.textContent) en.appendChild(note);
+  if (e.single) { const c = document.createElement('span'); c.className = 'chip single'; c.textContent = '一次'; en.insertBefore(c, note); }
+
+  const zh = document.createElement('td');
+  const zhIn = document.createElement('input');
+  zhIn.type = 'text';
+  zhIn.value = e.zh;
+  zhIn.addEventListener('input', () => { e.zh = zhIn.value; e.touched = true; build(); });
+  zh.appendChild(zhIn);
+
+  const reason = document.createElement('td');
+  const reasonIn = document.createElement('input');
+  reasonIn.type = 'text';
+  reasonIn.value = e.reason;
+  reasonIn.addEventListener('input', () => { e.reason = reasonIn.value; e.touched = true; build(); });
+  reason.appendChild(reasonIn);
+
+  const comment = document.createElement('td');
+  const commentIn = document.createElement('input');
+  commentIn.type = 'text';
+  commentIn.value = e.comment;
+  commentIn.addEventListener('input', () => { e.comment = commentIn.value; e.touched = true; build(); });
+  comment.appendChild(commentIn);
+
+  [pick, state, en, zh, reason, comment].forEach(td => tr.appendChild(td));
+  return tr;
+}
+
+function visible(e) {
+  const q = FILTER.value.trim().toLowerCase();
+  return !q || e.en.toLowerCase().indexOf(q) >= 0 || e.zh.toLowerCase().indexOf(q) >= 0;
+}
+
+function render() {
+  TBODY.textContent = '';
+  entries.filter(visible).forEach(e => TBODY.appendChild(rowFor(e)));
+  const n = { new: 0, update: 0, same: 0 };
+  let keep = 0;
+  entries.forEach(e => { n[e.status]++; if (e.keep && e.status !== 'same') keep++; });
+  $('counts').innerHTML = '新增 <b>' + n.new + '</b> · 更新 <b>' + n.update + '</b> · 已有 <b>' + n.same +
+    '</b> · 已勾选 <b>' + keep + '</b>';
+  const warn = [];
+  if (dropped.updated) warn.push('清单里还有 ' + dropped.updated + ' 条 updated');
+  if (dropped.removed) warn.push('清单里还有 ' + dropped.removed + ' 条 removed');
+  $('warn').textContent = warn.join(' · ');
+  build();
+}
+
+function build() {
+  if (!model.lines.length) { OUT.value = ''; $('outInfo').textContent = ''; return; }
+  const replaced = new Map();
+  const appended = [];
+  entries.forEach(e => {
+    if (!e.keep || e.status === 'same') return;
+    if (e.status === 'update' && e.hit) replaced.set(e.hit, e);
+    else appended.push(e);
+  });
+  const lines = model.lines.map(rec => {
+    const e = replaced.get(rec);
+    if (!e) return rec.raw;
+    const cols = rec.cols.slice();
+    cols[1] = cell(e.zh);
+    cols[2] = cell(e.reason);
+    cols[3] = cell(e.comment);
+    return cols.join('\t');
+  });
+  appended.forEach(e => lines.push([cell(e.en), cell(e.zh), cell(e.reason), cell(e.comment)].join('\t')));
+  const body = lines.join(model.eol);
+  OUT.value = body ? body + model.eol : '';
+  const rows = OUT.value ? OUT.value.replace(/\r?\n$/, '').split(/\r?\n/).length : 0;
+  $('outInfo').textContent = '输出 ' + rows + ' 行（新增 ' + appended.length + ' 条，改写 ' + replaced.size + ' 条）';
+}
+
+function refresh() {
+  try {
+    model = parseV1(V1.value);
+  } catch (err) {
+    model = { lines: [], eol: '\n', trailing: false, index: new Map() };
+  }
+  if (!DIFF.value.trim()) {
+    entries = [];
+    $('warn').textContent = '';
+  } else {
+    try {
+      entries = parseDiff(DIFF.value);
+      classify();
+    } catch (err) {
+      entries = [];
+      $('warn').textContent = '清单 JSON 解析失败：' + err.message;
+    }
+  }
+  render();
+}
+
+function readFile(input, target) {
+  const file = input.files && input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => { target.value = String(reader.result).replace(/\r\n/g, '\n'); refresh(); };
+  reader.readAsText(file, 'utf-8');
+  input.value = '';
+}
+
+function copyOut() {
+  OUT.select();
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+  if (!ok && navigator.clipboard) navigator.clipboard.writeText(OUT.value).catch(() => {});
+  const btn = $('copy');
+  const was = btn.textContent;
+  btn.textContent = '已复制';
+  setTimeout(() => { btn.textContent = was; }, 1200);
+}
+
+function downloadOut() {
+  const blob = new Blob([OUT.value], { type: 'text/tab-separated-values;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'terms-v1.tsv';
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+V1.addEventListener('input', refresh);
+DIFF.addEventListener('input', refresh);
+FILTER.addEventListener('input', render);
+$('pickV1').addEventListener('click', () => $('fileV1').click());
+$('pickDiff').addEventListener('click', () => $('fileDiff').click());
+$('fileV1').addEventListener('change', ev => readFile(ev.target, V1));
+$('fileDiff').addEventListener('change', ev => readFile(ev.target, DIFF));
+$('allNew').addEventListener('click', () => { entries.forEach(e => { if (e.status === 'new') e.keep = true; }); render(); });
+$('none').addEventListener('click', () => { entries.forEach(e => { e.keep = false; }); render(); });
+$('copy').addEventListener('click', copyOut);
+$('download').addEventListener('click', downloadOut);
+refresh();
+</script>
+</body>
+</html>

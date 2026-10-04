@@ -1,0 +1,86 @@
+name: Term Candidates
+
+on:
+  workflow_dispatch:
+    inputs:
+      diff:
+        description: 'Diff JSON path (empty = newest Vanilla/diffs/*.json)'
+        type: string
+        required: false
+        default: ''
+  push:
+    paths:
+      - 'Vanilla/diffs/*.json'
+
+permissions:
+  contents: read
+
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Select diff
+        id: select
+        env:
+          INPUT_DIFF: ${{ inputs.diff }}
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+          HEAD_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          EXCLUDE='term-key-filters\.json|\.terms\.json|candidates'
+          ZERO_SHA='0000000000000000000000000000000000000000'
+          DIFF=""
+
+          if [ -n "$INPUT_DIFF" ]; then
+            DIFF="$INPUT_DIFF"
+          elif [ "$EVENT_NAME" = "push" ] && [ -n "$BEFORE_SHA" ] && [ "$BEFORE_SHA" != "$ZERO_SHA" ]; then
+            CHANGED=$(git diff --name-only --diff-filter=ACMR "$BEFORE_SHA" "$HEAD_SHA" -- 'Vanilla/diffs/*.json' | grep -Ev "$EXCLUDE" || true)
+            DIFF=$(printf '%s\n' "$CHANGED" | sed '/^$/d' | sort -V | tail -n 1)
+          fi
+
+          if [ -z "$DIFF" ]; then
+            DIFF=$(ls Vanilla/diffs/*.json 2>/dev/null | grep -Ev "$EXCLUDE" | sort -V | tail -n 1 || true)
+          fi
+
+          if [ -z "$DIFF" ] || [ ! -f "$DIFF" ]; then
+            echo "No diff selected, skipping downstream steps"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Selected diff: $DIFF"
+          echo "diff=$DIFF" >> "$GITHUB_OUTPUT"
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+      - name: Review candidates
+        if: steps.select.outputs.skip != 'true'
+        env:
+          DIFF: ${{ steps.select.outputs.diff }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+        run: |
+          set -euo pipefail
+          python utility/termgen.py judge \
+            --input Vanilla/latest.tsv \
+            --focus "$DIFF" \
+            --exclude-keys 'banner|tropical_fish|subtitles' \
+            --known Vanilla/terms/terms-v1.tsv \
+            --out "${{ runner.temp }}/termgen/terms.json"
+
+      - name: Upload artifact
+        if: steps.select.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: term-candidates
+          path: ${{ runner.temp }}/termgen/terms.json
+          if-no-files-found: warn

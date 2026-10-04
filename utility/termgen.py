@@ -1,0 +1,1762 @@
+#!/usr/bin/env python3
+import argparse
+import csv
+import itertools
+import json
+import math
+import os
+import re
+import sys
+import time
+import urllib.request
+from collections import Counter, defaultdict
+from functools import lru_cache
+from pathlib import Path
+
+try:
+    import inflection
+except Exception:
+    inflection = None
+
+
+CJK_RE = re.compile(r'[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+')
+ASCII_RUN_RE = re.compile(r'[A-Za-z]+')
+FORMAT_RE = re.compile(r'%(\d+\$)?[sdf]|%%|\{[^}]*\}|§.|\\n|\\t|\\r')
+TOKEN_RE = re.compile(r"[A-Za-z]+(?:['’][A-Za-z]+)*")
+NAME_CHARS_RE = re.compile(r"[A-Za-z0-9'’\-\s]+$")
+NAME_BAD_RE = re.compile(r"[.!?…:;,()\[\]{}\"“”«»/\\|<>+=*#@$^~`]")
+STOP = set("""a an the and or but if then than that this these those of to in on at for with from by as
+is are was were be been being am do does did not no nor you your yours we our ours us it its he she they
+them their his her my me i will would can could should shall may might must have has had here there when
+where which who whom what how why all any some more most other such only own same so too very just also up
+down out off over under again further once during before after above below between into through about
+against while both each few because until unless upon onto within without across around""".split())
+LEAD_OK = {'the'}
+MAXN = 5
+MAX_NAME_TOKENS = 7
+
+KEEP_SCORE = 0.85
+ZIPF_GATE = 5.0
+ZIPF_SCOPE = 'label'
+REVIEW_SCORE = 0.30
+COHESION_CMP = 0.05
+COHESION_MI = 6.0
+KEY_FILTER_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                               'Vanilla', 'diffs', 'term-key-filters.json')
+
+
+def clean_en(s):
+    s = FORMAT_RE.sub(' ', s)
+    s = s.replace('’', "'").replace('\u00a0', ' ')
+    return ' '.join(s.split())
+
+
+def clean_zh(s):
+    s = FORMAT_RE.sub(' ', s)
+    return ' '.join(s.split())
+
+
+def tokens_lc(s):
+    return [t.lower() for t in TOKEN_RE.findall(s)]
+
+
+def raw_tokens(s):
+    return TOKEN_RE.findall(s)
+
+
+def token_ok(w):
+    if w.lower() in STOP:
+        return True
+    if any(c.isdigit() for c in w):
+        return True
+    if len(w) == 1:
+        return True
+    if w.isupper():
+        return True
+    return w[0].isupper()
+
+
+def is_name_like(s):
+    if not s or len(s) > 80:
+        return False
+    if NAME_BAD_RE.search(s):
+        return False
+    if not NAME_CHARS_RE.match(s):
+        return False
+    rt = raw_tokens(s)
+    if not rt or len(rt) > MAX_NAME_TOKENS:
+        return False
+    low = [t.lower() for t in rt]
+    if low[0] in STOP and low[0] not in LEAD_OK:
+        return False
+    if not any(w[0].isupper() or w.isupper() for w in rt):
+        return False
+    for w in rt:
+        if not token_ok(w):
+            return False
+    nstop = sum(1 for w in low if w in STOP)
+    if len(rt) >= 5 and nstop >= 2:
+        return False
+    return True
+
+
+def norm_lemma(s):
+    s = s.lower().replace('’', "'")
+    s = re.sub(r"[^a-z0-9' ]+", ' ', s)
+    s = re.sub(r"'s\b", '', s)
+    out = []
+    for w in s.split():
+        if inflection is not None and len(w) > 3 and w.isalpha():
+            try:
+                w = inflection.singularize(w)
+            except Exception:
+                pass
+        out.append(w)
+    return ' '.join(out)
+
+
+def load_key_filter():
+    with open(KEY_FILTER_PATH, encoding='utf-8') as f:
+        data = json.load(f)
+    wl = [re.compile(p) for p in data.get('whitelist_patterns', [])]
+    bl = [re.compile(p) for p in data.get('blacklist_patterns', [])]
+    return wl, bl
+
+
+def is_product_key(key, wl, bl):
+    if not key:
+        return False
+    if any(p.search(key) for p in bl):
+        return False
+    return any(p.search(key) for p in wl)
+
+
+PARTICLES = set('的了着之地得是在和与及或为被把让使对从向于而且并也都就才还又很更最不没有无')
+SLACK = PARTICLES | {'色'}
+
+
+def load_input_rows(path):
+    if path.endswith('.json'):
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+        rows = []
+        for section in ('added', 'changed'):
+            for key, val in data.get(section, {}).items():
+                rows.append((key, val.get('en_us', ''), val.get('zh_cn', '')))
+        return rows
+    if path.endswith('.txt'):
+        with open(path, encoding='utf-8') as f:
+            return [(str(i), line, '') for i, line in enumerate(f, 1)]
+    with open(path, encoding='utf-8', newline='') as f:
+        rd = list(csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE))
+    if not rd:
+        return []
+    head = [c.strip().lower() for c in rd[0]]
+    if 'en_us' in head or 'en' in head or 'key' in head:
+        ie = head.index('en_us') if 'en_us' in head else (head.index('en') if 'en' in head else None)
+        iz = head.index('zh_cn') if 'zh_cn' in head else (head.index('zh') if 'zh' in head else None)
+        ik = head.index('key') if 'key' in head else None
+        data = rd[1:]
+        start = 2
+    else:
+        ie, iz, ik = 0, (1 if len(rd[0]) > 1 else None), None
+        data = rd
+        start = 1
+    rows = []
+    for i, r in enumerate(data, start):
+        if ie is None or ie >= len(r):
+            continue
+        key = r[ik] if (ik is not None and ik < len(r)) else str(i)
+        zh = r[iz] if (iz is not None and iz < len(r)) else ''
+        rows.append((key, r[ie], zh))
+    return rows
+
+
+def load_focus_keys(path):
+    path = str(path)
+    with open(path, encoding='utf-8', newline='') as f:
+        text = f.read()
+    if path.endswith('.json'):
+        data = json.loads(text)
+        keys = set()
+        for section in ('added', 'changed', 'removed'):
+            block = data.get(section)
+            if isinstance(block, dict):
+                keys.update(block)
+            elif isinstance(block, list):
+                keys.update(item if isinstance(item, str) else item.get('key', '')
+                            for item in block)
+        return {key for key in keys if key}
+    return {line.split('\t')[0].strip() for line in text.splitlines() if line.strip()}
+
+
+def load_gold(paths):
+    out = []
+    for path in paths:
+        with open(path, encoding='utf-8', newline='') as f:
+            for r in csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE):
+                if len(r) < 2 or not r[0].strip() or r[0].strip().lower() == 'en':
+                    continue
+                out.append((clean_en(r[0]), [clean_zh(v) for v in r[1].split('|') if clean_zh(v)]))
+    return out
+
+
+ROOT = Path(__file__).resolve().parent.parent
+CONNECTORS = {'of', 'the'}
+MAX_GRAM = 5
+MIN_STRONG_FREQ = 3
+ENTROPY_GATE = 2.0
+JOIN_GATE = 3.0
+MIN_ROWS = 2
+MIN_PAIRS = 2
+MAX_INDUCTION_ROUNDS = 2
+MAX_PRUNE_ROUNDS = 4
+
+
+def packed(value):
+    return json.dumps(value, ensure_ascii=False, separators=(',', ':'))
+
+
+def zh_fragments(text):
+    return {run[i:j] for run in CJK_RE.findall(text)
+            for i in range(len(run))
+            for j in range(i + 1, min(len(run), i + 8) + 1)}
+
+
+def name_tokens(en):
+    return tuple(tokens_lc(en)) if is_name_like(en) and not re.search(r'[0-9]', en) else ()
+
+
+def translations(gram, support, pairs, fragments, subdf, whole):
+    exact = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
+    hits = Counter(sub for pid in support for sub in fragments[pid])
+    eligible = {sub for sub, count in hits.items()
+                if count >= 2 and count / subdf[sub] >= 0.5}
+    variants = list(exact)
+    covered = {pid for pid in support if any(z in pairs[pid][1] for z in variants)}
+    confidence = 1.0 if exact else 0.0
+    while len(variants) < max(4, len(exact)):
+        uncovered = support - covered
+        choices = []
+        for sub in eligible:
+            extra = {pid for pid in uncovered if sub in fragments[pid]}
+            if len(extra) < 2:
+                continue
+            outside = subdf[sub] - hits[sub]
+            dice = 2 * len(extra) / (len(uncovered) + len(extra) + outside)
+            if dice >= 0.5:
+                choices.append((dice, len(extra), len(sub), sub, extra))
+        if not choices:
+            break
+        dice, count, length, sub, extra = max(choices)
+        variants.append(sub)
+        confidence = max(confidence, dice)
+        covered.update(extra)
+    return variants, confidence, len(covered) / len(support)
+
+
+def chinese_match(zh, parts):
+    target = re.sub(r'\s+', '', zh)
+    variants = tuple(tuple(re.sub(r'\s+', '', z) for z in card['zh_candidates'] if z)
+                     for card in parts)
+
+    @lru_cache(maxsize=None)
+    def visit(pos, remaining):
+        if not remaining:
+            return pos == len(target)
+        if pos and pos < len(target) - 1 and target[pos] == '的':
+            if visit(pos + 1, remaining):
+                return True
+        for i, options in enumerate(variants):
+            if remaining & (1 << i):
+                for variant in options:
+                    if target.startswith(variant, pos) and visit(
+                            pos + len(variant), remaining ^ (1 << i)):
+                        return True
+        return False
+
+    return bool(parts) and visit(0, (1 << len(parts)) - 1)
+
+
+def compose(toks, zh, lexicon, forbid=None):
+    if not toks or not zh:
+        return None
+    attempts = 0
+
+    def paths(pos, chosen):
+        nonlocal attempts
+        if attempts >= 256:
+            return None
+        if pos == len(toks):
+            attempts += 1
+            if chinese_match(zh, chosen):
+                return [card['id'] for card in chosen]
+            return None
+        for end in range(min(len(toks), pos + MAX_GRAM), pos, -1):
+            gram = toks[pos:end]
+            if gram != forbid and gram in lexicon:
+                found = paths(end, chosen + [lexicon[gram]])
+                if found is not None:
+                    return found
+        if toks[pos] in CONNECTORS:
+            return paths(pos + 1, chosen)
+        return None
+
+    return paths(0, [])
+
+
+def refine_atoms(aligned, supports, pairs, fragments, whole):
+    atoms = {gram[0]: {'zh_candidates': info[0]}
+             for gram, info in aligned.items() if len(gram) == 1 and info[0]}
+    refined = {}
+    for word, card in atoms.items():
+        gram = (word,)
+        found = defaultdict(set)
+        for pid in supports[gram]:
+            en, zh = pairs[pid]
+            toks = name_tokens(en)
+            if toks.count(word) != 1 or len(toks) == 1:
+                continue
+            other = [t for t in toks if t != word and t not in CONNECTORS]
+            if any(t not in atoms for t in other):
+                continue
+            parts = [atoms[t] for t in other]
+            for sub in fragments[pid]:
+                if chinese_match(zh, parts + [{'zh_candidates': [sub]}]):
+                    found[sub].add(pid)
+        choices = sorted(((len(pids), len(sub), sub, pids) for sub, pids in found.items()
+                          if len({pairs[pid][0] for pid in pids}) >= 2), reverse=True)
+        variants = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
+        explained = set()
+        for count, length, sub, pids in choices:
+            if not (pids - explained):
+                continue
+            if sub not in variants:
+                variants.append(sub)
+            explained.update(pids)
+            if len(variants) >= 4:
+                break
+        if len(explained) >= max(2, len(supports[gram]) / 2):
+            refined[gram] = (variants, aligned[gram][1], len(explained) / len(supports[gram]))
+        elif variants:
+            merged = list(card['zh_candidates'])
+            merged.extend(z for z in variants if z not in merged)
+            refined[gram] = (merged, aligned[gram][1], aligned[gram][2])
+    aligned.update(refined)
+
+
+def entropy_bits(counter):
+    total = sum(counter.values())
+    if not total:
+        return 0.0
+    return -sum((count / total) * math.log2(count / total) for count in counter.values())
+
+
+def outside_units(toks, bank):
+    if not toks:
+        return []
+    for end in range(min(MAX_GRAM, len(toks)), 0, -1):
+        gram = toks[:end]
+        if gram in bank:
+            rest = outside_units(toks[end:], bank)
+            if rest is not None:
+                return [bank[gram]] + rest
+    if toks[0] in CONNECTORS:
+        return outside_units(toks[1:], bank)
+    return None
+
+
+def verify_nested(grams, aligned, bank, supports, pairs, fragments, whole, names):
+    for gram in grams:
+        info = aligned.get(gram)
+        if not info:
+            continue
+        found = defaultdict(set)
+        head_of = {}
+        for pid in supports[gram]:
+            en, zh = pairs[pid]
+            toks = names[en]
+            positions = [i for i in range(len(toks) - len(gram) + 1)
+                         if toks[i:i + len(gram)] == gram]
+            if len(positions) != 1:
+                continue
+            start = positions[0]
+            before = outside_units(toks[:start], bank)
+            after = outside_units(toks[start + len(gram):], bank)
+            if before is None or after is None or not before and not after:
+                continue
+            outside = toks[start + len(gram):] or toks[:start]
+            head_of[pid] = outside[-1]
+            for sub in fragments[pid]:
+                if chinese_match(zh, before + after + [{'zh_candidates': [sub]}]):
+                    found[sub].add(pid)
+        eligible = sorted(((len(pids), len(sub), sub, pids)
+                           for sub, pids in found.items()
+                           if len({head_of[pid] for pid in pids}) >= 2), reverse=True)
+        exact = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
+        variants = list(exact)
+        covered = set()
+        for count, length, sub, pids in eligible:
+            extra = pids - covered
+            if len({head_of[pid] for pid in extra}) < 2:
+                continue
+            if sub not in variants:
+                variants.append(sub)
+            covered.update(pids)
+            if len(variants) >= max(4, len(exact)):
+                break
+        if len(covered) >= max(2, len(supports[gram]) / 2):
+            aligned[gram] = (variants, info[1], len(covered) / len(supports[gram]))
+
+
+def trim_variants(cards, audit, by_id):
+    observed = defaultdict(set)
+    for row in audit:
+        parts = [by_id[cid] for cid in row['terms']]
+        for cid in set(row['terms']):
+            card = by_id[cid]
+            if card['kind'] == 'exception' or row['terms'].count(cid) > 1:
+                observed[cid].update(card['zh_candidates'])
+                continue
+            for variant in card['zh_candidates']:
+                narrowed = [dict(part, zh_candidates=[variant]) if part['id'] == cid
+                            else part for part in parts]
+                if chinese_match(row['zh'], narrowed):
+                    observed[cid].add(variant)
+    for card in cards:
+        card['zh_candidates'] = [z for z in card['zh_candidates']
+                                 if z in observed[card['id']]]
+
+
+def compact_card(card):
+    return {'id': card['id'], 'en': card['en'], 'zh': card['zh_candidates']}
+
+
+def select_cards(cards, audit, budget):
+    by_id = {card['id']: card for card in cards}
+    bundles = defaultdict(int)
+    for row in audit:
+        bundles[frozenset(row['terms'])] += 1
+    selected = set()
+    order = []
+    while len(selected) < len(cards):
+        gains = defaultdict(int)
+        for deps, count in bundles.items():
+            missing = deps - selected
+            if missing:
+                gains[missing] += count
+        if not gains:
+            break
+        remaining = budget - len(selected) if budget else len(cards)
+        choices = [(gain / len(missing), gain, tuple(sorted(missing)), missing)
+                   for missing, gain in gains.items() if len(missing) <= remaining]
+        if not choices:
+            break
+        _, _, _, best = max(choices)
+        for card_id in sorted(best, key=lambda cid: (-by_id[cid]['uses'], cid)):
+            selected.add(card_id)
+            order.append(by_id[card_id])
+    return order
+
+
+def stripped(text):
+    return re.sub(r'\s+', '', text)
+
+
+def build_lexicon(cards, atoms):
+    lexicon = {}
+    for card in list(cards.values()) + atoms:
+        if card['kind'] != 'unit':
+            continue
+        tokens = name_tokens(card['en'])
+        if tokens:
+            lexicon[tokens] = card
+    return lexicon
+
+
+def load_standalone(rows):
+    standalone = defaultdict(set)
+    for _, en, zh in rows:
+        standalone[norm_lemma(en)].add(zh)
+    return standalone
+
+
+def unit_variants(cards):
+    variants = set()
+    for card in cards.values():
+        if card['kind'] == 'unit':
+            variants.update(card['zh_candidates'])
+    return variants
+
+
+def accounted(variants, zh):
+    target = stripped(zh)
+    reachable = [False] * (len(target) + 1)
+    reachable[0] = True
+    for end in range(1, len(target) + 1):
+        for start in range(end):
+            if reachable[start] and target[start:end] in variants:
+                reachable[end] = True
+                break
+    return reachable[-1]
+
+
+def row_tokens(en):
+    return name_tokens(en) or tuple(tokens_lc(en))
+
+
+def span_variants(lexicon, target, tokens):
+    spans = []
+    for start in range(len(tokens)):
+        for end in range(start + 1, len(tokens) + 1):
+            card = lexicon.get(tokens[start:end])
+            if card is None:
+                continue
+            found = [z for z in card['zh_candidates']
+                     if z and z != target and target.count(z) == 1]
+            if found:
+                spans.append((start, end, max(found, key=lambda z: (len(z), z))))
+    return spans
+
+
+def has_literal(pattern):
+    return any(not token.startswith('{') and token not in CONNECTORS for token in pattern)
+
+
+def add_template(templates, pattern, zh_pattern, row, fillers):
+    record = templates.setdefault((pattern, zh_pattern),
+                                  {'keys': set(), 'fillers': set(), 'pairs': set()})
+    record['keys'].add(row['key'])
+    record['fillers'].add(fillers)
+    record['pairs'].add((row['en'], row['zh']))
+
+
+def extract_templates(audit, lexicon):
+    templates = {}
+    for row in audit:
+        tokens = row_tokens(row['en'])
+        target = stripped(row['zh'])
+        if not tokens or not target:
+            continue
+        spans = span_variants(lexicon, target, tokens)
+        for start, end, variant in spans:
+            pattern = tokens[:start] + ('{0}',) + tokens[end:]
+            if not has_literal(pattern):
+                continue
+            cut = target.index(variant)
+            add_template(templates, pattern, target[:cut] + '{0}' + target[cut + len(variant):],
+                         row, tokens[start:end])
+        for first in range(len(spans)):
+            for second in range(first + 1, len(spans)):
+                i1, j1, v1 = spans[first]
+                i2, j2, v2 = spans[second]
+                if j1 > i2:
+                    continue
+                p1, p2 = target.index(v1), target.index(v2)
+                if not (p1 + len(v1) <= p2 or p2 + len(v2) <= p1):
+                    continue
+                pattern = tokens[:i1] + ('{0}',) + tokens[j1:i2] + ('{1}',) + tokens[j2:]
+                if not has_literal(pattern):
+                    continue
+                events = sorted([(p1, len(v1), '{0}'), (p2, len(v2), '{1}')])
+                pieces, position = [], 0
+                for pos, size, slot in events:
+                    pieces.append(target[position:pos])
+                    pieces.append(slot)
+                    position = pos + size
+                pieces.append(target[position:])
+                add_template(templates, pattern, ''.join(pieces), row,
+                             (tokens[i1:j1], tokens[i2:j2]))
+    return templates
+
+
+def split_pattern(pattern):
+    parts, current = [], ''
+    for char in pattern:
+        if char == '{':
+            if current:
+                parts.append(('lit', current))
+            current = '{'
+        elif char == '}':
+            parts.append(('slot', current + '}'))
+            current = ''
+        else:
+            current += char
+    if current:
+        parts.append(('lit', current))
+    return parts
+
+
+def match_zh(pattern, target):
+    parts = split_pattern(pattern)
+    found = []
+
+    def visit(index, position, slots):
+        if found:
+            return
+        if index == len(parts):
+            if position == len(target):
+                found.append(list(slots))
+            return
+        kind, value = parts[index]
+        if kind == 'lit':
+            if target.startswith(value, position):
+                visit(index + 1, position + len(value), slots)
+            return
+        for end in range(position + 1, len(target) + 1):
+            slots.append(target[position:end])
+            visit(index + 1, end, slots)
+            slots.pop()
+            if found:
+                return
+
+    visit(0, 0, [])
+    return found[0] if found else None
+
+
+def match_en(pattern, tokens):
+    found = []
+
+    def visit(index, position, spans):
+        if found:
+            return
+        if index == len(pattern):
+            if position == len(tokens):
+                found.append(list(spans))
+            return
+        token = pattern[index]
+        if token.startswith('{'):
+            for end in range(position + 1, len(tokens) + 1):
+                spans.append((position, end))
+                visit(index + 1, end, spans)
+                spans.pop()
+                if found:
+                    return
+            return
+        if position < len(tokens) and tokens[position] == token:
+            visit(index + 1, position + 1, spans)
+
+    visit(0, 0, [])
+    return found[0] if found else None
+
+
+def confirmed(templates):
+    return {key for key, record in templates.items()
+            if len(record['fillers']) >= MIN_ROWS and len(record['pairs']) >= MIN_PAIRS}
+
+
+def prepare(audit, order, variants):
+    entries = []
+    for row in audit:
+        if row['status'] != 'exception' or accounted(variants, row['zh']):
+            continue
+        tokens = row_tokens(row['en'])
+        target = stripped(row['zh'])
+        if not tokens or not target:
+            continue
+        matches = []
+        for key in order:
+            pattern, zh_pattern = key
+            spans = match_en(pattern, tokens)
+            if spans is None:
+                continue
+            slots = match_zh(zh_pattern, target)
+            if slots is None:
+                continue
+            matches.append((key, spans, slots))
+        if matches:
+            entries.append({'row': row, 'tokens': tokens, 'raw': raw_tokens(row['en']),
+                            'target': target, 'matches': matches})
+    return entries
+
+
+def filler_ready(filler, surface, slot_zh, lexicon, standalone, atom_ids):
+    card = lexicon.get(filler)
+    if not (card and card['id'] in atom_ids):
+        known = standalone.get(norm_lemma(surface))
+        if not known or slot_zh not in known:
+            return False
+    return compose(filler, slot_zh, lexicon) is not None
+
+
+def attempt(entries, lexicon, standalone, atom_ids, allowed):
+    results = {}
+    for entry in entries:
+        for key, spans, slots in entry['matches']:
+            if allowed is not None and key not in allowed:
+                continue
+            terms, ok = [], True
+            for (start, end), slot_zh in zip(spans, slots):
+                filler = entry['tokens'][start:end]
+                surface = ' '.join(entry['raw'][start:end])
+                if not filler_ready(filler, surface, slot_zh, lexicon, standalone, atom_ids):
+                    ok = False
+                    break
+                terms.append(compose(filler, slot_zh, lexicon))
+            if ok:
+                results[entry['row']['key']] = {'template': key, 'slots': terms}
+                break
+    return results
+
+
+def collect_failures(entries, results, lexicon, standalone, atom_ids):
+    failed = defaultdict(set)
+    for entry in entries:
+        if entry['row']['key'] in results:
+            continue
+        for key, spans, slots in entry['matches']:
+            for (start, end), slot_zh in zip(spans, slots):
+                filler = entry['tokens'][start:end]
+                surface = ' '.join(entry['raw'][start:end])
+                if not filler_ready(filler, surface, slot_zh, lexicon, standalone, atom_ids):
+                    failed[(norm_lemma(surface), slot_zh)].add(entry['row']['key'])
+    return failed
+
+
+def next_unit_id(cards, atoms):
+    numbers = [int(card_id[1:]) for card_id in cards
+               if card_id.startswith('u') and card_id[1:].isdigit()]
+    return max(numbers or [0]) + 1 + len(atoms)
+
+
+def atom_surface(entries, keys, en_norm):
+    for entry in entries:
+        if entry['row']['key'] not in keys:
+            continue
+        for start in range(len(entry['tokens'])):
+            for end in range(start + 1, len(entry['tokens']) + 1):
+                surface = ' '.join(entry['raw'][start:end])
+                if norm_lemma(surface) == en_norm:
+                    return surface
+    return None
+
+
+def induce(entries, cards, lexicon, standalone, atoms, atom_ids):
+    for _ in range(MAX_INDUCTION_ROUNDS):
+        results = attempt(entries, lexicon, standalone, atom_ids, None)
+        failed = collect_failures(entries, results, lexicon, standalone, atom_ids)
+        added = 0
+        for (en_norm, slot_zh), keys in sorted(failed.items()):
+            if len(keys) < MIN_ROWS:
+                continue
+            tokens = tuple(en_norm.split())
+            if tokens in lexicon:
+                continue
+            surface = atom_surface(entries, keys, en_norm)
+            if not surface or name_tokens(surface) != tokens:
+                continue
+            card = {'id': 'u%d' % next_unit_id(cards, atoms), 'en': surface,
+                    'zh_candidates': [slot_zh], 'kind': 'unit',
+                    'reason': 'induced_atom', 'uses': 0}
+            lexicon[tokens] = card
+            atoms.append(card)
+            atom_ids.add(card['id'])
+            added += 1
+        if not added:
+            break
+    return atoms
+
+
+def prune(entries, cards, atoms, pair_of, standalone):
+    atom_ids = {atom['id'] for atom in atoms}
+    allowed = None
+    for _ in range(MAX_PRUNE_ROUNDS):
+        lexicon = build_lexicon(cards, atoms)
+        results = attempt(entries, lexicon, standalone, atom_ids, allowed)
+        uses = Counter(record['template'] for record in results.values())
+        kept = {key for key in {match[0] for entry in entries for match in entry['matches']}
+                if uses[key] >= MIN_ROWS}
+        covered = defaultdict(set)
+        for row_key, record in results.items():
+            for cards_in_slot in record['slots']:
+                for card_id in cards_in_slot:
+                    if card_id in atom_ids:
+                        covered[card_id].add(row_key)
+        dropped = {card_id for card_id in atom_ids
+                   if len(covered[card_id]) < MIN_ROWS
+                   or len({pair_of[key] for key in covered[card_id]}) < MIN_PAIRS}
+        if kept == allowed and not dropped:
+            break
+        allowed = kept
+        if dropped:
+            atom_ids -= dropped
+            atoms[:] = [atom for atom in atoms if atom['id'] not in dropped]
+    lexicon = build_lexicon(cards, atoms)
+    results = attempt(entries, lexicon, standalone, atom_ids, allowed)
+    return atoms, allowed, results
+
+
+def verify_template(row, terms, by_id):
+    template = by_id[terms[0]]
+    pattern = tuple(template['en'].split(' '))
+    tokens = row_tokens(row['en'])
+    spans = match_en(pattern, tokens)
+    if spans is None:
+        return False
+    filler_cards = [by_id[card_id] for card_id in terms[1:]]
+    rebuilt, slot_cards, index = [], [], 0
+    for token in pattern:
+        if not token.startswith('{'):
+            rebuilt.append(token)
+            continue
+        start, end = spans[int(token[1])]
+        chunk, collected = [], []
+        while len(collected) < end - start:
+            if index >= len(filler_cards):
+                return False
+            card_tokens = list(name_tokens(filler_cards[index]['en']))
+            if not card_tokens:
+                return False
+            collected.extend(card_tokens)
+            chunk.append(filler_cards[index])
+            index += 1
+        if collected != list(tokens[start:end]):
+            return False
+        rebuilt.extend(card['en'] for card in chunk)
+        slot_cards.append(chunk)
+    if index != len(filler_cards):
+        return False
+    if stripped(' '.join(rebuilt)).lower() != stripped(row['en']).lower():
+        return False
+    target = stripped(row['zh'])
+    slots = match_zh(template['zh_candidates'][0], target)
+    if slots is None or len(slots) != len(slot_cards):
+        return False
+    rebuilt = template['zh_candidates'][0]
+    for number, (slot_zh, cards_in_slot) in enumerate(zip(slots, slot_cards)):
+        if not chinese_match(slot_zh, cards_in_slot):
+            return False
+        rebuilt = rebuilt.replace('{%d}' % number, slot_zh, 1)
+    return stripped(rebuilt) == target
+
+
+def sort_key(card):
+    return (-card['uses'], card['id'])
+
+
+def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
+    raw_rows = load_input_rows(str(input_path))
+    whitelist, blacklist = load_key_filter()
+    excluded = re.compile(exclude_keys) if exclude_keys else None
+    rows = [(key, en, zh) for key, en, zh in raw_rows
+            if is_product_key(key, whitelist, blacklist)
+            and not (excluded and excluded.search(key))]
+    scope = set(focus_keys) if focus_keys is not None else None
+    scope_rows = [row for row in rows if row[0] in scope] if scope is not None else rows
+    pairs = sorted({(en, zh) for _, en, zh in rows})
+    pair_id = {pair: pid for pid, pair in enumerate(pairs)}
+    pair_keys = defaultdict(list)
+    for key, en, zh in rows:
+        pair_keys[pair_id[(en, zh)]].append(key)
+    supports = defaultdict(set)
+    whole = defaultdict(set)
+    surfaces = {}
+    names = {}
+    for pid, (en, zh) in enumerate(pairs):
+        toks = name_tokens(en)
+        if not toks or clean_en(en) != en or clean_zh(zh) != zh:
+            continue
+        whole[toks].add(pid)
+        names.setdefault(en, toks)
+        for start in range(len(toks)):
+            for end in range(start + 1, min(len(toks), start + MAX_GRAM) + 1):
+                gram = toks[start:end]
+                if gram[0] in STOP or gram[-1] in STOP:
+                    continue
+                supports[gram].add(pid)
+                surfaces.setdefault(gram, ' '.join(raw_tokens(en)[start:end]))
+    fragments = [zh_fragments(zh) for en, zh in pairs]
+    subdf = Counter(sub for subs in fragments for sub in subs)
+    aligned = {gram: translations(gram, support, pairs, fragments, subdf, whole)
+               for gram, support in supports.items()
+               if len({pairs[pid][0] for pid in support}) >= 2
+               or (len(gram) == 1 and gram in whole)}
+    refine_atoms(aligned, supports, pairs, fragments, whole)
+    total_tokens = sum(len(toks) for toks in names.values())
+    left_neighbors = defaultdict(Counter)
+    right_neighbors = defaultdict(Counter)
+    for toks in names.values():
+        for start in range(len(toks)):
+            for end in range(start + 1, min(len(toks), start + MAX_GRAM) + 1):
+                gram = toks[start:end]
+                if gram[0] in STOP or gram[-1] in STOP:
+                    continue
+                left_neighbors[gram][toks[start - 1] if start else '<BOS>'] += 1
+                right_neighbors[gram][toks[end] if end < len(toks) else '<EOS>'] += 1
+    frequency = {gram: len({pairs[pid][0] for pid in support})
+                 for gram, support in supports.items()}
+    strong_atoms = {gram for gram, count in frequency.items()
+                    if len(gram) == 1 and count >= MIN_STRONG_FREQ
+                    and max(entropy_bits(left_neighbors[gram]),
+                            entropy_bits(right_neighbors[gram])) >= ENTROPY_GATE}
+    qualified = set()
+    for gram, count in frequency.items():
+        if len(gram) < 2 or count < MIN_STRONG_FREQ:
+            continue
+        if max(entropy_bits(left_neighbors[gram]),
+               entropy_bits(right_neighbors[gram])) < ENTROPY_GATE:
+            continue
+        joins = [(count - frequency.get(gram[:i], 0) * frequency.get(gram[i:], 0)
+                  / total_tokens) / math.sqrt(count) for i in range(1, len(gram))]
+        if joins and min(joins) >= JOIN_GATE:
+            qualified.add(gram)
+    accepted = set(strong_atoms)
+    discovered = set()
+    while True:
+        proposed = set()
+        for toks in names.values():
+            for start in range(len(toks)):
+                for end in range(start + 1, min(len(toks), start + MAX_GRAM) + 1):
+                    if toks[start:end] not in accepted:
+                        continue
+                    for residual in (toks[:start], toks[end:]):
+                        if residual in qualified and residual not in accepted:
+                            proposed.add(residual)
+        if not proposed:
+            break
+        accepted |= proposed
+        discovered |= proposed
+    bank = {}
+    for gram in sorted(aligned, key=lambda g: (len(g), g)):
+        variants = aligned[gram][0]
+        if not variants:
+            continue
+        if len({pairs[pid][0] for pid in supports[gram]}) < 2 and not (
+                len(gram) == 1 and gram in whole):
+            continue
+        if all(compose(gram, zh, bank) is not None for zh in variants):
+            continue
+        bank[gram] = {'id': gram, 'en': surfaces[gram], 'zh_candidates': variants}
+    for gram in discovered:
+        if gram in aligned:
+            bank.setdefault(gram, {'id': gram, 'en': surfaces[gram],
+                                   'zh_candidates': aligned[gram][0]})
+    verify_nested(discovered, aligned, bank, supports, pairs, fragments, whole, names)
+    lexicon = {}
+    unit_cards = []
+    for gram in sorted(supports, key=lambda g: (len(g), g)):
+        support = supports[gram]
+        distinct = {pairs[pid][0] for pid in support}
+        if len(distinct) < 2 and not (len(gram) == 1 and gram in whole):
+            continue
+        variants, confidence, cover = aligned[gram]
+        if not variants:
+            continue
+        if gram not in discovered and all(compose(gram, zh, lexicon) is not None
+                                          for zh in variants):
+            continue
+        card = {'id': 'u%d' % (len(unit_cards) + 1), 'en': surfaces[gram],
+                'zh_candidates': variants, 'kind': 'unit',
+                'reason': ('nested_phrase' if gram in discovered else
+                           'reusable_fragment' if len(distinct) >= 2 else 'standalone_name'),
+                'score': round(confidence, 4), 'alignment_cover': round(cover, 4),
+                'sources': sorted({key for pid in support for key in pair_keys[pid]}),
+                'evidence': [{'variant': variant, 'key': pair_keys[pid][0],
+                              'en': pairs[pid][0], 'zh': pairs[pid][1]}
+                             for variant in variants
+                             for pid in [p for p in sorted(support)
+                                         if variant in pairs[p][1]][:2]],
+                'uses': 0}
+        unit_cards.append(card)
+        lexicon[gram] = card
+    proofs = {}
+    exceptions = {}
+    for pid, (en, zh) in enumerate(pairs):
+        toks = name_tokens(en)
+        proof = (compose(toks, zh, lexicon) if clean_en(en) == en
+                 and clean_zh(zh) == zh else None)
+        if proof is not None:
+            proofs[pid] = proof
+            continue
+        if en not in exceptions:
+            exceptions[en] = {'id': 'x%d' % (len(exceptions) + 1), 'en': en,
+                              'zh_candidates': [], 'kind': 'exception',
+                              'reason': 'missing_translation' if not zh else
+                                        'unexplained_translation',
+                              'score': 1.0, 'sources': [], 'evidence': [], 'uses': 0}
+        card = exceptions[en]
+        if zh and zh not in card['zh_candidates']:
+            card['zh_candidates'].append(zh)
+        card['sources'].extend(pair_keys[pid])
+        if len(card['evidence']) < 3:
+            card['evidence'].append({'key': pair_keys[pid][0], 'en': en, 'zh': zh})
+        proofs[pid] = [card['id']]
+    all_cards = {card['id']: card for card in unit_cards + list(exceptions.values())}
+    audit = []
+    for key, en, zh in scope_rows:
+        deps = proofs[pair_id[(en, zh)]]
+        for card_id in set(deps):
+            all_cards[card_id]['uses'] += 1
+        audit.append({'key': key, 'en': en, 'zh': zh, 'terms': deps,
+                      'status': 'exception' if deps[0].startswith('x') else 'compositional'})
+    cards = [card for card in all_cards.values() if card['uses']]
+    trim_variants(cards, audit, all_cards)
+    cards_by_id = {card['id']: card for card in cards}
+    standalone = load_standalone(rows)
+    templates = extract_templates(audit, build_lexicon(cards_by_id, []))
+    order = sorted(confirmed(templates),
+                   key=lambda key: (-len(templates[key]['keys']), len(' '.join(key[0])),
+                                    key[0], key[1]))
+    entries = prepare(audit, order, unit_variants(cards_by_id))
+    pair_of = {entry['row']['key']: (entry['row']['en'], entry['row']['zh'])
+               for entry in entries}
+    atoms = induce(entries, cards_by_id, build_lexicon(cards_by_id, []), standalone, [], set())
+    atoms, allowed, results = prune(entries, cards_by_id, atoms, pair_of, standalone)
+    template_uses = Counter(record['template'] for record in results.values())
+    ranked = sorted((key for key in allowed if template_uses[key] >= MIN_ROWS),
+                    key=lambda key: (-template_uses[key], key[0], key[1]))
+    template_cards = [{'id': 't%d' % number, 'en': ' '.join(key[0]),
+                       'zh_candidates': [key[1]], 'kind': 'template',
+                       'reason': 'sentence_template', 'uses': template_uses[key],
+                       'sources': sorted(row_key for row_key, record in results.items()
+                                         if record['template'] == key),
+                       'evidence': [{'key': row_key, 'en': pair_of[row_key][0],
+                                     'zh': pair_of[row_key][1]}
+                                    for row_key in sorted(
+                                        row_key for row_key, record in results.items()
+                                        if record['template'] == key)[:2]]}
+                      for number, key in enumerate(ranked, 1)]
+    template_ids = {key: card['id'] for key, card in zip(ranked, template_cards)}
+    emitted = []
+    for row in audit:
+        row = dict(row, pending=[])
+        record = results.get(row['key'])
+        if record is not None:
+            terms = [template_ids[record['template']]]
+            for cards_in_slot in record['slots']:
+                terms.extend(cards_in_slot)
+            row['terms'] = list(dict.fromkeys(terms))
+            row['status'] = 'compositional'
+        emitted.append(row)
+    referenced = Counter(card_id for row in emitted for card_id in set(row['terms']))
+    for card in cards_by_id.values():
+        card['uses'] = referenced.get(card['id'], 0)
+    for atom in atoms:
+        atom['uses'] = referenced.get(atom['id'], 0)
+        atom['sources'] = sorted(row_key for row_key, record in results.items()
+                                 if atom['id'] in {card_id for slot in record['slots']
+                                                   for card_id in slot})
+        atom['evidence'] = [{'key': row_key, 'en': pair_of[row_key][0],
+                             'zh': pair_of[row_key][1]} for row_key in atom['sources'][:2]]
+    batch = [card for card in cards_by_id.values()
+             if card['kind'] == 'unit' or referenced.get(card['id'], 0)]
+    batch.extend(template_cards)
+    batch.extend(atoms)
+    batch = (sorted((card for card in batch if card['kind'] == 'unit'), key=sort_key)
+             + sorted((card for card in batch if card['kind'] == 'template'), key=sort_key)
+             + sorted((card for card in batch if card['kind'] == 'exception'), key=sort_key))
+    totals = Counter(card_id for key, en, zh in rows
+                     for card_id in set(proofs[pair_id[(en, zh)]]))
+    for card in batch:
+        card['total_uses'] = totals.get(card['id'], 0)
+    review = select_cards(batch, emitted, budget)
+    selected = {card['id'] for card in review}
+    for row in emitted:
+        row['pending'] = sorted(set(row['terms']) - selected)
+    backlog = [card for card in batch if card['id'] not in selected]
+    report = verify_rows(emitted, review)
+    source_chars = sum(len(packed({'en': en, 'zh_candidates': [zh]})) + 1
+                       for key, en, zh in scope_rows)
+    review_chars = sum(len(packed(compact_card(card))) + 1 for card in review)
+    stats = {'input_rows': len(raw_rows), 'filtered_rows': len(scope_rows),
+             'context_rows': len(rows),
+             'unique_pairs': len(pairs),
+             'unit_cards': sum(card['kind'] == 'unit' for card in batch),
+             'nested_cards': sum(card['reason'] == 'nested_phrase' for card in batch),
+             'exception_cards': sum(card['kind'] == 'exception' for card in batch),
+             'template_cards': sum(card['kind'] == 'template' for card in batch),
+             'candidate_cards': len(batch), 'review_cards': len(review),
+             'backlog_cards': len(backlog),
+             'compositional_rows': sum(row['status'] == 'compositional' for row in emitted),
+             'exception_rows': sum(row['status'] == 'exception' for row in emitted),
+             'template_rows': sum(any(cid.startswith('t') for cid in row['terms'])
+                                  for row in emitted),
+             'accounted_rows': len(emitted),
+             'ready_rows': sum(not row['pending'] for row in emitted),
+             'pending_rows': sum(bool(row['pending']) for row in emitted),
+             'input_chars': source_chars, 'review_chars': review_chars,
+             'reading_reduction': 1 - review_chars / source_chars if source_chars else 0.0,
+             'rescued_rows': len(results),
+             'removed_exception_cards': sum(1 for card in cards_by_id.values()
+                                            if card['kind'] == 'exception'
+                                            and not referenced.get(card['id'], 0)),
+             'added_atoms': len(atoms),
+             'reconstructed_rows': report['reconstructed'],
+             'failed_keys': report['failed_keys']}
+    return {'review': review, 'candidates': batch, 'backlog': backlog,
+            'audit': emitted, 'stats': stats}
+
+
+def write_candidates(stream, result):
+    writer = csv.writer(stream, delimiter='\t', lineterminator='\n')
+    writer.writerow(['id', 'en', 'zh', 'kind', 'uses', 'reason', 'score',
+                     'sources', 'evidence'])
+    for card in result['candidates']:
+        writer.writerow([card['id'], card['en'], '|'.join(card['zh_candidates']),
+                         card['kind'], card['uses'], card['reason'], card.get('score', ''),
+                         ';'.join(card['sources']), packed(card['evidence'])])
+
+
+def verify_rows(rows, cards):
+    by_id = {card['id']: card for card in cards}
+    failed = []
+    checked = pending = 0
+    for row in rows:
+        if row.get('pending'):
+            pending += 1
+            continue
+        checked += 1
+        if any(cid not in by_id for cid in row['terms']):
+            failed.append(row['key'])
+            continue
+        parts = [by_id[cid] for cid in row['terms']]
+        if row['status'] == 'exception':
+            valid = (len(parts) == 1 and parts[0]['en'] == row['en']
+                     and (row['zh'] in parts[0]['zh_candidates']
+                          or not row['zh'] and not parts[0]['zh_candidates']))
+        elif row['terms'][0].startswith('t'):
+            valid = verify_template(row, row['terms'], by_id)
+        else:
+            expected = tuple(t for t in name_tokens(row['en']) if t not in CONNECTORS)
+            actual = tuple(t for card in parts for t in name_tokens(card['en'])
+                           if t not in CONNECTORS)
+            valid = bool(expected) and actual == expected and chinese_match(row['zh'], parts)
+        if not valid:
+            failed.append(row['key'])
+    return {'checked': checked, 'reconstructed': checked - len(failed),
+            'pending': pending, 'failed_keys': failed}
+
+
+JUDGE_SYSTEM = ('You curate a Minecraft glossary of reusable translation units. For each card you get '
+                'an English term and proposed Simplified Chinese variants. Return the final zh variant '
+                'list: keep the correct proposals or replace them, preferring the established Minecraft '
+                'translation. Reply with one JSON object keyed by card id only: '
+                '{"<id>": {"zh": ["..."], "reason": "one line"}}.')
+
+
+def known_pairs(paths):
+    pairs = {}
+    missing = 0
+    for path in paths or []:
+        if not os.path.exists(path):
+            sys.stderr.write('known file not found: %s\n' % path)
+            missing += 1
+            continue
+        with open(path, encoding='utf-8', newline='') as stream:
+            for row in csv.reader(stream, delimiter='\t', quoting=csv.QUOTE_NONE):
+                if len(row) < 2:
+                    continue
+                en = clean_en(row[0])
+                if not en or en.lower() == 'en':
+                    continue
+                lemma = norm_lemma(en)
+                if not lemma:
+                    continue
+                bucket = pairs.setdefault(lemma, [])
+                for value in (clean_zh(v) for v in row[1].split('|')):
+                    if value and value not in bucket:
+                        bucket.append(value)
+    return pairs, missing
+
+
+def compositions(en, pairs, cap=256, limit=400):
+    tokens = norm_lemma(clean_en(en)).split()
+    made = set()
+    if not tokens:
+        return made
+    segments = []
+
+    def walk(index, parts):
+        if len(segments) >= limit:
+            return
+        if index == len(tokens):
+            segments.append(tuple(parts))
+            return
+        for end in range(len(tokens), index, -1):
+            key = ' '.join(tokens[index:end])
+            if key in pairs:
+                parts.append(key)
+                walk(end, parts)
+                parts.pop()
+
+    walk(0, [])
+    for parts in segments:
+        total = 1
+        for key in parts:
+            total *= len(pairs[key])
+        if total > cap:
+            continue
+        for combo in itertools.product(*(pairs[key] for key in parts)):
+            made.add(stripped(''.join(combo)))
+    return made
+
+
+def strip_fences(text):
+    text = (text or '').strip()
+    text = re.sub(r'^```[A-Za-z]*\s*', '', text)
+    text = re.sub(r'\s*```$', '', text)
+    return text.strip()
+
+
+def parse_verdicts(content):
+    text = strip_fences(content)
+    data = None
+    try:
+        data = json.loads(text)
+    except Exception:
+        match = re.search(r'\{.*\}', text, re.S)
+        if match:
+            try:
+                data = json.loads(match.group(0))
+            except Exception:
+                data = None
+    if isinstance(data, list):
+        if len(data) == 1:
+            data = data[0]
+        elif data and all(isinstance(item, dict) and 'id' in item for item in data):
+            data = {str(item['id']): item for item in data}
+        else:
+            merged = {}
+            for item in data:
+                if isinstance(item, dict):
+                    merged.update(item)
+            data = merged
+    return data if isinstance(data, dict) else {}
+
+
+def verdict_variants(entry):
+    values = entry
+    if isinstance(entry, dict):
+        values = entry.get('zh')
+        if values is None:
+            values = entry.get('variants')
+    if isinstance(values, str):
+        values = values.split('|')
+    if not isinstance(values, (list, tuple)):
+        return []
+    out = []
+    for value in values:
+        value = clean_zh(str(value or ''))
+        if value and value not in out:
+            out.append(value)
+    return out
+
+
+def verdict_reason(entry, fallback):
+    if isinstance(entry, dict):
+        reason = entry.get('reason') or entry.get('why')
+        if reason:
+            return ' '.join(str(reason).split())
+    return fallback
+
+
+def card_row(card):
+    return {'id': card['id'], 'en': card['en'], 'zh': '|'.join(card['zh_candidates']),
+            'kind': card['kind'], 'uses': card['uses'], 'reason': card['reason'],
+            'score': card.get('score', ''), 'sources': ';'.join(card['sources']),
+            'total_uses': card.get('total_uses', card['uses']),
+            'evidence': card['evidence']}
+
+
+def variants_of(row):
+    return [value for value in (clean_zh(v) for v in (row.get('zh') or '').split('|')) if value]
+
+
+def label_domains(row):
+    domains = {key.split('.')[0] for key in (row.get('sources') or '').split(';') if key}
+    extra = sorted(domains - {'block', 'item', 'entity'})
+    return extra if domains and not (domains & {'block', 'item', 'entity'}) else []
+
+
+def diff_context(path):
+    if not path or not str(path).endswith('.json'):
+        return {}, {}, [], {}
+    with open(str(path), encoding='utf-8') as stream:
+        data = json.load(stream)
+    if not isinstance(data, dict):
+        return {}, {}, [], {}
+    meta = {'from': data.get('from') or '', 'to': data.get('to') or '',
+            'source_diff': Path(path).as_posix()}
+    origins = {}
+    order = {}
+    for section in ('added', 'changed'):
+        block = data.get(section)
+        if isinstance(block, dict):
+            for key, value in block.items():
+                order.setdefault(key, len(order))
+                if section == 'changed' and isinstance(value, dict) and value.get('origin_zh'):
+                    origins[key] = [v for v in str(value['origin_zh']).split('|') if v]
+    removed = []
+    block = data.get('removed')
+    if isinstance(block, dict):
+        for key, value in block.items():
+            if not isinstance(value, dict):
+                continue
+            en = value.get('en_us') or ''
+            zh = [v for v in str(value.get('zh_cn') or '').split('|') if v]
+            if en and is_product_key(key, *load_key_filter()):
+                removed.append({'en': [en], 'zh': zh})
+    return meta, origins, removed, order
+
+
+def review_entry(row, variants, reason, origins):
+    entry = {'en': [row['en']], 'zh': list(variants)}
+    if int(row.get('total_uses') or 0) == 1:
+        entry['single_use'] = True
+    labels = label_domains(row)
+    if labels:
+        entry['labels'] = labels
+    revised = sorted({origin for key in (row.get('sources') or '').split(';')
+                      for origin in origins.get(key, [])})
+    if revised:
+        entry['origin_zh'] = revised
+    if reason:
+        entry['reason'] = reason
+    return entry
+
+
+def format_document(value, indent=0):
+    pad = ' ' * indent
+    if isinstance(value, dict):
+        if not value:
+            return '{}'
+        items = list(value.items())
+        lines = ['{']
+        for index, (key, item) in enumerate(items):
+            lines.append('%s%s: %s%s' % (' ' * (indent + 2),
+                                         json.dumps(key, ensure_ascii=False),
+                                         format_document(item, indent + 2),
+                                         ',' if index < len(items) - 1 else ''))
+        lines.append(pad + '}')
+        return '\n'.join(lines)
+    if isinstance(value, list):
+        if not value:
+            return '[]'
+        if all(isinstance(item, str) for item in value):
+            return '[' + ', '.join(json.dumps(item, ensure_ascii=False) for item in value) + ']'
+        lines = ['[']
+        for index, item in enumerate(value):
+            lines.append('%s%s%s' % (' ' * (indent + 2), format_document(item, indent + 2),
+                                     ',' if index < len(value) - 1 else ''))
+        lines.append(pad + ']')
+        return '\n'.join(lines)
+    return json.dumps(value, ensure_ascii=False)
+
+
+def llm_verdicts(chunk, base, model, api_key):
+    cards = []
+    for card in chunk:
+        item = {'id': card['id'], 'en': card['en'],
+                'zh_candidates': [v for v in (card.get('zh') or '').split('|') if v],
+                'kind': card.get('kind') or '', 'uses': card.get('uses') or ''}
+        evidence = card.get('evidence')
+        if isinstance(evidence, str):
+            try:
+                evidence = json.loads(evidence or '[]')
+            except Exception:
+                evidence = []
+        if evidence:
+            item['evidence'] = evidence
+        cards.append(item)
+    payload = {'model': model, 'temperature': 0,
+               'messages': [{'role': 'system', 'content': JUDGE_SYSTEM},
+                            {'role': 'user', 'content': packed({'cards': cards})}]}
+    request = urllib.request.Request(base + '/chat/completions',
+                                     data=json.dumps(payload).encode('utf-8'),
+                                     headers={'Content-Type': 'application/json',
+                                              'Authorization': 'Bearer ' + api_key})
+    try:
+        with urllib.request.urlopen(request, timeout=120) as response:
+            body = json.loads(response.read().decode('utf-8'))
+        return parse_verdicts(body['choices'][0]['message']['content']) or None
+    except Exception as exc:
+        sys.stderr.write('batch failed: %s\n' % exc)
+        return None
+
+
+def judge_cmd(args):
+    focus = load_focus_keys(args.focus) if args.focus else None
+    result = build(args.input, args.budget, args.exclude_keys, focus)
+    rows = [card_row(card) for card in result['review']]
+    meta, origins, removed, order = diff_context(args.focus or args.input)
+    known, missing = known_pairs(args.known)
+    queue = []
+    skipped_template = skipped_known = skipped_derived = 0
+    for row in rows:
+        if row['kind'] == 'template':
+            skipped_template += 1
+            continue
+        plain = variants_of(row)
+        variants = [stripped(value) for value in plain]
+        lemma = norm_lemma(clean_en(row['en']))
+        if lemma in known and all(value in known[lemma] for value in plain):
+            skipped_known += 1
+            continue
+        made = compositions(row['en'], known)
+        if made and variants and all(value in made for value in variants):
+            skipped_derived += 1
+            continue
+        queue.append(row)
+    if order:
+        queue.sort(key=lambda row: min([order.get(key, len(order))
+                                        for key in row['sources'].split(';') if key]
+                                       or [len(order)]))
+    entries = []
+    judged = auto = failed = 0
+
+    def accept(row, variants, reason):
+        entries.append(review_entry(row, variants, reason, origins))
+
+    # LLM 复核暂停：卡片全部按原样通过。恢复时取消注释、删掉下面的直通。
+    # api_key = os.environ.get('LLM_API_KEY')
+    # base = (os.environ.get('LLM_BASE_URL') or 'https://api.openai.com/v1').rstrip('/')
+    # model = os.environ.get('LLM_MODEL') or 'gpt-4o-mini'
+    # if api_key:
+    #     size = max(1, args.batch_size)
+    #     for start in range(0, len(queue), size):
+    #         chunk = queue[start:start + size]
+    #         verdicts = llm_verdicts(chunk, base, model, api_key)
+    #         if verdicts is None:
+    #             failed += 1
+    #             for row in chunk:
+    #                 accept(row, variants_of(row), '')
+    #                 auto += 1
+    #             continue
+    #         for row in chunk:
+    #             verdict = verdicts.get(row['id'])
+    #             variants = verdict_variants(verdict)
+    #             if variants:
+    #                 accept(row, variants, verdict_reason(verdict, ''))
+    #                 judged += 1
+    #             else:
+    #                 accept(row, variants_of(row), '')
+    #                 auto += 1
+    # else:
+    for row in queue:
+        accept(row, variants_of(row), '')
+        auto += 1
+    document = {}
+    if meta.get('from') or meta.get('to'):
+        document.update({'from': meta['from'], 'to': meta['to'],
+                         'source_diff': meta['source_diff']})
+    document['added_count'] = len(entries)
+    document['added'] = entries
+    document['updated_count'] = 0
+    document['updated'] = []
+    document['removed_count'] = len(removed)
+    document['removed'] = removed
+    source = args.focus or (args.input if str(args.input).endswith('.json') else None)
+    out = args.out or (Path(source).with_suffix('.terms.json') if source
+                       else Path('terms.json'))
+    if out.parent != Path(''):
+        out.parent.mkdir(parents=True, exist_ok=True)
+    with open(out, 'w', encoding='utf-8', newline='') as stream:
+        stream.write(format_document(document) + '\n')
+    print(packed({'out': str(out), 'cards': len(rows), 'added': len(entries),
+                  'judged': judged, 'auto': auto, 'skipped_known': skipped_known,
+                  'skipped_derived': skipped_derived, 'skipped_template': skipped_template,
+                  'batches_failed': failed, 'known_files_missing': missing, **result['stats']}))
+    return 0
+
+
+CASES_PATH = Path(__file__).with_name('termgen_cases.json')
+
+
+CASE_FIELDS = ('key', 'en', 'zh', 'expect', 'required_terms', 'reason')
+EXPECT = ('unit', 'compositional', 'exception')
+
+
+def _en_of(item):
+    return item.get('en', '') if isinstance(item, dict) else item
+
+
+def _zh_of(item):
+    if not isinstance(item, dict):
+        return []
+    val = item.get('zh_candidates')
+    if val is None:
+        val = item.get('zh')
+    if val is None:
+        return []
+    if isinstance(val, str):
+        val = val.split('|')
+    out = []
+    for v in val:
+        v = clean_zh(str(v)).strip()
+        if v:
+            out.append(v)
+    return out
+
+
+def _variants(s):
+    out = []
+    for v in str(s or '').split('|'):
+        v = clean_zh(v).strip()
+        if v:
+            out.append(v)
+    return out
+
+
+def _norm_set(terms):
+    out = set()
+    for t in terms or ():
+        n = norm_lemma(_en_of(t) or '')
+        if n:
+            out.add(n)
+    return out
+
+
+def _ratio(num, den):
+    return (num / den) if den else None
+
+
+def _zh_ok(want, got_lists):
+    if not want:
+        return None
+    saw_empty = False
+    for got in got_lists:
+        if not got:
+            saw_empty = True
+            continue
+        for w in want:
+            if w in got:
+                return True
+    return None if saw_empty else False
+
+
+def load_cases(path=None):
+    with open(path or CASES_PATH, encoding='utf-8') as f:
+        data = json.load(f)
+    cases = data.get('cases') if isinstance(data, dict) else data
+    out = []
+    for c in cases or ():
+        missing = [k for k in CASE_FIELDS if k not in c]
+        if missing:
+            raise ValueError('case %r missing %s' % (c.get('key'), ','.join(missing)))
+        if c['expect'] not in EXPECT:
+            raise ValueError('case %r has bad expect %r' % (c['key'], c['expect']))
+        out.append(c)
+    return out
+
+
+def measure(gold_terms, candidate_terms, review_terms, reachable_terms, input_chars, review_chars,
+            baseline_terms=None, baseline_chars=None):
+    gold_terms = list(gold_terms)
+    candidate_terms = list(candidate_terms)
+    review_terms = list(review_terms)
+    reachable_terms = list(reachable_terms)
+    gold = _norm_set(gold_terms)
+    cand = _norm_set(candidate_terms)
+    rev = _norm_set(review_terms)
+    reach = _norm_set(reachable_terms)
+    cand_cards = [t for t in (candidate_terms or ()) if _en_of(t)]
+    rev_cards = [t for t in (review_terms or ()) if _en_of(t)]
+    out = {
+        'gold': len(gold),
+        'reachable_gold': len(reach),
+        'candidate_gold': len(cand & gold),
+        'review_gold': len(rev & gold),
+        'candidate_count': len(cand),
+        'review_count': len(rev),
+        'candidate_cards': len(cand_cards),
+        'review_cards': len(rev_cards),
+        'candidate_reachable_hits': len(cand & reach),
+        'review_reachable_hits': len(rev & reach),
+        'candidate_recall': _ratio(len(cand & reach), len(reach)),
+        'review_recall': _ratio(len(rev & reach), len(reach)),
+        'positive_match_rate': _ratio(len(rev & gold), len(rev)),
+        'input_chars': input_chars,
+        'review_chars': review_chars,
+        'char_reduction': (1.0 - review_chars / input_chars) if (input_chars and review_chars is not None) else None,
+        'baseline': None,
+    }
+    if baseline_terms is not None or baseline_chars is not None:
+        base = _norm_set(baseline_terms or ())
+        base_gold = len(base & gold)
+        base_hits = len(base & reach)
+        b = {
+            'count': len(base),
+            'gold': base_gold,
+            'reachable_hits': base_hits,
+            'recall': _ratio(base_hits, len(reach)),
+            'positive_match_rate': _ratio(base_gold, len(base)),
+            'chars': baseline_chars,
+            'char_reduction': (1.0 - baseline_chars / input_chars) if (input_chars and baseline_chars is not None) else None,
+        }
+        if baseline_chars:
+            b['char_saving'] = baseline_chars - (review_chars or 0)
+            b['char_ratio'] = _ratio(review_chars, baseline_chars)
+        if b['recall'] is not None and out['review_recall'] is not None:
+            b['recall_delta'] = out['review_recall'] - b['recall']
+        out['baseline'] = b
+    return out
+
+
+def _iter_comps(compositions):
+    if compositions is None:
+        return []
+    if isinstance(compositions, dict):
+        seq = []
+        for en, val in compositions.items():
+            if isinstance(val, dict):
+                seq.append({'en': en, 'parts': val.get('parts') or val.get('refs') or (),
+                            'zh': val.get('zh_candidates', val.get('zh'))})
+            else:
+                seq.append({'en': en, 'parts': val})
+        return seq
+    return list(compositions)
+
+
+def score_cases(cases, cards, compositions=None, strict_kind=False):
+    card_rows = []
+    for c in cards or ():
+        card_rows.append((norm_lemma(_en_of(c) or ''), _zh_of(c),
+                          c.get('kind') if isinstance(c, dict) else None))
+    comp_rows = []
+    for c in _iter_comps(compositions):
+        comp_rows.append((norm_lemma(c.get('en') or ''), _norm_set(c.get('parts') or ()), _zh_of(c)))
+    available = {n for n, _, _ in card_rows}
+
+    out = {'total': len(cases), 'covered': 0, 'coverage': None, 'zh_unchecked': 0,
+           'kind_mismatch': 0, 'parts_ready': 0, 'delivered_kinds': {}, 'by_expect': {},
+           'missed': []}
+    for expect in EXPECT:
+        out['by_expect'][expect] = {'total': 0, 'covered': 0}
+    for _, _, kind in card_rows:
+        if kind:
+            out['delivered_kinds'][kind] = out['delivered_kinds'].get(kind, 0) + 1
+
+    for case in cases:
+        en = norm_lemma(case.get('en') or '')
+        expect = case.get('expect')
+        want = _variants(case.get('zh'))
+        rec = {'key': case.get('key'), 'en': case.get('en'), 'expect': expect}
+        why = []
+        if expect == 'compositional':
+            req = _norm_set(case.get('required_terms') or ())
+            comps = [r for r in comp_rows if r[0] == en]
+            missing = sorted(t for t in req if t not in available)
+            refs_ok = any(req <= parts for _, parts, _ in comps) if comps else False
+            zh_ok = _zh_ok(want, [zh for _, _, zh in comps]) if comps else None
+            if not comps:
+                why.append('no_composition')
+            elif not refs_ok:
+                why.append('composition_does_not_reference_required')
+            if missing:
+                why.append('missing_parts')
+            if zh_ok is False:
+                why.append('zh_mismatch')
+            covered = bool(comps) and refs_ok and not missing and zh_ok is not False
+            if not missing:
+                out['parts_ready'] += 1
+            rec['composition_found'] = bool(comps)
+            rec['missing_parts'] = missing
+        else:
+            matches = [r for r in card_rows if r[0] == en]
+            if strict_kind:
+                matches = [r for r in matches if r[2] == expect]
+            zh_ok = _zh_ok(want, [zh for _, zh, _ in matches]) if matches else None
+            if not matches:
+                why.append('no_card')
+            elif zh_ok is False:
+                why.append('zh_mismatch')
+            covered = bool(matches) and zh_ok is not False
+            kinds = sorted({k for _, _, k in matches if k})
+            if kinds:
+                rec['card_kind'] = kinds
+                if expect not in kinds and not strict_kind:
+                    out['kind_mismatch'] += 1
+        if covered and zh_ok is None:
+            out['zh_unchecked'] += 1
+        bucket = out['by_expect'].setdefault(expect, {'total': 0, 'covered': 0})
+        bucket['total'] += 1
+        if covered:
+            out['covered'] += 1
+            bucket['covered'] += 1
+        else:
+            rec['why'] = why or ['uncovered']
+            out['missed'].append(rec)
+    out['coverage'] = _ratio(out['covered'], out['total'])
+    return out
+
+
+def run_cases(result, path):
+    selected = {card['id']: card for card in result['review']}
+    compositions = [{'en': row['en'], 'zh': row['zh'],
+                     'parts': [selected[cid]['en'] for cid in row['terms']]}
+                    for row in result['audit']
+                    if row['status'] == 'compositional' and not row['pending']]
+    cases = load_cases(path)
+    report = score_cases(cases, result['review'], compositions)
+    by_key = {row['key']: row for row in result['audit']}
+    sample = [{**by_key[case['key']], 'en': case['en'], 'zh': case['zh']}
+              for case in cases if case['key'] in by_key]
+    report['reconstruction'] = verify_rows(sample, result['review'])
+    report['absent_keys'] = [case['key'] for case in cases if case['key'] not in by_key]
+    return report
+
+
+def benchmark(args, result):
+    gold = [en for en, zh in load_gold(args.gold)]
+    reachable = set()
+    names = [tuple(norm_lemma(row['en']).split()) for row in result['audit']]
+    for en in gold:
+        gram = tuple(norm_lemma(en).split())
+        if any(any(toks[i:i + len(gram)] == gram for i in range(len(toks) - len(gram) + 1))
+               for toks in names):
+            reachable.add(en)
+    metrics = measure(gold, [card['en'] for card in result['candidates']],
+                      [card['en'] for card in result['review']], reachable,
+                      result['stats']['input_chars'], result['stats']['review_chars'])
+    print(json.dumps({'stats': result['stats'], 'metrics': metrics,
+                      'reconstruction': verify_rows(result['audit'], result['review']),
+                      'cases': run_cases(result, args.cases)}, ensure_ascii=False, indent=2))
+
+
+def nonnegative(value):
+    number = int(value)
+    if number < 0:
+        raise argparse.ArgumentTypeError('must be zero or positive')
+    return number
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(prog='termgen.py')
+    sub = parser.add_subparsers(dest='command', required=True)
+    for command in ('extract', 'bench', 'judge'):
+        p = sub.add_parser(command)
+        p.add_argument('--input', type=Path, default=ROOT / 'Vanilla/latest.tsv')
+        p.add_argument('--budget', type=nonnegative, default=0,
+                       help='maximum review cards; 0 keeps the complete compressed inventory')
+        p.add_argument('--exclude-keys')
+        if command != 'bench':
+            p.add_argument('--focus', type=Path,
+                           help='diff json or key list; keep the full corpus for alignment '
+                                'but emit only cards and rows for those keys')
+        if command == 'bench':
+            p.add_argument('--gold', action='append', default=[])
+            p.add_argument('--cases', type=Path, default=Path(__file__).with_name('termgen_cases.json'))
+        elif command == 'judge':
+            p.add_argument('--known', nargs='*', default=[],
+                           help='terms files whose en or composed zh is already curated')
+            p.add_argument('--out', type=Path, help='review json path')
+            p.add_argument('--batch-size', type=int, default=40)
+    args = parser.parse_args(argv)
+    if args.command == 'judge':
+        return judge_cmd(args)
+    started = time.perf_counter()
+    focus_keys = load_focus_keys(args.focus) if getattr(args, 'focus', None) else None
+    result = build(args.input, args.budget, args.exclude_keys, focus_keys)
+    result['stats']['elapsed_seconds'] = round(time.perf_counter() - started, 3)
+    if args.command == 'extract':
+        sys.stdout.reconfigure(newline='')  # 重定向到文件时保持 LF
+        write_candidates(sys.stdout, result)
+        print(packed(result['stats']), file=sys.stderr)
+    else:
+        args.gold = args.gold or [str(ROOT / 'Vanilla/terms/terms-v1.tsv')]
+        benchmark(args, result)
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

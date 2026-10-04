@@ -1,0 +1,428 @@
+{
+ "meta": {
+  "source": "Vanilla/latest.tsv zh_cn，经 Vanilla/diffs/term-key-filters.json 过滤后的行",
+  "gold": "Vanilla/terms/terms-v1.tsv 仅用于 measure 覆盖口径；该表是开集正例，未命中不等于错",
+  "match": "en 一律 termgen.norm_lemma 归一；zh 按 clean_zh 后逐字相等（'|' 分隔变体）",
+  "covered_rule": "unit/exception：交付同 en 卡；compositional：存在该 en 的组合记录且 required_terms 均可用（卡片或组合引用）",
+  "budget": "只对预算截断后实际交付的卡片与组合记录评分，不得用截断前候选或完整 gold 补账",
+  "usage": "evaluation-only：案例不得进入抽取、打分或调权流程"
+ },
+ "cases": [
+  {
+   "key": "block.minecraft.oak_planks",
+   "en": "Oak Planks",
+   "zh": "橡木木板",
+   "expect": "compositional",
+   "required_terms": [
+    "Oak",
+    "Planks"
+   ],
+   "reason": "橡木+木板；橡木系列最基础的零件组合"
+  },
+  {
+   "key": "block.minecraft.oak_sapling",
+   "en": "Oak Sapling",
+   "zh": "橡树树苗",
+   "expect": "compositional",
+   "required_terms": [
+    "Oak",
+    "Sapling"
+   ],
+   "reason": "同一 Oak 在树苗里取变体 橡树，与橡木木板并存"
+  },
+  {
+   "key": "block.minecraft.spruce_planks",
+   "en": "Spruce Planks",
+   "zh": "云杉木板",
+   "expect": "compositional",
+   "required_terms": [
+    "Spruce",
+    "Planks"
+   ],
+   "reason": "云杉取裸形 + 木板"
+  },
+  {
+   "key": "block.minecraft.spruce_stairs",
+   "en": "Spruce Stairs",
+   "zh": "云杉木楼梯",
+   "expect": "compositional",
+   "required_terms": [
+    "Spruce",
+    "Stairs"
+   ],
+   "reason": "同一 Spruce 在楼梯里取 云杉木，裸形与木形并存"
+  },
+  {
+   "key": "block.minecraft.bamboo_planks",
+   "en": "Bamboo Planks",
+   "zh": "竹板",
+   "expect": "compositional",
+   "required_terms": [
+    "Bamboo",
+    "Planks"
+   ],
+   "reason": "竹（非竹木）+ 板；Planks 取变体 板"
+  },
+  {
+   "key": "entity.minecraft.bamboo_raft",
+   "en": "Bamboo Raft",
+   "zh": "竹筏",
+   "expect": "compositional",
+   "required_terms": [
+    "Bamboo",
+    "Raft"
+   ],
+   "reason": "Raft→筏，与 Boat→船 是不同产品零件"
+  },
+  {
+   "key": "block.minecraft.dark_oak_planks",
+   "en": "Dark Oak Planks",
+   "zh": "深色橡木木板",
+   "expect": "compositional",
+   "required_terms": [
+    "Dark Oak",
+    "Planks"
+   ],
+   "reason": "多词零件 Dark Oak 作整体再叠 Planks"
+  },
+  {
+   "key": "block.minecraft.white_wool",
+   "en": "White Wool",
+   "zh": "白色羊毛",
+   "expect": "compositional",
+   "required_terms": [
+    "White",
+    "Wool"
+   ],
+   "reason": "颜色词+产品词，颜色系列代表"
+  },
+  {
+   "key": "item.minecraft.light_blue_dye",
+   "en": "Light Blue Dye",
+   "zh": "淡蓝色染料",
+   "expect": "compositional",
+   "required_terms": [
+    "Light Blue",
+    "Dye"
+   ],
+   "reason": "多词颜色 Light Blue 整体取 淡蓝色"
+  },
+  {
+   "key": "block.minecraft.white_glazed_terracotta",
+   "en": "White Glazed Terracotta",
+   "zh": "白色带釉陶瓦",
+   "expect": "compositional",
+   "required_terms": [
+    "White",
+    "Glazed Terracotta"
+   ],
+   "reason": "颜色+带釉陶瓦，基块只在 16 色里抽一次"
+  },
+  {
+   "key": "block.minecraft.cut_copper_stairs",
+   "en": "Cut Copper Stairs",
+   "zh": "切制铜楼梯",
+   "expect": "compositional",
+   "required_terms": [
+    "Cut Copper",
+    "Stairs"
+   ],
+   "reason": "Cut Copper 取变体 切制铜（块→楼梯去块）"
+  },
+  {
+   "key": "block.minecraft.mossy_cobblestone_stairs",
+   "en": "Mossy Cobblestone Stairs",
+   "zh": "苔石楼梯",
+   "expect": "compositional",
+   "required_terms": [
+    "Mossy Cobblestone",
+    "Stairs"
+   ],
+   "reason": "组合引用非字面零件 苔石"
+  },
+  {
+   "key": "item.minecraft.enchanted_golden_apple",
+   "en": "Enchanted Golden Apple",
+   "zh": "附魔金苹果",
+   "expect": "compositional",
+   "required_terms": [
+    "Enchanted",
+    "Golden Apple"
+   ],
+   "reason": "附魔+金苹果，嵌套组合"
+  },
+  {
+   "key": "block.minecraft.slime_block",
+   "en": "Slime Block",
+   "zh": "黏液块",
+   "expect": "compositional",
+   "required_terms": [
+    "Slime",
+    "Block"
+   ],
+   "reason": "同一 Slime 在方块里取 黏液（实体是 史莱姆）"
+  },
+  {
+   "key": "block.minecraft.sculk_sensor",
+   "en": "Sculk Sensor",
+   "zh": "幽匿感测体",
+   "expect": "compositional",
+   "required_terms": [
+    "Sculk",
+    "Sensor"
+   ],
+   "reason": "同一 Sculk 作前缀取 幽匿（单独是 幽匿块）"
+  },
+  {
+   "key": "block.minecraft.shulker_box",
+   "en": "Shulker Box",
+   "zh": "潜影盒",
+   "expect": "compositional",
+   "required_terms": [
+    "Shulker",
+    "Box"
+   ],
+   "reason": "同一 Shulker 在方块里取 潜影（实体是 潜影贝）"
+  },
+  {
+   "key": "entity.minecraft.creeper",
+   "en": "Creeper",
+   "zh": "苦力怕",
+   "expect": "unit",
+   "required_terms": [
+    "Creeper"
+   ],
+   "reason": "音译整体名，无零件可拆"
+  },
+  {
+   "key": "entity.minecraft.allay",
+   "en": "Allay",
+   "zh": "悦灵",
+   "expect": "unit",
+   "required_terms": [
+    "Allay"
+   ],
+   "reason": "单次整体名，需原子卡"
+  },
+  {
+   "key": "entity.minecraft.axolotl",
+   "en": "Axolotl",
+   "zh": "美西螈",
+   "expect": "unit",
+   "required_terms": [
+    "Axolotl"
+   ],
+   "reason": "单次整体名，需原子卡"
+  },
+  {
+   "key": "entity.minecraft.warden",
+   "en": "Warden",
+   "zh": "监守者",
+   "expect": "unit",
+   "required_terms": [
+    "Warden"
+   ],
+   "reason": "单次整体名，需原子卡"
+  },
+  {
+   "key": "item.minecraft.elytra",
+   "en": "Elytra",
+   "zh": "鞘翅",
+   "expect": "unit",
+   "required_terms": [
+    "Elytra"
+   ],
+   "reason": "无构词线索的单次名"
+  },
+  {
+   "key": "block.minecraft.lodestone",
+   "en": "Lodestone",
+   "zh": "磁石",
+   "expect": "unit",
+   "required_terms": [
+    "Lodestone"
+   ],
+   "reason": "整体名，lode 不在别处出现"
+  },
+  {
+   "key": "block.minecraft.sculk",
+   "en": "Sculk",
+   "zh": "幽匿块",
+   "expect": "unit",
+   "required_terms": [
+    "Sculk"
+   ],
+   "reason": "单独成块时作 幽匿块，与前缀用法区分"
+  },
+  {
+   "key": "entity.minecraft.slime",
+   "en": "Slime",
+   "zh": "史莱姆",
+   "expect": "unit",
+   "required_terms": [
+    "Slime"
+   ],
+   "reason": "实体取 史莱姆，与方块零件 黏液 区分"
+  },
+  {
+   "key": "entity.minecraft.shulker",
+   "en": "Shulker",
+   "zh": "潜影贝",
+   "expect": "unit",
+   "required_terms": [
+    "Shulker"
+   ],
+   "reason": "实体取 潜影贝，与方块前缀 潜影 区分"
+  },
+  {
+   "key": "item.minecraft.brick",
+   "en": "Brick",
+   "zh": "红砖",
+   "expect": "unit",
+   "required_terms": [
+    "Brick"
+   ],
+   "reason": "红砖；与 Bricks 同 lemma 不同译"
+  },
+  {
+   "key": "block.minecraft.bricks",
+   "en": "Bricks",
+   "zh": "红砖块",
+   "expect": "unit",
+   "required_terms": [
+    "Bricks"
+   ],
+   "reason": "红砖块；norm_lemma 与 Brick 撞车，需保住两个译法"
+  },
+  {
+   "key": "item.minecraft.nether_brick",
+   "en": "Nether Brick",
+   "zh": "下界砖",
+   "expect": "unit",
+   "required_terms": [
+    "Nether Brick"
+   ],
+   "reason": "下界砖；单复数撞车组"
+  },
+  {
+   "key": "block.minecraft.nether_bricks",
+   "en": "Nether Bricks",
+   "zh": "下界砖块",
+   "expect": "unit",
+   "required_terms": [
+    "Nether Bricks"
+   ],
+   "reason": "下界砖块；单复数撞车组"
+  },
+  {
+   "key": "block.minecraft.packed_ice",
+   "en": "Packed Ice",
+   "zh": "浮冰",
+   "expect": "exception",
+   "required_terms": [
+    "Packed Ice"
+   ],
+   "reason": "packed 不译出，浮冰"
+  },
+  {
+   "key": "block.minecraft.sea_lantern",
+   "en": "Sea Lantern",
+   "zh": "海晶灯",
+   "expect": "exception",
+   "required_terms": [
+    "Sea Lantern"
+   ],
+   "reason": "海晶灯，字面拼不出"
+  },
+  {
+   "key": "block.minecraft.moss_carpet",
+   "en": "Moss Carpet",
+   "zh": "覆地苔藓",
+   "expect": "exception",
+   "required_terms": [
+    "Moss Carpet"
+   ],
+   "reason": "覆地苔藓，顺序和用词都变"
+  },
+  {
+   "key": "block.minecraft.mossy_cobblestone",
+   "en": "Mossy Cobblestone",
+   "zh": "苔石",
+   "expect": "exception",
+   "required_terms": [
+    "Mossy Cobblestone"
+   ],
+   "reason": "圆石被并成 石，苔石"
+  },
+  {
+   "key": "block.minecraft.cobbled_deepslate",
+   "en": "Cobbled Deepslate",
+   "zh": "深板岩圆石",
+   "expect": "exception",
+   "required_terms": [
+    "Cobbled Deepslate"
+   ],
+   "reason": "深板岩+圆石顺序反转，Cobbled 借自圆石"
+  },
+  {
+   "key": "block.minecraft.bamboo_sapling",
+   "en": "Bamboo Shoot",
+   "zh": "竹笋",
+   "expect": "exception",
+   "required_terms": [
+    "Bamboo Shoot"
+   ],
+   "reason": "key 是 sapling、en 是 Shoot，需整名保留"
+  },
+  {
+   "key": "block.minecraft.potted_oak_sapling",
+   "en": "Potted Oak Sapling",
+   "zh": "橡树树苗盆栽",
+   "expect": "exception",
+   "required_terms": [
+    "Potted Oak Sapling"
+   ],
+   "reason": "Potted 后置成 盆栽"
+  },
+  {
+   "key": "entity.minecraft.oak_chest_boat",
+   "en": "Oak Boat with Chest",
+   "zh": "橡木运输船",
+   "expect": "exception",
+   "required_terms": [
+    "Oak Boat with Chest"
+   ],
+   "reason": "with Chest→运输，字面拼接失败"
+  },
+  {
+   "key": "block.minecraft.oak_wall_sign",
+   "en": "Oak Wall Sign",
+   "zh": "墙上的橡木告示牌",
+   "expect": "exception",
+   "required_terms": [
+    "Oak Wall Sign"
+   ],
+   "reason": "Wall 前置成 墙上的"
+  },
+  {
+   "key": "item.minecraft.heart_of_the_sea",
+   "en": "Heart of the Sea",
+   "zh": "海洋之心",
+   "expect": "exception",
+   "required_terms": [
+    "Heart of the Sea"
+   ],
+   "reason": "海洋之心，倒序+of"
+  },
+  {
+   "key": "block.minecraft.netherite_block",
+   "en": "Block of Netherite",
+   "zh": "下界合金块",
+   "expect": "exception",
+   "required_terms": [
+    "Block of Netherite"
+   ],
+   "reason": "Block of X→X块，倒序"
+  }
+ ]
+}
