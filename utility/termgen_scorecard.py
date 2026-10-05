@@ -9,7 +9,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from termgen import (build, clean_zh, compact_card, is_product_key, load_gold,
+from termgen import (build, clean_zh, compact_entry, is_product_key, load_gold,
                      load_input_rows, load_key_filter, norm_lemma, tokens_lc, verify_rows)
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -41,8 +41,8 @@ def line_chars(path):
         return sum(len(line.rstrip('\n')) + 1 for line in stream)
 
 
-def card_kind(card_id):
-    return KINDS.get(str(card_id)[:1], 'other')
+def entry_kind(entry_id):
+    return KINDS.get(str(entry_id)[:1], 'other')
 
 
 def zh_variants(values):
@@ -77,36 +77,36 @@ def reachable_gold(gold, rows):
     return out
 
 
-def gold_report(cards, gold, rows):
+def gold_report(entries, gold, rows):
     reach = reachable_gold(gold, rows)
     index = defaultdict(list)
-    for card in cards:
-        if card_kind(card['id']) == 'template':
+    for entry in entries:
+        if entry_kind(entry['id']) == 'template':
             continue
-        key = norm_lemma(card['en'])
+        key = norm_lemma(entry['en'])
         if key:
-            index[key].append(card)
+            index[key].append(entry)
     matched = 0
     pairs = []
     for en, variants in reach:
         hits = index.get(norm_lemma(en))
         if hits:
             matched += 1
-            pairs.extend((en, variants, card) for card in hits)
+            pairs.extend((en, variants, entry) for entry in hits)
     any_ok = all_ok = 0
     examples = []
-    for en, gvars, card in pairs:
+    for en, gvars, entry in pairs:
         want = set(gvars)
-        variants = zh_variants(card.get('zh'))
+        variants = zh_variants(entry.get('zh'))
         any_hit = any(v in want for v in variants)
         all_hit = bool(variants) and all(v in want for v in variants)
         any_ok += any_hit
         all_ok += all_hit
         if not all_hit and len(examples) < 30:
-            examples.append({'en': en, 'id': card['id'], 'card_zh': variants,
+            examples.append({'en': en, 'id': entry['id'], 'entry_zh': variants,
                              'gold_zh': gvars})
     return {'gold_terms': len(gold), 'reachable': len(reach), 'matched': matched,
-            'recall': ratio(matched, len(reach)), 'matched_cards': len(pairs),
+            'recall': ratio(matched, len(reach)), 'matched_entries': len(pairs),
             'any_ok': any_ok, 'all_ok': all_ok,
             'any_ok_rate': ratio(any_ok, len(pairs)),
             'all_ok_rate': ratio(all_ok, len(pairs)), 'not_all_ok': examples}
@@ -138,14 +138,14 @@ def ranked_gold(entries, gold, rows):
             'any_ok': any_ok, 'any_ok_rate': ratio(any_ok, checked)}
 
 
-def case_report(cases, audit, cards):
+def case_report(cases, audit, entries):
     by_key = {row['key']: row for row in audit}
-    by_id = {card['id']: card for card in cards}
+    by_id = {entry['id']: entry for entry in entries}
     index = defaultdict(list)
-    for card in cards:
-        key = norm_lemma(card['en'])
+    for entry in entries:
+        key = norm_lemma(entry['en'])
         if key:
-            index[key].append(card)
+            index[key].append(entry)
     by_expect = {expect: {'total': 0, 'covered': 0} for expect in EXPECT}
     missed = []
     for case in cases:
@@ -158,8 +158,8 @@ def case_report(cases, audit, cards):
             want = set(case_variants(case.get('zh')))
             hits = index.get(norm_lemma(case.get('en') or ''), [])
             if not hits:
-                why.append('no_card')
-            elif not any(want & set(zh_variants(card.get('zh'))) for card in hits):
+                why.append('no_entry')
+            elif not any(want & set(zh_variants(entry.get('zh'))) for entry in hits):
                 why.append('zh_mismatch')
         elif expect == 'compositional':
             if row is None:
@@ -175,7 +175,7 @@ def case_report(cases, audit, cards):
         else:
             if row is None:
                 why.append('no_row')
-            elif not any(card_kind(cid) in ('exception', 'template')
+            elif not any(entry_kind(cid) in ('exception', 'template')
                          for cid in row.get('terms') or []):
                 why.append('no_exception_or_template')
         if why:
@@ -188,11 +188,11 @@ def case_report(cases, audit, cards):
             'by_expect': by_expect, 'missed': missed}
 
 
-def noise_report(cards):
-    units = [card for card in cards if card_kind(card['id']) == 'unit']
-    variants = sum(len(card.get('zh') or []) for card in units)
-    return {'unit_cards': len(units), 'variants_total': variants,
-            'per_card_avg': ratio(variants, len(units))}
+def noise_report(entries):
+    units = [entry for entry in entries if entry_kind(entry['id']) == 'unit']
+    variants = sum(len(entry.get('zh') or []) for entry in units)
+    return {'unit_entries': len(units), 'variants_total': variants,
+            'per_entry_avg': ratio(variants, len(units))}
 
 
 def fill_slots(pattern, values):
@@ -209,23 +209,23 @@ def expand_tree(node, by_id):
         left_en, left_zh = expand_tree(node['cat'][0], by_id)
         right_en, right_zh = expand_tree(node['cat'][1], by_id)
         return left_en + ' ' + right_en, left_zh + right_zh
-    card = by_id.get(node.get('c'))
-    if card is None:
-        raise ValueError('unknown card %s' % node.get('c'))
+    entry = by_id.get(node.get('c'))
+    if entry is None:
+        raise ValueError('unknown entry %s' % node.get('c'))
     if 's' in node:
         parts = [expand_tree(child, by_id) for child in node['s']]
-        if not card.get('zh'):
-            raise ValueError('template %s has no zh' % card['id'])
-        return (fill_slots(card['en'], [part[0] for part in parts]),
-                fill_slots(card['zh'][0], [part[1] for part in parts]))
+        if not entry.get('zh'):
+            raise ValueError('template %s has no zh' % entry['id'])
+        return (fill_slots(entry['en'], [part[0] for part in parts]),
+                fill_slots(entry['zh'][0], [part[1] for part in parts]))
     variant = node.get('v')
-    if variant not in (card.get('zh') or []):
-        raise ValueError('variant %r missing from %s' % (variant, card['id']))
-    return card['en'], variant
+    if variant not in (entry.get('zh') or []):
+        raise ValueError('variant %r missing from %s' % (variant, entry['id']))
+    return entry['en'], variant
 
 
-def verify_v4(audit, cards):
-    by_id = {card['id']: card for card in cards}
+def verify_v4(audit, entries):
+    by_id = {entry['id']: entry for entry in entries}
     failures = []
     for row in audit:
         try:
@@ -241,29 +241,29 @@ def verify_v4(audit, cards):
             'failures': failures[:10]}
 
 
-def check_lossless(version, audit, cards):
+def check_lossless(version, audit, entries):
     if version == 'termgen':
-        converted = [{'id': card['id'], 'en': card['en'],
-                      'zh_candidates': card.get('zh') or []} for card in cards]
+        converted = [{'id': entry['id'], 'en': entry['en'],
+                      'zh_candidates': entry.get('zh') or []} for entry in entries]
         return verify_rows(audit, converted)
-    return verify_v4(audit, cards)
+    return verify_v4(audit, entries)
 
 
-def lossless_report(version, dir_label, cards, audit, review_chars, rows, gold, cases):
+def lossless_report(version, dir_label, entries, audit, review_chars, rows, gold, cases):
     input_chars = sum(len(packed({'en': en, 'zh_candidates': [zh]})) + 1
                       for _, en, zh in rows)
-    kinds = Counter(card_kind(card['id']) for card in cards)
+    kinds = Counter(entry_kind(entry['id']) for entry in entries)
     exception_rows = sum(1 for row in audit if row.get('status') == 'exception')
     return {'dir': dir_label,
-            'lossless': check_lossless(version, audit, cards),
+            'lossless': check_lossless(version, audit, entries),
             'review_chars': review_chars, 'input_chars': input_chars,
             'reduction': 1 - review_chars / input_chars if input_chars else None,
-            'cards': {'total': len(cards), 'by_kind': dict(kinds),
+            'entries': {'total': len(entries), 'by_kind': dict(kinds),
                       'exception_rows': exception_rows,
                       'exception_share': ratio(exception_rows, len(audit))},
-            'gold': gold_report(cards, gold, rows),
-            'noise': noise_report(cards),
-            'cases': case_report(cases, audit, cards)}
+            'gold': gold_report(entries, gold, rows),
+            'noise': noise_report(entries),
+            'cases': case_report(cases, audit, entries)}
 
 
 def termgen_aligned(gold, rows):
@@ -333,7 +333,7 @@ def main(argv=None):
     cases = cases.get('cases') if isinstance(cases, dict) else cases
     result = build(INPUT)
     report = {'termgen': lossless_report(
-        'termgen', 'in-process', [compact_card(card) for card in result['review']],
+        'termgen', 'in-process', [compact_entry(entry) for entry in result['review']],
         result['audit'], result['stats']['review_chars'], rows, gold, cases)}
     report['v4'] = termgen_v4(gold, rows, cases)
     if args.with_ranked:

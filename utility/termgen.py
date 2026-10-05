@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# 术语候选生成：把 en→zh 平行名称压成可复用条目（零件/模板/例外），人只审条目。
+# 流水线：key 过滤 → 挖片段 → 统计门控 → 组合证明 → 模板 → 选条目 → 逐行核验。
+# 用法：extract 打 TSV / judge 出审校 JSON / bench 打分；设计见 Docs/TERMGEN.md。
 import argparse
 import csv
 import itertools
@@ -20,8 +23,7 @@ except Exception:
 
 
 CJK_RE = re.compile(r'[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+')
-ASCII_RUN_RE = re.compile(r'[A-Za-z]+')
-FORMAT_RE = re.compile(r'%(\d+\$)?[sdf]|%%|\{[^}]*\}|§.|\\n|\\t|\\r')
+FORMAT_RE = re.compile(r'%(\d+\$)?[sdf]|%%|\{[^}]*\}|§.|\\n|\\t|\\r')  # 剥掉 %s、{}、§x 这类格式符
 TOKEN_RE = re.compile(r"[A-Za-z]+(?:['’][A-Za-z]+)*")
 NAME_CHARS_RE = re.compile(r"[A-Za-z0-9'’\-\s]+$")
 NAME_BAD_RE = re.compile(r"[.!?…:;,()\[\]{}\"“”«»/\\|<>+=*#@$^~`]")
@@ -30,21 +32,15 @@ is are was were be been being am do does did not no nor you your yours we our ou
 them their his her my me i will would can could should shall may might must have has had here there when
 where which who whom what how why all any some more most other such only own same so too very just also up
 down out off over under again further once during before after above below between into through about
-against while both each few because until unless upon onto within without across around""".split())
-LEAD_OK = {'the'}
-MAXN = 5
-MAX_NAME_TOKENS = 7
+against while both each few because until unless upon onto within without across around""".split())  # 停用词
+LEAD_OK = {'the'}  # 允许出现在开头的停用词
+MAX_NAME_TOKENS = 7  # 名字最多 7 个词
 
-KEEP_SCORE = 0.85
-ZIPF_GATE = 5.0
-ZIPF_SCOPE = 'label'
-REVIEW_SCORE = 0.30
-COHESION_CMP = 0.05
-COHESION_MI = 6.0
 KEY_FILTER_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                               'Vanilla', 'diffs', 'term-key-filters.json')
+                               'Vanilla', 'diffs', 'term-key-filters.json')  # key 白/黑名单
 
 
+# 去格式符、规范撇号、压空白
 def clean_en(s):
     s = FORMAT_RE.sub(' ', s)
     s = s.replace('’', "'").replace('\u00a0', ' ')
@@ -64,6 +60,7 @@ def raw_tokens(s):
     return TOKEN_RE.findall(s)
 
 
+# 合法词：停用词/数字/单字母/全大写/首字母大写
 def token_ok(w):
     if w.lower() in STOP:
         return True
@@ -76,6 +73,7 @@ def token_ok(w):
     return w[0].isupper()
 
 
+# 名字门槛：≤7 词、无标点、有首字母大写、停用词受限
 def is_name_like(s):
     if not s or len(s) > 80:
         return False
@@ -100,6 +98,7 @@ def is_name_like(s):
     return True
 
 
+# 规范化：小写、去标点、去 's、单数化
 def norm_lemma(s):
     s = s.lower().replace('’', "'")
     s = re.sub(r"[^a-z0-9' ]+", ' ', s)
@@ -123,6 +122,7 @@ def load_key_filter():
     return wl, bl
 
 
+# 黑名单命中即否，白名单命中才算
 def is_product_key(key, wl, bl):
     if not key:
         return False
@@ -131,10 +131,7 @@ def is_product_key(key, wl, bl):
     return any(p.search(key) for p in wl)
 
 
-PARTICLES = set('的了着之地得是在和与及或为被把让使对从向于而且并也都就才还又很更最不没有无')
-SLACK = PARTICLES | {'色'}
-
-
+# 输入三种形态：diff JSON / 纯文本 / TSV
 def load_input_rows(path):
     if path.endswith('.json'):
         with open(path, encoding='utf-8') as f:
@@ -202,13 +199,13 @@ def load_gold(paths):
 
 
 ROOT = Path(__file__).resolve().parent.parent
-CONNECTORS = {'of', 'the'}
-MAX_GRAM = 5
-MIN_STRONG_FREQ = 3
-ENTROPY_GATE = 2.0
-JOIN_GATE = 3.0
-MIN_ROWS = 2
-MIN_PAIRS = 2
+CONNECTORS = {'of', 'the'}  # 拼接时可跳过的连接词
+MAX_GRAM = 5  # 英文片段最长 5 词
+MIN_STRONG_FREQ = 3  # 至少出现在 3 个不同名字里
+ENTROPY_GATE = 2.0  # 邻居熵门槛（bit）：邻居够杂才算独立单位
+JOIN_GATE = 3.0  # 搭配强度门槛：共现远超偶然才算固定搭配
+MIN_ROWS = 2  # 模板/原子至少覆盖 2 行
+MIN_PAIRS = 2  # 且至少 2 对不同对照
 MAX_INDUCTION_ROUNDS = 2
 MAX_PRUNE_ROUNDS = 4
 
@@ -217,16 +214,19 @@ def packed(value):
     return json.dumps(value, ensure_ascii=False, separators=(',', ':'))
 
 
+# 中文候选：CJK 段里 1~8 字的全部子串
 def zh_fragments(text):
     return {run[i:j] for run in CJK_RE.findall(text)
             for i in range(len(run))
             for j in range(i + 1, min(len(run), i + 8) + 1)}
 
 
+# 名字→小写词元；不像名字或含数字返回空
 def name_tokens(en):
     return tuple(tokens_lc(en)) if is_name_like(en) and not re.search(r'[0-9]', en) else ()
 
 
+# 给英文片段找中文候选：整名精确对照 + Dice 贪心覆盖
 def translations(gram, support, pairs, fragments, subdf, whole):
     exact = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
     hits = Counter(sub for pid in support for sub in fragments[pid])
@@ -243,7 +243,7 @@ def translations(gram, support, pairs, fragments, subdf, whole):
             if len(extra) < 2:
                 continue
             outside = subdf[sub] - hits[sub]
-            dice = 2 * len(extra) / (len(uncovered) + len(extra) + outside)
+            dice = 2 * len(extra) / (len(uncovered) + len(extra) + outside)  # 扎堆在未覆盖行、外面少见
             if dice >= 0.5:
                 choices.append((dice, len(extra), len(sub), sub, extra))
         if not choices:
@@ -255,16 +255,17 @@ def translations(gram, support, pairs, fragments, subdf, whole):
     return variants, confidence, len(covered) / len(support)
 
 
+# 条目中文按序拼接 == 目标译文，每个条目只用一次
 def chinese_match(zh, parts):
     target = re.sub(r'\s+', '', zh)
-    variants = tuple(tuple(re.sub(r'\s+', '', z) for z in card['zh_candidates'] if z)
-                     for card in parts)
+    variants = tuple(tuple(re.sub(r'\s+', '', z) for z in entry['zh_candidates'] if z)
+                     for entry in parts)
 
     @lru_cache(maxsize=None)
     def visit(pos, remaining):
         if not remaining:
             return pos == len(target)
-        if pos and pos < len(target) - 1 and target[pos] == '的':
+        if pos and pos < len(target) - 1 and target[pos] == '的':  # 片段之间允许多一个「的」
             if visit(pos + 1, remaining):
                 return True
         for i, options in enumerate(variants):
@@ -278,6 +279,7 @@ def chinese_match(zh, parts):
     return bool(parts) and visit(0, (1 << len(parts)) - 1)
 
 
+# 贪心最长匹配切词；尝试封顶 256；of/the 跳过
 def compose(toks, zh, lexicon, forbid=None):
     if not toks or not zh:
         return None
@@ -290,7 +292,7 @@ def compose(toks, zh, lexicon, forbid=None):
         if pos == len(toks):
             attempts += 1
             if chinese_match(zh, chosen):
-                return [card['id'] for card in chosen]
+                return [entry['id'] for entry in chosen]
             return None
         for end in range(min(len(toks), pos + MAX_GRAM), pos, -1):
             gram = toks[pos:end]
@@ -305,11 +307,12 @@ def compose(toks, zh, lexicon, forbid=None):
     return paths(0, [])
 
 
+# 反推单词译文：其余词已知时从整名切出，需 ≥2 个名字佐证
 def refine_atoms(aligned, supports, pairs, fragments, whole):
     atoms = {gram[0]: {'zh_candidates': info[0]}
              for gram, info in aligned.items() if len(gram) == 1 and info[0]}
     refined = {}
-    for word, card in atoms.items():
+    for word, entry in atoms.items():
         gram = (word,)
         found = defaultdict(set)
         for pid in supports[gram]:
@@ -339,12 +342,13 @@ def refine_atoms(aligned, supports, pairs, fragments, whole):
         if len(explained) >= max(2, len(supports[gram]) / 2):
             refined[gram] = (variants, aligned[gram][1], len(explained) / len(supports[gram]))
         elif variants:
-            merged = list(card['zh_candidates'])
+            merged = list(entry['zh_candidates'])
             merged.extend(z for z in variants if z not in merged)
             refined[gram] = (merged, aligned[gram][1], aligned[gram][2])
     aligned.update(refined)
 
 
+# 分布熵（bit）：邻居花样多少
 def entropy_bits(counter):
     total = sum(counter.values())
     if not total:
@@ -352,6 +356,7 @@ def entropy_bits(counter):
     return -sum((count / total) * math.log2(count / total) for count in counter.values())
 
 
+# 把词元串递归切成 bank 里的已知单元
 def outside_units(toks, bank):
     if not toks:
         return []
@@ -366,6 +371,7 @@ def outside_units(toks, bank):
     return None
 
 
+# 交叉核对：片段唯一出现、前后可解释、中文可拼、≥2 个不同邻居做证
 def verify_nested(grams, aligned, bank, supports, pairs, fragments, whole, names):
     for gram in grams:
         info = aligned.get(gram)
@@ -409,37 +415,39 @@ def verify_nested(grams, aligned, bank, supports, pairs, fragments, whole, names
             aligned[gram] = (variants, info[1], len(covered) / len(supports[gram]))
 
 
-def trim_variants(cards, audit, by_id):
+# 只保留核验真正用到的中文变体
+def trim_variants(entries, audit, by_id):
     observed = defaultdict(set)
     for row in audit:
         parts = [by_id[cid] for cid in row['terms']]
         for cid in set(row['terms']):
-            card = by_id[cid]
-            if card['kind'] == 'exception' or row['terms'].count(cid) > 1:
-                observed[cid].update(card['zh_candidates'])
+            entry = by_id[cid]
+            if entry['kind'] == 'exception' or row['terms'].count(cid) > 1:
+                observed[cid].update(entry['zh_candidates'])
                 continue
-            for variant in card['zh_candidates']:
+            for variant in entry['zh_candidates']:
                 narrowed = [dict(part, zh_candidates=[variant]) if part['id'] == cid
                             else part for part in parts]
                 if chinese_match(row['zh'], narrowed):
                     observed[cid].add(variant)
-    for card in cards:
-        card['zh_candidates'] = [z for z in card['zh_candidates']
-                                 if z in observed[card['id']]]
+    for entry in entries:
+        entry['zh_candidates'] = [z for z in entry['zh_candidates']
+                                 if z in observed[entry['id']]]
 
 
-def compact_card(card):
-    return {'id': card['id'], 'en': card['en'], 'zh': card['zh_candidates']}
+def compact_entry(entry):
+    return {'id': entry['id'], 'en': entry['en'], 'zh': entry['zh_candidates']}
 
 
-def select_cards(cards, audit, budget):
-    by_id = {card['id']: card for card in cards}
+# 预算内最大覆盖贪心：挑覆盖行数最多的条目组合
+def select_entries(entries, audit, budget):
+    by_id = {entry['id']: entry for entry in entries}
     bundles = defaultdict(int)
     for row in audit:
         bundles[frozenset(row['terms'])] += 1
     selected = set()
     order = []
-    while len(selected) < len(cards):
+    while len(selected) < len(entries):
         gains = defaultdict(int)
         for deps, count in bundles.items():
             missing = deps - selected
@@ -447,15 +455,15 @@ def select_cards(cards, audit, budget):
                 gains[missing] += count
         if not gains:
             break
-        remaining = budget - len(selected) if budget else len(cards)
+        remaining = budget - len(selected) if budget else len(entries)
         choices = [(gain / len(missing), gain, tuple(sorted(missing)), missing)
                    for missing, gain in gains.items() if len(missing) <= remaining]
         if not choices:
             break
         _, _, _, best = max(choices)
-        for card_id in sorted(best, key=lambda cid: (-by_id[cid]['uses'], cid)):
-            selected.add(card_id)
-            order.append(by_id[card_id])
+        for entry_id in sorted(best, key=lambda cid: (-by_id[cid]['uses'], cid)):
+            selected.add(entry_id)
+            order.append(by_id[entry_id])
     return order
 
 
@@ -463,14 +471,15 @@ def stripped(text):
     return re.sub(r'\s+', '', text)
 
 
-def build_lexicon(cards, atoms):
+# 只有 unit 条目进可组合词典
+def build_lexicon(entries, atoms):
     lexicon = {}
-    for card in list(cards.values()) + atoms:
-        if card['kind'] != 'unit':
+    for entry in list(entries.values()) + atoms:
+        if entry['kind'] != 'unit':
             continue
-        tokens = name_tokens(card['en'])
+        tokens = name_tokens(entry['en'])
         if tokens:
-            lexicon[tokens] = card
+            lexicon[tokens] = entry
     return lexicon
 
 
@@ -481,14 +490,15 @@ def load_standalone(rows):
     return standalone
 
 
-def unit_variants(cards):
+def unit_variants(entries):
     variants = set()
-    for card in cards.values():
-        if card['kind'] == 'unit':
-            variants.update(card['zh_candidates'])
+    for entry in entries.values():
+        if entry['kind'] == 'unit':
+            variants.update(entry['zh_candidates'])
     return variants
 
 
+# 译文能否被变体集合切分覆盖（DP）
 def accounted(variants, zh):
     target = stripped(zh)
     reachable = [False] * (len(target) + 1)
@@ -505,14 +515,15 @@ def row_tokens(en):
     return name_tokens(en) or tuple(tokens_lc(en))
 
 
+# 找英文词元里能对上目标中文的条目跨度
 def span_variants(lexicon, target, tokens):
     spans = []
     for start in range(len(tokens)):
         for end in range(start + 1, len(tokens) + 1):
-            card = lexicon.get(tokens[start:end])
-            if card is None:
+            entry = lexicon.get(tokens[start:end])
+            if entry is None:
                 continue
-            found = [z for z in card['zh_candidates']
+            found = [z for z in entry['zh_candidates']
                      if z and z != target and target.count(z) == 1]
             if found:
                 spans.append((start, end, max(found, key=lambda z: (len(z), z))))
@@ -531,6 +542,7 @@ def add_template(templates, pattern, zh_pattern, row, fillers):
     record['pairs'].add((row['en'], row['zh']))
 
 
+# 从例外行切句子骨架（单槽 + 双槽）
 def extract_templates(audit, lexicon):
     templates = {}
     for row in audit:
@@ -587,6 +599,7 @@ def split_pattern(pattern):
     return parts
 
 
+# 骨架匹配：字面对齐、槽位吃一段，返回第一组切分
 def match_zh(pattern, target):
     parts = split_pattern(pattern)
     found = []
@@ -640,13 +653,15 @@ def match_en(pattern, tokens):
     return found[0] if found else None
 
 
+# 模板门槛：≥2 个不同填充词、≥2 对对照
 def confirmed(templates):
     return {key for key, record in templates.items()
             if len(record['fillers']) >= MIN_ROWS and len(record['pairs']) >= MIN_PAIRS}
 
 
+# 例外行 × 已确认模板做匹配
 def prepare(audit, order, variants):
-    entries = []
+    matched = []
     for row in audit:
         if row['status'] != 'exception' or accounted(variants, row['zh']):
             continue
@@ -665,76 +680,80 @@ def prepare(audit, order, variants):
                 continue
             matches.append((key, spans, slots))
         if matches:
-            entries.append({'row': row, 'tokens': tokens, 'raw': raw_tokens(row['en']),
+            matched.append({'row': row, 'tokens': tokens, 'raw': raw_tokens(row['en']),
                             'target': target, 'matches': matches})
-    return entries
+    return matched
 
 
+# 槽位填充词必须已知（独立条目或独立对照）且可组合
 def filler_ready(filler, surface, slot_zh, lexicon, standalone, atom_ids):
-    card = lexicon.get(filler)
-    if not (card and card['id'] in atom_ids):
+    entry = lexicon.get(filler)
+    if not (entry and entry['id'] in atom_ids):
         known = standalone.get(norm_lemma(surface))
         if not known or slot_zh not in known:
             return False
     return compose(filler, slot_zh, lexicon) is not None
 
 
-def attempt(entries, lexicon, standalone, atom_ids, allowed):
+# 逐行用模板解释，成功则记下模板与槽位条目
+def attempt(matched, lexicon, standalone, atom_ids, allowed):
     results = {}
-    for entry in entries:
-        for key, spans, slots in entry['matches']:
+    for item in matched:
+        for key, spans, slots in item['matches']:
             if allowed is not None and key not in allowed:
                 continue
             terms, ok = [], True
             for (start, end), slot_zh in zip(spans, slots):
-                filler = entry['tokens'][start:end]
-                surface = ' '.join(entry['raw'][start:end])
+                filler = item['tokens'][start:end]
+                surface = ' '.join(item['raw'][start:end])
                 if not filler_ready(filler, surface, slot_zh, lexicon, standalone, atom_ids):
                     ok = False
                     break
                 terms.append(compose(filler, slot_zh, lexicon))
             if ok:
-                results[entry['row']['key']] = {'template': key, 'slots': terms}
+                results[item['row']['key']] = {'template': key, 'slots': terms}
                 break
     return results
 
 
-def collect_failures(entries, results, lexicon, standalone, atom_ids):
+# 收集不认识槽位的填充词，供 induce 补条目
+def collect_failures(matched, results, lexicon, standalone, atom_ids):
     failed = defaultdict(set)
-    for entry in entries:
-        if entry['row']['key'] in results:
+    for item in matched:
+        if item['row']['key'] in results:
             continue
-        for key, spans, slots in entry['matches']:
+        for key, spans, slots in item['matches']:
             for (start, end), slot_zh in zip(spans, slots):
-                filler = entry['tokens'][start:end]
-                surface = ' '.join(entry['raw'][start:end])
+                filler = item['tokens'][start:end]
+                surface = ' '.join(item['raw'][start:end])
                 if not filler_ready(filler, surface, slot_zh, lexicon, standalone, atom_ids):
-                    failed[(norm_lemma(surface), slot_zh)].add(entry['row']['key'])
+                    failed[(norm_lemma(surface), slot_zh)].add(item['row']['key'])
     return failed
 
 
-def next_unit_id(cards, atoms):
-    numbers = [int(card_id[1:]) for card_id in cards
-               if card_id.startswith('u') and card_id[1:].isdigit()]
+def next_unit_id(entries, atoms):
+    numbers = [int(entry_id[1:]) for entry_id in entries
+               if entry_id.startswith('u') and entry_id[1:].isdigit()]
     return max(numbers or [0]) + 1 + len(atoms)
 
 
-def atom_surface(entries, keys, en_norm):
-    for entry in entries:
-        if entry['row']['key'] not in keys:
+def atom_surface(matched, keys, en_norm):
+    for item in matched:
+        if item['row']['key'] not in keys:
             continue
-        for start in range(len(entry['tokens'])):
-            for end in range(start + 1, len(entry['tokens']) + 1):
-                surface = ' '.join(entry['raw'][start:end])
+        for start in range(len(item['tokens'])):
+            for end in range(start + 1, len(item['tokens']) + 1):
+                surface = ' '.join(item['raw'][start:end])
                 if norm_lemma(surface) == en_norm:
                     return surface
     return None
 
 
-def induce(entries, cards, lexicon, standalone, atoms, atom_ids):
+# 反复失败的填充词升格为独立条目（≥2 行）
+def induce(matched, entries, lexicon, standalone, atoms, atom_ids):
     for _ in range(MAX_INDUCTION_ROUNDS):
-        results = attempt(entries, lexicon, standalone, atom_ids, None)
-        failed = collect_failures(entries, results, lexicon, standalone, atom_ids)
+        results = attempt(matched, lexicon, standalone, atom_ids, None)
+        failed = collect_failures(matched, results, lexicon, standalone, atom_ids)
         added = 0
         for (en_norm, slot_zh), keys in sorted(failed.items()):
             if len(keys) < MIN_ROWS:
@@ -742,50 +761,52 @@ def induce(entries, cards, lexicon, standalone, atoms, atom_ids):
             tokens = tuple(en_norm.split())
             if tokens in lexicon:
                 continue
-            surface = atom_surface(entries, keys, en_norm)
+            surface = atom_surface(matched, keys, en_norm)
             if not surface or name_tokens(surface) != tokens:
                 continue
-            card = {'id': 'u%d' % next_unit_id(cards, atoms), 'en': surface,
+            entry = {'id': 'u%d' % next_unit_id(entries, atoms), 'en': surface,
                     'zh_candidates': [slot_zh], 'kind': 'unit',
                     'reason': 'induced_atom', 'uses': 0}
-            lexicon[tokens] = card
-            atoms.append(card)
-            atom_ids.add(card['id'])
+            lexicon[tokens] = entry
+            atoms.append(entry)
+            atom_ids.add(entry['id'])
             added += 1
         if not added:
             break
     return atoms
 
 
-def prune(entries, cards, atoms, pair_of, standalone):
+# 迭代裁剪：模板用不够 2 次、原子覆盖不够 2 行/2 对就删
+def prune(matched, entries, atoms, pair_of, standalone):
     atom_ids = {atom['id'] for atom in atoms}
     allowed = None
     for _ in range(MAX_PRUNE_ROUNDS):
-        lexicon = build_lexicon(cards, atoms)
-        results = attempt(entries, lexicon, standalone, atom_ids, allowed)
+        lexicon = build_lexicon(entries, atoms)
+        results = attempt(matched, lexicon, standalone, atom_ids, allowed)
         uses = Counter(record['template'] for record in results.values())
-        kept = {key for key in {match[0] for entry in entries for match in entry['matches']}
+        kept = {key for key in {match[0] for item in matched for match in item['matches']}
                 if uses[key] >= MIN_ROWS}
         covered = defaultdict(set)
         for row_key, record in results.items():
-            for cards_in_slot in record['slots']:
-                for card_id in cards_in_slot:
-                    if card_id in atom_ids:
-                        covered[card_id].add(row_key)
-        dropped = {card_id for card_id in atom_ids
-                   if len(covered[card_id]) < MIN_ROWS
-                   or len({pair_of[key] for key in covered[card_id]}) < MIN_PAIRS}
+            for entries_in_slot in record['slots']:
+                for entry_id in entries_in_slot:
+                    if entry_id in atom_ids:
+                        covered[entry_id].add(row_key)
+        dropped = {entry_id for entry_id in atom_ids
+                   if len(covered[entry_id]) < MIN_ROWS
+                   or len({pair_of[key] for key in covered[entry_id]}) < MIN_PAIRS}
         if kept == allowed and not dropped:
             break
         allowed = kept
         if dropped:
             atom_ids -= dropped
             atoms[:] = [atom for atom in atoms if atom['id'] not in dropped]
-    lexicon = build_lexicon(cards, atoms)
-    results = attempt(entries, lexicon, standalone, atom_ids, allowed)
+    lexicon = build_lexicon(entries, atoms)
+    results = attempt(matched, lexicon, standalone, atom_ids, allowed)
     return atoms, allowed, results
 
 
+# 模板行核验：重匹配英文、重切中文、槽位逐条核对
 def verify_template(row, terms, by_id):
     template = by_id[terms[0]]
     pattern = tuple(template['en'].split(' '))
@@ -793,8 +814,8 @@ def verify_template(row, terms, by_id):
     spans = match_en(pattern, tokens)
     if spans is None:
         return False
-    filler_cards = [by_id[card_id] for card_id in terms[1:]]
-    rebuilt, slot_cards, index = [], [], 0
+    filler_entries = [by_id[entry_id] for entry_id in terms[1:]]
+    rebuilt, slot_entries, index = [], [], 0
     for token in pattern:
         if not token.startswith('{'):
             rebuilt.append(token)
@@ -802,39 +823,41 @@ def verify_template(row, terms, by_id):
         start, end = spans[int(token[1])]
         chunk, collected = [], []
         while len(collected) < end - start:
-            if index >= len(filler_cards):
+            if index >= len(filler_entries):
                 return False
-            card_tokens = list(name_tokens(filler_cards[index]['en']))
-            if not card_tokens:
+            entry_tokens = list(name_tokens(filler_entries[index]['en']))
+            if not entry_tokens:
                 return False
-            collected.extend(card_tokens)
-            chunk.append(filler_cards[index])
+            collected.extend(entry_tokens)
+            chunk.append(filler_entries[index])
             index += 1
         if collected != list(tokens[start:end]):
             return False
-        rebuilt.extend(card['en'] for card in chunk)
-        slot_cards.append(chunk)
-    if index != len(filler_cards):
+        rebuilt.extend(entry['en'] for entry in chunk)
+        slot_entries.append(chunk)
+    if index != len(filler_entries):
         return False
     if stripped(' '.join(rebuilt)).lower() != stripped(row['en']).lower():
         return False
     target = stripped(row['zh'])
     slots = match_zh(template['zh_candidates'][0], target)
-    if slots is None or len(slots) != len(slot_cards):
+    if slots is None or len(slots) != len(slot_entries):
         return False
     rebuilt = template['zh_candidates'][0]
-    for number, (slot_zh, cards_in_slot) in enumerate(zip(slots, slot_cards)):
-        if not chinese_match(slot_zh, cards_in_slot):
+    for number, (slot_zh, entries_in_slot) in enumerate(zip(slots, slot_entries)):
+        if not chinese_match(slot_zh, entries_in_slot):
             return False
         rebuilt = rebuilt.replace('{%d}' % number, slot_zh, 1)
     return stripped(rebuilt) == target
 
 
-def sort_key(card):
-    return (-card['uses'], card['id'])
+def sort_key(entry):
+    return (-entry['uses'], entry['id'])
 
 
+# 主流水线：对齐 → 出条目 → 模板 → 选条目 → 核验
 def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
+    # 1. 过滤 key，按 focus 定输出范围
     raw_rows = load_input_rows(str(input_path))
     whitelist, blacklist = load_key_filter()
     excluded = re.compile(exclude_keys) if exclude_keys else None
@@ -843,6 +866,7 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
             and not (excluded and excluded.search(key))]
     scope = set(focus_keys) if focus_keys is not None else None
     scope_rows = [row for row in rows if row[0] in scope] if scope is not None else rows
+    # 2. 唯一对照表：英文片段支撑 + 中文候选片段
     pairs = sorted({(en, zh) for _, en, zh in rows})
     pair_id = {pair: pid for pid, pair in enumerate(pairs)}
     pair_keys = defaultdict(list)
@@ -871,7 +895,9 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
                for gram, support in supports.items()
                if len({pairs[pid][0] for pid in support}) >= 2
                or (len(gram) == 1 and gram in whole)}
+    # 3. 单词对齐：用已知邻居从整名反推
     refine_atoms(aligned, supports, pairs, fragments, whole)
+    # 4. 邻居熵 + 搭配强度门控，锚点递归发现残余片段
     total_tokens = sum(len(toks) for toks in names.values())
     left_neighbors = defaultdict(Counter)
     right_neighbors = defaultdict(Counter)
@@ -916,6 +942,7 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
             break
         accepted |= proposed
         discovered |= proposed
+    # 5. 临时词库：给嵌套核对当上下文
     bank = {}
     for gram in sorted(aligned, key=lambda g: (len(g), g)):
         variants = aligned[gram][0]
@@ -931,9 +958,11 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
         if gram in aligned:
             bank.setdefault(gram, {'id': gram, 'en': surfaces[gram],
                                    'zh_candidates': aligned[gram][0]})
+    # 6. 交叉核对发现的片段
     verify_nested(discovered, aligned, bank, supports, pairs, fragments, whole, names)
+    # 7. 出零件条目：长度升序，已能拼出的不收
     lexicon = {}
-    unit_cards = []
+    unit_entries = []
     for gram in sorted(supports, key=lambda g: (len(g), g)):
         support = supports[gram]
         distinct = {pairs[pid][0] for pid in support}
@@ -945,7 +974,7 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
         if gram not in discovered and all(compose(gram, zh, lexicon) is not None
                                           for zh in variants):
             continue
-        card = {'id': 'u%d' % (len(unit_cards) + 1), 'en': surfaces[gram],
+        entry = {'id': 'u%d' % (len(unit_entries) + 1), 'en': surfaces[gram],
                 'zh_candidates': variants, 'kind': 'unit',
                 'reason': ('nested_phrase' if gram in discovered else
                            'reusable_fragment' if len(distinct) >= 2 else 'standalone_name'),
@@ -957,8 +986,9 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
                              for pid in [p for p in sorted(support)
                                          if variant in pairs[p][1]][:2]],
                 'uses': 0}
-        unit_cards.append(card)
-        lexicon[gram] = card
+        unit_entries.append(entry)
+        lexicon[gram] = entry
+    # 8. 逐行组合证明：拼得出算零件行，拼不出收例外条目
     proofs = {}
     exceptions = {}
     for pid, (en, zh) in enumerate(pairs):
@@ -974,99 +1004,102 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
                               'reason': 'missing_translation' if not zh else
                                         'unexplained_translation',
                               'score': 1.0, 'sources': [], 'evidence': [], 'uses': 0}
-        card = exceptions[en]
-        if zh and zh not in card['zh_candidates']:
-            card['zh_candidates'].append(zh)
-        card['sources'].extend(pair_keys[pid])
-        if len(card['evidence']) < 3:
-            card['evidence'].append({'key': pair_keys[pid][0], 'en': en, 'zh': zh})
-        proofs[pid] = [card['id']]
-    all_cards = {card['id']: card for card in unit_cards + list(exceptions.values())}
+        entry = exceptions[en]
+        if zh and zh not in entry['zh_candidates']:
+            entry['zh_candidates'].append(zh)
+        entry['sources'].extend(pair_keys[pid])
+        if len(entry['evidence']) < 3:
+            entry['evidence'].append({'key': pair_keys[pid][0], 'en': en, 'zh': zh})
+        proofs[pid] = [entry['id']]
+    # 9. 行级台账：记录每行用到的条目（例外行也算）
+    all_entries = {entry['id']: entry for entry in unit_entries + list(exceptions.values())}
     audit = []
     for key, en, zh in scope_rows:
         deps = proofs[pair_id[(en, zh)]]
-        for card_id in set(deps):
-            all_cards[card_id]['uses'] += 1
+        for entry_id in set(deps):
+            all_entries[entry_id]['uses'] += 1
         audit.append({'key': key, 'en': en, 'zh': zh, 'terms': deps,
                       'status': 'exception' if deps[0].startswith('x') else 'compositional'})
-    cards = [card for card in all_cards.values() if card['uses']]
-    trim_variants(cards, audit, all_cards)
-    cards_by_id = {card['id']: card for card in cards}
+    entries = [entry for entry in all_entries.values() if entry['uses']]
+    trim_variants(entries, audit, all_entries)
+    entries_by_id = {entry['id']: entry for entry in entries}
     standalone = load_standalone(rows)
-    templates = extract_templates(audit, build_lexicon(cards_by_id, []))
+    # 10. 模板挖掘：例外行切骨架、补原子、迭代裁剪
+    templates = extract_templates(audit, build_lexicon(entries_by_id, []))
     order = sorted(confirmed(templates),
                    key=lambda key: (-len(templates[key]['keys']), len(' '.join(key[0])),
                                     key[0], key[1]))
-    entries = prepare(audit, order, unit_variants(cards_by_id))
-    pair_of = {entry['row']['key']: (entry['row']['en'], entry['row']['zh'])
-               for entry in entries}
-    atoms = induce(entries, cards_by_id, build_lexicon(cards_by_id, []), standalone, [], set())
-    atoms, allowed, results = prune(entries, cards_by_id, atoms, pair_of, standalone)
+    matched = prepare(audit, order, unit_variants(entries_by_id))
+    pair_of = {item['row']['key']: (item['row']['en'], item['row']['zh'])
+               for item in matched}
+    atoms = induce(matched, entries_by_id, build_lexicon(entries_by_id, []), standalone, [], set())
+    atoms, allowed, results = prune(matched, entries_by_id, atoms, pair_of, standalone)
     template_uses = Counter(record['template'] for record in results.values())
     ranked = sorted((key for key in allowed if template_uses[key] >= MIN_ROWS),
                     key=lambda key: (-template_uses[key], key[0], key[1]))
-    template_cards = [{'id': 't%d' % number, 'en': ' '.join(key[0]),
-                       'zh_candidates': [key[1]], 'kind': 'template',
-                       'reason': 'sentence_template', 'uses': template_uses[key],
-                       'sources': sorted(row_key for row_key, record in results.items()
-                                         if record['template'] == key),
-                       'evidence': [{'key': row_key, 'en': pair_of[row_key][0],
-                                     'zh': pair_of[row_key][1]}
-                                    for row_key in sorted(
-                                        row_key for row_key, record in results.items()
-                                        if record['template'] == key)[:2]]}
-                      for number, key in enumerate(ranked, 1)]
-    template_ids = {key: card['id'] for key, card in zip(ranked, template_cards)}
+    # 11. 模板条目定稿，预算内选条目，汇总统计
+    template_entries = [{'id': 't%d' % number, 'en': ' '.join(key[0]),
+                         'zh_candidates': [key[1]], 'kind': 'template',
+                         'reason': 'sentence_template', 'uses': template_uses[key],
+                         'sources': sorted(row_key for row_key, record in results.items()
+                                           if record['template'] == key),
+                         'evidence': [{'key': row_key, 'en': pair_of[row_key][0],
+                                       'zh': pair_of[row_key][1]}
+                                      for row_key in sorted(
+                                          row_key for row_key, record in results.items()
+                                          if record['template'] == key)[:2]]}
+                        for number, key in enumerate(ranked, 1)]
+    template_ids = {key: entry['id'] for key, entry in zip(ranked, template_entries)}
     emitted = []
     for row in audit:
         row = dict(row, pending=[])
         record = results.get(row['key'])
         if record is not None:
             terms = [template_ids[record['template']]]
-            for cards_in_slot in record['slots']:
-                terms.extend(cards_in_slot)
+            for entries_in_slot in record['slots']:
+                terms.extend(entries_in_slot)
             row['terms'] = list(dict.fromkeys(terms))
             row['status'] = 'compositional'
         emitted.append(row)
-    referenced = Counter(card_id for row in emitted for card_id in set(row['terms']))
-    for card in cards_by_id.values():
-        card['uses'] = referenced.get(card['id'], 0)
+    referenced = Counter(entry_id for row in emitted for entry_id in set(row['terms']))
+    for entry in entries_by_id.values():
+        entry['uses'] = referenced.get(entry['id'], 0)
     for atom in atoms:
         atom['uses'] = referenced.get(atom['id'], 0)
         atom['sources'] = sorted(row_key for row_key, record in results.items()
-                                 if atom['id'] in {card_id for slot in record['slots']
-                                                   for card_id in slot})
+                                 if atom['id'] in {entry_id for slot in record['slots']
+                                                   for entry_id in slot})
         atom['evidence'] = [{'key': row_key, 'en': pair_of[row_key][0],
                              'zh': pair_of[row_key][1]} for row_key in atom['sources'][:2]]
-    batch = [card for card in cards_by_id.values()
-             if card['kind'] == 'unit' or referenced.get(card['id'], 0)]
-    batch.extend(template_cards)
+    batch = [entry for entry in entries_by_id.values()
+             if entry['kind'] == 'unit' or referenced.get(entry['id'], 0)]
+    batch.extend(template_entries)
     batch.extend(atoms)
-    batch = (sorted((card for card in batch if card['kind'] == 'unit'), key=sort_key)
-             + sorted((card for card in batch if card['kind'] == 'template'), key=sort_key)
-             + sorted((card for card in batch if card['kind'] == 'exception'), key=sort_key))
-    totals = Counter(card_id for key, en, zh in rows
-                     for card_id in set(proofs[pair_id[(en, zh)]]))
-    for card in batch:
-        card['total_uses'] = totals.get(card['id'], 0)
-    review = select_cards(batch, emitted, budget)
-    selected = {card['id'] for card in review}
+    batch = (sorted((entry for entry in batch if entry['kind'] == 'unit'), key=sort_key)
+             + sorted((entry for entry in batch if entry['kind'] == 'template'), key=sort_key)
+             + sorted((entry for entry in batch if entry['kind'] == 'exception'), key=sort_key))
+    totals = Counter(entry_id for key, en, zh in rows
+                     for entry_id in set(proofs[pair_id[(en, zh)]]))
+    for entry in batch:
+        entry['total_uses'] = totals.get(entry['id'], 0)
+    review = select_entries(batch, emitted, budget)
+    selected = {entry['id'] for entry in review}
     for row in emitted:
         row['pending'] = sorted(set(row['terms']) - selected)
-    backlog = [card for card in batch if card['id'] not in selected]
+    backlog = [entry for entry in batch if entry['id'] not in selected]
     report = verify_rows(emitted, review)
     source_chars = sum(len(packed({'en': en, 'zh_candidates': [zh]})) + 1
                        for key, en, zh in scope_rows)
-    review_chars = sum(len(packed(compact_card(card))) + 1 for card in review)
+    review_chars = sum(len(packed(compact_entry(entry))) + 1 for entry in review)
     stats = {'input_rows': len(raw_rows), 'filtered_rows': len(scope_rows),
              'context_rows': len(rows),
              'unique_pairs': len(pairs),
-             'unit_cards': sum(card['kind'] == 'unit' for card in batch),
-             'nested_cards': sum(card['reason'] == 'nested_phrase' for card in batch),
-             'exception_cards': sum(card['kind'] == 'exception' for card in batch),
-             'template_cards': sum(card['kind'] == 'template' for card in batch),
-             'candidate_cards': len(batch), 'review_cards': len(review),
-             'backlog_cards': len(backlog),
+             'unit_entries': sum(entry['kind'] == 'unit' for entry in batch),
+             'nested_entries': sum(entry['reason'] == 'nested_phrase' for entry in batch),
+             'exception_entries': sum(entry['kind'] == 'exception' for entry in batch),
+             'template_entries': sum(entry['kind'] == 'template' for entry in batch),
+             'candidate_entries': len(batch), 'review_entries': len(review),
+             'backlog_entries': len(backlog),
              'compositional_rows': sum(row['status'] == 'compositional' for row in emitted),
              'exception_rows': sum(row['status'] == 'exception' for row in emitted),
              'template_rows': sum(any(cid.startswith('t') for cid in row['terms'])
@@ -1077,9 +1110,9 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
              'input_chars': source_chars, 'review_chars': review_chars,
              'reading_reduction': 1 - review_chars / source_chars if source_chars else 0.0,
              'rescued_rows': len(results),
-             'removed_exception_cards': sum(1 for card in cards_by_id.values()
-                                            if card['kind'] == 'exception'
-                                            and not referenced.get(card['id'], 0)),
+             'removed_exception_entries': sum(1 for entry in entries_by_id.values()
+                                            if entry['kind'] == 'exception'
+                                            and not referenced.get(entry['id'], 0)),
              'added_atoms': len(atoms),
              'reconstructed_rows': report['reconstructed'],
              'failed_keys': report['failed_keys']}
@@ -1091,14 +1124,15 @@ def write_candidates(stream, result):
     writer = csv.writer(stream, delimiter='\t', lineterminator='\n')
     writer.writerow(['id', 'en', 'zh', 'kind', 'uses', 'reason', 'score',
                      'sources', 'evidence'])
-    for card in result['candidates']:
-        writer.writerow([card['id'], card['en'], '|'.join(card['zh_candidates']),
-                         card['kind'], card['uses'], card['reason'], card.get('score', ''),
-                         ';'.join(card['sources']), packed(card['evidence'])])
+    for entry in result['candidates']:
+        writer.writerow([entry['id'], entry['en'], '|'.join(entry['zh_candidates']),
+                         entry['kind'], entry['uses'], entry['reason'], entry.get('score', ''),
+                         ';'.join(entry['sources']), packed(entry['evidence'])])
 
 
-def verify_rows(rows, cards):
-    by_id = {card['id']: card for card in cards}
+# 无损核验：例外/模板/零件三种行各按各的查法重放
+def verify_rows(rows, entries):
+    by_id = {entry['id']: entry for entry in entries}
     failed = []
     checked = pending = 0
     for row in rows:
@@ -1118,7 +1152,7 @@ def verify_rows(rows, cards):
             valid = verify_template(row, row['terms'], by_id)
         else:
             expected = tuple(t for t in name_tokens(row['en']) if t not in CONNECTORS)
-            actual = tuple(t for card in parts for t in name_tokens(card['en'])
+            actual = tuple(t for entry in parts for t in name_tokens(entry['en'])
                            if t not in CONNECTORS)
             valid = bool(expected) and actual == expected and chinese_match(row['zh'], parts)
         if not valid:
@@ -1127,10 +1161,10 @@ def verify_rows(rows, cards):
             'pending': pending, 'failed_keys': failed}
 
 
-JUDGE_SYSTEM = ('You curate a Minecraft glossary of reusable translation units. For each card you get '
+JUDGE_SYSTEM = ('You curate a Minecraft glossary of reusable translation units. For each entry you get '
                 'an English term and proposed Simplified Chinese variants. Return the final zh variant '
                 'list: keep the correct proposals or replace them, preferring the established Minecraft '
-                'translation. Reply with one JSON object keyed by card id only: '
+                'translation. Reply with one JSON object keyed by entry id only: '
                 '{"<id>": {"zh": ["..."], "reason": "one line"}}.')
 
 
@@ -1250,12 +1284,12 @@ def verdict_reason(entry, fallback):
     return fallback
 
 
-def card_row(card):
-    return {'id': card['id'], 'en': card['en'], 'zh': '|'.join(card['zh_candidates']),
-            'kind': card['kind'], 'uses': card['uses'], 'reason': card['reason'],
-            'score': card.get('score', ''), 'sources': ';'.join(card['sources']),
-            'total_uses': card.get('total_uses', card['uses']),
-            'evidence': card['evidence']}
+def entry_row(entry):
+    return {'id': entry['id'], 'en': entry['en'], 'zh': '|'.join(entry['zh_candidates']),
+            'kind': entry['kind'], 'uses': entry['uses'], 'reason': entry['reason'],
+            'score': entry.get('score', ''), 'sources': ';'.join(entry['sources']),
+            'total_uses': entry.get('total_uses', entry['uses']),
+            'evidence': entry['evidence']}
 
 
 def variants_of(row):
@@ -1344,12 +1378,12 @@ def format_document(value, indent=0):
 
 
 def llm_verdicts(chunk, base, model, api_key):
-    cards = []
-    for card in chunk:
-        item = {'id': card['id'], 'en': card['en'],
-                'zh_candidates': [v for v in (card.get('zh') or '').split('|') if v],
-                'kind': card.get('kind') or '', 'uses': card.get('uses') or ''}
-        evidence = card.get('evidence')
+    entries = []
+    for entry in chunk:
+        item = {'id': entry['id'], 'en': entry['en'],
+                'zh_candidates': [v for v in (entry.get('zh') or '').split('|') if v],
+                'kind': entry.get('kind') or '', 'uses': entry.get('uses') or ''}
+        evidence = entry.get('evidence')
         if isinstance(evidence, str):
             try:
                 evidence = json.loads(evidence or '[]')
@@ -1357,10 +1391,10 @@ def llm_verdicts(chunk, base, model, api_key):
                 evidence = []
         if evidence:
             item['evidence'] = evidence
-        cards.append(item)
+        entries.append(item)
     payload = {'model': model, 'temperature': 0,
                'messages': [{'role': 'system', 'content': JUDGE_SYSTEM},
-                            {'role': 'user', 'content': packed({'cards': cards})}]}
+                            {'role': 'user', 'content': packed({'entries': entries})}]}
     request = urllib.request.Request(base + '/chat/completions',
                                      data=json.dumps(payload).encode('utf-8'),
                                      headers={'Content-Type': 'application/json',
@@ -1374,10 +1408,11 @@ def llm_verdicts(chunk, base, model, api_key):
         return None
 
 
+# 生成审校 JSON：跳过模板/已收/可推导；LLM 复核暂停时原样通过
 def judge_cmd(args):
     focus = load_focus_keys(args.focus) if args.focus else None
     result = build(args.input, args.budget, args.exclude_keys, focus)
-    rows = [card_row(card) for card in result['review']]
+    rows = [entry_row(entry) for entry in result['review']]
     meta, origins, removed, order = diff_context(args.focus or args.input)
     known, missing = known_pairs(args.known)
     queue = []
@@ -1407,7 +1442,7 @@ def judge_cmd(args):
     def accept(row, variants, reason):
         entries.append(review_entry(row, variants, reason, origins))
 
-    # LLM 复核暂停：卡片全部按原样通过。恢复时取消注释、删掉下面的直通。
+    # LLM 复核暂停：条目全部按原样通过。恢复时取消注释、删掉下面的直通。
     # api_key = os.environ.get('LLM_API_KEY')
     # base = (os.environ.get('LLM_BASE_URL') or 'https://api.openai.com/v1').rstrip('/')
     # model = os.environ.get('LLM_MODEL') or 'gpt-4o-mini'
@@ -1452,7 +1487,7 @@ def judge_cmd(args):
         out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, 'w', encoding='utf-8', newline='') as stream:
         stream.write(format_document(document) + '\n')
-    print(packed({'out': str(out), 'cards': len(rows), 'added': len(entries),
+    print(packed({'out': str(out), 'entries': len(rows), 'added': len(entries),
                   'judged': judged, 'auto': auto, 'skipped_known': skipped_known,
                   'skipped_derived': skipped_derived, 'skipped_template': skipped_template,
                   'batches_failed': failed, 'known_files_missing': missing, **result['stats']}))
@@ -1539,6 +1574,7 @@ def load_cases(path=None):
     return out
 
 
+# 对 gold 算召回、命中率、字符减少
 def measure(gold_terms, candidate_terms, review_terms, reachable_terms, input_chars, review_chars,
             baseline_terms=None, baseline_chars=None):
     gold_terms = list(gold_terms)
@@ -1549,8 +1585,8 @@ def measure(gold_terms, candidate_terms, review_terms, reachable_terms, input_ch
     cand = _norm_set(candidate_terms)
     rev = _norm_set(review_terms)
     reach = _norm_set(reachable_terms)
-    cand_cards = [t for t in (candidate_terms or ()) if _en_of(t)]
-    rev_cards = [t for t in (review_terms or ()) if _en_of(t)]
+    cand_entries = [t for t in (candidate_terms or ()) if _en_of(t)]
+    rev_entries = [t for t in (review_terms or ()) if _en_of(t)]
     out = {
         'gold': len(gold),
         'reachable_gold': len(reach),
@@ -1558,8 +1594,8 @@ def measure(gold_terms, candidate_terms, review_terms, reachable_terms, input_ch
         'review_gold': len(rev & gold),
         'candidate_count': len(cand),
         'review_count': len(rev),
-        'candidate_cards': len(cand_cards),
-        'review_cards': len(rev_cards),
+        'candidate_entries': len(cand_entries),
+        'review_entries': len(rev_entries),
         'candidate_reachable_hits': len(cand & reach),
         'review_reachable_hits': len(rev & reach),
         'candidate_recall': _ratio(len(cand & reach), len(reach)),
@@ -1607,22 +1643,23 @@ def _iter_comps(compositions):
     return list(compositions)
 
 
-def score_cases(cases, cards, compositions=None, strict_kind=False):
-    card_rows = []
-    for c in cards or ():
-        card_rows.append((norm_lemma(_en_of(c) or ''), _zh_of(c),
+# 评估用例打分：unit / compositional / exception
+def score_cases(cases, entries, compositions=None, strict_kind=False):
+    entry_rows = []
+    for c in entries or ():
+        entry_rows.append((norm_lemma(_en_of(c) or ''), _zh_of(c),
                           c.get('kind') if isinstance(c, dict) else None))
     comp_rows = []
     for c in _iter_comps(compositions):
         comp_rows.append((norm_lemma(c.get('en') or ''), _norm_set(c.get('parts') or ()), _zh_of(c)))
-    available = {n for n, _, _ in card_rows}
+    available = {n for n, _, _ in entry_rows}
 
     out = {'total': len(cases), 'covered': 0, 'coverage': None, 'zh_unchecked': 0,
            'kind_mismatch': 0, 'parts_ready': 0, 'delivered_kinds': {}, 'by_expect': {},
            'missed': []}
     for expect in EXPECT:
         out['by_expect'][expect] = {'total': 0, 'covered': 0}
-    for _, _, kind in card_rows:
+    for _, _, kind in entry_rows:
         if kind:
             out['delivered_kinds'][kind] = out['delivered_kinds'].get(kind, 0) + 1
 
@@ -1652,18 +1689,18 @@ def score_cases(cases, cards, compositions=None, strict_kind=False):
             rec['composition_found'] = bool(comps)
             rec['missing_parts'] = missing
         else:
-            matches = [r for r in card_rows if r[0] == en]
+            matches = [r for r in entry_rows if r[0] == en]
             if strict_kind:
                 matches = [r for r in matches if r[2] == expect]
             zh_ok = _zh_ok(want, [zh for _, zh, _ in matches]) if matches else None
             if not matches:
-                why.append('no_card')
+                why.append('no_entry')
             elif zh_ok is False:
                 why.append('zh_mismatch')
             covered = bool(matches) and zh_ok is not False
             kinds = sorted({k for _, _, k in matches if k})
             if kinds:
-                rec['card_kind'] = kinds
+                rec['entry_kind'] = kinds
                 if expect not in kinds and not strict_kind:
                     out['kind_mismatch'] += 1
         if covered and zh_ok is None:
@@ -1681,7 +1718,7 @@ def score_cases(cases, cards, compositions=None, strict_kind=False):
 
 
 def run_cases(result, path):
-    selected = {card['id']: card for card in result['review']}
+    selected = {entry['id']: entry for entry in result['review']}
     compositions = [{'en': row['en'], 'zh': row['zh'],
                      'parts': [selected[cid]['en'] for cid in row['terms']]}
                     for row in result['audit']
@@ -1705,8 +1742,8 @@ def benchmark(args, result):
         if any(any(toks[i:i + len(gram)] == gram for i in range(len(toks) - len(gram) + 1))
                for toks in names):
             reachable.add(en)
-    metrics = measure(gold, [card['en'] for card in result['candidates']],
-                      [card['en'] for card in result['review']], reachable,
+    metrics = measure(gold, [entry['en'] for entry in result['candidates']],
+                      [entry['en'] for entry in result['review']], reachable,
                       result['stats']['input_chars'], result['stats']['review_chars'])
     print(json.dumps({'stats': result['stats'], 'metrics': metrics,
                       'reconstruction': verify_rows(result['audit'], result['review']),
@@ -1727,12 +1764,12 @@ def main(argv=None):
         p = sub.add_parser(command)
         p.add_argument('--input', type=Path, default=ROOT / 'Vanilla/latest.tsv')
         p.add_argument('--budget', type=nonnegative, default=0,
-                       help='maximum review cards; 0 keeps the complete compressed inventory')
+                       help='maximum review entries; 0 keeps the complete compressed inventory')
         p.add_argument('--exclude-keys')
         if command != 'bench':
             p.add_argument('--focus', type=Path,
                            help='diff json or key list; keep the full corpus for alignment '
-                                'but emit only cards and rows for those keys')
+                                'but emit only entries and rows for those keys')
         if command == 'bench':
             p.add_argument('--gold', action='append', default=[])
             p.add_argument('--cases', type=Path, default=Path(__file__).with_name('termgen_cases.json'))

@@ -3,8 +3,8 @@
   "source": "Vanilla/latest.tsv zh_cn，经 Vanilla/diffs/term-key-filters.json 过滤后的行",
   "gold": "Vanilla/terms/terms-v1.tsv 仅用于 measure 覆盖口径；该表是开集正例，未命中不等于错",
   "match": "en 一律 termgen.norm_lemma 归一；zh 按 clean_zh 后逐字相等（'|' 分隔变体）",
-  "covered_rule": "unit/exception：交付同 en 卡；compositional：存在该 en 的组合记录且 required_terms 均可用（卡片或组合引用）",
-  "budget": "只对预算截断后实际交付的卡片与组合记录评分，不得用截断前候选或完整 gold 补账",
+  "covered_rule": "unit/exception：交付同 en 条目；compositional：存在该 en 的组合记录且 required_terms 均可用（条目或组合引用）",
+  "budget": "只对预算截断后实际交付的条目与组合记录评分，不得用截断前候选或完整 gold 补账",
   "usage": "evaluation-only：案例不得进入抽取、打分或调权流程"
  },
  "cases": [
@@ -202,7 +202,7 @@
    "required_terms": [
     "Allay"
    ],
-   "reason": "单次整体名，需原子卡"
+   "reason": "单次整体名，需独立条目"
   },
   {
    "key": "entity.minecraft.axolotl",
@@ -212,7 +212,7 @@
    "required_terms": [
     "Axolotl"
    ],
-   "reason": "单次整体名，需原子卡"
+   "reason": "单次整体名，需独立条目"
   },
   {
    "key": "entity.minecraft.warden",
@@ -222,7 +222,7 @@
    "required_terms": [
     "Warden"
    ],
-   "reason": "单次整体名，需原子卡"
+   "reason": "单次整体名，需独立条目"
   },
   {
    "key": "item.minecraft.elytra",

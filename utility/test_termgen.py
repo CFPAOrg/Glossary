@@ -18,11 +18,11 @@ class TermgenV3Tests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.path = Path(self.temp.name) / 'input.tsv'
 
-    def extract(self, entries, budget=0, exclude_keys=None):
+    def extract(self, input_rows, budget=0, exclude_keys=None):
         with self.path.open('w', encoding='utf-8', newline='') as stream:
             writer = csv.writer(stream, delimiter='\t', lineterminator='\n')
             writer.writerow(['key', 'en_us', 'zh_cn'])
-            writer.writerows(entries)
+            writer.writerows(input_rows)
         return build(self.path, budget, exclude_keys)
 
     def test_shared_parts_replace_names_but_nonliteral_name_survives(self):
@@ -36,12 +36,12 @@ class TermgenV3Tests(unittest.TestCase):
             ('item.minecraft.rod', 'Rod', '棒'),
             ('block.minecraft.end_rod', 'End Rod', '末地烛'),
         ])
-        cards = {card['id']: card for card in result['review']}
+        entries = {entry['id']: entry for entry in result['review']}
         rows = {row['en']: row for row in result['audit']}
-        self.assertEqual({cards[cid]['en'] for cid in rows['Red Bed']['terms']}, {'Red', 'Bed'})
+        self.assertEqual({entries[cid]['en'] for cid in rows['Red Bed']['terms']}, {'Red', 'Bed'})
         self.assertEqual(rows['End Rod']['status'], 'exception')
-        self.assertEqual(cards[rows['End Rod']['terms'][0]]['zh_candidates'], ['末地烛'])
-        self.assertNotIn('Red Bed', {card['en'] for card in result['review']})
+        self.assertEqual(entries[rows['End Rod']['terms'][0]]['zh_candidates'], ['末地烛'])
+        self.assertNotIn('Red Bed', {entry['en'] for entry in result['review']})
 
     def test_rare_translation_variant_is_preserved(self):
         result = self.extract([
@@ -52,7 +52,7 @@ class TermgenV3Tests(unittest.TestCase):
             ('block.minecraft.oak_planks', 'Oak Planks', '橡木木板'),
             ('block.minecraft.oak_sapling', 'Oak Sapling', '橡树树苗'),
         ])
-        oak = next(card for card in result['review'] if card['en'] == 'Oak')
+        oak = next(entry for entry in result['review'] if entry['en'] == 'Oak')
         self.assertEqual(set(oak['zh_candidates']), {'橡木', '橡树'})
         self.assertTrue(all(row['status'] == 'compositional' for row in result['audit']))
 
@@ -63,9 +63,9 @@ class TermgenV3Tests(unittest.TestCase):
             ('block.minecraft.iron_block', 'Block of Iron', '铁块'),
             ('item.minecraft.elytra', 'Elytra', '鞘翅'),
         ], budget=1)
-        selected = {card['id'] for card in result['review']}
+        selected = {entry['id'] for entry in result['review']}
         self.assertEqual(len(selected), 1)
-        self.assertEqual(result['stats']['backlog_cards'], 2)
+        self.assertEqual(result['stats']['backlog_entries'], 2)
         for row in result['audit']:
             self.assertEqual(set(row['pending']), set(row['terms']) - selected)
         block = next(row for row in result['audit'] if row['en'] == 'Block of Iron')
@@ -89,9 +89,9 @@ class TermgenV3Tests(unittest.TestCase):
             ('item.minecraft.potion_3', 'Potion 3', '药水'),
             ('item.minecraft.unknown', 'Unknown', ''),
         ])
-        self.assertEqual({card['en'] for card in result['review']}, {'Potion 2', 'Potion 3', 'Unknown'})
+        self.assertEqual({entry['en'] for entry in result['review']}, {'Potion 2', 'Potion 3', 'Unknown'})
         self.assertTrue(all(row['status'] == 'exception' for row in result['audit']))
-        self.assertEqual(next(card for card in result['review'] if card['en'] == 'Unknown')['zh_candidates'], [])
+        self.assertEqual(next(entry for entry in result['review'] if entry['en'] == 'Unknown')['zh_candidates'], [])
 
     def test_blacklist_precedes_whitelist_and_exclusion_removes_evidence(self):
         result = self.extract([
@@ -102,7 +102,7 @@ class TermgenV3Tests(unittest.TestCase):
             ('item.minecraft.pear', 'Pear', '梨'),
         ], exclude_keys='pear')
         self.assertEqual([row['key'] for row in result['audit']], ['item.minecraft.apple'])
-        self.assertEqual([card['en'] for card in result['review']], ['Apple'])
+        self.assertEqual([entry['en'] for entry in result['review']], ['Apple'])
         stream = StringIO()
         write_candidates(stream, result)
         self.assertIn('Apple', stream.getvalue())
@@ -110,14 +110,14 @@ class TermgenV3Tests(unittest.TestCase):
     def test_metric_iterables_and_unlisted_candidates_are_not_false_positives(self):
         stats = measure(iter(['Oak', 'Oak Planks']), iter(['Oak', 'Mystery']),
                         iter(['Oak', 'Mystery']), iter(['Oak', 'Oak Planks']), 100, 40)
-        self.assertEqual(stats['review_cards'], 2)
+        self.assertEqual(stats['review_entries'], 2)
         self.assertEqual(stats['review_gold'], 1)
         self.assertEqual(stats['review_recall'], 0.5)
         self.assertEqual(stats['positive_match_rate'], 0.5)
         self.assertNotIn('precision', stats)
         self.assertEqual(stats['char_reduction'], 0.6)
 
-    def test_case_references_cannot_supply_undelivered_cards(self):
+    def test_case_references_cannot_supply_undelivered_entries(self):
         case = {'key': 'block.minecraft.red_bed', 'en': 'Red Bed', 'zh': '红色床',
                 'expect': 'compositional', 'required_terms': ['Red', 'Bed']}
         report = score_cases([case], [{'en': 'Red', 'zh_candidates': ['红色']}],
@@ -134,26 +134,26 @@ class TermgenV3Tests(unittest.TestCase):
                     'Banner': '旗帜', 'Bundle': '收纳袋', 'Harness': '挽具', 'Shield': '盾牌',
                     'Cushion': '坐垫', 'Shulker Box': '潜影盒', 'Stained Glass': '染色玻璃',
                     'Glazed Terracotta': '带釉陶瓦'}
-        entries = []
+        input_rows = []
         for color, color_zh in colors.items():
-            entries.append(('color.minecraft.%s' % color.lower().replace(' ', '_'), color, color_zh))
+            input_rows.append(('color.minecraft.%s' % color.lower().replace(' ', '_'), color, color_zh))
         for product, product_zh in products.items():
             key = 'block.minecraft.%s' % product.lower().replace(' ', '_')
-            entries.append((key, product, product_zh))
+            input_rows.append((key, product, product_zh))
         for color, color_zh in colors.items():
             for product, product_zh in products.items():
                 key = 'block.minecraft.%s_%s' % (color.lower().replace(' ', '_'),
                                                  product.lower().replace(' ', '_'))
-                entries.append((key, '%s %s' % (color, product), color_zh + product_zh))
-        result = self.extract(entries)
-        cards = {card['en']: card for card in result['review']}
-        self.assertIn('Light Blue', cards)
-        self.assertIn('Blue', cards)
-        self.assertEqual(cards['Light Blue']['zh_candidates'], ['淡蓝色'])
-        self.assertEqual(cards['Light Blue']['reason'], 'nested_phrase')
-        self.assertNotIn('Blue Wool', cards)
+                input_rows.append((key, '%s %s' % (color, product), color_zh + product_zh))
+        result = self.extract(input_rows)
+        entries = {entry['en']: entry for entry in result['review']}
+        self.assertIn('Light Blue', entries)
+        self.assertIn('Blue', entries)
+        self.assertEqual(entries['Light Blue']['zh_candidates'], ['淡蓝色'])
+        self.assertEqual(entries['Light Blue']['reason'], 'nested_phrase')
+        self.assertNotIn('Blue Wool', entries)
         rows = {row['en']: row for row in result['audit']}
-        by_id = {card['id']: card for card in result['review']}
+        by_id = {entry['id']: entry for entry in result['review']}
         self.assertEqual(rows['Light Blue Wool']['status'], 'compositional')
         self.assertEqual(sorted(by_id[cid]['en'] for cid in rows['Light Blue Wool']['terms']),
                          ['Light Blue', 'Wool'])
@@ -167,16 +167,16 @@ class TermgenV3Tests(unittest.TestCase):
                     'Banner': '旗帜', 'Bundle': '收纳袋', 'Harness': '挽具', 'Shield': '盾牌',
                     'Cushion': '坐垫', 'Shulker Box': '潜影盒', 'Stained Glass': '染色玻璃',
                     'Glazed Terracotta': '带釉陶瓦'}
-        entries = [('color.minecraft.%s' % color.lower().replace(' ', '_'), color, zh)
+        input_rows = [('color.minecraft.%s' % color.lower().replace(' ', '_'), color, zh)
                    for color, zh in colors.items()]
-        entries += [('block.minecraft.%s' % product.lower().replace(' ', '_'), product, zh)
+        input_rows += [('block.minecraft.%s' % product.lower().replace(' ', '_'), product, zh)
                     for product, zh in products.items()]
-        entries += [('block.minecraft.%s_%s' % (color.lower().replace(' ', '_'),
+        input_rows += [('block.minecraft.%s_%s' % (color.lower().replace(' ', '_'),
                                                 product.lower().replace(' ', '_')),
                      '%s %s' % (color, product), color_zh + product_zh)
                     for color, color_zh in colors.items()
                     for product, product_zh in products.items()]
-        self.extract(entries)
+        self.extract(input_rows)
         known = Path(self.temp.name) / 'known.tsv'
         known.write_text('en\tzh\treason\tcomment\nLight\t淡\t\t\nBlue\t蓝色\t\t\n',
                          encoding='utf-8')
