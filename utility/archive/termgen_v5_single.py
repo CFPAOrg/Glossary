@@ -4,19 +4,27 @@
 没有中文时现行 termgen 一条都发不出来：条目要由中文变体证明、由中文切分核验。
 本工具把同一套纪律换成单语版：
 
-    支持度过滤 → 熵/搭配门控 → 长度升序，能被更短条目拼出来的就不单列
+    支持度过滤 → 长度升序，能被更短条目拼出来的就不单列
 
 产出是「有原子性、没有译文证明」的英文候选，供人工或 LLM 定译名。
 bench 给出 池子 / 原子化 / 加门控 三档的 规模-召回-假阳性，用来量这一步单语化掉多少。
+--family 把候选按共现图分家族（木种/颜色/矿物这种），便于成组翻译。
+
+门控默认关：熵/搭配当硬门会砍掉 support 很高的词——Egg 的邻居熵只有 0.59，
+因为它几乎总跟着 Spawn。它们是排序特征，不是过滤器。
+
+key 过滤默认走原版白名单；模组 key（block.<modid>.*）用 --key-filter off，或 --keys 给正则。
 
 用法：
     python utility/archive/termgen_v5_single.py extract --input Vanilla/latest.tsv --out en-terms.tsv
+    python utility/archive/termgen_v5_single.py extract --input mod-en.tsv --key-filter off --family
     python utility/archive/termgen_v5_single.py bench --input Vanilla/latest.tsv --gold Vanilla/terms/terms-v1.tsv
 """
 import argparse
 import csv
 import json
 import math
+import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -29,12 +37,20 @@ CONNECTORS = tg.CONNECTORS
 ROOT = Path(__file__).resolve().parent.parent.parent
 
 
-def load_rows(path):
+def load_rows(path, key_filter='on', keys=None):
     wl, bl = tg.load_key_filter()
+    pattern = re.compile(keys) if keys else None
     rows = []
     for key, en, zh in tg.load_input_rows(str(path)):
         en = tg.clean_en(en)
-        if en and tg.is_product_key(key, wl, bl):
+        if not en:
+            continue
+        if key_filter == 'off':
+            rows.append((key, en))
+        elif pattern is not None:
+            if pattern.search(key):
+                rows.append((key, en))
+        elif tg.is_product_key(key, wl, bl):
             rows.append((key, en))
     return rows
 
@@ -106,8 +122,8 @@ def composable(toks, lexicon):
 
 
 def build(path, min_support=2, entropy_gate=tg.ENTROPY_GATE, join_gate=tg.JOIN_GATE,
-          gates=True):
-    rows = load_rows(path)
+          gates=False, key_filter='on', keys=None):
+    rows = load_rows(path, key_filter, keys)
     names = name_index(rows)
     supports, left, right = collect(names)
     surfaces = surfaces_of(names)
@@ -164,6 +180,105 @@ def pool_entries(result, min_support=2):
     return out
 
 
+def build_adjacency(names, nodes, min_cooc, min_dice):
+    cooc = Counter()
+    for toks in names.values():
+        grams = sorted({gram for _, _, gram in gram_spans(toks) if gram in nodes})
+        for i in range(len(grams)):
+            for j in range(i + 1, len(grams)):
+                cooc[(grams[i], grams[j])] += 1
+    adj = defaultdict(list)
+    kept = 0
+    for (a, b), weight in cooc.items():
+        if weight < min_cooc:
+            continue
+        dice = 2.0 * weight / (nodes[a]['support'] + nodes[b]['support'])
+        if dice < min_dice:
+            continue
+        adj[a].append((b, dice))
+        adj[b].append((a, dice))
+        kept += 1
+    return adj, len(cooc), kept
+
+
+def label_propagation(adj, nodes, rounds):
+    labels = {gram: gram for gram in nodes}
+    for _ in range(rounds):
+        changed = 0
+        for gram in sorted(nodes):
+            votes = Counter()
+            for neighbor, weight in adj[gram]:
+                votes[labels[neighbor]] += weight
+            if not votes:
+                continue
+            best_weight = max(votes.values())
+            best = min(label for label, weight in votes.items() if weight == best_weight)
+            if best != labels[gram]:
+                labels[gram] = best
+                changed += 1
+        if not changed:
+            break
+    groups = defaultdict(list)
+    for gram, label in labels.items():
+        groups[label].append(gram)
+    return list(groups.values())
+
+
+def connected_components(adj, nodes):
+    seen = set()
+    groups = []
+    for start in sorted(nodes):
+        if start in seen:
+            continue
+        stack, group = [start], []
+        seen.add(start)
+        while stack:
+            gram = stack.pop()
+            group.append(gram)
+            for neighbor, _ in adj[gram]:
+                if neighbor not in seen:
+                    seen.add(neighbor)
+                    stack.append(neighbor)
+        groups.append(group)
+    return groups
+
+
+def family_rows(groups, nodes):
+    rows = []
+    for members in groups:
+        ranked = sorted(members, key=lambda g: (-nodes[g]['support'], g))
+        rows.append({'size': len(members),
+                     'top': [{'en': ' '.join(g), 'support': nodes[g]['support']}
+                             for g in ranked[:5]],
+                     'members': [{'en': ' '.join(g), 'support': nodes[g]['support']}
+                                 for g in ranked]})
+    rows.sort(key=lambda r: (-r['size'], -r['top'][0]['support'], r['members'][0]['en']))
+    return rows
+
+
+def families(result, scope, min_support, min_cooc, min_dice, method, rounds):
+    nodes = {e['gram']: e for e in (pool_entries(result, min_support) if scope == 'pool'
+                                    else result['entries'])}
+    adj, pairs, kept = build_adjacency(result['names'], nodes, min_cooc, min_dice)
+    groups = (label_propagation(adj, list(nodes), rounds) if method == 'lpa'
+              else connected_components(adj, list(nodes)))
+    rows = family_rows(groups, nodes)
+    summary = {'scope': scope, 'method': method, 'nodes': len(nodes), 'pairs': pairs,
+               'edges': kept, 'linked': sum(1 for g in nodes if adj[g]),
+               'groups': len(rows), 'singletons': sum(1 for r in rows if r['size'] == 1),
+               'min_cooc': min_cooc, 'min_dice': min_dice}
+    return rows, summary
+
+
+def print_families(rows, limit, show, stream):
+    for rank, row in enumerate(rows[:limit], 1):
+        top = ', '.join('%s(%d)' % (m['en'], m['support']) for m in row['top'])
+        listed = ', '.join(m['en'] for m in row['members'][:show])
+        tail = ' …（共 %d 个）' % row['size'] if row['size'] > show else ''
+        print('#%d  %d 个成员  support 最高: %s' % (rank, row['size'], top), file=stream)
+        print('    %s%s' % (listed, tail), file=stream)
+
+
 def tokens_of(en):
     return tuple(tg.tokens_lc(en))
 
@@ -208,26 +323,46 @@ def write_tsv(stream, entries):
 
 def extract(args):
     result = build(args.input, args.min_support, args.entropy_gate, args.join_gate,
-                   gates=not args.no_gates)
+                   gates=args.gates, key_filter=args.key_filter, keys=args.keys)
     entries = result['entries'][:args.limit] if args.limit else result['entries']
+    summary = {'names': len(result['names']), 'pool': len(pool_entries(result, args.min_support)),
+               'entries': len(entries), 'dropped': result['dropped']}
+    rows = None
+    if args.family:
+        rows, fam = families(result, args.family_scope, args.min_support, args.min_cooc,
+                             args.min_dice, args.method, args.rounds)
+        summary['families'] = fam
     if args.out:
         args.out.parent.mkdir(parents=True, exist_ok=True)
-        with open(args.out, 'w', encoding='utf-8', newline='') as stream:
-            write_tsv(stream, entries)
+        stream = open(args.out, 'w', encoding='utf-8', newline='')
     else:
         sys.stdout.reconfigure(newline='')
-        write_tsv(sys.stdout, entries)
-    print(json.dumps({'names': len(result['names']),
-                      'pool': len(pool_entries(result, args.min_support)),
-                      'entries': len(entries), 'dropped': result['dropped'],
-                      'out': str(args.out) if args.out else 'stdout'}, ensure_ascii=False),
-          file=sys.stderr)
+        stream = sys.stdout
+    try:
+        if rows is not None:
+            if args.json:
+                stream.write(json.dumps({'summary': summary, 'families': rows[:args.top]},
+                                        ensure_ascii=False, indent=2) + '\n')
+            else:
+                print_families(rows, args.top, args.show, stream)
+        elif args.json:
+            stream.write(json.dumps({'summary': summary, 'entries': entries},
+                                    ensure_ascii=False, indent=2) + '\n')
+        else:
+            write_tsv(stream, entries)
+    finally:
+        if args.out:
+            stream.close()
+    summary['out'] = str(args.out) if args.out else 'stdout'
+    print(json.dumps(summary, ensure_ascii=False), file=sys.stderr)
     return 0
 
 
 def bench(args):
-    result = build(args.input, args.min_support, args.entropy_gate, args.join_gate, gates=True)
-    atomic = build(args.input, args.min_support, args.entropy_gate, args.join_gate, gates=False)
+    result = build(args.input, args.min_support, args.entropy_gate, args.join_gate, gates=True,
+                   key_filter=args.key_filter, keys=args.keys)
+    atomic = build(args.input, args.min_support, args.entropy_gate, args.join_gate, gates=False,
+                   key_filter=args.key_filter, keys=args.keys)
     gold = [tg.clean_en(en) for en, zh in tg.load_gold(args.gold)]
     names = result['names']
     report = {
@@ -253,10 +388,22 @@ def main(argv=None):
         p.add_argument('--min-support', type=int, default=2)
         p.add_argument('--entropy-gate', type=float, default=tg.ENTROPY_GATE)
         p.add_argument('--join-gate', type=float, default=tg.JOIN_GATE)
+        p.add_argument('--key-filter', choices=('on', 'off'), default='on',
+                       help='on 走原版 key 白名单；模组 key 用 off')
+        p.add_argument('--keys', help='正则；给了就代替原版白名单')
         if command == 'extract':
             p.add_argument('--out', type=Path)
             p.add_argument('--limit', type=int, default=0)
-            p.add_argument('--no-gates', action='store_true')
+            p.add_argument('--gates', action='store_true', help='开熵/搭配硬门（默认关）')
+            p.add_argument('--json', action='store_true')
+            p.add_argument('--family', action='store_true')
+            p.add_argument('--family-scope', choices=('pool', 'entries'), default='pool')
+            p.add_argument('--min-cooc', type=int, default=2)
+            p.add_argument('--min-dice', type=float, default=0.12)
+            p.add_argument('--method', choices=('lpa', 'components'), default='lpa')
+            p.add_argument('--rounds', type=int, default=30)
+            p.add_argument('--top', type=int, default=15)
+            p.add_argument('--show', type=int, default=30)
         else:
             p.add_argument('--gold', action='append', default=[])
     args = parser.parse_args(argv)
