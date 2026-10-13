@@ -1,16 +1,13 @@
 import argparse
 import json
 import re
-import shutil
-import subprocess
 import sys
-import tempfile
 from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from termgen import (build, clean_zh, compact_entry, is_product_key, load_gold,
-                     load_input_rows, load_key_filter, norm_lemma, tokens_lc, verify_rows)
+from algos.compose import (build, clean_zh, compact_entry, is_product_key, load_gold,
+                           load_input_rows, load_key_filter, norm_lemma, tokens_lc, verify_rows)
 
 ROOT = Path(__file__).resolve().parent.parent
 INPUT = ROOT / 'Vanilla/latest.tsv'
@@ -266,66 +263,8 @@ def lossless_report(version, dir_label, entries, audit, review_chars, rows, gold
             'cases': case_report(cases, audit, entries)}
 
 
-def termgen_aligned(gold, rows):
-    temp = tempfile.mkdtemp(prefix='termgen-scorecard-')
-    try:
-        proc = subprocess.run(
-            [sys.executable, str(ROOT / 'utility/archive/termgen.py'), 'extract',
-             '--input', str(INPUT), '--mode', 'aligned', '--out-dir', temp],
-            cwd=str(ROOT), capture_output=True, text=True)
-        if proc.returncode:
-            return {'lossless': None,
-                    'error': (proc.stderr or proc.stdout or '').strip()[-500:]}
-        items = []
-        for batch in load_jsonl(Path(temp) / 'llm-batches.jsonl'):
-            items.extend(batch.get('items') or [])
-    finally:
-        shutil.rmtree(temp, ignore_errors=True)
-    entries = [(item.get('en'), item.get('zh_candidates') or []) for item in items]
-    return {'lossless': None, 'candidates': len(items),
-            'chars': sum(len(packed({'en': item.get('en'),
-                                     'zh_candidates': item.get('zh_candidates') or []})) + 1
-                         for item in items),
-            'gold': ranked_gold(entries, gold, rows)}
-
-
-def termgen_v4(gold, rows, cases):
-    temp = tempfile.mkdtemp(prefix='termgen-v4-')
-    try:
-        proc = subprocess.run(
-            [sys.executable, str(ROOT / 'utility/archive/termgen_v4.py'), 'extract',
-             '--input', str(INPUT), '--out-dir', temp],
-            cwd=str(ROOT), capture_output=True, text=True)
-        if proc.returncode:
-            return {'lossless': None,
-                    'error': (proc.stderr or proc.stdout or '').strip()[-500:]}
-        out_dir = Path(temp)
-        return lossless_report('v4', 'temp', load_jsonl(out_dir / 'batch.jsonl'),
-                               load_jsonl(out_dir / 'audit.jsonl'),
-                               line_chars(out_dir / 'batch.jsonl'), rows, gold, cases)
-    finally:
-        shutil.rmtree(temp, ignore_errors=True)
-
-
-def ranked_report(gold, rows):
-    from argparse import Namespace
-    sys.path.append(str(Path(__file__).resolve().parent / 'archive'))
-    import termgen_v2
-    _, _, recs = termgen_v2.build(Namespace(input=str(INPUT), background=None,
-                                            exclude_keys=None))
-    report = {'v2': {'lossless': None, 'candidates': len(recs),
-                     'chars': sum(len(packed({'en': rec['en'],
-                                              'zh_candidates': rec['zh']})) + 1
-                                  for rec in recs),
-                     'gold': ranked_gold([(rec['en'], rec['zh']) for rec in recs],
-                                         gold, rows)}}
-    report['v1'] = termgen_aligned(gold, rows)
-    return report
-
-
 def main(argv=None):
     parser = argparse.ArgumentParser(prog='termgen_scorecard.py')
-    parser.add_argument('--with-ranked', action='store_true')
     args = parser.parse_args(argv)
     rows = load_filtered_rows()
     gold = [(en, zh_variants(variants)) for en, variants in load_gold([str(GOLD)])]
@@ -335,9 +274,6 @@ def main(argv=None):
     report = {'termgen': lossless_report(
         'termgen', 'in-process', [compact_entry(entry) for entry in result['review']],
         result['audit'], result['stats']['review_chars'], rows, gold, cases)}
-    report['v4'] = termgen_v4(gold, rows, cases)
-    if args.with_ranked:
-        report.update(ranked_report(gold, rows))
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0
 

@@ -9,7 +9,8 @@ from io import StringIO
 from pathlib import Path
 from unittest import mock
 
-from termgen import build, chinese_match, compose, judge_cmd, measure, score_cases, write_candidates
+from algos import cjk, single
+from algos.compose import build, chinese_match, compose, judge_cmd, measure, score_cases, write_candidates
 
 
 class TermgenV3Tests(unittest.TestCase):
@@ -211,6 +212,29 @@ class TermgenV3Tests(unittest.TestCase):
         names = [entry['en'][0] for entry in json.loads(out.read_text(encoding='utf-8'))['added']]
         self.assertIn('Foo', names)
         self.assertNotIn('Bar', names)
+
+
+class KeyFilterLazyTests(unittest.TestCase):
+    """--key-filter off 与 --keys 都不该读 Vanilla/diffs/term-key-filters.json（换仓库也能跑）"""
+
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.path = Path(self.temp.name) / 'input.tsv'
+        with self.path.open('w', encoding='utf-8', newline='') as stream:
+            writer = csv.writer(stream, delimiter='\t', lineterminator='\n')
+            writer.writerow(['key', 'en_us', 'zh_cn'])
+            writer.writerows([('block.minecraft.iron_block', 'Iron Block', '铁块'),
+                              ('ui.button.done', 'Done', '完成')])
+
+    def test_off_and_keys_skip_filter_file(self):
+        loaders = (lambda **kw: single.load_rows(self.path, **kw),
+                   lambda **kw: cjk.load_rows(self.path, column='zh_cn', **kw))
+        for loader in loaders:
+            for kwargs in ({'key_filter': 'off'}, {'keys': '^block\\.'}):
+                with mock.patch('algos.compose.load_key_filter',
+                                side_effect=AssertionError('不该被调用')):
+                    self.assertTrue(loader(**kwargs), kwargs)
 
 
 if __name__ == '__main__':

@@ -5,10 +5,10 @@
 核心是边界熵 + 最小互信息（新词发现），不依赖中英对照，不假设键的形态。
 语言是位置参数，支持 en / zh / ja / ko。
 
-    python termgen_v8.py prep <lang 目录> -o <输出前缀>
-    python termgen_v8.py review <lang 目录> -o <输出前缀>
-    python termgen_v8.py mine <lang 目录> <语言> [--ref <语言>] --termhood <策略> -o <输出前缀>
-    python termgen_v8.py assemble <骨架.json> --terms <填好的.tsv> -o <组合文件.json>
+    python utility/final.py mod prep <lang 目录> -o <输出前缀>
+    python utility/final.py mod review <lang 目录> -o <输出前缀>
+    python utility/final.py mod mine <lang 目录> <语言> [--ref <语言>] --termhood <策略> -o <输出前缀>
+    python utility/final.py mod assemble <骨架.json> --terms <填好的.tsv> -o <组合文件.json>
 
 prep（只有 en_us.json，翻译时）出三样：
   1. <前缀>-skeleton.json + <前缀>-terms.tsv   组合骨架 + 待译术语表（给 LLM 填最后一列）
@@ -841,7 +841,7 @@ def write_terms_tsv(path, target, terms, stats, modid):
              % (stats["terms"], stats["hit_en"], stats["en"], stats["coverage"]),
              "# display 是要翻译的重复段（取自英文显示名），tokens 是对齐用键 token。",
              "# 只填最后一列 zh，其余列不要改；填完执行：",
-             "#   python termgen_v7_entropy.py assemble <骨架.json> --terms 本文件 -o <组合文件.json>",
+             "#   python utility/final.py mod assemble <骨架.json> --terms 本文件 -o <组合文件.json>",
              "\t".join(TERMS_HEADER)]
     order = sorted(terms.items(), key=lambda kv: (-kv[1]["impact"], kv[0]))
     for disp, t in order:
@@ -2455,7 +2455,7 @@ def cmd_prep(args):
     summary = {"lang_dir": lang_dir, "skeleton": skel_path, "terms": terms_path,
                "glossary": glossary_path, "coverage": coverage_path, **stats}
     print(json.dumps(summary, ensure_ascii=False))
-    print("填完术语表后组装：python termgen_v7_entropy.py assemble %s --terms %s -o %s"
+    print("填完术语表后组装：python utility/final.py mod assemble %s --terms %s -o %s"
           % (os.path.basename(skel_path), os.path.basename(terms_path),
              ns + "-composition.json"), file=sys.stderr)
     return 0
@@ -2574,7 +2574,7 @@ def add_corpus_args(ap):
 
 def build_parser():
     ap = argparse.ArgumentParser(
-        prog="termgen_v8.py",
+        prog="final.py mod",
         description="模组术语/组合文件工具：prep 出骨架+术语表+词表+覆盖，"
                     "review 出分歧报告+组合文件+校验，assemble 组装")
     sub = ap.add_subparsers(dest="cmd")

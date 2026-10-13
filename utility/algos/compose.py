@@ -36,7 +36,7 @@ against while both each few because until unless upon onto within without across
 LEAD_OK = {'the'}  # 允许出现在开头的停用词
 MAX_NAME_TOKENS = 7  # 名字最多 7 个词
 
-KEY_FILTER_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+KEY_FILTER_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
                                'Vanilla', 'diffs', 'term-key-filters.json')  # key 白/黑名单
 
 
@@ -198,7 +198,7 @@ def load_gold(paths):
     return out
 
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent.parent.parent
 CONNECTORS = {'of', 'the'}  # 拼接时可跳过的连接词
 MAX_GRAM = 5  # 英文片段最长 5 词
 MIN_STRONG_FREQ = 3  # 至少出现在 3 个不同名字里
@@ -1494,7 +1494,7 @@ def judge_cmd(args):
     return 0
 
 
-CASES_PATH = Path(__file__).with_name('termgen_cases.json')
+CASES_PATH = Path(__file__).resolve().parent.parent / 'termgen_cases.json'
 
 
 CASE_FIELDS = ('key', 'en', 'zh', 'expect', 'required_terms', 'reason')
@@ -1758,7 +1758,7 @@ def nonnegative(value):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog='termgen.py')
+    parser = argparse.ArgumentParser(prog='final.py compose')
     sub = parser.add_subparsers(dest='command', required=True)
     for command in ('extract', 'bench', 'judge'):
         p = sub.add_parser(command)
@@ -1772,7 +1772,7 @@ def main(argv=None):
                                 'but emit only entries and rows for those keys')
         if command == 'bench':
             p.add_argument('--gold', action='append', default=[])
-            p.add_argument('--cases', type=Path, default=Path(__file__).with_name('termgen_cases.json'))
+            p.add_argument('--cases', type=Path, default=CASES_PATH)
         elif command == 'judge':
             p.add_argument('--known', nargs='*', default=[],
                            help='terms files whose en or composed zh is already curated')

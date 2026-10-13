@@ -1,6 +1,6 @@
 # termgen 术语候选生成
 
-`utility/termgen.py` 是现行的术语候选工具。它读 `Vanilla/latest.tsv`、diff JSON（`added`/`changed` 两段）或纯文本清单，按语言 key 过滤出产品名称，压成可复用的条目，供 LLM（Large Language Model，大语言模型）或人审校后转成术语表。单文件，只用标准库。
+`utility/final.py compose` 是现行的术语候选工具，入口是 `utility/final.py <算法>`，算法在 `utility/algos/`。它读 `Vanilla/latest.tsv`、diff JSON（`added`/`changed` 两段）或纯文本清单，按语言 key 过滤出产品名称，压成可复用的条目，供 LLM（Large Language Model，大语言模型）或人审校后转成术语表。单文件，只用标准库。
 
 ## 产出
 
@@ -42,12 +42,12 @@
 ## 命令
 
 ```bash
-python utility/termgen.py extract
-python utility/termgen.py judge --focus Vanilla/diffs/26.2-26.3.json \
+python utility/final.py compose extract
+python utility/final.py compose judge --focus Vanilla/diffs/26.2-26.3.json \
   --known Vanilla/terms/terms-v1.tsv \
   --out Vanilla/diffs/26.2-26.3.terms.json
-python utility/termgen.py bench
-python utility/termgen_scorecard.py --with-ranked
+python utility/final.py compose bench
+python utility/termgen_scorecard.py
 cd utility && python -m unittest test_termgen
 ```
 
@@ -80,17 +80,17 @@ cd utility && python -m unittest test_termgen
 
 `zh` 是候选数组，对应条目里的 `|` 变体。`single_use` 标在整份语料里只出现一次的术语上（不看本次 diff 的范围，`Door` 这种老词不会因为 diff 里只有一行就被标）——本仓库照收这类词，标记只是让审校看得见，不是筛除条件。`labels` 只在术语不落在 block/item/entity 域时给（biome、stat 之类）。`origin_zh` 是本次改过译文的行的旧值，取自 diff 的 `changed`。`reason` 是模型的一句话理由；LLM 复核暂停期间不写。`updated` 恒空；`removed` 收 diff `removed` 段里过滤后仍属产品名称的行。
 
-LLM 复核暂停：`judge` 不读 `LLM_*` 环境变量、不调模型，条目全部按原样通过（恢复时取消 `utility/termgen.py` 里 `judge_cmd` 的注释）。模板条目不送审，它只是句子骨架。`--known` 传已有的术语表：en 命中且译文全在表内的条目跳过（记 `skipped_known`），en 没命中但译文能由表里的词拼出来的也跳过（记 `skipped_derived`，例如 `Concrete Slab` = `Concrete` + `Slab`），只传 `terms-v1.tsv`。`--batch-size` 与 `batches_failed` 只在 LLM 复核启用时生效。
+LLM 复核暂停：`judge` 不读 `LLM_*` 环境变量、不调模型，条目全部按原样通过（恢复时取消 `utility/algos/compose.py` 里 `judge_cmd` 的注释）。模板条目不送审，它只是句子骨架。`--known` 传已有的术语表：en 命中且译文全在表内的条目跳过（记 `skipped_known`），en 没命中但译文能由表里的词拼出来的也跳过（记 `skipped_derived`，例如 `Concrete Slab` = `Concrete` + `Slab`），只传 `terms-v1.tsv`。`--batch-size` 与 `batches_failed` 只在 LLM 复核启用时生效。
 
 ## 文件
 
 | 路径 | 内容 |
 |---|---|
-| `utility/termgen.py` | 现行生产工具 |
-| `utility/archive/` | v1 到 v4 的冻结快照，`termgen.py` 是 v1；另有 v3 的 graft 和 `coverage_report.py` |
+| `utility/final.py` | 统一入口，`python utility/final.py <算法> <子命令>` |
+| `utility/algos/` | 算法实现：`compose`（现行生产工具）、`single`、`cjk`、`mod` |
 | `utility/termgen_cases.json` | 40 条评估用例 |
 | `utility/test_termgen.py` | 11 条单元测试 |
-| `utility/termgen_scorecard.py` | 打分脚本，对比各版本；v1、v4 用临时目录现跑 |
+| `utility/termgen_scorecard.py` | 打分脚本，进程内跑现行工具 |
 | `utility/termgen_review.html` | 单页审校工具：贴入 `terms-v1.tsv` 和 `<版本>.terms.json`，勾选后导出新的 v1 |
 | `Vanilla/diffs/<from>-<to>.terms.json` | CI 跑 `judge` 生成的审校清单，人工过一遍后合并 |
 
@@ -98,13 +98,13 @@ CI（Continuous Integration，持续集成）在 `.github/workflows/term-candida
 
 ## 实测数字
 
-`python utility/termgen.py extract`（2026-10-04，本机）：
+`python utility/final.py compose extract`（2026-10-04，本机）：
 
 - 8559 行输入 → 过滤后 2636 行 / 2457 对唯一 en-zh → 1167 个条目：649 零件、9 模板、509 例外。
 - 送审 54,922 字符，输入 133,872 字符，减少 59%。
 - 50 行由模板派生；例外行 603；重建核验 2636/2636 通过；耗时约 4 s。
 
-`python utility/termgen_scorecard.py --with-ranked`：
+`python utility/termgen_scorecard.py` 现在只跑进程内的现行工具；下面 v4/v1/v2 三行是旧 `--with-ranked` 模式的历史记录，对照脚本在提交 `6bd28dc` 的 `utility/archive/` 里：
 
 | 版本 | 召回 | any_ok |
 |---|---|---|
@@ -127,7 +127,7 @@ CI（Continuous Integration，持续集成）在 `.github/workflows/term-candida
 
 | 方法 | 链接 | 原因 |
 |---|---|---|
-| MDL（Minimum Description Length，最小描述长度）成本加严格漂移规则 | `utility/archive/termgen_v4.py` | 把 516 条本来能由零件拼出的行判成整名例外；召回 0.782、any_ok 0.973，都低于现行 |
+| MDL（Minimum Description Length，最小描述长度）成本加严格漂移规则 | 已删除，见提交 `6bd28dc` | 把 516 条本来能由零件拼出的行判成整名例外；召回 0.782、any_ok 0.973，都低于现行 |
 | MMR（Maximal Marginal Relevance） | https://dl.acm.org/doi/10.1145/290941.291025 | 去冗余的方向与「零件复用」相反；不是单调 submodular，贪心没有近似保证 |
 | KeyBERT | https://github.com/MaartenGr/KeyBERT | 面向「文档到关键词」，本语料是 1:1 平行词典；相似度不能当作可合并 |
 | SimAlign | https://aclanthology.org/2020.findings-emnlp.147/ | 短名与单次专名上信号弱，需要下载模型 |

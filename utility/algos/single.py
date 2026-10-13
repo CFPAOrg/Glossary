@@ -16,9 +16,9 @@ bench 给出 池子 / 原子化 / 加门控 三档的 规模-召回-假阳性，
 key 过滤默认走原版白名单；模组 key（block.<modid>.*）用 --key-filter off，或 --keys 给正则。
 
 用法：
-    python utility/archive/termgen_v5_single.py extract --input Vanilla/latest.tsv --out en-terms.tsv
-    python utility/archive/termgen_v5_single.py extract --input mod-en.tsv --key-filter off --family
-    python utility/archive/termgen_v5_single.py bench --input Vanilla/latest.tsv --gold Vanilla/terms/terms-v1.tsv
+    python utility/final.py single extract --input Vanilla/latest.tsv --out en-terms.tsv
+    python utility/final.py single extract --input mod-en.tsv --key-filter off --family
+    python utility/final.py single bench --input Vanilla/latest.tsv --gold Vanilla/terms/terms-v1.tsv
 """
 import argparse
 import csv
@@ -30,7 +30,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-import termgen as tg
+from algos import compose as tg
 
 MAX_GRAM = tg.MAX_GRAM
 CONNECTORS = tg.CONNECTORS
@@ -38,8 +38,8 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 
 
 def load_rows(path, key_filter='on', keys=None):
-    wl, bl = tg.load_key_filter()
     pattern = re.compile(keys) if keys else None
+    wl, bl = (None, None) if key_filter == 'off' or pattern else tg.load_key_filter()
     rows = []
     for key, en, zh in tg.load_input_rows(str(path)):
         en = tg.clean_en(en)
@@ -380,7 +380,7 @@ def bench(args):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog='termgen_v5_single.py')
+    parser = argparse.ArgumentParser(prog='final.py single')
     sub = parser.add_subparsers(dest='command', required=True)
     for command in ('extract', 'bench'):
         p = sub.add_parser(command)

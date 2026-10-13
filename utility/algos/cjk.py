@@ -28,10 +28,10 @@
     要用大表（stopwords-iso/stopwords-zh、stopwords-iso/stopwords-ja）走 --stopwords 传文件。
 
 用法：
-    python utility/archive/termgen_v5_cjk.py extract --input Vanilla/latest.tsv --column zh_cn
-    python utility/archive/termgen_v5_cjk.py extract --input Vanilla/latest.tsv --column ja_jp --out ja.tsv
-    python utility/archive/termgen_v5_cjk.py extract --input Vanilla/latest.tsv --show-seg 20
-    python utility/archive/termgen_v5_cjk.py bench --input Vanilla/latest.tsv --method bpe
+    python utility/final.py cjk extract --input Vanilla/latest.tsv --column zh_cn
+    python utility/final.py cjk extract --input Vanilla/latest.tsv --column ja_jp --out ja.tsv
+    python utility/final.py cjk extract --input Vanilla/latest.tsv --show-seg 20
+    python utility/final.py cjk bench --input Vanilla/latest.tsv --method bpe
 """
 import argparse
 import csv
@@ -43,7 +43,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-import termgen as tg
+from algos import compose as tg
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 
@@ -69,8 +69,8 @@ def load_stopwords(path):
 
 def load_rows(path, column='zh_cn', key_filter='on', keys=None, max_name=16):
     """读 TSV 指定列；key 过滤沿用英文侧那套（key 与语言无关）"""
-    wl, bl = tg.load_key_filter()
     pattern = re.compile(keys) if keys else None
+    wl, bl = (None, None) if key_filter == 'off' or pattern else tg.load_key_filter()
     with open(path, encoding='utf-8', newline='') as f:
         rd = list(csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE))
     head = [c.strip().lower() for c in rd[0]]
@@ -358,7 +358,7 @@ def bench(args):
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog='termgen_v5_cjk.py')
+    parser = argparse.ArgumentParser(prog='final.py cjk')
     sub = parser.add_subparsers(dest='command', required=True)
     for command in ('extract', 'bench'):
         p = sub.add_parser(command)
