@@ -11,6 +11,7 @@ Allium	绒球葱
 Amethyst	紫水晶		
 Amethyst Bud	紫晶芽		
 Amethyst Geode	紫晶洞		
+Anchor	锚	可能过于严格，允许发挥	
 Ancient	远古	可能过于严格，允许发挥	
 Ancient City	远古城市		
 Ancient Debris	远古残骸		
@@ -23,6 +24,7 @@ Armadillo	犰狳
 Armor	护甲值|盔甲	可能过于严格，允许发挥	
 Armor Stand	盔甲架		
 Armorer	盔甲匠		
+Arrow	箭	可能过于严格，允许发挥	
 Arrow of Splashing	喷溅之箭		
 Arthropod	节肢		
 Attack Damage	攻击伤害		
@@ -84,9 +86,11 @@ Bogged	沼骸
 Bone	骨头		
 Bone Block	骨块		
 Bone Meal	骨粉		
+Book	书	可能过于严格，允许发挥	
 Bookshelf	书架		
 Boots	靴子	可能过于严格，允许发挥	
 Bossbar	Boss栏	可能过于严格，允许发挥	
+Bottle	瓶	可能过于严格，允许发挥	
 Bottle o' Enchanting	附魔之瓶		
 Bounciness	弹性		
 Brain Coral	脑纹珊瑚		
@@ -99,6 +103,7 @@ Brown	棕色	可能过于严格，允许发挥
 Bubble	气泡	可能过于严格，允许发挥	
 Bubble Column	气泡柱		
 Bubble Coral	气泡珊瑚		
+Bud	芽	可能过于严格，允许发挥	
 Budding	母岩	可能过于严格，允许发挥	
 Budding Amethyst	紫水晶母岩		
 Bundle	收纳袋	可能过于严格，允许发挥	
@@ -163,6 +168,7 @@ Concrete	混凝土
 Concrete Powder	混凝土粉末		
 Conduit	潮涌核心	可能过于严格，允许发挥	
 Conduit Power	潮涌能量		
+Cooked	熟	可能过于严格，允许发挥	
 Cooked Rabbit	熟兔肉		
 Cookie	曲奇		
 Copper	铜		
@@ -231,6 +237,7 @@ Dolphin	海豚
 Dolphin's Grace	海豚的恩惠		
 Donkey	驴	可能过于严格，允许发挥	
 Door	门		
+Dragon	龙	可能过于严格，允许发挥	
 Dragon's Breath	龙息		
 Dried Ghast	失水恶魂		
 Dried Kelp	干海带		
@@ -247,6 +254,7 @@ Dye	染料
 Echo	回响	可能过于严格，允许发挥	
 Echo Shard	回响碎片		
 Efficiency	效率		
+Egg	蛋	可能过于严格，允许发挥	
 Elder Guardian	远古守卫者		
 Elytra	鞘翅		
 Emerald	绿宝石		
@@ -308,6 +316,7 @@ Fletching Table	制箭台
 Flint	燧石		
 Flint And Steel	打火石		
 Floating Islands	浮岛	可能过于严格，允许发挥	
+Flower	花	可能过于严格，允许发挥	
 Flower Forest	繁花森林		
 Flower Pot	花盆		
 Flowering	盛开的	可能过于严格，允许发挥	
@@ -327,6 +336,7 @@ Frosted Ice	霜冰
 Frozen Ocean	冻洋		
 Frozen Peaks	冰封山峰		
 Frozen River	冻河		
+Fruit	果	可能过于严格，允许发挥	
 Furnace	熔炉	可能过于严格，允许发挥	
 Geode	晶洞	可能过于严格，允许发挥	
 Ghast	恶魂		
@@ -387,6 +397,7 @@ Hotbar	快捷栏
 Hunger	饥饿		
 Husk	尸壳		
 Hyphae	菌核		
+Ice	冰	可能过于严格，允许发挥	
 Ice Spikes	冰刺之地	可能过于严格，允许发挥	
 Igloo	雪屋	可能过于严格，允许发挥	
 Illager	灾厄村民		
@@ -548,6 +559,7 @@ Outpost	前哨站
 Overworld	主世界		
 Oxeye Daisy	滨菊		
 Oxidized	氧化		
+Pack	包	可能过于严格，允许发挥	
 Packed Ice	浮冰		
 Packed Mud	泥坯		
 Pale	苍白	可能过于严格，允许发挥	
@@ -712,6 +724,7 @@ Smooth	平滑
 Sneak	潜行		
 Sniffer	嗅探兽		
 Sniffer Egg	嗅探兽蛋		
+Snow	雪	可能过于严格，允许发挥	
 Snow Golem	雪傀儡		
 Snowy	积雪	可能过于严格，允许发挥	
 Snowy Beach	积雪沙滩	可能过于严格，允许发挥	
@@ -727,6 +740,7 @@ Soul Sand	灵魂沙
 Soul Sand Valley	灵魂沙峡谷		
 Soul Soil	灵魂土		
 Soul Speed	灵魂疾行		
+Soup	汤	可能过于严格，允许发挥	
 Sparse	稀疏的	可能过于严格，允许发挥	
 Sparse Jungle	稀疏丛林		
 Spawn Egg	刷怪蛋		
@@ -770,6 +784,7 @@ Strider	炽足兽
 Stripped	去皮		
 Stronghold	要塞		
 Structure Void	结构空位		
+Sugar	糖	可能过于严格，允许发挥	
 Sugar Cane	甘蔗		
 Sulfur	硫黄	可能过于严格，允许发挥	
 Sulfur Cube	硫方怪		
@@ -842,6 +857,7 @@ Warped	诡异
 Warped Forest	诡异森林		
 Warped Fungus on a Stick	诡异菌钓竿		
 Warped Stem	诡异菌柄		
+Water	水	可能过于严格，允许发挥	
 Water Breathing	水下呼吸|水肺		
 Waxed	涂蜡		
 Weakness	虚弱		
@@ -853,6 +869,7 @@ Weeping Vine	垂泪藤
 Weeping Vines	垂泪藤		
 Weighted Pressure Plate	测重压力板		
 White	白色		
+Wind	风	可能过于严格，允许发挥	
 Wind Burst	风爆		
 Wind Charge	风弹		
 Wind Charged	蓄风		
