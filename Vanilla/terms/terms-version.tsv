@@ -29,5 +29,6 @@ versions	en	zh	reason	comment
 1.12.2,1.16.5,1.18.2,1.19.2	Feather Falling	摔落保护	较新版本译为“摔落缓冲”，不要按最新版术语检查	来源：enchantment.protect.fall、enchantment.minecraft.feather_falling；原文：Feather Falling -> 摔落保护
 1.12.2,1.16.5,1.18.2,1.19.2	Fire Resistance	防火	仅检查独立的状态效果名称；较新版本译为“抗火”	来源：effect.fireResistance、effect.minecraft.fire_resistance；原文：Fire Resistance -> 防火；笔记：同版本药水和箭中的 Fire Resistance 已译为“抗火”
 1.12.2,1.16.5,1.18.2,1.19.2	Mycelium	菌丝	较新版本译为“菌丝体”，不要按最新版术语检查	来源：tile.mycel.name、block.minecraft.mycelium；原文：Mycelium -> 菌丝
+1.16.5,1.18.2,1.19.2	Snowy	积雪的	较新版本改用“积雪”，不要按最新版术语检查	
 1.16.5,1.18.2,1.19.2	Suspicious Stew	迷之炖菜	较新版本改用“谜之炖菜”，不要按最新版用字检查	来源：item.minecraft.suspicious_stew；原文：Suspicious Stew -> 迷之炖菜
 1.16.5,1.18.2,1.19.2	Wither Rose	凋零玫瑰	较新版本改用“凋灵玫瑰”，不要按最新版术语检查	来源：block.minecraft.wither_rose；原文：Wither Rose -> 凋零玫瑰
