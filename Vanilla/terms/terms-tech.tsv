@@ -3,7 +3,7 @@ Advancement	进度
 Adventure	冒险		
 Air Drag Modifier	空气阻力修正系数		
 AMPLIFIED	放大化		
-Armor	护甲值	可能过于严格，允许发挥	仅属性“护甲值”；物品与纹饰“盔甲”见 terms-v1.tsv，坐骑“铠”见 STYLE.md §4
+Armor	护甲值	可能过于严格，允许发挥	属性语境作“护甲值”，物品与纹饰作“盔甲”，坐骑护甲作“铠”
 Armor Toughness	盔甲韧性		
 Attack Damage	攻击伤害		
 Attack Knockback	击退	可能过于严格，允许发挥	
@@ -30,7 +30,7 @@ Debug	调试
 Debug Mode	调试模式		
 Dimension	维度		
 Disenchant	祛魔		
-Distance	距离	可能过于严格，允许发挥	常规属性与统计用“距离”（STYLE.md §7）；“Safe Fall Distance/Distance Fallen”作“高度”
+Distance	距离	可能过于严格，允许发挥	常规属性与统计用“距离”，“Safe Fall Distance/Distance Fallen”作“高度”
 Durability	耐久度	可能过于严格，允许发挥	
 Enchantment	魔咒	可能过于严格，允许发挥	属性与机制统称“魔咒”；注意旧界面文本“Enchantment Cost”作“附魔花费”，“Enchantment Levels”作“级经验”
 Entity	实体	可能过于严格，允许发挥	

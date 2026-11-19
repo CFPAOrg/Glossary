@@ -2,7 +2,7 @@ en	zh	reason	comment
 Allay	悦灵		
 Armadillo	犰狳		
 Armorer	盔甲匠		现行村民职业译“盔甲匠”（1.12.2 旧译“盔甲商”，见 terms-version.tsv）
-Axolotl	美西螈		生物名“美西螈”；唱片曲名中的同名英文保留不译（STYLE.md §1）
+Axolotl	美西螈		生物名作“美西螈”，唱片曲名中的同名英文保留不译
 Bat	蝙蝠		
 Bee	蜜蜂		
 Blaze	烈焰人		生物名带“人”；烈焰棒/烈焰粉减字为“烈焰”
@@ -12,9 +12,9 @@ Butcher	屠夫
 Camel	骆驼		
 Camel Husk	骆驼尸壳		
 Cartographer	制图师		
-Cat	猫	可能过于严格，允许发挥	生物名；唱片曲名“C418 - cat”保留不译（STYLE.md §1）
+Cat	猫	可能过于严格，允许发挥	生物名；唱片曲名“C418 - cat”保留不译
 Cave Spider	洞穴蜘蛛		
-Chicken	鸡	可能过于严格，允许发挥	生物名；唱片曲名中的“Lava Chicken”保留不译（STYLE.md §1）
+Chicken	鸡	可能过于严格，允许发挥	生物名；唱片曲名中的“Lava Chicken”保留不译
 Cleric	牧师		
 Cod	鳕鱼		
 Copper Golem	铜傀儡		

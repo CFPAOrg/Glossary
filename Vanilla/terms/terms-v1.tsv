@@ -17,7 +17,7 @@ Anvil	铁砧	可能过于严格，允许发挥
 Apple	苹果	可能过于严格，允许发挥	
 Aquifer	含水层		不在 latest.tsv；源自 Wiki/官方 TBX 地形特征词条
 Area Effect Cloud	区域效果云		
-Armor	盔甲	可能过于严格，允许发挥	物品与纹饰语境；属性“护甲值”见 terms-tech.tsv，坐骑护甲按 STYLE.md §4 译“铠”
+Armor	盔甲	可能过于严格，允许发挥	物品与纹饰作“盔甲”，属性作“护甲值”，坐骑护甲作“铠”
 Armor Stand	盔甲架		
 Arrow	箭	可能过于严格，允许发挥	
 Arrow of Splashing	喷溅之箭		
@@ -28,8 +28,8 @@ Azalea	杜鹃花丛		独立方块为“杜鹃花丛”；作树叶前缀减为�
 Azalea Leaves	杜鹃树叶		
 Azure Bluet	蓝花美耳草		
 Baked Potato	烤马铃薯		
-Bamboo	竹子|竹		独立物品与盆栽用“竹子”，制品前缀减为“竹”（STYLE.md §3）；“|竹”用于匹配制品
-Bamboo Planks	竹板		竹制品不按木板作“竹木板”，减字特例（STYLE.md §3）
+Bamboo	竹子|竹		独立物品与盆栽用“竹子”，制品前缀减为“竹”
+Bamboo Planks	竹板		竹制品减字特例，不作“竹木板”
 Bamboo Raft	竹筏		
 Bamboo Raft with Chest	运输竹筏		
 Bamboo Shoot	竹笋		
@@ -51,7 +51,7 @@ Beetroot Seeds	甜菜种子
 Beetroot Soup	甜菜汤		
 Berries	浆果	可能过于严格，允许发挥	
 Big Dripleaf Stem	大型垂滴叶茎		
-Birch	白桦		常规作“白桦”；“Birch Forest”等群系特例省“白”作“桦木森林”（STYLE.md §3）
+Birch	白桦		常规制品用“白桦”，森林类生物群系省“白”作“桦木”
 Blackstone	黑石		
 Blast Furnace	高炉		
 Blaze Powder	烈焰粉		
@@ -141,7 +141,7 @@ Conduit	潮涌核心	可能过于严格，允许发挥
 Cooked	熟	可能过于严格，允许发挥	熟食前缀；单字“熟”仅限食材语境，避免误伤常规用语
 Cooked Rabbit	熟兔肉		
 Cookie	曲奇		
-Copper	铜		常规金属前缀；氧化铜系列修饰词带“的”规则见 STYLE.md §2
+Copper	铜		常规金属前缀，直接叠加氧化修饰词时带“的”
 Copper Bulb	铜灯		
 Copper Golem Statue	铜傀儡像		
 Coral	珊瑚		类属词根；原版已按具体珊瑚整词收录，此条留作类属统称与复合前缀
@@ -163,14 +163,14 @@ Cushion	坐垫
 Cut	切制	可能过于严格，允许发挥	
 Damaged Anvil	损坏的铁砧		
 Dandelion	蒲公英		
-Dark Oak	深色橡木|深色橡树		单字树根复合词，按树叶/树苗用“树”、原木/制品用“木”选型（STYLE.md §3）
+Dark Oak	深色橡木|深色橡树		单字树根复合词，树叶树苗用“树”，原木制品用“木”
 Dark Prismarine	暗海晶石		
 Daylight Detector	阳光探测器		
 Dead Bush	枯萎的灌木	可能过于严格，允许发挥	
 Debris	残骸	可能过于严格，允许发挥	
 Debug Stick	调试棒		
 Decorated Pot	饰纹陶罐		来源：block.minecraft.decorated_pot；罐名用“陶罐”，区别于“陶片”（Pottery Sherd）
-Deepslate	深板岩|深层		作矿石定语用“深层”，其余方块与制品用“深板岩”（STYLE.md §2）
+Deepslate	深板岩|深层		矿石定语用“深层”，其余方块与制品用“深板岩”
 Deepslate Tile	深板岩瓦		
 Deepslate Tiles	深板岩瓦		
 Deltas	三角洲		群系词根；现行仅见于“Basalt Deltas”（玄武岩三角洲），留作地形词根
@@ -222,7 +222,7 @@ Evoker Fangs	唤魔者尖牙
 Experience Orb	经验球	可能过于严格，允许发挥	
 Explorer	探险家		探险家地图等通用语境；陶片纹样“探险”见 special/terms-pottery.tsv
 Explorer Map	探险家地图		
-Exposed	斑驳		铜氧化第一阶段前缀，直接修饰铜制品须带“的”（STYLE.md §2）；注意避开常规动词“暴露”
+Exposed	斑驳		铜氧化第一阶段前缀，直接修饰铜制品须带“的”；避开常规动词“暴露”
 Eye of Ender	末影之眼		
 Eyeblossom	眼眸花		
 Falling Block	下落的方块		
@@ -306,7 +306,7 @@ Hyphae	菌核
 Ice	冰	可能过于严格，允许发挥	冰类方块用语；遥测文本中的网络协议缩写“ICE”不译
 Igloo	雪屋	可能过于严格，允许发挥	不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 Illager	灾厄村民		不在 latest.tsv；源自 Wiki/官方 TBX 灾厄阵营生物总称
-Infested	虫蚀	可能过于严格，允许发挥	方块修饰语（不加“的”，STYLE.md §2）；状态效果“寄生”见 terms-effect.tsv
+Infested	虫蚀	可能过于严格，允许发挥	方块修饰语不加“的”，状态效果语境译“寄生”
 Ingot	锭	可能过于严格，允许发挥	
 Ink Sac	墨囊		
 Iron	铁		
@@ -369,12 +369,12 @@ Melon Slice	西瓜片
 Melon Stem	西瓜茎		
 Mesa	平顶山	可能过于严格，允许发挥	不在 latest.tsv；源自官方 TBX 旧群系名，现行原版已改为 Badlands（恶地）
 Midlands	内陆	可能过于严格，允许发挥	群系词根；现行仅见于“End Midlands”（末地内陆）
-Milk	奶	可能过于严格，允许发挥	原版固定作“奶”（奶桶、喝奶），不译“牛奶”（STYLE.md §4）
+Milk	奶	可能过于严格，允许发挥	原版固定作“奶”（奶桶、喝奶），不译“牛奶”
 Minecart	矿车		
-Minecart with Chest	运输矿车		载体矿车例外：减“箱”译“运输矿车”（STYLE.md §5）
+Minecart with Chest	运输矿车		载体矿车例外，减“箱”译“运输矿车”
 Minecart with Furnace	动力矿车		载体矿车例外：按功能译“动力矿车”，不直译“熔炉矿车”
 Minecart with Spawner	刷怪笼矿车		不在 latest.tsv；1.19.2 及更早旧英文名，现行原版为“Minecart with Monster Spawner”（Wiki/TBX 仍留旧名）
-Minecart with TNT	TNT矿车		载体矿车例外：按“<X>矿车”译“TNT矿车”，中西文间不加空格（STYLE.md §5、§8）
+Minecart with TNT	TNT矿车		载体矿车按“<X>矿车”译出，中西文间不加空格
 Mineshaft	废弃矿井	可能过于严格，允许发挥	
 Monster Spawner	刷怪笼		
 Mosaic	马赛克		
@@ -387,7 +387,7 @@ Mossy Stone Bricks	苔石砖
 Mountains	山地		不在 latest.tsv；1.16.5 等旧版群系名，现行仅见于 Wiki/官方 TBX
 Moving Block	移动的方块		不在 latest.tsv；源自 Wiki/官方 TBX 技术方块词条
 Moving Piston	移动的活塞		
-Mud	泥巴		独立泥巴方块；“Mud Bricks”减字为“泥砖”（STYLE.md §4）
+Mud	泥巴		独立方块用“泥巴”，砖类复合词减字为“泥砖”
 Mud Brick	泥砖		
 Muddy Mangrove Roots	沾泥的红树根		
 Mushroom	蘑菇	可能过于严格，允许发挥	
@@ -413,7 +413,7 @@ Note Block	音符盒
 NPC	NPC	不译专名	
 Nugget	粒	可能过于严格，允许发挥	
 Nylium	菌岩		
-Oak	橡木|橡树		单字树根，按树叶/树苗用“橡树”、原木/制品用“橡木”选型（STYLE.md §3）
+Oak	橡木|橡树		单字树根，树叶树苗用“橡树”，原木制品用“橡木”
 Observer	侦测器		
 Obsidian	黑曜石		
 Ocean Monument	海底神殿		
@@ -428,12 +428,12 @@ Ore	矿石	可能过于严格，允许发挥
 Ore Vein	矿脉		不在 latest.tsv；源自 Wiki/官方 TBX 地形特征词条
 Outpost	前哨站		不在 latest.tsv；源自 Wiki 结构词条（如 Pillager Outpost）的共享词根
 Oxeye Daisy	滨菊		
-Oxidized	氧化		铜氧化最终阶段前缀，直接修饰铜制品须带“的”（STYLE.md §2）
+Oxidized	氧化		铜氧化最终阶段前缀，直接修饰铜制品须带“的”
 Packed Ice	浮冰		
 Packed Mud	泥坯		
-Pale	苍白	可能过于严格，允许发挥	“苍白”系方块前缀；旗帜纹章“Per Pale”为半幅几何术语（见 STYLE.md §6），非颜色词
+Pale	苍白	可能过于严格，允许发挥	苍白系方块前缀；旗帜纹章“Per Pale”表示半幅几何，非颜色词
 Pale Hanging Moss	苍白垂须		
-Pale Oak	苍白橡木|苍白橡树		单字树根复合词，按树叶/树苗用“树”、原木/制品用“木”选型（STYLE.md §3）
+Pale Oak	苍白橡木|苍白橡树		单字树根复合词，树叶树苗用“树”，原木制品用“木”
 Peaks	山峰		群系词根；现行仅见于三类山峰群系（biome 分表已收）
 Pearl	珍珠	可能过于严格，允许发挥	物品词根；现行仅见于“Ender Pearl”（末影珍珠）
 Pearlescent	珠光		颜色词根；现行仅见于“Pearlescent Froglight”（珠光蛙明灯）
@@ -450,14 +450,14 @@ Piston Head	活塞头
 Pitcher	瓶子草		
 Pitcher Plant	瓶子草		
 Pitcher Pod	瓶子草荚果		
-Planks	木板	可能过于严格，允许发挥	木板通名；特例“Bamboo Planks”减为“竹板”（STYLE.md §3）
+Planks	木板	可能过于严格，允许发挥	木板通名，特例“Bamboo Planks”减为“竹板”
 Plant	植株		仅用于植物植株（如 Pitcher Plant 瓶子草除外、Chorus Plant 紫颂植株），注意避开动词“种植”
 Plateau	高原		群系词根；现行仅见于“Savanna Plateau”（热带高原）
 Podzol	灰化土		
 Pointed Dripstone	滴水石锥		
 Poisonous Potato	毒马铃薯		
 Polished	磨制		
-Poplar	杨木|杨树		26.3 新树种，单字树根按语境补“木”或“树”（STYLE.md §3）
+Poplar	杨木|杨树		26.3 新树种，单字树根按语境补“木”或“树”
 Popped Chorus Fruit	爆裂紫颂果		
 Poppy	虞美人		
 Porkchop	猪排		
@@ -598,14 +598,14 @@ Stairs	楼梯
 Stalactite	钟乳石		
 Stalagmite	石笋		
 Steak	牛排		
-Stem	菌柄		部件词根；仅幽匿/下界菌类作“菌柄”（STYLE.md §3），瓜果与垂滴叶茎作“茎”，蘑菇茎作“蘑菇柄”
+Stem	菌柄		幽匿与下界菌类作“菌柄”，瓜果与垂滴叶茎作“茎”，蘑菇茎作“蘑菇柄”
 Stick	木棍	可能过于严格，允许发挥	独立木棍物品；“Carrot/Warped Fungus on a Stick”译“钓竿”，“Debug Stick”译“调试棒”
 Sticky	黏性		
 Stone Brick	石砖		
 Stone Bricks	石砖		
 Stonecutter	切石机		
 Straw Bed	麦秆床		
-Stripped	去皮		去皮原木/竹块前缀，不加“的”（STYLE.md §2）；注意避开报错中的“截断（stripped）”
+Stripped	去皮		去皮原木与竹块前缀不加“的”；避开报错中的“截断（stripped）”
 Stronghold	要塞		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 Structure Block	结构方块		
 Structure Void	结构空位		
@@ -613,7 +613,7 @@ Sugar	糖	可能过于严格，允许发挥	糖物品；“Sugar Cane”固定�
 Sugar Cane	甘蔗		
 Sulfur	硫黄	可能过于严格，允许发挥	官方定名用“硫黄”（非“硫磺”）；衍生生物“Sulfur Cube”减字为“硫方怪”（见 terms-mob.tsv）
 Sunflower	向日葵		
-Suspicious	可疑的		修饰沙子/沙砾须带“的”；特例“Suspicious Stew”译“谜之炖菜”（STYLE.md §2）
+Suspicious	可疑的		修饰沙子与沙砾须带“的”，特例“Suspicious Stew”译“谜之炖菜”
 Suspicious Stew	谜之炖菜		
 Swamp Hut	沼泽小屋		
 Sweet Berries	甜浆果		
@@ -626,7 +626,7 @@ Text Display	文本展示实体
 Thrown	掷出的		
 Thunderstorm	雷暴		不在 latest.tsv；源自 Wiki/官方 TBX 天气词条
 Tinted Glass	遮光玻璃	可能过于严格，允许发挥	
-Tipped Arrow	药箭		药箭总称例外，不套用“<效果>之箭”体例（STYLE.md §5）
+Tipped Arrow	药箭		药箭总称例外，不套用“<效果>之箭”体例
 TNT	TNT	不译专名	
 Torch	火把		
 Torchflower	火把花		
@@ -654,7 +654,7 @@ Twinkle	闪烁
 Twisting	缠怨		植物修饰词；现行原版仅见于“Twisting Vines”（缠怨藤）系列
 Twisting Vine	缠怨藤		不在 latest.tsv（游戏内为复数 Twisting Vines）；源自官方 TBX 单数形式
 Twisting Vines	缠怨藤		
-Uncraftable	不可合成的	可能过于严格，允许发挥	未合成药水/药箭例外定名（STYLE.md §5）
+Uncraftable	不可合成的	可能过于严格，允许发挥	未合成药水与药箭的固定前缀，置于“喷溅型/滞留型”之前
 Vault	宝库	可能过于严格，允许发挥	
 Verdant	青翠	可能过于严格，允许发挥	颜色词根；现行仅见于“Verdant Froglight”（青翠蛙明灯）
 Verdant Froglight	青翠蛙明灯		
@@ -670,8 +670,8 @@ Warped Roots	诡异菌索
 Warped Stem	诡异菌柄		
 Warped Wart Block	诡异疣块		
 Water	水	可能过于严格，允许发挥	
-Waxed	涂蜡		涂蜡前缀；外层叠加氧化词时可省“的”（STYLE.md §2）
-Weathered	锈蚀	可能过于严格，允许发挥	铜氧化第二阶段前缀，直接修饰铜制品须带“的”（STYLE.md §2）
+Waxed	涂蜡		涂蜡前缀固定带“的”，外层叠加氧化词时只保留外层“的”
+Weathered	锈蚀	可能过于严格，允许发挥	铜氧化第二阶段前缀，直接修饰铜制品须带“的”
 Weeping	垂泪	可能过于严格，允许发挥	植物修饰词；现行原版仅见于“Weeping Vines”（垂泪藤）系列
 Weeping Vine	垂泪藤		不在 latest.tsv（游戏内为复数 Weeping Vines）；源自官方 TBX 单数形式
 Weeping Vines	垂泪藤		
