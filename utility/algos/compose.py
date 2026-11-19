@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
-# 术语候选生成：把 en→zh 平行名称压成可复用条目（零件/模板/例外），人只审条目。
-# 流水线：key 过滤 → 挖片段 → 统计门控 → 组合证明 → 模板 → 选条目 → 逐行核验。
-# 用法：extract 打 TSV / judge 出审校 JSON / bench 打分；设计见 Docs/TERMGEN.md。
 import argparse
 import csv
-import itertools
 import json
 import math
 import os
@@ -16,203 +12,22 @@ from collections import Counter, defaultdict
 from functools import lru_cache
 from pathlib import Path
 
-try:
-    import inflection
-except Exception:
-    inflection = None
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+import io_utils as io
+from io_utils import (
+    CJK_RE, CONNECTORS, MAX_GRAM, ROOT, STOP,
+    clean_en, clean_zh, compositions, entropy_bits, filter_rows,
+    is_name_like, is_product_key, known_pairs, load_focus_keys,
+    load_input_rows, load_key_filter, norm_lemma, packed, raw_tokens, tokens_lc,
+)
 
-
-CJK_RE = re.compile(r'[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]+')
-FORMAT_RE = re.compile(r'%(\d+\$)?[sdf]|%%|\{[^}]*\}|§.|\\n|\\t|\\r')  # 剥掉 %s、{}、§x 这类格式符
-TOKEN_RE = re.compile(r"[A-Za-z]+(?:['’][A-Za-z]+)*")
-NAME_CHARS_RE = re.compile(r"[A-Za-z0-9'’\-\s]+$")
-NAME_BAD_RE = re.compile(r"[.!?…:;,()\[\]{}\"“”«»/\\|<>+=*#@$^~`]")
-STOP = set("""a an the and or but if then than that this these those of to in on at for with from by as
-is are was were be been being am do does did not no nor you your yours we our ours us it its he she they
-them their his her my me i will would can could should shall may might must have has had here there when
-where which who whom what how why all any some more most other such only own same so too very just also up
-down out off over under again further once during before after above below between into through about
-against while both each few because until unless upon onto within without across around""".split())  # 停用词
-LEAD_OK = {'the'}  # 允许出现在开头的停用词
-MAX_NAME_TOKENS = 7  # 名字最多 7 个词
-
-KEY_FILTER_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
-                               'Vanilla', 'diffs', 'term-key-filters.json')  # key 白/黑名单
-
-
-# 去格式符、规范撇号、压空白
-def clean_en(s):
-    s = FORMAT_RE.sub(' ', s)
-    s = s.replace('’', "'").replace('\u00a0', ' ')
-    return ' '.join(s.split())
-
-
-def clean_zh(s):
-    s = FORMAT_RE.sub(' ', s)
-    return ' '.join(s.split())
-
-
-def tokens_lc(s):
-    return [t.lower() for t in TOKEN_RE.findall(s)]
-
-
-def raw_tokens(s):
-    return TOKEN_RE.findall(s)
-
-
-# 合法词：停用词/数字/单字母/全大写/首字母大写
-def token_ok(w):
-    if w.lower() in STOP:
-        return True
-    if any(c.isdigit() for c in w):
-        return True
-    if len(w) == 1:
-        return True
-    if w.isupper():
-        return True
-    return w[0].isupper()
-
-
-# 名字门槛：≤7 词、无标点、有首字母大写、停用词受限
-def is_name_like(s):
-    if not s or len(s) > 80:
-        return False
-    if NAME_BAD_RE.search(s):
-        return False
-    if not NAME_CHARS_RE.match(s):
-        return False
-    rt = raw_tokens(s)
-    if not rt or len(rt) > MAX_NAME_TOKENS:
-        return False
-    low = [t.lower() for t in rt]
-    if low[0] in STOP and low[0] not in LEAD_OK:
-        return False
-    if not any(w[0].isupper() or w.isupper() for w in rt):
-        return False
-    for w in rt:
-        if not token_ok(w):
-            return False
-    nstop = sum(1 for w in low if w in STOP)
-    if len(rt) >= 5 and nstop >= 2:
-        return False
-    return True
-
-
-# 规范化：小写、去标点、去 's、单数化
-def norm_lemma(s):
-    s = s.lower().replace('’', "'")
-    s = re.sub(r"[^a-z0-9' ]+", ' ', s)
-    s = re.sub(r"'s\b", '', s)
-    out = []
-    for w in s.split():
-        if inflection is not None and len(w) > 3 and w.isalpha():
-            try:
-                w = inflection.singularize(w)
-            except Exception:
-                pass
-        out.append(w)
-    return ' '.join(out)
-
-
-def load_key_filter():
-    with open(KEY_FILTER_PATH, encoding='utf-8') as f:
-        data = json.load(f)
-    wl = [re.compile(p) for p in data.get('whitelist_patterns', [])]
-    bl = [re.compile(p) for p in data.get('blacklist_patterns', [])]
-    return wl, bl
-
-
-# 黑名单命中即否，白名单命中才算
-def is_product_key(key, wl, bl):
-    if not key:
-        return False
-    if any(p.search(key) for p in bl):
-        return False
-    return any(p.search(key) for p in wl)
-
-
-# 输入三种形态：diff JSON / 纯文本 / TSV
-def load_input_rows(path):
-    if path.endswith('.json'):
-        with open(path, encoding='utf-8') as f:
-            data = json.load(f)
-        rows = []
-        for section in ('added', 'changed'):
-            for key, val in data.get(section, {}).items():
-                rows.append((key, val.get('en_us', ''), val.get('zh_cn', '')))
-        return rows
-    if path.endswith('.txt'):
-        with open(path, encoding='utf-8') as f:
-            return [(str(i), line, '') for i, line in enumerate(f, 1)]
-    with open(path, encoding='utf-8', newline='') as f:
-        rd = list(csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE))
-    if not rd:
-        return []
-    head = [c.strip().lower() for c in rd[0]]
-    if 'en_us' in head or 'en' in head or 'key' in head:
-        ie = head.index('en_us') if 'en_us' in head else (head.index('en') if 'en' in head else None)
-        iz = head.index('zh_cn') if 'zh_cn' in head else (head.index('zh') if 'zh' in head else None)
-        ik = head.index('key') if 'key' in head else None
-        data = rd[1:]
-        start = 2
-    else:
-        ie, iz, ik = 0, (1 if len(rd[0]) > 1 else None), None
-        data = rd
-        start = 1
-    rows = []
-    for i, r in enumerate(data, start):
-        if ie is None or ie >= len(r):
-            continue
-        key = r[ik] if (ik is not None and ik < len(r)) else str(i)
-        zh = r[iz] if (iz is not None and iz < len(r)) else ''
-        rows.append((key, r[ie], zh))
-    return rows
-
-
-def load_focus_keys(path):
-    path = str(path)
-    with open(path, encoding='utf-8', newline='') as f:
-        text = f.read()
-    if path.endswith('.json'):
-        data = json.loads(text)
-        keys = set()
-        for section in ('added', 'changed', 'removed'):
-            block = data.get(section)
-            if isinstance(block, dict):
-                keys.update(block)
-            elif isinstance(block, list):
-                keys.update(item if isinstance(item, str) else item.get('key', '')
-                            for item in block)
-        return {key for key in keys if key}
-    return {line.split('\t')[0].strip() for line in text.splitlines() if line.strip()}
-
-
-def load_gold(paths):
-    out = []
-    for path in paths:
-        with open(path, encoding='utf-8', newline='') as f:
-            for r in csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE):
-                if len(r) < 2 or not r[0].strip() or r[0].strip().lower() == 'en':
-                    continue
-                out.append((clean_en(r[0]), [clean_zh(v) for v in r[1].split('|') if clean_zh(v)]))
-    return out
-
-
-ROOT = Path(__file__).resolve().parent.parent.parent
-CONNECTORS = {'of', 'the'}  # 拼接时可跳过的连接词
-MAX_GRAM = 5  # 英文片段最长 5 词
-MIN_STRONG_FREQ = 3  # 至少出现在 3 个不同名字里
-ENTROPY_GATE = 2.0  # 邻居熵门槛（bit）：邻居够杂才算独立单位
-JOIN_GATE = 3.0  # 搭配强度门槛：共现远超偶然才算固定搭配
-MIN_ROWS = 2  # 模板/原子至少覆盖 2 行
-MIN_PAIRS = 2  # 且至少 2 对不同对照
+MIN_STRONG_FREQ = 3
+ENTROPY_GATE = 2.0
+JOIN_GATE = 3.0
+MIN_ROWS = 2
+MIN_PAIRS = 2
 MAX_INDUCTION_ROUNDS = 2
 MAX_PRUNE_ROUNDS = 4
-
-
-def packed(value):
-    return json.dumps(value, ensure_ascii=False, separators=(',', ':'))
-
 
 # 中文候选：CJK 段里 1~8 字的全部子串
 def zh_fragments(text):
@@ -226,32 +41,190 @@ def name_tokens(en):
     return tuple(tokens_lc(en)) if is_name_like(en) and not re.search(r'[0-9]', en) else ()
 
 
-# 给英文片段找中文候选：整名精确对照 + Dice 贪心覆盖
-def translations(gram, support, pairs, fragments, subdf, whole):
+# 判断某多字候选的首/尾字是否偷自紧邻词元
+def neighbor_stole_edge(gram, sub, side, cur_aligned, supports, pairs, names):
+    if not cur_aligned or not supports or len(sub) < 2:
+        return False
+
+    char = sub[0] if side == 'left' else sub[-1]
+    total = 0
+    matched = 0
+
+    for pid in supports.get(gram, ()):
+        en, zh = pairs[pid]
+        zh_clean = re.sub(r'\s+', '', zh)
+
+        if sub not in zh_clean:
+            continue
+
+        toks = names.get(en)
+
+        if not toks:
+            continue
+
+        positions = [i for i in range(len(toks) - len(gram) + 1)
+                     if toks[i:i + len(gram)] == gram]
+
+        if len(positions) != 1:
+            continue
+
+        pos = positions[0]
+        total += 1
+
+        if side == 'left':
+            if pos == 0:
+                continue
+
+            nbr_cands = []
+            for span in range(1, min(MAX_GRAM, pos) + 1):
+                info = cur_aligned.get(toks[pos - span:pos])
+                if info and info[0]:
+                    nbr_cands.extend(info[0])
+                    break
+
+            if any(z.endswith(char) and (z + sub) not in zh_clean for z in nbr_cands):
+                matched += 1
+        else:
+            end = pos + len(gram)
+
+            if end >= len(toks):
+                continue
+
+            nbr_cands = []
+            for span in range(1, min(MAX_GRAM, len(toks) - end) + 1):
+                info = cur_aligned.get(toks[end:end + span])
+                if info and info[0]:
+                    nbr_cands.extend(info[0])
+                    break
+
+            if any(z.startswith(char) and (sub + z) not in zh_clean for z in nbr_cands):
+                matched += 1
+
+    return total >= 2 and matched * 2 >= total
+
+
+# 给英文片段找中文候选：整名精确对照 + 两遍边界净化 Dice 贪心覆盖
+def translations(gram, support, pairs, fragments, subdf, whole,
+                 cur_aligned=None, supports=None, names=None):
     exact = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
     hits = Counter(sub for pid in support for sub in fragments[pid])
     eligible = {sub for sub, count in hits.items()
                 if count >= 2 and count / subdf[sub] >= 0.5}
+
+    def trim_edges(sub):
+        while len(sub) >= 2:
+            if sub[0] in '的之':
+                sub = sub[1:]
+                continue
+
+            if sub[-1] in '的之':
+                sub = sub[:-1]
+                continue
+
+            if cur_aligned and supports and names:
+                if neighbor_stole_edge(gram, sub, 'left', cur_aligned, supports, pairs, names):
+                    trimmed = sub[1:]
+                    if trimmed in eligible and hits[trimmed] >= hits[sub]:
+                        sub = trimmed
+                        continue
+
+                if neighbor_stole_edge(gram, sub, 'right', cur_aligned, supports, pairs, names):
+                    trimmed = sub[:-1]
+                    if trimmed in eligible and hits[trimmed] >= hits[sub]:
+                        sub = trimmed
+                        continue
+
+            break
+
+        return sub
+
+    edge_vars = set()
+    if len(gram) >= 2 and exact and cur_aligned:
+        for edge in ((gram[0],), (gram[-1],)):
+            if edge in cur_aligned:
+                edge_vars.update(cur_aligned[edge][0])
+
     variants = list(exact)
     covered = {pid for pid in support if any(z in pairs[pid][1] for z in variants)}
     confidence = 1.0 if exact else 0.0
+
     while len(variants) < max(4, len(exact)):
         uncovered = support - covered
         choices = []
+
         for sub in eligible:
-            extra = {pid for pid in uncovered if sub in fragments[pid]}
+            clean_sub = trim_edges(sub)
+
+            if not clean_sub or clean_sub in '的之':
+                continue
+
+            if any(clean_sub != e and clean_sub in e for e in exact):
+                continue
+
+            if exact and len(clean_sub) == 1 and any(len(v) >= 2 for v in variants):
+                continue
+
+            if edge_vars and clean_sub in edge_vars:
+                continue
+
+            extra = {pid for pid in uncovered if clean_sub in fragments[pid]}
+
             if len(extra) < 2:
                 continue
-            outside = subdf[sub] - hits[sub]
-            dice = 2 * len(extra) / (len(uncovered) + len(extra) + outside)  # 扎堆在未覆盖行、外面少见
+
+            ref_sub = clean_sub if clean_sub in eligible else sub
+            ref_hits = hits[ref_sub]
+            outside = subdf[ref_sub] - ref_hits
+            dice = 2 * len(extra) / (len(uncovered) + len(extra) + outside)
+
             if dice >= 0.5:
-                choices.append((dice, len(extra), len(sub), sub, extra))
+                choices.append((dice, len(extra), len(clean_sub), clean_sub, extra))
+
         if not choices:
             break
-        dice, count, length, sub, extra = max(choices)
-        variants.append(sub)
+
+        best = max(choices)
+        thresh = (0.75 if len(best[3]) == 1 else 0.78) * best[0]
+        promoted = [
+            c for c in choices
+            if len(c[3]) == len(best[3]) + 1
+            and best[3] in c[3]
+            and c[0] >= thresh
+            and not (cur_aligned and supports and names and (
+                neighbor_stole_edge(gram, c[3], 'left', cur_aligned, supports, pairs, names)
+                or neighbor_stole_edge(gram, c[3], 'right', cur_aligned, supports, pairs, names)
+            ))
+        ]
+        if promoted:
+            best = max(promoted)
+
+        dice, count, length, sub, extra = best
+
+        if sub not in variants:
+            variants.append(sub)
+
         confidence = max(confidence, dice)
         covered.update(extra)
+
+    if not exact and len(variants) > 1 and cur_aligned and supports and names:
+        var_set = set(variants)
+        deduped = []
+        for v in variants:
+            if len(v) >= 2:
+                drop_left = (
+                    v[1:] in var_set and hits[v[1:]] >= hits[v]
+                    and (v[0] in '的之' or neighbor_stole_edge(gram, v, 'left', cur_aligned, supports, pairs, names))
+                )
+                drop_right = (
+                    v[:-1] in var_set and hits[v[:-1]] >= hits[v]
+                    and (v[-1] in '的之' or neighbor_stole_edge(gram, v, 'right', cur_aligned, supports, pairs, names))
+                )
+                if drop_left or drop_right:
+                    continue
+            deduped.append(v)
+        if deduped:
+            variants = deduped
+
     return variants, confidence, len(covered) / len(support)
 
 
@@ -307,45 +280,132 @@ def compose(toks, zh, lexicon, forbid=None):
     return paths(0, [])
 
 
-# 反推单词译文：其余词已知时从整名切出，需 ≥2 个名字佐证
-def refine_atoms(aligned, supports, pairs, fragments, whole):
-    atoms = {gram[0]: {'zh_candidates': info[0]}
+# 反推单词译文：保留高置信对齐，防倒灌与防扩展偷字
+def refine_atoms(aligned, supports, pairs, fragments, whole, names=None):
+    if names is None:
+        names = {en: name_tokens(en) for en, _ in pairs if name_tokens(en)}
+
+    atoms = {gram[0]: {'zh_candidates': list(info[0])}
              for gram, info in aligned.items() if len(gram) == 1 and info[0]}
     refined = {}
-    for word, entry in atoms.items():
-        gram = (word,)
+
+    for gram, info in aligned.items():
+        if len(gram) != 1:
+            continue
+
+        word = gram[0]
+        cur_vars = list(info[0])
+        exact = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
+        cur_cover = (sum(1 for pid in supports[gram] if any(z in pairs[pid][1] for z in cur_vars))
+                     / len(supports[gram])) if cur_vars else 0.0
         found = defaultdict(set)
+
         for pid in supports[gram]:
             en, zh = pairs[pid]
-            toks = name_tokens(en)
+            toks = names.get(en) or name_tokens(en)
+
             if toks.count(word) != 1 or len(toks) == 1:
                 continue
+
             other = [t for t in toks if t != word and t not in CONNECTORS]
-            if any(t not in atoms for t in other):
+
+            if not other or any(t not in atoms for t in other):
                 continue
+
             parts = [atoms[t] for t in other]
+
+            if cur_vars and chinese_match(zh, parts + [{'zh_candidates': cur_vars}]):
+                continue
+
+            if exact and any(e in zh for e in exact):
+                continue
+
             for sub in fragments[pid]:
                 if chinese_match(zh, parts + [{'zh_candidates': [sub]}]):
                     found[sub].add(pid)
+
         choices = sorted(((len(pids), len(sub), sub, pids) for sub, pids in found.items()
                           if len({pairs[pid][0] for pid in pids}) >= 2), reverse=True)
-        variants = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
+        variants = list(cur_vars)
         explained = set()
+
         for count, length, sub, pids in choices:
             if not (pids - explained):
                 continue
+
+            if sub[0] in '的之型上' or sub[-1] in '的之':
+                continue
+
+            retracting = any(
+                len(v) >= 2 and (
+                    (sub == v[1:] and (v[0] in '的之' or neighbor_stole_edge(gram, v, 'left', aligned, supports, pairs, names)))
+                    or (sub == v[:-1] and (v[-1] in '的之' or neighbor_stole_edge(gram, v, 'right', aligned, supports, pairs, names)))
+                )
+                for v in cur_vars
+            )
+
+            if not retracting and (
+                neighbor_stole_edge(gram, sub, 'left', aligned, supports, pairs, names)
+                or neighbor_stole_edge(gram, sub, 'right', aligned, supports, pairs, names)
+            ):
+                continue
+
+            if not retracting and any(sub != v and sub in v for v in exact + cur_vars):
+                continue
+
+            if len(sub) == 1 and not retracting:
+                if any(len(v) >= 2 for v in cur_vars) or len(pids) < 3:
+                    continue
+
+            if cur_cover >= 0.85 and any(
+                len(sub) == len(v) + 1 and (sub[1:] == v or sub[:-1] == v)
+                for v in cur_vars
+            ):
+                continue
+
             if sub not in variants:
                 variants.append(sub)
+
             explained.update(pids)
-            if len(variants) >= 4:
+
+            if not retracting and len(variants) >= max(4, len(exact)):
                 break
-        if len(explained) >= max(2, len(supports[gram]) / 2):
-            refined[gram] = (variants, aligned[gram][1], len(explained) / len(supports[gram]))
-        elif variants:
-            merged = list(entry['zh_candidates'])
-            merged.extend(z for z in variants if z not in merged)
-            refined[gram] = (merged, aligned[gram][1], aligned[gram][2])
+
+        if variants != cur_vars:
+            cover = sum(1 for pid in supports[gram] if any(z in pairs[pid][1] for z in variants)) / len(supports[gram])
+            refined[gram] = (variants, info[1] or cover, max(info[2], cover))
+
     aligned.update(refined)
+
+    for gram, info in list(aligned.items()):
+        if len(gram) != 1 or len(info[0]) <= 1:
+            continue
+
+        exact = {pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]}
+        vars_list = list(info[0])
+        var_set = set(vars_list)
+        cleaned = []
+
+        for v in vars_list:
+            if v in exact or len(v) < 2:
+                cleaned.append(v)
+                continue
+
+            left_stolen = v[1:] in var_set and (
+                v[0] in '的之' or neighbor_stole_edge(gram, v, 'left', aligned, supports, pairs, names)
+            )
+            right_stolen = v[:-1] in var_set and (
+                v[-1] in '的之' or neighbor_stole_edge(gram, v, 'right', aligned, supports, pairs, names)
+            )
+
+            if left_stolen or right_stolen:
+                continue
+
+            cleaned.append(v)
+
+        if cleaned and cleaned != vars_list:
+            cover = sum(1 for pid in supports[gram] if any(z in pairs[pid][1] for z in cleaned)) / len(supports[gram])
+            aligned[gram] = (cleaned, info[1], cover)
 
 
 # 分布熵（bit）：邻居花样多少
@@ -371,49 +431,87 @@ def outside_units(toks, bank):
     return None
 
 
-# 交叉核对：片段唯一出现、前后可解释、中文可拼、≥2 个不同邻居做证
+# 交叉核对：仅在非偷字前提下补强未完全解释的片段
 def verify_nested(grams, aligned, bank, supports, pairs, fragments, whole, names):
     for gram in grams:
         info = aligned.get(gram)
+
         if not info:
             continue
+
+        cur_vars = list(info[0])
+
+        if cur_vars and all(compose(gram, z, bank) is not None for z in cur_vars):
+            continue
+
+        exact = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
         found = defaultdict(set)
         head_of = {}
+        already_explained = 0
+
         for pid in supports[gram]:
             en, zh = pairs[pid]
             toks = names[en]
             positions = [i for i in range(len(toks) - len(gram) + 1)
                          if toks[i:i + len(gram)] == gram]
+
             if len(positions) != 1:
                 continue
+
             start = positions[0]
             before = outside_units(toks[:start], bank)
             after = outside_units(toks[start + len(gram):], bank)
+
             if before is None or after is None or not before and not after:
                 continue
+
+            if cur_vars and chinese_match(zh, before + after + [{'zh_candidates': cur_vars}]):
+                already_explained += 1
+                continue
+
             outside = toks[start + len(gram):] or toks[:start]
             head_of[pid] = outside[-1]
+
             for sub in fragments[pid]:
                 if chinese_match(zh, before + after + [{'zh_candidates': [sub]}]):
                     found[sub].add(pid)
+
         eligible = sorted(((len(pids), len(sub), sub, pids)
                            for sub, pids in found.items()
                            if len({head_of[pid] for pid in pids}) >= 2), reverse=True)
-        exact = sorted({pairs[pid][1] for pid in whole.get(gram, ()) if pairs[pid][1]})
-        variants = list(exact)
+        variants = list(cur_vars)
         covered = set()
+
         for count, length, sub, pids in eligible:
             extra = pids - covered
+
             if len({head_of[pid] for pid in extra}) < 2:
                 continue
+
+            if sub[0] in '的之型上' or sub[-1] in '的之':
+                continue
+
+            if (neighbor_stole_edge(gram, sub, 'left', aligned, supports, pairs, names)
+                    or neighbor_stole_edge(gram, sub, 'right', aligned, supports, pairs, names)):
+                continue
+
+            if any(sub != v and sub in v for v in exact + cur_vars):
+                continue
+
+            if len(sub) == 1 and any(len(v) >= 2 for v in cur_vars):
+                continue
+
             if sub not in variants:
                 variants.append(sub)
+
             covered.update(pids)
+
             if len(variants) >= max(4, len(exact)):
                 break
-        if len(covered) >= max(2, len(supports[gram]) / 2):
-            aligned[gram] = (variants, info[1], len(covered) / len(supports[gram]))
 
+        if variants != cur_vars and already_explained + len(covered) >= max(2, len(supports[gram]) / 2):
+            cover = sum(1 for pid in supports[gram] if any(z in pairs[pid][1] for z in variants)) / len(supports[gram])
+            aligned[gram] = (variants, info[1] or cover, max(info[2], cover))
 
 # 只保留核验真正用到的中文变体
 def trim_variants(entries, audit, by_id):
@@ -856,17 +954,13 @@ def sort_key(entry):
 
 
 # 主流水线：对齐 → 出条目 → 模板 → 选条目 → 核验
-def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
-    # 1. 过滤 key，按 focus 定输出范围
-    raw_rows = load_input_rows(str(input_path))
-    whitelist, blacklist = load_key_filter()
-    excluded = re.compile(exclude_keys) if exclude_keys else None
-    rows = [(key, en, zh) for key, en, zh in raw_rows
-            if is_product_key(key, whitelist, blacklist)
-            and not (excluded and excluded.search(key))]
+def build(input_path, budget=0, exclude_keys=None, focus_keys=None,
+          key_filter='on', keys=None, filter_file=None, en_col=None, zh_col=None):
+    raw_rows = load_input_rows(str(input_path), en_col=en_col, zh_col=zh_col)
+    rows = filter_rows(raw_rows, key_filter=key_filter, keys=keys,
+                       exclude_keys=exclude_keys, filter_file=filter_file)
     scope = set(focus_keys) if focus_keys is not None else None
     scope_rows = [row for row in rows if row[0] in scope] if scope is not None else rows
-    # 2. 唯一对照表：英文片段支撑 + 中文候选片段
     pairs = sorted({(en, zh) for _, en, zh in rows})
     pair_id = {pair: pid for pid, pair in enumerate(pairs)}
     pair_keys = defaultdict(list)
@@ -891,13 +985,6 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
                 surfaces.setdefault(gram, ' '.join(raw_tokens(en)[start:end]))
     fragments = [zh_fragments(zh) for en, zh in pairs]
     subdf = Counter(sub for subs in fragments for sub in subs)
-    aligned = {gram: translations(gram, support, pairs, fragments, subdf, whole)
-               for gram, support in supports.items()
-               if len({pairs[pid][0] for pid in support}) >= 2
-               or (len(gram) == 1 and gram in whole)}
-    # 3. 单词对齐：用已知邻居从整名反推
-    refine_atoms(aligned, supports, pairs, fragments, whole)
-    # 4. 邻居熵 + 搭配强度门控，锚点递归发现残余片段
     total_tokens = sum(len(toks) for toks in names.values())
     left_neighbors = defaultdict(Counter)
     right_neighbors = defaultdict(Counter)
@@ -911,6 +998,28 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
                 right_neighbors[gram][toks[end] if end < len(toks) else '<EOS>'] += 1
     frequency = {gram: len({pairs[pid][0] for pid in support})
                  for gram, support in supports.items()}
+    inseparable_atoms = set()
+    for gram, count in frequency.items():
+        if len(gram) != 2 or count < 2:
+            continue
+        w1, w2 = (gram[0],), (gram[1],)
+        if w1 in whole or w2 in whole:
+            continue
+        if set(right_neighbors[w1]) == {gram[1]} and set(left_neighbors[w2]) == {gram[0]}:
+            inseparable_atoms.add(w1)
+            inseparable_atoms.add(w2)
+    aligned = {gram: translations(gram, support, pairs, fragments, subdf, whole,
+                                  supports=supports, names=names)
+               for gram, support in supports.items()
+               if gram not in inseparable_atoms
+               and (frequency[gram] >= 2 or (len(gram) == 1 and gram in whole))}
+    aligned = {gram: translations(gram, supports[gram], pairs, fragments, subdf, whole,
+                                  cur_aligned=aligned, supports=supports, names=names)
+               for gram in aligned}
+    # 3. 单词对齐：两轮从整名反推并收敛边界
+    for _ in range(2):
+        refine_atoms(aligned, supports, pairs, fragments, whole, names)
+    # 4. 邻居熵 + 搭配强度门控，锚点递归发现残余片段
     strong_atoms = {gram for gram, count in frequency.items()
                     if len(gram) == 1 and count >= MIN_STRONG_FREQ
                     and max(entropy_bits(left_neighbors[gram]),
@@ -944,35 +1053,33 @@ def build(input_path, budget=0, exclude_keys=None, focus_keys=None):
         discovered |= proposed
     # 5. 临时词库：给嵌套核对当上下文
     bank = {}
-    for gram in sorted(aligned, key=lambda g: (len(g), g)):
+    for gram in sorted(aligned, key=lambda g: (len(g), -frequency[g], g)):
         variants = aligned[gram][0]
         if not variants:
             continue
-        if len({pairs[pid][0] for pid in supports[gram]}) < 2 and not (
-                len(gram) == 1 and gram in whole):
+        if frequency[gram] < 2 and not (len(gram) == 1 and gram in whole):
             continue
         if all(compose(gram, zh, bank) is not None for zh in variants):
             continue
         bank[gram] = {'id': gram, 'en': surfaces[gram], 'zh_candidates': variants}
     for gram in discovered:
-        if gram in aligned:
+        if gram in aligned and aligned[gram][0]:
             bank.setdefault(gram, {'id': gram, 'en': surfaces[gram],
                                    'zh_candidates': aligned[gram][0]})
     # 6. 交叉核对发现的片段
     verify_nested(discovered, aligned, bank, supports, pairs, fragments, whole, names)
-    # 7. 出零件条目：长度升序，已能拼出的不收
+    # 7. 出零件条目：长度升序、频次降序，已能拼出的不收
     lexicon = {}
     unit_entries = []
-    for gram in sorted(supports, key=lambda g: (len(g), g)):
+    for gram in sorted(supports, key=lambda g: (len(g), -frequency[g], g)):
+        if gram not in aligned:
+            continue
         support = supports[gram]
         distinct = {pairs[pid][0] for pid in support}
-        if len(distinct) < 2 and not (len(gram) == 1 and gram in whole):
-            continue
         variants, confidence, cover = aligned[gram]
         if not variants:
             continue
-        if gram not in discovered and all(compose(gram, zh, lexicon) is not None
-                                          for zh in variants):
+        if all(compose(gram, zh, lexicon) is not None for zh in variants):
             continue
         entry = {'id': 'u%d' % (len(unit_entries) + 1), 'en': surfaces[gram],
                 'zh_candidates': variants, 'kind': 'unit',
@@ -1168,62 +1275,6 @@ JUDGE_SYSTEM = ('You curate a Minecraft glossary of reusable translation units. 
                 '{"<id>": {"zh": ["..."], "reason": "one line"}}.')
 
 
-def known_pairs(paths):
-    pairs = {}
-    missing = 0
-    for path in paths or []:
-        if not os.path.exists(path):
-            sys.stderr.write('known file not found: %s\n' % path)
-            missing += 1
-            continue
-        with open(path, encoding='utf-8', newline='') as stream:
-            for row in csv.reader(stream, delimiter='\t', quoting=csv.QUOTE_NONE):
-                if len(row) < 2:
-                    continue
-                en = clean_en(row[0])
-                if not en or en.lower() == 'en':
-                    continue
-                lemma = norm_lemma(en)
-                if not lemma:
-                    continue
-                bucket = pairs.setdefault(lemma, [])
-                for value in (clean_zh(v) for v in row[1].split('|')):
-                    if value and value not in bucket:
-                        bucket.append(value)
-    return pairs, missing
-
-
-def compositions(en, pairs, cap=256, limit=400):
-    tokens = norm_lemma(clean_en(en)).split()
-    made = set()
-    if not tokens:
-        return made
-    segments = []
-
-    def walk(index, parts):
-        if len(segments) >= limit:
-            return
-        if index == len(tokens):
-            segments.append(tuple(parts))
-            return
-        for end in range(len(tokens), index, -1):
-            key = ' '.join(tokens[index:end])
-            if key in pairs:
-                parts.append(key)
-                walk(end, parts)
-                parts.pop()
-
-    walk(0, [])
-    for parts in segments:
-        total = 1
-        for key in parts:
-            total *= len(pairs[key])
-        if total > cap:
-            continue
-        for combo in itertools.product(*(pairs[key] for key in parts)):
-            made.add(stripped(''.join(combo)))
-    return made
-
 
 def strip_fences(text):
     text = (text or '').strip()
@@ -1302,13 +1353,16 @@ def label_domains(row):
     return extra if domains and not (domains & {'block', 'item', 'entity'}) else []
 
 
-def diff_context(path):
+def diff_context(path, key_filter='on', keys=None, filter_file=None):
     if not path or not str(path).endswith('.json'):
         return {}, {}, [], {}
-    with open(str(path), encoding='utf-8') as stream:
+
+    with open(str(path), encoding='utf-8-sig') as stream:
         data = json.load(stream)
+
     if not isinstance(data, dict):
         return {}, {}, [], {}
+
     meta = {'from': data.get('from') or '', 'to': data.get('to') or '',
             'source_diff': Path(path).as_posix()}
     origins = {}
@@ -1320,16 +1374,21 @@ def diff_context(path):
                 order.setdefault(key, len(order))
                 if section == 'changed' and isinstance(value, dict) and value.get('origin_zh'):
                     origins[key] = [v for v in str(value['origin_zh']).split('|') if v]
+
     removed = []
     block = data.get('removed')
     if isinstance(block, dict):
+        raw_removed = []
         for key, value in block.items():
             if not isinstance(value, dict):
                 continue
             en = value.get('en_us') or ''
-            zh = [v for v in str(value.get('zh_cn') or '').split('|') if v]
-            if en and is_product_key(key, *load_key_filter()):
-                removed.append({'en': [en], 'zh': zh})
+            zh = value.get('zh_cn') or ''
+            if en:
+                raw_removed.append((key, en, zh))
+        for key, en, zh in filter_rows(raw_removed, key_filter=key_filter, keys=keys, filter_file=filter_file):
+            removed.append({'en': [en], 'zh': [v for v in str(zh).split('|') if v]})
+
     return meta, origins, removed, order
 
 
@@ -1411,9 +1470,22 @@ def llm_verdicts(chunk, base, model, api_key):
 # 生成审校 JSON：跳过模板/已收/可推导；LLM 复核暂停时原样通过
 def judge_cmd(args):
     focus = load_focus_keys(args.focus) if args.focus else None
-    result = build(args.input, args.budget, args.exclude_keys, focus)
+    key_filter = getattr(args, 'key_filter', 'on')
+    keys = getattr(args, 'keys', None)
+    filter_file = getattr(args, 'filter_file', None)
+    result = build(
+        args.input,
+        args.budget,
+        args.exclude_keys,
+        focus,
+        key_filter=key_filter,
+        keys=keys,
+        filter_file=filter_file,
+        en_col=getattr(args, 'en_col', None),
+        zh_col=getattr(args, 'zh_col', None),
+    )
     rows = [entry_row(entry) for entry in result['review']]
-    meta, origins, removed, order = diff_context(args.focus or args.input)
+    meta, origins, removed, order = diff_context(args.focus or args.input, key_filter=key_filter, keys=keys, filter_file=filter_file)
     known, missing = known_pairs(args.known)
     queue = []
     skipped_template = skipped_known = skipped_derived = 0
@@ -1493,263 +1565,6 @@ def judge_cmd(args):
                   'batches_failed': failed, 'known_files_missing': missing, **result['stats']}))
     return 0
 
-
-CASES_PATH = Path(__file__).resolve().parent.parent / 'termgen_cases.json'
-
-
-CASE_FIELDS = ('key', 'en', 'zh', 'expect', 'required_terms', 'reason')
-EXPECT = ('unit', 'compositional', 'exception')
-
-
-def _en_of(item):
-    return item.get('en', '') if isinstance(item, dict) else item
-
-
-def _zh_of(item):
-    if not isinstance(item, dict):
-        return []
-    val = item.get('zh_candidates')
-    if val is None:
-        val = item.get('zh')
-    if val is None:
-        return []
-    if isinstance(val, str):
-        val = val.split('|')
-    out = []
-    for v in val:
-        v = clean_zh(str(v)).strip()
-        if v:
-            out.append(v)
-    return out
-
-
-def _variants(s):
-    out = []
-    for v in str(s or '').split('|'):
-        v = clean_zh(v).strip()
-        if v:
-            out.append(v)
-    return out
-
-
-def _norm_set(terms):
-    out = set()
-    for t in terms or ():
-        n = norm_lemma(_en_of(t) or '')
-        if n:
-            out.add(n)
-    return out
-
-
-def _ratio(num, den):
-    return (num / den) if den else None
-
-
-def _zh_ok(want, got_lists):
-    if not want:
-        return None
-    saw_empty = False
-    for got in got_lists:
-        if not got:
-            saw_empty = True
-            continue
-        for w in want:
-            if w in got:
-                return True
-    return None if saw_empty else False
-
-
-def load_cases(path=None):
-    with open(path or CASES_PATH, encoding='utf-8') as f:
-        data = json.load(f)
-    cases = data.get('cases') if isinstance(data, dict) else data
-    out = []
-    for c in cases or ():
-        missing = [k for k in CASE_FIELDS if k not in c]
-        if missing:
-            raise ValueError('case %r missing %s' % (c.get('key'), ','.join(missing)))
-        if c['expect'] not in EXPECT:
-            raise ValueError('case %r has bad expect %r' % (c['key'], c['expect']))
-        out.append(c)
-    return out
-
-
-# 对 gold 算召回、命中率、字符减少
-def measure(gold_terms, candidate_terms, review_terms, reachable_terms, input_chars, review_chars,
-            baseline_terms=None, baseline_chars=None):
-    gold_terms = list(gold_terms)
-    candidate_terms = list(candidate_terms)
-    review_terms = list(review_terms)
-    reachable_terms = list(reachable_terms)
-    gold = _norm_set(gold_terms)
-    cand = _norm_set(candidate_terms)
-    rev = _norm_set(review_terms)
-    reach = _norm_set(reachable_terms)
-    cand_entries = [t for t in (candidate_terms or ()) if _en_of(t)]
-    rev_entries = [t for t in (review_terms or ()) if _en_of(t)]
-    out = {
-        'gold': len(gold),
-        'reachable_gold': len(reach),
-        'candidate_gold': len(cand & gold),
-        'review_gold': len(rev & gold),
-        'candidate_count': len(cand),
-        'review_count': len(rev),
-        'candidate_entries': len(cand_entries),
-        'review_entries': len(rev_entries),
-        'candidate_reachable_hits': len(cand & reach),
-        'review_reachable_hits': len(rev & reach),
-        'candidate_recall': _ratio(len(cand & reach), len(reach)),
-        'review_recall': _ratio(len(rev & reach), len(reach)),
-        'positive_match_rate': _ratio(len(rev & gold), len(rev)),
-        'input_chars': input_chars,
-        'review_chars': review_chars,
-        'char_reduction': (1.0 - review_chars / input_chars) if (input_chars and review_chars is not None) else None,
-        'baseline': None,
-    }
-    if baseline_terms is not None or baseline_chars is not None:
-        base = _norm_set(baseline_terms or ())
-        base_gold = len(base & gold)
-        base_hits = len(base & reach)
-        b = {
-            'count': len(base),
-            'gold': base_gold,
-            'reachable_hits': base_hits,
-            'recall': _ratio(base_hits, len(reach)),
-            'positive_match_rate': _ratio(base_gold, len(base)),
-            'chars': baseline_chars,
-            'char_reduction': (1.0 - baseline_chars / input_chars) if (input_chars and baseline_chars is not None) else None,
-        }
-        if baseline_chars:
-            b['char_saving'] = baseline_chars - (review_chars or 0)
-            b['char_ratio'] = _ratio(review_chars, baseline_chars)
-        if b['recall'] is not None and out['review_recall'] is not None:
-            b['recall_delta'] = out['review_recall'] - b['recall']
-        out['baseline'] = b
-    return out
-
-
-def _iter_comps(compositions):
-    if compositions is None:
-        return []
-    if isinstance(compositions, dict):
-        seq = []
-        for en, val in compositions.items():
-            if isinstance(val, dict):
-                seq.append({'en': en, 'parts': val.get('parts') or val.get('refs') or (),
-                            'zh': val.get('zh_candidates', val.get('zh'))})
-            else:
-                seq.append({'en': en, 'parts': val})
-        return seq
-    return list(compositions)
-
-
-# 评估用例打分：unit / compositional / exception
-def score_cases(cases, entries, compositions=None, strict_kind=False):
-    entry_rows = []
-    for c in entries or ():
-        entry_rows.append((norm_lemma(_en_of(c) or ''), _zh_of(c),
-                          c.get('kind') if isinstance(c, dict) else None))
-    comp_rows = []
-    for c in _iter_comps(compositions):
-        comp_rows.append((norm_lemma(c.get('en') or ''), _norm_set(c.get('parts') or ()), _zh_of(c)))
-    available = {n for n, _, _ in entry_rows}
-
-    out = {'total': len(cases), 'covered': 0, 'coverage': None, 'zh_unchecked': 0,
-           'kind_mismatch': 0, 'parts_ready': 0, 'delivered_kinds': {}, 'by_expect': {},
-           'missed': []}
-    for expect in EXPECT:
-        out['by_expect'][expect] = {'total': 0, 'covered': 0}
-    for _, _, kind in entry_rows:
-        if kind:
-            out['delivered_kinds'][kind] = out['delivered_kinds'].get(kind, 0) + 1
-
-    for case in cases:
-        en = norm_lemma(case.get('en') or '')
-        expect = case.get('expect')
-        want = _variants(case.get('zh'))
-        rec = {'key': case.get('key'), 'en': case.get('en'), 'expect': expect}
-        why = []
-        if expect == 'compositional':
-            req = _norm_set(case.get('required_terms') or ())
-            comps = [r for r in comp_rows if r[0] == en]
-            missing = sorted(t for t in req if t not in available)
-            refs_ok = any(req <= parts for _, parts, _ in comps) if comps else False
-            zh_ok = _zh_ok(want, [zh for _, _, zh in comps]) if comps else None
-            if not comps:
-                why.append('no_composition')
-            elif not refs_ok:
-                why.append('composition_does_not_reference_required')
-            if missing:
-                why.append('missing_parts')
-            if zh_ok is False:
-                why.append('zh_mismatch')
-            covered = bool(comps) and refs_ok and not missing and zh_ok is not False
-            if not missing:
-                out['parts_ready'] += 1
-            rec['composition_found'] = bool(comps)
-            rec['missing_parts'] = missing
-        else:
-            matches = [r for r in entry_rows if r[0] == en]
-            if strict_kind:
-                matches = [r for r in matches if r[2] == expect]
-            zh_ok = _zh_ok(want, [zh for _, zh, _ in matches]) if matches else None
-            if not matches:
-                why.append('no_entry')
-            elif zh_ok is False:
-                why.append('zh_mismatch')
-            covered = bool(matches) and zh_ok is not False
-            kinds = sorted({k for _, _, k in matches if k})
-            if kinds:
-                rec['entry_kind'] = kinds
-                if expect not in kinds and not strict_kind:
-                    out['kind_mismatch'] += 1
-        if covered and zh_ok is None:
-            out['zh_unchecked'] += 1
-        bucket = out['by_expect'].setdefault(expect, {'total': 0, 'covered': 0})
-        bucket['total'] += 1
-        if covered:
-            out['covered'] += 1
-            bucket['covered'] += 1
-        else:
-            rec['why'] = why or ['uncovered']
-            out['missed'].append(rec)
-    out['coverage'] = _ratio(out['covered'], out['total'])
-    return out
-
-
-def run_cases(result, path):
-    selected = {entry['id']: entry for entry in result['review']}
-    compositions = [{'en': row['en'], 'zh': row['zh'],
-                     'parts': [selected[cid]['en'] for cid in row['terms']]}
-                    for row in result['audit']
-                    if row['status'] == 'compositional' and not row['pending']]
-    cases = load_cases(path)
-    report = score_cases(cases, result['review'], compositions)
-    by_key = {row['key']: row for row in result['audit']}
-    sample = [{**by_key[case['key']], 'en': case['en'], 'zh': case['zh']}
-              for case in cases if case['key'] in by_key]
-    report['reconstruction'] = verify_rows(sample, result['review'])
-    report['absent_keys'] = [case['key'] for case in cases if case['key'] not in by_key]
-    return report
-
-
-def benchmark(args, result):
-    gold = [en for en, zh in load_gold(args.gold)]
-    reachable = set()
-    names = [tuple(norm_lemma(row['en']).split()) for row in result['audit']]
-    for en in gold:
-        gram = tuple(norm_lemma(en).split())
-        if any(any(toks[i:i + len(gram)] == gram for i in range(len(toks) - len(gram) + 1))
-               for toks in names):
-            reachable.add(en)
-    metrics = measure(gold, [entry['en'] for entry in result['candidates']],
-                      [entry['en'] for entry in result['review']], reachable,
-                      result['stats']['input_chars'], result['stats']['review_chars'])
-    print(json.dumps({'stats': result['stats'], 'metrics': metrics,
-                      'reconstruction': verify_rows(result['audit'], result['review']),
-                      'cases': run_cases(result, args.cases)}, ensure_ascii=False, indent=2))
-
-
 def nonnegative(value):
     number = int(value)
     if number < 0:
@@ -1757,42 +1572,79 @@ def nonnegative(value):
     return number
 
 
+def add_compose_args(p, command):
+    p.add_argument('--input', type=Path, default=ROOT / 'Vanilla/latest.tsv')
+    p.add_argument('--budget', type=nonnegative, default=0)
+    p.add_argument('--exclude-keys')
+    p.add_argument('--key-filter', choices=('on', 'off', 'auto'), default='on')
+    p.add_argument('--keys')
+    p.add_argument('--filter-file', type=Path)
+    p.add_argument('--en-col')
+    p.add_argument('--zh-col')
+    p.add_argument('--focus', type=Path)
+    if command == 'extract':
+        p.add_argument('--known', nargs='*', default=[])
+        p.add_argument('--out', type=Path)
+        p.add_argument('--json', action='store_true')
+    elif command == 'judge':
+        p.add_argument('--known', nargs='*', default=[])
+        p.add_argument('--out', type=Path)
+        p.add_argument('--batch-size', type=int, default=40)
+
+
+def run_extract(args):
+    started = time.perf_counter()
+    focus_keys = load_focus_keys(args.focus) if getattr(args, 'focus', None) else None
+    result = build(
+        args.input,
+        args.budget,
+        args.exclude_keys,
+        focus_keys,
+        key_filter=getattr(args, 'key_filter', 'on'),
+        keys=getattr(args, 'keys', None),
+        filter_file=getattr(args, 'filter_file', None),
+        en_col=getattr(args, 'en_col', None),
+        zh_col=getattr(args, 'zh_col', None),
+    )
+    known, _ = known_pairs(getattr(args, 'known', None))
+    if known:
+        result['candidates'] = [
+            e for e in result['candidates']
+            if e['kind'] == 'template' or not io.is_known_term(e['en'], known, e['zh_candidates'])
+        ]
+        result['review'] = [
+            e for e in result['review']
+            if e['kind'] == 'template' or not io.is_known_term(e['en'], known, e['zh_candidates'])
+        ]
+    result['stats']['elapsed_seconds'] = round(time.perf_counter() - started, 3)
+    out = getattr(args, 'out', None)
+    if out:
+        io.ensure_parent(out)
+        stream = open(out, 'w', encoding='utf-8', newline='')
+    else:
+        sys.stdout.reconfigure(newline='')
+        stream = sys.stdout
+    try:
+        if getattr(args, 'json', False):
+            stream.write(json.dumps({'stats': result['stats'], 'candidates': result['candidates']}, ensure_ascii=False, indent=2) + '\n')
+        else:
+            write_candidates(stream, result)
+    finally:
+        if out:
+            stream.close()
+    print(packed(result['stats']), file=sys.stderr)
+    return 0
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog='final.py compose')
     sub = parser.add_subparsers(dest='command', required=True)
-    for command in ('extract', 'bench', 'judge'):
-        p = sub.add_parser(command)
-        p.add_argument('--input', type=Path, default=ROOT / 'Vanilla/latest.tsv')
-        p.add_argument('--budget', type=nonnegative, default=0,
-                       help='maximum review entries; 0 keeps the complete compressed inventory')
-        p.add_argument('--exclude-keys')
-        if command != 'bench':
-            p.add_argument('--focus', type=Path,
-                           help='diff json or key list; keep the full corpus for alignment '
-                                'but emit only entries and rows for those keys')
-        if command == 'bench':
-            p.add_argument('--gold', action='append', default=[])
-            p.add_argument('--cases', type=Path, default=CASES_PATH)
-        elif command == 'judge':
-            p.add_argument('--known', nargs='*', default=[],
-                           help='terms files whose en or composed zh is already curated')
-            p.add_argument('--out', type=Path, help='review json path')
-            p.add_argument('--batch-size', type=int, default=40)
+    for command in ('extract', 'judge'):
+        add_compose_args(sub.add_parser(command), command)
     args = parser.parse_args(argv)
     if args.command == 'judge':
         return judge_cmd(args)
-    started = time.perf_counter()
-    focus_keys = load_focus_keys(args.focus) if getattr(args, 'focus', None) else None
-    result = build(args.input, args.budget, args.exclude_keys, focus_keys)
-    result['stats']['elapsed_seconds'] = round(time.perf_counter() - started, 3)
-    if args.command == 'extract':
-        sys.stdout.reconfigure(newline='')  # 重定向到文件时保持 LF
-        write_candidates(sys.stdout, result)
-        print(packed(result['stats']), file=sys.stderr)
-    else:
-        args.gold = args.gold or [str(ROOT / 'Vanilla/terms/terms-v1.tsv')]
-        benchmark(args, result)
-    return 0
+    return run_extract(args)
 
 
 if __name__ == '__main__':

@@ -8,7 +8,7 @@
 |---|---|
 | `Vanilla/terms/terms-v1.tsv` | 原版术语表 |
 | `Vanilla/terms/special/` | `terms-<token>.tsv`。key 含 token 才加载，不要并进主表 |
-| `Vanilla/terms/qa-rules.tsv` | 结构与格式（深层、墙上的、铜的「的」） |
+| `Vanilla/terms/STYLE.md` | 风格、构词与不译体例规则（纯自然语言） |
 | `Vanilla/terms/terms-version.tsv` | 分版本差异 |
 | `Vanilla/latest.tsv` | 现行语言文件（en / zh_cn / zh_tw / zh_hk / ja） |
 | `Vanilla/1.12.2.tsv` 等 | 旧版本语言快照 |

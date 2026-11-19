@@ -1,14 +1,14 @@
 # 术语契约
 
-权威数据：`Vanilla/terms/terms-v1.tsv` 加 `Vanilla/terms/special/` 五张。程序只产生候选，对错由人/LLM 裁定。
+权威数据：`Vanilla/terms/terms-v1.tsv` 加 `Vanilla/terms/special/` 四张。程序只产生候选，对错由人/LLM 裁定。
 
 ## 1. 产品
 
 | 文件 | 角色 |
 |---|---|
 | `Vanilla/terms/terms-v1.tsv` | 术语表 |
-| `Vanilla/terms/special/terms-<token>.tsv` | key 含 token 才加载。不要并进主表 |
-| `Vanilla/terms/qa-rules.tsv` | 英文结构、汉语格式（深层、墙上的、铜的「的」） |
+| `Vanilla/terms/special/terms-<token>.tsv` | key 含 token 才加载（`pottery`/`subtitles`/`trim`/`tropical_fish`）。不要并进主表 |
+| `Vanilla/terms/STYLE.md` | 英文结构、汉语格式与整类不译规则（纯自然语言） |
 | `Vanilla/latest.tsv` | 原版语言文件，不是术语 |
 
 `zh` 是查词答案，不是 hash 命中并集。`reason` 给人/LLM，`comment` 给维护者，都不参与匹配。
@@ -38,11 +38,11 @@
 
 `|` 只表示同一所指的不同写法，不是近义词筐。短的那截会把无关译文算成已译，真漏了的反而进不了候选。Deepslate 的「深层」和「深板岩」两个都是固定用法，只留一个另一半全是假阳，才并列。`链` 这种短答案是已经拍板、愿意挨误伤的例外。
 
-## 5. 术语 vs QA
+## 5. 术语 vs STYLE
 
-术语管这个零件叫什么。QA 管这句话写得对不对：该用「深层」还是「深板岩」、铜氧化要不要「的」、墙上的方块要不要「墙上的」。
+术语管具体词条叫什么，具体词不译（如 `TNT`）也收进主表。`STYLE.md` 管体例和结构：该用「深层」还是「深板岩」、铜氧化要不要「的」、墙上的方块要不要「墙上的」、旗帜纹章颜色嵌槽、树木/砖/石/桶的上下文构词变化，以及音乐唱片曲名、画作标题这类整类不译的规则。
 
-铜的「斑驳 / 锈蚀 / 氧化 / 涂蜡」进术语；「斑驳的铜块」里的「的」是汉语习惯，用 QA 去抓。术语表没有 `key`；`qa-rules.tsv` 自己的 `key` 用来限制扫哪些语言键。
+铜的「斑驳 / 锈蚀 / 氧化 / 涂蜡」进术语；「斑驳的铜块」里的「的」是汉语习惯，写进 `STYLE.md`。
 
 ## 6. 分表
 
