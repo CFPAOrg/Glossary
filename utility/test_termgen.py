@@ -11,7 +11,7 @@ from unittest import mock
 
 import final
 import io_utils
-from algos import cjk, compose, single
+from algos import cjk, compose, scope, single
 
 
 class ComposeCoreTests(unittest.TestCase):
@@ -292,6 +292,56 @@ class ProductionSuiteTests(unittest.TestCase):
         self.assertEqual(audit['dead_terms_count'], 1)
         self.assertEqual(audit['failing_terms_count'], 1)
 
+    def test_style_scopes_are_valid_and_selectable(self):
+        style_path = io_utils.ROOT / 'Vanilla' / 'terms' / 'STYLE.md'
+        blocks = scope.parse_style_scopes(style_path)
+        ids = {b['meta']['id'] for b in blocks}
+        self.assertIn('global', ids)
+        self.assertIn('scope.block_item', ids)
+
+        biome_ids = [b['meta']['id'] for b in scope.select_style_blocks(blocks, ['biome.minecraft.plains'])]
+        self.assertEqual(biome_ids, ['scope.biome', 'global'])
+
+        banner_ids = [b['meta']['id'] for b in scope.select_style_blocks(blocks, ['block.minecraft.banner.base.red'])]
+        self.assertEqual(banner_ids, ['scope.block_item', 'scope.banner', 'global'])
+
+        fallback_ids = [b['meta']['id'] for b in scope.select_style_blocks(blocks, [])]
+        self.assertEqual(fallback_ids, ['global'])
+
+        with redirect_stdout(pyio.StringIO()) as out_buf, redirect_stderr(pyio.StringIO()):
+            rc = final.main(['scope', '--style', str(style_path), '--key', 'stat.minecraft.jump'])
+        self.assertEqual(rc, 0)
+        rendered = out_buf.getvalue()
+        self.assertIn('### 5.2 统计项', rendered)
+        self.assertIn('## 6. 全局策略', rendered)
+        self.assertNotIn('<!-- @scope', rendered)
+        self.assertNotIn('### 2.1 旗帜图案', rendered)
+
+        bad_style = self.root / 'bad_style.md'
+        bad_style.write_text('<!-- @scope {"id": "orphan", "apply": "always"} -->\n', encoding='utf-8')
+        with self.assertRaises(ValueError):
+            scope.parse_style_scopes(bad_style)
+
+    def test_vanilla_terms_tsv_structure(self):
+        terms_dir = io_utils.ROOT / 'Vanilla' / 'terms'
+        tsv_files = sorted(list(terms_dir.glob('*.tsv')) + list((terms_dir / 'special').glob('*.tsv')))
+        self.assertTrue(tsv_files)
+
+        for path in tsv_files:
+            with path.open(encoding='utf-8-sig', newline='') as f:
+                rows = list(csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE))
+            self.assertTrue(rows, f'{path.name} 为空')
+            expected_head = ['versions', 'en', 'zh', 'reason', 'comment'] if path.name == 'terms-version.tsv' else ['en', 'zh', 'reason', 'comment']
+            self.assertEqual(rows[0][:len(expected_head)], expected_head, f'{path.name} 表头异常')
+            min_cols = len(expected_head) - 1
+            for idx, row in enumerate(rows[1:], 2):
+                self.assertGreaterEqual(len(row), 2, f'{path.name}:{idx} 列数不足')
+                self.assertLessEqual(len(row), len(expected_head), f'{path.name}:{idx} 列数超出')
+                en_idx = 1 if path.name == 'terms-version.tsv' else 0
+                self.assertTrue(row[en_idx].strip(), f'{path.name}:{idx} 缺少 en')
+                self.assertTrue(row[en_idx + 1].strip(), f'{path.name}:{idx} 缺少 zh')
+                comment = row[en_idx + 3] if len(row) > en_idx + 3 else ''
+                self.assertNotRegex(comment, r'STYLE\.md|§\d', f'{path.name}:{idx} 含旧章节交叉引用')
 
 if __name__ == '__main__':
     unittest.main()

@@ -65,7 +65,7 @@ def _build_workflow_parser():
 
     p_scope = sub.add_parser('scope', help='圈定语料范围、清洗格式、从 diff 切片')
     scope.add_scope_args(p_scope)
-    p_scope.set_defaults(func=lambda a: p_scope.error('必须提供 --input 或 --diff OLD NEW') if not a.input and not a.diff else scope.run_scope(a))
+    p_scope.set_defaults(func=lambda a: p_scope.error('必须提供 --input、--diff OLD NEW 或 --style') if not a.input and not a.diff and not a.style else scope.run_scope(a))
 
     p_tr = sub.add_parser('translate', help='无译文场景：提取待译术语候选与共现家族')
     p_tr.add_argument('--input', type=Path, required=True, help='输入语料：TSV / JSON / .lang / .txt / lang目录')

@@ -1,9 +1,14 @@
 import argparse
 import csv
+import fnmatch
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
+
+HEADING_RE = re.compile(r'^(#{1,6})\s+(.+?)\s*$')
+STYLE_TAG_RE = re.compile(r'^<!--\s*@scope\s+(.*?)\s*-->$')
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import io_utils as io
@@ -64,7 +69,145 @@ def _diff_rows(old_path, new_path, en_col=None, zh_col=None):
     return {'added': added, 'changed': changed, 'removed': removed}, new_rows
 
 
+def parse_style_scopes(path):
+    lines = Path(path).read_text(encoding='utf-8-sig').splitlines()
+    blocks = []
+    seen_ids = set()
+    consumed_markers = set()
+
+    for idx, line in enumerate(lines):
+        if STYLE_TAG_RE.match(line.strip()) and idx not in consumed_markers:
+            raise ValueError(f'第 {idx + 1} 行 @scope 注释必须紧跟在 Markdown 标题下一行')
+
+        heading = HEADING_RE.match(line)
+        if not heading or idx + 1 >= len(lines):
+            continue
+
+        marker = STYLE_TAG_RE.match(lines[idx + 1].strip())
+        if not marker:
+            continue
+
+        consumed_markers.add(idx + 1)
+
+        try:
+            meta = json.loads(marker.group(1))
+        except json.JSONDecodeError as exc:
+            raise ValueError(f'第 {idx + 2} 行 @scope JSON 解析失败：{exc}') from exc
+
+        if not isinstance(meta, dict):
+            raise ValueError(f'第 {idx + 2} 行 @scope 必须是 JSON 对象')
+
+        scope_id = meta.get('id')
+        if not isinstance(scope_id, str) or not scope_id.strip():
+            raise ValueError(f'第 {idx + 2} 行 @scope 缺少有效 id')
+
+        if scope_id in seen_ids:
+            raise ValueError(f'重复的 @scope id：{scope_id}')
+
+        is_always = meta.get('apply') == 'always'
+        includes = meta.get('include')
+        has_includes = isinstance(includes, list) and bool(includes) and all(isinstance(p, str) and p for p in includes)
+        if not is_always and not has_includes:
+            raise ValueError(f'第 {idx + 2} 行 @scope 必须提供非空 include 列表或 apply: "always"')
+
+        seen_ids.add(scope_id)
+        level = len(heading.group(1))
+        end = idx + 2
+
+        while end < len(lines):
+            next_h = HEADING_RE.match(lines[end])
+            if next_h and len(next_h.group(1)) <= level:
+                break
+            end += 1
+
+        body = [line] + lines[idx + 2:end]
+        while body and not body[-1].strip():
+            body.pop()
+
+        blocks.append({'meta': meta, 'heading': heading.group(2), 'text': '\n'.join(body)})
+
+    return blocks
+
+
+def select_style_blocks(blocks, keys=None):
+    key_list = [k for k in (keys or ()) if k]
+    selected = []
+
+    for block in blocks:
+        meta = block['meta']
+        if meta.get('apply') == 'always':
+            selected.append(block)
+            continue
+
+        patterns = meta.get('include') or ()
+        if key_list and any(fnmatch.fnmatchcase(k, pat) for k in key_list for pat in patterns):
+            selected.append(block)
+
+    return selected
+
+
+def _run_style_scope(args):
+    keys = list(getattr(args, 'key', ()) or ())
+
+    if args.diff:
+        diff_obj, raw_rows = _diff_rows(args.diff[0], args.diff[1], en_col=args.en_col, zh_col=args.zh_col)
+        focus_keys = set(diff_obj['added']) | set(diff_obj['changed'])
+        rows = io.filter_rows(
+            raw_rows,
+            key_filter=args.key_filter,
+            keys=args.pattern,
+            exclude_keys=args.exclude,
+            prefixes=args.prefix,
+            filter_file=args.filter_file,
+        )
+        keys.extend(k for k, _, _ in rows if k in focus_keys)
+    elif args.input:
+        raw_rows = io.load_input_rows(args.input, en_col=args.en_col, zh_col=args.zh_col)
+        rows = io.filter_rows(
+            raw_rows,
+            key_filter=args.key_filter,
+            keys=args.pattern,
+            exclude_keys=args.exclude,
+            prefixes=args.prefix,
+            filter_file=args.filter_file,
+        )
+        if args.focus:
+            focus_keys = io.load_focus_keys(args.focus)
+            rows = [r for r in rows if r[0] in focus_keys]
+        keys.extend(k for k, _, _ in rows)
+    elif args.focus:
+        keys.extend(sorted(io.load_focus_keys(args.focus)))
+
+    blocks = parse_style_scopes(args.style)
+    selected = select_style_blocks(blocks, keys)
+    rendered = '\n\n'.join(b['text'] for b in selected) + ('\n' if selected else '')
+
+    if args.format == 'json':
+        payload = {'matched_ids': [b['meta']['id'] for b in selected], 'blocks': selected, 'text': rendered}
+        out_text = json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
+    else:
+        out_text = rendered
+
+    if args.out:
+        io.write_text(args.out, out_text)
+    else:
+        sys.stdout.write(out_text)
+
+    summary = {
+        'style': str(args.style),
+        'keys': len(keys),
+        'matched_ids': [b['meta']['id'] for b in selected],
+        'out': str(args.out) if args.out else 'stdout',
+    }
+    print(json.dumps(summary, ensure_ascii=False), file=sys.stderr)
+
+    return 0
+
+
 def run_scope(args):
+    if getattr(args, 'style', None):
+        return _run_style_scope(args)
+
     if args.diff:
         diff_obj, raw_rows = _diff_rows(args.diff[0], args.diff[1], en_col=args.en_col, zh_col=args.zh_col)
         focus_keys = set(diff_obj['added']) | set(diff_obj['changed'])
@@ -192,6 +335,9 @@ def add_scope_args(ap, require_input=True):
     ap.add_argument('--non-empty-zh', action='store_true', help='丢弃译文为空的行')
     ap.add_argument('--format', choices=('tsv', 'json'), default='tsv')
     ap.add_argument('-o', '--out', type=Path, help='输出路径（默认 stdout）')
+    ap.add_argument('--style', nargs='?', const=io.ROOT / 'Vanilla/terms/STYLE.md', type=Path,
+                    help='按 @scope 筛选 STYLE.md 规则块（可不带路径，默认 Vanilla/terms/STYLE.md）')
+    ap.add_argument('--key', action='append', default=[], help='待匹配的语言 key，配合 --style 使用（可重复）')
 
 
 def main(argv=None):
@@ -199,8 +345,8 @@ def main(argv=None):
     add_scope_args(parser)
     args = parser.parse_args(argv)
 
-    if not args.input and not args.diff:
-        parser.error('必须提供 --input 或 --diff OLD NEW')
+    if not args.input and not args.diff and not args.style:
+        parser.error('必须提供 --input、--diff OLD NEW 或 --style')
 
     return run_scope(args)
 
