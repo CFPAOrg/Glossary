@@ -1,12 +1,13 @@
 # 术语契约
 
-权威数据：`Vanilla/terms/terms-v1.tsv` 加 `Vanilla/terms/special/` 四张。程序只产生候选，对错由人/LLM 裁定。
+权威数据：`Vanilla/terms/terms-v1.tsv`、六张域分表（`terms-biome.tsv` / `terms-enchantment.tsv` / `terms-effect.tsv` / `terms-color.tsv` / `terms-mob.tsv` / `terms-tech.tsv`）加 `Vanilla/terms/special/` 四张。程序只产生候选，对错由人/LLM 裁定。
 
 ## 1. 产品
 
 | 文件 | 角色 |
 |---|---|
-| `Vanilla/terms/terms-v1.tsv` | 术语表 |
+| `Vanilla/terms/terms-v1.tsv` | 通用术语主表 |
+| `Vanilla/terms/terms-{biome,enchantment,effect,color,mob,tech}.tsv` | 生物群系、附魔、状态效果、颜色、生物与属性/技术分表，使用时与主表一并加载 |
 | `Vanilla/terms/special/terms-<token>.tsv` | key 含 token 才加载（`pottery`/`subtitles`/`trim`/`tropical_fish`）。不要并进主表 |
 | `Vanilla/terms/STYLE.md` | 英文结构、汉语格式与整类不译规则（纯自然语言） |
 | `Vanilla/latest.tsv` | 原版语言文件，不是术语 |
@@ -46,6 +47,7 @@
 
 ## 6. 分表
 
-`Vanilla/terms/special/terms-<token>.tsv`。token 字面即作用域：语言 key **包含** `<token>` 才加载这张表。不要并进主表。同 en 以所在表为准。
+分表分两类：
 
-例：`terms-subtitles.tsv` 只打 `subtitles.entity.pig.ambient`，不打 `item.minecraft.porkchop`。文件名用 key 里的真实片段（`terms-tropical_fish.tsv`，不要 `tropical-fish`）。
+- 域分表（`Vanilla/terms/terms-{biome,enchantment,effect,color,mob,tech}.tsv`）：分别收生物群系、附魔、状态效果、16 种基本颜色、生物（含村民职业）与属性/技术杂项，使用时与 `terms-v1.tsv` 合并加载。跨表同名异义词（如 `Armor`、`Infested`、`Luck`、`Speed`、`Wither`）在各自表中只保留本域义项并在 `comment` 互指。
+- 隔离分表（`Vanilla/terms/special/terms-<token>.tsv`）：token 字面即作用域，语言 key **包含** `<token>` 才加载，不要并进主表，同 en 以所在表为准。例：`terms-subtitles.tsv` 只打 `subtitles.entity.pig.ambient`，不打 `item.minecraft.porkchop`；文件名用 key 里的真实片段（`terms-tropical_fish.tsv`，不要 `tropical-fish`）。

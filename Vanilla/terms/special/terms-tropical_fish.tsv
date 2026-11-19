@@ -1,5 +1,5 @@
 en	zh	reason	comment
-Tropical Fish	热带鱼		来源：entity.minecraft.tropical_fish
+Tropical Fish	热带鱼		来源：entity.minecraft.tropical_fish；热带鱼整名（通用物品与生物分表另见 terms-v1.tsv、terms-mob.tsv）
 Anemone	海葵鱼		来源：entity.minecraft.tropical_fish.predefined.0；热带鱼种名
 Black Tang	黑刺尾鲷		来源：entity.minecraft.tropical_fish.predefined.1；热带鱼种名
 Blue Tang	蓝刺尾鲷		来源：entity.minecraft.tropical_fish.predefined.2；热带鱼种名

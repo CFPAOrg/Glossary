@@ -20,18 +20,18 @@ python utility/final.py scope --input Vanilla/latest.tsv --key-filter on -o scop
 python utility/final.py scope --diff old.json new.json --prefix item. --focus-out focus.txt -o scoped.tsv
 
 # 2. 翻译（无译文）：短名共现家族 / 长文本增量挖掘
-python utility/final.py translate --input scoped.tsv --known Vanilla/terms/terms-v1.tsv --family
+python utility/final.py translate --input scoped.tsv --known Vanilla/terms/terms-v1.tsv Vanilla/terms/terms-biome.tsv Vanilla/terms/terms-enchantment.tsv Vanilla/terms/terms-effect.tsv Vanilla/terms/terms-color.tsv Vanilla/terms/terms-mob.tsv Vanilla/terms/terms-tech.tsv --family
 python utility/final.py translate --input story.tsv --corpus-type prose --lang en --ref zh --termhood specificity --known glossary.tsv
 
 # 3. 校对（译文不可信）：查分歧与术语违例
-python utility/final.py review --input scoped.tsv --known Vanilla/terms/terms-v1.tsv --format md
+python utility/final.py review --input scoped.tsv --known Vanilla/terms/terms-v1.tsv Vanilla/terms/terms-biome.tsv Vanilla/terms/terms-enchantment.tsv Vanilla/terms/terms-effect.tsv Vanilla/terms/terms-color.tsv Vanilla/terms/terms-mob.tsv Vanilla/terms/terms-tech.tsv --format md
 
 # 4. 维护（大体可信）：重建术语表 / CI 审校清单
-python utility/final.py maintain --input Vanilla/latest.tsv --key-filter on --focus Vanilla/diffs/26.2-26.3.json --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv --out-json Vanilla/diffs/26.2-26.3.terms.json
-python utility/final.py compose judge --input Vanilla/latest.tsv --focus Vanilla/diffs/26.2-26.3.json --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv
+python utility/final.py maintain --input Vanilla/latest.tsv --key-filter on --focus Vanilla/diffs/26.2-26.3.json --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv Vanilla/terms/terms-biome.tsv Vanilla/terms/terms-enchantment.tsv Vanilla/terms/terms-effect.tsv Vanilla/terms/terms-color.tsv Vanilla/terms/terms-mob.tsv Vanilla/terms/terms-tech.tsv --out-json Vanilla/diffs/26.2-26.3.terms.json
+python utility/final.py compose judge --input Vanilla/latest.tsv --focus Vanilla/diffs/26.2-26.3.json --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv Vanilla/terms/terms-biome.tsv Vanilla/terms/terms-enchantment.tsv Vanilla/terms/terms-effect.tsv Vanilla/terms/terms-color.tsv Vanilla/terms/terms-mob.tsv Vanilla/terms/terms-tech.tsv
 
 # 5. 清洗与审计
-python utility/final.py clean --input Vanilla/terms/terms-v1.tsv --corpus Vanilla/latest.tsv --key-filter on --audit-only
+python utility/final.py clean --input Vanilla/terms/terms-v1.tsv Vanilla/terms/terms-biome.tsv Vanilla/terms/terms-enchantment.tsv Vanilla/terms/terms-effect.tsv Vanilla/terms/terms-color.tsv Vanilla/terms/terms-mob.tsv Vanilla/terms/terms-tech.tsv --corpus Vanilla/latest.tsv --key-filter on --audit-only
 
 # 单元测试
 cd utility && python -m unittest -v test_termgen
@@ -45,5 +45,5 @@ cd utility && python -m unittest -v test_termgen
 - `algos/single.py`：英文单语原子提取与 LPA/连通分量家族聚类。
 - `algos/cjk.py`：CJK 单语凝固度 + 最长匹配剪枝 + BPE。
 - `algos/prose.py`：多语（`en`/`zh`/`ja`/`ko`）长文本 n-gram 挖掘、双向双语对齐、分歧与术语合规检测。
-- `termgen_review.html`：浏览器端审校合并页。
+- `termgen_review.html`：浏览器端多表审校合并页。
 - `test_termgen.py`：单元测试。

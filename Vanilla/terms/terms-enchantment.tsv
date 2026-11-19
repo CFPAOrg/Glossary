@@ -1,0 +1,44 @@
+en	zh	reason	comment
+Aqua Affinity	水下速掘		
+Bane of Arthropods	节肢杀手		魔咒整名固定译“节肢杀手”；单数词干 Arthropod 见 terms-v1.tsv
+Blast Protection	爆炸保护		
+Breach	破甲	可能过于严格，允许发挥	
+Channeling	引雷	可能过于严格，允许发挥	
+Curse of Binding	绑定诅咒		
+Curse of Vanishing	消失诅咒		
+Density	致密	可能过于严格，允许发挥	
+Depth Strider	深海探索者		意译魔咒名“深海探索者”，不随 mob 分表“Strider”（炽足兽）
+Efficiency	效率		
+Feather Falling	摔落缓冲	可能过于严格，允许发挥	现行魔咒定名“摔落缓冲”（1.19.2 及更早旧译“摔落保护”，见 terms-version.tsv）
+Fire Aspect	火焰附加		
+Fire Protection	火焰保护		
+Flame	火矢		
+Fortune	时运	可能过于严格，允许发挥	
+Frost Walker	冰霜行者		
+Impaling	穿刺		
+Infinity	无限		
+Knockback	击退		
+Looting	抢夺		
+Loyalty	忠诚		
+Luck of the Sea	海之眷顾		
+Lunge	突进		
+Lure	饵钓	可能过于严格，允许发挥	
+Mending	经验修补		
+Multishot	多重射击		
+Piercing	穿透	可能过于严格，允许发挥	
+Power	力量		仅魔咒名译“力量”；红石信号强度或信标功效等语境不可硬套
+Projectile Protection	弹射物保护		
+Protection	保护	可能过于严格，允许发挥	
+Punch	冲击	可能过于严格，允许发挥	仅魔咒名译“冲击”；教程中的动作描述“敲击（Punch）”不可套用
+Quick Charge	快速装填		
+Respiration	水下呼吸		魔咒名译“水下呼吸”，与同名状态效果 Water Breathing 同译但英文不同
+Riptide	激流		
+Sharpness	锋利		
+Silk Touch	精准采集		
+Smite	亡灵杀手		
+Soul Speed	灵魂疾行		
+Sweeping Edge	横扫之刃		
+Swift Sneak	迅捷潜行		
+Thorns	荆棘		
+Unbreaking	耐久		
+Wind Burst	风爆		

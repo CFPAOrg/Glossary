@@ -77,7 +77,14 @@ jobs:
             --input Vanilla/latest.tsv \
             --focus "$DIFF" \
             --exclude-keys 'banner|tropical_fish|subtitles' \
-            --known Vanilla/terms/terms-v1.tsv
+            --known \
+              Vanilla/terms/terms-v1.tsv \
+              Vanilla/terms/terms-biome.tsv \
+              Vanilla/terms/terms-enchantment.tsv \
+              Vanilla/terms/terms-effect.tsv \
+              Vanilla/terms/terms-color.tsv \
+              Vanilla/terms/terms-mob.tsv \
+              Vanilla/terms/terms-tech.tsv
 
       - name: Commit review list
         if: steps.select.outputs.skip != 'true'

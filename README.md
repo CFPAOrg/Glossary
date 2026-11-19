@@ -6,7 +6,8 @@
 
 | 路径 | 内容 |
 |---|---|
-| `Vanilla/terms/terms-v1.tsv` | 原版术语表 |
+| `Vanilla/terms/terms-v1.tsv` | 原版通用术语主表 |
+| `Vanilla/terms/terms-{biome,enchantment,effect,color,mob,tech}.tsv` | 生物群系、附魔、状态效果、颜色、生物与属性/技术分表（使用时与主表合并加载） |
 | `Vanilla/terms/special/` | `terms-<token>.tsv`。key 含 token 才加载，不要并进主表 |
 | `Vanilla/terms/STYLE.md` | 风格、构词与不译体例规则（纯自然语言） |
 | `Vanilla/terms/terms-version.tsv` | 分版本差异 |

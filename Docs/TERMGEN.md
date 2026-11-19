@@ -44,7 +44,7 @@
 ```bash
 python utility/final.py compose extract
 python utility/final.py compose judge --focus Vanilla/diffs/26.2-26.3.json \
-  --known Vanilla/terms/terms-v1.tsv \
+  --known Vanilla/terms/terms-v1.tsv Vanilla/terms/terms-biome.tsv Vanilla/terms/terms-enchantment.tsv Vanilla/terms/terms-effect.tsv Vanilla/terms/terms-color.tsv Vanilla/terms/terms-mob.tsv Vanilla/terms/terms-tech.tsv \
   --out Vanilla/diffs/26.2-26.3.terms.json
 python utility/final.py compose bench
 python utility/termgen_scorecard.py
@@ -55,7 +55,7 @@ cd utility && python -m unittest test_termgen
 
 ## judge 与 LLM
 
-`judge` 把条目整理成一份给人审的 JSON；LLM 复核暂停期间，条目全部按原样通过。给 diff 时文件名默认是 `<diff>.terms.json`，写在 diff 旁边。审校用 `utility/termgen_review.html`：贴入 `terms-v1.tsv` 和这份 JSON，勾选后导出新的 v1。
+`judge` 把条目整理成一份给人审的 JSON；LLM 复核暂停期间，条目全部按原样通过。给 diff 时文件名默认是 `<diff>.terms.json`，写在 diff 旁边。审校用 `utility/termgen_review.html`：导入 `terms-*.tsv` 和这份 JSON，勾选后按 `labels` 或手选目标表导出更新后的 TSV。
 
 产出结构跟 `Vanilla/diffs/*.terms.json` 一致：
 
@@ -80,7 +80,7 @@ cd utility && python -m unittest test_termgen
 
 `zh` 是候选数组，对应条目里的 `|` 变体。`single_use` 标在整份语料里只出现一次的术语上（不看本次 diff 的范围，`Door` 这种老词不会因为 diff 里只有一行就被标）——本仓库照收这类词，标记只是让审校看得见，不是筛除条件。`labels` 只在术语不落在 block/item/entity 域时给（biome、stat 之类）。`origin_zh` 是本次改过译文的行的旧值，取自 diff 的 `changed`。`reason` 是模型的一句话理由；LLM 复核暂停期间不写。`updated` 恒空；`removed` 收 diff `removed` 段里过滤后仍属产品名称的行。
 
-LLM 复核暂停：`judge` 不读 `LLM_*` 环境变量、不调模型，条目全部按原样通过（恢复时取消 `utility/algos/compose.py` 里 `judge_cmd` 的注释）。模板条目不送审，它只是句子骨架。`--known` 传已有的术语表：en 命中且译文全在表内的条目跳过（记 `skipped_known`），en 没命中但译文能由表里的词拼出来的也跳过（记 `skipped_derived`，例如 `Concrete Slab` = `Concrete` + `Slab`），只传 `terms-v1.tsv`。`--batch-size` 与 `batches_failed` 只在 LLM 复核启用时生效。
+LLM 复核暂停：`judge` 不读 `LLM_*` 环境变量、不调模型，条目全部按原样通过（恢复时取消 `utility/algos/compose.py` 里 `judge_cmd` 的注释）。模板条目不送审，它只是句子骨架。`--known` 传已有的术语表（支持传入主表与六张域分表）：en 命中且译文全在表内的条目跳过（记 `skipped_known`），en 没命中但译文能由表里的词拼出来的也跳过（记 `skipped_derived`，例如 `Concrete Slab` = `Concrete` + `Slab`）。`--batch-size` 与 `batches_failed` 只在 LLM 复核启用时生效。
 
 ## 文件
 
@@ -91,10 +91,10 @@ LLM 复核暂停：`judge` 不读 `LLM_*` 环境变量、不调模型，条目�
 | `utility/termgen_cases.json` | 40 条评估用例 |
 | `utility/test_termgen.py` | 11 条单元测试 |
 | `utility/termgen_scorecard.py` | 打分脚本，进程内跑现行工具 |
-| `utility/termgen_review.html` | 单页审校工具：贴入 `terms-v1.tsv` 和 `<版本>.terms.json`，勾选后导出新的 v1 |
+| `utility/termgen_review.html` | 单页审校工具：导入 `terms-*.tsv` 与 `<版本>.terms.json`，联合查重并分表导出 |
 | `Vanilla/diffs/<from>-<to>.terms.json` | CI 跑 `judge` 生成的审校清单，人工过一遍后合并 |
 
-CI（Continuous Integration，持续集成）在 `.github/workflows/term-candidates.yml`：`Vanilla/diffs/*.json` 有新提交时选最新一份，跑一条 `judge --input Vanilla/latest.tsv --focus <diff> --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv`，产物按默认命名落在 diff 旁边（`<版本>.terms.json`），由 bot 提交回 main。手动触发时可以指定 diff 路径。
+CI（Continuous Integration，持续集成）在 `.github/workflows/term-candidates.yml`：`Vanilla/diffs/*.json` 有新提交时选最新一份，跑一条 `judge --input Vanilla/latest.tsv --focus <diff> --exclude-keys 'banner|tropical_fish|subtitles' --known Vanilla/terms/terms-v1.tsv Vanilla/terms/terms-biome.tsv Vanilla/terms/terms-enchantment.tsv Vanilla/terms/terms-effect.tsv Vanilla/terms/terms-color.tsv Vanilla/terms/terms-mob.tsv Vanilla/terms/terms-tech.tsv`，产物按默认命名落在 diff 旁边（`<版本>.terms.json`），由 bot 提交回 main。手动触发时可以指定 diff 路径。
 
 ## 实测数字
 

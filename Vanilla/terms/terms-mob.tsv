@@ -1,0 +1,106 @@
+en	zh	reason	comment
+Allay	悦灵		
+Armadillo	犰狳		
+Armorer	盔甲匠		现行村民职业译“盔甲匠”（1.12.2 旧译“盔甲商”，见 terms-version.tsv）
+Axolotl	美西螈		生物名“美西螈”；唱片曲名中的同名英文保留不译（STYLE.md §1）
+Bat	蝙蝠		
+Bee	蜜蜂		
+Blaze	烈焰人		生物名带“人”；烈焰棒/烈焰粉减字为“烈焰”
+Bogged	沼骸		
+Breeze	旋风人		生物名带“人”；旋风棒减字为“旋风”
+Butcher	屠夫		
+Camel	骆驼		
+Camel Husk	骆驼尸壳		
+Cartographer	制图师		
+Cat	猫	可能过于严格，允许发挥	生物名；唱片曲名“C418 - cat”保留不译（STYLE.md §1）
+Cave Spider	洞穴蜘蛛		
+Chicken	鸡	可能过于严格，允许发挥	生物名；唱片曲名中的“Lava Chicken”保留不译（STYLE.md §1）
+Cleric	牧师		
+Cod	鳕鱼		
+Copper Golem	铜傀儡		
+Cow	牛	可能过于严格，允许发挥	
+Creaking	嘎枝		
+Creeper	苦力怕	可能过于严格，允许发挥	现行音译定名“苦力怕”（1.12.2 旧译“爬行者”，见 terms-version.tsv）
+Dolphin	海豚		
+Donkey	驴	可能过于严格，允许发挥	
+Drowned	溺尸		生物名译“溺尸”；注意避开死亡消息中的动词“淹死（drowned）”
+Elder Guardian	远古守卫者		
+Ender Dragon	末影龙		
+Enderman	末影人		
+Endermite	末影螨		
+Evoker	唤魔者		
+Farmer	农民		
+Fisherman	渔夫		
+Fletcher	制箭师		
+Fox	狐狸		
+Frog	青蛙		
+Ghast	恶魂		
+Giant	巨人		
+Glow Squid	发光鱿鱼		
+Goat	山羊		
+Guardian	守卫者	可能过于严格，允许发挥	
+Happy Ghast	快乐恶魂		
+Hoglin	疣猪兽		
+Horse	马	可能过于严格，允许发挥	
+Husk	尸壳		
+Illusioner	幻术师		
+Iron Golem	铁傀儡		
+Leatherworker	皮匠		
+Librarian	图书管理员		
+Llama	羊驼		
+Magma Cube	岩浆怪		
+Mason	石匠		
+Mooshroom	哞菇		
+Mule	骡	可能过于严格，允许发挥	
+Nautilus	鹦鹉螺		
+Nitwit	傻子		
+Ocelot	豹猫		
+Panda	熊猫		
+Parched	焦骸		
+Parrot	鹦鹉		
+Phantom	幻翼	可能过于严格，允许发挥	
+Pig	猪	可能过于严格，允许发挥	
+Piglin	猪灵		
+Piglin Brute	猪灵蛮兵		
+Pillager	掠夺者		生物名译“掠夺者”；游戏规则中“pillager patrols”意译“灾厄巡逻队”
+Polar Bear	北极熊		
+Pufferfish	河豚		生物语境；同名物品与食材见 terms-v1.tsv
+Rabbit	兔子		生物名译“兔子”；肉类食材减字为“兔肉”（生兔肉/熟兔肉）
+Ravager	劫掠兽		
+Salmon	鲑鱼		
+Sheep	绵羊		现行定名“绵羊”（1.12.2 旧译“羊”，见 terms-version.tsv）
+Shepherd	牧羊人		
+Shulker	潜影贝		生物名译“潜影贝”；“Shulker Box/Shell”减字为“潜影盒/壳”
+Silverfish	蠹虫		
+Skeleton	骷髅		
+Skeleton Horse	骷髅马		
+Slime	史莱姆		生物名音译“史莱姆”；黏液块/黏液球作“黏液”
+Sniffer	嗅探兽		
+Snow Golem	雪傀儡		
+Spider	蜘蛛		生物名“蜘蛛”；“Fermented Spider Eye”减字为“发酵蛛眼”
+Squid	鱿鱼		
+Stray	流浪者		现行定名“流浪者”（1.12.2 旧译“流髑”，见 terms-version.tsv）
+Strider	炽足兽		生物名“炽足兽”；勿误套用于魔咒“Depth Strider”（深海探索者）
+Sulfur Cube	硫方怪		衍生生物定名“硫方怪”，不随主表 Sulfur 作“硫黄”
+Tadpole	蝌蚪		
+The Killer Bunny	杀手兔		彩蛋生物专名“杀手兔”，整体匹配避免被拆成 Rabbit
+Toolsmith	工具匠		现行拼合写法与译名（1.12.2 分写旧称 Tool Smith -> 工具商，见 terms-version.tsv）
+Trader Llama	行商羊驼	可能过于严格，允许发挥	
+Tropical Fish	热带鱼		生物整名；物品见 terms-v1.tsv，具体种名/体型见 special/terms-tropical_fish.tsv
+Turtle	海龟	可能过于严格，允许发挥	生物名“海龟”；“Turtle Master”药水系列意译为“神龟”
+Vex	恼鬼		生物语境；同名盔甲纹饰见 special/terms-trim.tsv
+Villager	村民		
+Vindicator	卫道士		
+Wandering Trader	流浪商人		
+Warden	监守者		
+Weaponsmith	武器匠		现行拼合写法与译名（1.12.2 分写旧称 Weapon Smith -> 武器商，见 terms-version.tsv）
+Witch	女巫	可能过于严格，允许发挥	
+Wither	凋灵		生物与制品（凋灵骷髅/凋灵玫瑰）；状态效果“凋零”见 terms-effect.tsv
+Wither Skeleton	凋灵骷髅		
+Wolf	狼	可能过于严格，允许发挥	
+Zoglin	僵尸疣猪兽		
+Zombie	僵尸		
+Zombie Horse	僵尸马		
+Zombie Nautilus	僵尸鹦鹉螺		
+Zombie Villager	僵尸村民		
+Zombified Piglin	僵尸猪灵		替代旧称 Zombie Pigman（见 terms-version.tsv）；其修饰词原子 Zombified 另见 terms-v1.tsv

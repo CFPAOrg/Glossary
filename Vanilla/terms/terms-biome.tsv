@@ -1,0 +1,68 @@
+en	zh	reason	comment
+Badlands	恶地		现行官方定名，替代早期版本旧称 Mesa（平顶山）
+Bamboo Jungle	竹林		特例减字为“竹林”，不直译“竹丛林”
+Basalt Deltas	玄武岩三角洲		
+Beach	沙滩		
+Birch Forest	桦木森林		群系特例省“白”作“桦木森林”（STYLE.md §3），不随白桦木材写“白桦”
+Cherry Grove	樱花树林		同含 Grove 但译“樱花树林”，区别于雪林（Grove）
+Cold Ocean	冷水海洋		
+Crimson Forest	绯红森林		
+Dappled Forest	斑驳森林		
+Dark Forest	黑森林		
+Deep Cold Ocean	冷水深海		
+Deep Dark	深暗之域		
+Deep Frozen Ocean	冰冻深海		
+Deep Lukewarm Ocean	温水深海		
+Deep Ocean	深海		
+Desert	沙漠		
+Dripstone Caves	溶洞		意译为“溶洞”，不随主表 Dripstone 作“滴水石洞穴”
+End Barrens	末地荒地		
+End Highlands	末地高地		
+End Midlands	末地内陆	可能过于严格，允许发挥	
+Eroded Badlands	风蚀恶地		
+Flower Forest	繁花森林		
+Forest	森林	可能过于严格，允许发挥	
+Frozen Ocean	冻洋		
+Frozen Peaks	冰封山峰		
+Frozen River	冻河		
+Grove	雪林		独立群系意译为“雪林”；Cherry Grove 另译“樱花树林”
+Ice Spikes	冰刺之地	可能过于严格，允许发挥	
+Jagged Peaks	尖峭山峰		
+Jungle	丛林		生物群系用语（Bamboo Jungle 特例译“竹林”）；通用与木材前缀见 terms-v1.tsv
+Lukewarm Ocean	温水海洋		
+Lush Caves	繁茂洞穴		
+Mangrove Swamp	红树林沼泽		红树群系加“林”字作“红树林沼泽”（STYLE.md §3）
+Meadow	草甸		
+Mushroom Fields	蘑菇岛		意译定名“蘑菇岛”，不直译“蘑菇田/原野”
+Nether Wastes	下界荒地		
+Ocean	海洋		基础海洋群系；冷水/暖水/温水/冰冻深海组合不作“海洋”而减为“深海/冻洋”
+Old Growth Birch Forest	原始桦木森林		省“白”作“桦木”，与 Birch Forest 一致（STYLE.md §3）
+Old Growth Pine Taiga	原始松木针叶林		群系特例作“松木针叶林”（STYLE.md §3），与主表 Pine 对应
+Old Growth Spruce Taiga	原始云杉针叶林		
+Pale Garden	苍白之园	可能过于严格，允许发挥	
+Plains	平原		基础平原；特例“Snowy Plains”意译为“雪原”
+River	河流		
+Savanna	热带草原		
+Savanna Plateau	热带高原		
+Small End Islands	末地小型岛屿		
+Snowy Beach	积雪沙滩	可能过于严格，允许发挥	
+Snowy Plains	雪原	可能过于严格，允许发挥	历史惯用短译“雪原”，例外不随“积雪……”构词
+Snowy Slopes	积雪山坡	可能过于严格，允许发挥	
+Snowy Taiga	积雪针叶林	可能过于严格，允许发挥	
+Soul Sand Valley	灵魂沙峡谷		
+Sparse Jungle	稀疏丛林		
+Stony Peaks	裸岩山峰		
+Stony Shore	石岸		
+Sulfur Caves	硫黄洞穴		群系固定用“硫黄”（非“硫磺”）
+Sunflower Plains	向日葵平原		
+Swamp	沼泽		
+Taiga	针叶林		
+The End	末地	可能过于严格，允许发挥	维度/群系专名；注意避开进度标题中表示“结束了”的普通短语“The End”
+The Void	虚空		群系专名；注意避开画作标题“The void”（不译）
+Warm Ocean	暖水海洋		
+Warped Forest	诡异森林		
+Windswept Forest	风袭森林		
+Windswept Gravelly Hills	风袭沙砾丘陵		
+Windswept Hills	风袭丘陵		
+Windswept Savanna	风袭热带草原		
+Wooded Badlands	疏林恶地	可能过于严格，允许发挥	意译“疏林恶地”，不随主表旧词根 Wooded 作“繁茂的恶地”

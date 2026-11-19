@@ -1,0 +1,108 @@
+en	zh	reason	comment
+Advancement	进度		
+Adventure	冒险		
+Air Drag Modifier	空气阻力修正系数		
+AMPLIFIED	放大化		
+Armor	护甲值	可能过于严格，允许发挥	仅属性“护甲值”；物品与纹饰“盔甲”见 terms-v1.tsv，坐骑“铠”见 STYLE.md §4
+Armor Toughness	盔甲韧性		
+Attack Damage	攻击伤害		
+Attack Knockback	击退	可能过于严格，允许发挥	
+Attack Speed	攻击速度		
+Ban	封禁		
+Biome	生物群系	可能过于严格，允许发挥	
+Blastable	可冶炼		仅见于高炉配方书筛选开关“Showing Blastable → 仅显示可冶炼”
+Block Break Speed	方块破坏速度		
+Block Entity	方块实体		
+Block Interaction Range	方块交互距离		
+Bossbar	Boss栏	可能过于严格，允许发挥	
+Bottomless Pit	无底深渊		超平坦世界预设名
+Bounciness	弹性		
+Burning Time	着火时间		
+Camera Distance	镜头距离		
+Cape	披风	可能过于严格，允许发挥	
+Chunk	区块	可能过于严格，允许发挥	
+Classic Flat	经典平坦		超平坦世界预设名
+Component	组件	可能过于严格，允许发挥	
+Damage	伤害	可能过于严格，允许发挥	
+Data	数据	可能过于严格，允许发挥	常规数据用语；commands.version 中的字面键名“data/pack_data”不译
+Data Pack	数据包		
+Debug	调试		
+Debug Mode	调试模式		
+Dimension	维度		
+Disenchant	祛魔		
+Distance	距离	可能过于严格，允许发挥	常规属性与统计用“距离”（STYLE.md §7）；“Safe Fall Distance/Distance Fallen”作“高度”
+Durability	耐久度	可能过于严格，允许发挥	
+Enchantment	魔咒	可能过于严格，允许发挥	属性与机制统称“魔咒”；注意旧界面文本“Enchantment Cost”作“附魔花费”，“Enchantment Levels”作“级经验”
+Entity	实体	可能过于严格，允许发挥	
+Entity Interaction Range	实体交互距离		
+Explosion Knockback Resistance	爆炸击退抗性		
+Fall Damage Multiplier	摔落伤害倍数		
+Field of View	视场角	可能过于严格，允许发挥	全称定名“视场角”，与缩写词条 FOV 对应
+Floating Islands	浮岛	可能过于严格，允许发挥	
+Flying Speed	飞行速度		
+FOV	视场角	可能过于严格，允许发挥	缩写定名“视场角”，与全称词条 Field of View 对应
+Friction Modifier	摩擦力修正系数		
+Friendly Fire	友军伤害		
+Gravity	重力		
+Hardcore	极限		
+Hitboxes	判定箱		
+Horse Jump Strength	马匹跳跃能力		
+Invisible	隐形	可能过于严格，允许发挥	修饰词“隐形”；队伍选项“invisible teammates”按语义译“隐身”
+Jump Strength	跳跃力度		通用跳跃属性译“跳跃力度”；“Horse Jump Strength”另译“马匹跳跃能力”
+Knockback Resistance	击退抗性		
+LAN	局域网	可能过于严格，允许发挥	
+Large Biomes	巨型生物群系		
+Loot	战利品	可能过于严格，允许发挥	
+Luck	幸运值		仅属性“幸运值”；状态效果“幸运”见 terms-effect.tsv
+Main Hand	主手		
+Max Absorption	最大伤害吸收值		
+Max Health	最大生命值		
+Mining Efficiency	挖掘效率		
+Mob Follow Range	生物跟随距离		
+Mob Tempt Range	生物引诱范围		
+Modifier	修正系数	可能过于严格，允许发挥	复合属性后缀译“修正系数”（如空气阻力修正系数）；命令文本中的“modifier”译“修饰符”
+Movement Efficiency	移动效率		
+Name Tag Distance	名牌距离		
+Name Tag Score Distance	名牌分数距离		
+Nametag	名称标签	可能过于严格，允许发挥	
+Objective	记分项	可能过于严格，允许发挥	计分板目标译“记分项”（用“记”），注意区别于“计分板”（Scoreboard）
+Off Hand	副手		
+Overworld	主世界		
+Oxygen Bonus	额外氧气		
+Pack	包	可能过于严格，允许发挥	资源包/数据包简写；注意避开进度标题“The Whole Pack”及命令字面键“pack_data/pack_resource”
+Particle	粒子		
+Point of Interest	兴趣点	可能过于严格，允许发挥	
+Predicate	谓词		
+Raid	袭击		
+Recipe Book	配方书		
+Redstone Ready	红石俱备		超平坦世界预设名
+Resource	资源	可能过于严格，允许发挥	
+Resource Pack	资源包		
+Respawn	重生		
+Safe Fall Distance	安全摔落高度		
+Scale	尺寸		生物尺寸属性译“尺寸”；/data 命令中的“scale factor”译“倍率”
+Scoreboard	计分板		系统名“计分板”（用“计”）；其下条目 Objective 译“记分项”
+Shader	着色器	可能过于严格，允许发挥	
+Single Biome	单一生物群系		
+Slot	槽位	可能过于严格，允许发挥	物品栏语境译“槽位”；计分板显示位置“display slot”译“显示位置”
+Sneaking Speed	潜行速度		
+Snowy Kingdom	雪之王国		超平坦世界预设名
+Spawn Point	出生点		
+Spectate	旁观	可能过于严格，允许发挥	
+Spectator	旁观者	可能过于严格，允许发挥	指代玩家时译“旁观者”；“Spectator Mode”及模式切换语境省“者”作“旁观”
+Spectator Mode	旁观模式		
+Speed	速度		属性与通用语境；状态效果“迅捷”见 terms-effect.tsv
+Sprint	疾跑		动作与统计用“疾跑”；“/tick sprint”命令语境译“游戏刻加速”
+Step Height	最大行走高度		属性固定定名“最大行走高度”，不直译“步高”
+Submerged Mining Speed	水下挖掘速度		
+Superflat	超平坦		
+Sweeping Damage Ratio	横扫伤害比率		
+Template	模板	可能过于严格，允许发挥	
+Tunnelers' Dream	挖掘工的梦想		超平坦世界预设名
+VSync	垂直同步		
+Water Movement Efficiency	水中移动效率		
+Water World	水世界		超平坦世界预设名
+Waypoint Receive Range	路径点接收距离		
+Waypoint Transmit Range	路径点传输距离		
+World Border	世界边界		
+Zombie Reinforcements	僵尸增援		

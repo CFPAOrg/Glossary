@@ -1,73 +1,49 @@
 en	zh	reason	comment
 Abandoned Camp	废弃营地		
 Abandoned Campsite	废弃营地		
-Absorption	伤害吸收		
 Acacia	金合欢		
 Activator Rail	激活铁轨		
-Advancement	进度		
-Adventure	冒险		
-Air Drag Modifier	空气阻力修正系数		
-Allay	悦灵		
 Allium	绒球葱		
-Amethyst	紫水晶		
+Amethyst	紫水晶		主材质作“紫水晶”，但“Amethyst Bud/Geode”习惯减为“紫晶芽/紫晶洞”
 Amethyst Bud	紫晶芽		
 Amethyst Cluster	紫水晶簇		
-Amethyst Geode	紫晶洞		
-AMPLIFIED	放大化		
+Amethyst Geode	紫晶洞		不在 latest.tsv；源自 Wiki/官方 TBX 地物词条
 Anchor	锚	可能过于严格，允许发挥	
-Ancient	远古	可能过于严格，允许发挥	
+Ancient	远古	可能过于严格，允许发挥	修饰词原子；现行原版仅见于远古残骸/远古城市，留作复合词兜底
 Ancient City	远古城市		
 Ancient Debris	远古残骸		
 Andesite	安山岩	可能过于严格，允许发挥	
 Anvil	铁砧	可能过于严格，允许发挥	
 Apple	苹果	可能过于严格，允许发挥	
-Aqua Affinity	水下速掘		
-Aquifer	含水层		
+Aquifer	含水层		不在 latest.tsv；源自 Wiki/官方 TBX 地形特征词条
 Area Effect Cloud	区域效果云		
-Armadillo	犰狳		
-Armor	护甲值|盔甲	可能过于严格，允许发挥	
+Armor	盔甲	可能过于严格，允许发挥	物品与纹饰语境；属性“护甲值”见 terms-tech.tsv，坐骑护甲按 STYLE.md §4 译“铠”
 Armor Stand	盔甲架		
-Armor Toughness	盔甲韧性		
-Armorer	盔甲匠		
 Arrow	箭	可能过于严格，允许发挥	
 Arrow of Splashing	喷溅之箭		
-Arthropod	节肢		
-Attack Damage	攻击伤害		
-Attack Knockback	击退	可能过于严格，允许发挥	
-Attack Speed	攻击速度		
+Arthropod	节肢		词干原子；不在 latest.tsv，现行原版仅见复数“Bane of Arthropods”（附魔分表），单数留作生物分类词根
 Awkward	粗制的		
 Axe	斧	可能过于严格，允许发挥	
-Axolotl	美西螈		
-Azalea	杜鹃花丛		
+Azalea	杜鹃花丛		独立方块为“杜鹃花丛”；作树叶前缀减为“杜鹃”（杜鹃树叶）
 Azalea Leaves	杜鹃树叶		
 Azure Bluet	蓝花美耳草		
-Bad Luck	霉运		
-Bad Omen	不祥之兆		
-Badlands	恶地		
 Baked Potato	烤马铃薯		
-Bamboo	竹子|竹		
-Bamboo Jungle	竹林		
-Bamboo Planks	竹板		
+Bamboo	竹子|竹		独立物品与盆栽用“竹子”，制品前缀减为“竹”（STYLE.md §3）；“|竹”用于匹配制品
+Bamboo Planks	竹板		竹制品不按木板作“竹木板”，减字特例（STYLE.md §3）
 Bamboo Raft	竹筏		
 Bamboo Raft with Chest	运输竹筏		
 Bamboo Shoot	竹笋		
-Ban	封禁		
-Bane of Arthropods	节肢杀手		
 Banner	旗帜		
 Banner Pattern	旗帜图案		
 Barrel	木桶	可能过于严格，允许发挥	
 Barrier	屏障	可能过于严格，允许发挥	
 Bars	栏杆		
 Basalt	玄武岩		
-Basalt Deltas	玄武岩三角洲		
-Bastion	堡垒	可能过于严格，允许发挥	
+Bastion	堡垒	可能过于严格，允许发挥	结构词根；现行原版仅见于“Bastion Remnant”（堡垒遗迹），留作简称兜底
 Bastion Remnant	堡垒遗迹		
-Bat	蝙蝠		
-Beach	沙滩		
 Beacon	信标		
 Bed	床	可能过于严格，允许发挥	
 Bedrock	基岩		
-Bee	蜜蜂		
 Bee Nest	蜂巢		
 Beehive	蜂箱		
 Beetroot	甜菜根		
@@ -75,208 +51,140 @@ Beetroot Seeds	甜菜种子
 Beetroot Soup	甜菜汤		
 Berries	浆果	可能过于严格，允许发挥	
 Big Dripleaf Stem	大型垂滴叶茎		
-Biome	生物群系	可能过于严格，允许发挥	
-Birch	白桦		
-Birch Forest	桦木森林		
-Black	黑色	可能过于严格，允许发挥	
+Birch	白桦		常规作“白桦”；“Birch Forest”等群系特例省“白”作“桦木森林”（STYLE.md §3）
 Blackstone	黑石		
 Blast Furnace	高炉		
-Blast Protection	爆炸保护		
-Blastable	可冶炼		
-Blaze	烈焰人		
 Blaze Powder	烈焰粉		
 Blaze Rod	烈焰棒		
-Blindness	失明		
-Block Break Speed	方块破坏速度		
 Block Display	方块展示实体		
-Block Entity	方块实体		
-Block Interaction Range	方块交互距离		
-Blue	蓝色		
 Blue Ice	蓝冰		
 Blue Orchid	兰花		
 Boat	船		
 Boat with Chest	运输船		
-Bogged	沼骸		
-Bone	骨头		
+Bone	骨头		独立物品作“骨头”，合成制品减为“骨”（骨块、骨粉）
 Bone Block	骨块		
 Bone Meal	骨粉		
 Book	书	可能过于严格，允许发挥	
 Bookshelf	书架		
 Boots	靴子	可能过于严格，允许发挥	
-Bossbar	Boss栏	可能过于严格，允许发挥	
 Bottle	瓶	可能过于严格，允许发挥	
 Bottle o' Enchanting	附魔之瓶		
-Bottomless Pit	无底深渊		
-Bounciness	弹性		
 Brain Coral	脑纹珊瑚		
 Brain Coral Fan	脑纹珊瑚扇		
-Breach	破甲	可能过于严格，允许发挥	
-Breath of the Nautilus	鹦鹉螺之息		
-Breeze	旋风人		
 Breeze Rod	旋风棒	可能过于严格，允许发挥	
-Brewing	酿造	可能过于严格，允许发挥	
+Brewing	酿造	可能过于严格，允许发挥	词根原子；现行原版仅见于“Brewing Stand”（酿造台），留作复合词兜底
 Brewing Stand	酿造台		
-Brown	棕色	可能过于严格，允许发挥	
 Bubble	气泡	可能过于严格，允许发挥	
 Bubble Column	气泡柱		
 Bubble Coral	气泡珊瑚		
 Bubble Coral Fan	气泡珊瑚扇		
-Bud	芽	可能过于严格，允许发挥	
-Budding	母岩	可能过于严格，允许发挥	
+Bud	芽	可能过于严格，允许发挥	部位原子；现行仅见于“Amethyst Bud”（紫晶芽），注意与“Budding Amethyst”（紫水晶母岩）区分
+Budding	母岩	可能过于严格，允许发挥	修饰词原子；现行仅见于“Budding Amethyst”（紫水晶母岩）
 Budding Amethyst	紫水晶母岩		
 Bundle	收纳袋	可能过于严格，允许发挥	
-Buried Treasure	埋藏的宝藏		
+Buried Treasure	埋藏的宝藏		地物词组；现行原版仅见于“Buried Treasure Map”（藏宝图），留作结构本名对照
 Buried Treasure Map	藏宝图		
 Buried Trial Chambers Map	埋藏的试炼密室地图		
-Burning Time	着火时间		
-Bush	灌木|灌木丛	可能过于严格，允许发挥	
-Butcher	屠夫		
+Bush	灌木|灌木丛	可能过于严格，允许发挥	独立灌木用“灌木”；“|灌木丛”匹配 Firefly Bush 等（Rose/Sweet Berry Bush 减为“丛”）
 Button	按钮	可能过于严格，允许发挥	
 Cactus	仙人掌		
 Cake	蛋糕		
 Calcite	方解石		
 Calibrated	校频	可能过于严格，允许发挥	
-Camel	骆驼		
-Camel Husk	骆驼尸壳		
-Camera Distance	镜头距离		
 Campfire	营火		
 Candle	蜡烛		
-Cape	披风	可能过于严格，允许发挥	
-Carpet	地毯		
+Carpet	地毯		常规地毯；苔藓地毯“Moss Carpet”与苍白地毯意译为“覆地苔藓/苍白覆地苔藓”
 Carrot	胡萝卜	可能过于严格，允许发挥	
 Carrot on a Stick	胡萝卜钓竿		
-Cartographer	制图师		
-Cartography	制图	可能过于严格，允许发挥	
+Cartography	制图	可能过于严格，允许发挥	功能词根；现行原版仅见于“Cartography Table”（制图台），留作复合词兜底
 Cartography Table	制图台		
 Carved Pumpkin	雕刻南瓜		
-Cat	猫	可能过于严格，允许发挥	
-Catalyst	催发体	可能过于严格，允许发挥	
+Catalyst	催发体	可能过于严格，允许发挥	词根原子；现行原版仅见于“Sculk Catalyst”（幽匿催发体），留作复合词兜底
 Cauldron	炼药锅		
 Cave Air	洞穴空气		
-Cave Spider	洞穴蜘蛛		
 Cave Vines	洞穴藤蔓		
-Chain	链		
+Chain	链		仅用于铜/铁链类制品；独立方块“Chain”译“锁链”，命令方块模式译“连锁”（短变体易误伤）
 Chain Command Block	连锁型命令方块		
 Chainmail	锁链		
-Channeling	引雷	可能过于严格，允许发挥	
 Charcoal	木炭		
 Cherry	樱花	可能过于严格，允许发挥	
-Cherry Grove	樱花树林		
 Chest	箱子	可能过于严格，允许发挥	
 Chestplate	胸甲		
-Chicken	鸡	可能过于严格，允许发挥	
 Chipped Anvil	开裂的铁砧		
 Chiseled	雕纹	可能过于严格，允许发挥	
-Chorus	紫颂		
+Chorus	紫颂		材料词根；现行仅见于紫颂花/果/植株系列，留作词根兜底
 Chorus Flower	紫颂花		
 Chorus Fruit	紫颂果		
 Chorus Plant	紫颂植株		
-Chunk	区块	可能过于严格，允许发挥	
 Cinnabar	朱砂		
-City	城市|城	可能过于严格，允许发挥	
-Classic Flat	经典平坦		
+City	城市|城	可能过于严格，允许发挥	“城市”用于远古城市，“|城”用于末地城；音乐曲名不译
 Clay	黏土		
 Clay Ball	黏土球		
-Cleric	牧师		
 Clock	时钟		
 Closed Eyeblossom	闭合的眼眸花		
 Coal	煤炭		
 Coal Ore	煤矿石		
 Coarse Dirt	砂土		
-Cobbled	圆石	可能过于严格，允许发挥	
+Cobbled	圆石	可能过于严格，允许发挥	修饰词原子；现行原版仅见于“Cobbled Deepslate”（深板岩圆石），不作常规圆石前缀
 Cobbled Deepslate	深板岩圆石		
 Cobblestone	圆石		
 Cobweb	蜘蛛网		
 Cocoa	可可果		
 Cocoa Beans	可可豆		
-Cod	鳕鱼		
-Cold Ocean	冷水海洋		
 Command Block	命令方块		
 Comparator	比较器		
-Compass	指南针	可能过于严格，允许发挥	
-Component	组件	可能过于严格，允许发挥	
+Compass	指南针	可能过于严格，允许发挥	仅用于常规指南针；磁石指针（Lodestone Compass）与追溯指针用“指针”
 Composter	堆肥桶		
 Concrete	混凝土		
 Concrete Powder	混凝土粉末		
 Conduit	潮涌核心	可能过于严格，允许发挥	
-Conduit Power	潮涌能量		
-Cooked	熟	可能过于严格，允许发挥	
+Cooked	熟	可能过于严格，允许发挥	熟食前缀；单字“熟”仅限食材语境，避免误伤常规用语
 Cooked Rabbit	熟兔肉		
 Cookie	曲奇		
-Copper	铜		
+Copper	铜		常规金属前缀；氧化铜系列修饰词带“的”规则见 STYLE.md §2
 Copper Bulb	铜灯		
-Copper Golem	铜傀儡		
 Copper Golem Statue	铜傀儡像		
-Coral	珊瑚		
-Coral Fan	珊瑚扇		
-Coral Reef	珊瑚礁		
+Coral	珊瑚		类属词根；原版已按具体珊瑚整词收录，此条留作类属统称与复合前缀
+Coral Fan	珊瑚扇		部件词组；具体珊瑚扇整词已收，留作类属统称
+Coral Reef	珊瑚礁		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 Cornflower	矢车菊		
-Cow	牛	可能过于严格，允许发挥	
 Cracked	裂纹		
 Crafter	合成器	可能过于严格，允许发挥	
 Crafting Table	工作台		
-Creaking	嘎枝		
 Creaking Heart	嘎枝之心		
-Creeper	苦力怕	可能过于严格，允许发挥	
 Crimson	绯红		
-Crimson Forest	绯红森林		
 Crimson Fungus	绯红菌		
 Crimson Roots	绯红菌索		
 Crimson Stem	绯红菌柄		
 Crossbow	弩	可能过于严格，允许发挥	
 Crying Obsidian	哭泣的黑曜石		
-Curse	诅咒		
-Curse of Binding	绑定诅咒		
-Curse of Vanishing	消失诅咒		
+Curse	诅咒		词根原子；现行仅见于绑定/消失诅咒（附魔分表已收），留作通用词根
 Cushion	坐垫		
 Cut	切制	可能过于严格，允许发挥	
-Cyan	青色		
-Damage	伤害	可能过于严格，允许发挥	
 Damaged Anvil	损坏的铁砧		
 Dandelion	蒲公英		
-Dappled Forest	斑驳森林		
-Dark Forest	黑森林		
-Dark Oak	深色橡木|深色橡树		
+Dark Oak	深色橡木|深色橡树		单字树根复合词，按树叶/树苗用“树”、原木/制品用“木”选型（STYLE.md §3）
 Dark Prismarine	暗海晶石		
-Darkness	黑暗		
-Data	数据	可能过于严格，允许发挥	
-Data Pack	数据包		
 Daylight Detector	阳光探测器		
 Dead Bush	枯萎的灌木	可能过于严格，允许发挥	
 Debris	残骸	可能过于严格，允许发挥	
-Debug	调试		
-Debug Mode	调试模式		
 Debug Stick	调试棒		
-Decorated Pot	饰纹陶罐		来源：block.minecraft.decorated_pot
-Deep Cold Ocean	冷水深海		
-Deep Dark	深暗之域		
-Deep Frozen Ocean	冰冻深海		
-Deep Lukewarm Ocean	温水深海		
-Deep Ocean	深海		
-Deepslate	深板岩|深层		
+Decorated Pot	饰纹陶罐		来源：block.minecraft.decorated_pot；罐名用“陶罐”，区别于“陶片”（Pottery Sherd）
+Deepslate	深板岩|深层		作矿石定语用“深层”，其余方块与制品用“深板岩”（STYLE.md §2）
 Deepslate Tile	深板岩瓦		
 Deepslate Tiles	深板岩瓦		
-Deltas	三角洲		
-Density	致密	可能过于严格，允许发挥	
-Depth Strider	深海探索者		
-Desert	沙漠		
+Deltas	三角洲		群系词根；现行仅见于“Basalt Deltas”（玄武岩三角洲），留作地形词根
 Desert Pyramid	沙漠神殿		
-Desert Well	沙漠水井		
-Detector	探测器|探测		
+Desert Well	沙漠水井		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
+Detector	探测器|探测		功能词根（探测器|探测）；现行仅见于“Daylight Detector”（阳光探测器）与“Detector Rail”（探测铁轨）
 Detector Rail	探测铁轨		
 Diamond	钻石	可能过于严格，允许发挥	
-Dimension	维度		
 Diorite	闪长岩		
 Dirt	泥土	可能过于严格，允许发挥	
 Dirt Path	土径		
-Disc	唱片		
+Disc	唱片		简短词根；现行仅见于“Music Disc”与“Disc Fragment”，留作唱片类词根
 Disc Fragment	唱片残片		
-Disenchant	祛魔		
 Dispenser	发射器		
-Distance	距离	可能过于严格，允许发挥	
-Dolphin	海豚		
-Dolphin's Grace	海豚的恩惠		
-Donkey	驴	可能过于严格，允许发挥	
 Door	门		
 Dragon	龙	可能过于严格，允许发挥	
 Dragon Head	龙首		
@@ -284,236 +192,155 @@ Dragon's Breath	龙息
 Dried Ghast	失水恶魂		
 Dried Kelp	干海带		
 Dripleaf	垂滴叶		
-Dripstone	滴水石		
-Dripstone Caves	溶洞		
+Dripstone	滴水石		块与锥作“滴水石”，群系“Dripstone Caves”意译为“溶洞”
 Dropper	投掷器		
-Drowned	溺尸		
 Dry Grass	枯草丛	可能过于严格，允许发挥	
-Dungeon	地牢		
-Durability	耐久度	可能过于严格，允许发挥	
+Dungeon	地牢		不在 latest.tsv；源自 Wiki/官方 TBX 地物词条，现行原版仅见旧版自定义“Dungeon Count”
 Duration	时间	可能过于严格，允许发挥	
 Dye	染料		
 Echo	回响	可能过于严格，允许发挥	
 Echo Shard	回响碎片		
-Efficiency	效率		
 Egg	蛋	可能过于严格，允许发挥	
-Elder Guardian	远古守卫者		
 Elytra	鞘翅		
 Emerald	绿宝石		
 Empty Map	空地图		
 Enchanted	附魔	可能过于严格，允许发挥	
-Enchanter	附魔师		
 Enchanting Table	附魔台		
-Enchantment	魔咒	可能过于严格，允许发挥	
 End	末地	可能过于严格，允许发挥	
-End Barrens	末地荒地		
-End City	末地城		
+End City	末地城		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 End Crystal	末地水晶		
 End Gateway	末地折跃门		
-End Highlands	末地高地		
-End Midlands	末地内陆	可能过于严格，允许发挥	
 End Portal Frame	末地传送门框架		
 End Rod	末地烛		
 End Stone	末地石		
 End Stone Brick	末地石砖		
 Ender	末影	可能过于严格，允许发挥	
 Ender Chest	末影箱		
-Ender Dragon	末影龙		
 Ender Pearl	末影珍珠		
-Enderman	末影人		
-Endermite	末影螨		
-Entity	实体	可能过于严格，允许发挥	
-Entity Interaction Range	实体交互距离		
-Eroded	风蚀		
-Eroded Badlands	风蚀恶地		
-Evoker	唤魔者		
+Eroded	风蚀		群系修饰词原子；现行仅见于“Eroded Badlands”（风蚀恶地），留作地形词根
 Evoker Fangs	唤魔者尖牙		
 Experience Orb	经验球	可能过于严格，允许发挥	
-Explorer	探险家		
+Explorer	探险家		探险家地图等通用语境；陶片纹样“探险”见 special/terms-pottery.tsv
 Explorer Map	探险家地图		
-Explosion Knockback Resistance	爆炸击退抗性		
-Exposed	斑驳		
+Exposed	斑驳		铜氧化第一阶段前缀，直接修饰铜制品须带“的”（STYLE.md §2）；注意避开常规动词“暴露”
 Eye of Ender	末影之眼		
 Eyeblossom	眼眸花		
-Fall Damage Multiplier	摔落伤害倍数		
 Falling Block	下落的方块		
 Fangs	尖牙		
-Farmer	农民		
 Farmland	耕地		
 Feather	羽毛		
-Feather Falling	摔落缓冲	可能过于严格，允许发挥	
 Fence	栅栏		
 Fence Gate	栅栏门		
 Fermented Spider Eye	发酵蛛眼	可能过于严格，允许发挥	
 Fern	蕨	可能过于严格，允许发挥	
-Field of View	视场角	可能过于严格，允许发挥	
-Fire Aspect	火焰附加		
 Fire Charge	火焰弹		
 Fire Coral	火珊瑚		
 Fire Coral Fan	火珊瑚扇		
-Fire Protection	火焰保护		
-Fire Resistance	抗火		
-Fireball	火球		
-Firefly	萤火虫		
+Fireball	火球		通用与实体语境；字幕中对应“火焰弹”，见 special/terms-subtitles.tsv
+Firefly	萤火虫		生物词根；现行仅见于“Firefly Bush”（萤火虫灌木丛）
 Firefly Bush	萤火虫灌木丛		
-Firework	烟花|烟火		
+Firework	烟花|烟火		常规及火箭作“烟花”；“Firework Star”定名“烟火之星”，故留“|烟火”
 Firework Rocket	烟花火箭		
 Firework Star	烟火之星		
-Fisherman	渔夫		
 Fishing Bobber	浮漂	可能过于严格，允许发挥	
 Fishing Rod	钓鱼竿		
-Flame	火矢		
-Fletcher	制箭师		
-Fletching	制箭		
+Fletching	制箭		功能词根；现行原版仅见于“Fletching Table”（制箭台）
 Fletching Table	制箭台		
-Flint	燧石		
+Flint	燧石		仅用于独立物品燧石；“Flint and Steel”定名“打火石”
 Flint And Steel	打火石		
-Floating Islands	浮岛	可能过于严格，允许发挥	
 Flower	花	可能过于严格，允许发挥	
-Flower Forest	繁花森林		
 Flower Pot	花盆		
 Flowering	盛开的	可能过于严格，允许发挥	
-Flying Speed	飞行速度		
-Forest	森林	可能过于严格，允许发挥	
-Fortune	时运	可能过于严格，允许发挥	
-Fossil	化石		
-FOV	视场角	可能过于严格，允许发挥	
-Fox	狐狸		
-Friction Modifier	摩擦力修正系数		
-Friendly Fire	友军伤害		
-Frog	青蛙		
-Froglight	蛙明灯		
+Fossil	化石		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
+Froglight	蛙明灯		方块词根；三色蛙明灯整词已收，留作类属词根
 Frogspawn	青蛙卵		
-Frost Walker	冰霜行者		
 Frosted Ice	霜冰		
-Frozen Ocean	冻洋		
-Frozen Peaks	冰封山峰		
-Frozen River	冻河		
-Fruit	果	可能过于严格，允许发挥	
-Furnace	熔炉	可能过于严格，允许发挥	
-Geode	晶洞	可能过于严格，允许发挥	
-Ghast	恶魂		
+Fruit	果	可能过于严格，允许发挥	单字词根；现行仅见于紫颂果系列（勿滥用于 Berry 等果实）
+Furnace	熔炉	可能过于严格，允许发挥	常规熔炉；“Blast Furnace”为高炉，“Minecart with Furnace”为动力矿车
+Geode	晶洞	可能过于严格，允许发挥	不在 latest.tsv；源自“Amethyst Geode”简称，作晶洞类地物泛称
 Ghast Tear	恶魂之泪		
 Gilded	镶金	可能过于严格，允许发挥	
 Glass	玻璃	可能过于严格，允许发挥	
 Glass Bottle	玻璃瓶		
 Glass Pane	玻璃板		
-Glazed	带釉	可能过于严格，允许发挥	
+Glazed	带釉	可能过于严格，允许发挥	工艺修饰词；现行原版仅见于“Glazed Terracotta”（带釉陶瓦）
 Glazed Terracotta	带釉陶瓦		
-Glistering	闪烁的	可能过于严格，允许发挥	
+Glistering	闪烁的	可能过于严格，允许发挥	修饰词原子；现行原版仅见于“Glistering Melon Slice”（闪烁的西瓜片）
 Glistering Melon Slice	闪烁的西瓜片		
-Glow	荧光|发光	可能过于严格，允许发挥	
+Glow	荧光|发光	可能过于严格，允许发挥	“发光”（发光地衣/浆果/鱿鱼）与“荧光”（荧光墨囊/荧光物品展示框）两套官方译法并存
 Glow Berries	发光浆果		
-Glow Squid	发光鱿鱼		
-Glowing	发光		
 Glowstone	荧石		
 Glowstone Dust	荧石粉		
-Goat	山羊		
-Goat Horn	山羊角		
+Goat Horn	山羊角		物品语境；字幕“Goat Horn breaks off”译“山羊：断角”，见 special/terms-subtitles.tsv
 Gold	金		
 Golden	金		
 Golden Apple	金苹果		
-Golem	傀儡		
+Golem	傀儡		生物词根；傀儡类整词已入 mob 分表，此条留作雕塑与衍生词根
 Granite	花岗岩		
 Grass Block	草方块		
 Grate	格栅		
 Gravel	沙砾		
-Gravelly	沙砾		
-Gravity	重力		
-Gray	灰色		
-Green	绿色	可能过于严格，允许发挥	
+Gravelly	沙砾		群系修饰词原子；现行仅见于“Windswept Gravelly Hills”（风袭沙砾丘陵）
 Grindstone	砂轮	可能过于严格，允许发挥	
-Grove	雪林		
-Guardian	守卫者	可能过于严格，允许发挥	
 Gunpowder	火药		
-Hanging	悬挂式	可能过于严格，允许发挥	
+Hanging	悬挂式	可能过于严格，允许发挥	专用于悬挂式告示牌；“Hanging Roots”为垂根，“Pale Hanging Moss”为苍白垂须
 Hanging Roots	垂根		
-Happy Ghast	快乐恶魂		
-Hardcore	极限		
-Hardened	硬化		
+Hardened	硬化		不在 latest.tsv；源自官方 TBX 旧材“Hardened Clay”（硬化黏土）前缀
 Harness	挽具	可能过于严格，允许发挥	
-Haste	急迫		
 Hay Bale	干草捆		
-Health Boost	生命提升		
 Heart of the Sea	海洋之心		
 Heavy Core	沉重核心		
 Heavy Weighted Pressure Plate	重质测重压力板		
 Helmet	头盔	可能过于严格，允许发挥	
-Hero of the Village	村庄英雄		
-Highlands	高地	可能过于严格，允许发挥	
-Hills	丘陵		
-Hitboxes	判定箱		
+Highlands	高地	可能过于严格，允许发挥	群系词根；现行仅见于“End Highlands”（末地高地）
+Hills	丘陵		群系词根；现行仅见于风袭丘陵系列（biome 分表已收）
 Hoe	锄	可能过于严格，允许发挥	
-Hoglin	疣猪兽		
 Honey	蜂蜜	可能过于严格，允许发挥	
 Honeycomb	蜜脾		
 Hopper	漏斗	可能过于严格，允许发挥	
 Horn Coral	鹿角珊瑚		
 Horn Coral Fan	鹿角珊瑚扇		
-Horse	马	可能过于严格，允许发挥	
 Horse Armor	马铠		
-Horse Jump Strength	马匹跳跃能力		
 Hotbar	快捷栏		
-Hunger	饥饿		
-Husk	尸壳		
 Hyphae	菌核		
-Ice	冰	可能过于严格，允许发挥	
-Ice Spikes	冰刺之地	可能过于严格，允许发挥	
-Igloo	雪屋	可能过于严格，允许发挥	
-Illager	灾厄村民		
-Illusioner	幻术师		
-Impaling	穿刺		
-Infested	寄生|虫蚀	可能过于严格，允许发挥	
-Infinity	无限		
+Ice	冰	可能过于严格，允许发挥	冰类方块用语；遥测文本中的网络协议缩写“ICE”不译
+Igloo	雪屋	可能过于严格，允许发挥	不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
+Illager	灾厄村民		不在 latest.tsv；源自 Wiki/官方 TBX 灾厄阵营生物总称
+Infested	虫蚀	可能过于严格，允许发挥	方块修饰语（不加“的”，STYLE.md §2）；状态效果“寄生”见 terms-effect.tsv
 Ingot	锭	可能过于严格，允许发挥	
 Ink Sac	墨囊		
-Instant Damage	瞬间伤害		
-Instant Health	瞬间治疗		
-Invisibility	隐身		
-Invisible	隐形	可能过于严格，允许发挥	
 Iron	铁		
 Iron Bars	铁栏杆		
 Item Display	物品展示实体		
 Item Frame	物品展示框		
 Jack o'Lantern	南瓜灯		
-Jagged	尖峭	可能过于严格，允许发挥	
+Jagged	尖峭	可能过于严格，允许发挥	群系修饰词原子；现行仅见于“Jagged Peaks”（尖峭山峰）
 Jigsaw	拼图		
 Jigsaw Block	拼图方块		
 Jukebox	唱片机		
-Jump Boost	跳跃提升		
-Jump Strength	跳跃力度		
-Jungle	丛林		
+Jungle	丛林		通用与木材前缀；同名生物群系见 terms-biome.tsv（Bamboo Jungle 特例译“竹林”）
 Jungle Pyramid	丛林神庙		
 Jungle Temple	丛林神庙		
 Kelp	海带		
-Knockback	击退		
-Knockback Resistance	击退抗性		
 Knowledge Book	知识之书	可能过于严格，允许发挥	
 Ladder	梯子		
-LAN	局域网	可能过于严格，允许发挥	
 Lantern	灯笼	可能过于严格，允许发挥	
 Lapis	青金石		
 Lapis Lazuli	青金石		
-Large Biomes	巨型生物群系		
 Lava	熔岩		
-Lead	拴绳	可能过于严格，允许发挥	
+Lead	拴绳	可能过于严格，允许发挥	物品名拴绳；注意避开提示文本中的动词“导致”
 Leaf Litter	枯叶堆		
 Leaping	跳跃		
-Leash	缰绳	可能过于严格，允许发挥	
+Leash	缰绳	可能过于严格，允许发挥	实体词根；现行原版仅见于“Leash Knot”（拴绳结），常规物品名为 Lead（拴绳）
 Leash Knot	拴绳结		
 Leather	皮革	可能过于严格，允许发挥	
 Leather Cap	皮革帽子		
 Leather Pants	皮革裤子		
-Leatherworker	皮匠		
-Leaves	树叶	可能过于严格，允许发挥	
+Leaves	树叶	可能过于严格，允许发挥	植物树叶；字幕动词“离巢”见 special/terms-subtitles.tsv
 Lectern	讲台		
 Leggings	护腿		
 Lever	拉杆		
-Levitation	飘浮		
-Librarian	图书管理员		
 Lichen	地衣		
-Light Blue	淡蓝色		
-Light Gray	淡灰色		
 Light Weighted Pressure Plate	轻质测重压力板		
 Lightning	闪电	可能过于严格，允许发挥	
 Lightning Bolt	闪电束		
@@ -521,89 +348,55 @@ Lightning Rod	避雷针
 Lilac	丁香		
 Lily of the Valley	铃兰		
 Lily Pad	睡莲		
-Lime	黄绿色	可能过于严格，允许发挥	
-Lingering	滞留型|滞留		
-Llama	羊驼		
+Lingering	滞留型|滞留		滞留型药水加“型”；基础未附效“Lingering Potion”为“滞留药水”，故并列“|滞留”
 Llama Spit	羊驼唾沫		
 Lodestone	磁石		
 Lodestone Compass	磁石指针	可能过于严格，允许发挥	
-Log	原木	可能过于严格，允许发挥	
+Log	原木	可能过于严格，允许发挥	原木方块用语；注意避开报错与账号文本中的“日志/登录（log in）”
 Loom	织布机		
-Loot	战利品	可能过于严格，允许发挥	
-Looting	抢夺		
-Loyalty	忠诚		
-Luck of the Sea	海之眷顾		
-Lukewarm	温水	可能过于严格，允许发挥	
-Lukewarm Ocean	温水海洋		
-Lunge	突进		
-Lure	饵钓	可能过于严格，允许发挥	
-Lush Caves	繁茂洞穴		
+Lukewarm	温水	可能过于严格，允许发挥	群系温度词根；现行仅见于温水海洋/深海（biome 分表已收）
 Mace	重锤	可能过于严格，允许发挥	
-Magenta	品红色	可能过于严格，允许发挥	
 Magma	岩浆		
 Magma Cream	岩浆膏		
-Magma Cube	岩浆怪		
-Main Hand	主手		
 Mangrove	红树		
 Mangrove Roots	红树根		
-Mangrove Swamp	红树林沼泽		
 Mannequin	玩家模型		
-Mansion	府邸	可能过于严格，允许发挥	
+Mansion	府邸	可能过于严格，允许发挥	结构词根；现行仅见于“Woodland Mansion”（林地府邸）
 Map	地图		
 Marker	标记		
-Mason	石匠		
-Max Absorption	最大伤害吸收值		
-Max Health	最大生命值		
-Meadow	草甸		
 Melon	西瓜	可能过于严格，允许发挥	
 Melon Slice	西瓜片		
 Melon Stem	西瓜茎		
-Mending	经验修补		
-Mesa	平顶山	可能过于严格，允许发挥	
-Midlands	内陆	可能过于严格，允许发挥	
-Milk	奶	可能过于严格，允许发挥	
+Mesa	平顶山	可能过于严格，允许发挥	不在 latest.tsv；源自官方 TBX 旧群系名，现行原版已改为 Badlands（恶地）
+Midlands	内陆	可能过于严格，允许发挥	群系词根；现行仅见于“End Midlands”（末地内陆）
+Milk	奶	可能过于严格，允许发挥	原版固定作“奶”（奶桶、喝奶），不译“牛奶”（STYLE.md §4）
 Minecart	矿车		
-Minecart with Chest	运输矿车		
-Minecart with Furnace	动力矿车		
-Minecart with Spawner	刷怪笼矿车		
-Minecart with TNT	TNT矿车		
+Minecart with Chest	运输矿车		载体矿车例外：减“箱”译“运输矿车”（STYLE.md §5）
+Minecart with Furnace	动力矿车		载体矿车例外：按功能译“动力矿车”，不直译“熔炉矿车”
+Minecart with Spawner	刷怪笼矿车		不在 latest.tsv；1.19.2 及更早旧英文名，现行原版为“Minecart with Monster Spawner”（Wiki/TBX 仍留旧名）
+Minecart with TNT	TNT矿车		载体矿车例外：按“<X>矿车”译“TNT矿车”，中西文间不加空格（STYLE.md §5、§8）
 Mineshaft	废弃矿井	可能过于严格，允许发挥	
-Mining Efficiency	挖掘效率		
-Mining Fatigue	挖掘疲劳		
-Mob Follow Range	生物跟随距离		
-Mob Tempt Range	生物引诱范围		
-Modifier	修正系数	可能过于严格，允许发挥	
 Monster Spawner	刷怪笼		
-Mooshroom	哞菇		
 Mosaic	马赛克		
-Moss	苔藓	可能过于严格，允许发挥	
+Moss	苔藓	可能过于严格，允许发挥	普通苔藓与苔藓块；“Moss Carpet”译“覆地苔藓”，“Pale Hanging Moss”译“苍白垂须”
 Moss Carpet	覆地苔藓	可能过于严格，允许发挥	
 Mossy Cobblestone	苔石		
-Mossy Cobblestone Boulder	生苔的巨石		
+Mossy Cobblestone Boulder	生苔的巨石		不在 latest.tsv；源自 Wiki/官方 TBX 地物词条
 Mossy Stone Brick	苔石砖		
 Mossy Stone Bricks	苔石砖		
-Mountains	山地		
-Movement Efficiency	移动效率		
-Moving Block	移动的方块		
+Mountains	山地		不在 latest.tsv；1.16.5 等旧版群系名，现行仅见于 Wiki/官方 TBX
+Moving Block	移动的方块		不在 latest.tsv；源自 Wiki/官方 TBX 技术方块词条
 Moving Piston	移动的活塞		
-Mud	泥巴		
+Mud	泥巴		独立泥巴方块；“Mud Bricks”减字为“泥砖”（STYLE.md §4）
 Mud Brick	泥砖		
 Muddy Mangrove Roots	沾泥的红树根		
-Mule	骡	可能过于严格，允许发挥	
-Multishot	多重射击		
 Mushroom	蘑菇	可能过于严格，允许发挥	
-Mushroom Fields	蘑菇岛		
 Mushroom Stem	蘑菇柄		
 Mushroom Stew	蘑菇煲		
-Music Disc	音乐唱片|唱片		
+Music Disc	音乐唱片|唱片		物品与常规引用用“音乐唱片”；“Disc Fragment”等减为“唱片”
 Mutton	羊肉		
 Mycelium	菌丝		
 Name Tag	命名牌		
-Name Tag Distance	名牌距离		
-Name Tag Score Distance	名牌分数距离		
-Nametag	名称标签	可能过于严格，允许发挥	
-Nausea	反胃		
-Nautilus	鹦鹉螺		
 Nautilus Armor	鹦鹉螺铠		
 Nautilus Shell	鹦鹉螺壳		
 Nether	下界		
@@ -612,102 +405,71 @@ Nether Fortress	下界要塞
 Nether Sprouts	下界苗		
 Nether Star	下界之星		
 Nether Wart	下界疣		
-Nether Wastes	下界荒地		
 Netherite	下界合金		
 Netherite Scrap	下界合金碎片		
 Netherite Upgrade	下界合金升级		
 Netherrack	下界岩		
-Night Vision	夜视		
-Nitwit	傻子		
 Note Block	音符盒		
 NPC	NPC	不译专名	
 Nugget	粒	可能过于严格，允许发挥	
 Nylium	菌岩		
-Oak	橡木|橡树		
-Objective	记分项	可能过于严格，允许发挥	
+Oak	橡木|橡树		单字树根，按树叶/树苗用“橡树”、原木/制品用“橡木”选型（STYLE.md §3）
 Observer	侦测器		
 Obsidian	黑曜石		
-Ocean	海洋		
 Ocean Monument	海底神殿		
-Ocean Ruins	海底废墟		
-Ocelot	豹猫		
-Ochre	赭黄	可能过于严格，允许发挥	
+Ocean Ruins	海底废墟		结构词组；现行仅见于“Warm Ocean Ruins Map”，留作海底废墟类属词根
+Ochre	赭黄	可能过于严格，允许发挥	颜色词根；现行仅见于“Ochre Froglight”（赭黄蛙明灯）
 Ochre Froglight	赭黄蛙明灯		
-Off Hand	副手		
-Old Growth	原始		
-Old Growth Pine Taiga	原始松木针叶林		
+Old Growth	原始		群系修饰词；现行仅见于原始森林/针叶林系列（biome 分表已收）
 Ominous	不祥		
 Ominous Item Spawner	不祥之物生成器		
-Oozing	渗浆	可能过于严格，允许发挥	
 Open Eyeblossom	张开的眼眸花		
-Orange	橙色	可能过于严格，允许发挥	
 Ore	矿石	可能过于严格，允许发挥	
-Ore Vein	矿脉		
-Outpost	前哨站		
-Overworld	主世界		
+Ore Vein	矿脉		不在 latest.tsv；源自 Wiki/官方 TBX 地形特征词条
+Outpost	前哨站		不在 latest.tsv；源自 Wiki 结构词条（如 Pillager Outpost）的共享词根
 Oxeye Daisy	滨菊		
-Oxidized	氧化		
-Oxygen Bonus	额外氧气		
-Pack	包	可能过于严格，允许发挥	
+Oxidized	氧化		铜氧化最终阶段前缀，直接修饰铜制品须带“的”（STYLE.md §2）
 Packed Ice	浮冰		
 Packed Mud	泥坯		
-Pale	苍白	可能过于严格，允许发挥	
-Pale Garden	苍白之园	可能过于严格，允许发挥	
+Pale	苍白	可能过于严格，允许发挥	“苍白”系方块前缀；旗帜纹章“Per Pale”为半幅几何术语（见 STYLE.md §6），非颜色词
 Pale Hanging Moss	苍白垂须		
-Pale Oak	苍白橡木|苍白橡树		
-Panda	熊猫		
-Parched	焦骸		
-Parrot	鹦鹉		
-Particle	粒子		
-Peaks	山峰		
-Pearl	珍珠	可能过于严格，允许发挥	
-Pearlescent	珠光		
+Pale Oak	苍白橡木|苍白橡树		单字树根复合词，按树叶/树苗用“树”、原木/制品用“木”选型（STYLE.md §3）
+Peaks	山峰		群系词根；现行仅见于三类山峰群系（biome 分表已收）
+Pearl	珍珠	可能过于严格，允许发挥	物品词根；现行仅见于“Ender Pearl”（末影珍珠）
+Pearlescent	珠光		颜色词根；现行仅见于“Pearlescent Froglight”（珠光蛙明灯）
 Pearlescent Froglight	珠光蛙明灯		
 Peony	牡丹		
-Petrified	石化	可能过于严格，允许发挥	
+Petrified	石化	可能过于严格，允许发挥	方块“Petrified Oak Slab”作“石化”；字幕“Copper Golem is petrified”意译“固定”
 Petrified Oak	石化橡木		
-Phantom	幻翼	可能过于严格，允许发挥	
 Phantom Membrane	幻翼膜		
 Pickaxe	镐	可能过于严格，允许发挥	
-Piercing	穿透	可能过于严格，允许发挥	
-Pig	猪	可能过于严格，允许发挥	
-Piglin	猪灵		
-Piglin Brute	猪灵蛮兵		
-Pillager	掠夺者		
-Pine	松木		
-Pink	粉红色	可能过于严格，允许发挥	
+Pine	松木		树种词根；现行仅见于“Old Growth Pine Taiga”（原始松木针叶林）
 Pink Petals	粉红色花簇		
 Piston	活塞		
 Piston Head	活塞头		
 Pitcher	瓶子草		
 Pitcher Plant	瓶子草		
 Pitcher Pod	瓶子草荚果		
-Plains	平原		
-Planks	木板	可能过于严格，允许发挥	
-Plant	植株		
-Plateau	高原		
+Planks	木板	可能过于严格，允许发挥	木板通名；特例“Bamboo Planks”减为“竹板”（STYLE.md §3）
+Plant	植株		仅用于植物植株（如 Pitcher Plant 瓶子草除外、Chorus Plant 紫颂植株），注意避开动词“种植”
+Plateau	高原		群系词根；现行仅见于“Savanna Plateau”（热带高原）
 Podzol	灰化土		
-Point of Interest	兴趣点	可能过于严格，允许发挥	
 Pointed Dripstone	滴水石锥		
-Poison	中毒|剧毒		
 Poisonous Potato	毒马铃薯		
-Polar Bear	北极熊		
 Polished	磨制		
-Poplar	杨木|杨树		
+Poplar	杨木|杨树		26.3 新树种，单字树根按语境补“木”或“树”（STYLE.md §3）
 Popped Chorus Fruit	爆裂紫颂果		
 Poppy	虞美人		
 Porkchop	猪排		
 Portal	传送门		
 Potato	马铃薯	可能过于严格，允许发挥	
-Potent	烈性	可能过于严格，允许发挥	
+Potent	烈性	可能过于严格，允许发挥	修饰词原子；现行仅见于“Potent Sulfur”（烈性硫黄）
 Potent Sulfur	烈性硫黄		
 Potion	药水	可能过于严格，允许发挥	
 Potted	盆栽		
-Pottery Sherds	陶片		
+Pottery Sherds	陶片		仅见于进度描述复数（译“陶片”）；单数纹样陶片词条见 special/terms-pottery.tsv
 Powder Snow	细雪		
-Power	力量		
 Powered Rail	动力铁轨		
-Predicate	谓词		
 Pressure Plate	压力板		
 Primary Power	主效果		
 Primed TNT	被激活的TNT		
@@ -716,28 +478,20 @@ Prismarine Crystals	海晶砂粒
 Prismarine Shard	海晶碎片		
 Projectile	弹射物	可能过于严格，允许发挥	
 Propagule	胎生苗		
-Protection	保护	可能过于严格，允许发挥	
-Pufferfish	河豚		
+Pufferfish	河豚		物品与食材语境；同名生物见 terms-mob.tsv
 Pumpkin	南瓜	可能过于严格，允许发挥	
 Pumpkin Pie	南瓜派		
 Pumpkin Stem	南瓜茎		
-Punch	冲击	可能过于严格，允许发挥	
-Purple	紫色		
 Purpur	紫珀		
 Purpur Pillar	紫珀柱		
 Quartz	石英		
 Quartz Pillar	石英柱		
-Quick Charge	快速装填		
-Quill	笔		
-Rabbit	兔子		
+Quill	笔		专用于“Book and Quill → 书与笔”，非独立词
 Rabbit Hide	兔子皮		
 Rabbit Stew	兔肉煲		
 Rabbit's Foot	兔子脚		
-Raid	袭击		
-Raid Omen	袭击之兆		
-Raider	袭击者		
+Raider	袭击者		不在 latest.tsv；源自官方 TBX 袭击阵营生物总称
 Rail	铁轨	可能过于严格，允许发挥	
-Ravager	劫掠兽		
 Raw Beef	生牛肉		
 Raw Chicken	生鸡肉		
 Raw Cod	生鳕鱼		
@@ -748,51 +502,34 @@ Raw Mutton	生羊肉
 Raw Porkchop	生猪排		
 Raw Rabbit	生兔肉		
 Raw Salmon	生鲑鱼		
-Recipe Book	配方书		
 Recovery Compass	追溯指针		
-Red	红色	可能过于严格，允许发挥	
 Red Sand	红沙		
 Red Sandstone	红砂岩		
 Red Shrub	红灌木		
 Redstone	红石		
 Redstone Dust	红石粉		
 Redstone Lamp	红石灯		
-Redstone Ready	红石俱备		
 Redstone Wire	红石线		
-Regeneration	生命恢复|再生		
-Reinforced	强化	可能过于严格，允许发挥	
+Reinforced	强化	可能过于严格，允许发挥	修饰词原子；现行仅见于“Reinforced Deepslate”（强化深板岩）
 Reinforced Deepslate	强化深板岩		
 Repeater	中继器		
 Repeating Command Block	循环型命令方块		
 Resin	树脂		
 Resin Clump	树脂团		
-Resistance	抗性提升		
-Resource	资源	可能过于严格，允许发挥	
-Resource Pack	资源包		
-Respawn	重生		
 Respawn Anchor	重生锚		
 Respawn Point	重生点		
-Respiration	水下呼吸		
-Riptide	激流		
-River	河流		
-Rocket	火箭	可能过于严格，允许发挥	
+Rocket	火箭	可能过于严格，允许发挥	物品词根；现行仅见于“Firework Rocket”（烟花火箭）
 Rooted Dirt	缠根泥土		
 Rose	玫瑰	可能过于严格，允许发挥	
 Rotten Flesh	腐肉		
-Ruby	红宝石		
-Ruined Portal	废弃传送门		
-Ruins	废墟	可能过于严格，允许发挥	
+Ruby	红宝石		不在 latest.tsv；源自官方 TBX 及衍生作/早期废案物品
+Ruined Portal	废弃传送门		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
+Ruins	废墟	可能过于严格，允许发挥	结构词根；现行仅见于“Ocean Ruins”及暖水海底废墟地图
 Saddle	鞍	可能过于严格，允许发挥	
-Safe Fall Distance	安全摔落高度		
-Salmon	鲑鱼		
-Sand	沙子	可能过于严格，允许发挥	
+Sand	沙子	可能过于严格，允许发挥	普通沙子与可疑的沙子用“沙子”；红沙、灵魂沙减字为“沙”
 Sandstone	砂岩		
 Sapling	树苗		
-Saturation	饱和		
-Savanna	热带草原		
-Savanna Plateau	热带高原		
 Scaffolding	脚手架		
-Scoreboard	计分板		
 Sculk	幽匿		
 Sculk Catalyst	幽匿催发体		
 Sculk Sensor	幽匿感测体	可能过于严格，允许发挥	
@@ -804,250 +541,155 @@ Sea Pickle	海泡菜
 Seagrass	海草		
 Secondary Power	辅助效果		
 Seeds	种子	可能过于严格，允许发挥	
-Sensor	感测体	可能过于严格，允许发挥	
-Shader	着色器	可能过于严格，允许发挥	
-Shard	碎片	可能过于严格，允许发挥	
-Sharpness	锋利		
+Sensor	感测体	可能过于严格，允许发挥	器件词根；现行仅见于“Sculk Sensor”（幽匿感测体）及其校频变体
+Shard	碎片	可能过于严格，允许发挥	仅用于紫水晶碎片、海晶碎片等常规碎片；陶片旧键“Pottery Shard”见 special/terms-pottery.tsv
 Shears	剪刀		
-Sheep	绵羊		
-Shelf	展示架	可能过于严格，允许发挥	
+Shelf	展示架	可能过于严格，允许发挥	木质展示架系列用语；“Shelf Mushroom”固定译“层孔菇”
 Shelf Mushroom	层孔菇		
-Shepherd	牧羊人		
 Shield	盾牌	可能过于严格，允许发挥	
-Shipwreck	沉船		
+Shipwreck	沉船		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 Short Grass	矮草丛		
 Shovel	锹	可能过于严格，允许发挥	
-Shrieker	尖啸体		
+Shrieker	尖啸体		器件词根；现行仅见于“Sculk Shrieker”（幽匿尖啸体）
 Shroomlight	菌光体		
-Shulker	潜影贝		
 Shulker Box	潜影盒		
 Shulker Bullet	潜影弹		
 Shulker Shell	潜影壳		
-Sign	告示牌	可能过于严格，允许发挥	
-Silk Touch	精准采集		
-Silverfish	蠹虫		
-Single Biome	单一生物群系		
-Skeleton	骷髅		
-Skeleton Horse	骷髅马		
-Skull	头颅		
+Sign	告示牌	可能过于严格，允许发挥	告示牌方块用语；注意避开书与笔界面的动词“署名（Sign）”
+Skull	头颅		头颅物品与方块；陶片纹样见 special/terms-pottery.tsv（Wither Skull 弹射物译“凋灵之首”）
 Slab	台阶	可能过于严格，允许发挥	
-Slime	史莱姆		
+Slime	黏液		材料词根；现行仅见于黏液块/黏液球，同名生物译“史莱姆”（见 terms-mob.tsv）
 Slime Block	黏液块		
 Slimeball	黏液球		
-Slot	槽位	可能过于严格，允许发挥	
-Slow Falling	缓降		
-Slowness	缓慢|迟缓		
-Small End Islands	末地小型岛屿		
-Smite	亡灵杀手		
 Smithing	锻造	可能过于严格，允许发挥	
 Smithing Table	锻造台		
 Smithing Template	锻造模板		
 Smoker	烟熏炉		
 Smooth	平滑		
 Sneak	潜行		
-Sneaking Speed	潜行速度		
-Sniffer	嗅探兽		
 Sniffer Egg	嗅探兽蛋		
 Snow	雪	可能过于严格，允许发挥	
-Snow Golem	雪傀儡		
 Snowball	雪球		
-Snowy	积雪	可能过于严格，允许发挥	
-Snowy Beach	积雪沙滩	可能过于严格，允许发挥	
-Snowy Kingdom	雪之王国		
-Snowy Plains	雪原	可能过于严格，允许发挥	
-Snowy Slopes	积雪山坡	可能过于严格，允许发挥	
-Snowy Taiga	积雪针叶林	可能过于严格，允许发挥	
+Snowy	积雪	可能过于严格，允许发挥	群系修饰词原子；现行去“的”作“积雪”（特例 Snowy Plains 译“雪原”，旧版“积雪的”见 terms-version.tsv）
 Snowy Village Map	雪原村庄地图		
 Soul	灵魂	可能过于严格，允许发挥	
 Soul Fire	灵魂火		
 Soul Lantern	灵魂灯笼		
 Soul Sand	灵魂沙		
-Soul Sand Valley	灵魂沙峡谷		
 Soul Soil	灵魂土		
-Soul Speed	灵魂疾行		
-Soup	汤	可能过于严格，允许发挥	
-Sparse	稀疏的	可能过于严格，允许发挥	
-Sparse Jungle	稀疏丛林		
+Soup	汤	可能过于严格，允许发挥	单字词根；现行原版仅见于“Beetroot Soup”（甜菜汤），其余炖类用 Stew
+Sparse	稀疏的	可能过于严格，允许发挥	群系修饰词原子；现行仅见于“Sparse Jungle”（稀疏丛林）
 Spawn Egg	刷怪蛋		
-Spawn Point	出生点		
-Spawner	刷怪笼|生成器		
+Spawner	刷怪笼|生成器		常规与试炼刷怪笼用“刷怪笼”；“Ominous Item Spawner”译“不祥之物生成器”，故并列“|生成器”
 Spear	矛	可能过于严格，允许发挥	
-Spectate	旁观	可能过于严格，允许发挥	
-Spectator	旁观者	可能过于严格，允许发挥	
-Spectator Mode	旁观模式		
 Spectral Arrow	光灵箭		
-Speed	迅捷|速度		
-Spider	蜘蛛		
 Spider Eye	蜘蛛眼		
 Spike	尖锥		
-Splash	喷溅型|喷溅		
-Splashing	喷溅		
+Splash	喷溅型|喷溅		喷溅型药水加“型”；基础“Splash Potion”与“Arrow of Splashing”用短形式“喷溅”，注意避开“闪烁标语（Splash Texts）”
 Sponge	海绵		
-Spooky Scary Skeleton	惊悚恐怖骷髅头		
-Spore	孢子		
+Spore	孢子		植物词根；现行原版仅见于“Spore Blossom”（孢子花）
 Spore Blossom	孢子花		
-Sprint	疾跑		
 Spruce	云杉		
 Spyglass	望远镜		
-Squid	鱿鱼		
-Stained	染色	可能过于严格，允许发挥	
+Stained	染色	可能过于严格，允许发挥	工艺修饰词；现行原版仅见于染色玻璃/玻璃板
 Stained Glass	染色玻璃		
 Stained Glass Pane	染色玻璃板		
 Stairs	楼梯		
 Stalactite	钟乳石		
 Stalagmite	石笋		
 Steak	牛排		
-Stem	菌柄		
-Step Height	最大行走高度		
-Stick	木棍	可能过于严格，允许发挥	
+Stem	菌柄		部件词根；仅幽匿/下界菌类作“菌柄”（STYLE.md §3），瓜果与垂滴叶茎作“茎”，蘑菇茎作“蘑菇柄”
+Stick	木棍	可能过于严格，允许发挥	独立木棍物品；“Carrot/Warped Fungus on a Stick”译“钓竿”，“Debug Stick”译“调试棒”
 Sticky	黏性		
 Stone Brick	石砖		
 Stone Bricks	石砖		
 Stonecutter	切石机		
-Stony Peaks	裸岩山峰		
-Stony Shore	石岸		
 Straw Bed	麦秆床		
-Stray	流浪者		
-Strength	力量		
-Strider	炽足兽		
-Stripped	去皮		
-Stronghold	要塞		
+Stripped	去皮		去皮原木/竹块前缀，不加“的”（STYLE.md §2）；注意避开报错中的“截断（stripped）”
+Stronghold	要塞		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 Structure Block	结构方块		
 Structure Void	结构空位		
-Submerged Mining Speed	水下挖掘速度		
-Sugar	糖	可能过于严格，允许发挥	
+Sugar	糖	可能过于严格，允许发挥	糖物品；“Sugar Cane”固定译“甘蔗”
 Sugar Cane	甘蔗		
-Sulfur	硫黄	可能过于严格，允许发挥	
-Sulfur Caves	硫黄洞穴		
-Sulfur Cube	硫方怪		
+Sulfur	硫黄	可能过于严格，允许发挥	官方定名用“硫黄”（非“硫磺”）；衍生生物“Sulfur Cube”减字为“硫方怪”（见 terms-mob.tsv）
 Sunflower	向日葵		
-Superflat	超平坦		
-Suspicious	可疑的		
+Suspicious	可疑的		修饰沙子/沙砾须带“的”；特例“Suspicious Stew”译“谜之炖菜”（STYLE.md §2）
 Suspicious Stew	谜之炖菜		
-Swamp	沼泽		
 Swamp Hut	沼泽小屋		
-Sweeping Damage Ratio	横扫伤害比率		
-Sweeping Edge	横扫之刃		
 Sweet Berries	甜浆果		
 Sweet Berry Bush	甜浆果丛		
-Swift Sneak	迅捷潜行		
 Swiftness	迅捷		
 Sword	剑	可能过于严格，允许发挥	
-Tadpole	蝌蚪		
-Taiga	针叶林		
 Tall Grass	高草丛		
-Template	模板	可能过于严格，允许发挥	
 Terracotta	陶瓦	可能过于严格，允许发挥	
 Text Display	文本展示实体		
-The End	末地	可能过于严格，允许发挥	
-The Killer Bunny	杀手兔		
-Thorns	荆棘		
 Thrown	掷出的		
-Thunderstorm	雷暴		
+Thunderstorm	雷暴		不在 latest.tsv；源自 Wiki/官方 TBX 天气词条
 Tinted Glass	遮光玻璃	可能过于严格，允许发挥	
-Tipped Arrow	药箭		
+Tipped Arrow	药箭		药箭总称例外，不套用“<效果>之箭”体例（STYLE.md §5）
 TNT	TNT	不译专名	
-Toolsmith	工具匠		
 Torch	火把		
 Torchflower	火把花		
 Totem	图腾		
 Totem of Undying	不死图腾		
 Trader	商人	可能过于严格，允许发挥	
-Trader Llama	行商羊驼	可能过于严格，允许发挥	
 Trapdoor	活板门		
 Trapped Chest	陷阱箱		
-Trial	试炼		
+Trial	试炼		试炼密室/刷怪笼用语；注意避开 Realms 提示中的“试用（trial）”
 Trial Chamber	试炼密室		
 Trial Key	试炼钥匙	可能过于严格，允许发挥	
-Trial Omen	试炼之兆		
 Trident	三叉戟		
 Tripwire	绊线		
 Tripwire Hook	绊线钩		
-Tropical Fish	热带鱼		
+Tropical Fish	热带鱼		物品与食材语境；生物及种名分表见 terms-mob.tsv、special/terms-tropical_fish.tsv
 Tube Coral	管珊瑚		
 Tube Coral Fan	管珊瑚扇		
 Tuff	凝灰岩		
 Tulip	郁金香		
-Tundra	冻原		
+Tundra	冻原		不在 latest.tsv；1.16.5 等旧版群系名（如 Snowy Tundra），现仅见于 Wiki/官方 TBX
 Tunic	外套		
-Tunnelers' Dream	挖掘工的梦想		
-Turtle	海龟	可能过于严格，允许发挥	
 Turtle Master	神龟		
 Turtle Shell	海龟壳		
 Twinkle	闪烁		
-Twisting	缠怨		
-Twisting Vine	缠怨藤		
+Twisting	缠怨		植物修饰词；现行原版仅见于“Twisting Vines”（缠怨藤）系列
+Twisting Vine	缠怨藤		不在 latest.tsv（游戏内为复数 Twisting Vines）；源自官方 TBX 单数形式
 Twisting Vines	缠怨藤		
-Unbreaking	耐久		
-Uncraftable	不可合成的	可能过于严格，允许发挥	
+Uncraftable	不可合成的	可能过于严格，允许发挥	未合成药水/药箭例外定名（STYLE.md §5）
 Vault	宝库	可能过于严格，允许发挥	
-Verdant	青翠	可能过于严格，允许发挥	
+Verdant	青翠	可能过于严格，允许发挥	颜色词根；现行仅见于“Verdant Froglight”（青翠蛙明灯）
 Verdant Froglight	青翠蛙明灯		
-Vex	恼鬼		
 Village	村庄		
-Villager	村民		
-Vindicator	卫道士		
-Vine	藤蔓	可能过于严格，允许发挥	
-Void	虚空	可能过于严格，允许发挥	
+Vine	藤蔓	可能过于严格，允许发挥	游戏内方块为复数“Vines”；缠怨藤/垂泪藤单数见对应 Wiki 词条
+Void	虚空	可能过于严格，允许发挥	概念词根；用于“Void Air”与“The Void”（biome 分表），注意“Structure Void”译“结构空位”
 Void Air	虚空空气		
-VSync	垂直同步		
-Wandering Trader	流浪商人		
-Warden	监守者		
-Warm Ocean	暖水海洋		
 Warm Ocean Ruins Map	暖水海底废墟地图		
 Warped	诡异		
-Warped Forest	诡异森林		
 Warped Fungus	诡异菌		
 Warped Fungus on a Stick	诡异菌钓竿		
 Warped Roots	诡异菌索		
 Warped Stem	诡异菌柄		
 Warped Wart Block	诡异疣块		
 Water	水	可能过于严格，允许发挥	
-Water Breathing	水下呼吸|水肺		
-Water Movement Efficiency	水中移动效率		
-Water World	水世界		
-Waxed	涂蜡		
-Waypoint Receive Range	路径点接收距离		
-Waypoint Transmit Range	路径点传输距离		
-Weakness	虚弱		
-Weaponsmith	武器匠		
-Weathered	锈蚀	可能过于严格，允许发挥	
-Weaving	盘丝	可能过于严格，允许发挥	
-Weeping	垂泪	可能过于严格，允许发挥	
-Weeping Vine	垂泪藤		
+Waxed	涂蜡		涂蜡前缀；外层叠加氧化词时可省“的”（STYLE.md §2）
+Weathered	锈蚀	可能过于严格，允许发挥	铜氧化第二阶段前缀，直接修饰铜制品须带“的”（STYLE.md §2）
+Weeping	垂泪	可能过于严格，允许发挥	植物修饰词；现行原版仅见于“Weeping Vines”（垂泪藤）系列
+Weeping Vine	垂泪藤		不在 latest.tsv（游戏内为复数 Weeping Vines）；源自官方 TBX 单数形式
 Weeping Vines	垂泪藤		
-Weighted Pressure Plate	测重压力板		
+Weighted Pressure Plate	测重压力板		器件词组；现行仅见于轻质/重质测重压力板，留作共享词根
 Wet Sponge	湿海绵		
 Wheat	小麦		
-White	白色		
 Wildflowers	野花簇		
 Wind	风	可能过于严格，允许发挥	
-Wind Burst	风爆		
 Wind Charge	风弹		
-Wind Charged	蓄风		
-Windswept	风袭	可能过于严格，允许发挥	
-Windswept Gravelly Hills	风袭沙砾丘陵		
-Witch	女巫	可能过于严格，允许发挥	
-Witch Hut	女巫小屋	可能过于严格，允许发挥	
-Wither	凋灵|凋零		
+Windswept	风袭	可能过于严格，允许发挥	群系修饰词原子；现行仅见于风袭类群系（biome 分表已收）
+Witch Hut	女巫小屋	可能过于严格，允许发挥	不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 Wither Rose	凋灵玫瑰		
-Wither Skeleton	凋灵骷髅		
 Wither Skull	凋灵之首	可能过于严格，允许发挥	
-Wolf	狼	可能过于严格，允许发挥	
 Wolf Armor	狼铠		
-Wooded	繁茂的		
-Wooded Badlands	疏林恶地	可能过于严格，允许发挥	
+Wooded	繁茂的		旧群系修饰词原子；1.16.5“Wooded Mountains”作“繁茂的山地”，现行仅存“Wooded Badlands”（疏林恶地）
 Woodland	林地		
 Woodland Mansion	林地府邸		
 Wool	羊毛	可能过于严格，允许发挥	
-World Border	世界边界		
-Wraith	幽灵		
+Wraith	幽灵		不在 latest.tsv；源自官方 TBX/衍生作生物词条
 Written Book	成书		
-Yellow	黄色		
-Zoglin	僵尸疣猪兽		
-Zombie	僵尸		
-Zombie Horse	僵尸马		
-Zombie Reinforcements	僵尸增援		
-Zombie Villager	僵尸村民		
-Zombified	僵尸	可能过于严格，允许发挥	
-Zombified Piglin	僵尸猪灵		
+Zombified	僵尸	可能过于严格，允许发挥	修饰词原子；现行原版仅见于“Zombified Piglin”（mob 分表已收），留作复合词兜底且译“僵尸”不加“化”

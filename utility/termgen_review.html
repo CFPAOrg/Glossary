@@ -11,11 +11,18 @@ body{margin:0;padding:16px;font:14px/1.5 -apple-system,"Segoe UI","Microsoft YaH
 h1{font-size:18px;margin:0 0 4px}
 .sub{color:var(--muted);margin:0 0 14px}
 .sub code{background:#eaeef2;padding:1px 4px;border-radius:4px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.card{background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px 12px}
-.card h2{font-size:13px;margin:0 0 6px;display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted);font-weight:600}
+.grid{display:grid;grid-template-columns:1.15fr .85fr;gap:12px}
+.card{background:var(--bg);border:1px solid var(--bd);border-radius:8px;padding:10px 12px;display:flex;flex-direction:column}
+.card h2{font-size:13px;margin:0 0 8px;display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted);font-weight:600}
+.tabs{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.tab{font:12px inherit;padding:3px 8px;border:1px solid var(--bd);border-radius:6px;background:#f6f8fa;color:var(--muted);cursor:pointer;display:inline-flex;align-items:center;gap:5px}
+.tab:hover{background:#eaeef2}
+.tab.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.tab.changed:not(.active){border-color:var(--ok);color:var(--ok);background:#dafbe1}
+.tab .badge{font-size:11px;opacity:.85}
 textarea{width:100%;font:12px/1.45 ui-monospace,Consolas,"Courier New",monospace;border:1px solid var(--bd);border-radius:6px;padding:8px;resize:vertical;background:#fff}
-#v1,#diff{height:130px}
+#termText{height:140px}
+#diff{height:176px}
 #out{height:220px}
 button{font:13px inherit;padding:3px 10px;border:1px solid var(--bd);border-radius:6px;background:#fff;cursor:pointer}
 button:hover{background:#f3f4f6}
@@ -25,72 +32,114 @@ button:disabled{opacity:.5;cursor:default}
 .bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0 8px}
 .count{color:var(--muted);font-size:13px}
 .count b{color:#1f2328}
-.wrap{max-height:360px;overflow:auto;background:var(--bg);border:1px solid var(--bd);border-radius:8px}
+.wrap{max-height:380px;overflow:auto;background:var(--bg);border:1px solid var(--bd);border-radius:8px}
 table{width:100%;border-collapse:collapse;font-size:13px}
 th,td{border-bottom:1px solid #eaeef2;padding:5px 7px;text-align:left;vertical-align:top}
 th{font-weight:600;color:var(--muted);position:sticky;top:0;background:#fff;z-index:1}
 tr.off td{opacity:.45}
 tr.hit{background:#fff8c5}
 td.pick{width:28px}
-td.state{width:74px;white-space:nowrap}
-input[type=text]{width:100%;border:1px solid var(--bd);border-radius:4px;padding:2px 5px;font:13px inherit;background:#fff}
+td.state{width:64px;white-space:nowrap}
+td.dest{width:155px}
+select,input[type=text]{width:100%;border:1px solid var(--bd);border-radius:4px;padding:2px 5px;font:12px inherit;background:#fff}
 .chip{display:inline-block;font-size:11px;line-height:16px;padding:0 6px;border-radius:9px;border:1px solid var(--bd);color:var(--muted);margin:2px 4px 0 0;white-space:nowrap}
 .chip.single{color:var(--warn);border-color:#d4a72c}
-.chip.upd{color:var(--bad);border-color:#ff8182}
+.chip.update{color:var(--bad);border-color:#ff8182}
 .chip.new{color:var(--ok);border-color:#4ac26b}
 .chip.same{color:var(--muted)}
 .why{color:var(--muted);font-size:12px;margin-top:2px}
 .wide{min-width:130px}
+label.chk{font-size:12px;color:var(--muted);display:inline-flex;align-items:center;gap:4px;cursor:pointer}
 footer{margin-top:14px;color:var(--muted);font-size:12px}
 @media(max-width:900px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <h1>术语表维护</h1>
-<p class="sub">左边贴 <code>Vanilla/terms/terms-v1.tsv</code>，右边贴 <code>Vanilla/diffs/&lt;版本&gt;.terms.json</code>，勾选要收的词，最后复制新的 v1。文件也可以直接选，全程在本机浏览器里跑，不上传。</p>
+<p class="sub">左边加载 <code>Vanilla/terms/terms-*.tsv</code>（支持多选一次导入），右边贴 <code>Vanilla/diffs/&lt;版本&gt;.terms.json</code>。全表联合查重，新增词按 <code>labels</code> 自动分流到对应表并可手改，全程在本机浏览器里跑，不上传。</p>
 
 <div class="grid">
   <div class="card">
-    <h2>1 · 现有术语表 <span><input type="file" id="fileV1" hidden><button id="pickV1">选文件</button></span></h2>
-    <textarea id="v1" spellcheck="false" placeholder="en&#9;zh&#9;reason&#9;comment"></textarea>
+    <h2>
+      <span>1 · 现有术语表</span>
+      <span>
+        <input type="file" id="filesTerms" multiple accept=".tsv,.txt" hidden>
+        <button id="pickTerms">多选导入 TSV</button>
+      </span>
+    </h2>
+    <div class="tabs" id="inTabs"></div>
+    <textarea id="termText" spellcheck="false" placeholder="en&#9;zh&#9;reason&#9;comment"></textarea>
   </div>
   <div class="card">
-    <h2>2 · 审校清单 <span><input type="file" id="fileDiff" hidden><button id="pickDiff">选文件</button></span></h2>
-    <textarea id="diff" spellcheck="false" placeholder="{ &quot;from&quot;: …, &quot;added&quot;: [ … ] }"></textarea>
+    <h2>
+      <span>2 · 审校清单</span>
+      <span>
+        <input type="file" id="fileDiff" accept=".json" hidden>
+        <button id="pickDiff">选文件</button>
+      </span>
+    </h2>
+    <textarea id="diff" spellcheck="false" placeholder='{ "from": …, "added": [ … ] }'></textarea>
   </div>
 </div>
 
 <div class="bar">
   <span class="count" id="counts"></span>
   <span style="flex:1"></span>
-  <input type="text" id="filter" placeholder="过滤（en 或 zh）" style="width:180px">
+  <input type="text" id="filter" placeholder="过滤（en / zh / 表名 / label）" style="width:210px">
   <button id="allNew">选中全部新增</button>
   <button id="none">全部取消</button>
 </div>
 <div id="warn" class="why"></div>
 
 <div class="wrap"><table>
-<thead><tr><th class="pick"></th><th class="state">状态</th><th>en</th><th class="wide">zh</th><th>reason</th><th>comment</th></tr></thead>
+<thead><tr><th class="pick"></th><th class="state">状态</th><th class="dest">目标表</th><th>en</th><th class="wide">zh</th><th>reason</th><th>comment</th></tr></thead>
 <tbody id="rows"></tbody>
 </table></div>
 
 <div class="bar">
+  <div class="tabs" id="outTabs" style="margin:0"></div>
   <span class="count" id="outInfo"></span>
   <span style="flex:1"></span>
-  <button class="primary" id="copy">复制新的 v1</button>
-  <button id="download">下载 terms-v1.tsv</button>
+  <label class="chk"><input type="checkbox" id="sortInsert" checked> 按 en 字母序插入</label>
+  <button class="primary" id="copy">复制当前表</button>
+  <button id="download">下载当前表</button>
+  <button id="downloadAll">下载全部改动</button>
 </div>
 <textarea id="out" readonly spellcheck="false"></textarea>
 
-<footer>勾选的「新增」追加到表尾；「更新」改的是原行，zh 默认取旧值和新值的并集，reason/comment 保留原值，可改。</footer>
+<footer>联合所有已加载术语表查重；「新增」按 labels 自动路由（<code>biome</code>→<code>terms-biome.tsv</code>，<code>enchantment</code>→<code>terms-enchantment.tsv</code>，<code>effect</code>→<code>terms-effect.tsv</code>，<code>color</code>→<code>terms-color.tsv</code>，其余进 <code>terms-v1.tsv</code>）。「更新」改写目标表原行，zh 默认取并集。</footer>
 
 <script>
 const $ = id => document.getElementById(id);
-const V1 = $('v1'), DIFF = $('diff'), OUT = $('out'), TBODY = $('rows'), FILTER = $('filter');
-let model = { lines: [], eol: '\n', trailing: false, index: new Map() };
+const TERM_TEXT = $('termText'), DIFF = $('diff'), OUT = $('out'), TBODY = $('rows'), FILTER = $('filter');
+const DEFAULT_TABLES = [
+  'terms-v1.tsv',
+  'terms-biome.tsv',
+  'terms-enchantment.tsv',
+  'terms-effect.tsv',
+  'terms-color.tsv',
+  'terms-mob.tsv',
+  'terms-tech.tsv'
+];
+const LABEL_ROUTES = [
+  ['biome', 'terms-biome.tsv'],
+  ['enchantment', 'terms-enchantment.tsv'],
+  ['effect', 'terms-effect.tsv'],
+  ['color', 'terms-color.tsv'],
+  ['mob', 'terms-mob.tsv'],
+  ['stat', 'terms-tech.tsv']
+];
+
+const tables = new Map();
+DEFAULT_TABLES.forEach(name => tables.set(name, { name, text: '', model: emptyModel() }));
+let activeIn = DEFAULT_TABLES[0];
+let activeOut = DEFAULT_TABLES[0];
 let entries = [];
 let dropped = { updated: 0, removed: 0 };
 
+function emptyModel() {
+  return { lines: [], eol: '\n', index: new Map() };
+}
 function norm(en) {
   return String(en || '').toLowerCase().replace(/[\u2019]/g, "'")
     .replace(/[^a-z0-9' ]+/g, ' ').replace(/'s\b/g, '').replace(/\s+/g, ' ').trim();
@@ -107,8 +156,16 @@ function pad(cols) {
   while (out.length < 4) out.push('');
   return out;
 }
+function routeTable(labels) {
+  const set = new Set((labels || []).map(s => String(s).toLowerCase()));
+  for (const [label, target] of LABEL_ROUTES) {
+    if (set.has(label) && tables.has(target)) return target;
+  }
+  return 'terms-v1.tsv';
+}
 
-function parseV1(text) {
+function parseTSV(text) {
+  if (!text) return emptyModel();
   const eol = text.indexOf('\r\n') >= 0 ? '\r\n' : '\n';
   const trailing = /\r?\n$/.test(text);
   const raw = text.replace(/\r\n/g, '\n').split('\n');
@@ -123,7 +180,7 @@ function parseV1(text) {
     }
     lines.push(rec);
   });
-  return { lines, eol, trailing, index };
+  return { lines, eol, index };
 }
 
 function parseDiff(text) {
@@ -135,6 +192,7 @@ function parseDiff(text) {
     list.push({
       en,
       zh: variants(item.zh).join('|'),
+      rawZh: variants(item.zh),
       why: item.reason || '',
       reason: '',
       comment: item.comment || '',
@@ -142,7 +200,10 @@ function parseDiff(text) {
       single: !!item.single_use,
       origin: (item.origin_zh || []).slice(),
       force: force || '',
-      keep: null
+      target: '',
+      targetLocked: false,
+      keep: null,
+      touched: false
     });
   };
   (data.added || []).forEach(item => add(item, ''));
@@ -151,23 +212,181 @@ function parseDiff(text) {
   return list;
 }
 
+function findAllHits(key) {
+  const hits = [];
+  for (const tbl of tables.values()) {
+    const rec = tbl.model.index.get(key);
+    if (rec) hits.push({ table: tbl.name, rec });
+  }
+  return hits;
+}
+
 function classify() {
   entries.forEach(e => {
-    const hit = model.index.get(norm(e.en)) || null;
-    e.hit = hit;
-    if (e.force === 'update') e.status = hit ? 'update' : 'new';
-    else if (!hit) e.status = 'new';
-    else {
-      const have = new Set(variants(hit.cols[1]));
-      e.status = variants(e.zh).every(v => have.has(v)) ? 'same' : 'update';
+    const key = norm(e.en);
+    const allHits = findAllHits(key);
+    const defaultRoute = routeTable(e.labels);
+
+    if (!e.targetLocked) {
+      if (allHits.length) {
+        const preferred = allHits.find(h => h.table === defaultRoute) || allHits[0];
+        e.target = preferred.table;
+      } else {
+        e.target = defaultRoute;
+      }
     }
+
+    const targetTable = tables.get(e.target);
+    const targetHit = targetTable ? (targetTable.model.index.get(key) || null) : null;
+    e.hit = targetHit;
+    e.allHits = allHits;
+
+    const coveredAnywhere = allHits.some(h => {
+      const have = new Set(variants(h.rec.cols[1]));
+      return e.rawZh.every(v => have.has(v));
+    });
+
+    if (targetHit) {
+      const have = new Set(variants(targetHit.cols[1]));
+      if (e.force === 'update') e.status = 'update';
+      else e.status = e.rawZh.every(v => have.has(v)) ? 'same' : 'update';
+    } else if (coveredAnywhere && !e.targetLocked) {
+      e.status = 'same';
+    } else {
+      e.status = 'new';
+    }
+
     if (e.keep === null) e.keep = e.status === 'new';
-    if (e.status === 'update' && hit && !e.touched) {
-      e.zh = variants(hit.cols[1]).concat(variants(e.zh))
-        .filter((v, i, all) => all.indexOf(v) === i).join('|');
-      if (e.reason === '') e.reason = hit.cols[2];
-      if (e.comment === '') e.comment = hit.cols[3];
+    if (!e.touched) {
+      if (e.status === 'update' && targetHit) {
+        e.zh = variants(targetHit.cols[1]).concat(e.rawZh)
+          .filter((v, i, all) => all.indexOf(v) === i).join('|');
+        e.reason = targetHit.cols[2];
+        e.comment = targetHit.cols[3];
+      } else {
+        e.zh = e.rawZh.join('|');
+        e.reason = '';
+      }
     }
+  });
+}
+
+function buildTableOutput(tableName) {
+  const tbl = tables.get(tableName);
+  if (!tbl) return { text: '', added: 0, updated: 0, rows: 0 };
+  const replaced = new Map();
+  const appended = [];
+  entries.forEach(e => {
+    if (!e.keep || e.status === 'same' || e.target !== tableName) return;
+    if (e.status === 'update' && e.hit) replaced.set(e.hit, e);
+    else appended.push(e);
+  });
+
+  const baseLines = tbl.model.lines.length
+    ? tbl.model.lines.map(rec => {
+        const e = replaced.get(rec);
+        if (!e) return { text: rec.raw, en: rec.cols[0], header: !!rec.header };
+        const cols = rec.cols.slice();
+        cols[1] = cell(e.zh);
+        cols[2] = cell(e.reason);
+        cols[3] = cell(e.comment);
+        return { text: cols.join('\t'), en: cols[0], header: false };
+      })
+    : [{ text: 'en\tzh\treason\tcomment', en: 'en', header: true }];
+
+  if ($('sortInsert').checked) {
+    appended.sort((a, b) => a.en.toLowerCase().localeCompare(b.en.toLowerCase()));
+    appended.forEach(e => {
+      const rowText = [cell(e.en), cell(e.zh), cell(e.reason), cell(e.comment)].join('\t');
+      const key = e.en.toLowerCase();
+      let pos = baseLines.length;
+      for (let i = 0; i < baseLines.length; i++) {
+        if (baseLines[i].header || !baseLines[i].text.trim()) continue;
+        if (baseLines[i].en.toLowerCase() > key) { pos = i; break; }
+      }
+      baseLines.splice(pos, 0, { text: rowText, en: e.en, header: false });
+    });
+  } else {
+    appended.forEach(e => {
+      baseLines.push({
+        text: [cell(e.en), cell(e.zh), cell(e.reason), cell(e.comment)].join('\t'),
+        en: e.en,
+        header: false
+      });
+    });
+  }
+
+  const eol = tbl.model.eol || '\n';
+  const body = baseLines.map(x => x.text).join(eol);
+  const text = body ? body + eol : '';
+  return { text, added: appended.length, updated: replaced.size, rows: baseLines.length };
+}
+
+function tableStats() {
+  const map = new Map();
+  for (const name of tables.keys()) map.set(name, { added: 0, updated: 0 });
+  entries.forEach(e => {
+    if (!e.keep || e.status === 'same') return;
+    const s = map.get(e.target);
+    if (!s) return;
+    if (e.status === 'update' && e.hit) s.updated++;
+    else s.added++;
+  });
+  return map;
+}
+
+function renderTabs() {
+  const stats = tableStats();
+  const inTabs = $('inTabs');
+  inTabs.textContent = '';
+  for (const tbl of tables.values()) {
+    const btn = document.createElement('button');
+    btn.className = 'tab' + (tbl.name === activeIn ? ' active' : '');
+    const count = tbl.model.index.size;
+    btn.textContent = tbl.name;
+    if (count) {
+      const b = document.createElement('span');
+      b.className = 'badge';
+      b.textContent = '(' + count + ')';
+      btn.appendChild(b);
+    }
+    btn.addEventListener('click', () => {
+      activeIn = tbl.name;
+      TERM_TEXT.value = tbl.text;
+      renderTabs();
+    });
+    inTabs.appendChild(btn);
+  }
+
+  const outTabs = $('outTabs');
+  outTabs.textContent = '';
+  const visibleOut = [];
+  for (const name of tables.keys()) {
+    const s = stats.get(name);
+    const hasChange = s && (s.added + s.updated > 0);
+    if (hasChange || tables.get(name).model.lines.length) visibleOut.push(name);
+  }
+  if (!visibleOut.length) visibleOut.push(DEFAULT_TABLES[0]);
+  if (!visibleOut.includes(activeOut)) {
+    activeOut = visibleOut.find(n => {
+      const s = stats.get(n);
+      return s && (s.added + s.updated > 0);
+    }) || visibleOut[0];
+  }
+  visibleOut.forEach(name => {
+    const s = stats.get(name) || { added: 0, updated: 0 };
+    const ch = s.added + s.updated;
+    const btn = document.createElement('button');
+    btn.className = 'tab' + (name === activeOut ? ' active' : '') + (ch ? ' changed' : '');
+    btn.textContent = name;
+    if (ch) {
+      const b = document.createElement('span');
+      b.className = 'badge';
+      b.textContent = '+' + s.added + (s.updated ? '/~' + s.updated : '');
+      btn.appendChild(b);
+    }
+    btn.addEventListener('click', () => { activeOut = name; renderTabs(); renderOut(); });
+    outTabs.appendChild(btn);
   });
 }
 
@@ -191,48 +410,86 @@ function rowFor(e) {
   chip.textContent = e.status === 'new' ? '新增' : e.status === 'update' ? '更新' : '已有';
   state.appendChild(chip);
 
+  const dest = document.createElement('td');
+  dest.className = 'dest';
+  const sel = document.createElement('select');
+  for (const name of tables.keys()) {
+    const opt = document.createElement('option');
+    opt.value = name;
+    opt.textContent = name;
+    sel.appendChild(opt);
+  }
+  sel.value = e.target;
+  sel.addEventListener('change', () => {
+    e.target = sel.value;
+    e.targetLocked = true;
+    e.touched = false;
+    classify();
+    render();
+  });
+  dest.appendChild(sel);
+
   const en = document.createElement('td');
   en.textContent = e.en;
   const why = [];
   if (e.single) why.push('语料中只出现一次');
   if (e.labels.length) why.push(e.labels.join('/'));
   if (e.origin.length) why.push('原译：' + e.origin.join('、'));
-  if (e.hit && e.status === 'update') why.push('表内原值：' + e.hit.cols[1]);
+  if (e.allHits && e.allHits.length) {
+    why.push('命中：' + e.allHits.map(h => h.table + '(' + h.rec.cols[1] + ')').join('、'));
+  }
   if (e.why) why.push('模型：' + e.why);
   const note = document.createElement('div');
   note.className = 'why';
   note.textContent = why.join(' · ');
   if (note.textContent) en.appendChild(note);
-  if (e.single) { const c = document.createElement('span'); c.className = 'chip single'; c.textContent = '一次'; en.insertBefore(c, note); }
+  if (e.single) {
+    const c = document.createElement('span');
+    c.className = 'chip single';
+    c.textContent = '一次';
+    en.insertBefore(c, note);
+  }
 
   const zh = document.createElement('td');
   const zhIn = document.createElement('input');
   zhIn.type = 'text';
   zhIn.value = e.zh;
-  zhIn.addEventListener('input', () => { e.zh = zhIn.value; e.touched = true; build(); });
+  zhIn.addEventListener('input', () => { e.zh = zhIn.value; e.touched = true; renderTabs(); renderOut(); });
   zh.appendChild(zhIn);
 
   const reason = document.createElement('td');
   const reasonIn = document.createElement('input');
   reasonIn.type = 'text';
   reasonIn.value = e.reason;
-  reasonIn.addEventListener('input', () => { e.reason = reasonIn.value; e.touched = true; build(); });
+  reasonIn.addEventListener('input', () => { e.reason = reasonIn.value; e.touched = true; renderOut(); });
   reason.appendChild(reasonIn);
 
   const comment = document.createElement('td');
   const commentIn = document.createElement('input');
   commentIn.type = 'text';
   commentIn.value = e.comment;
-  commentIn.addEventListener('input', () => { e.comment = commentIn.value; e.touched = true; build(); });
+  commentIn.addEventListener('input', () => { e.comment = commentIn.value; e.touched = true; renderOut(); });
   comment.appendChild(commentIn);
 
-  [pick, state, en, zh, reason, comment].forEach(td => tr.appendChild(td));
+  [pick, state, dest, en, zh, reason, comment].forEach(td => tr.appendChild(td));
   return tr;
 }
 
 function visible(e) {
   const q = FILTER.value.trim().toLowerCase();
-  return !q || e.en.toLowerCase().indexOf(q) >= 0 || e.zh.toLowerCase().indexOf(q) >= 0;
+  if (!q) return true;
+  return e.en.toLowerCase().includes(q)
+    || e.zh.toLowerCase().includes(q)
+    || e.target.toLowerCase().includes(q)
+    || e.labels.some(l => l.toLowerCase().includes(q));
+}
+
+function renderOut() {
+  const res = buildTableOutput(activeOut);
+  OUT.value = res.text;
+  $('outInfo').textContent = res.rows
+    ? activeOut + '：' + res.rows + ' 行（新增 ' + res.added + '，改写 ' + res.updated + '）'
+    : '';
 }
 
 function render() {
@@ -241,45 +498,32 @@ function render() {
   const n = { new: 0, update: 0, same: 0 };
   let keep = 0;
   entries.forEach(e => { n[e.status]++; if (e.keep && e.status !== 'same') keep++; });
-  $('counts').innerHTML = '新增 <b>' + n.new + '</b> · 更新 <b>' + n.update + '</b> · 已有 <b>' + n.same +
-    '</b> · 已勾选 <b>' + keep + '</b>';
+  const counts = $('counts');
+  counts.textContent = '';
+  [
+    ['新增 ', n.new],
+    [' · 更新 ', n.update],
+    [' · 已有 ', n.same],
+    [' · 已勾选 ', keep]
+  ].forEach(([label, val]) => {
+    counts.appendChild(document.createTextNode(label));
+    const b = document.createElement('b');
+    b.textContent = String(val);
+    counts.appendChild(b);
+  });
   const warn = [];
   if (dropped.updated) warn.push('清单里还有 ' + dropped.updated + ' 条 updated');
   if (dropped.removed) warn.push('清单里还有 ' + dropped.removed + ' 条 removed');
   $('warn').textContent = warn.join(' · ');
-  build();
-}
-
-function build() {
-  if (!model.lines.length) { OUT.value = ''; $('outInfo').textContent = ''; return; }
-  const replaced = new Map();
-  const appended = [];
-  entries.forEach(e => {
-    if (!e.keep || e.status === 'same') return;
-    if (e.status === 'update' && e.hit) replaced.set(e.hit, e);
-    else appended.push(e);
-  });
-  const lines = model.lines.map(rec => {
-    const e = replaced.get(rec);
-    if (!e) return rec.raw;
-    const cols = rec.cols.slice();
-    cols[1] = cell(e.zh);
-    cols[2] = cell(e.reason);
-    cols[3] = cell(e.comment);
-    return cols.join('\t');
-  });
-  appended.forEach(e => lines.push([cell(e.en), cell(e.zh), cell(e.reason), cell(e.comment)].join('\t')));
-  const body = lines.join(model.eol);
-  OUT.value = body ? body + model.eol : '';
-  const rows = OUT.value ? OUT.value.replace(/\r?\n$/, '').split(/\r?\n/).length : 0;
-  $('outInfo').textContent = '输出 ' + rows + ' 行（新增 ' + appended.length + ' 条，改写 ' + replaced.size + ' 条）';
+  renderTabs();
+  renderOut();
 }
 
 function refresh() {
-  try {
-    model = parseV1(V1.value);
-  } catch (err) {
-    model = { lines: [], eol: '\n', trailing: false, index: new Map() };
+  const tbl = tables.get(activeIn);
+  if (tbl) {
+    tbl.text = TERM_TEXT.value;
+    tbl.model = parseTSV(tbl.text);
   }
   if (!DIFF.value.trim()) {
     entries = [];
@@ -296,48 +540,80 @@ function refresh() {
   render();
 }
 
-function readFile(input, target) {
-  const file = input.files && input.files[0];
-  if (!file) return;
-  const reader = new FileReader();
-  reader.onload = () => { target.value = String(reader.result).replace(/\r\n/g, '\n'); refresh(); };
-  reader.readAsText(file, 'utf-8');
-  input.value = '';
+function importTermFiles(fileList) {
+  const files = Array.from(fileList || []);
+  if (!files.length) return;
+  let left = files.length;
+  files.forEach(file => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const name = file.name;
+      const text = String(reader.result);
+      tables.set(name, { name, text, model: parseTSV(text) });
+      if (files.length === 1 || name === activeIn) {
+        activeIn = name;
+        TERM_TEXT.value = text;
+      }
+      if (--left === 0) {
+        TERM_TEXT.value = (tables.get(activeIn) || {}).text || '';
+        if (DIFF.value.trim()) {
+          try { entries = parseDiff(DIFF.value); classify(); } catch (_) {}
+        }
+        render();
+      }
+    };
+    reader.readAsText(file, 'utf-8');
+  });
 }
 
-function copyOut() {
+function triggerDownload(name, text) {
+  const blob = new Blob([text], { type: 'text/tab-separated-values;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = name;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+TERM_TEXT.addEventListener('input', refresh);
+DIFF.addEventListener('input', refresh);
+FILTER.addEventListener('input', render);
+$('sortInsert').addEventListener('change', renderOut);
+$('pickTerms').addEventListener('click', () => $('filesTerms').click());
+$('filesTerms').addEventListener('change', ev => { importTermFiles(ev.target.files); ev.target.value = ''; });
+$('pickDiff').addEventListener('click', () => $('fileDiff').click());
+$('fileDiff').addEventListener('change', ev => {
+  const file = ev.target.files && ev.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => { DIFF.value = String(reader.result); refresh(); };
+  reader.readAsText(file, 'utf-8');
+  ev.target.value = '';
+});
+$('allNew').addEventListener('click', () => { entries.forEach(e => { if (e.status === 'new') e.keep = true; }); render(); });
+$('none').addEventListener('click', () => { entries.forEach(e => { e.keep = false; }); render(); });
+$('copy').addEventListener('click', () => {
   OUT.select();
   let ok = false;
-  try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+  try { ok = document.execCommand('copy'); } catch (_) { ok = false; }
   if (!ok && navigator.clipboard) navigator.clipboard.writeText(OUT.value).catch(() => {});
   const btn = $('copy');
   const was = btn.textContent;
   btn.textContent = '已复制';
   setTimeout(() => { btn.textContent = was; }, 1200);
-}
+});
+$('download').addEventListener('click', () => triggerDownload(activeOut, OUT.value));
+$('downloadAll').addEventListener('click', () => {
+  const stats = tableStats();
+  for (const [name, s] of stats.entries()) {
+    if (s.added + s.updated > 0) {
+      triggerDownload(name, buildTableOutput(name).text);
+    }
+  }
+});
 
-function downloadOut() {
-  const blob = new Blob([OUT.value], { type: 'text/tab-separated-values;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'terms-v1.tsv';
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-}
-
-V1.addEventListener('input', refresh);
-DIFF.addEventListener('input', refresh);
-FILTER.addEventListener('input', render);
-$('pickV1').addEventListener('click', () => $('fileV1').click());
-$('pickDiff').addEventListener('click', () => $('fileDiff').click());
-$('fileV1').addEventListener('change', ev => readFile(ev.target, V1));
-$('fileDiff').addEventListener('change', ev => readFile(ev.target, DIFF));
-$('allNew').addEventListener('click', () => { entries.forEach(e => { if (e.status === 'new') e.keep = true; }); render(); });
-$('none').addEventListener('click', () => { entries.forEach(e => { e.keep = false; }); render(); });
-$('copy').addEventListener('click', copyOut);
-$('download').addEventListener('click', downloadOut);
-refresh();
+render();
 </script>
 </body>
 </html>
