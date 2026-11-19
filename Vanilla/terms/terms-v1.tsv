@@ -3,6 +3,7 @@ Abandoned Camp	废弃营地
 Abandoned Campsite	废弃营地		
 Absorption	伤害吸收		
 Acacia	金合欢		
+Activator Rail	激活铁轨		
 Advancement	进度		
 Adventure	冒险		
 Air Drag Modifier	空气阻力修正系数		
@@ -10,7 +11,9 @@ Allay	悦灵
 Allium	绒球葱		
 Amethyst	紫水晶		
 Amethyst Bud	紫晶芽		
+Amethyst Cluster	紫水晶簇		
 Amethyst Geode	紫晶洞		
+AMPLIFIED	放大化		
 Anchor	锚	可能过于严格，允许发挥	
 Ancient	远古	可能过于严格，允许发挥	
 Ancient City	远古城市		
@@ -20,15 +23,20 @@ Anvil	铁砧	可能过于严格，允许发挥
 Apple	苹果	可能过于严格，允许发挥	
 Aqua Affinity	水下速掘		
 Aquifer	含水层		
+Area Effect Cloud	区域效果云		
 Armadillo	犰狳		
 Armor	护甲值|盔甲	可能过于严格，允许发挥	
 Armor Stand	盔甲架		
+Armor Toughness	盔甲韧性		
 Armorer	盔甲匠		
 Arrow	箭	可能过于严格，允许发挥	
 Arrow of Splashing	喷溅之箭		
 Arthropod	节肢		
 Attack Damage	攻击伤害		
+Attack Knockback	击退	可能过于严格，允许发挥	
+Attack Speed	攻击速度		
 Awkward	粗制的		
+Axe	斧	可能过于严格，允许发挥	
 Axolotl	美西螈		
 Azalea	杜鹃花丛		
 Azalea Leaves	杜鹃树叶		
@@ -36,9 +44,11 @@ Azure Bluet	蓝花美耳草
 Bad Luck	霉运		
 Bad Omen	不祥之兆		
 Badlands	恶地		
+Baked Potato	烤马铃薯		
 Bamboo	竹子|竹		
 Bamboo Jungle	竹林		
 Bamboo Planks	竹板		
+Bamboo Raft	竹筏		
 Bamboo Raft with Chest	运输竹筏		
 Bamboo Shoot	竹笋		
 Ban	封禁		
@@ -55,6 +65,7 @@ Bastion Remnant	堡垒遗迹
 Bat	蝙蝠		
 Beach	沙滩		
 Beacon	信标		
+Bed	床	可能过于严格，允许发挥	
 Bedrock	基岩		
 Bee	蜜蜂		
 Bee Nest	蜂巢		
@@ -76,7 +87,10 @@ Blaze	烈焰人
 Blaze Powder	烈焰粉		
 Blaze Rod	烈焰棒		
 Blindness	失明		
+Block Break Speed	方块破坏速度		
+Block Display	方块展示实体		
 Block Entity	方块实体		
+Block Interaction Range	方块交互距离		
 Blue	蓝色		
 Blue Ice	蓝冰		
 Blue Orchid	兰花		
@@ -92,9 +106,12 @@ Boots	靴子	可能过于严格，允许发挥
 Bossbar	Boss栏	可能过于严格，允许发挥	
 Bottle	瓶	可能过于严格，允许发挥	
 Bottle o' Enchanting	附魔之瓶		
+Bottomless Pit	无底深渊		
 Bounciness	弹性		
 Brain Coral	脑纹珊瑚		
+Brain Coral Fan	脑纹珊瑚扇		
 Breach	破甲	可能过于严格，允许发挥	
+Breath of the Nautilus	鹦鹉螺之息		
 Breeze	旋风人		
 Breeze Rod	旋风棒	可能过于严格，允许发挥	
 Brewing	酿造	可能过于严格，允许发挥	
@@ -103,6 +120,7 @@ Brown	棕色	可能过于严格，允许发挥
 Bubble	气泡	可能过于严格，允许发挥	
 Bubble Column	气泡柱		
 Bubble Coral	气泡珊瑚		
+Bubble Coral Fan	气泡珊瑚扇		
 Bud	芽	可能过于严格，允许发挥	
 Budding	母岩	可能过于严格，允许发挥	
 Budding Amethyst	紫水晶母岩		
@@ -110,25 +128,33 @@ Bundle	收纳袋	可能过于严格，允许发挥
 Buried Treasure	埋藏的宝藏		
 Buried Treasure Map	藏宝图		
 Buried Trial Chambers Map	埋藏的试炼密室地图		
+Burning Time	着火时间		
 Bush	灌木|灌木丛	可能过于严格，允许发挥	
+Butcher	屠夫		
 Button	按钮	可能过于严格，允许发挥	
 Cactus	仙人掌		
+Cake	蛋糕		
 Calcite	方解石		
 Calibrated	校频	可能过于严格，允许发挥	
 Camel	骆驼		
 Camel Husk	骆驼尸壳		
+Camera Distance	镜头距离		
 Campfire	营火		
 Candle	蜡烛		
 Cape	披风	可能过于严格，允许发挥	
+Carpet	地毯		
 Carrot	胡萝卜	可能过于严格，允许发挥	
 Carrot on a Stick	胡萝卜钓竿		
 Cartographer	制图师		
 Cartography	制图	可能过于严格，允许发挥	
 Cartography Table	制图台		
+Carved Pumpkin	雕刻南瓜		
 Cat	猫	可能过于严格，允许发挥	
 Catalyst	催发体	可能过于严格，允许发挥	
 Cauldron	炼药锅		
+Cave Air	洞穴空气		
 Cave Spider	洞穴蜘蛛		
+Cave Vines	洞穴藤蔓		
 Chain	链		
 Chain Command Block	连锁型命令方块		
 Chainmail	锁链		
@@ -139,6 +165,7 @@ Cherry Grove	樱花树林
 Chest	箱子	可能过于严格，允许发挥	
 Chestplate	胸甲		
 Chicken	鸡	可能过于严格，允许发挥	
+Chipped Anvil	开裂的铁砧		
 Chiseled	雕纹	可能过于严格，允许发挥	
 Chorus	紫颂		
 Chorus Flower	紫颂花		
@@ -147,8 +174,12 @@ Chorus Plant	紫颂植株
 Chunk	区块	可能过于严格，允许发挥	
 Cinnabar	朱砂		
 City	城市|城	可能过于严格，允许发挥	
+Classic Flat	经典平坦		
 Clay	黏土		
+Clay Ball	黏土球		
 Cleric	牧师		
+Clock	时钟		
+Closed Eyeblossom	闭合的眼眸花		
 Coal	煤炭		
 Coal Ore	煤矿石		
 Coarse Dirt	砂土		
@@ -156,6 +187,7 @@ Cobbled	圆石	可能过于严格，允许发挥
 Cobbled Deepslate	深板岩圆石		
 Cobblestone	圆石		
 Cobweb	蜘蛛网		
+Cocoa	可可果		
 Cocoa Beans	可可豆		
 Cod	鳕鱼		
 Cold Ocean	冷水海洋		
@@ -172,7 +204,9 @@ Cooked	熟	可能过于严格，允许发挥
 Cooked Rabbit	熟兔肉		
 Cookie	曲奇		
 Copper	铜		
+Copper Bulb	铜灯		
 Copper Golem	铜傀儡		
+Copper Golem Statue	铜傀儡像		
 Coral	珊瑚		
 Coral Fan	珊瑚扇		
 Coral Reef	珊瑚礁		
@@ -186,7 +220,10 @@ Creaking Heart	嘎枝之心
 Creeper	苦力怕	可能过于严格，允许发挥	
 Crimson	绯红		
 Crimson Forest	绯红森林		
+Crimson Fungus	绯红菌		
+Crimson Roots	绯红菌索		
 Crimson Stem	绯红菌柄		
+Crossbow	弩	可能过于严格，允许发挥	
 Crying Obsidian	哭泣的黑曜石		
 Curse	诅咒		
 Curse of Binding	绑定诅咒		
@@ -195,6 +232,7 @@ Cushion	坐垫
 Cut	切制	可能过于严格，允许发挥	
 Cyan	青色		
 Damage	伤害	可能过于严格，允许发挥	
+Damaged Anvil	损坏的铁砧		
 Dandelion	蒲公英		
 Dappled Forest	斑驳森林		
 Dark Forest	黑森林		
@@ -207,6 +245,7 @@ Daylight Detector	阳光探测器
 Dead Bush	枯萎的灌木	可能过于严格，允许发挥	
 Debris	残骸	可能过于严格，允许发挥	
 Debug	调试		
+Debug Mode	调试模式		
 Debug Stick	调试棒		
 Decorated Pot	饰纹陶罐		来源：block.minecraft.decorated_pot
 Deep Cold Ocean	冷水深海		
@@ -215,6 +254,8 @@ Deep Frozen Ocean	冰冻深海
 Deep Lukewarm Ocean	温水深海		
 Deep Ocean	深海		
 Deepslate	深板岩|深层		
+Deepslate Tile	深板岩瓦		
+Deepslate Tiles	深板岩瓦		
 Deltas	三角洲		
 Density	致密	可能过于严格，允许发挥	
 Depth Strider	深海探索者		
@@ -238,6 +279,7 @@ Dolphin's Grace	海豚的恩惠
 Donkey	驴	可能过于严格，允许发挥	
 Door	门		
 Dragon	龙	可能过于严格，允许发挥	
+Dragon Head	龙首		
 Dragon's Breath	龙息		
 Dried Ghast	失水恶魂		
 Dried Kelp	干海带		
@@ -258,6 +300,7 @@ Egg	蛋	可能过于严格，允许发挥
 Elder Guardian	远古守卫者		
 Elytra	鞘翅		
 Emerald	绿宝石		
+Empty Map	空地图		
 Enchanted	附魔	可能过于严格，允许发挥	
 Enchanter	附魔师		
 Enchanting Table	附魔台		
@@ -266,8 +309,10 @@ End	末地	可能过于严格，允许发挥
 End Barrens	末地荒地		
 End City	末地城		
 End Crystal	末地水晶		
+End Gateway	末地折跃门		
 End Highlands	末地高地		
 End Midlands	末地内陆	可能过于严格，允许发挥	
+End Portal Frame	末地传送门框架		
 End Rod	末地烛		
 End Stone	末地石		
 End Stone Brick	末地石砖		
@@ -278,27 +323,34 @@ Ender Pearl	末影珍珠
 Enderman	末影人		
 Endermite	末影螨		
 Entity	实体	可能过于严格，允许发挥	
+Entity Interaction Range	实体交互距离		
 Eroded	风蚀		
 Eroded Badlands	风蚀恶地		
 Evoker	唤魔者		
 Evoker Fangs	唤魔者尖牙		
 Experience Orb	经验球	可能过于严格，允许发挥	
+Explorer	探险家		
 Explorer Map	探险家地图		
 Explosion Knockback Resistance	爆炸击退抗性		
 Exposed	斑驳		
 Eye of Ender	末影之眼		
 Eyeblossom	眼眸花		
+Fall Damage Multiplier	摔落伤害倍数		
 Falling Block	下落的方块		
 Fangs	尖牙		
+Farmer	农民		
 Farmland	耕地		
+Feather	羽毛		
 Feather Falling	摔落缓冲	可能过于严格，允许发挥	
 Fence	栅栏		
 Fence Gate	栅栏门		
 Fermented Spider Eye	发酵蛛眼	可能过于严格，允许发挥	
+Fern	蕨	可能过于严格，允许发挥	
 Field of View	视场角	可能过于严格，允许发挥	
 Fire Aspect	火焰附加		
 Fire Charge	火焰弹		
 Fire Coral	火珊瑚		
+Fire Coral Fan	火珊瑚扇		
 Fire Protection	火焰保护		
 Fire Resistance	抗火		
 Fireball	火球		
@@ -306,6 +358,7 @@ Firefly	萤火虫
 Firefly Bush	萤火虫灌木丛		
 Firework	烟花|烟火		
 Firework Rocket	烟花火箭		
+Firework Star	烟火之星		
 Fisherman	渔夫		
 Fishing Bobber	浮漂	可能过于严格，允许发挥	
 Fishing Rod	钓鱼竿		
@@ -354,6 +407,7 @@ Glow Berries	发光浆果
 Glow Squid	发光鱿鱼		
 Glowing	发光		
 Glowstone	荧石		
+Glowstone Dust	荧石粉		
 Goat	山羊		
 Goat Horn	山羊角		
 Gold	金		
@@ -361,9 +415,11 @@ Golden	金
 Golden Apple	金苹果		
 Golem	傀儡		
 Granite	花岗岩		
+Grass Block	草方块		
 Grate	格栅		
 Gravel	沙砾		
 Gravelly	沙砾		
+Gravity	重力		
 Gray	灰色		
 Green	绿色	可能过于严格，允许发挥	
 Grindstone	砂轮	可能过于严格，允许发挥	
@@ -377,19 +433,23 @@ Hardcore	极限
 Hardened	硬化		
 Harness	挽具	可能过于严格，允许发挥	
 Haste	急迫		
+Hay Bale	干草捆		
 Health Boost	生命提升		
 Heart of the Sea	海洋之心		
 Heavy Core	沉重核心		
+Heavy Weighted Pressure Plate	重质测重压力板		
 Helmet	头盔	可能过于严格，允许发挥	
 Hero of the Village	村庄英雄		
 Highlands	高地	可能过于严格，允许发挥	
 Hills	丘陵		
 Hitboxes	判定箱		
+Hoe	锄	可能过于严格，允许发挥	
 Hoglin	疣猪兽		
 Honey	蜂蜜	可能过于严格，允许发挥	
 Honeycomb	蜜脾		
 Hopper	漏斗	可能过于严格，允许发挥	
 Horn Coral	鹿角珊瑚		
+Horn Coral Fan	鹿角珊瑚扇		
 Horse	马	可能过于严格，允许发挥	
 Horse Armor	马铠		
 Horse Jump Strength	马匹跳跃能力		
@@ -405,6 +465,7 @@ Illusioner	幻术师
 Impaling	穿刺		
 Infested	寄生|虫蚀	可能过于严格，允许发挥	
 Infinity	无限		
+Ingot	锭	可能过于严格，允许发挥	
 Ink Sac	墨囊		
 Instant Damage	瞬间伤害		
 Instant Health	瞬间治疗		
@@ -412,6 +473,7 @@ Invisibility	隐身
 Invisible	隐形	可能过于严格，允许发挥	
 Iron	铁		
 Iron Bars	铁栏杆		
+Item Display	物品展示实体		
 Item Frame	物品展示框		
 Jack o'Lantern	南瓜灯		
 Jagged	尖峭	可能过于严格，允许发挥	
@@ -427,17 +489,21 @@ Kelp	海带
 Knockback	击退		
 Knockback Resistance	击退抗性		
 Knowledge Book	知识之书	可能过于严格，允许发挥	
+Ladder	梯子		
 LAN	局域网	可能过于严格，允许发挥	
 Lantern	灯笼	可能过于严格，允许发挥	
 Lapis	青金石		
 Lapis Lazuli	青金石		
-Large Fern	大型蕨		
+Large Biomes	巨型生物群系		
 Lava	熔岩		
+Lead	拴绳	可能过于严格，允许发挥	
 Leaf Litter	枯叶堆		
 Leaping	跳跃		
 Leash	缰绳	可能过于严格，允许发挥	
 Leash Knot	拴绳结		
 Leather	皮革	可能过于严格，允许发挥	
+Leather Cap	皮革帽子		
+Leather Pants	皮革裤子		
 Leatherworker	皮匠		
 Leaves	树叶	可能过于严格，允许发挥	
 Lectern	讲台		
@@ -448,6 +514,7 @@ Librarian	图书管理员
 Lichen	地衣		
 Light Blue	淡蓝色		
 Light Gray	淡灰色		
+Light Weighted Pressure Plate	轻质测重压力板		
 Lightning	闪电	可能过于严格，允许发挥	
 Lightning Bolt	闪电束		
 Lightning Rod	避雷针		
@@ -457,6 +524,7 @@ Lily Pad	睡莲
 Lime	黄绿色	可能过于严格，允许发挥	
 Lingering	滞留型|滞留		
 Llama	羊驼		
+Llama Spit	羊驼唾沫		
 Lodestone	磁石		
 Lodestone Compass	磁石指针	可能过于严格，允许发挥	
 Log	原木	可能过于严格，允许发挥	
@@ -477,27 +545,33 @@ Magma Cream	岩浆膏
 Magma Cube	岩浆怪		
 Main Hand	主手		
 Mangrove	红树		
+Mangrove Roots	红树根		
 Mangrove Swamp	红树林沼泽		
 Mannequin	玩家模型		
 Mansion	府邸	可能过于严格，允许发挥	
 Map	地图		
 Marker	标记		
 Mason	石匠		
+Max Absorption	最大伤害吸收值		
 Max Health	最大生命值		
 Meadow	草甸		
 Melon	西瓜	可能过于严格，允许发挥	
+Melon Slice	西瓜片		
 Melon Stem	西瓜茎		
 Mending	经验修补		
 Mesa	平顶山	可能过于严格，允许发挥	
 Midlands	内陆	可能过于严格，允许发挥	
+Milk	奶	可能过于严格，允许发挥	
 Minecart	矿车		
 Minecart with Chest	运输矿车		
 Minecart with Furnace	动力矿车		
 Minecart with Spawner	刷怪笼矿车		
 Minecart with TNT	TNT矿车		
 Mineshaft	废弃矿井	可能过于严格，允许发挥	
+Mining Efficiency	挖掘效率		
 Mining Fatigue	挖掘疲劳		
 Mob Follow Range	生物跟随距离		
+Mob Tempt Range	生物引诱范围		
 Modifier	修正系数	可能过于严格，允许发挥	
 Monster Spawner	刷怪笼		
 Mooshroom	哞菇		
@@ -506,10 +580,15 @@ Moss	苔藓	可能过于严格，允许发挥
 Moss Carpet	覆地苔藓	可能过于严格，允许发挥	
 Mossy Cobblestone	苔石		
 Mossy Cobblestone Boulder	生苔的巨石		
+Mossy Stone Brick	苔石砖		
+Mossy Stone Bricks	苔石砖		
 Mountains	山地		
+Movement Efficiency	移动效率		
 Moving Block	移动的方块		
+Moving Piston	移动的活塞		
 Mud	泥巴		
 Mud Brick	泥砖		
+Muddy Mangrove Roots	沾泥的红树根		
 Mule	骡	可能过于严格，允许发挥	
 Multishot	多重射击		
 Mushroom	蘑菇	可能过于严格，允许发挥	
@@ -517,6 +596,7 @@ Mushroom Fields	蘑菇岛
 Mushroom Stem	蘑菇柄		
 Mushroom Stew	蘑菇煲		
 Music Disc	音乐唱片|唱片		
+Mutton	羊肉		
 Mycelium	菌丝		
 Name Tag	命名牌		
 Name Tag Distance	名牌距离		
@@ -525,17 +605,23 @@ Nametag	名称标签	可能过于严格，允许发挥
 Nausea	反胃		
 Nautilus	鹦鹉螺		
 Nautilus Armor	鹦鹉螺铠		
+Nautilus Shell	鹦鹉螺壳		
 Nether	下界		
 Nether Brick	下界砖		
 Nether Fortress	下界要塞		
 Nether Sprouts	下界苗		
+Nether Star	下界之星		
 Nether Wart	下界疣		
 Nether Wastes	下界荒地		
 Netherite	下界合金		
+Netherite Scrap	下界合金碎片		
+Netherite Upgrade	下界合金升级		
 Netherrack	下界岩		
 Night Vision	夜视		
 Nitwit	傻子		
 Note Block	音符盒		
+NPC	NPC	不译专名	
+Nugget	粒	可能过于严格，允许发挥	
 Nylium	菌岩		
 Oak	橡木|橡树		
 Objective	记分项	可能过于严格，允许发挥	
@@ -551,7 +637,9 @@ Off Hand	副手
 Old Growth	原始		
 Old Growth Pine Taiga	原始松木针叶林		
 Ominous	不祥		
+Ominous Item Spawner	不祥之物生成器		
 Oozing	渗浆	可能过于严格，允许发挥	
+Open Eyeblossom	张开的眼眸花		
 Orange	橙色	可能过于严格，允许发挥	
 Ore	矿石	可能过于严格，允许发挥	
 Ore Vein	矿脉		
@@ -559,6 +647,7 @@ Outpost	前哨站
 Overworld	主世界		
 Oxeye Daisy	滨菊		
 Oxidized	氧化		
+Oxygen Bonus	额外氧气		
 Pack	包	可能过于严格，允许发挥	
 Packed Ice	浮冰		
 Packed Mud	泥坯		
@@ -578,6 +667,8 @@ Peony	牡丹
 Petrified	石化	可能过于严格，允许发挥	
 Petrified Oak	石化橡木		
 Phantom	幻翼	可能过于严格，允许发挥	
+Phantom Membrane	幻翼膜		
+Pickaxe	镐	可能过于严格，允许发挥	
 Piercing	穿透	可能过于严格，允许发挥	
 Pig	猪	可能过于严格，允许发挥	
 Piglin	猪灵		
@@ -585,17 +676,25 @@ Piglin Brute	猪灵蛮兵
 Pillager	掠夺者		
 Pine	松木		
 Pink	粉红色	可能过于严格，允许发挥	
+Pink Petals	粉红色花簇		
 Piston	活塞		
+Piston Head	活塞头		
 Pitcher	瓶子草		
+Pitcher Plant	瓶子草		
+Pitcher Pod	瓶子草荚果		
 Plains	平原		
 Planks	木板	可能过于严格，允许发挥	
+Plant	植株		
 Plateau	高原		
 Podzol	灰化土		
 Point of Interest	兴趣点	可能过于严格，允许发挥	
+Pointed Dripstone	滴水石锥		
 Poison	中毒|剧毒		
+Poisonous Potato	毒马铃薯		
 Polar Bear	北极熊		
 Polished	磨制		
 Poplar	杨木|杨树		
+Popped Chorus Fruit	爆裂紫颂果		
 Poppy	虞美人		
 Porkchop	猪排		
 Portal	传送门		
@@ -607,9 +706,11 @@ Potted	盆栽
 Pottery Sherds	陶片		
 Powder Snow	细雪		
 Power	力量		
+Powered Rail	动力铁轨		
 Predicate	谓词		
 Pressure Plate	压力板		
 Primary Power	主效果		
+Primed TNT	被激活的TNT		
 Prismarine	海晶石		
 Prismarine Crystals	海晶砂粒		
 Prismarine Shard	海晶碎片		
@@ -618,11 +719,14 @@ Propagule	胎生苗
 Protection	保护	可能过于严格，允许发挥	
 Pufferfish	河豚		
 Pumpkin	南瓜	可能过于严格，允许发挥	
+Pumpkin Pie	南瓜派		
 Pumpkin Stem	南瓜茎		
 Punch	冲击	可能过于严格，允许发挥	
 Purple	紫色		
 Purpur	紫珀		
+Purpur Pillar	紫珀柱		
 Quartz	石英		
+Quartz Pillar	石英柱		
 Quick Charge	快速装填		
 Quill	笔		
 Rabbit	兔子		
@@ -630,13 +734,20 @@ Rabbit Hide	兔子皮
 Rabbit Stew	兔肉煲		
 Rabbit's Foot	兔子脚		
 Raid	袭击		
+Raid Omen	袭击之兆		
 Raider	袭击者		
 Rail	铁轨	可能过于严格，允许发挥	
 Ravager	劫掠兽		
+Raw Beef	生牛肉		
+Raw Chicken	生鸡肉		
+Raw Cod	生鳕鱼		
 Raw Copper	粗铜		
 Raw Gold	粗金		
 Raw Iron	粗铁		
+Raw Mutton	生羊肉		
+Raw Porkchop	生猪排		
 Raw Rabbit	生兔肉		
+Raw Salmon	生鲑鱼		
 Recipe Book	配方书		
 Recovery Compass	追溯指针		
 Red	红色	可能过于严格，允许发挥	
@@ -644,10 +755,15 @@ Red Sand	红沙
 Red Sandstone	红砂岩		
 Red Shrub	红灌木		
 Redstone	红石		
+Redstone Dust	红石粉		
+Redstone Lamp	红石灯		
+Redstone Ready	红石俱备		
+Redstone Wire	红石线		
 Regeneration	生命恢复|再生		
 Reinforced	强化	可能过于严格，允许发挥	
 Reinforced Deepslate	强化深板岩		
 Repeater	中继器		
+Repeating Command Block	循环型命令方块		
 Resin	树脂		
 Resin Clump	树脂团		
 Resistance	抗性提升		
@@ -660,11 +776,14 @@ Respiration	水下呼吸
 Riptide	激流		
 River	河流		
 Rocket	火箭	可能过于严格，允许发挥	
+Rooted Dirt	缠根泥土		
 Rose	玫瑰	可能过于严格，允许发挥	
 Rotten Flesh	腐肉		
 Ruby	红宝石		
 Ruined Portal	废弃传送门		
 Ruins	废墟	可能过于严格，允许发挥	
+Saddle	鞍	可能过于严格，允许发挥	
+Safe Fall Distance	安全摔落高度		
 Salmon	鲑鱼		
 Sand	沙子	可能过于严格，允许发挥	
 Sandstone	砂岩		
@@ -689,6 +808,7 @@ Sensor	感测体	可能过于严格，允许发挥
 Shader	着色器	可能过于严格，允许发挥	
 Shard	碎片	可能过于严格，允许发挥	
 Sharpness	锋利		
+Shears	剪刀		
 Sheep	绵羊		
 Shelf	展示架	可能过于严格，允许发挥	
 Shelf Mushroom	层孔菇		
@@ -696,6 +816,7 @@ Shepherd	牧羊人
 Shield	盾牌	可能过于严格，允许发挥	
 Shipwreck	沉船		
 Short Grass	矮草丛		
+Shovel	锹	可能过于严格，允许发挥	
 Shrieker	尖啸体		
 Shroomlight	菌光体		
 Shulker	潜影贝		
@@ -705,8 +826,10 @@ Shulker Shell	潜影壳
 Sign	告示牌	可能过于严格，允许发挥	
 Silk Touch	精准采集		
 Silverfish	蠹虫		
+Single Biome	单一生物群系		
 Skeleton	骷髅		
 Skeleton Horse	骷髅马		
+Skull	头颅		
 Slab	台阶	可能过于严格，允许发挥	
 Slime	史莱姆		
 Slime Block	黏液块		
@@ -722,10 +845,12 @@ Smithing Template	锻造模板
 Smoker	烟熏炉		
 Smooth	平滑		
 Sneak	潜行		
+Sneaking Speed	潜行速度		
 Sniffer	嗅探兽		
 Sniffer Egg	嗅探兽蛋		
 Snow	雪	可能过于严格，允许发挥	
 Snow Golem	雪傀儡		
+Snowball	雪球		
 Snowy	积雪	可能过于严格，允许发挥	
 Snowy Beach	积雪沙滩	可能过于严格，允许发挥	
 Snowy Kingdom	雪之王国		
@@ -746,12 +871,14 @@ Sparse Jungle	稀疏丛林
 Spawn Egg	刷怪蛋		
 Spawn Point	出生点		
 Spawner	刷怪笼|生成器		
+Spear	矛	可能过于严格，允许发挥	
 Spectate	旁观	可能过于严格，允许发挥	
 Spectator	旁观者	可能过于严格，允许发挥	
 Spectator Mode	旁观模式		
 Spectral Arrow	光灵箭		
 Speed	迅捷|速度		
 Spider	蜘蛛		
+Spider Eye	蜘蛛眼		
 Spike	尖锥		
 Splash	喷溅型|喷溅		
 Splashing	喷溅		
@@ -769,7 +896,9 @@ Stained Glass Pane	染色玻璃板
 Stairs	楼梯		
 Stalactite	钟乳石		
 Stalagmite	石笋		
+Steak	牛排		
 Stem	菌柄		
+Step Height	最大行走高度		
 Stick	木棍	可能过于严格，允许发挥	
 Sticky	黏性		
 Stone Brick	石砖		
@@ -783,29 +912,37 @@ Strength	力量
 Strider	炽足兽		
 Stripped	去皮		
 Stronghold	要塞		
+Structure Block	结构方块		
 Structure Void	结构空位		
+Submerged Mining Speed	水下挖掘速度		
 Sugar	糖	可能过于严格，允许发挥	
 Sugar Cane	甘蔗		
 Sulfur	硫黄	可能过于严格，允许发挥	
+Sulfur Caves	硫黄洞穴		
 Sulfur Cube	硫方怪		
 Sunflower	向日葵		
 Superflat	超平坦		
+Suspicious	可疑的		
 Suspicious Stew	谜之炖菜		
 Swamp	沼泽		
 Swamp Hut	沼泽小屋		
+Sweeping Damage Ratio	横扫伤害比率		
 Sweeping Edge	横扫之刃		
 Sweet Berries	甜浆果		
 Sweet Berry Bush	甜浆果丛		
 Swift Sneak	迅捷潜行		
 Swiftness	迅捷		
+Sword	剑	可能过于严格，允许发挥	
 Tadpole	蝌蚪		
 Taiga	针叶林		
 Tall Grass	高草丛		
 Template	模板	可能过于严格，允许发挥	
 Terracotta	陶瓦	可能过于严格，允许发挥	
+Text Display	文本展示实体		
 The End	末地	可能过于严格，允许发挥	
 The Killer Bunny	杀手兔		
 Thorns	荆棘		
+Thrown	掷出的		
 Thunderstorm	雷暴		
 Tinted Glass	遮光玻璃	可能过于严格，允许发挥	
 Tipped Arrow	药箭		
@@ -822,17 +959,21 @@ Trapped Chest	陷阱箱
 Trial	试炼		
 Trial Chamber	试炼密室		
 Trial Key	试炼钥匙	可能过于严格，允许发挥	
+Trial Omen	试炼之兆		
 Trident	三叉戟		
 Tripwire	绊线		
 Tripwire Hook	绊线钩		
 Tropical Fish	热带鱼		
 Tube Coral	管珊瑚		
+Tube Coral Fan	管珊瑚扇		
 Tuff	凝灰岩		
 Tulip	郁金香		
 Tundra	冻原		
 Tunic	外套		
+Tunnelers' Dream	挖掘工的梦想		
 Turtle	海龟	可能过于严格，允许发挥	
 Turtle Master	神龟		
+Turtle Shell	海龟壳		
 Twinkle	闪烁		
 Twisting	缠怨		
 Twisting Vine	缠怨藤		
@@ -848,6 +989,7 @@ Villager	村民
 Vindicator	卫道士		
 Vine	藤蔓	可能过于严格，允许发挥	
 Void	虚空	可能过于严格，允许发挥	
+Void Air	虚空空气		
 VSync	垂直同步		
 Wandering Trader	流浪商人		
 Warden	监守者		
@@ -855,11 +997,18 @@ Warm Ocean	暖水海洋
 Warm Ocean Ruins Map	暖水海底废墟地图		
 Warped	诡异		
 Warped Forest	诡异森林		
+Warped Fungus	诡异菌		
 Warped Fungus on a Stick	诡异菌钓竿		
+Warped Roots	诡异菌索		
 Warped Stem	诡异菌柄		
+Warped Wart Block	诡异疣块		
 Water	水	可能过于严格，允许发挥	
 Water Breathing	水下呼吸|水肺		
+Water Movement Efficiency	水中移动效率		
+Water World	水世界		
 Waxed	涂蜡		
+Waypoint Receive Range	路径点接收距离		
+Waypoint Transmit Range	路径点传输距离		
 Weakness	虚弱		
 Weaponsmith	武器匠		
 Weathered	锈蚀	可能过于严格，允许发挥	
@@ -868,7 +1017,10 @@ Weeping	垂泪	可能过于严格，允许发挥
 Weeping Vine	垂泪藤		
 Weeping Vines	垂泪藤		
 Weighted Pressure Plate	测重压力板		
+Wet Sponge	湿海绵		
+Wheat	小麦		
 White	白色		
+Wildflowers	野花簇		
 Wind	风	可能过于严格，允许发挥	
 Wind Burst	风爆		
 Wind Charge	风弹		
@@ -890,6 +1042,7 @@ Woodland Mansion	林地府邸
 Wool	羊毛	可能过于严格，允许发挥	
 World Border	世界边界		
 Wraith	幽灵		
+Written Book	成书		
 Yellow	黄色		
 Zoglin	僵尸疣猪兽		
 Zombie	僵尸		

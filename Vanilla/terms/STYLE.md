@@ -39,8 +39,24 @@
   - 作复合词定语时，`Brick` 统一译为 `砖`（`Nether Brick` → `下界砖`、`Resin Brick` → `树脂砖`、`Deepslate Brick Slab` → `深板岩砖台阶`）。
   - 复数 `Bricks` 在存在同名单片砖物品时译为 `砖块`（`Nether Bricks` → `下界砖块`、`Resin Bricks` → `树脂砖块`、`Red Nether Bricks` → `红色下界砖块`）；不存在同名单片砖物品时统一译为 `砖`（`Stone Bricks` → `石砖`、`Deepslate Bricks` → `深板岩砖`、`Mud Bricks` → `泥砖`、`Tuff Bricks` → `凝灰岩砖`、`Prismarine Bricks` → `海晶石砖`、`Quartz Bricks` → `石英砖`）。
 - **石头与石质（`Stone`）**：独立方块 `Stone`、平滑变体与石制常规方块（`Stone Slab/Stairs/Button/Pressure Plate`、`Smooth Stone`、`Infested Stone`）用 `石头`；作石质工具武器（`Stone Sword/Pickaxe/Axe/Shovel/Hoe/Spear` → `石剑/石镐/石斧/石锹/石锄/石矛`）及复合砖石词素（`Stone Bricks` → `石砖`、`End Stone` → `末地石`）时减字为 `石`。
-- **桶（`Bucket`）**：空桶独立物品 `Bucket` → `铁桶`；装填物或生物的复合桶统一用 `桶`（`Water Bucket` → `水桶`、`Lava Bucket` → `熔岩桶`、`Milk Bucket` → `奶桶`、`Powder Snow Bucket` → `细雪桶`、`Bucket of Axolotl` → `美西螈桶`）。
+- **桶（`Bucket`）**：空桶独立物品 `Bucket` → `铁桶`；装填物或生物的复合桶统一用 `桶`（`Water Bucket` → `水桶`、`Lava Bucket` → `熔岩桶`、`Milk Bucket` → `奶桶`（`Milk` 本义写 `奶`，不写 `牛奶`）、`Powder Snow Bucket` → `细雪桶`、`Bucket of Axolotl` → `美西螈桶`）。
 - **盔甲与护甲（`Armor`）**：属性名 `Armor` → `护甲值`；穿戴装备、纹饰与常规语境用 `盔甲`（`Armor Stand` → `盔甲架`、`Armor Toughness` → `盔甲韧性`）；坐骑护甲用 `…铠`（`Horse Armor` → `马铠`、`Nautilus Armor` → `鹦鹉螺铠`）。
+
+```yaml
+# §4 规则表：id 唯一，pri 大者先命中；key 为 key glob；en/zh 按位置对齐，数组即同一规则的多种形式；
+# req 为数据集谓词（不满足走 else）；回归以 latest.tsv 的 en→zh 为准，本文件不写示例。
+rules:
+- {id: exact, pri: 30, key: ["item.minecraft.brick", "block.minecraft.bricks", "item.minecraft.bucket", "attribute.name.armor", "attribute.name.armor_toughness"], zh: ["红砖", "红砖块", "铁桶", "护甲值", "盔甲韧性"]}
+- {id: brick-derived, pri: 25, key: "block.minecraft.brick_{shape}", en: "Brick {Shape}", zh: "红砖{Shape}"}
+- {id: brick-compound, pri: 5, en: "{X} Brick", zh: "{X}砖"}
+- {id: bricks-compound, pri: 5, en: "{X} Bricks", req: "{X} Brick", zh: "{X}砖块", else: "{X}砖"}
+- {id: stone, pri: 25, key: "block.minecraft.stone", zh: 石头}
+- {id: stone-shape, pri: 20, key: "block.minecraft.stone_{shape}", en: "Stone {Shape}", zh: "石头{Shape}"}
+- {id: stone-tool, pri: 20, key: "item.minecraft.stone_{tool}", en: "Stone {Tool}", zh: "石{Tool}"}
+- {id: bucket-content, pri: 20, en: ["Bucket of {X}", "{X} Bucket"], zh: "{X}桶"}
+- {id: armor-mount, pri: 25, key: "item.minecraft.*_{mount}_armor", en: "{Material} {Mount} Armor", zh: "{Material}{Mount}铠"}
+- {id: armor, pri: 5, en: "{X} Armor", zh: "{X}盔甲"}
+```
 
 ## 5. 容器、载体与附着体例
 
@@ -49,6 +65,18 @@
 - **刷怪蛋**：`*_spawn_egg` 的 `<Mob> Spawn Egg` 统一为 `<生物>刷怪蛋`。
 - **运输与载体**：`<X> with Chest` 视载体惯例译作 `运输<X>`（如 `Minecart with Chest` → `运输矿车`、`Oak Boat with Chest` → `橡木运输船`、`Bamboo Raft with Chest` → `运输竹筏`）；其余载人/装物矿车为 `<X>矿车`（如 `Minecart with TNT` → `TNT矿车`、`Minecart with Hopper` → `漏斗矿车`）。
 - **药水与药箭**：普通药水 `Potion of <Effect>` 为 `<效果>药水`，喷溅型加前缀 `喷溅型<效果>药水`，滞留型加前缀 `滞留型<效果>药水`；药箭 `Arrow of <Effect>` 为 `<效果>之箭`（基础未合成药水/药箭除外：`粗制的药水`、`不可合成的药水`、`药箭`、`不可合成的药箭`）。
+
+```yaml
+# §5 规则表，字段同 §4。
+rules:
+- {id: wall-attached, pri: 20, key: "block.minecraft.*_wall_{kind}", kind: [sign, hanging_sign, banner, torch, fan, skull, head], en: "Wall {X}", zh: "墙上的{X}"}
+- {id: wall-block, pri: 10, en: "{X} Wall", zh: "{X}墙"}
+- {id: potted, pri: 20, key: "block.minecraft.potted_*", en: "Potted {X}", zh: "{X}盆栽"}
+- {id: spawn-egg, pri: 20, key: "item.minecraft.*_spawn_egg", en: "{X} Spawn Egg", zh: "{X}刷怪蛋"}
+- {id: potion, pri: 20, en: ["Potion of {X}", "Splash Potion of {X}", "Lingering Potion of {X}"], zh: ["{X}药水", "喷溅型{X}药水", "滞留型{X}药水"]}
+- {id: arrow, pri: 20, en: "Arrow of {X}", zh: "{X}之箭"}
+# 运输类与药水例外不起规则：Boat/Minecart with Chest、Minecart with TNT、Awkward、Uncraftable、Tipped Arrow 均为术语表条目。
+```
 
 ## 6. 旗帜图案与特殊域构词
 
