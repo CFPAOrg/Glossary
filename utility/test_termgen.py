@@ -300,10 +300,10 @@ class ProductionSuiteTests(unittest.TestCase):
         self.assertIn('scope.block_item', ids)
 
         biome_ids = [b['meta']['id'] for b in scope.select_style_blocks(blocks, ['biome.minecraft.plains'])]
-        self.assertEqual(biome_ids, ['scope.biome', 'global'])
+        self.assertEqual(biome_ids, ['global', 'scope.biome'])
 
         banner_ids = [b['meta']['id'] for b in scope.select_style_blocks(blocks, ['block.minecraft.banner.base.red'])]
-        self.assertEqual(banner_ids, ['scope.block_item', 'scope.banner', 'global'])
+        self.assertEqual(banner_ids, ['global', 'scope.block_item', 'scope.banner'])
 
         fallback_ids = [b['meta']['id'] for b in scope.select_style_blocks(blocks, [])]
         self.assertEqual(fallback_ids, ['global'])
@@ -312,10 +312,10 @@ class ProductionSuiteTests(unittest.TestCase):
             rc = final.main(['scope', '--style', str(style_path), '--key', 'stat.minecraft.jump'])
         self.assertEqual(rc, 0)
         rendered = out_buf.getvalue()
-        self.assertIn('### 5.2 统计项', rendered)
-        self.assertIn('## 6. 全局策略', rendered)
+        self.assertIn('## 统计项', rendered)
+        self.assertIn('## 全局体例', rendered)
         self.assertNotIn('<!-- @scope', rendered)
-        self.assertNotIn('### 2.1 旗帜图案', rendered)
+        self.assertNotIn('## 旗帜图案', rendered)
 
         bad_style = self.root / 'bad_style.md'
         bad_style.write_text('<!-- @scope {"id": "orphan", "apply": "always"} -->\n', encoding='utf-8')
