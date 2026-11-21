@@ -3,7 +3,7 @@ Advancement	进度
 Adventure	冒险		
 Air Drag Modifier	空气阻力修正系数		
 AMPLIFIED	放大化		
-Armor	护甲值	可能过于严格，允许发挥	属性语境作“护甲值”，物品与纹饰作“盔甲”，坐骑护甲作“铠”
+Armor	护甲值	可能过于严格，允许发挥	仅属性语境作“护甲值”；物品与纹饰“盔甲”见 terms-v1.tsv，坐骑护甲作“铠”
 Armor Toughness	盔甲韧性		
 Attack Damage	攻击伤害		
 Attack Knockback	击退	可能过于严格，允许发挥	

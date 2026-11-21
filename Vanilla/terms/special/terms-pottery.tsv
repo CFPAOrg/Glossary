@@ -1,26 +1,26 @@
 en	zh	reason	comment
-Pottery Sherd	纹样陶片		来源：item.minecraft.*_pottery_sherd；陶片
-Pottery Shard	纹样陶片		来源：item.minecraft.*_pottery_shard；陶片旧键名（后改为 pottery_sherd，译名仍为“纹样陶片”）
-Angler	垂钓		来源：item.minecraft.angler_pottery_sherd；陶片纹样原子
-Archer	弓箭		来源：item.minecraft.archer_pottery_sherd；陶片纹样原子
-Arms Up	举臂		来源：item.minecraft.arms_up_pottery_sherd；陶片纹样原子
-Blade	利刃		来源：item.minecraft.blade_pottery_sherd；陶片纹样原子
-Brewer	佳酿		来源：item.minecraft.brewer_pottery_sherd；陶片纹样原子
-Burn	烈焰		来源：item.minecraft.burn_pottery_sherd；陶片纹样原子
-Danger	危机		来源：item.minecraft.danger_pottery_sherd；陶片纹样原子
-Explorer	探险		来源：item.minecraft.explorer_pottery_sherd；陶片纹样原子（探险家地图中译“探险家”，见 terms-v1.tsv）
-Flow	涡流		来源：item.minecraft.flow_pottery_sherd；陶片纹样原子（同名盔甲纹饰同译“涡流”，见 special/terms-trim.tsv）
-Friend	挚友		来源：item.minecraft.friend_pottery_sherd；陶片纹样原子
-Guster	旋风		来源：item.minecraft.guster_pottery_sherd；陶片纹样原子
-Heart	爱心		来源：item.minecraft.heart_pottery_sherd；陶片纹样原子
-Heartbreak	心碎		来源：item.minecraft.heartbreak_pottery_sherd；陶片纹样原子
-Howl	狼嚎		来源：item.minecraft.howl_pottery_sherd；陶片纹样原子
-Miner	采矿		来源：item.minecraft.miner_pottery_sherd；陶片纹样原子
-Mourner	悲恸		来源：item.minecraft.mourner_pottery_sherd；陶片纹样原子
-Plenty	富饶		来源：item.minecraft.plenty_pottery_sherd；陶片纹样原子
-Prize	珍宝		来源：item.minecraft.prize_pottery_sherd；陶片纹样原子
-Scrape	刮削		来源：item.minecraft.scrape_pottery_sherd；陶片纹样原子
-Sheaf	麦捆		来源：item.minecraft.sheaf_pottery_sherd；陶片纹样原子
-Shelter	树荫		来源：item.minecraft.shelter_pottery_sherd；陶片纹样原子
-Skull	头颅		来源：item.minecraft.skull_pottery_sherd；陶片纹样原子（通用头颅词条另见 terms-v1.tsv）
-Snort	嗅探		来源：item.minecraft.snort_pottery_sherd；陶片纹样原子
+Pottery Sherd	纹样陶片		
+Pottery Shard	纹样陶片		旧键名 item.minecraft.*_pottery_shard（现行改用 pottery_sherd，译名仍为“纹样陶片”）
+Angler	垂钓		
+Archer	弓箭		
+Arms Up	举臂		
+Blade	利刃		
+Brewer	佳酿		
+Burn	烈焰		
+Danger	危机		
+Explorer	探险		陶片纹样用“探险”；探险家地图“探险家”见 terms-v1.tsv
+Flow	涡流		同名盔甲纹饰同译“涡流”，见 special/terms-trim.tsv
+Friend	挚友		
+Guster	旋风		
+Heart	爱心		
+Heartbreak	心碎		
+Howl	狼嚎		
+Miner	采矿		
+Mourner	悲恸		
+Plenty	富饶		
+Prize	珍宝		
+Scrape	刮削		
+Sheaf	麦捆		
+Shelter	树荫		
+Skull	头颅		通用头颅词条另见 terms-v1.tsv
+Snort	嗅探		

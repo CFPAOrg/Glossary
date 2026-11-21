@@ -17,7 +17,7 @@ Anvil	铁砧	可能过于严格，允许发挥
 Apple	苹果	可能过于严格，允许发挥	
 Aquifer	含水层		不在 latest.tsv；源自 Wiki/官方 TBX 地形特征词条
 Area Effect Cloud	区域效果云		
-Armor	盔甲	可能过于严格，允许发挥	物品与纹饰作“盔甲”，属性作“护甲值”，坐骑护甲作“铠”
+Armor	盔甲	可能过于严格，允许发挥	物品与纹饰作“盔甲”；属性“护甲值”见 terms-tech.tsv，坐骑护甲作“铠”
 Armor Stand	盔甲架		
 Arrow	箭	可能过于严格，允许发挥	
 Arrow of Splashing	喷溅之箭		
@@ -169,7 +169,7 @@ Daylight Detector	阳光探测器
 Dead Bush	枯萎的灌木	可能过于严格，允许发挥	
 Debris	残骸	可能过于严格，允许发挥	
 Debug Stick	调试棒		
-Decorated Pot	饰纹陶罐		来源：block.minecraft.decorated_pot；罐名用“陶罐”，区别于“陶片”（Pottery Sherd）
+Decorated Pot	饰纹陶罐		罐名用“陶罐”，区别于“陶片”（Pottery Sherd）
 Deepslate	深板岩|深层		矿石定语用“深层”，其余方块与制品用“深板岩”
 Deepslate Tile	深板岩瓦		
 Deepslate Tiles	深板岩瓦		
@@ -306,7 +306,7 @@ Hyphae	菌核
 Ice	冰	可能过于严格，允许发挥	冰类方块用语；遥测文本中的网络协议缩写“ICE”不译
 Igloo	雪屋	可能过于严格，允许发挥	不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
 Illager	灾厄村民		不在 latest.tsv；源自 Wiki/官方 TBX 灾厄阵营生物总称
-Infested	虫蚀	可能过于严格，允许发挥	方块修饰语不加“的”，状态效果语境译“寄生”
+Infested	虫蚀	可能过于严格，允许发挥	方块修饰语不加“的”；状态效果“寄生”见 terms-effect.tsv
 Ingot	锭	可能过于严格，允许发挥	
 Ink Sac	墨囊		
 Iron	铁		
@@ -490,7 +490,7 @@ Quill	笔		专用于“Book and Quill → 书与笔”，非独立词
 Rabbit Hide	兔子皮		
 Rabbit Stew	兔肉煲		
 Rabbit's Foot	兔子脚		
-Raider	袭击者		不在 latest.tsv；源自官方 TBX 袭击阵营生物总称
+Raider	袭击者		游戏内仅见复数 Raiders（event.minecraft.raid.raiders_remaining），单数留作袭击阵营总称
 Rail	铁轨	可能过于严格，允许发挥	
 Raw Beef	生牛肉		
 Raw Chicken	生鸡肉		
@@ -547,7 +547,7 @@ Shears	剪刀
 Shelf	展示架	可能过于严格，允许发挥	木质展示架系列用语；“Shelf Mushroom”固定译“层孔菇”
 Shelf Mushroom	层孔菇		
 Shield	盾牌	可能过于严格，允许发挥	
-Shipwreck	沉船		不在 latest.tsv；源自 Wiki/官方 TBX 结构词条
+Shipwreck	沉船		游戏内仅见复数 Shipwrecks（selectWorld.mapFeatures.info），单数源自 Wiki/官方 TBX
 Short Grass	矮草丛		
 Shovel	锹	可能过于严格，允许发挥	
 Shrieker	尖啸体		器件词根；现行仅见于“Sculk Shrieker”（幽匿尖啸体）
@@ -624,7 +624,7 @@ Tall Grass	高草丛
 Terracotta	陶瓦	可能过于严格，允许发挥	
 Text Display	文本展示实体		
 Thrown	掷出的		
-Thunderstorm	雷暴		不在 latest.tsv；源自 Wiki/官方 TBX 天气词条
+Thunderstorm	雷暴		游戏内仅见复数 thunderstorms（block.minecraft.bed.no_sleep），单数源自 Wiki/官方 TBX
 Tinted Glass	遮光玻璃	可能过于严格，允许发挥	
 Tipped Arrow	药箭		药箭总称例外，不套用“<效果>之箭”体例
 TNT	TNT	不译专名	

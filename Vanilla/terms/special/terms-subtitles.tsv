@@ -1,134 +1,134 @@
 en	zh	reason	comment
-baahs	咩~		来源：subtitles；unique声音
-barks	吠叫		来源：subtitles；unique声音
-bubbles	冒泡|气泡		来源：subtitles.block.brewing_stand.brew；字幕动词，名词 Bubble 仍是气泡
-Burp	打嗝		来源：subtitles.entity.player.burp；unique声音
-buzzes	嗡嗡		来源：subtitles；unique声音
-chimes	叮铃		来源：subtitles.block.amethyst_block.chime；unique声音
-chirps	啾啾		来源：官方TBX；unique声音
-chitters	啾啾		来源：subtitles；unique声音
-clacks	咔哒		来源：subtitles；unique声音
-clanks	铿锵		来源：subtitles；unique声音
-clinks	叮当		来源：subtitles；unique声音
-clonks	哐咚		来源：subtitles；unique声音
-clucks	咯咯叫		来源：subtitles；unique声音
-coos	咕咕		来源：subtitles.entity.ghastling；unique声音
-crackles	噼啪作响|咯咯声		来源：官方TBX；unique声音
-creaks	嘎吱作响		来源：subtitles；unique声音
-croaks	咕呱		来源：subtitles；unique声音
-Dry sounds	干枯声		来源：subtitles.block.deadbush.idle；unique声音
-Eerie noise	怪异的噪声		来源：subtitles.ambient.cave；unique声音
-Explosion	爆炸		来源：subtitles.entity.generic.explode；unique声音
-flops	扑腾		来源：subtitles；unique声音
-Footsteps	脚步声		来源：subtitles.block.generic.footsteps；unique声音
-gargles	咕噜		来源：subtitles；unique声音
-giggles	暗笑		来源：subtitles；unique声音
-groans	低吼|怒吼		来源：subtitles；unique声音
-grumphs	咕哝		来源：subtitles；unique声音
-grunts	呼噜		来源：subtitles；unique声音
-gurgles	呻吟		来源：subtitles；unique声音
-hisses	嘶嘶声|嘶嘶|嘶~		来源：subtitles；unique声音
-hums	嗡嗡作响|哼哼		来源：官方TBX；unique声音
-Lightning strikes	电闪		来源：subtitles.entity.lightning_bolt.impact；unique声音
-meows	喵~		来源：subtitles；unique声音
-moans	低鸣		来源：官方TBX；unique声音
-moos	哞~		来源：subtitles；unique声音
-murmurs	咕哝		来源：官方TBX；unique声音
-neighs	嘶鸣		来源：官方TBX；unique声音
-oinks	哼叫		来源：subtitles；unique声音
-peeps	叽叽叫		来源：subtitles；unique声音
-purrs	呼噜声		来源：subtitles；unique声音
-rattles	咯咯声		来源：subtitles；unique声音
-roars	咆哮		来源：官方TBX；unique声音
-Rowing	划船		来源：subtitles.entity.boat.paddle_water；unique声音
-Sandy sounds	沙沙声		来源：subtitles.block.sand.idle；unique声音
-screeches	尖声叫		来源：官方TBX；unique声音
-snores	打鼾		来源：官方TBX；unique声音
-snorts	哼叫		来源：subtitles；unique声音
-Sounds of dryness	干燥声		来源：subtitles.block.dried_ghast.ambient；unique声音
-Splashes	溅起水花		来源：subtitles.entity.fish.swim；unique声音
-squeaks	吱吱叫		来源：subtitles；unique声音
-Swoosh	呼啸声		来源：subtitles.item.elytra.flying；unique声音
-Thunder roars	雷鸣		来源：subtitles.entity.lightning_bolt.thunder；unique声音
-thunks	咕咚		来源：subtitles；unique声音
-vwoops	低鸣		来源：subtitles；unique声音
-warbles	颤鸣		来源：subtitles；unique声音
-whistles	吹口哨		来源：subtitles；unique声音
-whooshes	呼啸		来源：subtitles；unique声音
-Windy sounds	风声		来源：subtitles.block.dry_grass.ambient；unique声音
-yips	嗷~		来源：subtitles.entity.baby_wolf；unique声音
-beats	心跳声		来源：subtitles.entity.warden.heartbeat；unique声音
-bellows	喊叫		来源：subtitles；unique声音
-bites	撕咬		来源：官方TBX；unique声音
-blares	鸣响		来源：subtitles；unique声音
-bleats	咩~|吼叫|哀鸣|怒吼		来源：subtitles；unique声音
-burbles	嗡嗡作响|咕噜		来源：subtitles；unique声音
-cheers	欢呼		来源：官方TBX；unique声音
-chortles	嬉笑		来源：subtitles；unique声音
-clangs	碰擦|铿锵		来源：官方TBX；unique声音
-clicks	咔哒	拉杆、比较器、展示框等交互字幕可按动作意译（如“拉动”“转动”“颤动”）	来源：官方TBX；unique声音
-cries	哭泣|嘶叫|喊叫		来源：subtitles；unique声音
-croons	哼唱		来源：subtitles；unique声音
-flutters	扑翼		来源：subtitles；unique声音
-gallops	奔腾		来源：subtitles；unique声音
-growls	嚎叫|吼叫|咆哮|怒吼		来源：subtitles；unique声音
-grumbles	咕哝		来源：subtitles；unique声音
-hee-haws	嘶叫|鸣叫		来源：subtitles；unique声音
-jangles	哐啷作响		来源：subtitles；unique声音
-jingles	碰擦		来源：官方TBX；unique声音
-mumbles	喃喃自语		来源：官方TBX；unique声音
-mutters	低语		来源：subtitles；unique声音
-Noise	噪声		来源：官方TBX；unique声音
-rumbles	轰鸣		来源：subtitles；unique声音
-scents	嗅闻		来源：subtitles；unique声音
-screams	尖叫		来源：subtitles；unique声音
-shrieks	尖啸|尖叫		来源：subtitles；unique声音
-sniffs	嗅探|嗅闻		来源：官方TBX；unique声音
-whines	呜咽|呻吟		来源：subtitles；unique声音
-whirs	呼啸		来源：subtitles；unique声音
-attacks	攻击		来源：subtitles；常见字幕动词
-appears	出现|冒出|现身		来源：subtitles；常见字幕动词
-bounces	弹起|弹跳		来源：subtitles；常见字幕动词
-breathes	呼吸		来源：subtitles；常见字幕动词
-broken	被破坏		来源：subtitles；常见字幕动作
-brushing	刷扫		来源：subtitles；常见字幕动作
-bursts	爆裂|喷涌		来源：subtitles；常见字幕动词
-charges	蓄力|充能|冲锋		来源：subtitles；常见字幕动词
-closes	关闭|闭合		来源：subtitles；常见字幕动词
-converts	转化为		来源：subtitles；常见字幕动词
-cracks	裂开		来源：subtitles；常见字幕动词
-dies	死亡		来源：subtitles；常见字幕动词
-drips	滴落|滴入		来源：subtitles；常见字幕动词
-eats	进食		来源：subtitles；常见字幕动词
-empties	倒空|清空		来源：subtitles；常见字幕动词
-equips	装备		来源：subtitles；常见字幕动词
-fills	填充|装满|装入		来源：subtitles；常见字幕动词
-flies	飞出|飞行		来源：subtitles；常见字幕动词
-hatches	孵化		来源：subtitles；常见字幕动词
-hits	击中		来源：subtitles；常见字幕动词
-hurts	受伤		来源：subtitles；常见字幕动词
-jets	喷进		来源：subtitles；常见字幕动词
-jumps	跳跃|跃起		来源：subtitles；常见字幕动词
-opens	打开|开启|张开		来源：subtitles；常见字幕动词
-placed	放置|被放入		来源：subtitles；常见字幕动作
-prepares	准备		来源：subtitles；常见字幕动词
-recovers	恢复体力		来源：subtitles；常见字幕动词
-shoots	射击|射出		来源：subtitles；常见字幕动词
-squishes	挤压|吧唧		来源：subtitles；常见字幕动词
-steps	脚步声		来源：subtitles；常见字幕动词
-swims	游泳		来源：subtitles；常见字幕动词
-teleports	传送		来源：subtitles；常见字幕动词
-used	使用		来源：subtitles；常见字幕动作
-works	工作		来源：subtitles；常见字幕动词
-Baby Nautilus	幼年鹦鹉螺		来源：subtitles.entity.baby_nautilus；仅字幕域出现的幼年实体专称
-Baby Pig	幼年猪		来源：subtitles.entity.baby_pig；仅字幕域出现的幼年实体专称
-Chick	幼年鸡		来源：subtitles.entity.baby_chicken；仅字幕域出现的幼年鸡专称（entity 主键无 Chick）
-Foal	幼年马		来源：subtitles.entity.baby_horse；仅字幕域出现的幼年马专称（entity 主键无 Foal）
-Ghastling	小恶魂		来源：subtitles.entity.ghastling；仅字幕域出现的幼年恶魂专称
-Kitten	幼年猫		来源：subtitles.entity.baby_cat；仅字幕域出现的幼年猫专称（entity 主键无 Kitten）
-Puppy	幼年狼		来源：subtitles.entity.baby_wolf；仅字幕域出现的幼年狼专称（entity 主键无 Puppy）
-Small Sulfur Cube	小型硫方怪		来源：subtitles.entity.small_sulfur_cube；仅字幕域出现的小型实体专称
+baahs	咩~		
+barks	吠叫		
+bubbles	冒泡|气泡		字幕动词；名词 Bubble 仍是“气泡”
+Burp	打嗝		
+buzzes	嗡嗡		
+chimes	叮铃		
+chirps	啾啾		
+chitters	啾啾		
+clacks	咔哒		
+clanks	铿锵		
+clinks	叮当		
+clonks	哐咚		
+clucks	咯咯叫		
+coos	咕咕		
+crackles	噼啪作响|咯咯声		
+creaks	嘎吱作响		
+croaks	咕呱		
+Dry sounds	干枯声		来源：subtitles.block.deadbush.idle
+Eerie noise	怪异的噪声		来源：subtitles.ambient.cave
+Explosion	爆炸		
+flops	扑腾		
+Footsteps	脚步声		
+gargles	咕噜		
+giggles	暗笑		
+groans	低吼|怒吼		
+grumphs	咕哝		
+grunts	呼噜		
+gurgles	呻吟		
+hisses	嘶嘶声|嘶嘶|嘶~		
+hums	嗡嗡作响|哼哼		
+Lightning strikes	电闪		
+meows	喵~		
+moans	低鸣		
+moos	哞~		
+murmurs	咕哝		
+neighs	嘶鸣		
+oinks	哼叫		
+peeps	叽叽叫		
+purrs	呼噜声		
+rattles	咯咯声		
+roars	咆哮		
+Rowing	划船		来源：subtitles.entity.boat.paddle_water
+Sandy sounds	沙沙声		
+screeches	尖声叫		
+snores	打鼾		
+snorts	哼叫		
+Sounds of dryness	干燥声		来源：subtitles.block.dried_ghast.ambient
+Splashes	溅起水花		
+squeaks	吱吱叫		
+Swoosh	呼啸声		来源：subtitles.item.elytra.flying
+Thunder roars	雷鸣		
+thunks	咕咚		
+vwoops	低鸣		
+warbles	颤鸣		
+whistles	吹口哨		
+whooshes	呼啸		
+Windy sounds	风声		来源：subtitles.block.dry_grass.ambient
+yips	嗷~		
+beats	心跳声		
+bellows	喊叫		
+bites	撕咬		
+blares	鸣响		
+bleats	咩~|吼叫|哀鸣|怒吼		
+burbles	嗡嗡作响|咕噜		
+cheers	欢呼		
+chortles	嬉笑		
+clangs	碰擦|铿锵		
+clicks	咔哒	拉杆、比较器、展示框等交互字幕可按动作意译（如“拉动”“转动”“颤动”）	
+cries	哭泣|嘶叫|喊叫		
+croons	哼唱		
+flutters	扑翼		
+gallops	奔腾		
+growls	嚎叫|吼叫|咆哮|怒吼		
+grumbles	咕哝		
+hee-haws	嘶叫|鸣叫		
+jangles	哐啷作响		
+jingles	碰擦		
+mumbles	喃喃自语		
+mutters	低语		
+Noise	噪声		
+rumbles	轰鸣		
+scents	嗅闻		
+screams	尖叫		
+shrieks	尖啸|尖叫		
+sniffs	嗅探|嗅闻		
+whines	呜咽|呻吟		
+whirs	呼啸		
+attacks	攻击		
+appears	出现|冒出|现身		
+bounces	弹起|弹跳		
+breathes	呼吸		
+broken	被破坏		
+brushing	刷扫		
+bursts	爆裂|喷涌		
+charges	蓄力|充能|冲锋		
+closes	关闭|闭合		
+converts	转化为		
+cracks	裂开		
+dies	死亡		
+drips	滴落|滴入		
+eats	进食		
+empties	倒空|清空		
+equips	装备		
+fills	填充|装满|装入		
+flies	飞出|飞行		
+hatches	孵化		
+hits	击中		
+hurts	受伤		
+jets	喷进		
+jumps	跳跃|跃起		
+opens	打开|开启|张开		
+placed	放置|被放入		
+prepares	准备		
+recovers	恢复体力		
+shoots	射击|射出		
+squishes	挤压|吧唧		
+steps	脚步声		
+swims	游泳		
+teleports	传送		
+used	使用		
+works	工作		
+Baby Nautilus	幼年鹦鹉螺		仅字幕域出现的幼年实体专称
+Baby Pig	幼年猪		仅字幕域出现的幼年实体专称
+Chick	幼年鸡		来源：subtitles.entity.baby_chicken.*；仅字幕域专称（entity 主键无 Chick）
+Foal	幼年马		来源：subtitles.entity.baby_horse.*；仅字幕域专称（entity 主键无 Foal）
+Ghastling	小恶魂		仅字幕域出现的幼年恶魂专称
+Kitten	幼年猫		来源：subtitles.entity.baby_cat.*；仅字幕域专称（entity 主键无 Kitten）
+Puppy	幼年狼		来源：subtitles.entity.baby_wolf.*；仅字幕域专称（entity 主键无 Puppy）
+Small Sulfur Cube	小型硫方怪		仅字幕域出现的小型实体专称
 leaves hive	离巢		来源：subtitles.block.beehive.exit；动宾“离巢”，防主表 Leaves（树叶）误匹配
-Splashing	溅起水花		来源：subtitles.entity.generic.splash；字幕动作
-Fireball	火焰弹		来源：subtitles.item.firecharge.use；字幕中固定译“火焰弹”，覆盖主表“火球”
-Goat Horn breaks off	山羊：断角		来源：subtitles.entity.goat.horn_break；整句意译“山羊：断角”，防主表 Goat Horn（山羊角）误匹配
+Splashing	溅起水花		
+Fireball	火焰弹		来源：subtitles.item.firecharge.use；字幕固定译“火焰弹”，覆盖 terms-v1.tsv“火球”
+Goat Horn breaks off	山羊：断角		整句意译“山羊：断角”，防主表 Goat Horn（山羊角）误匹配

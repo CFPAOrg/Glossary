@@ -1,20 +1,20 @@
 en	zh	reason	comment
-Armor Trim	盔甲纹饰		来源：trim_pattern；盔甲纹样
-Bolt	镶铆		来源：trim_pattern.minecraft.bolt；盔甲纹样原子
-Coast	海岸		来源：trim_pattern.minecraft.coast；盔甲纹样原子
-Dune	沙丘		来源：trim_pattern.minecraft.dune；盔甲纹样原子
-Eye	眼眸		来源：trim_pattern.minecraft.eye；盔甲纹样原子
-Flow	涡流		来源：trim_pattern.minecraft.flow；盔甲纹样原子（同名陶片纹样同译“涡流”，见 special/terms-pottery.tsv）
-Host	雇主		来源：trim_pattern.minecraft.host；盔甲纹样原子
-Raiser	牧民		来源：trim_pattern.minecraft.raiser；盔甲纹样原子
-Rib	肋骨		来源：trim_pattern.minecraft.rib；盔甲纹样原子
-Sentry	哨兵		来源：trim_pattern.minecraft.sentry；盔甲纹样原子
-Shaper	塑造		来源：trim_pattern.minecraft.shaper；盔甲纹样原子
-Silence	幽静		来源：trim_pattern.minecraft.silence；盔甲纹样原子
-Snout	猪鼻		来源：trim_pattern.minecraft.snout；盔甲纹样原子
-Spire	尖塔		来源：trim_pattern.minecraft.spire；盔甲纹样原子
-Tide	潮汐		来源：trim_pattern.minecraft.tide；盔甲纹样原子
-Vex	恼鬼		来源：trim_pattern.minecraft.vex；盔甲纹样原子（同名生物“恼鬼”见 terms-mob.tsv）
-Ward	监守		来源：trim_pattern.minecraft.ward；盔甲纹样原子
-Wayfinder	向导		来源：trim_pattern.minecraft.wayfinder；盔甲纹样原子
-Wild	荒野		来源：trim_pattern.minecraft.wild；盔甲纹样原子
+Armor Trim	盔甲纹饰		
+Bolt	镶铆		
+Coast	海岸		
+Dune	沙丘		
+Eye	眼眸		
+Flow	涡流		同名陶片纹样同译“涡流”，见 special/terms-pottery.tsv
+Host	雇主		
+Raiser	牧民		
+Rib	肋骨		
+Sentry	哨兵		
+Shaper	塑造		
+Silence	幽静		
+Snout	猪鼻		
+Spire	尖塔		
+Tide	潮汐		
+Vex	恼鬼		同名生物“恼鬼”见 terms-mob.tsv
+Ward	监守		
+Wayfinder	向导		
+Wild	荒野		
